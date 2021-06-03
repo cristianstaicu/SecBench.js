@@ -1,6 +1,6 @@
 //https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25915
 
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 var changeset = require("changeset")
 const patch = [{ type: 'put', key: ["__proto__","polluted"], value: "yes"}];
 console.log("Before : " + {}.polluted);

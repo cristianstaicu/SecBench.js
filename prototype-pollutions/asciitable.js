@@ -1,6 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-ASCIITABLEJS-1039799
 
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 var req = require("asciitable.js");
 
 var obj ={}

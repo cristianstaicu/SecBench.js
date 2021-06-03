@@ -1,6 +1,6 @@
 //https://www.whitesourcesoftware.com/vulnerability-database/CVE-2020-28281
 var setObjectValue = require("set-object-value")
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 
 var obj = {}
 console.log("Before : " + obj.polluted);

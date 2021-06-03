@@ -1,6 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-TINYCONF-598792
 const tinyConf = require('tiny-conf'); 
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 
 var obj = {}
 console.log("Before : " + obj.polluted);

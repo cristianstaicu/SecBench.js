@@ -1,7 +1,7 @@
 //https://snyk.io/vuln/SNYK-JS-ARRFLATTENUNFLATTEN-598396
 
 const { unflatten } = require('arr-flatten-unflatten');
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 var obj = {}
 console.log("Before : " + obj.polluted);
 

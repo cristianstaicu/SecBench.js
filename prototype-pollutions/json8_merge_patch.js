@@ -1,6 +1,6 @@
 //https://hackerone.com/reports/980649
 
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 let json8mergepatch = require("json8-merge-patch");
 var obj = {}
 console.log("Before : " + obj.polluted);

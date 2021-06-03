@@ -1,6 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-PROMISEHELPERS-598686
 const promisehelpers = require('promisehelpers');
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 
 var obj = {}
 console.log("Before : " + obj.polluted);

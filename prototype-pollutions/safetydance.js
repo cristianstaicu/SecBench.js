@@ -1,6 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-SAFETYDANCE-598687
 
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 const safetydance = require('safetydance'); 
 
 var obj = {}

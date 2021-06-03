@@ -1,6 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-JOINTJS-1024444
 const jointjs = require("jointjs");
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 
 const obj = {};
 console.log("Before : " + obj.polluted);

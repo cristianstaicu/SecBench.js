@@ -1,6 +1,6 @@
 //https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25928
 
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 var safeObj = require("safe-obj")
 var obj = {} 
 console.log("Before : " + {}.polluted); 

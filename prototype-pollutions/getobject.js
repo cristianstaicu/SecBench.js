@@ -1,7 +1,7 @@
 //https://www.whitesourcesoftware.com/vulnerability-database/CVE-2020-28282
 
 const getObject = require('getobject');
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 
 var obj = {};
 console.log("Before  : " + obj.pollution);

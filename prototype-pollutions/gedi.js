@@ -1,6 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-GEDI-598803
 const gedi = require('gedi');
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 
 var obj = {}
 console.log("Before : " + obj.polluted);

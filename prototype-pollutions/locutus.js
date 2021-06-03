@@ -1,6 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-LOCUTUS-598675
 const locutus = require('locutus');
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 
 var obj = {}
 console.log("Before : " + obj.polluted);

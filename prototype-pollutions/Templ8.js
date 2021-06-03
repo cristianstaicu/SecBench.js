@@ -2,7 +2,7 @@
 
 const Templ8 = require('Templ8'); 
 var tpl = new Templ8( '{{__proto__.polluted="yes"}}' ); 
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 var obj = {}
 console.log("Before : " + obj.polluted);
 tpl.parse(); 

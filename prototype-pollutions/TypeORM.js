@@ -2,7 +2,7 @@
 function isObject(item) {
     return (item && typeof item === "object" && !Array.isArray(item));
 }
-const { assert } = require('@firebase/util')
+const assert = require('assert');
 
 
 function mergeDeep(target, ...sources) {

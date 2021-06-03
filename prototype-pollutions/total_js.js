@@ -1,6 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-TOTALJS-1046671
 const total = require('total.js');
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 
 let obj = {};
 console.log("Before : " + obj.polluted);

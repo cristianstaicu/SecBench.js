@@ -1,7 +1,7 @@
 //https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943
 
 var _101 = require("101/set");
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 
 var obj = {}
 console.log("Before : " + {}.polluted);

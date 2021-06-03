@@ -1,6 +1,6 @@
 //https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-609293
 const nodeforge = require('node-forge');
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 
 var obj = {}
 console.log("Before : " + obj.polluted);

@@ -1,7 +1,7 @@
 //https://snyk.io/vuln/SNYK-JS-MERGE-1042987
 
 const merge = require('merge');
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 const payload2 = JSON.parse('{"x": {"__proto__":{"polluted":"yes"}}}');
 
 let obj1 = {x: {y:1}};

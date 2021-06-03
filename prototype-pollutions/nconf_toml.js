@@ -2,7 +2,7 @@
 
 var nt = require("nconf-toml")
 var fs = require('fs');
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 var obj = {};
 console.log("Before : " + {}.polluted);
 var parsed = nt.parse(fs.readFileSync('./payload.toml', 'utf-8'));

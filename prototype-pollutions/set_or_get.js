@@ -1,6 +1,6 @@
 //https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25913
 
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 var SetOrGet = require("set-or-get");
 var obj = {}
 console.log("Before : " + obj.polluted);

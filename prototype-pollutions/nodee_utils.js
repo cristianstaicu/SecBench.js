@@ -1,7 +1,7 @@
 //https://snyk.io/vuln/SNYK-JS-NODEEUTILS-598679
 
 const { object } = require('nodee-utils');
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 
 var obj = {}
 console.log("Before : " + obj.polluted);

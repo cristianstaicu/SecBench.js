@@ -1,6 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-JSDATA-1023655
 
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 const { utils } = require("js-data");
 const obj = {};
 const source = JSON.parse('{"__proto__":{"polluted":"yes"}}');

@@ -1,7 +1,7 @@
 //https://snyk.io/vuln/SNYK-JS-WORKSMITH-598798
 
 const worksmith = require('worksmith'); 
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 
 var obj = {}
 console.log("Before : " + obj.polluted);

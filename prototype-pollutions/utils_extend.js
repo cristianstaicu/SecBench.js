@@ -1,6 +1,6 @@
 //https://hackerone.com/reports/801522
 
-const { assert } = require('@firebase/util');
+const assert = require('assert');
 const { extend } = require('utils-extend');
 const payload = '{"__proto__":{"polluted":"yes"}}'
 const emptyObject = {}

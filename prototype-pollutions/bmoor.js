@@ -1,6 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-BMOOR-598664
 const bmoor = require('bmoor');
-const { assert } = require("@firebase/util");
+const assert = require('assert');
 
 var obj = {}
 console.log("Before : " + obj.polluted);
