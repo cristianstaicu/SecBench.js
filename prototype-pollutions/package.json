@@ -44,7 +44,7 @@
     "libnested": "^1.5.0",
     "linux-cmdline": "^1.0.0",
     "locutus": "^2.0.11",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.0",
     "madlib-object-utils": "^0.1.6",
     "mathjs": "^7.5.0",
     "merge": "^2.1.0",
