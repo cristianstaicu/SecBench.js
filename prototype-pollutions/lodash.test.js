@@ -1,3 +1,4 @@
+// https://hackerone.com/reports/712065
 test("prototype pollution in lodash", () => {
   expect({}.polluted).toBe(undefined);
 

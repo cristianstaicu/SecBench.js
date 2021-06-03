@@ -28,6 +28,7 @@
     "grpc": "^1.24.3",
     "i18next": "^19.8.2",
     "immer": "^8.0.0",
+    "ini-parser": "^0.0.2",
     "install": "^0.13.0",
     "irrelon-path": "^2.0.1",
     "jointjs": "^2.2.1",
