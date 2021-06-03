@@ -1,3 +1,11 @@
+# Running the suite
+
+After installing the dependencies using `npm install`, one can run individual tests with `jest test_name` or the entire suite by runing `jest` in this folder.
+
+# Vulnerabilities
+
+Please find below details about the vulnerabilities/exploits in our dataset.
+
 | s.no | CVE            | pacakage name         | function                            | description about the function                                                                                                                         | Exploit availability |
 | ---- | -------------- | --------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- |
 | 1    | CVE-2021-25946 | nconf-toml            | parse()                             |                                                                                                                                                        | public               |
@@ -16,7 +24,7 @@
 | 14   | CVE-2020-8158  | TypeORM               | deepmerge()                         |                                                                                                                                                        | public               |
 | 15   | CVE-2020-8147  | utils-extend          | extend()                            |                                                                                                                                                        | public               |
 | 16   | CVE-2020-28442 | js-data               | deepFillIn({}, source)              | The deepFillIn function can be used to 'fill missing properties recursively',                                                                          | public               |
-| 17   | CVE-2020-7771  | asciitable.js         | any\_dunc({},b);                    | :copies properties to another object.Generate a ASCII Table from a bidimensional array of strings                                                      | public               |
+| 17   | CVE-2020-7771  | asciitable.js         | any_dunc({},b);                     | :copies properties to another object.Generate a ASCII Table from a bidimensional array of strings                                                      | public               |
 | 18   | CVE-2020-7768  | gprc/gprc-js          | loadPackageDefinition               | adds the property to inheritence chain                                                                                                                 | public               |
 | 19   | CVE-2020-7766  | json-ptr              | set()                               | The function recursively set the property in the target object, however it does not properly check the key being set, leading to a prototype pollution | public               |
 | 20   | CVE-2020-7737  | safetydance           | set()                               | The function recursively set the property in the target object, however it does not properly check the key being set, leading to a prototype pollution | public               |
@@ -28,7 +36,7 @@
 | 26   | CVE-2020-7722  | nodee-utils           | deepset()                           | The function recursively set the property in the target object, however it does not properly check the key being set, leading to a prototype pollution | public               |
 | 27   | CVE-2020-7721  | node-oojs             | setpath()                           | sets the path value to specfied value                                                                                                                  | public               |
 | 28   | CVE-2020-7720  | node-forge            | setpath()                           | sets the path value to specfied value                                                                                                                  | public               |
-| 29   | CVE-2020-7719  | locutus               | parse\_str()                        | Parses string as if it were the query string passed via a URL and sets variables in the current scope                                                  | public               |
+| 29   | CVE-2020-7719  | locutus               | parse_str()                         | Parses string as if it were the query string passed via a URL and sets variables in the current scope                                                  | public               |
 | 30   | CVE-2020-7718  | gammautils            | deepMerge                           |                                                                                                                                                        | public               |
 | 31   | CVE-2020-7717  | dot-prop              | create                              | creates a object with given properites and property values                                                                                             | public               |
 | 32   | CVE-2020-7716  | deeps                 | set()                               | The function recursively set the property in the target object, however it does not properly check the key being set, leading to a prototype pollution | public               |
@@ -38,7 +46,7 @@
 | 36   | CVE-2020-7703  | nis-utils             | setValue ()                         | The function recursively set the property in the target object, however it does not properly check the key being set, leading to a prototype pollution | public               |
 | 37   | CVE-2020-7702  | Templ8                | parse()                             | an Object of values you want to substitute and returns a String of the parsed Templ8.                                                                  | developed            |
 | 38   | CVE-2020-7701  | madlib-object-utils   | setValue ()                         | The function recursively set the property in the target object, however it does not properly check the key being set, leading to a prototype pollution | public               |
-| 39   | CVE-2020-7700  | phpjs                 | parse\_str()                        | Parses string as if it were the query string passed via a URL and sets variables in the current scope                                                  | public               |
+| 39   | CVE-2020-7700  | phpjs                 | parse_str()                         | Parses string as if it were the query string passed via a URL and sets variables in the current scope                                                  | public               |
 | 40   | CVE-2020-7679  | casperjs              | mergeObjects                        | Merges two objects recursively.                                                                                                                        | public               |
 | 41   | CVE-2020-7643  | paypal-adaptive       | PayPal ()                           | creates a object with given properites and property values                                                                                             | public               |
 | 42   | CVE-2020-7637  | class-transformer     | .classToPlainFromExist(payload,{}); | This method transforms your class object back to plain javascript object, that can be JSON.stringify later.                                            | public               |
