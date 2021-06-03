@@ -1,6 +1,5 @@
 //https://snyk.io/vuln/SNYK-JS-ASCIITABLEJS-1039799
-
-test("proto pollution", () => {
+test("prototype pollution in asciitable.js", () => {
   expect({}.polluted).toBe(undefined);
 
   const req = require("asciitable.js");
