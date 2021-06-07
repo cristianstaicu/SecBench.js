@@ -55,11 +55,11 @@
     "nested-property": "^0.0.5",
     "nis-utils": "^0.6.10",
     "node-forge": "^0.9.0",
-    "node-oojs": "^1.4.0",
+    "node-oojs": "1.4.0",
     "nodee-utils": "^1.2.2",
     "object-collider": "^1.0.3",
     "objtools": "^3.0.0",
-    "paypal-adaptive": "^0.4.2",
+    "paypal-adaptive": "0.3.0",
     "phpjs": "^1.3.2",
     "promisehelpers": "^0.0.5",
     "property-expr": "^2.0.2",
@@ -74,7 +74,7 @@
     "shvl": "^2.0.1",
     "smart-extend": "^1.7.3",
     "supermixer": "^1.0.3",
-    "Templ8": "^0.10.5",
+    "Templ8": "0.10.5",
     "tiny-conf": "^1.1.0",
     "total.js": "^3.4.6",
     "typeorm": "^0.2.24",
@@ -82,7 +82,7 @@
     "utils-extend": "^1.0.8",
     "worksmith": "^1.0.0",
     "y18n": "3.1.0",
-    "yargs-parser": "^6.0.0"
+    "yargs-parser": "6.0.0"
   },
   "devDependencies": {
     "eslint": "^7.9.0",
