@@ -68,6 +68,7 @@
     "safe-obj": "^1.0.0",
     "safetydance": "^2.0.1",
     "sahmat": "^1.0.0",
+    "set-in": "2.0.0",
     "set-object-value": "^0.0.5",
     "set-or-get": "^1.2.10",
     "shvl": "^2.0.1",
@@ -80,7 +81,7 @@
     "upmerge": "0.1.7",
     "utils-extend": "^1.0.8",
     "worksmith": "^1.0.0",
-    "y18n": "^3.1.0",
+    "y18n": "3.1.0",
     "yargs-parser": "^6.0.0"
   },
   "devDependencies": {
