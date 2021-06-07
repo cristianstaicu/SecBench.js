@@ -86,6 +86,7 @@
     "tiny-conf": "^1.1.0",
     "total.js": "^3.4.6",
     "typeorm": "^0.2.24",
+    "undefsafe": "2.0.2",
     "upmerge": "0.1.7",
     "utils-extend": "^1.0.8",
     "worksmith": "^1.0.0",
