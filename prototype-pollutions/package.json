@@ -82,7 +82,7 @@
     "shvl": "^2.0.1",
     "smart-extend": "^1.7.3",
     "supermixer": "^1.0.3",
-    "Templ8": "0.10.5",
+    "Templ8": "0.7.0",
     "tiny-conf": "^1.1.0",
     "total.js": "^3.4.6",
     "typeorm": "^0.2.24",
