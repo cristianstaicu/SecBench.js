@@ -1,12 +1,9 @@
 //https://www.whitesourcesoftware.com/vulnerability-database/CVE-2020-28277
 test("prototype pollution in dset", () => {
-    
-    const dset = require('dset');
-    obj = {};
+  expect({}.polluted).toBe(undefined);
 
-    expect({}.polluted).toBe(undefined);
-    
+  const dset = require("dset");
+  dset({}, "__proto__.polluted", "yes");
 
-    dset(obj, '__proto__.polluted', "yes");
-    expect({}.polluted).toBe("yes");
-  });
+  expect({}.polluted).toBe("yes");
+});

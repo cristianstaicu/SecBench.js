@@ -1,11 +1,15 @@
 //https://www.whitesourcesoftware.com/vulnerability-database/CVE-2020-28268
 test("prototype pollution in controlled-merge ", () => {
-    
-    var merge = require('controlled-merge');
-    var obj = {}
+  expect({}.polluted).toBe(undefined);
 
-    expect({}.polluted).toBe(undefined);
-    
+  const merge = require("controlled-merge");
+  const obj = merge(
+    {},
+    JSON.parse(
+      '{ "testProperty": "hi", "prototype" : { "polluted" : "yes" } }'
+    ),
+    true
+  );
 
-    var obj = merge({}, JSON.parse('{ "testProperty": "hi", "prototype" : { "status" : "yes" } }'), true);    expect(obj.prototype.status).toBe("yes");
-  });
+  expect(obj.prototype.polluted).toBe("yes");
+});
