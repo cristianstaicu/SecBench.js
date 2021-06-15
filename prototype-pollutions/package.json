@@ -109,6 +109,7 @@
     "safe-object2": "^1.0.3",
     "safetydance": "2.0.1",
     "sahmat": "1.0.0",
+    "sds": "^3.2.0",
     "set-deep-prop": "^1.0.0",
     "set-getter": "^0.1.0",
     "set-in": "1.0.0",
