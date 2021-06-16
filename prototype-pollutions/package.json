@@ -45,6 +45,7 @@
     "express-mock-middleware": "^0.0.6",
     "extend": "3.0.1",
     "field": "1.0.1",
+    "flat": "^5.0.0",
     "flattenizer": "0.0.5",
     "gammautils": "0.0.81",
     "gedi": "1.6.3",
