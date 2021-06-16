@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "101": "1.0.0",
+    "@apollo/gateway": "^0.6.1",
     "@firebase/util": "0.3.2",
     "@grpc/grpc-js": "1.1.7",
     "@irrelon/path": "^4.6.8",
@@ -78,6 +79,7 @@
     "linux-cmdline": "1.0.0",
     "locutus": "2.0.11",
     "lodash": "4.17.11",
+    "lutils-merge": "^0.2.6",
     "madlib-object-utils": "0.1.6",
     "mathjs": "7.5.0",
     "merge": "2.1.0",
