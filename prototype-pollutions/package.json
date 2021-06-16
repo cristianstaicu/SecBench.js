@@ -108,6 +108,7 @@
     "objtools": "3.0.0",
     "paypal-adaptive": "0.4.1",
     "phpjs": "1.3.2",
+    "plain-object-merge": "^1.0.1",
     "predefine": "0.1.2",
     "promisehelpers": "0.0.5",
     "property-expr": "2.0.2",
