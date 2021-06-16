@@ -49,6 +49,7 @@
     "gammautils": "0.0.81",
     "gedi": "1.6.3",
     "getobject": "0.1.0",
+    "getsetdeep": "^4.15.0",
     "grpc": "1.24.3",
     "gsap": "^3.5.0",
     "hoek": "5.0.0",
