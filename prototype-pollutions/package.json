@@ -84,6 +84,7 @@
     "mathjs": "7.5.0",
     "merge": "2.1.0",
     "merge-deep": "3.0.0",
+    "merge-objects": "1.0.3",
     "merge-options": "1.0.0",
     "merge-recursive": "0.0.3",
     "mergify": "1.0.2",
