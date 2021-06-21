@@ -21,6 +21,7 @@
     "cached-path-relative": "1.0.1",
     "casperjs": "1.1.4",
     "changeset": "0.1.0",
+    "chartkick": "^3.1.0",
     "class-transformer": "0.1.1",
     "component-flatten": "1.0.1",
     "confucious": "0.0.12",
@@ -120,6 +121,7 @@
     "property-expr": "2.0.2",
     "prototyped.js": "2.0.0",
     "querymen": "2.1.3",
+    "rdf-graph-array": "^0.3.0",
     "safe-flat": "2.0.0",
     "safe-obj": "1.0.0",
     "safe-object2": "1.0.3",
@@ -145,6 +147,7 @@
     "undefsafe": "2.0.2",
     "upmerge": "0.1.7",
     "utils-extend": "1.0.8",
+    "vega-util": "1.13.0",
     "worksmith": "1.0.0",
     "y18n": "3.2.1",
     "yargs-parser": "6.0.0"
