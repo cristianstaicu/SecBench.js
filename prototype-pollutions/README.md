@@ -109,7 +109,7 @@ Please find below details about the vulnerabilities/exploits in our dataset.
 | 99   | [CVE-2020-7708](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7708)    | irrelon-path          | set()                                       | Sets a value in the obj at the given path                                                                                                                         | public               |
 | 100  | [CVE-2021-28860](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28860)  | mixme                 | #main#                                      | Merge multiple object recursively                                                                                                                                 | public               |
 
-The below ones are got from https://www.npmjs.com/advisories
+The below vulnerable packages are got from https://www.npmjs.com/advisories
 
 | sno | CVE                                                                             | pacakage name           | function           | description about the function                                 | Exploit availability |
 | --- | ------------------------------------------------------------------------------- | ----------------------- | ------------------ | -------------------------------------------------------------- | -------------------- |
@@ -126,3 +126,21 @@ The below ones are got from https://www.npmjs.com/advisories
 | 11  | [link](https://www.npmjs.com/advisories/893)                                    | lutils-merge            | #main#             | Merge javascript objects recursively.                          | public               |
 | 12  | [CVE-2018-3752](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3752)   | merge-options           | #main#             | Merge Option Objects                                           | public               |
 | 13  | [link](https://hackerone.com/reports/871156)                                    | plain-object-merge      | #main#             | deep merging json-serializable plain objects.                  | public               |
+
+The below vulnerable packages are got from https://snyk.io/vuln?type=npm
+
+| s.no | CVE                                                                             | pacakage name        | function           | description about the function                                                  | Exploit availability         |
+| ---- | ------------------------------------------------------------------------------- | -------------------- | ------------------ | ------------------------------------------------------------------------------- | ---------------------------- |
+| 1    | [CVE-2018-3753](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3753)   | merge-objects        | #main#             | Merge two objects and concatenate arrays that are values of the same object key | public                       |
+| 2    | [CVE-2018-3750](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3750)   | deep-extend          | #main#             | Recursive object extending.                                                     | public                       |
+| 3    | [CVE-2018-16472](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16472) | cached-path-relative | #main#             | xx                                                                              | xx                           |
+| 4    | [link](https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183)                          | handlebars           | xx                 | xx                                                                              | unavailable                  |
+| 5    | [CVE-2019-11358](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11358) | jquery               | extend             | Merge the contents of two or more objects together into the first objec         | modified                     |
+| 6    | [CVE-2020-8141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8141)   | dot                  | xx                 | xx                                                                              | xx                           |
+| 7    | [link](https://snyk.io/vuln/SNYK-JS-MITHRIL-460113)                             | mithril              | parseQueryString() | Turns a string into object                                                      | developed                    |
+| 8    | [CVE-2019-18841](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-18841) | chartkick.js         | xx                 | xx                                                                              | not available                |
+| 9    | [CVE-2019-10794](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10794) | Component Flatten    | #main#             | xx                                                                              | available but check with sir |
+| 10   | [link](https://snyk.io/vuln/SNYK-JS-SUBTEXT-548913)                             | subtext              | xx                 | xx                                                                              | not available                |
+| 11   | [link](https://snyk.io/vuln/SNYK-JS-FASTIFY-559018)                             | fastify              | xx                 | xx                                                                              | xx                           |
+| 12   | [CVE-2019-10806](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10806) | vega-util            | mergeConfig        | Merges a collection of Vega configuration objects into a single combined object | public                       |
+| 13   | [CVE-2019-10808](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10808) | utilitify            | #main#             | Recursively merge values in a javascript object.                                | public                       |
