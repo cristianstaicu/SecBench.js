@@ -1,3 +1,5 @@
+//https://snyk.io/vuln/SNYK-JS-VEGAUTIL-559223
+
 test("prototype pollution in vega-util", () => {
   var util = require("vega-util");
   var config = "{style: {point: {shape: triangle-right}}}";
