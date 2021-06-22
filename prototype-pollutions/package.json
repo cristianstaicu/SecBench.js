@@ -6,6 +6,7 @@
   "dependencies": {
     "101": "1.0.0",
     "@apollo/gateway": "0.6.1",
+    "@eivifj/dot": "^1.0.2",
     "@firebase/util": "0.3.2",
     "@grpc/grpc-js": "1.1.7",
     "@irrelon/path": "4.6.8",
@@ -38,7 +39,7 @@
     "deepref": "1.1.1",
     "deeps": "1.4.5",
     "defaults-deep": "0.2.4",
-    "dojo": "1.12.1",
+    "dojo": "^1.12.7",
     "dot": "^1.1.2",
     "dot-notes": "3.2.0",
     "dot-object": "2.1.2",
