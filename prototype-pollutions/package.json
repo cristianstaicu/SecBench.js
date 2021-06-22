@@ -8,6 +8,7 @@
     "@apollo/gateway": "0.6.1",
     "@eivifj/dot": "^1.0.2",
     "@firebase/util": "0.3.2",
+    "@fluentui/styles": "0.47.15",
     "@grpc/grpc-js": "1.1.7",
     "@irrelon/path": "4.6.8",
     "@node-red/editor-api": "1.1.0",

@@ -1,8 +1,8 @@
 //https://snyk.io/vuln/SNYK-JS-UIFABRICUTILITIES-571487
 test("prototype pollution in @uifabric/utilities ", () => {
-  var util = require("@uifabric/utilities");
-  var malicious_payload = '{"__proto__":{"polluted":"yes"}}';
-  var source2 = {
+  const util = require("@uifabric/utilities");
+  const malicious_payload = '{"__proto__":{"polluted":"yes"}}';
+  const source2 = {
     k3: {},
   };
 
