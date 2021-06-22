@@ -25,6 +25,7 @@
     "chartkick": "^3.1.0",
     "class-transformer": "0.1.1",
     "component-flatten": "1.0.1",
+    "confinit": "0.3.0",
     "confucious": "0.0.12",
     "connie": "0.1.0",
     "controlled-merge": "1.0.0",
