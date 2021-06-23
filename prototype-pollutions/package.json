@@ -123,6 +123,7 @@
     "object-collider": "1.0.3",
     "object-path": "0.11.4",
     "object-path-set": "1.0.0",
+    "objnest": "5.0.0",
     "objtools": "3.0.0",
     "objutil": "2.17.3",
     "pathval": "1.1.0",
