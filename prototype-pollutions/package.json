@@ -158,6 +158,7 @@
     "Templ8": "0.7.0",
     "tiny-conf": "1.1.0",
     "total.js": "3.4.6",
+    "ts-dot-prop": "1.4.0",
     "typeorm": "0.2.24",
     "undefsafe": "2.0.2",
     "upmerge": "0.1.7",
