@@ -137,6 +137,7 @@
     "plain-object-merge": "1.0.1",
     "predefine": "0.1.2",
     "promisehelpers": "0.0.5",
+    "properties-reader": "2.0.0",
     "property-expr": "2.0.2",
     "prototyped.js": "2.0.0",
     "querymen": "2.1.3",
