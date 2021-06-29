@@ -4,8 +4,7 @@ test("ReDos in content-type-parser", () => {
     const genstr = require("./utils").genstr;
     const measureTime = require("./utils").measureTime;
     const contentTypeParser = require("content-type-parser");
-    expect({}.polluted).toBe(undefined);
-  
+    
     let t = measureTime(function () {
         contentTypeParser(genstr(30000, "/") + "\r\n");
     });
