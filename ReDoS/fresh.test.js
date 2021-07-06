@@ -1,5 +1,5 @@
 
-test("ReDos in forwarded", () => {
+test("ReDos in fresh", () => {
 
     const genstr = require("./utils").genstr;
     const measureTime = require("./utils").measureTime;
