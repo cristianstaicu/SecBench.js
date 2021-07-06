@@ -7,7 +7,11 @@ test("ReDos in ismobilejs", () => {
     
     
     let t =measureTime(function () {
-        var agent = ismobilejs(genstr(20000, "X"));
+        let agent = ismobilejs(genstr(20000, "X"));
         });
+
+        let time= t[0]+t[1]/1000000000;
+    
+        expect(time).toBeGreaterThan(1);
     
     });

@@ -3,15 +3,19 @@ test("ReDos in htmlparser", () => {
 
     const genstr = require("./utils").genstr;
     const measureTime = require("./utils").measureTime;
-    var htmlparser = require("htmlparser");
+    const htmlparser = require("htmlparser");
 
-    var rawHtml = "<html><x" + genstr(50000, " ") + "x></html>";
-    var handler = new htmlparser.DefaultHandler(function (error, dom) {
+    let rawHtml = "<html><x" + genstr(50000, " ") + "x></html>";
+    let handler = new htmlparser.DefaultHandler(function (error, dom) {
     });
-    var parser = new htmlparser.Parser(handler);
+    let parser = new htmlparser.Parser(handler);
 
     let t =measureTime(function () {
         parser.parseComplete(rawHtml);
     });
+
+    let time= t[0]+t[1]/1000000000;
+    
+    expect(time).toBeGreaterThan(1);
 
 });
