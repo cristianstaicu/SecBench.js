@@ -5,7 +5,6 @@ test("ReDos in mobile-detect", () => {
     const measureTime = require("./utils").measureTime;
     const MobileDetect = require('mobile-detect');
 
-    let str =  genstr(81750, '5') + ""; //progblematic regex: /.*[\.\/\\]/, in mime.js
 
     let t =measureTime(function () {
         let md = new MobileDetect(genstr(12500, "Dell"));

@@ -6,8 +6,6 @@ test("ReDos in no-case", () => {
     const measureTime = require("./utils").measureTime;
     const cc = require("no-case");
 
-    let str =  genstr(81750, '5') + ""; //progblematic regex: /.*[\.\/\\]/, in mime.js
-
     let t = measureTime(function () {
         cc(genstr(50000, "X"));
     });
