@@ -1,6 +1,6 @@
 Below there is a list of **ReDoS vulnerabilities**
 
-note:The threshold is set as 1 second to consider it as ReDos vulnerability
+Note: The threshold is set as 1 second to consider it as ReDoS vulnerability
 
 | s.no | CVE                                                                             | pacakage name       | function     | description about the function                                                                                       | Exploit availability |
 | ---- | ------------------------------------------------------------------------------- | ------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------- | -------------------- |
