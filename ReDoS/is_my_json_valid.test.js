@@ -1,3 +1,4 @@
+//https://snyk.io/vuln/SNYK-JS-ISMYJSONVALID-597165
 test("ReDos in is-my-json-valid", () => {
 
     const genstr = require("./utils").genstr;
