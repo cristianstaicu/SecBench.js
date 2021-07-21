@@ -41,6 +41,7 @@
     "printf": "0.6.0",
     "protobufjs": "6.6.0",
     "prototype": "0.0.5",
+    "react-native": "^0.63.0-rc.0",
     "remarkable": "1.7.2",
     "slug": "0.9.1",
     "sshpk": "1.13.1",
