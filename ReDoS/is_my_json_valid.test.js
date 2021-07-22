@@ -8,7 +8,7 @@ test("ReDos in is-my-json-valid", () => {
 
 
     let t = measureTime(function () {
-        validate(' '.repeat(1e4))
+        validate(' '.repeat(4000));
     });
     
 
