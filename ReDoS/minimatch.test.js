@@ -5,7 +5,7 @@ test("ReDos in minimatch", () => {
     const measureTime = require("./utils").measureTime;
     const minimatch = require("minimatch");
 
-    let attack_str = "[!" + genstr(50000000, "\\") + "A";
+    let attack_str = "[!" + genstr(40000000, "\\") + "A";
 
     let t = measureTime(function() {
         minimatch("foo", attack_str);
