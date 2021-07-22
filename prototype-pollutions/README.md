@@ -2,6 +2,8 @@
 
 After installing the dependencies using `npm install`, one can run individual tests with `jest test_name` or the entire suite by runing `jest` in this folder.
 
+There are a total of 149 vulnearblities with PoC available in this.
+
 # Vulnerabilities
 
 Please find below details about the vulnerabilities/exploits in our dataset.
