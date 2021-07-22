@@ -1,8 +1,8 @@
 Below there is a list of **ReDoS vulnerabilities**
 
-Note: The threshold is set as 1 second to consider it as ReDoS vulnerability
+Note: The threshold is set as **1** second to consider it as ReDoS vulnerability
 
-| s.no | CVE                                                                             | pacakage name       | function     | description about the function                                                                                       | Exploit availability |
+| S.no | CVE                                                                             | Pacakage name       | Function     | Description about the Function                                                                                       | Exploit availability |
 | ---- | ------------------------------------------------------------------------------- | ------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------- | -------------------- |
 | 1    | [CVE-2017-16098](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-16098) | charset             | #main#       | Get the content charset from header and html content-type.                                                           | public               |
 | 2    | [link](https://snyk.io/vuln/npm:content-type-parser:20170905)                   | content-type-parser | #main#       | will parse the Content-Type header field into an introspectable data structure, whose parameters can be manipulated: | public               |
@@ -44,9 +44,27 @@ Note: The threshold is set as 1 second to consider it as ReDoS vulnerability
 | 37 | [CVE-2015-8315](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8315)   | ms               | #main#   | a tiny millisecond conversion utility.                                                                  | problematic        |
 
 
-The following vulnerablities are got from  **Huntr** \
+The following vulnerablities are got from  **Huntr** 
 
-| s.no | CVE                                                         | pacakage name     | function    | description about the function | Exploit availability |
+| S.no | CVE                                                         | Pacakage name     | Function    | Description about the Function | Exploit availability |
 | ---- | ----------------------------------------------------------- | ----------------- | ----------- | ------------------------------ | -------------------- |
 | 1    | [link](https://github.com/nescalante/urlregex/issues/6)     | urlregex          | test        | URL validation                 | public               |
 | 2    | [link](https://huntr.dev/bounties/1-npm-systeminformation/) | systeminformation | inetLatency | calcualtes latency             | public/probelmatic   |
+
+
+The following vulnerablities are got from  **Snyk** 
+
+
+| s.no | CVE                                                                             | pacakage name        | function        | description about the function                  | Exploit availability |
+| ---- | ------------------------------------------------------------------------------- | -------------------- | --------------- | ----------------------------------------------- | -------------------- |
+| 1    | [CVE-2020-7661](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7661)   | url-regex            |                 |                                                 |                      |
+| 2    | [CVE-2021-32640](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32640) | ws                   | trim            | to trim                                         | public               |
+| 3    | [link](https://snyk.io/vuln/SNYK-JS-SEMVERREGEX-1047770)                        | semver-regex         | test            | Regular expression for matching semver versions | public               |
+| 4    | [link](https://snyk.io/vuln/SNYK-JS-REACTNATIVE-1298632)                        | react-native         | validateBaseUrl |                                                 | public               |
+| 5    | [CVE-2021-36716](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36716) | is-email             | #main#          | Node email address validation library           | public               |
+| 6    | [CVE-2021-23362](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23362) | hosted-git-info      | fromUrl         | N/A                                             | public               |
+| 7    | [CVE-2020-26289](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26289) | date-and-time        | compile         | Compiling a format string                       | public               |
+| 8    | [link](https://snyk.io/vuln/SNYK-JS-HTMLPARSESTRINGIFY2-1079307)                | html-parse-stringify | parse           | Takes a string of HTML and turns it into an AST | public               |
+| 9    | [CVE-2021-23371](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23371) | chrono-node          | parse           | parser in Javascript                            | public               |
+| 10   | [link](https://snyk.io/vuln/SNYK-JS-D3COLOR-1076592)                            | d3-color<br>         | rgb             |                                                 | public               |
+| 11   | [CVE-2021-23368](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23368) | postcss              | parse           | a special syntax parser                         | public/probelmatic   |
