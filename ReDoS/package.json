@@ -4,6 +4,7 @@
     "ajv": "5.2.2",
     "browserslist": "4.16.4",
     "charset": "1.0.0",
+    "chrono-node": "2.2.3",
     "color-string": "1.5.4",
     "content": "3.0.5",
     "content-type-parser": "1.0.1",
