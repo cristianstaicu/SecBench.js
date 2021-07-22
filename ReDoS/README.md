@@ -42,3 +42,11 @@ Note: The threshold is set as 1 second to consider it as ReDoS vulnerability
 | 35 | [CVE-2016-10540](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10540) | minimatch        | #main#   | A minimal matching utility.                                                                             | public             |
 | 36 | [CVE-2021-23392](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23392) | locutus          | parsedir | not available                                                                                           | public             |
 | 37 | [CVE-2015-8315](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8315)   | ms               | #main#   | a tiny millisecond conversion utility.                                                                  | problematic        |
+
+
+The following vulnerablities are got from #huntr
+
+| s.no | CVE                                                         | pacakage name     | function    | description about the function | Exploit availability |
+| ---- | ----------------------------------------------------------- | ----------------- | ----------- | ------------------------------ | -------------------- |
+| 1    | [link](https://github.com/nescalante/urlregex/issues/6)     | urlregex          | test        | URL validation                 | public               |
+| 2    | [link](https://huntr.dev/bounties/1-npm-systeminformation/) | systeminformation | inetLatency | calcualtes latency             | public/probelmatic   |
