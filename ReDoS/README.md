@@ -44,7 +44,7 @@ Note: The threshold is set as 1 second to consider it as ReDoS vulnerability
 | 37 | [CVE-2015-8315](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8315)   | ms               | #main#   | a tiny millisecond conversion utility.                                                                  | problematic        |
 
 
-The following vulnerablities are got from #huntr
+The following vulnerablities are got from  **Huntr** \
 
 | s.no | CVE                                                         | pacakage name     | function    | description about the function | Exploit availability |
 | ---- | ----------------------------------------------------------- | ----------------- | ----------- | ------------------------------ | -------------------- |
