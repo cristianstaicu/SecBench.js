@@ -1,20 +1,19 @@
 //https://github.com/sola-da/ReDoS-vulnerabilities/blob/master/test-debug.js
-test("ReDos in charset", () => {    
-    const measureTime = require("./utils").measureTime;
-    process.env.DEBUG = "*";
+test("ReDos in charset", () => {
+  const measureTime = require("./utils").measureTime;
+  process.env.DEBUG = "*";
 
-    const debug = require('debug');
-    let error = debug('app:error');
-    error.log = function () {
-    };
+  const debug = require("debug");
+  let error = debug("app:error");
+  error.log = function () {};
 
-    let str = ' '.repeat(40000) + ""; 
+  let str = " ".repeat(40000) + "";
 
-    let t = measureTime(function () {
-        error('x %o', {"test": str});
-    });    
-    
-    let time= t[0]+t[1]/1000000000;
-    
-    expect(time).toBeGreaterThan(1);
+  let t = measureTime(function () {
+    error("x %o", { test: str });
   });
+
+  let time = t[0] + t[1] / 1000000000;
+
+  expect(time).toBeGreaterThan(1);
+});
