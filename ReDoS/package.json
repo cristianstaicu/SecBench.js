@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@absolunet/kafe": "3.2.5",
+    "@absolunet/kafe": "3.2.09",
     "ajv": "5.2.2",
     "browserslist": "4.16.4",
     "charset": "1.0.0",

@@ -3,7 +3,6 @@ test("ReDos in ismobilejs", () => {
     
     const measureTime = require("./utils").measureTime;
     let ismobilejs = require('ismobilejs').Class;
-    console.log(ismobilejs)
     
     let t =measureTime(function () {
         ismobilejs("X".repeat(10000));
