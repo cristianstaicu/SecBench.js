@@ -1,15 +1,11 @@
-//https://snyk.io/vuln/SNYK-JS-TRIM-1017038
+//https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7753
 test("ReDos in trim", () => {
 
-    const genstr = require("./utils").genstr;
     const measureTime = require("./utils").measureTime;
     const trim = require('trim');
 
-    let str = "1" + genstr(20000000,' ') + "1";
-
     let t =measureTime(function () {
-        var ts = trim(str)
-    
+        trim("1" + ' '.repeat(50000) + "1")    
     });
     
     let time= t[0]+t[1]/1000000000;
