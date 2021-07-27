@@ -55,6 +55,7 @@
     "react-native": "0.63.0-rc.0",
     "remarkable": "1.7.2",
     "semver-regex": "3.1.1",
+    "simple-markdown": "0.7.3",
     "slug": "0.9.1",
     "sshpk": "1.13.1",
     "ssri": "8.0.0",
@@ -68,6 +69,7 @@
     "ua-parser-js": "0.7.22",
     "underscore.string": "3.3.4",
     "uri-js": "2.1.1",
+    "url-regex": "5.0.0",
     "urlregex": "0.5.0",
     "yamlparser": "0.0.2"
   },
