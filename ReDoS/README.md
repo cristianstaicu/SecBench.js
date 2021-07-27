@@ -41,7 +41,7 @@ Note: The threshold is set as **1** second to consider it as ReDoS vulnerability
 | 34 | [CVE-2016-2537](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2537)   | is-my-json-valid | validate | validates                                                                                               | public             |
 | 35 | [CVE-2016-10540](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10540) | minimatch        | #main#   | A minimal matching utility.                                                                             | public             |
 | 36 | [CVE-2021-23392](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23392) | locutus          | parsedir | not available                                                                                           | public             |
-| 37 | [CVE-2015-8315](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8315)   | ms               | #main#   | a tiny millisecond conversion utility.                                                                  | problematic        |
+| 37 | [CVE-2015-8315](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8315)   | ms               | #main#   | a tiny millisecond conversion utility.                                                                  | developed        |
 
 
 The following vulnerablities are got from  **Huntr** 
@@ -67,7 +67,7 @@ The following vulnerablities are got from  **Snyk**
 | 8    | [link](https://snyk.io/vuln/SNYK-JS-HTMLPARSESTRINGIFY2-1079307)                | html-parse-stringify | parse           | Takes a string of HTML and turns it into an AST | public               |
 | 9    | [CVE-2021-23371](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23371) | chrono-node          | parse           | parser in Javascript                            | public               |
 | 10   | [link](https://snyk.io/vuln/SNYK-JS-D3COLOR-1076592)                            | d3-color<br>         | rgb             |                                                 | public               |
-| 11   | [CVE-2021-23368](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23368) | postcss              | parse           | a special syntax parser                         | public/probelmatic   |
+| 11   | [CVE-2021-23368](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23368) | postcss              | parse           | a special syntax parser                         | public   |
 
 **the below ones dont have poc**
 
