@@ -1,5 +1,4 @@
 test("ReDos in ssri", () => {
-  const genstr = require("./utils").genstr;
   const measureTime = require("./utils").measureTime;
   const ssri = require("ssri");
 
