@@ -1,6 +1,5 @@
 //https://github.com/sola-da/ReDoS-vulnerabilities/blob/master/test-debug.js
-test("ReDos in charset", () => {
-    const genstr = require("./utils").genstr;
+test("ReDos in charset", () => {    
     const measureTime = require("./utils").measureTime;
     process.env.DEBUG = "*";
 
@@ -9,13 +8,11 @@ test("ReDos in charset", () => {
     error.log = function () {
     };
 
-    
-    var str = genstr(40000, ' ') + ""; //progblematic regex: /\s*\n\s*/g, in debug/src/node.js
+    let str = ' '.repeat(40000) + ""; 
 
     let t = measureTime(function () {
         error('x %o', {"test": str});
-    });
-    
+    });    
     
     let time= t[0]+t[1]/1000000000;
     

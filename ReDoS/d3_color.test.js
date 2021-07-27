@@ -1,17 +1,14 @@
 
 //https://snyk.io/vuln/SNYK-JS-D3COLOR-1076592
 test("ReDos in ms", () => {
-
-    const genstr = require("./utils").genstr;
+    
     const measureTime = require("./utils").measureTime;
     const d3Color = require("d3-color")
 
-    let attack_str = "rgb(" + genstr(80000, "1") + "!";//build_blank();
+    let attack_str = "rgb(" + "1".repeat(80000) + "!";
     
-    let t = measureTime(function () {
-        
+    let t = measureTime(function () {        
         d3Color.rgb(attack_str)
-
     });
     
 
