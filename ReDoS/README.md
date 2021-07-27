@@ -41,7 +41,7 @@ Note: The threshold is set as **1** second to consider it as ReDoS vulnerability
 | 34 | [CVE-2016-2537](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2537)   | is-my-json-valid | validate | validates                                                                                               | public             |
 | 35 | [CVE-2016-10540](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10540) | minimatch        | #main#   | A minimal matching utility.                                                                             | public             |
 | 36 | [CVE-2021-23392](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23392) | locutus          | parsedir | not available                                                                                           | public             |
-| 37 | [CVE-2015-8315](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8315)   | ms               | #main#   | a tiny millisecond conversion utility.                                                                  | problematic        |
+| 37 | [CVE-2015-8315](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8315)   | ms               | #main#   | a tiny millisecond conversion utility.                                                                  | developed        |
 
 
 The following vulnerablities are got from  **Huntr** 

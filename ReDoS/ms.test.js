@@ -5,7 +5,7 @@ test("ReDos in ms", () => {
     const measureTime = require("./utils").measureTime;
     const ms = require('ms');
 
-    let attack_str = genstr(50000000, '1')
+    let attack_str = genstr(20000, '1') + "x";
     let t = measureTime(function () {
         ms(attack_str) 
     });
