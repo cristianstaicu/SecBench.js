@@ -67,7 +67,7 @@ The following vulnerablities are got from  **Snyk**
 | 8    | [link](https://snyk.io/vuln/SNYK-JS-HTMLPARSESTRINGIFY2-1079307)                | html-parse-stringify | parse           | Takes a string of HTML and turns it into an AST | public               |
 | 9    | [CVE-2021-23371](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23371) | chrono-node          | parse           | parser in Javascript                            | public               |
 | 10   | [link](https://snyk.io/vuln/SNYK-JS-D3COLOR-1076592)                            | d3-color<br>         | rgb             |                                                 | public               |
-| 11   | [CVE-2021-23368](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23368) | postcss              | parse           | a special syntax parser                         | public/probelmatic   |
+| 11   | [CVE-2021-23368](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23368) | postcss              | parse           | a special syntax parser                         | public   |
 
 **the below ones dont have poc**
 
