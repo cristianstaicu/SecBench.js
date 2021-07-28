@@ -36,6 +36,7 @@
     "jspdf": "2.1.1",
     "locutus": "2.0.10",
     "lodash": "4.17.4",
+    "markdown-it": "9.1.0",
     "marked": "0.3.6",
     "mime": "1.4.0",
     "minimatch": "3.0.0",
