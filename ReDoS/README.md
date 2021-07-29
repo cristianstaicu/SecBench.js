@@ -43,6 +43,7 @@ Note: The threshold is set as **1** second to consider it as ReDoS vulnerability
 | 36   | [CVE-2021-23392](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23392) | locutus              | parsedir     | not available                                                                                                                     | public               |
 | 37   | [CVE-2015-8315](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8315)   | ms                   | #main#       | a tiny millisecond conversion utility.                                                                                            | developed            |
 | 38   | [CVE-2017-16021](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-16021)                   | uri-js                      | parse          | developed                                                                                                                                                                                                                 | public   |
+| 39 | [CVE-2021-27290](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-27290) | ssri | parse | parsing, manipulating, serializing, generating, and verifying] Subresource Integrity hashes. | public |
 
 
 The following vulnerablities are got from **Huntr**
