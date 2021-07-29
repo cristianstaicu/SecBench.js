@@ -1,5 +1,5 @@
 //https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-16021
-test("ReDos in ssri", () => {
+test("ReDos in uri-js", () => {
   const uri = require("uri-js");
   const genstr = require("./utils").genstr;
   const measureTime = require("./utils").measureTime;
