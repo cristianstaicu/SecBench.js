@@ -55,6 +55,15 @@ The following vulnerablities are got from **Huntr**
 | 1    | [link](https://github.com/nescalante/urlregex/issues/6)     | urlregex          | test        | URL validation                 | public               |
 | 2    | [link](https://huntr.dev/bounties/1-npm-systeminformation/) | systeminformation | inetLatency | calcualtes latency             | public/probelmatic   |
 
+The following vulnerablities are got from **Github Security Lab**
+
+| s.no | CVE                                                                                    | pacakage name   | function          | description about the function | Exploit availability |
+| ---- | -------------------------------------------------------------------------------------- | --------------- | ----------------- | ------------------------------ | -------------------- |
+| 1    | [link](https://securitylab.github.com/advisories/GHSL-2020-299-redos-simple-markdown/) | simple-markdown | defaultBlockParse | not available                  | public               |
+| 2    | [CVE-2020-7760](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7760)          | codemirror      | cTypes            | not available                  | public               |
+| 3    | [link](https://snyk.io/vuln/SNYK-JS-HIGHLIGHTJS-1048676)                               | highlight.js    | highlight         | not available                  | problematic          |
+
+
 The following vulnerablities are got from **Snyk**
 
 | s.no | CVE                                                                             | pacakage name        | function        | description about the function                  | Exploit availability |
@@ -70,6 +79,17 @@ The following vulnerablities are got from **Snyk**
 | 9    | [CVE-2021-23371](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23371) | chrono-node          | parse           | parser in Javascript                            | public               |
 | 10   | [link](https://snyk.io/vuln/SNYK-JS-D3COLOR-1076592)                            | d3-color<br>         | rgb             |                                                 | public               |
 | 11   | [CVE-2021-23368](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23368) | postcss              | parse           | a special syntax parser                         | public               |
+| 12 | [link](https://snyk.io/vuln/npm:github-url-to-object:20180226)                                   | github-url-to-object | #main#   | A module for node.js and browsers that extracts useful properties like user, repo, and branch from various flavors of GitHub URLs | public             |
+| 13 | [link](https://snyk.io/vuln/npm:clean-css:20180306#:~:text=clean%2Dcss%20is%20a%20fast,attacks.) | clean-css            | #main#   | [clean-css is a fast and efficient CSS optimizer for](http://nodejs.org/) [Node.js](http://nodejs.org/) platform                  | public             |
+| 14 | [link](https://snyk.io/vuln/SNYK-JS-REMOVEMARKDOWN-73635)                                        | remove-markdown      | #main#   | is a node.js module that will remove (strip) Markdown formatting from text                                                        | public             |
+| 15 | [link](https://snyk.io/vuln/SNYK-JS-MARKDOWNIT-459438)                                           | markdown-it          | parse    | markdown parser.                                                                                                                  | public             |
+| 16 | [link](https://snyk.io/vuln/SNYK-JS-PAPAPARSE-564258)                                            | papaparse            | parse    | parse a Readable Stream instead of a File when used in Node.js environments                                                       | public             |
+| 17 | [CVE-2020-7754](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7754)                    | npm-user-validate    | email    | checks whether a string is email or not                                                                                           | own                |
+| 18 | [link](https://snyk.io/vuln/npm:ducktype:20180219)                                               | ducktype             | test     |                                                                                                                                   | public/probelmatic |
+| 19 | [link](https://snyk.io/vuln/npm:foreman:20180429)                                                | foreman              | write    |                                                                                                                                   | public/probelmatic |
+| 20 | [link](https://snyk.io/vuln/npm:rgb2hex:20180429)                                                | rgb2hex              | #main#   | converts rgb to hex                                                                                                               | public/probelmatic |
+| 21 | [CVE-2020-7755](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7755)                    | dat.gui              | addColor | not available                                                                                                                     | public/probelmatic |
+| 22 | [CVE-2020-7779](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7779)                    | djvalidator          | #main    | lexible and quick to use jquery plugin for web form validation,                                                                   | public/probelmatic |
 
 **the below ones dont have poc**
 
