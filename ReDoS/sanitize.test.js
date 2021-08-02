@@ -5,7 +5,7 @@ test("ReDos in sanitize", () => {
     const sanitizer = sanitize();
  
     let t = measureTime(function () {       
-       sanitizer.my.url("a" + ("a" + ("." + "a".repeat(55)).repeat(4) + "#"));
+       sanitizer.my.url("a" + ("." + "a".repeat(55)).repeat(4) + "#");
     });
   
     let time = t[0] + t[1] / 1000000000;
