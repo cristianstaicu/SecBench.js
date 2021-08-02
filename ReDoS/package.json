@@ -23,7 +23,7 @@
     "dns-sync": "0.1.3",
     "domino": "2.1.6",
     "ducktype": "1.2.0",
-    "email-existence": "0.1.1",
+    "email-existence": "0.1.5",
     "express-validators": "1.0.3",
     "fast-csv": "4.0.0",
     "foreman": "2.0.0",
