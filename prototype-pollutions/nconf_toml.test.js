@@ -5,7 +5,9 @@ test("prototype pollution in nconf-toml", () => {
 
   const nt = require("nconf-toml");
   const fs = require("fs");
-  nt.parse(fs.readFileSync("./payload.toml", "utf-8"));
+  const path = require("path");
+
+  nt.parse(fs.readFileSync(path.resolve(__dirname, "./payload.toml"), "utf-8"));
 
   expect({}.polluted).toBe("yes");
 });
