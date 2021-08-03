@@ -61,11 +61,17 @@ The following vulnerablities are got from **Huntr**
 
 The following vulnerablities are got from **Github Security Lab**
 
-| s.no | CVE                                                                                    | pacakage name   | function          | description about the function | Exploit availability |
-| ---- | -------------------------------------------------------------------------------------- | --------------- | ----------------- | ------------------------------ | -------------------- |
-| 1    | [link](https://securitylab.github.com/advisories/GHSL-2020-299-redos-simple-markdown/) | simple-markdown | defaultBlockParse | not available                  | public               |
-| 2    | [CVE-2020-7760](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7760)          | codemirror      | cTypes            | not available                  | public               |
-| 3    | [link](https://snyk.io/vuln/SNYK-JS-HIGHLIGHTJS-1048676)                               | highlight.js    | highlight         | not available                  | problematic          |
+| s.no | CVE                                                                                         | pacakage name         | function          | description about the function                                                         | Exploit availability |
+| ---- | ------------------------------------------------------------------------------------------- | --------------------- | ----------------- | -------------------------------------------------------------------------------------- | -------------------- |
+| 1    | [link](https://securitylab.github.com/advisories/GHSL-2020-299-redos-simple-markdown/)      | simple-markdown       | defaultBlockParse | not available                                                                          | public               |
+| 2    | [CVE-2020-7760](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7760)               | codemirror            | cTypes            | not available                                                                          | public               |
+| 3    | [CVE-2021-32816](https://securitylab.github.com/advisories/GHSL-2021-027-redos-ProtonMail/) | ProtonMail            | not available     | not available                                                                          | public               |
+| 4    | [link](https://securitylab.github.com/advisories/GHSL-2020-352-redos-revalidator/)          | revalidator           | validate          | A cross-browser / node.js validator with JSONSchema compatibility as the primary goal. | public               |
+| 5    | [link](https://securitylab.github.com/advisories/GHSL-2020-343-redos-Vant/)                 | vant                  | isEmail           | checks for valid email                                                                 | public               |
+| 6    | [link](https://securitylab.github.com/advisories/GHSL-2020-311-redos-SquadCal/)             | SquadCal              | not available     | not available                                                                          | public               |
+| 7    | [link](https://securitylab.github.com/advisories/GHSL-2020-300-redos-markdown-to-jsx/)      | markdown-to-jsx react | #main#            | The most lightweight, customizable React markdown component.                           | public               |
+| 8    | [link](https://snyk.io/vuln/SNYK-JS-HIGHLIGHTJS-1048676)                                    | highlight.js          | highlight         | not available                                                                          | problematic          |
+| 9    | [CVE-2021-29469](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29469)             | redis                 | monitor\_regex    | not available                                                                          | problematic          |
 
 
 The following vulnerablities are got from **Snyk**
