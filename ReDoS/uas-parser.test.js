@@ -4,7 +4,10 @@ test("ReDos in uas-parser", () => {
   process.on('unhandledRejection', () => {});
 
   const measureTime = require("./utils").measureTime;  
-  jest.mock("./node_modules/uas-parser/node_modules/request");  
+  const path = require("path");
+  const PATH_REQ = path.resolve(__dirname, "./node_modules/uas-parser/node_modules/request");
+  require(PATH_REQ);
+  jest.mock(PATH_REQ);  
   const uasParser = require("uas-parser");    
      
   let t = measureTime(function () {    
