@@ -2,7 +2,7 @@
 test("prototype pollution in properties-reader", () => {
   const propertiesReader = require("properties-reader");
   const path = require("path");
-  
+
   expect({}.polluted).toBe(undefined);
 
   propertiesReader(path.resolve(__dirname, "./payload.ini"));

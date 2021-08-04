@@ -15,12 +15,20 @@ test("ReDos in jspdf", () => {
   const doc = new jsPDF();
   doc.text("Hello world", 10, 10);
 
-  let t = measureTime(function () {    
+  let t = measureTime(function () {
     try {
-      doc.addImage("data:image/jpeg;charset=" + "charset=".repeat(22) + "!base64,", "PNG", 1, 1, 1, 1, undefined, "SLOW", 0);
-    } catch(e) {
-
-    }
+      doc.addImage(
+        "data:image/jpeg;charset=" + "charset=".repeat(22) + "!base64,",
+        "PNG",
+        1,
+        1,
+        1,
+        1,
+        undefined,
+        "SLOW",
+        0
+      );
+    } catch (e) {}
   });
 
   let time = t[0] + t[1] / 1000000000;

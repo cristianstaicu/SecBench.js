@@ -9,11 +9,8 @@ test("prototype pollution in confucious", () => {
   fs.writeFileSync(pathToConfig, `{"__proto__": {"polluted": "yes"}}`);
   connie("file", pathToConfig)
     .read()
-    .then(() => {    
+    .then(() => {
       expect({}.polluted).toBe("yes");
       fs.unlinkSync(pathToConfig);
     });
-
 });
-
-

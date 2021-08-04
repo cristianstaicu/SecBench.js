@@ -7,8 +7,7 @@ test("ReDos in parsejson", () => {
   let t = measureTime(function () {
     try {
       normalizeUrl("data:" + ",#".repeat(1000) + "\nx");
-    } catch(e) {
-    }
+    } catch (e) {}
   });
 
   let time = t[0] + t[1] / 1000000000;
