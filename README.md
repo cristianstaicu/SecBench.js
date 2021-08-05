@@ -7,7 +7,7 @@ This Repository has the following number of corresponding vulnerablities.
 | 2    | Regula expression Denial of Service (ReDoS) | 67    |
 
 
-Scrapping the **Snyk** Vulneablity Database :
+Scrapping the **npm Advisory** Website :
 
 | vulnerablity                                | count |
 | ------------------------------------------- | ----- |
