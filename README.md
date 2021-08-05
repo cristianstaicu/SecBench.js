@@ -30,5 +30,27 @@ Scrapping the **npm Advisory** Website :
 | Authentication Bypass                       | 8     |
 | Privilege Escalation                        | 8     |
 
+Scrapping the **Snyk** Vulnerability Database :
 
 
+| vulnerablity                                 | count |
+| -------------------------------------------- | ----- |
+| Directory Traversal                          | 62    |
+| Malicious Package                            | 395   |
+| Improper Input Validation                    | 20    |
+| Cross-site Scripting (XSS)                   | 298   |
+| Prototype Pollution                          | 248   |
+| Open Redirect                                | 13    |
+| Denial of Service (DoS)                      | 83    |
+| Command Injection                            | 135   |
+| Access Restriction Bypass                    | 14    |
+| Regular Expression Denial of Service (ReDoS) | 99    |
+| Cross-site Request Forgery (CSRF)            | 12    |
+| Server-side Request Forgery (SSRF)           | 18    |
+| Improper Access Control                      | 15    |
+| Use After Free                               | 50    |
+| Arbitrary Command Injection                  | 28    |
+| Arbitrary Code Execution                     | 77    |
+| Remote Code Execution (RCE)                  | 38    |
+| Information Exposure                         | 37    |
+| Improper Authentication                      | 10    |
