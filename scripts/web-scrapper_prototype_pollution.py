@@ -1,3 +1,4 @@
+#the packages scrapped are from npm advisory
 import requests
 
 f = open("prototype_pollutions_npm.txt", "w")
