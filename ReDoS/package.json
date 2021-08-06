@@ -46,6 +46,7 @@
     "is-url": "1.2.2",
     "ismobilejs": "0.4.1",
     "jquery": "3.6.0",
+    "jsdom": "16.7.0",
     "jspdf": "2.1.1",
     "locutus": "2.0.10",
     "lodash": "4.17.4",
