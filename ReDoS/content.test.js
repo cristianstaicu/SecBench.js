@@ -1,5 +1,5 @@
 //https://github.com/sola-da/ReDoS-vulnerabilities/blob/master/test-content.js
-test("ReDos in content", () => {
+test("ReDoS in content", () => {
   const measureTime = require("./utils").measureTime;
   const content = require("content");
 

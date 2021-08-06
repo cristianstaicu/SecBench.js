@@ -1,5 +1,5 @@
 //https://github.com/sola-da/ReDoS-vulnerabilities/blob/master/test-content-type-parser.js
-test("ReDos in content-type-parser", () => {
+test("ReDoS in content-type-parser", () => {
   const measureTime = require("./utils").measureTime;
   const contentTypeParser = require("content-type-parser");
 

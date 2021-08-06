@@ -1,5 +1,5 @@
 //https://snyk.io/vuln/SNYK-JS-D3COLOR-1076592
-test("ReDos in ms", () => {
+test("ReDoS in ms", () => {
   const measureTime = require("./utils").measureTime;
   const d3Color = require("d3-color");
 

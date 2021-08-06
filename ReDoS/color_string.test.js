@@ -1,5 +1,5 @@
 //https://github.com/yetingli/PoCs/blob/main/CVE-2021-29060/Color-String.md
-test("ReDos in color-string", () => {
+test("ReDoS in color-string", () => {
   const measureTime = require("./utils").measureTime;
   const colorString = require("color-string");
 

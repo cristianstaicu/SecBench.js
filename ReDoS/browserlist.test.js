@@ -1,5 +1,5 @@
 //https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23364
-test("ReDos in browserslist", () => {
+test("ReDoS in browserslist", () => {
   const measureTime = require("./utils").measureTime;
   const browserslist = require("browserslist");
 

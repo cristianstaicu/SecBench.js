@@ -1,6 +1,5 @@
 //https://github.com/tgriesser/checkit/pull/94/files
-test("ReDos in checkit", () => {
-  const genstr = require("./utils").genstr;
+test("ReDoS in checkit", () => {  
   const measureTime = require("./utils").measureTime;
   const check = require("checkit");
 

@@ -18,7 +18,7 @@ function cTypes(identifier) {
   ); // <- /.+_t$/ is the problem.
 }
 
-test("ReDos in platform", () => {
+test("ReDos in codemirror", () => {
   const genstr = require("./utils").genstr;
   const measureTime = require("./utils").measureTime;
 

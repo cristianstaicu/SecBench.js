@@ -1,5 +1,5 @@
 //https://github.com/Tjatse/ansi-html/issues/19
-test("ReDos in ansi-html", () => {
+test("ReDoS in ansi-html", () => {
   const measureTime = require("./utils").measureTime;
 
   let t = measureTime(function () {

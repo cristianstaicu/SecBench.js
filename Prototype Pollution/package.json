@@ -22,6 +22,7 @@
     "aws-sdk": "2.813.0",
     "fastify": "3.20.1",
     "fastify-multipart": "1.0.4",
+    "graphql": "15.5.1",
     "bmoor": "0.8.11",
     "bodymen": "1.0.0",
     "cached-path-relative": "1.0.1",

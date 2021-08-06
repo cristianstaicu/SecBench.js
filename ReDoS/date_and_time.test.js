@@ -1,5 +1,5 @@
 //https://securitylab.github.com/advisories/GHSL-2020-349-redos-date-and-time/
-test("ReDos in date-and-time", () => {
+test("ReDoS in date-and-time", () => {
   const measureTime = require("./utils").measureTime;
   const date = require("date-and-time");
 

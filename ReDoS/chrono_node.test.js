@@ -1,5 +1,5 @@
 //https://github.com/wanasit/chrono/issues/382
-test("ReDos in chrono-node", () => {
+test("ReDoS in chrono-node", () => {
   const measureTime = require("./utils").measureTime;
   const chrono = require("chrono-node");
 

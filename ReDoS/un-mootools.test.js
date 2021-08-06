@@ -1,6 +1,5 @@
 test("ReDos in mootools", () => {
   const Slick = require("mootols");
-  const genstr = require("./utils").genstr;
   const measureTime = require("./utils").measureTime;
 
   let t = measureTime(function () {

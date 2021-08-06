@@ -1,5 +1,5 @@
 //https://github.com/sola-da/ReDoS-vulnerabilities/blob/master/test-charset.js
-test("ReDos in charset", () => {
+test("ReDoS in charset", () => {
   const measureTime = require("./utils").measureTime;
   const charset = require("charset");
 

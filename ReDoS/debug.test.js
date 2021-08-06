@@ -1,5 +1,5 @@
 //https://github.com/sola-da/ReDoS-vulnerabilities/blob/master/test-debug.js
-test("ReDos in debug", () => {
+test("ReDoS in debug", () => {
   const measureTime = require("./utils").measureTime;
   process.env.DEBUG = "*";
 

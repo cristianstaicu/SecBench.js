@@ -1,5 +1,5 @@
 //https://github.com/clean-css/clean-css/commit/2929bafbf8cdf7dccb24e0949c70833764fa87e3
-test("ReDos in clean-css", () => {
+test("ReDoS in clean-css", () => {
   const measureTime = require("./utils").measureTime;
   const CleanCSS = require("clean-css");
 
