@@ -1,0 +1,17 @@
+{
+  "name": "command-injection",
+  "version": "1.0.0",
+  "description": "command injection vulnerablities",
+  "main": "find_process.test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@floffah/build": "0.3.1",
+    "@ronomon/opened": "1.5.0",
+    "find-process": "1.4.4",
+    "wincred": "1.0.2"
+  }
+}
