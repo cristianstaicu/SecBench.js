@@ -11,7 +11,16 @@
   "dependencies": {
     "@floffah/build": "0.3.1",
     "@ronomon/opened": "1.5.0",
+    "ffmpegdotjs": "0.0.4",
     "find-process": "1.4.4",
+    "git-parse": "1.0.4",
+    "killing": "1.0.6",
+    "onion-oled-js": "0.0.2",
+    "picotts": "0.1.0",
+    "ps-visitor": "0.0.2",
+    "psnode": "0.0.1",
+    "roar-pidusage": "1.1.5",
+    "sleep": "6.3.0",
     "wincred": "1.0.2"
   }
 }
