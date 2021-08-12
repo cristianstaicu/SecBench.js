@@ -9,18 +9,23 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@azure/ms-rest-nodeauth": "3.0.6",
     "@floffah/build": "0.3.1",
     "@ronomon/opened": "1.5.0",
     "ffmpegdotjs": "0.0.4",
     "find-process": "1.4.4",
     "git-parse": "1.0.4",
+    "kill-by-port": "0.0.1",
     "killing": "1.0.6",
+    "killport": "1.0.1",
     "onion-oled-js": "0.0.2",
     "picotts": "0.1.0",
+    "portprocesses": "1.0.4",
     "ps-visitor": "0.0.2",
     "psnode": "0.0.1",
-    "roar-pidusage": "1.1.5",
+    "roar-pidusage": "1.1.6",
     "sleep": "6.3.0",
+    "systeminformation": "5.3.0",
     "wincred": "1.0.2"
   }
 }
