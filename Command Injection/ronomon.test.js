@@ -5,9 +5,11 @@ test("Command Injection in @ronomon/opened", () =>
 	const fs = require('fs')
 	const path = './ronomon'
 	const paths = ['$(touch ronomon)'];
-	
+	const sleep = require('sleep');
+
 	Opened.files(paths,function(error, hashTable) { });
 
+	sleep.sleep(5);
 	file_exist = fs.existsSync(path);
 	expect(file_exist).toBe(true);
 });

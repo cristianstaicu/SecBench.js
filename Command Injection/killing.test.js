@@ -14,4 +14,3 @@ test("Command Injection in killing", () =>
 	file_exist = fs.existsSync(path);
 	expect(file_exist).toBe(true);
 });
-// fs.accessSync('success', fs.constants.F_OK);
