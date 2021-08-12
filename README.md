@@ -7,50 +7,23 @@ This Repository has the following number of corresponding vulnerablities.
 | 2    | Regula expression Denial of Service (ReDoS) | 67    |
 
 
-Scrapping the **npm Advisory** Website :
-
-| vulnerablity                                | count |
-| ------------------------------------------- | ----- |
-| Prototype Pollution                         | 90    |
-| Regular Expression Denial of Service        | 81    |
-| Cross-Site Scripting                        | 175   |
-| Command Injection                           | 76    |
-| Remote Code Execution                       | 16    |
-| Sandbox Breakout / Arbitrary Code Execution | 48    |
-| Path Traversal                              | 53    |
-| Directory Traversal                         | 137   |
-| Advisories                                  | 81    |
-| Denial of Service                           | 60    |
-| Cross-Site Request Forgery (CSRF)           | 3     |
-| Server-Side Request Forgery                 | 5     |
-| Sensitive Data Exposure                     | 12    |
-| Remote Memory Exposure                      | 10    |
-| Unauthorized File Access                    | 6     |
-| Information Exposure                        | 15    |
-| Authentication Bypass                       | 8     |
-| Privilege Escalation                        | 8     |
-
-Scrapping the **Snyk** Vulnerability Database :
-
-
-| vulnerablity                                 | count |
-| -------------------------------------------- | ----- |
-| Directory Traversal                          | 62    |
-| Malicious Package                            | 395   |
-| Improper Input Validation                    | 20    |
-| Cross-site Scripting (XSS)                   | 298   |
-| Prototype Pollution                          | 248   |
-| Open Redirect                                | 13    |
-| Denial of Service (DoS)                      | 83    |
-| Command Injection                            | 135   |
-| Access Restriction Bypass                    | 14    |
-| Regular Expression Denial of Service (ReDoS) | 99    |
-| Cross-site Request Forgery (CSRF)            | 12    |
-| Server-side Request Forgery (SSRF)           | 18    |
-| Improper Access Control                      | 15    |
-| Use After Free                               | 50    |
-| Arbitrary Command Injection                  | 28    |
-| Arbitrary Code Execution                     | 77    |
-| Remote Code Execution (RCE)                  | 38    |
-| Information Exposure                         | 37    |
-| Improper Authentication                      | 10    |
+| vulnerablity                              | npm advisory count | snyk vulnerablity database | total |
+| ----------------------------------------- | ------------------ | -------------------------- | ----- |
+| Cross-Site Scripting                      | 175                | 298                        | 473   |
+| Prototype Pollution                       | 90                 | 248                        | 338   |
+| Command Injection                         | 76                 | 135                        | 211   |
+| Directory Traversal                       | 137                | 62                         | 199   |
+| Regular Expression Denial of Service      | 81                 | 99                         | 180   |
+| Denial of Service                         | 60                 | 83                         | 143   |
+| Arbitrary Code Execution/Sandbox Breakout | 48                 | 77                         | 125   |
+| Advisories                                | 81                 | 0                          | 81    |
+| Remote Code Execution                     | 16                 | 38                         | 54    |
+| Path Traversal                            | 53                 | 0                          | 53    |
+| Information Exposure                      | 15                 | 37                         | 52    |
+| Server-Side Request Forgery               | 5                  | 18                         | 23    |
+| Authentication Bypass                     | 8                  | 10                         | 18    |
+| Cross-Site Request Forgery (CSRF)         | 3                  | 12                         | 15    |
+| Sensitive Data Exposure                   | 12                 | 0                          | 12    |
+| Remote Memory Exposure                    | 10                 | 0                          | 10    |
+| Privilege Escalation                      | 8                  | 0                          | 8     |
+| Unauthorized File Access                  | 6                  | 0                          | 6     |
