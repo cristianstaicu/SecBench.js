@@ -1,4 +1,12 @@
 # vulnerabilities4js
+
+| week | count |
+| ---- | ----- |
+| 11   | 175   |
+| 12   | 194   |
+| 13   | 235   |
+
+
 This Repository has the following number of corresponding vulnerablities.
 
 | S.no | Vulnerablity                                | Count |
@@ -27,3 +35,6 @@ This Repository has the following number of corresponding vulnerablities.
 | Remote Memory Exposure                    | 10                 | 0                          | 10    |
 | Privilege Escalation                      | 8                  | 0                          | 8     |
 | Unauthorized File Access                  | 6                  | 0                          | 6     |
+
+
+
