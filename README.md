@@ -11,8 +11,8 @@ This Repository has the following number of corresponding vulnerablities.
 
 | S.no | Vulnerablity                                | Count |
 | ---- | ------------------------------------------- | ----- |
-| 1    | Prototype pollution                         | 169   |
-| 2    | Regula expression Denial of Service (ReDoS) | 67    |
+| 1    | Prototype pollution                         | 152   |
+| 2    | Regula expression Denial of Service (ReDoS) | 93    |
 
 
 | vulnerablity                              | npm advisory count | snyk vulnerablity database | total |
