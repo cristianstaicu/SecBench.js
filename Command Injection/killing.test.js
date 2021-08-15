@@ -1,6 +1,5 @@
 //problem is the program dosent end
 
-
 //https://snyk.io/vuln/SNYK-JS-KILLING-1078532
 test("Command Injection in killing", () => 
 {
