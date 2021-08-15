@@ -49,7 +49,10 @@ Note: The threshold is set as **1** second to consider it as ReDoS vulnerability
 | 40 | [CVE-2021-23364](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23364) | browserlist | #main# | The config to share target browsers and Node.js versions between different front-end tools | pulic |
 | 41    | [CVE-2021-23353](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23353)                                         | jspdf                                | addImage               | Adds an Image to the PDF.      | public             |
 | 42    | [CVE-2021-33502](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33502)                                         | normalize-url                        | #main#           | Useful when you need to display, store, deduplicate, sort, compare, etc, URLs. | developed           |
-
+| 43 | [CVE-2015-8315](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8315)   | millisecond     | #main# | Parse strings that indicate a time to their millisecond equivalents.                   | developed |
+| 44 | [CVE-2017-18077](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18077) | brace-expansion | #main# | Return an array of all possible and valid expansions of str                            | public    |
+| 45 | [CVE-2017-18214](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18214) | moment          | #main# | A JavaScript date library for parsing, validating, manipulating, and formatting dates. | pulic     |
+| 46 | [CVE-2020-26256](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26256) | fast-csv        | parse  | to parse a csv file                                                                    | developed |
 
 The following vulnerablities are got from **Huntr**
 
