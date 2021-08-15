@@ -1,6 +1,6 @@
 Below there is a list of **ReDoS vulnerabilities**
 
-There are a total of **67** vulnearblities with PoC available in this.
+There are a total of **93** vulnearblities with PoC available in this.
 
 Note: The threshold is set as **1** second to consider it as ReDoS vulnerability
 
