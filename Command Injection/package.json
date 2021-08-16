@@ -14,12 +14,16 @@
     "@ronomon/opened": "1.5.0",
     "ffmpegdotjs": "0.0.4",
     "find-process": "1.4.4",
+    "geojson2kml": "0.1.1",
     "git-parse": "1.0.4",
     "kill-by-port": "0.0.1",
     "kill-process-by-name": "1.0.5",
     "killing": "1.0.6",
     "killport": "1.0.1",
+    "lodash": "4.17.10",
+    "lodash.template": "4.5.0",
     "madge": "4.0.0",
+    "nuance-gulp-build-common": "0.0.0",
     "onion-oled-js": "0.0.2",
     "picotts": "0.1.0",
     "port-killer": "1.0.1",
@@ -30,8 +34,10 @@
     "react-dev-utils": "11.0.0",
     "roar-pidusage": "1.1.6",
     "sleep": "6.3.0",
+    "spritesheet-js": "1.2.6",
     "systeminformation": "5.3.0",
     "theme-core": "0.2.5",
+    "wc-cmd": "1.0.9",
     "wincred": "1.0.2"
   }
 }
