@@ -39,6 +39,7 @@
   "homepage": "https://github.com/cristianstaicu/vulnerabilities4js#readme",
   "dependencies": {
     "ffmpegdotjs": "0.0.4",
-    "portkiller": "^1.0.0"
+    "portkiller": "^1.0.0",
+    "wc-cmd": "^1.0.9"
   }
 }
