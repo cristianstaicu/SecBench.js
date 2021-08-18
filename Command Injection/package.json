@@ -12,6 +12,8 @@
     "@azure/ms-rest-nodeauth": "3.0.6",
     "@floffah/build": "0.3.1",
     "@ronomon/opened": "1.5.0",
+    "async-git": "1.13.1",
+    "deferred-exec": "0.3.1",
     "ffmpeg-sdk": "0.0.5",
     "ffmpegdotjs": "0.0.4",
     "find-process": "1.4.4",
@@ -32,6 +34,8 @@
     "madge": "4.0.0",
     "node-ps": "0.0.2",
     "npm-help": "1.0.0",
+    "npos-tesseract": "0.0.3",
+    "ntesseract": "0.2.8",
     "nuance-gulp-build-common": "0.0.0",
     "onion-oled-js": "0.0.2",
     "picotts": "0.1.0",
@@ -43,11 +47,13 @@
     "react-dev-utils": "11.0.0",
     "roar-pidusage": "1.1.6",
     "sleep": "6.3.0",
+    "sonar-wrapper": "0.1.2",
     "spritesheet-js": "1.2.6",
     "systeminformation": "5.3.0",
     "theme-core": "0.2.5",
     "total.js": "3.4.6",
     "wc-cmd": "1.0.9",
-    "wincred": "1.0.2"
+    "wincred": "1.0.2",
+    "xopen": "1.0.0"
   }
 }
