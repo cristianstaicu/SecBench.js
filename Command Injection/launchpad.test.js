@@ -10,23 +10,17 @@ test("Command Injection in launchpad", () =>
 	file_exist = fs.existsSync(path);
 	expect(file_exist).toBe(false);
     
-    var tst = new launchpad.Instance('t', {}, {}, {process:"s'; touch launchpad; # "});
-    try
-	{
+    let tst = new launchpad.Instance('echo', {}, {}, { process:"s'; touch launchpad; # "});
+    try {
 		tst.getPid(function(){});
-	}
-	catch(error)
-	{}
-	tst.getPid(function(){});
-	
+	} catch(error) {
 
-	sleep.sleep(5);
+	}	
+
+	sleep.sleep(2);
 	//checking that its created by after exploit.
 	file_exist = fs.existsSync(path);
 	expect(file_exist).toBe(true);
 
 	fs.unlink(path, function(err) {});//deleting the file after creation
 });
-//has some errors even though it has try catch
-
-
