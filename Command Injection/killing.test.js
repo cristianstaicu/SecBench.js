@@ -4,8 +4,8 @@
 test("Command Injection in killing", () => 
 {
     const killing = require('killing');
-	const fs = require('fs')
-	const path = './killing'
+	const fs = require('fs');
+	const path = './killing';
 	const sleep = require('sleep');
 	
 	//checking that its not present already
