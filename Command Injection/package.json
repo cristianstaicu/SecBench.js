@@ -61,6 +61,7 @@
     "port-killer": "1.0.1",
     "portprocesses": "1.0.4",
     "props": "0.3.0",
+    "pidusage": "0.1.0",
     "ps-kill": "1.0.0",
     "ps-visitor": "0.0.2",
     "psnode": "0.0.1",
