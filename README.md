@@ -5,6 +5,8 @@
 | 11   | 175   |
 | 12   | 194   |
 | 13   | 235   |
+| 14   | 249   |
+| 15   | 282   |
 
 
 This Repository has the following number of corresponding vulnerablities.
