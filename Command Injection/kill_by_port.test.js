@@ -6,10 +6,13 @@ test("Command Injection in kill-by-port", () =>
 	const path = './kill-by-port'
 	const sleep = require('sleep');
     
+	let file_exist = fs.existsSync(path);
+	expect(file_exist).toBe(false);
+
     kill_by_port.killByPort('$(touch kill-by-port)');
-	
 	
 	sleep.sleep(5);
 	file_exist = fs.existsSync(path);
 	expect(file_exist).toBe(true);
+	fs.unlink(path, () =>  {});//deleting the file after creation
 });

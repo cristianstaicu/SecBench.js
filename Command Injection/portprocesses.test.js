@@ -6,10 +6,13 @@ test("Command Injection in portprocesses", () =>
 	const path = './portprocesses'
 	const sleep = require('sleep');
     
+	file_exist = fs.existsSync(path);
+	expect(file_exist).toBe(false);
+
     portprocesses.killProcess('$(touch portprocesses)');
-	
 	
 	sleep.sleep(5);
 	file_exist = fs.existsSync(path);
 	expect(file_exist).toBe(true);
+	fs.unlink(path, () =>  {});//deleting the file after creation
 });

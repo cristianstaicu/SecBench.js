@@ -6,18 +6,18 @@ test("Command Injection in kill-process-on-port", () =>
 	const path = './kill-process-on-port'
 	const sleep = require('sleep');
 	
-	//checking that its not present already
-	file_exist = fs.existsSync(path);
+	// checking that its not present already
+	let file_exist = fs.existsSync(path);
 	expect(file_exist).toBe(false);
     
-	a.killProcessOnPort("& touch kill-process-on-port #");
+	a.killProcessOnPort("123 & touch kill-process-on-port #");
 
 	sleep.sleep(5);
-	//checking that its created by after exploit.
+	// checking that its created by after exploit.
 	file_exist = fs.existsSync(path);
 	expect(file_exist).toBe(true);
 
-	fs.unlink(path, function(err) {});//deleting the file after creation
+	fs.unlink(path, function(err) {}); // deleting the file after creation
 });
 
 // try

@@ -12,10 +12,10 @@ test("Command Injection in madge", () =>
 	expect(file_exist).toBe(false);
     
     madge('..', {graphVizPath: "touch madge;"})
-    .then((res) => res.image())
+    .then((res) => {process.exit(1); res.svg()})
     .then((writtenImagePath) => {
-    console.log('Image written to ' + writtenImagePath);
-    });
+    	console.log('Image written to ' + writtenImagePath);
+    }).catch((e) => {console.log(e)});
         
 	sleep.sleep(5);
 	//checking that its created by after exploit.

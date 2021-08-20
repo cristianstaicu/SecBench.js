@@ -12,4 +12,6 @@ test("Command Injection in find-process", () =>
 	sleep.sleep(5);
 	file_exist = fs.existsSync(path);
 	expect(file_exist).toBe(true);
+
+	fs.unlink(path, function(err) {});//deleting the file after creation
 });

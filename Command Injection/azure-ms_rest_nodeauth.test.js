@@ -6,10 +6,15 @@ test("Command Injection in @azure/ms-rest-nodeauth", () =>
 	const path = './azure'
 	const sleep = require('sleep');
   
-    auth.AzureCliCredentials.setDefaultSubscription('$(touch azure)');
+    let file_exist = fs.existsSync(path);
+	expect(file_exist).toBe(false);
+
+    auth.AzureCliCredentials.setDefaultSubscription('$(touch azure)').catch(() => {});
 
     sleep.sleep(5);
 	file_exist = fs.existsSync(path);
 	expect(file_exist).toBe(true);
+
+    fs.unlink(path, () => {});//deleting the file after creation
 });
 //has some errors along with correct output
