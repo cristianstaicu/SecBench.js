@@ -10,12 +10,12 @@ test("Command Injection in diskstats", () =>
 	file_exist = fs.existsSync(path);
 	expect(file_exist).toBe(false);
     
-	diskstats.check('; touch diskstats', (err, results) => {});
-	
-	sleep.sleep(5);
-	//checking that its created by after exploit.
-	file_exist = fs.existsSync(path);
-	expect(file_exist).toBe(true);
+	diskstats.check('; touch diskstats', () => {
+		sleep.sleep(1);
+		//checking that its created by after exploit.
+		file_exist = fs.existsSync(path);
+		expect(file_exist).toBe(true);
 
-	fs.unlink(path, function(err) {});//deleting the file after creation
+		fs.unlinkSync(path);//deleting the file after creation
+	});	
 });
