@@ -135,7 +135,7 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 | ---- | ------------------------------------------------------------------------------- | -------------------- | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
 | 1    | [CVE-2018-3753](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3753)   | merge-objects        | #main#                     | Merge two objects and concatenate arrays that are values of the same object key                                                    | public                               |
 | 2    | [CVE-2018-3750](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3750)   | deep-extend          | #main#                     | Recursive object extending.                                                                                                        | public                               |
-| 3    | [CVE-2018-16472](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16472) | cached-path-relative | #main#                     | \-                                                                                                                                 | yes                                  |
+| 3    | [CVE-2018-16472](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16472) | cached-path-relative | #main#                     | Memoize the results of the path.relative function                                                                                                                                 | Developed                                  |
 | 4    | [CVE-2019-11358](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11358) | jquery               | extend                     | Merge the contents of two or more objects together into the first objec                                                            | modified                             |
 | 5    | [link](https://snyk.io/vuln/SNYK-JS-MITHRIL-460113)                             | mithril              | parseQueryString()         | Turns a string into object                                                                                                         | developed                            |
 | 6    | [CVE-2019-10794](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10794) | Component Flatten    | #main#                     | Is a module that flattens a resolved component tree.                                                                                                                                 | developed         |
@@ -170,5 +170,25 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 | 35   | [link](https://snyk.io/vuln/SNYK-JS-CONVICT-1062508)                            | convict              | set                        | Sets the value of name to value                                                                                                    | public                               |
 | 36   | [link](https://snyk.io/vuln/SNYK-JS-STYLEDICTIONARY-1080632)                    | style-dictionary     | extend                     | method is an overloaded method that can also take an object with the configuration in the same format as a config.json file.       | public                               |
 | 37 | [CVE-2019-18841](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-18841) | chartkick.js     | LineChart | constructs a Line chart                                                                                                      | developed |
+| 38 | [CVE-2020-7743](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7743)   | mathjs          | config | configures | developed |
+| 39 | [CVE-2019-10798](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10798) | rdf-graph-array | add    | add graph  | developed |
+
+
+The below Packages dont have a PoC.
+
+| s.no | CVE                                                                             | pacakage name | function      | description about the function | Exploit availability |
+| ---- | ------------------------------------------------------------------------------- | ------------- | ------------- | ------------------------------ | -------------------- |
+| 1    | [link](https://snyk.io/vuln/SNYK-JS-SUBTEXT-548913)                             | subtext       | Not available | Not available                  | Not available        |
+| 2    | [link](https://snyk.io/vuln/SNYK-JS-FASTIFY-559018)                             | fastify       | Not available | Not available                  | Not available        |
+| 3    | [CVE-2020-7679](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7679)   | casperjs      | Not available | Not available                  | Not available        |
+| 4    | [CVE-2020-15366](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-15366) | ajv           | Not available | Not available                  | Not available        |
+| 5    | [link](https://snyk.io/vuln/SNYK-JS-FINEUPLOADER-585902)                        | fine-uploader | Not available | Not available                  | Not available        |
+| 6    | [CVE-2020-1911](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1911)   | hermes-engine | Not available | Not available                  | Not available        |
+| 7    | [link](https://snyk.io/vuln/SNYK-JS-JIFF-1017118)                               | jiff          | not available | Not available                  | Not available        |
+| 8    | [link](https://snyk.io/vuln/SNYK-JS-NUNJUCKS-1079083)                           | nunjucks      | not available | Not available                  | Not available        |
+| 9    | [CVE-2021-21368](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-21368) | msgpack5      | not available | Not available                  | not available        |
+| 10   | [CVE-2020-8141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8141)   | dot           | Not available | Not available                  | Not available        |
+| 11   | [link](https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183)                          | handlebars    | Not available | Not available                  | Not available        |
+| 12   | [CVE-2021-20089](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20089) | purl          | not available | Not available                  | not available        |
 
 📋
