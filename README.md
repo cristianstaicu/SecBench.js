@@ -13,7 +13,7 @@ This Repository has the following number of corresponding vulnerablities.
 
 | S.no | Vulnerablity                                | Count |
 | ---- | ------------------------------------------- | ----- |
-| 1    | Prototype pollution                         | 152   |
+| 1    | Prototype pollution                         | 149   |
 | 2    | Regula expression Denial of Service (ReDoS) | 93    |
 | 3    | Command Injection                           | 99    |
 
