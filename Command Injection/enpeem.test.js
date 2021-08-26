@@ -10,23 +10,17 @@ test("Command Injection in enpeem", () =>
 	file_exist = fs.existsSync(path);
 	expect(file_exist).toBe(false);
     
-	var attack_code = "& touch enpeem &";
-	var opts = {
+	let attack_code = "& touch enpeem &";
+	let opts = {
 	  "production": attack_code
 	}
-	async function caller(){
-		root.update(opts, function(){});
-
-		sleep.sleep(5);
-	//checking that its created by after exploit.
-	file_exist = fs.existsSync(path);
-	expect(file_exist).toBe(true);
-
-	fs.unlink(path, function(err) {});//deleting the file after creation
-	};
-
-	caller();
 	
+	root.update(opts, function() {
+		//checking that its created by after exploit.
+		file_exist = fs.existsSync(path);
+		expect(file_exist).toBe(true);
 
+		fs.unlink(path, function(err) {});//deleting the file after creation	
+	});		
 	
 });
