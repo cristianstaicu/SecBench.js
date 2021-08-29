@@ -117,6 +117,12 @@ The following vulnerabilies are from **GHSL**
 | 2    | [CVE-2020-4066](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-4066)                              | limdu            | part of argument given to EnhancedClassifier | to classify                                                          | public                 |
 | 3    | [CVE-2019-10776](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10776)                            | git-diff-apply   | #main#                                       | be used to reach an unrelated remote repository to apply a git diff. | public but not working |
 
+The following vulnerabilies are from **Huntr**
+
+| s.no | CVE                                                    | pacakage name | function | description about the function                            | Exploit availability |
+| ---- | ------------------------------------------------------ | ------------- | -------- | --------------------------------------------------------- | -------------------- |
+|      | [link](https://github.com/keymetrics/vizion/issues/26) | vizion        | revertTo | is a Git/Subversion/Mercurial repository metadata parser. | public/probleamtic   |
+
 The below ones dont have PoC
 
 | s.no | CVE                                                                             | Pacakage name             | Function              | Description about the function                                                                               | Exploit availability  |
