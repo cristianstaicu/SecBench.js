@@ -101,10 +101,25 @@ The following vulnerablities are got from **Hackerone**
 | ---- | -------------------------------------------- | --------------- | ---------- | ------------------------------------------------- | -------------------- |
 | 1    | [link](https://hackerone.com/reports/951249) | freespace       | check      | check for freespace                               | public               |
 | 2    | [link](https://hackerone.com/reports/863956) | extra-asciinema | uploadSync | Uploads recorded asciicast to asciinema.org site. | public               |
+| 3 | [link](https://hackerone.com/reports/864777)                                    | vboxmanage.js     | start      | starts a vm                                                                    | public             |
+| 4 | [CVE-2020-8178](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8178)   | jison             | exec       | an api for js parsing                                                          | public             |
+| 5 | [CVE-2019-15609](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15609) | kill-port-process | #main#     | kill process running on given port                                             | public             |
+| 6 | [CVE-2019-15598](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15598) | tree-kill         | #main#     | Package to kill all processes in the process tree, including the root process. | public/problematic |
+| 7 | [CVE-2019-15599](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15599) | treekill          | #main#     | treekill process and it's all children and child offspring children.           | public/problematic |
+| 8 | [link](https://hackerone.com/reports/633364)                                    | pm2               | install    | Start a process                                                                | public/problematic |
+| 9 | [CVE-2019-5414](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-5414)   | kill-port         | #main#     | Kills the process running on given port.                                       | public             |
+
+The following vulnerabilies are from **GHSL**
+
+| s.no | CVE                                                                                                        | Pacakage name    | Function                                     | Description about the function                                       | Exploit availability   |
+| ---- | ---------------------------------------------------------------------------------------------------------- | ---------------- | -------------------------------------------- | -------------------------------------------------------------------- | ---------------------- |
+| 1    | [link](https://github.com/conventional-changelog/standard-version/security/advisories/GHSA-7xcx-6wjh-7xp2) | standard-version |                                              |                                                                      |                        |
+| 2    | [CVE-2020-4066](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-4066)                              | limdu            | part of argument given to EnhancedClassifier | to classify                                                          | public                 |
+| 3    | [CVE-2019-10776](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10776)                            | git-diff-apply   | #main#                                       | be used to reach an unrelated remote repository to apply a git diff. | public but not working |
 
 The below ones dont have PoC
 
-| s.no | CVE                                                                             | pacakage name             | function              | description about the function                                                                               | Exploit availability  |
+| s.no | CVE                                                                             | Pacakage name             | Function              | Description about the function                                                                               | Exploit availability  |
 | ---- | ------------------------------------------------------------------------------- | ------------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------- |
 | 1    | [link](https://snyk.io/vuln/SNYK-JS-FLOFFAHBUILD-1298045)                       | @floffah/build            | not available         | not available                                                                                                | not available         |
 | 2    | [CVE-2021-26543](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26543) | git-parse                 | gitDiff               | Returns a git diff given a path to the repo, a commit, an optional second commit, and an optional file path. | public/problematic    |
