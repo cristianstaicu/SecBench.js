@@ -93,6 +93,8 @@ The following vulnerablities are got from **Snyk vulnerability Database**
 | 87 | [CVE-2019-10783](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10783) | lsof          | rawTcpPort         | Inspect a port in use                                                                                          | public             |
 | 88 | [CVE-2019-10777](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10777) | aws-lambda    | deploy             | command line tool deploy code to AWS Lambda.                                                                   | public             |
 | 89 | [CVE-2019-15597](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15597) | node-df       | #main#             | Cross-platform Node.js wrapper around the standard Unix computer program                                       | public             |
+| 90 | [link](https://snyk.io/vuln/npm:git-ls-remote:20160923)                         | git-ls-remote | head        | A very simple interface to git-ls-remote for node.js                     | public |
+| 91 | [CVE-2020-7597](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7597)   | codecov       | handleInput | npm package for uploading reports to Codecov.                            | public |
 
 
 The following vulnerablities are got from **Hackerone**
@@ -108,6 +110,18 @@ The following vulnerablities are got from **Hackerone**
 | 7 | [CVE-2019-15599](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15599) | treekill          | #main#     | treekill process and it's all children and child offspring children.           | public/problematic |
 | 8 | [link](https://hackerone.com/reports/633364)                                    | pm2               | install    | Start a process                                                                | public/problematic |
 | 9 | [CVE-2019-5414](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-5414)   | kill-port         | #main#     | Kills the process running on given port.                                       | public             |
+| 10 | [CVE-2018-16461](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16461) | libnmap                   | scan          | Performs scan given available range & optional port       | public |
+| 11 | [CVE-2018-16462](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16462) | apex-publish-static-files | publish       | Publishes the files to APEX                               | public |
+| 12 | [CVE-2018-16460](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16460) | ps                        | lookup        | Looking up running processes.                             | public |
+| 13 | [link](https://hackerone.com/reports/394294)                                    | samsung-remote            | isAlive       | Check if TV is alive                                      | public |
+| 14 | [link](https://hackerone.com/reports/341869)                                    | entitlements              | #main#        | Checks the entitlements of a .app bundle.                 | public |
+| 15 | [CVE-2018-3785](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3785)   | git-dummy-commit          | #main#        | Create a dummy commit for testing                         | public |
+| 16 | [CVE-2018-3757](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3757)   | pdf-image                 | numberOfPages | Counts number of pages in pfdf                            | public |
+| 17 | [link](https://hackerone.com/reports/319473)                                    | open                      | #main#        | Open stuff like URLs, files, executables. Cross-platform. | public |
+| 18 | [CVE-2018-13797](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-13797) | macaddress                | #main#        | Retrieve MAC addresses in Linux, OS X, and Windows.       | public |
+| 19 | [link](https://hackerone.com/reports/324453)                                    | command-exists            | #main#        | Check if a command-line command exists                    | public |
+| 20 | [CVE-2018-3746](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3746)   | pdfinfojs                 | getInfo       | Provides access to pdfinfo via shell in nodejs.           | public |
+| 21 | [link](https://hackerone.com/reports/319476)                                    | whereis                   | #main#        | Simply get the first path to a bin on any system.         | public |
 
 The following vulnerabilies are from **GHSL**
 
@@ -116,12 +130,32 @@ The following vulnerabilies are from **GHSL**
 | 1    | [link](https://github.com/conventional-changelog/standard-version/security/advisories/GHSA-7xcx-6wjh-7xp2) | standard-version |                                              |                                                                      |                        |
 | 2    | [CVE-2020-4066](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-4066)                              | limdu            | part of argument given to EnhancedClassifier | to classify                                                          | public                 |
 | 3    | [CVE-2019-10776](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10776)                            | git-diff-apply   | #main#                                       | be used to reach an unrelated remote repository to apply a git diff. | public but not working |
+| 4 | [link](https://securitylab.github.com/advisories/GHSL-2021-061-diez-generation-cmd-injection/) | @diez/generation | locateFont | \-                                                                   | problematic            |
+| 5 | [CVE-2021-21412](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2021-21412)                    | @thi.ng/egf      | gpg        | \-                                                                   | public                 |
+
+
 
 The following vulnerabilies are from **Huntr**
 
 | s.no | CVE                                                    | pacakage name | function | description about the function                            | Exploit availability |
 | ---- | ------------------------------------------------------ | ------------- | -------- | --------------------------------------------------------- | -------------------- |
 |      | [link](https://github.com/keymetrics/vizion/issues/26) | vizion        | revertTo | is a Git/Subversion/Mercurial repository metadata parser. | public/probleamtic   |
+
+
+The following vulnerabilies are from **Npm Advisory**
+
+
+| s.no | Link                                                                            | pacakage name      | function       | description about the function                                 | Exploit availability |
+| ---- | ------------------------------------------------------------------------------- | ------------------ | -------------- | -------------------------------------------------------------- | -------------------- |
+| 1    | [link](https://www.npmjs.com/advisories/1713)                                   | devcert            | certificateFor | get certificate for an app                                     | public               |
+| 2    | [link](https://www.npmjs.com/advisories/1458)                                   | npm-git-publish    | publish        | Publish private packages using Git remotes!                    | public               |
+| 3    | [link](https://www.npmjs.com/advisories/1439)                                   | hot-formula-parser | parse          | Parser class that evaluates excel and mathematical formulas.   | modified             |
+| 4    | [link](https://www.npmjs.com/advisories/1020)                                   | local-devices      | #main#         | Find all devices connected to the local network                | public               |
+| 5    | [CVE-2014-9682](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9682)   | dns-sync           | resolve        | Sync/Blocking DNS resolve                                      | public               |
+| 6    | [CVE-2017-16042](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-16042) | growl              | #main#         | package adding Growl support for Nodejs.                       | public               |
+| 7    | [link](https://www.npmjs.com/advisories/54)                                     | gm                 | compare        | Allows us to determine if two images can be considered "equal" | Developed            |
+| 8    | [CVE-2013-7381](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-7381)   | notify the user    | notify         |                                                                | Developed            |
+
 
 The below ones dont have PoC
 
