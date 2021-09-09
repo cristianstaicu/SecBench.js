@@ -1,0 +1,15 @@
+{
+  "name": "path-traversal",
+  "version": "1.0.0",
+  "description": "Path Traversal vulneabilities ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-srv": "2.0.0",
+    "sleep": "^6.3.0"
+  }
+}
