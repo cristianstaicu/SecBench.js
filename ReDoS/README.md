@@ -116,6 +116,7 @@ The following vulnerablities are got from **Snyk**
 | 36 | [link](https://snyk.io/vuln/npm:sanitize:20180225)                               | sanitize        | my.url        | Input sanitizing library for node.js                                                                                                                | developed |
 | 37 | [link](https://snyk.io/vuln/npm:uas-parser:20180305)                                                                    | uas-parser | parse  | Parse the given user agent string | developed |
 | 38 | [link](https://snyk.io/vuln/npm:is-url:20180319#:~:text=is%2Durl%20is%20a%20Check,for%20data%2045%20characters%20long.) | is-url     | #main# | Check whether a string is a URL.  | developed |
+| 39 | [CVE-2021-3749](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3749)                                           | axios  | #main# | Promise-based HTTP client for the browser and Node.js | public    |
 
 **the below ones dont have poc**
 
