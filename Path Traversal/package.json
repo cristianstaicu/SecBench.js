@@ -4,7 +4,7 @@
   "description": "Path Traversal vulneabilities ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -12,11 +12,14 @@
     "adm-zip": "0.5.0",
     "fast-http": "0.1.3",
     "hangersteak": "0.2.2",
+    "marked-tree": "0.8.1",
+    "marscode": "1.0.1-0",
     "min-http-server": "1.0.6",
     "mountebank": "2.3.0",
     "node-red": "2.0.6",
     "node-red-dashboard": "2.26.0",
     "node-srv": "2.0.0",
+    "rollup-plugin-dev-server": "0.4.3",
     "sirloin": "0.15.0",
     "sleep": "6.3.0",
     "socket.io-file": "2.0.31",
