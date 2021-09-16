@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@absolunet/kafe": "3.2.09",
+    "@vuelidate/validators": "2.0.0-alpha.21",
     "ajv": "5.2.2",
     "amqp-match": "0.0.0",
     "ansi-html": "0.0.7",
@@ -95,6 +96,7 @@
     "tap": "15.0.9",
     "three": "0.122.0",
     "timespan": "2.3.0",
+    "tmpl": "1.0.0",
     "tough-cookie": "2.3.2",
     "trim": "0.0.1",
     "truncate": "2.0.0",
