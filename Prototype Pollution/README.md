@@ -172,6 +172,8 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 | 37 | [CVE-2019-18841](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-18841) | chartkick.js     | LineChart | constructs a Line chart                                                                                                      | developed |
 | 38 | [CVE-2020-7743](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7743)   | mathjs          | config | configures | developed |
 | 39 | [CVE-2019-10798](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10798) | rdf-graph-array | add    | add graph  | developed |
+| 40 | [CVE-2021-23442](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23442) | @cookiex/deep   | default | Deep is a library for joining object recursive in one target | public    |
+
 
 
 The below Packages dont have a PoC.
