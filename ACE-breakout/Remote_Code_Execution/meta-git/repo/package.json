@@ -1,0 +1,74 @@
+{
+  "name": "meta-git",
+  "version": "0.0.0-development",
+  "description": "git plugin for meta",
+  "main": "index.js",
+  "bin": {
+    "meta-git": "./bin/meta-git",
+    "meta-git-add": "./bin/meta-git-add",
+    "meta-git-branch": "./bin/meta-git-branch",
+    "meta-git-checkout": "./bin/meta-git-checkout",
+    "meta-git-clean": "./bin/meta-git-clean",
+    "meta-git-clone": "./bin/meta-git-clone",
+    "meta-git-commit": "./bin/meta-git-commit",
+    "meta-git-diff": "./bin/meta-git-diff",
+    "meta-git-fetch": "./bin/meta-git-fetch",
+    "meta-git-merge": "./bin/meta-git-merge",
+    "meta-git-pull": "./bin/meta-git-pull",
+    "meta-git-push": "./bin/meta-git-push",
+    "meta-git-remote": "./bin/meta-git-remote",
+    "meta-git-status": "./bin/meta-git-status",
+    "meta-git-tag": "./bin/meta-git-tag",
+    "meta-git-update": "./bin/meta-git-update"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "lint": "prettier --write \"bin/*\" index.js",
+    "test": "jest --config jest.json --coverage",
+    "test:coverage": "jest --config jest.json --coverage",
+    "test:watch": "jest --config jest.json --watch"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mateodelnorte/meta-git.git"
+  },
+  "keywords": [
+    "git",
+    "meta",
+    "repo",
+    "repository",
+    "metarepository",
+    "metarepo"
+  ],
+  "author": "hi@iammattwalters.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateodelnorte/meta/issues"
+  },
+  "homepage": "https://github.com/mateodelnorte/meta-git#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^2.9.0",
+    "debug": "^4.1.0",
+    "get-meta-file": "^1.0.0",
+    "loop": "^3.0.6",
+    "meta-exec": "^1.0.0",
+    "meta-loop": "^1.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "8.0.0",
+    "@commitlint/config-conventional": "8.0.0",
+    "commitizen": "3.1.1",
+    "cz-conventional-changelog": "2.1.0",
+    "husky": "2.4.1",
+    "jest": "24.8.0",
+    "prettier": "1.18.2",
+    "pretty-quick": "1.11.0"
+  }
+}

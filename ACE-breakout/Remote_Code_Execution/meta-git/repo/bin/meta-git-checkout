@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+const assertUsage = require('../lib/assertUsage');
+const metaLoop = require('meta-loop');
+
+const usage = `
+usage: 
+       meta git checkout [-q] [-f] [-m] [<branch>]
+       meta git checkout [-q] [-f] [-m] --detach [<branch>]
+       meta git checkout [-q] [-f] [-m] [--detach] <commit>
+       meta git checkout [-q] [-f] [-m] [[-b|-B|--orphan] <new_branch>] [<start_point>]
+       meta git checkout [-f|--ours|--theirs|-m|--conflict=<style>] [<tree-ish>] [--] <paths>...
+       meta git checkout [-p|--patch] [<tree-ish>] [--] [<paths>...]
+       `;
+
+if (process.argv[2] === '--help') return console.log(usage);
+
+if (!assertUsage('meta git checkout', usage, { allow: /.*/ })) return console.log(usage);
+
+metaLoop(`git checkout ${process.argv.slice(2).join(' ')}`);

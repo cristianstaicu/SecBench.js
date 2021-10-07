@@ -1,0 +1,28 @@
+#!/usr/bin/env node
+
+let loaded = false;
+
+if (loaded) return process.kill();
+
+const program = require('commander');
+const debug = require('debug')('meta-git');
+
+program
+  .command('add', 'Add file contents to the index')
+  .command('branch', 'List, create, or delete branches')
+  .command('checkout', 'Switch branches or restore working tree files')
+  .command('clean', 'Remove untracked files from the working tree')
+  .command('clone', 'Clone meta and child repositories into new directories')
+  .command('commit', 'Record changes to the repository')
+  .command('diff', 'Show changes between commits, commit and working tree, etc')
+  .command('fetch', 'Download objects and refs from another repository')
+  .command('merge', 'Join two or more development histories together')
+  .command('pull', 'Fetch from and integrate with another repository or a local branch')
+  .command('push', 'Update remote refs along with associated objects')
+  .command('remote', 'Manage set of tracked repositories')
+  .command('status', 'Show the working tree status')
+  .command('tag', 'Create, list, delete or verify a tag object signed with GPG')
+  .command('update', "Clone any repos that exist in your .meta file but aren't cloned locally")
+  .parse(process.argv);
+
+loaded = true;

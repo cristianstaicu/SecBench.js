@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+const assertUsage = require('../lib/assertUsage');
+const metaLoop = require('meta-loop');
+
+const usage = `
+usage: 
+       meta git push [--all | --mirror | --tags] [--follow-tags] [--atomic] [-n | --dry-run] [--receive-pack=<git-receive-pack>]
+                  [--repo=<repository>] [-f | --force] [-d | --delete] [--prune] [-v | --verbose]
+                  [-u | --set-upstream] [--push-option=<string>]
+                  [--[no-]signed|--sign=(true|false|if-asked)]
+                  [--force-with-lease[=<refname>[:<expect>]]]
+                  [--no-verify] [<repository> [<refspec>...]]
+       `;
+
+if (process.argv[2] === '--help') return console.log(usage);
+
+if (!assertUsage('meta git push', usage, { allow: /.*/ })) return console.log(usage);
+
+metaLoop(`git push ${process.argv.slice(2).join(' ')}`);
