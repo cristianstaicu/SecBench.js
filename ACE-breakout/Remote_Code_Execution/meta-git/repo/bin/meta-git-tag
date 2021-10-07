@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+
+const assertUsage = require('../lib/assertUsage');
+const debug = require('debug')('meta-git-tag');
+const metaLoop = require('meta-loop');
+
+const usage = `
+usage: 
+       meta git tag [-a | -s | -u <keyid>] [-f] [-m <msg> | -F <file>]
+               <tagname> [<commit> | <object>]
+       meta git tag -d <tagname>...
+       meta git tag [-n[<num>]] -l [--contains <commit>] [--points-at <object>]
+               [--column[=<options>] | --no-column] [--create-reflog] [--sort=<key>]
+               [--format=<format>] [--[no-]merged [<commit>]] [<pattern>...]
+       meta git tag -v <tagname>...
+       `;
+
+if (process.argv[2] === '--help') return console.log(usage);
+
+if (!assertUsage('meta git tag', usage, { allow: /.*/ })) return console.log(usage);
+
+const command = `git tag ${process.argv.slice(2).join(' ')}`;
+
+debug(`executing ${command}`);
+
+metaLoop(command);

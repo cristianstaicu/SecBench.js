@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+const assertUsage = require('../lib/assertUsage');
+const debug = require('debug')('meta-git-clean');
+const metaLoop = require('meta-loop');
+
+const usage = `
+usage: 
+       meta git clean [-d] [-f] [-i] [-n] [-q] [-e <pattern>] [-x | -X] [--] <path>...
+       `;
+
+if (process.argv[2] === '--help') return console.log(usage);
+
+if (!assertUsage('meta git clean', usage, { allow: /.*/ })) return console.log(usage);
+
+const command = `git clean ${process.argv.slice(2).join(' ')}`;
+
+debug(`executing ${command}`);
+
+metaLoop(command);

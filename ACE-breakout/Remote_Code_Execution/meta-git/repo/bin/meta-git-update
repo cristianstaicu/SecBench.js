@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+const exec = require('meta-exec');
+const fs = require('fs');
+const debug = require('debug')('meta-git-update');
+const path = require('path');
+const program = require('commander');
+const util = require('util');
+
+if (!process.argv[1] || process.argv[1] === '--help') return console.log(`\n  usage:\n\n    meta git update\n`);
+
+require('../lib/metaGitUpdate')();

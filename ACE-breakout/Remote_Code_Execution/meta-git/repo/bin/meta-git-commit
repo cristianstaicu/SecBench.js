@@ -1,0 +1,33 @@
+#!/usr/bin/env node
+
+const assertUsage = require('../lib/assertUsage');
+const debug = require('debug')('meta-git-commit');
+const metaLoop = require('meta-loop');
+
+const usage = `
+usage:
+       git commit [-a | --interactive | --patch] [-s] [-v] [-u<mode>] [--amend]
+                  [--dry-run] [(-c | -C | --fixup | --squash) <commit>]
+                  [-F <file> | -m <msg>] [--reset-author] [--allow-empty]
+                  [--allow-empty-message] [--no-verify] [-e] [--author=<author>]
+                  [--date=<date>] [--cleanup=<mode>] [--[no-]status]
+                  [-i | -o] [-S[<keyid>]] [--] [<file>...]
+       `;
+
+if (process.argv[2] === '--help') return console.log(usage);
+
+if (!assertUsage('meta git commit', usage, { allow: /.*/ })) return console.log(usage);
+
+function parseCommand(argv) {
+  return argv
+    .map(arg => {
+      return arg.indexOf(' ') > 0 ? `"${arg}"` : arg;
+    })
+    .join(' ');
+}
+
+const command = `git commit ${parseCommand(process.argv.slice(2))}`;
+
+debug(`executing ${command}`);
+
+metaLoop(command);

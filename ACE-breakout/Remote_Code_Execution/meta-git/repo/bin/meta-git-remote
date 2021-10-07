@@ -1,0 +1,34 @@
+#!/usr/bin/env node
+
+const assertUsage = require('../lib/assertUsage');
+const fs = require('fs');
+const program = require('commander');
+const debug = require('debug')('meta-git-remote');
+const metaLoop = require('meta-loop');
+const path = require('path');
+const util = require('util');
+
+// TODO: refactor to standard usage parser, where you can paste in the usage from the wrapped command and it will both output meta usage when given --help and also intelligently
+// compare given syntax against known wrapped command usage to display --help when an incorrect command is given
+const usage = `
+usage: 
+       meta git remote [-v | --verbose]
+       meta git remote add [-t <branch>] [-m <master>] [-f] [--[no-]tags] [--mirror=<fetch|push>] <name> <url>
+       meta git remote rename <old> <new>
+       meta git remote remove <name>
+       meta git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+       meta git remote set-branches [--add] <name> <branch>...
+       meta git remote get-url [--push] [--all] <name>
+       meta git remote set-url [--push] <name> <newurl> [<oldurl>]
+       meta git remote set-url --add [--push] <name> <newurl>
+       meta git remote set-url --delete [--push] <name> <url>
+       meta git remote [-v | --verbose] show [-n] <name>...
+       meta git remote prune [-n | --dry-run] <name>...
+       meta git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+       `;
+
+if (process.argv[2] === '--help') return console.log(usage);
+
+if (!assertUsage('meta git remote', usage)) return console.log(usage);
+
+metaLoop(`git remote ${process.argv.slice(2).join(' ')}`);

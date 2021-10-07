@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+const assertUsage = require('../lib/assertUsage');
+const debug = require('debug')('meta-git-status');
+const metaLoop = require('meta-loop');
+
+const usage = `
+usage: 
+       meta git status [<options>...] [--] [<pathspec>...]
+       `;
+
+if (process.argv[2] === '--help') return console.log(usage);
+
+if (!assertUsage('meta git status', usage, { allow: /.*/ })) return console.log(usage);
+
+const command = `git status ${process.argv.slice(2).join(' ')}`;
+
+debug(`executing ${command}`);
+
+metaLoop(command);
