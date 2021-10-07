@@ -16,10 +16,11 @@ This Repository has the following number of corresponding vulnerablities.
 
 | S.no | Vulnerablity                                | Count\[ working pocs\] |
 | ---- | ------------------------------------------- | ---------------------- |
-| 1    | Prototype pollution                         | 149                    |
+| 1    | Prototype pollution                         | 150                    |
 | 2    | Regula expression Denial of Service (ReDoS) | 95                     |
 | 3    | Command Injection                           | 99                     |
-| 4    | Path Traversal                              | 5                      |
+| 4    | Path Traversal                              | 85                     |
+
 
 | vulnerablity                              | npm advisory count | snyk vulnerablity database | Unique Count |
 | ----------------------------------------- | ------------------ | -------------------------- | ------------ |
