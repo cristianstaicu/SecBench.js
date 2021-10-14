@@ -11,6 +11,7 @@
 | 17   | 345   |
 | 18   | 350   |
 | 20   | 400   |
+| 21   | 434   |
 
 This Repository has the following number of corresponding vulnerablities.
 
