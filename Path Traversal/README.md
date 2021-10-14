@@ -70,7 +70,6 @@
 | 53 | [CVE-2017-16192](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-16192)                             | getcityapi.yoehoehne   |  |  | developed   |
 | 54 | [link](https://github.com/JacksonGL/NPM-Vuln-PoC/tree/master/directory-traversal/getstats)                  | getstats               |  |  | developed   |
 | 55  | [link](https://snyk.io/vuln/npm:gfm-srv:20180226)                                                                 | gfm-srv                   |  |  | developed |
-| --- | ----------------------------------------------------------------------------------------------------------------- | ------------------------- |  |  | --------- |
 | 56  | [link](https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/ghod5servercs360/test.js)        | ghod5servercs360          |  |  | developed |
 | 57  | [CVE-2017-16133](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-16133)                                   | goserv                    |  |  | developed |
 | 58  | [link](https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/gyfserver/test.js)               | gyfserver                 |  |  | developed |
