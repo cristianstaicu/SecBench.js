@@ -229,7 +229,7 @@
     "simple-mock-server": "0.2.1",
     "simple-npm-registry": "0.0.4",
     "sirloin": "0.15.0",
-    "sleep": "6.3.0",
+    "sleep": "^6.3.0",
     "sly07": "0.1.2",
     "snyk-broker": "4.70.0",
     "socket.io-file": "2.0.31",
@@ -253,6 +253,7 @@
     "tmadserver": "1.0.0",
     "tmock": "0.0.7",
     "uekw1511server": "1.0.1",
+    "utahcityfinder": "0.0.1",
     "zero": "1.0.5"
   }
 }
