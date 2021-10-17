@@ -241,6 +241,18 @@
     "static-html-server": "0.1.2",
     "static-server-gx": "1.2.1",
     "statics-server": "0.0.9",
+    "stattic": "0.2.3",
+    "stevenc4.server": "1.0.0",
+    "susu-sum": "1.0.0",
+    "tencent-server": "0.0.2",
+    "terminal-share": "0.1.0",
+    "thrushs": "1.1.0",
+    "tiny-http": "2.0.8",
+    "tinyserver": "0.1.1",
+    "tinyserver2": "0.5.2",
+    "tmadserver": "1.0.0",
+    "tmock": "0.0.7",
+    "uekw1511server": "1.0.1",
     "zero": "1.0.5"
   }
 }
