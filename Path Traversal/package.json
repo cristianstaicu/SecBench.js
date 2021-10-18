@@ -263,6 +263,7 @@
     "web-server-mock": "0.2.2",
     "webkit-devtools-agent-frontend": "0.0.4",
     "webrepl": "0.4.7",
+    "websvr": "0.1.41",
     "zero": "1.0.5"
   }
 }
