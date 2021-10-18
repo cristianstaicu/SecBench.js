@@ -261,6 +261,7 @@
     "weathertest.bryceperkins": "0.1.1",
     "web-node-server": "0.1.0",
     "web-server-mock": "0.2.2",
+    "webkit-devtools-agent-frontend": "0.0.4",
     "zero": "1.0.5"
   }
 }
