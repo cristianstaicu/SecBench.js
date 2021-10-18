@@ -1,4 +1,4 @@
-//https://hackerone.com/reports/692262
+//
 const path = require("path");
 const { sleep } = require("sleep");
 const pathToFlag = path.resolve(__dirname, "../flag.html");
