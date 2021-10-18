@@ -7,13 +7,13 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 
-test("Path Traversal in weather.swlyons", (done) => {
+test("Path Traversal in weathertest.bryceperkins", (done) => {
     const fs = require("fs");
     const sleep =require('sleep');
     const { exec } = require("child_process");
     let hostsFile = fs.readFileSync(pathToFlag).toString();
 
-    let server = 'sudo node ./node_modules/weather.swlyons/static.js'; //to start the server
+    let server = 'sudo node ./node_modules/weathertest.bryceperkins/static.js'; //to start the server
     let exe=exec(server, (error, stdout) => {});//starting the server
     //console.log(exe.pid)
     sleep.sleep(2);
