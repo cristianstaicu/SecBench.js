@@ -273,7 +273,8 @@
     "wind-mvc": "0.0.6",
     "wintiwebdev": "1.0.0",
     "wrlc": "0.2.5",
-    "wuzhuang": "^1.0.0",
+    "wuzhuang": "1.0.0",
+    "wuzhuangserver": "1.8.0",
     "zero": "1.0.5"
   }
 }
