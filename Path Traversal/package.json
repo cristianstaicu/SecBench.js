@@ -271,6 +271,7 @@
     "wffserve": "1.0.0",
     "willvdb_test_server": "0.0.0",
     "wind-mvc": "0.0.6",
+    "wintiwebdev": "^1.0.0",
     "zero": "1.0.5"
   }
 }
