@@ -275,7 +275,9 @@
     "wrlc": "0.2.5",
     "wuzhuang": "1.0.0",
     "wuzhuangserver": "1.8.0",
-    "xbhxbh": "^1.1.0",
+    "xbhxbh": "1.1.0",
+    "xingbaohai": "1.0.0",
+    "xiongrui-httpserver": "1.0.5",
     "zero": "1.0.5"
   }
 }
