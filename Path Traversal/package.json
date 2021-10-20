@@ -240,6 +240,7 @@
     "startserver": "1.4.1",
     "static-html-server": "0.1.2",
     "static-server-gx": "1.2.1",
+    "statichttpserver": "^0.9.7",
     "statics-server": "0.0.9",
     "stattic": "0.2.3",
     "stevenc4.server": "1.0.0",
