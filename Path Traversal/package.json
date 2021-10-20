@@ -202,6 +202,7 @@
     "section2.madisonjbrooks12": "0.1.1",
     "secure-servedir": "0.2.7",
     "sencisho": "0.2.4",
+    "serve": "^7.1.0",
     "serve-here.js": "^1.1.0",
     "serve46": "1.0.0",
     "servedir": "1.0.0",
