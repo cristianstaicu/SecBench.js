@@ -21,7 +21,7 @@ This Repository has the following number of corresponding vulnerablities.
 | 1    | Prototype pollution                         | 150                    |
 | 2    | Regula expression Denial of Service (ReDoS) | 95                     |
 | 3    | Command Injection                           | 99                     |
-| 4    | Path Traversal                              | 85                     |
+| 4    | Path Traversal                              | 195                    |
 
 
 | vulnerablity                              | npm advisory count | snyk vulnerablity database | Unique Count |
