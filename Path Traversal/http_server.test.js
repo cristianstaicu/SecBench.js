@@ -1,6 +1,5 @@
 //https://hackerone.com/reports/692262
 const path = require("path");
-const { sleep } = require("sleep");
 const pathToFlag = path.resolve(__dirname, "../flag.html");
 
 function genstr(n) {
@@ -20,7 +19,7 @@ test("Path Traversal in http_server", (done) => {
     let attack_string = `curl -v --path-as-is "http://127.0.0.1:8888${genstr()}"`;
 
     exec(attack_string, (error, stdout) => {//attack
-    expect(stdout).toBe(hostsFile);
-    done();
+      expect(stdout).toBe(hostsFile);
+      done();
     });
 });
