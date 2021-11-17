@@ -33,7 +33,7 @@
         "express-cart": "1.1.6",
         "626": "*",
         "@vivaxy/here": "3.2.2",
-        "featurebook": ">= 0",
+        "featurebook": "*",
         "section2.madisonjbrooks12": "*",
         "jansenstuffpleasework": "*",
         "chatbyvista": "*",
@@ -95,7 +95,7 @@
         "serveryztyzt": "*",
         "fsk-server": "*",
         "tiny-http": "*",
-        "xtalk": ">= 0.0.2",
+        "xtalk": "0.0.1",
         "st": "0.2.5",
         "nhouston": "*",
         "fancy-server": "0.1.4"
