@@ -1,7 +1,4 @@
-
-// var a = require("cd-messenger");
-// a.line("green(); console.log('JHU'); //")
-
+//https://security.snyk.io/vuln/SNYK-JS-CDMESSENGER-571493
 test("Arbitrary code execution in cd-messenger", () => 
 {
 	const fs = require("fs");
