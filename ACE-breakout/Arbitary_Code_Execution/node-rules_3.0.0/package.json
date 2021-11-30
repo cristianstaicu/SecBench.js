@@ -1,0 +1,14 @@
+{
+  "name": "rules_3.0.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node-rules.test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-rules": "3.0.0"
+  }
+}
