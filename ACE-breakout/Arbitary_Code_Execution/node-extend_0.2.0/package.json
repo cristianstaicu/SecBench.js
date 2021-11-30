@@ -1,0 +1,14 @@
+{
+  "name": "extend_0.2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node-extend.test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-extend": "^0.2.0"
+  }
+}
