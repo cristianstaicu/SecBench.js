@@ -1,0 +1,14 @@
+{
+  "name": "hot-formula-parser_3.0.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hot-formula-parser.test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hot-formula-parser": "3.0.0"
+  }
+}
