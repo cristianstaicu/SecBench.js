@@ -1,0 +1,14 @@
+{
+  "name": "kmc_1.2.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "kmc.test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kmc": "1.2.2"
+  }
+}
