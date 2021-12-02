@@ -1,0 +1,14 @@
+{
+  "name": "mobile-icon-resizer_0.4.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mobile-icon-resizer.tes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mobile-icon-resizer": "0.4.0"
+  }
+}
