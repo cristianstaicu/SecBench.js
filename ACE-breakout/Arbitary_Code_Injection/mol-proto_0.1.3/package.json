@@ -1,0 +1,14 @@
+{
+  "name": "mol-proto_0.1.3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mol-proto.test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mol-proto": "^0.1.3"
+  }
+}
