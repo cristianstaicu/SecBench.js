@@ -1,0 +1,14 @@
+{
+  "name": "serialize-javascript_2.0.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serialize-javascript.test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serialize-javascript": "2.0.0"
+  }
+}
