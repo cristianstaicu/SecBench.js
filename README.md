@@ -1,18 +1,16 @@
 # vulnerabilities4js
 
-| week | count |
-| ---- | ----- |
-| 11   | 175   |
-| 12   | 194   |
-| 13   | 235   |
-| 14   | 249   |
-| 15   | 282   |
-| 16   | 320   |
-| 17   | 345   |
-| 18   | 350   |
-| 20   | 400   |
-| 21   | 434   |
-| 22   | 502   |
+| Vulnerability            | Total unique packages | Working exploits |
+| ------------------------ | --------------------- | ---------------- |
+| Prototype pollution      | 258                   | 149              |
+| ReDoS                    | 181                   | 95               |
+| Command injection        | 207                   | 99               |
+| Path traversal           | 349                   | 215              |
+| ACE/ACI/Sandbox breakout | 132                   | 25               |
+| RCE                      | 72                    | #                |
+| SQL Injection            | 26                    | #                |
+| Information Exposure     | 48                    | #                |
+| Use After Free           | 87                    |                  |
 
 This Repository has the following number of corresponding vulnerablities.
 
@@ -23,7 +21,6 @@ This Repository has the following number of corresponding vulnerablities.
 | 3    | Command Injection                           | 99                     |
 | 4    | Path Traversal                              | 215                    |
 | 5    | Arbitary Code Injection                     | 23                     |
-
 
 | vulnerablity                              | npm advisory count | snyk vulnerablity database | Unique Count |
 | ----------------------------------------- | ------------------ | -------------------------- | ------------ |
@@ -44,5 +41,3 @@ This Repository has the following number of corresponding vulnerablities.
 | Sensitive Data Exposure                   | 12                 | 0                          | #            |
 | Server-Side Request Forgery               | 5                  | 18                         | #            |
 | Unauthorized File Access                  | 6                  | 0                          | #            |
-
-
