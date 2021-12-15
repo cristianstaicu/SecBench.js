@@ -176,6 +176,16 @@
     "vega-util_1.13.0": "./vega-util_1.13.0/",
     "worksmith_1.0.0": "./worksmith_1.0.0/",
     "y18n_3.2.1": "./y18n_3.2.1/",
-    "yargs-parser_6.0.0": "./yargs-parser_6.0.0/"
-  }
+    "yargs-parser_6.0.0": "./yargs-parser_6.0.0/",
+    "@fabiocaccamo-utils.js_0.17.0": "./@fabiocaccamo-utils.js_0.17.0"
+  },
+  "description": "After installing the dependencies using `npm install`, one can run individual tests with `jest test_name` or the entire suite by runing `jest` in this folder.",
+  "version": "1.0.0",
+  "main": "",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
