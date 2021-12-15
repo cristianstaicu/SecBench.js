@@ -1,0 +1,14 @@
+{
+  "name": "fabiocaccamo-utils.js_0.17.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fabiocaccamo-utils.test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fabiocaccamo/utils.js": "0.17.0"
+  }
+}
