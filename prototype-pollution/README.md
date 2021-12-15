@@ -173,6 +173,7 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 | 39   | [CVE-2019-10798](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10798) | rdf-graph-array        | add                | add graph                                                                                                                          | developed                          |
 | 40   | [CVE-2021-23442](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23442) | @cookiex/deep          | default            | Deep is a library for joining object recursive in one target                                                                       | public                             |
 | 41   | [CVE-2021-3815](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3815)   | @fabiocaccamo/utils.js | set                | sets the property to a given object                                                                                                | public                             |
+| 42   | [CVE-2021-23700](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23700) | merge-deep2            | #main#             | Recursively merge values in a javascript object.                                                                                   | public                             |
 
 The below Packages dont have a PoC.
 
