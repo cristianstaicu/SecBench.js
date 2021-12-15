@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "convict": "6.0.0"
+  }
+}

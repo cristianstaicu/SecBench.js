@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@firebase/util": "0.3.2"
+  }
+}

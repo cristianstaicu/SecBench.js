@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "101": "^1.6.3",
-    "angular": "^1.8.0"
+    "angular": "^1.8.0",
+    "asciitable.js": "^1.0.3"
   }
 }

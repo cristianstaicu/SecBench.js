@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "nconf-toml": "0.0.1"
+  }
+}

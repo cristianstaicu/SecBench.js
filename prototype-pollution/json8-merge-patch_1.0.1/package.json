@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "json8-merge-patch": "1.0.1"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "graphql": "15.5.1"
+  }
+}

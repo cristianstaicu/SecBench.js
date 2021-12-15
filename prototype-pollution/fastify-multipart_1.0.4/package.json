@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "fastify-multipart": "1.0.4"
+  }
+}

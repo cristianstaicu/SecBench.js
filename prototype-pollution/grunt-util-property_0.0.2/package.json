@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "grunt-util-property": "0.0.2"
+  }
+}
