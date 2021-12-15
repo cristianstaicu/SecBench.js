@@ -192,5 +192,6 @@ The below Packages dont have a PoC.
 | 11   | [link](https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183)                          | handlebars    | Not available | Not available                                                        | Not available                  |
 | 12   | [CVE-2021-20089](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20089) | purl          | not available | Not available                                                        | not available                  |
 | 13   | [CVE-2021-23663](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23663) | sey           | #main#        | simple JavaScript build tool with declarative and easy configuration | Unable to install the pacakage |
+| 14   | [CVE-2021-43787](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43787) | nodebb        | not available | not available                                                        | not available                  |
 
 📋
