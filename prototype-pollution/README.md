@@ -176,19 +176,20 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 
 The below Packages dont have a PoC.
 
-| s.no | CVE                                                                             | pacakage name | function      | description about the function | Exploit availability |
-| ---- | ------------------------------------------------------------------------------- | ------------- | ------------- | ------------------------------ | -------------------- |
-| 1    | [link](https://snyk.io/vuln/SNYK-JS-SUBTEXT-548913)                             | subtext       | Not available | Not available                  | Not available        |
-| 2    | [link](https://snyk.io/vuln/SNYK-JS-FASTIFY-559018)                             | fastify       | Not available | Not available                  | Not available        |
-| 3    | [CVE-2020-7679](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7679)   | casperjs      | Not available | Not available                  | Not available        |
-| 4    | [CVE-2020-15366](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-15366) | ajv           | Not available | Not available                  | Not available        |
-| 5    | [link](https://snyk.io/vuln/SNYK-JS-FINEUPLOADER-585902)                        | fine-uploader | Not available | Not available                  | Not available        |
-| 6    | [CVE-2020-1911](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1911)   | hermes-engine | Not available | Not available                  | Not available        |
-| 7    | [link](https://snyk.io/vuln/SNYK-JS-JIFF-1017118)                               | jiff          | not available | Not available                  | Not available        |
-| 8    | [link](https://snyk.io/vuln/SNYK-JS-NUNJUCKS-1079083)                           | nunjucks      | not available | Not available                  | Not available        |
-| 9    | [CVE-2021-21368](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-21368) | msgpack5      | not available | Not available                  | not available        |
-| 10   | [CVE-2020-8141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8141)   | dot           | Not available | Not available                  | Not available        |
-| 11   | [link](https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183)                          | handlebars    | Not available | Not available                  | Not available        |
-| 12   | [CVE-2021-20089](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20089) | purl          | not available | Not available                  | not available        |
+| s.no | CVE                                                                             | pacakage name | function      | description about the function                                       | Exploit availability           |
+| ---- | ------------------------------------------------------------------------------- | ------------- | ------------- | -------------------------------------------------------------------- | ------------------------------ |
+| 1    | [link](https://snyk.io/vuln/SNYK-JS-SUBTEXT-548913)                             | subtext       | Not available | Not available                                                        | Not available                  |
+| 2    | [link](https://snyk.io/vuln/SNYK-JS-FASTIFY-559018)                             | fastify       | Not available | Not available                                                        | Not available                  |
+| 3    | [CVE-2020-7679](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7679)   | casperjs      | Not available | Not available                                                        | Not available                  |
+| 4    | [CVE-2020-15366](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-15366) | ajv           | Not available | Not available                                                        | Not available                  |
+| 5    | [link](https://snyk.io/vuln/SNYK-JS-FINEUPLOADER-585902)                        | fine-uploader | Not available | Not available                                                        | Not available                  |
+| 6    | [CVE-2020-1911](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1911)   | hermes-engine | Not available | Not available                                                        | Not available                  |
+| 7    | [link](https://snyk.io/vuln/SNYK-JS-JIFF-1017118)                               | jiff          | not available | Not available                                                        | Not available                  |
+| 8    | [link](https://snyk.io/vuln/SNYK-JS-NUNJUCKS-1079083)                           | nunjucks      | not available | Not available                                                        | Not available                  |
+| 9    | [CVE-2021-21368](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-21368) | msgpack5      | not available | Not available                                                        | not available                  |
+| 10   | [CVE-2020-8141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8141)   | dot           | Not available | Not available                                                        | Not available                  |
+| 11   | [link](https://snyk.io/vuln/SNYK-JS-HANDLEBARS-174183)                          | handlebars    | Not available | Not available                                                        | Not available                  |
+| 12   | [CVE-2021-20089](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20089) | purl          | not available | Not available                                                        | not available                  |
+| 13   | [CVE-2021-23663](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23663) | sey           | #main#        | simple JavaScript build tool with declarative and easy configuration | Unable to install the pacakage |
 
 📋
