@@ -1,4 +1,3 @@
-//https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943
 test("prototype pollution in 101/set", () => {
   expect({}.polluted).toBe(undefined);
 
