@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "arr-flatten-unflatten": "1.1.4"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": "./set.js:36"
 }

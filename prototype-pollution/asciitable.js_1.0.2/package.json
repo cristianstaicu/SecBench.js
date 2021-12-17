@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "asciitable.js": "1.0.2"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": "./set.js:36"
 }

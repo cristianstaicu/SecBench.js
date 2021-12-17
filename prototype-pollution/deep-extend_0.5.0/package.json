@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "deep-extend": "0.5.0"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": "./set.js:36"
 }

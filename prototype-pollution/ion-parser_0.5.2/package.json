@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "ion-parser": "0.5.2"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": "./set.js:36"
 }

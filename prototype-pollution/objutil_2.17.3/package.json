@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "objutil": "2.17.3"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": "./set.js:36"
 }

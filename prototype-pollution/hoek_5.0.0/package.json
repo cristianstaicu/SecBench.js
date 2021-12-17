@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "hoek": "5.0.0"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": "./set.js:36"
 }

@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "Templ8": "0.7.0"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": "./set.js:36"
 }

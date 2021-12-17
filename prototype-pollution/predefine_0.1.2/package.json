@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "predefine": "0.1.2"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": "./set.js:36"
 }

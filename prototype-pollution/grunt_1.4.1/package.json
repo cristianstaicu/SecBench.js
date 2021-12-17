@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "grunt": "1.4.1"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": "./set.js:36"
 }

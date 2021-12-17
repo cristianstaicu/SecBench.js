@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "node-forge": "0.9.0"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": "./set.js:36"
 }
