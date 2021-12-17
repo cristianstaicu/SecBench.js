@@ -1,3 +1,5 @@
+Requirments: Node.JS version 16.3.0
+
 # vulnerabilities4js
 
 | Vulnerability            | Total unique packages | Working exploits |
