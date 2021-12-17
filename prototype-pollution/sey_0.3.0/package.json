@@ -1,14 +1,13 @@
 {
-  "name": "sey_0.3.0",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "id": "",
   "dependencies": {
-    "sey": "^0.1.0"
-  }
+    "sey": "0.3.0"
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": "./set.js:36"
 }
