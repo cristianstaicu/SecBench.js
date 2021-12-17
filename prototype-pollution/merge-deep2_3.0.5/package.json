@@ -1,14 +1,13 @@
 {
-  "name": "merge-deep2_3.0.5",
-  "version": "1.0.0",
-  "description": "",
-  "main": "merge-deep2.test.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "id": "",
   "dependencies": {
     "merge-deep2": "3.0.5"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": "./set.js:36"
 }
