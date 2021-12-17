@@ -174,7 +174,8 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 | 40   | [CVE-2021-23442](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23442) | @cookiex/deep          | default            | Deep is a library for joining object recursive in one target                                                                       | public                             |
 | 41   | [CVE-2021-3815](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3815)   | @fabiocaccamo/utils.js | set                | sets the property to a given object                                                                                                | public                             |
 | 42   | [CVE-2021-23700](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23700) | merge-deep2            | #main#             | Recursively merge values in a javascript object.                                                                                   | public                             |
-| 43   | [CVE-2021-23807](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23807) | jsonpointer            | set                | sets the property to a given object                                                                                                | public                             |
+| 43   | [CVE-2020-7709](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7709)   | jsonpointer            | set                | sets the property to a given object                                                                                                | public                             |
+| 44   | [CVE-2021-23807](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23807) | jsonpointer            | set                | sets the property to a given object                                                                                                | public                             |
 
 The below Packages dont have a PoC.
 
