@@ -1,0 +1,18 @@
+{
+  "id": "CVE-2021-23448",
+  "dependencies": {
+    "config-handler": "2.0.3"
+  },
+  "constructor": {
+    "prototype": {
+      "polluted": "yes"
+    }
+  },
+  "links": {
+    "source1": "https://github.com/jarradseers/config-handler/issues/1",
+    "source2": "https://security.snyk.io/vuln/SNYK-JS-CONFIGHANDLER-1564947"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
+}
