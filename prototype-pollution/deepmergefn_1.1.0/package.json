@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2021-23417",
+  "dependencies": {
+    "deepmergefn": "1.1.0"
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-DEEPMERGEFN-1310984"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
+}
