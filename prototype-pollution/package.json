@@ -181,7 +181,8 @@
     "brikcss-merge_1.3.0": "./brikcss-merge_1.3.0/",
     "json-pointer_0.6.1": "./json-pointer_0.6.1/",
     "json-pointer_0.6.0": "./json-pointer_0.6.0/",
-    "jsonpointer_4.0.0": "./jsonpointer_4.0.0"
+    "jsonpointer_4.0.0": "./jsonpointer_4.0.0",
+    "x-assign_0.1.4": "./x-assign_0.1.4/"
   },
   "description": "After installing the dependencies using `npm install`, one can run individual tests with `jest test_name` or the entire suite by runing `jest` in this folder.",
   "version": "1.0.0",
