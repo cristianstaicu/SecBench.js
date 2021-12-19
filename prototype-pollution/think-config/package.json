@@ -1,0 +1,13 @@
+{
+  "id": "",
+  "dependencies": {
+    "think-config": "1.0.0"
+  },
+  "links": {
+    "source1": "https://github.com/thinkjs/think-config/commit/31b82468d72f2e1456a27a4827cea378196db6db",
+    "source2": "https://security.snyk.io/vuln/SNYK-JS-THINKCONFIG-1536566"
+  },
+  "fixedVersion": "1.1.3",
+  "fixCommit": "https://github.com/thinkjs/think-config/commit/31b82468d72f2e1456a27a4827cea378196db6db",
+  "sink": ""
+}
