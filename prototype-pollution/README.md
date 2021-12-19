@@ -180,6 +180,7 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 | 46   | [CVE-2021-23452](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23452) | x-assign               | assign             | Object.assign that will merge nested objects and concatenate arrays.                                                               | public                             |
 | 47   | [CVE-2021-23448](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23448) | config-handler         | #main#             | Load your configuration in hierarchy                                                                                               | public                             |
 | 48   | [CVE-2021-3645](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3645)   | @viking04/merge        | #main#             | To merge many sources to target.                                                                                                   | public                             |
+| 49   | [CVE-2021-3766](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3766)   | objection              | set                | sets the property to a given object                                                                                                | public                             |
 
 The below Packages dont have a PoC.
 
