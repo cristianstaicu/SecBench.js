@@ -184,7 +184,8 @@
     "jsonpointer_4.0.0": "./jsonpointer_4.0.0",
     "x-assign_0.1.4": "./x-assign_0.1.4/",
     "config-handler_2.0.3": "./config-handler_2.0.3/",
-    "viking04-merge_1.0.0": "./viking04-merge_1.0.0/"
+    "viking04-merge_1.0.0": "./viking04-merge_1.0.0/",
+    "objection_2.0.0": "./objection_2.0.0/"
   },
   "description": "After installing the dependencies using `npm install`, one can run individual tests with `jest test_name` or the entire suite by runing `jest` in this folder.",
   "version": "1.0.0",
