@@ -183,6 +183,7 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 | 49   | [CVE-2021-3766](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3766)   | objection              | set                | sets the property to a given object                                                                                                | public                             |
 | 50   | [CVE-2021-23432](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23432) | mootools               | merge              | Merges any number of objects recursively without referencing them or their sub-objects.                                            | public                             |
 | 51   | [CVE-2021-23426](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23426) | proto                  | merge              | merges object                                                                                                                      | public                             |
+| 52   | [CVE-2021-23421](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23421) | merge-change           | set                | To set (or replace) property without deep merge.                                                                                   | developed                          |
 
 The below Packages dont have a PoC.
 
