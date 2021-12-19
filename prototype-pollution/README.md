@@ -185,6 +185,7 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 | 51   | [CVE-2021-23426](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23426) | proto                  | merge              | merges object                                                                                                                      | public                             |
 | 52   | [CVE-2021-23421](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23421) | merge-change           | set                | To set (or replace) property without deep merge.                                                                                   | developed                          |
 | 53   | [link](https://security.snyk.io/vuln/SNYK-JS-THINKCONFIG-1536566)               | think-config           | set                | sets the property to a given object                                                                                                | public-devloped                    |
+| 54   | [CVE-2021-23417](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23417) | deepmergefn            | #main#             | Mixes two data objects in depth                                                                                                    | public                             |
 
 The below Packages dont have a PoC.
 
