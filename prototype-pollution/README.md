@@ -199,5 +199,4 @@ The below Packages dont have a PoC.
 | 13   | [CVE-2021-23663](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23663) | sey           | #main#        | simple JavaScript build tool with declarative and easy configuration | Unable to install the pacakage |
 | 14   | [CVE-2021-43787](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43787) | nodebb        | not available | not available                                                        | not available                  |
 | 15   | [link](https://security.snyk.io/vuln/SNYK-JS-UTILSCOPY-1766956)                 | utils-copy    | #main#        | copy or deep clone a value to an arbitrary depth.                    | problematic                    |
-
-📋
+| 16   | [link](https://security.snyk.io/vuln/SNYK-JS-ZRENDER-1586253)                   | zrender       | not available | not available                                                        | not available                  |
