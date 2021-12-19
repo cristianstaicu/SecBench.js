@@ -1,5 +1,5 @@
 //https://security.snyk.io/vuln/SNYK-JS-MOOTOOLS-1325536
-test("prototype pollution in x-assign", () => {
+test("prototype pollution in mootools", () => {
   require("mootools");
 
   expect({}.polluted).toBe(undefined);
