@@ -177,6 +177,7 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 | 43   | [CVE-2020-7709](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7709)   | jsonpointer            | set                | sets the property to a given object                                                                                                | public                             |
 | 44   | [CVE-2021-23807](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23807) | jsonpointer            | set                | sets the property to a given object                                                                                                | public                             |
 | 45   | [link](https://security.snyk.io/vuln/SNYK-JS-BRIKCSSMERGE-1727594)              | @brikcss/merge         | #main#             | Utility to perform a deep merge of a list of objects or arrays.                                                                    | public                             |
+| 46   | [CVE-2021-23452](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23452) | x-assign               | assign             | Object.assign that will merge nested objects and concatenate arrays.                                                               | public                             |
 
 The below Packages dont have a PoC.
 
