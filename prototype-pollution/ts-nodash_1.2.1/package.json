@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2021-23403",
+  "dependencies": {
+    "ts-nodash": "1.2.1"
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-TSNODASH-1311009",
+    "source2": "https://github.com/advisories/GHSA-5xjx-4xcm-hpcm"
+  },
+  "fixedVersion": "1.2.7",
+  "fixCommit": "https://github.com/BadOPCode/NoDash/commit/b9cc2b3b49f6cd5228e406bc57e17a28b998fea5",
+  "sink": ""
+}
