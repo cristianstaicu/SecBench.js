@@ -222,3 +222,4 @@ The below Packages dont have a PoC.
 | 20   | [link](https://security.snyk.io/vuln/SNYK-JS-CONFIDENCE-1088570)                | confidence      | not available      | not available                                                        | not available                  |
 | 21   | [Link](https://security.snyk.io/vuln/SNYK-JS-DOMIFY-1277201)                    | domify          | parse              | not available                                                        | not available                  |
 | 22   | [link](https://security.snyk.io/vuln/SNYK-JS-DUSTJSLINKEDIN-1089257)            | dustjs-linkedin | not available      | not available                                                        | not available                  |
+| 23   | [link](https://security.snyk.io/vuln/SNYK-JS-MOOTOOLSMORE-1255652)              | mootools-more   | not available      | not available                                                        | not available                  |
