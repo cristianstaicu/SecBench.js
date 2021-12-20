@@ -208,3 +208,4 @@ The below Packages dont have a PoC.
 | 15   | [link](https://security.snyk.io/vuln/SNYK-JS-UTILSCOPY-1766956)                 | utils-copy    | #main#             | copy or deep clone a value to an arbitrary depth.                    | problematic                    |
 | 16   | [link](https://security.snyk.io/vuln/SNYK-JS-ZRENDER-1586253)                   | zrender       | not available      | not available                                                        | not available                  |
 | 17   | [link](https://security.snyk.io/vuln/SNYK-JS-IOREDIS-1567196)                   | ioredis       | public-problematic | public-problematic                                                   | public-problematic             |
+| 18   | [link](https://security.snyk.io/vuln/SNYK-JS-URIJS-1319806)                     | urijs         | not available      | not available                                                        | not available                  |
