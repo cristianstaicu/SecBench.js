@@ -214,3 +214,4 @@ The below Packages dont have a PoC.
 | 16   | [link](https://security.snyk.io/vuln/SNYK-JS-ZRENDER-1586253)                   | zrender       | not available      | not available                                                        | not available                  |
 | 17   | [link](https://security.snyk.io/vuln/SNYK-JS-IOREDIS-1567196)                   | ioredis       | public-problematic | public-problematic                                                   | public-problematic             |
 | 18   | [link](https://security.snyk.io/vuln/SNYK-JS-URIJS-1319806)                     | urijs         | not available      | not available                                                        | not available                  |
+| 19   | [link](https://security.snyk.io/vuln/SNYK-JS-NOBLE-1314742)                     | noble         |                    |                                                                      | public-problematic             |
