@@ -198,6 +198,7 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 | 64   | [CVE-2021-23373](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23373) | set-deep-prop           | #main#             | Set the value of a deeply nested object or array                                                                                   | public                             |
 | 65   | [link](https://security.snyk.io/vuln/SNYK-JS-MQUERY-1089718)                    | mquery                  | mergeClone         | \-                                                                                                                                 | public                             |
 | 66   | [CVE-2021-25916](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25916) | patchmerge              | #main#             | Merges JavaScript object literals similary to RFC 7396, but with extra support for arrays of objects                               | public                             |
+| 67   | [CVE-2021-23433](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23433) | algoliasearch-helper    | \_parseNumbers     | \-                                                                                                                                 | public                             |
 
 The below Packages dont have a PoC.
 
