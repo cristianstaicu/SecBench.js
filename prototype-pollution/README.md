@@ -189,6 +189,7 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 | 55   | [CVE-2021-25953](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25953) | putil-merge             | #main#             | Merging multiple objects into one                                                                                                  | public                             |
 | 56   | [CVE-2021-25952](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25952) | just-safe-set           | #main#             | Set value at property                                                                                                              | public                             |
 | 57   | [CVE-2021-23402](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23402) | record-like-deep-assign | #main#             | Recursively assigns enumerable own properties of the given sources to a target object                                              | public                             |
+| 58   | [CVE-2021-23403](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23403) | ts-nodash               | Merge              | Takes two parameters that can be of any object type and will try to merge them together                                            | public                             |
 
 The below Packages dont have a PoC.
 
