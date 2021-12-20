@@ -1,0 +1,13 @@
+{
+  "id": " CVE-2021-25952",
+  "dependencies": {
+    "just-safe-set": "1.0.0"
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-JUSTSAFESET-1316267",
+    "source2": "https://github.com/advisories/GHSA-v26w-gcxh-v4r7"
+  },
+  "fixedVersion": "2.2.2",
+  "fixCommit": "https://github.com/angus-c/just/commit/dd57a476f4bb9d78c6f60741898dc04c71d2eb53",
+  "sink": ""
+}
