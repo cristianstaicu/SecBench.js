@@ -193,6 +193,7 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 | 59   | [CVE-2021-32736](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32736) | think-helper            | extend             | extend object                                                                                                                      | developed                          |
 | 60   | [CVE-2021-23397](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23397) | @ianwalter/merge        | #main#             | Recursively merge JavaScript Objects                                                                                               | public                             |
 | 61   | [CVE-2021-23396](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23396) | lutils                  | merge              | Merge objects together, traversing objects & arrays recursively                                                                    | public                             |
+| 62   | [CVE-2021-23395](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23395) | nedb                    | update             | updates the databse                                                                                                                | public                             |
 
 The below Packages dont have a PoC.
 
