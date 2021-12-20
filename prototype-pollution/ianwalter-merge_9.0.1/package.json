@@ -1,0 +1,12 @@
+{
+  "id": " CVE-2021-23397",
+  "dependencies": {
+    "@ianwalter/merge": "9.0.1"
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-IANWALTERMERGE-1311022"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
+}
