@@ -191,6 +191,7 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 | 57   | [CVE-2021-23402](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23402) | record-like-deep-assign | #main#             | Recursively assigns enumerable own properties of the given sources to a target object                                              | public                             |
 | 58   | [CVE-2021-23403](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23403) | ts-nodash               | Merge              | Takes two parameters that can be of any object type and will try to merge them together                                            | public                             |
 | 59   | [CVE-2021-32736](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32736) | think-helper            | extend             | extend object                                                                                                                      | developed                          |
+| 60   | [CVE-2021-23397](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23397) | @ianwalter/merge        | #main#             | Recursively merge JavaScript Objects                                                                                               | public                             |
 
 The below Packages dont have a PoC.
 
