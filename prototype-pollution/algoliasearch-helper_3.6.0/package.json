@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2021-23433",
+  "dependencies": {
+    "algoliasearch-helper": "3.6.0"
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-ALGOLIASEARCHHELPER-1570421",
+    "source2": "https://github.com/advisories/GHSA-vpf5-82c8-9v36"
+  },
+  "fixedVersion": "3.6.2",
+  "fixCommit": "https://github.com/algolia/algoliasearch-helper-js/commit/4ff542b70b92a6b81cce8b9255700b0bc0817edd",
+  "sink": ""
+}
