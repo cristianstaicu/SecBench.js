@@ -220,3 +220,4 @@ The below Packages dont have a PoC.
 | 18   | [link](https://security.snyk.io/vuln/SNYK-JS-URIJS-1319806)                     | urijs         | not available      | not available                                                        | not available                  |
 | 19   | [link](https://security.snyk.io/vuln/SNYK-JS-NOBLE-1314742)                     | noble         |                    |                                                                      | public-problematic             |
 | 20   | [link](https://security.snyk.io/vuln/SNYK-JS-CONFIDENCE-1088570)                | confidence    | not available      | not available                                                        | not available                  |
+| 21   | [Link](https://security.snyk.io/vuln/SNYK-JS-DOMIFY-1277201)                    | domify        | parse              | not available                                                        | not available                  |
