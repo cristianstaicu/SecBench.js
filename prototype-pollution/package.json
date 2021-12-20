@@ -192,7 +192,8 @@
     "merge-change_1.0.1": "./merge-change_1.0.1/",
     "think-config_1.0.0": "./think-config_1.0.0/",
     "deepmergefn_1.1.0": "./deepmergefn_1.1.0/",
-    "putil-merge_3.0.0": "./putil-merge_3.0.0/"
+    "putil-merge_3.0.0": "./putil-merge_3.0.0/",
+    "just-safe-set_1.0.0": "just-safe-set_1.0.0"
   },
   "description": "After installing the dependencies using `npm install`, one can run individual tests with `jest test_name` or the entire suite by runing `jest` in this folder.",
   "version": "1.0.0",
