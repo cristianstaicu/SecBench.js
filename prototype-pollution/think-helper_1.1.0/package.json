@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2021-32736",
+  "dependencies": {
+    "think-helper": "1.1.0"
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-THINKHELPER-1315383",
+    "source2": "https://github.com/thinkjs/think-helper/security/advisories/GHSA-vr5m-3h59-7jcp"
+  },
+  "fixedVersion": "1.1.7",
+  "fixCommit": "",
+  "sink": ""
+}
