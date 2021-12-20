@@ -196,6 +196,7 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 | 62   | [CVE-2021-23395](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23395) | nedb                    | update             | updates the databse                                                                                                                | public                             |
 | 63   | [CVE-2021-41097](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-41097) | aurelia-path            | parseQueryString   | parse the query                                                                                                                    | public-devloped                    |
 | 64   | [CVE-2021-23373](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23373) | set-deep-prop           | #main#             | Set the value of a deeply nested object or array                                                                                   | public                             |
+| 65   | [link](https://security.snyk.io/vuln/SNYK-JS-MQUERY-1089718)                    | mquery                  | mergeClone         | \-                                                                                                                                 | public                             |
 
 The below Packages dont have a PoC.
 
@@ -224,3 +225,4 @@ The below Packages dont have a PoC.
 | 21   | [Link](https://security.snyk.io/vuln/SNYK-JS-DOMIFY-1277201)                    | domify          | parse              | not available                                                        | not available                  |
 | 22   | [link](https://security.snyk.io/vuln/SNYK-JS-DUSTJSLINKEDIN-1089257)            | dustjs-linkedin | not available      | not available                                                        | not available                  |
 | 23   | [link](https://security.snyk.io/vuln/SNYK-JS-MOOTOOLSMORE-1255652)              | mootools-more   | not available      | not available                                                        | not available                  |
+| 24   | [link](https://security.snyk.io/vuln/SNYK-JS-MONGOOSE-1086688)                  | mongoose        | public-problematic | public-problematic                                                   | public-problematic             |
