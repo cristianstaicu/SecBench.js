@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2021-23395",
+  "dependencies": {
+    "nedb": "1.8.0"
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-NEDB-1305279",
+    "source2": "https://github.com/advisories/GHSA-339j-hqgx-qrrx"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
+}
