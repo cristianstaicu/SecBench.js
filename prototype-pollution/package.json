@@ -210,7 +210,8 @@
     "lyngs-merge_1.0.9": "./lyngs-merge_1.0.9",
     "json-schema_0.3.0": "./json-schema_0.3.0/",
     "highcharts_4.2.7": "./highcharts_4.2.7/",
-    "node-ini_1.0.0": "./node-ini_1.0.0/"
+    "node-ini_1.0.0": "./node-ini_1.0.0/",
+    "grpc-grpc-js_1.1.0": "./grpc-grpc-js_1.1.0/"
   },
   "description": "After installing the dependencies using `npm install`, one can run individual tests with `jest test_name` or the entire suite by runing `jest` in this folder.",
   "version": "1.0.0",
