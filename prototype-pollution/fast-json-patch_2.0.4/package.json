@@ -1,7 +1,8 @@
 {
   "id": "",
   "dependencies": {
-    "fast-json-patch": "2.0.4"
+    "fast-json-patch": "2.0.4",
+    "is-arguments": "1.1.1"
   },
   "links": {
     "source1": "",
