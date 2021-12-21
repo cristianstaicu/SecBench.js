@@ -234,3 +234,4 @@ The below Packages dont have a PoC.
 | 22   | [link](https://security.snyk.io/vuln/SNYK-JS-DUSTJSLINKEDIN-1089257)            | dustjs-linkedin | not available      | not available                                                        | not available                  |
 | 23   | [link](https://security.snyk.io/vuln/SNYK-JS-MOOTOOLSMORE-1255652)              | mootools-more   | not available      | not available                                                        | not available                  |
 | 24   | [link](https://security.snyk.io/vuln/SNYK-JS-MONGOOSE-1086688)                  | mongoose        | public-problematic | public-problematic                                                   | public-problematic             |
+| 25   | [link](https://security.snyk.io/vuln/SNYK-JS-DYNAMOOSE-1070792)                 | dynamoose       | not available      | not available                                                        | not available                  |
