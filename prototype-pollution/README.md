@@ -238,3 +238,4 @@ The below Packages dont have a PoC.
 | 24   | [link](https://security.snyk.io/vuln/SNYK-JS-MONGOOSE-1086688)                  | mongoose        | public-problematic | public-problematic                                                   | public-problematic             |
 | 25   | [link](https://security.snyk.io/vuln/SNYK-JS-DYNAMOOSE-1070792)                 | dynamoose       | not available      | not available                                                        | not available                  |
 | 26   | [link](https://security.snyk.io/vuln/SNYK-JS-HIGHCHARTS-1018906)                | highcharts      | public-problematic | public-problematic                                                   | public-problematic             |
+| 27   | [link](https://security.snyk.io/vuln/SNYK-JS-HIGHLIGHTJS-1045326)               | highlight.js    | not available      | not available                                                        | not available                  |
