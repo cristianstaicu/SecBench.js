@@ -1,7 +1,8 @@
 {
   "id": "",
   "dependencies": {
-    "copy-props": "2.0.4"
+    "copy-props": "2.0.4",
+    "each-props": "2.0.0"
   },
   "links": {
     "source1": "",
