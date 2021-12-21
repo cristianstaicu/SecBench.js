@@ -200,6 +200,12 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 | 66   | [CVE-2021-25916](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25916) | patchmerge              | #main#             | Merges JavaScript object literals similary to RFC 7396, but with extra support for arrays of objects                               | public                             |
 | 67   | [CVE-2021-23433](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23433) | algoliasearch-helper    | \_parseNumbers     | \-                                                                                                                                 | public                             |
 
+Source: Huntr
+
+| S.no | CVE                                                                           | Pacakage name | Function | Description                                  | Exploit availability |
+| ---- | ----------------------------------------------------------------------------- | ------------- | -------- | -------------------------------------------- | -------------------- |
+| 1    | [CVE-2021-3918](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3918) | json-schema   | #main#   | Simple object validation using JSON schemas. | public               |
+
 The below Packages dont have a PoC.
 
 | s.no | CVE                                                                             | pacakage name   | function           | description about the function                                       | Exploit availability           |
