@@ -200,6 +200,7 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 | 66   | [CVE-2021-25916](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25916) | patchmerge              | #main#             | Merges JavaScript object literals similary to RFC 7396, but with extra support for arrays of objects                               | public                             |
 | 67   | [CVE-2021-23433](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23433) | algoliasearch-helper    | \_parseNumbers     | \-                                                                                                                                 | public                             |
 | 68   | [CVE-2018-3722](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3722)   | merge-deep              | #main#             | Recursively merges values in a javascript object.                                                                                  | public                             |
+| 69   | [link](https://security.snyk.io/vuln/SNYK-JS-NODEINI-1054844)                   | node-ini                | parse              | To parse a .ini file asynchronously:                                                                                               | public                             |
 
 Source: Huntr
 
