@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2020-7768",
+  "dependencies": {
+    "@grpc/grpc-js": "1.1.0"
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-GRPCGRPCJS-1038818",
+    "source2": "https://github.com/grpc/grpc-node/pull/1605"
+  },
+  "fixedVersion": "1.1.8",
+  "fixCommit": "https://github.com/grpc/grpc-node/pull/1605/commits/967eeb5443891fba1230438d85d649bc9219b66e",
+  "sink": ""
+}
