@@ -1,0 +1,13 @@
+{
+  "id": " CWE-400",
+  "dependencies": {
+    "lodash": "4.17.15"
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-LODASH-608086",
+    "source2": "https://hackerone.com/reports/864701"
+  },
+  "fixedVersion": "4.17.7",
+  "fixCommit": "https://github.com/grpc/grpc-node/pull/1605/commits/967eeb5443891fba1230438d85d649bc9219b66e",
+  "sink": ""
+}
