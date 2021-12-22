@@ -242,3 +242,4 @@ The below Packages dont have a PoC.
 | 70   | [CVE-2020-7768](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7768)   | @grpc/grpc-js   | #main#             | gRPC Library for Node                                                | public                         |
 | 28   | [CVE-2020-7746](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7746)   | chart.js        | not available      | not available                                                        | not available                  |
 | 29   | [link](https://security.snyk.io/vuln/SNYK-JS-JSONLOGICJS-674308)                | json-logic-js   | client-side?       | client-side?                                                         | client-side?                   |
+| 30   | [CVE-2020-8237](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8237)   | json-bigint     | public-problematic | public-problematic                                                   | public-problematic             |
