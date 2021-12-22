@@ -213,6 +213,7 @@
     "yargs-parser_6.0.0": "./yargs-parser_6.0.0/",
     "lodash_4.17.15": "./lodash_4.17.15/",
     "lodash_4.17.10": "./lodash_4.17.10/",
+    "lodash_4.17.9": "./lodash_4.17.9/",
     "node-ini_1.0.0": "./node-ini_1.0.0/",
     "grpc-grpc-js_1.1.0": "./grpc-grpc-js_1.1.0/"
   },
