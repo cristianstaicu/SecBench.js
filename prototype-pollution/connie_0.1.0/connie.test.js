@@ -1,4 +1,4 @@
-test("prototype pollution in confucious", () => {
+test("prototype pollution in connie", () => {
   expect({}.polluted).toBe(undefined);
 
   const connie = require("connie");
