@@ -127,6 +127,8 @@ The below vulnerable packages are got from https://www.npmjs.com/advisories
 | 11  | [link](https://www.npmjs.com/advisories/893)                                    | lutils-merge            | #main#             | Merge javascript objects recursively.                          | public               |
 | 12  | [CVE-2018-3752](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3752)   | merge-options           | #main#             | Merge Option Objects                                           | public               |
 | 13  | [link](https://hackerone.com/reports/871156)                                    | plain-object-merge      | #main#             | deep merging json-serializable plain objects.                  | public               |
+| 14  | [link](https://hackerone.com/reports/864701)                                    | lodash@14.17.15         | set                | sets attribute to the object                                   | public               |
+| 15  | [link](https://hackerone.com/reports/864701)                                    | lodash@14.17.15         | setWith            | sets property to object                                        | public               |
 
 The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 
