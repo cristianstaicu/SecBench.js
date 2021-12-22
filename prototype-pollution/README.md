@@ -240,3 +240,4 @@ The below Packages dont have a PoC.
 | 26   | [link](https://security.snyk.io/vuln/SNYK-JS-HIGHCHARTS-1018906)                | highcharts      | public-problematic | public-problematic                                                   | public-problematic             |
 | 27   | [link](https://security.snyk.io/vuln/SNYK-JS-HIGHLIGHTJS-1045326)               | highlight.js    | not available      | not available                                                        | not available                  |
 | 70   | [CVE-2020-7768](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7768)   | @grpc/grpc-js   | #main#             | gRPC Library for Node                                                | public                         |
+| 28   | [CVE-2020-7746](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7746)   | chart.js        | not available      | not available                                                        | not available                  |
