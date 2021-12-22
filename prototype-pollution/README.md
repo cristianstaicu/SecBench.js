@@ -206,6 +206,7 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 | 69   | [link](https://security.snyk.io/vuln/SNYK-JS-NODEINI-1054844)                   | node-ini                | parse                  | To parse a .ini file asynchronously:                                                                                               | public                             |
 | 71   | [CVE-2019-10744](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10744) | lodash@4.17.10          | defaultsDeep           | Recursively assigns default properties.                                                                                            | public                             |
 | 72   | [CVE-2021-3805](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3805)   | object-path             | withInheritedProps.set | \-                                                                                                                                 | public                             |
+| 73   | [CVE-2020-7639](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7639)   | eivindfjeldstad-dot     | set                    | set the value to object                                                                                                            | public                             |
 
 Source: Huntr
 
