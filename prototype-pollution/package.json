@@ -215,7 +215,8 @@
     "lodash_4.17.10": "./lodash_4.17.10/",
     "lodash_4.17.9": "./lodash_4.17.9/",
     "node-ini_1.0.0": "./node-ini_1.0.0/",
-    "grpc-grpc-js_1.1.0": "./grpc-grpc-js_1.1.0/"
+    "grpc-grpc-js_1.1.0": "./grpc-grpc-js_1.1.0/",
+    "eivindfjeldstad-dot_0.0.1": "./eivindfjeldstad-dot_0.0.1/"
   },
   "description": "After installing the dependencies using `npm install`, one can run individual tests with `jest test_name` or the entire suite by runing `jest` in this folder.",
   "version": "1.0.0",
