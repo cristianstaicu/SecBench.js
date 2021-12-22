@@ -1,0 +1,14 @@
+{
+  "id": "CVE-2018-16487",
+  "dependencies": {
+    "lodash": "4.17.9"
+  },
+  "links": {
+    "source1": "https://hackerone.com/reports/380873",
+    "source2": "https://security.snyk.io/vuln/SNYK-JS-LODASH-73638",
+    "source3": "https://github.com/advisories/GHSA-h726-x36v-rx45"
+  },
+  "fixedVersion": "4.17.11",
+  "fixCommit": "https://github.com/lodash/lodash/commit/90e6199a161b6445b01454517b40ef65ebecd2ad",
+  "sink": ""
+}
