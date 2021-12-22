@@ -200,6 +200,7 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 | 66   | [CVE-2021-25916](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25916) | patchmerge              | #main#             | Merges JavaScript object literals similary to RFC 7396, but with extra support for arrays of objects                               | public                             |
 | 67   | [CVE-2021-23433](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23433) | algoliasearch-helper    | \_parseNumbers     | \-                                                                                                                                 | public                             |
 | 68   | [CVE-2018-3722](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3722)   | merge-deep              | #main#             | Recursively merges values in a javascript object.                                                                                  | public                             |
+| 69   | [link](https://security.snyk.io/vuln/SNYK-JS-NODEINI-1054844)                   | node-ini                | parse              | To parse a .ini file asynchronously:                                                                                               | public                             |
 
 Source: Huntr
 
@@ -237,3 +238,8 @@ The below Packages dont have a PoC.
 | 24   | [link](https://security.snyk.io/vuln/SNYK-JS-MONGOOSE-1086688)                  | mongoose        | public-problematic | public-problematic                                                   | public-problematic             |
 | 25   | [link](https://security.snyk.io/vuln/SNYK-JS-DYNAMOOSE-1070792)                 | dynamoose       | not available      | not available                                                        | not available                  |
 | 26   | [link](https://security.snyk.io/vuln/SNYK-JS-HIGHCHARTS-1018906)                | highcharts      | public-problematic | public-problematic                                                   | public-problematic             |
+| 27   | [link](https://security.snyk.io/vuln/SNYK-JS-HIGHLIGHTJS-1045326)               | highlight.js    | not available      | not available                                                        | not available                  |
+| 70   | [CVE-2020-7768](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7768)   | @grpc/grpc-js   | #main#             | gRPC Library for Node                                                | public                         |
+| 28   | [CVE-2020-7746](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7746)   | chart.js        | not available      | not available                                                        | not available                  |
+| 29   | [link](https://security.snyk.io/vuln/SNYK-JS-JSONLOGICJS-674308)                | json-logic-js   | client-side?       | client-side?                                                         | client-side?                   |
+| 30   | [CVE-2020-8237](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8237)   | json-bigint     | public-problematic | public-problematic                                                   | public-problematic             |
