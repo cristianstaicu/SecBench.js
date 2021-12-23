@@ -1,0 +1,14 @@
+{
+  "id": "CVE-2018-3723",
+  "dependencies": {
+    "defaults-deep": "0.2.0"
+  },
+  "links": {
+    "source1": "https://hackerone.com/reports/310514",
+    "source2": "https://security.snyk.io/vuln/npm:defaults-deep:20180215",
+    "source3": "https://github.com/advisories/GHSA-cqp5-m4pq-gfgp"
+  },
+  "fixedVersion": "0.2.4",
+  "fixCommit": "https://github.com/jonschlinkert/defaults-deep/commit/c873f341327ad885ff4d0f23b3d3bca31b0343e5",
+  "sink": ""
+}
