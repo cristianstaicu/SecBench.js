@@ -1,0 +1,14 @@
+{
+  "id": "CVE-2018-3719",
+  "dependencies": {
+    "mixin-deep": "1.3.0"
+  },
+  "links": {
+    "source1": "https://hackerone.com/reports/311236",
+    "source2": "https://security.snyk.io/vuln/npm:mixin-deep:20180215",
+    "source3": "https://github.com/advisories/GHSA-3mpr-hq3p-49h9"
+  },
+  "fixedVersion": "1.3.1",
+  "fixCommit": "https://github.com/jonschlinkert/mixin-deep/commit/578b0bc5e74e14de9ef4975f504dc698796bdf9c",
+  "sink": ""
+}
