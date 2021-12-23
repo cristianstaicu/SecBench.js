@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2020-28458",
+  "dependencies": {
+    "datatables.net": "1.10.22"
+  },
+  "link": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-DATATABLESNET-1016402"
+  },
+  "fixedVersion": "1.10.23",
+  "fixCommit": "https://github.com/DataTables/DataTablesSrc/commit/a51cbe99fd3d02aa5582f97d4af1615d11a1ea03",
+  "sink": ""
+}

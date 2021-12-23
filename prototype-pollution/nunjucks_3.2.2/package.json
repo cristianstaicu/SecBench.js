@@ -1,0 +1,12 @@
+{
+  "id": "",
+  "dependencies": {
+    "nunjucks": "3.2.2"
+  },
+  "link": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-NUNJUCKS-1079083"
+  },
+  "fixedVersion": "3.2.3",
+  "fixCommit": "n/a",
+  "sink": ""
+}

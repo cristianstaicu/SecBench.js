@@ -1,0 +1,12 @@
+{
+  "id": "",
+  "dependencies": {
+    "subtext": "6.0.12"
+  },
+  "link": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-SUBTEXT-548913"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
+}

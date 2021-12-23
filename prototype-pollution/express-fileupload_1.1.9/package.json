@@ -1,0 +1,18 @@
+{
+  "id": "CVE-2020-7699",
+  "dependencies": {
+    "express": "*",
+    "express-fileupload": "1.1.9",
+    "supertest": "^6.1.6"
+  },
+  "link": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-EXPRESSFILEUPLOAD-595969"
+  },
+  "fixedVersion": "1.1.10",
+  "fixCommit": "n/a",
+  "sink": "",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.5",
+    "regenerator-runtime": "^0.13.9"
+  }
+}

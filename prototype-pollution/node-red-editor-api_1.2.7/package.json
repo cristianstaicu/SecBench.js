@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2021-21297",
+  "dependencies": {
+    "@node-red/editor-api": "1.2.7"
+  },
+  "link": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-NODEREDEDITORAPI-1080621"
+  },
+  "fixedVersion": "1.2.8",
+  "fixCommit": "n/a",
+  "sink": ""
+}

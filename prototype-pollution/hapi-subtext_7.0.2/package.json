@@ -1,0 +1,12 @@
+{
+  "id": "",
+  "dependencies": {
+    "@hapi/subtext": "7.0.2"
+  },
+  "link": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-HAPISUBTEXT-548912"
+  },
+  "fixedVersion": "6.1.3",
+  "fixCommit": "https://github.com/hapijs/subtext/commit/0c1a3f6e3384324a4ac7a1cee36634e9bf2be9d8",
+  "sink": ""
+}

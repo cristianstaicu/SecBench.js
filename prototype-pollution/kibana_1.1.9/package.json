@@ -1,0 +1,12 @@
+{
+  "id": "CVE-2020-7012",
+  "dependencies": {
+    "kibana": "1.1.9"
+  },
+  "link": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-KIBANA-571291"
+  },
+  "fixedVersion": "6.8.9",
+  "fixCommit": "n/a",
+  "sink": ""
+}

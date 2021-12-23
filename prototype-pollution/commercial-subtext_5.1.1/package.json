@@ -1,0 +1,12 @@
+{
+  "id": "",
+  "dependencies": {
+    "@commercial/subtext": "5.1.1"
+  },
+  "link": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-COMMERCIALSUBTEXT-548908"
+  },
+  "fixedVersion": "5.1.2",
+  "fixCommit": "https://github.com/hapijs/subtext/commit/b55f5508e1688cc1024b75dc2301adb5c63ad4de",
+  "sink": ""
+}

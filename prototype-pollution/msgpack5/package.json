@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2021-21368",
+  "dependencies": {
+    "msgpack5": "5.2.0"
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-MSGPACK5-1085640",
+    "source2": ""
+  },
+  "fixedVersion": "5.2.1",
+  "fixCommit": "https://github.com/mcollina/msgpack5/commit/2f3ade7a0bbb315d467141409bc956fa8742ab3f",
+  "sink": ""
+}
