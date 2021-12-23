@@ -4,7 +4,8 @@
     "decal": "2.0.0"
   },
   "links": {
-    "source1": "https://security.snyk.io/vuln/SNYK-JS-DECAL-1051007"
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-DECAL-1051007",
+    "source2": "https://github.com/advisories/GHSA-vp77-fqqp-79j8"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
