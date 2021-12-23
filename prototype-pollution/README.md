@@ -131,6 +131,7 @@ The below vulnerable packages are got from https://www.npmjs.com/advisories
 | 15  | [link](https://hackerone.com/reports/864701)                                    | lodash@14.17.15         | setWith            | sets property to object                                                                                               | public               |
 | 16  | [CVE-2018-16487](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16487) | lodash@14.17.9          | merge              | Recursively merges own and inherited enumerable string keyed properties of source objects into the destination object | public               |
 | 17  | [CVE-2018-3719](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3719)   | mixin-deep@1.3.0        | #main#             | Deeply mix the properties of objects into the first object but dosent clone                                           | public               |
+| 18  | [CVE-2018-3723](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3723)   | defaults-deep@0.2.0     | #main#             | recursively copies only the missing properties/values to the target object.                                           | public               |
 
 The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 
