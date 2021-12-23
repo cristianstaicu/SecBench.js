@@ -218,7 +218,8 @@
     "grpc-grpc-js_1.1.0": "./grpc-grpc-js_1.1.0/",
     "eivindfjeldstad-dot_0.0.1": "./eivindfjeldstad-dot_0.0.1/",
     "merge-deep_3.0.2": "./merge-deep_3.0.2/",
-    "mixin-deep_1.3.0": "./mixin-deep_1.3.0/"
+    "mixin-deep_1.3.0": "./mixin-deep_1.3.0/",
+    "defaults-deep_0.2.0": "./defaults-deep_0.2.0/"
   },
   "description": "After installing the dependencies using `npm install`, one can run individual tests with `jest test_name` or the entire suite by runing `jest` in this folder.",
   "version": "1.0.0",
