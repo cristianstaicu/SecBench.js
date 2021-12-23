@@ -76,7 +76,7 @@ Please find below details about the vulnerabilities/exploits in our dataset.
 | 65 | [CVE-2019-10792](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10792) | bodymen | handler() | | own |
 | 66 | [CVE-2019-10750](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10750) | deeply | #main# | | public |
 | 67 | [CVE-2019-10747](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10747) | set-value | #main# | Set nested properties on an object using dot notation. | own |
-| 68 | [CVE-2019-10746](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10746) | mixin-deep | #main# | Deeply mix the properties of objects into the first object but dosent clone | public |
+| 68 | [CVE-2019-10746](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10746) | mixin-deep@2.0.0 | #main# | Deeply mix the properties of objects into the first object but dosent clone | public |
 | 69 | [CVE-2019-10745](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10745) | assign-deep | #main# | Deeply assign the values of all enumerable-own-properties and symbols from one or more source objects to a target object | own/ modified |
 | 70 | [CVE-2018-16492](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16492) | extend | #main# | Extend one object with one or more others, | public |
 | 71 | [CVE-2018-16491](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16491) | node.extend | #main# | Extend one object with one or more others, | public |
@@ -130,6 +130,7 @@ The below vulnerable packages are got from https://www.npmjs.com/advisories
 | 14  | [link](https://hackerone.com/reports/864701)                                    | lodash@14.17.15         | set                | sets attribute to the object                                                                                          | public               |
 | 15  | [link](https://hackerone.com/reports/864701)                                    | lodash@14.17.15         | setWith            | sets property to object                                                                                               | public               |
 | 16  | [CVE-2018-16487](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16487) | lodash@14.17.9          | merge              | Recursively merges own and inherited enumerable string keyed properties of source objects into the destination object | public               |
+| 17  | [CVE-2018-3719](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3719)   | mixin-deep@1.3.0        | #main#             | Deeply mix the properties of objects into the first object but dosent clone                                           | public               |
 
 The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 
