@@ -1,0 +1,14 @@
+{
+  "id": "CVE-2020-15256",
+  "dependencies": {
+    "object-path": "0.11.4"
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-OBJECTPATH-1017036",
+    "source2": "https://github.com/advisories/GHSA-v39p-96qg-c8rf",
+    "source3": "https://hackerone.com/reports/878332"
+  },
+  "fixedVersion": "0.11.5",
+  "fixCommit": "https://github.com/mariocasciaro/object-path/commit/7bdf4abefd102d16c163d633e8994ef154cab9eb",
+  "sink": ""
+}
