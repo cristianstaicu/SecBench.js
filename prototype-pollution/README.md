@@ -55,7 +55,7 @@ Please find below details about the vulnerabilities/exploits in our dataset.
 | 44 | [CVE-2020-28503](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28503) | copy-props | copyprops() | Copy source to destination simply | public |
 | 45 | [CVE-2020-28499](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28499) | merge | recursive() | recursively merges objects properties to object | public |
 | 46 | [CVE-2020-28495](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28495) | total.js | set() | The function recursively set the property in the target object, however it does not properly check the key being set, leading to a prototype pollution | public |
-| 47 | [CVE-2020-28480](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28480) | jointjs | setByPath() | Set a value at the path in a nested object | public |
+| 47 | [CVE-2020-28480](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28480) | jointjs@2.2.1 | setByPath() | Set a value at the path in a nested object | public |
 | 48 | [CVE-2020-28283](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28283) | libnested | set() | The function recursively set the property in the target object, however it does not properly check the key being set, leading to a prototype pollution | public |
 | 49 | [CVE-2020-28282](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28282) | getobject | set() | The function recursively set the property in the target object, however it does not properly check the key being set, leading to a prototype pollution | public |
 | 50 | [CVE-2020-28281](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28281) | set-object-value | setObjectValue | sets the object with given value | public |
@@ -210,6 +210,7 @@ The below vulnerable packages are got from https://snyk.io/vuln?type=npm
 | 72   | [CVE-2021-3805](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3805)   | object-path             | withInheritedProps.set | \-                                                                                                                                 | public                             |
 | 73   | [CVE-2020-7639](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7639)   | eivindfjeldstad-dot     | set                    | set the value to object                                                                                                            | public                             |
 | 74   | [CVE-2020-28449](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28449) | decal                   | set                    | set the value to object                                                                                                            | public                             |
+| 75   | [CVE-2021-23444](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23444) | jointjs@3.4.0           | setByPath              | Set a value at the path in a nested object. delim is the delimiter used in the path                                                | public                             |
 
 Source: Huntr
 
