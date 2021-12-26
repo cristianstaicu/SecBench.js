@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "node-pg-migrate": "2.22.2"
+  }
+}

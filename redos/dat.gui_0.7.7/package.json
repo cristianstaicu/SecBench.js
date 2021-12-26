@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "dat.gui": "0.7.7"
+  }
+}

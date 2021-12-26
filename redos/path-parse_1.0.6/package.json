@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "path-parse": "1.0.6"
+  }
+}

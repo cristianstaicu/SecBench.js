@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "html-parse-stringify2": "2.0.1"
+  }
+}
