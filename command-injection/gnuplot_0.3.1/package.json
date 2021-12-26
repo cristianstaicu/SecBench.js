@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "gnuplot": "0.3.1"
+  }
+}

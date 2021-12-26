@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "alfred-workflow-nodejs": "2.0.1"
+  }
+}

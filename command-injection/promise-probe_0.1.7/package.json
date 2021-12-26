@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "promise-probe": "0.1.7"
+  }
+}

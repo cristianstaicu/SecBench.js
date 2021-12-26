@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "monorepo-build": "0.1.9"
+  }
+}

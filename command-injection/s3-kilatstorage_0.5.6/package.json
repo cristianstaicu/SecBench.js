@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "s3-kilatstorage": "0.5.6"
+  }
+}

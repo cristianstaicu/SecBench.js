@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "strong-nginx-controller": "1.0.2"
+  }
+}

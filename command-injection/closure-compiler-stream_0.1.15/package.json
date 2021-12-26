@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "closure-compiler-stream": "0.1.15"
+  }
+}

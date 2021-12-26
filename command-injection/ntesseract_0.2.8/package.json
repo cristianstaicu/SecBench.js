@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "ntesseract": "0.2.8"
+  }
+}

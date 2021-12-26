@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "corenlp-js-prefab": "1.0.1"
+  }
+}

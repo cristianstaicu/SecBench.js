@@ -1,0 +1,6 @@
+{
+  "name": "command-injection",
+  "dependencies": {
+    "addax_1.0.6": "./addax_1.0.6/"
+  }
+}

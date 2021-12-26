@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "adb-driver": "0.1.8"
+  }
+}

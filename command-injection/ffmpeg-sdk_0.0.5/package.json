@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "ffmpeg-sdk": "0.0.5"
+  }
+}

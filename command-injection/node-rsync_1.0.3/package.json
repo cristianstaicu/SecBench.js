@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "node-rsync": "1.0.3"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "corenlp-js-interface": "1.0.3"
+  }
+}

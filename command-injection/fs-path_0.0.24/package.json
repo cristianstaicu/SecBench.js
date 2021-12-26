@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "fs-path": "0.0.24"
+  }
+}

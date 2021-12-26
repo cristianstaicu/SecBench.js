@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "kill-process-on-port": "1.0.0"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "heroku-env": "0.2.0"
+  }
+}

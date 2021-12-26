@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "connection-tester": "0.2.0"
+  }
+}

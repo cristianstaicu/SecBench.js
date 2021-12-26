@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "libnmap": "0.4.11"
+  }
+}

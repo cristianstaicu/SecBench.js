@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "node-notifier": "8.0.0"
+  }
+}

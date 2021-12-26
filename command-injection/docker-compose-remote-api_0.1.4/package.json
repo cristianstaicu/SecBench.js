@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "docker-compose-remote-api": "0.1.4"
+  }
+}

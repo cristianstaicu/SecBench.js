@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "deferred-exec": "0.3.1"
+  }
+}

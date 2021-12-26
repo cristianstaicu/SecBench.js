@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "vboxmanage.js": "1.0.6"
+  }
+}

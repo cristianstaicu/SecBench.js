@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "node-mpv": "0.12.2"
+  }
+}
