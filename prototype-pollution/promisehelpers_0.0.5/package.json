@@ -4,7 +4,7 @@
     "promisehelpers": "0.0.5"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-PROMISEHELPERS-598686",
     "source2": ""
   },
   "fixedVersion": "n/a",

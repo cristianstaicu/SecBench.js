@@ -4,7 +4,7 @@
     "property-expr": "2.0.2"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-PROPERTYEXPR-598800",
     "source2": ""
   },
   "fixedVersion": "n/a",

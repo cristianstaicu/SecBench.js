@@ -4,7 +4,7 @@
     "extend": "3.0.1"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-JSEXTEND-1297101",
     "source2": ""
   },
   "fixedVersion": "n/a",

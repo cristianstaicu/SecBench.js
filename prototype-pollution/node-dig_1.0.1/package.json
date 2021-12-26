@@ -4,7 +4,7 @@
     "node-dig": "1.0.1"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-NODEDIG-1069825",
     "source2": ""
   },
   "fixedVersion": "n/a",

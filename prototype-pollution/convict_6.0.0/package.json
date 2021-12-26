@@ -4,7 +4,7 @@
     "convict": "6.0.0"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-CONVICT-1062508",
     "source2": ""
   },
   "fixedVersion": "n/a",

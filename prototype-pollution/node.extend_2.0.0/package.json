@@ -4,7 +4,7 @@
     "node.extend": "2.0.0"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-NODEEXTEND-73641",
     "source2": ""
   },
   "fixedVersion": "n/a",

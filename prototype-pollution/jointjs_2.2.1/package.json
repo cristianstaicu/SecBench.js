@@ -4,7 +4,7 @@
     "jointjs": "2.2.1"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-JOINTJS-1579578",
     "source2": ""
   },
   "fixedVersion": "n/a",

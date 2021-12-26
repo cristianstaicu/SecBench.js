@@ -4,7 +4,7 @@
     "ion-parser": "0.5.2"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-IONPARSER-1048971",
     "source2": ""
   },
   "fixedVersion": "n/a",

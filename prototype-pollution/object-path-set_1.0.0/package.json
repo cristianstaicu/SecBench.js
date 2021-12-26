@@ -4,7 +4,7 @@
     "object-path-set": "1.0.0"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-OBJECTPATHSET-607908",
     "source2": ""
   },
   "fixedVersion": "n/a",

@@ -4,7 +4,7 @@
     "aws-sdk": "2.813.0"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-AWSSDKSHAREDINIFILELOADER-1049304",
     "source2": ""
   },
   "fixedVersion": "n/a",

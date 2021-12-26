@@ -4,7 +4,7 @@
     "plain-object-merge": "1.0.1"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-PLAINOBJECTMERGE-1085643",
     "source2": ""
   },
   "fixedVersion": "n/a",

@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-23807",
   "dependencies": {
     "jsonpointer": "4.0.0"
   },
