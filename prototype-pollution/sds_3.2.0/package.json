@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-SDS-564123",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-cxm3-284p-qc4v"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",

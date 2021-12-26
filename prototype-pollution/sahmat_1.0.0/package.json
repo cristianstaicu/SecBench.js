@@ -4,7 +4,7 @@
     "sahmat": "1.0.0"
   },
   "links": {
-    "source1": "",
+    "source1": "https://github.com/advisories/GHSA-83pq-466j-fc6j",
     "source2": ""
   },
   "fixedVersion": "n/a",

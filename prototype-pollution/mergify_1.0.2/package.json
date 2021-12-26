@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-MERGIFY-72673",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-3f95-w5h5-fq86"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",

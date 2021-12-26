@@ -6,7 +6,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-COPYPROPS-1082870",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",

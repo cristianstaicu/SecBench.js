@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-JSEXTEND-1297101",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-mh82-55cm-6gfh"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",

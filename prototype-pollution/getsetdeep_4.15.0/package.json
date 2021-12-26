@@ -4,7 +4,7 @@
     "getsetdeep": "4.15.0"
   },
   "links": {
-    "source1": "",
+    "source1": "https://github.com/advisories/GHSA-779f-wgxg-qr8f",
     "source2": ""
   },
   "fixedVersion": "n/a",

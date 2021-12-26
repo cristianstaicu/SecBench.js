@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-MSGPACK5-1085640",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "5.2.1",
   "fixCommit": "https://github.com/mcollina/msgpack5/commit/2f3ade7a0bbb315d467141409bc956fa8742ab3f",

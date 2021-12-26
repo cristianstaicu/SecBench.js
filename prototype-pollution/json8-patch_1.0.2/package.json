@@ -4,7 +4,7 @@
     "json8-patch": "1.0.2"
   },
   "links": {
-    "source1": "",
+    "source1": "https://github.com/advisories/GHSA-4q97-fh3f-j294",
     "source2": ""
   },
   "fixedVersion": "n/a",

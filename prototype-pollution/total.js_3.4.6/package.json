@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-TOTALJS-1046671",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-6cf8-qhqj-vjqm"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",

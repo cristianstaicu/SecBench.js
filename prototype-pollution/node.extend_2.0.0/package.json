@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-NODEEXTEND-73641",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",

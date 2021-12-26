@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-INIPARSERJS-1065989",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-67mq-h2r9-rh2m"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
