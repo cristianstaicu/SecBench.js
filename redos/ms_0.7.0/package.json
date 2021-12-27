@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "ms": "0.7.0"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

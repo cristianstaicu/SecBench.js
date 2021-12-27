@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "lodash": "4.17.4"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

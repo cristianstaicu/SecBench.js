@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "underscore.string": "3.3.4"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

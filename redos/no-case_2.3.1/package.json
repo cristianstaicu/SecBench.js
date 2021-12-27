@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "no-case": "2.3.1"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

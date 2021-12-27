@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "ua-parser-js": "0.7.22"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "dat.gui": "0.7.7"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

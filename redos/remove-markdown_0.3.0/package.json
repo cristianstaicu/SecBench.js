@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "remove-markdown": "0.3.0"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "moment": "2.18.1"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

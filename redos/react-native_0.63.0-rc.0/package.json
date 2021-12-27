@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "react-native": "0.63.0-rc.0"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

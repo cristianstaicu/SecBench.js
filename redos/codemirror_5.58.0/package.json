@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "codemirror": "5.58.0"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

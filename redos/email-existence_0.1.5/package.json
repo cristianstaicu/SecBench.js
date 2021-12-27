@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "email-existence": "0.1.5"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

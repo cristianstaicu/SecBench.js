@@ -1,5 +1,13 @@
 {
+  "id": "",
   "dependencies": {
     "is-my-json-valid": "2.20.1"
-  }
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }
