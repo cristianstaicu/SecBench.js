@@ -1,0 +1,13 @@
+{
+  "id": "",
+  "dependencies": {
+    "conventional-commits-parser": "3.2.0"
+  },
+  "links": {
+    "source1": "https://github.com/conventional-changelog/conventional-changelog/pull/861/commits/2fcd2d4e2a05986b3cd410d2d0db7d975ccca0f1",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
+}
