@@ -1,0 +1,13 @@
+{
+  "id": "",
+  "dependencies": {
+    "terminal-kit": "2.1.0"
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
+}
