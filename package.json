@@ -16,13 +16,9 @@
     "url": "https://github.com/cristianstaicu/vulnerabilities4js/issues"
   },
   "devDependencies": {
-    "eslint": "^7.9.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jest": "^24.1.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
+    "prototype-pollution": "./prototype-pollution/",
+    "redos": "./redos/",
+    "command-injection": "./command-injection/",
     "husky": "^4.3.0",
     "jest": "^26.4.2",
     "lint-staged": "^10.5.0",
