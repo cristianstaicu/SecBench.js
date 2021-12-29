@@ -106,6 +106,8 @@
     "urlregex_0.5.0": "./urlregex_0.5.0/",
     "valid-email_0.0.1": "./valid-email_0.0.1/",
     "vant_2.12.11": "./vant_2.12.11/",
-    "yamlparser_0.0.2": "./yamlparser_0.0.2/"
+    "yamlparser_0.0.2": "./yamlparser_0.0.2/",
+    "natural_5.1.0": "./natural_5.1.0",
+    "terminal-kit_2.1.0": "./terminal-kit_2.1.0/"
   }
 }
