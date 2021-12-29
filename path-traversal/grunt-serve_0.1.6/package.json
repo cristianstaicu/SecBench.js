@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "grunt-serve": "0.1.6"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "statichttpserver": "0.9.7"
+  }
+}

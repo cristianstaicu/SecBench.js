@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "node-red-contrib-huemagic": "3.0.0"
+  }
+}

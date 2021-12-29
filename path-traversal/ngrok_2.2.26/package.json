@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "ngrok": "2.2.26"
+  }
+}

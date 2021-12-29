@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "pico-static-server": "2.3.4"
+  }
+}

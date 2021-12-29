@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "rtcmulticonnection-client": "1.0.5"
+  }
+}

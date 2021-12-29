@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "express-blinker": "0.0.6"
+  }
+}

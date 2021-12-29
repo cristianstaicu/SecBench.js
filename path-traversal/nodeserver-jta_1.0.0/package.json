@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "nodeserver-jta": "1.0.0"
+  }
+}

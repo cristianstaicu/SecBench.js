@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "nitro-server": "1.3.3"
+  }
+}

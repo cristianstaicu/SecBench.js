@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "koa-body": "2.0.0"
+  }
+}

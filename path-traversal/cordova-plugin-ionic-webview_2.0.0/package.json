@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "cordova-plugin-ionic-webview": "2.0.0"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "web-server-mock": "0.2.2"
+  }
+}

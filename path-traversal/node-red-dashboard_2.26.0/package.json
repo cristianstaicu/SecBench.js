@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "node-red-dashboard": "2.26.0"
+  }
+}

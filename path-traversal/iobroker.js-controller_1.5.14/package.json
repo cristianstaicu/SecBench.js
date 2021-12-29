@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "iobroker.js-controller": "1.5.14"
+  }
+}

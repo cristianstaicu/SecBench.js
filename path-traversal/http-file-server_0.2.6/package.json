@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "http-file-server": "0.2.6"
+  }
+}

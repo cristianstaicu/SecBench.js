@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "mysql2csv": "1.0.1"
+  }
+}

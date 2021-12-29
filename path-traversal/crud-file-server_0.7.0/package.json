@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "crud-file-server": "0.7.0"
+  }
+}

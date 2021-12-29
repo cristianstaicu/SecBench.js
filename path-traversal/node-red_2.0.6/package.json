@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "node-red": "2.0.6"
+  }
+}

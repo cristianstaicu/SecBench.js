@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "tape": "5.3.1"
+  }
+}

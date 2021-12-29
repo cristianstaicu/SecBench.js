@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "restify-swagger-jsdoc": "3.0.0"
+  }
+}

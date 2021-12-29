@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "ex-http-frame": "1.0.2"
+  }
+}

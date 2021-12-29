@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "node-static-webserver": "0.0.1"
+  }
+}

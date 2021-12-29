@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "rapid-httpserver": "0.1.3"
+  }
+}

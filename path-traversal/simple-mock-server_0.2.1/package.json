@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "simple-mock-server": "0.2.1"
+  }
+}

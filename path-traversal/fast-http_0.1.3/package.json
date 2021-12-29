@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "fast-http": "0.1.3"
+  }
+}
