@@ -1,0 +1,13 @@
+{
+  "id": "",
+  "dependencies": {
+    "colors-cli": "1.0.25"
+  },
+  "links": {
+    "source1": "",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
+}
