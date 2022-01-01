@@ -1,0 +1,13 @@
+{
+  "id": "",
+  "dependencies": {
+    "js-yaml": "3.13.0"
+  },
+  "links": {
+    "source1": "https://github.com/advisories/GHSA-8j8c-7jfh-h6hx",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
+}
