@@ -1,5 +1,5 @@
 //
-test("Arbitrary code execution in cd-messenger", () => {
+test("Remote code execution in heroku-exec-util", () => {
   const fs = require("fs");
   const heu = require("heroku-exec-util");
   const path = "./heroku-exec-util";
