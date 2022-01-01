@@ -1,0 +1,13 @@
+{
+  "id": "",
+  "dependencies": {
+    "veval": "1.0.0"
+  },
+  "links": {
+    "source1": "https://github.com/advisories/GHSA-54qm-37qr-w5wq",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
+}
