@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "git": "^0.1.5",
+    "git": "0.1.5",
     "sleep": "^6.3.0"
   }
 }
