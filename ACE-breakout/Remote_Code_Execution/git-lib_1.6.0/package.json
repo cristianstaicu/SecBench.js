@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "git-lib": "^1.6.0"
+    "git-lib": "1.6.0"
   }
 }
