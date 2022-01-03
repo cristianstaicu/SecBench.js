@@ -1,4 +1,4 @@
-//https://security.snyk.io/vuln/SNYK-JS-ARPPING-1060047
+//https://security.snyk.io/vuln/SNYK-JS-IMAGICKAL-1060040
 test("Remote code execution in imagickal", () => {
   const im = require("imagickal");
   const fs = require("fs");
