@@ -39,4 +39,18 @@ Huntr.dev:
 
 | S.NO | CVE                                                    | Pacakage name | Function | Description about the function                           | Exploit Availability |
 | ---- | ------------------------------------------------------ | ------------- | -------- | -------------------------------------------------------- | -------------------- |
-|      | [link](https://www.huntr.dev/bounties/2-npm-json-ptr/) | json-ptr      | get      | Gets the target object's value at the pointer's location | public               |
+|   1   | [link](https://www.huntr.dev/bounties/2-npm-json-ptr/) | json-ptr      | get      | Gets the target object's value at the pointer's location | public               |
+
+
+Hackerone:
+
+| S.NO | CVE                                          | Pacakage name | Function | Description about the function | Exploit Availability |
+| ---- | -------------------------------------------- | ------------- | -------- | ------------------------------ | -------------------- |
+| 1    | [link](https://hackerone.com/reports/319473) | open          | #main#   | Used to open a website         | public               |
+
+GHSA:
+
+| S.NO | CVE                                                       | Pacakage name | Function | Description about the function           | Exploit Availability |
+| ---- | --------------------------------------------------------- | ------------- | -------- | ---------------------------------------- | -------------------- |
+| 1    | [link](https://github.com/advisories/GHSA-54qm-37qr-w5wq) | veval         | #main#   | Simple VM based eval function for NodeJS | public               |
+| 2    | [link](https://github.com/advisories/GHSA-8j8c-7jfh-h6hx) | js-yaml       | load     | Parses string as single YAML document    | public               |
