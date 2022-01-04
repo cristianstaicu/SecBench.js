@@ -34,3 +34,9 @@
 | 32 | [link](https://security.snyk.io/vuln/SNYK-JS-STATICEVAL-173693)                 | static-eval@1.1.1    | #main#            | to evaluate statically-analyzable expressions.                                                     | public    |
 | 33 | [CVE-2020-7729](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7729)   | grunt                | readYAML          | read Yaml files                                                                                    | developed |
 | 34 | [link](https://security.snyk.io/vuln/SNYK-JS-MARSDB-480405)                     | marsdb               | find              | find documents                                                                                     | nikos     |
+
+Huntr.dev:
+
+| S.NO | CVE                                                    | Pacakage name | Function | Description about the function                           | Exploit Availability |
+| ---- | ------------------------------------------------------ | ------------- | -------- | -------------------------------------------------------- | -------------------- |
+|      | [link](https://www.huntr.dev/bounties/2-npm-json-ptr/) | json-ptr      | get      | Gets the target object's value at the pointer's location | public               |
