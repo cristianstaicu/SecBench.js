@@ -49,10 +49,17 @@ Huntr.dev:
 
 
 Hackerone:
+| S.NO | CVE                                                                           | Pacakage name | Function | Description about the function                                                             | Exploit Availability |
+| ---- | ----------------------------------------------------------------------------- | ------------- | -------- | ------------------------------------------------------------------------------------------ | -------------------- |
+| 1    | [link](https://hackerone.com/reports/319473)                                  | open          | #main#   | Used to open a website                                                                     | public               |
+| 2    | [link](https://hackerone.com/reports/973245)                                  | imagickal     | identify | get image dimensions and type                                                              | public               |
+| 3    | [link](https://hackerone.com/reports/730111)                                  | gity          | commit   | commit to github                                                                           | public               |
+| 4    | [link](https://hackerone.com/reports/718241)                                  | git-lib       | add      | Attempts to git add a file                                                                 | public               |
+| 5    | [link](https://hackerone.com/reports/902739)                                  | bunyan        | #main#   | JSON logging library for node.js services                                                  | public               |
+| 6    | [link](https://hackerone.com/reports/728047)                                  | git-promise   | #main#   | Simple wrapper that allows you to run any git command using a more intuitive syntax.       | public               |
+| 7    | [CVE-2020-8132](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8132) | pdf-image     | #main#   | provides an interface to convert PDF's pages to png files in Node.js by using ImageMagick. | public               |
 
-| S.NO | CVE                                          | Pacakage name | Function | Description about the function | Exploit Availability |
-| ---- | -------------------------------------------- | ------------- | -------- | ------------------------------ | -------------------- |
-| 1    | [link](https://hackerone.com/reports/319473) | open          | #main#   | Used to open a website         | public               |
+
 
 GHSA:
 
