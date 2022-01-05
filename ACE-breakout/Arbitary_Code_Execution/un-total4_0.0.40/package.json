@@ -1,0 +1,14 @@
+{
+  "name": "total4_0.0.40",
+  "version": "1.0.0",
+  "description": "",
+  "main": "total4.test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "total4": "0.0.30"
+  }
+}
