@@ -1,0 +1,15 @@
+{
+  "name": "protojs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "poc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotjs": "^0.2.0",
+    "protojs": "^1.0.3"
+  }
+}
