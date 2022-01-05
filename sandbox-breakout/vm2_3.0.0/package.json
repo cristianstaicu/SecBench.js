@@ -1,0 +1,14 @@
+{
+  "name": "vm2_3.0.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vm2.test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vm2": "^3.0.0"
+  }
+}
