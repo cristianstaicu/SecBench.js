@@ -46,7 +46,8 @@ Huntr.dev:
 | S.NO | CVE                                                    | Pacakage name | Function | Description about the function                           | Exploit Availability |
 | ---- | ------------------------------------------------------ | ------------- | -------- | -------------------------------------------------------- | -------------------- |
 |   1   | [link](https://www.huntr.dev/bounties/2-npm-json-ptr/) | json-ptr      | get      | Gets the target object's value at the pointer's location | public               |
-
+| 2 | [link](https://github.com/SunilWang/node-os-utils/issues/2)  | node-os-utils | exec   | execute instructions                                     | public |
+| 3 | [link](https://issueexplorer.com/issue/scopsy/node-unrar/10) | node-unrar    | #main# | Created to unrar archives using unrar library.           | public |
 
 Hackerone:
 | S.NO | CVE                                                                           | Pacakage name | Function | Description about the function                                                             | Exploit Availability |
