@@ -1,0 +1,15 @@
+{
+  "name": "front-matter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "front-matter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "front-matter": "4.0.0",
+    "sleep": "^6.3.0"
+  }
+}
