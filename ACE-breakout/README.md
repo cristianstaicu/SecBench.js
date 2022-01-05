@@ -33,7 +33,11 @@
 | 31 | [CVE-2020-7672](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7672)   | mosc                 | parse\_properties | to parse properties                                                                                | public    |
 | 32 | [link](https://security.snyk.io/vuln/SNYK-JS-STATICEVAL-173693)                 | static-eval@1.1.1    | #main#            | to evaluate statically-analyzable expressions.                                                     | public    |
 | 33 | [CVE-2020-7729](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7729)   | grunt                | readYAML          | read Yaml files                                                                                    | developed |
-| 34 | [link](https://security.snyk.io/vuln/SNYK-JS-MARSDB-480405)                     | marsdb               | find              | find documents                                                                                     | nikos     |
+| 34 | [link](https://security.snyk.io/vuln/SNYK-JS-MARSDB-480405)                     | marsdb               | find              | find documents                 | 35 | [link](https://security.snyk.io/vuln/SNYK-JS-HEROKUEXECUTIL-674661)           | heroku-exec-util | ssh       | ssh with given credentials                    | from Nikolas |
+| 36 | [link](https://security.snyk.io/vuln/SNYK-JS-GIT-1568518)                     | git              | git       | This is a library for Git written in Node.js. | public       |
+| 37 | [link](https://security.snyk.io/vuln/SNYK-JS-ARPPING-1060047)                 | arpping          | ping      | ping the ip                                   | public       |
+| 38 | [CVE-2020-7620](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7620) | pomelo-monitor   | getPsInfo | Gathers process information                   | public       |                                                                    | nikos     |
+
 
 Huntr.dev:
 
