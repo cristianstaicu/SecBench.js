@@ -1,4 +1,3 @@
-//https://securitylab.github.com/advisories/GHSL-2021-030-redos-CodeMirror/
 let basicCTypes = [
   "int",
   "long",
@@ -11,25 +10,18 @@ let basicCTypes = [
   "void",
   "bool",
 ];
-
 function cTypes(identifier) {
   return (
     basicCTypes.propertyIsEnumerable(identifier) || /.+_t$/.test(identifier)
-  ); // <- /.+_t$/ is the problem.
+  );
 }
-
 test("ReDos in codemirror", () => {
-  const genstr = require("./utils").genstr;
-  const measureTime = require("./utils").measureTime;
-
+  const genstr = require("../utils").genstr;
+  const measureTime = require("../utils").measureTime;
   let str = genstr(65536, "a");
-
   let t = measureTime(function () {
     cTypes(str);
-    // console.log(agent.os);
   });
-
   let time = t[0] + t[1] / 1000000000;
-
   expect(time).toBeGreaterThan(1);
 });

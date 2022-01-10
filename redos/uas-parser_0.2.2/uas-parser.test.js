@@ -1,9 +1,7 @@
-//https://snyk.io/vuln/npm:uas-parser:20180305
 test("ReDos in uas-parser", () => {
   process.on("uncaughtException", () => {});
   process.on("unhandledRejection", () => {});
-
-  const measureTime = require("./utils").measureTime;
+  const measureTime = require("../utils").measureTime;
   const path = require("path");
   const PATH_REQ = path.resolve(
     __dirname,
@@ -12,7 +10,6 @@ test("ReDos in uas-parser", () => {
   require(PATH_REQ);
   jest.mock(PATH_REQ);
   const uasParser = require("uas-parser");
-
   let t = measureTime(function () {
     try {
       uasParser.parse(
@@ -21,8 +18,6 @@ test("ReDos in uas-parser", () => {
       );
     } catch (e) {}
   });
-
   let time = t[0] + t[1] / 1000000000;
-
   expect(time).toBeGreaterThan(1);
 });
