@@ -1,7 +1,7 @@
 //https://hackerone.com/reports/319629
 test("ReDos in rgb2hex", () => {
-  const genstr = require("./utils").genstr;
-  const measureTime = require("./utils").measureTime;
+  const genstr = require("../utils").genstr;
+  const measureTime = require("../utils").measureTime;
   const rgb2hex = require("rgb2hex");
 
   const color = "rgb(" + genstr(14, "0000,") + "000";
