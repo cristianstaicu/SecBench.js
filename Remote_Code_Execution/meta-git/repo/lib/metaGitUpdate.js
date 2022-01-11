@@ -10,7 +10,7 @@ module.exports = (options = {}) => {
   if (!meta) return;
 
   // Filter out existing projects.
-  const missing = Object.keys(meta.projects).filter(name => !fs.existsSync(name));
+  const missing = Object.keys(meta.projects).filter((name) => !fs.existsSync(name));
 
   if (options.dryRun) {
     if (missing.length) {

@@ -48,7 +48,7 @@ exec({ cmd: `git clone ${repoUrl} ${dirname}`, displayDir: dirname }, (err, resu
         cmd: `git clone ${gitUrl} ${folder}`,
         displayDir: path.join(newDir, folder),
       },
-      err => {
+      (err) => {
         if (err) throw err;
 
         child();

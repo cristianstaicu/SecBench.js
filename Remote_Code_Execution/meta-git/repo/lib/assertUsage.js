@@ -21,7 +21,7 @@ module.exports = function assertUsage(command, usage, options = { allow: [] }) {
         // multi-choice optional single param
         let matches = token.match(/(-{1,}\w*)/g);
         usages.add(undefined);
-        matches.forEach(match => {
+        matches.forEach((match) => {
           usages.add(match);
         });
         return;
@@ -35,11 +35,11 @@ module.exports = function assertUsage(command, usage, options = { allow: [] }) {
     return options.allow.test(commandOne);
   } else if (!options.allow instanceof Array) throw new Error('options.allow must be an Array or RegExp');
 
-  options.allow.forEach(usage => {
+  options.allow.forEach((usage) => {
     usages.add(usage);
   });
 
-  lines.forEach(line => {
+  lines.forEach((line) => {
     if (!regex.test(line)) return;
     addUsage(regex, line, usages);
   });

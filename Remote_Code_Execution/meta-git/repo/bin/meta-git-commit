@@ -20,7 +20,7 @@ if (!assertUsage('meta git commit', usage, { allow: /.*/ })) return console.log(
 
 function parseCommand(argv) {
   return argv
-    .map(arg => {
+    .map((arg) => {
       return arg.indexOf(' ') > 0 ? `"${arg}"` : arg;
     })
     .join(' ');
