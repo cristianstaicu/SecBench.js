@@ -1,2223 +1,2223 @@
-sey , CVE-2021-23663
-md-to-pdf , CVE-2021-23639
-express-openid-connect , CVE-2021-41246
-swagger-ui , GHSA-qrmm-w75w-3wpx
-@fabiocaccamo/utils.js , CVE-2021-3815
-github-todos , CVE-2021-44684
-next , CVE-2021-43803
-plupload , CVE-2021-23562
-hexo , CVE-2021-25987
-nodebb , CVE-2021-43788
-nodebb , CVE-2021-43787
-nodebb , CVE-2021-43786
-@backstage/plugin-scaffolder-backend , CVE-2021-43783
-@joeattardi/emoji-button , CVE-2021-43785
-@backstage/plugin-scaffolder-backend , GHSA-2g8g-63j4-9w3r
-@backstage/plugin-auth-backend , CVE-2021-43776
-aws-iot-device-sdk-v2 , CVE-2021-40828
-aws-iot-device-sdk-v2 , CVE-2021-40831
-aws-iot-device-sdk-v2 , CVE-2021-40830
-aws-iot-device-sdk-v2 , CVE-2021-40829
-docker-cli-js , CVE-2021-23732
-pekeupload , CVE-2021-23673
-ssrf-agent , CVE-2021-23718
-algoliasearch-helper , CVE-2021-23433
-ckeditor4 , CVE-2021-41165
-ckeditor4 , CVE-2021-41164
-json-schema , CVE-2021-3918
-@openzeppelin/contracts , GHSA-wmpv-c2jp-j2xg
-@theia/plugin-ext , CVE-2021-41038
-starkbank-ecdsa , CVE-2021-43571
-apostrophe , CVE-2021-25979
-com.starkbank:ecdsa-java , GHSA-9wx7-jrvc-28mm
-@sap-cloud-sdk/core , CVE-2021-41251
-validator , GHSA-xx4c-jj58-r7x6
-apostrophe , CVE-2021-25978
-@cyyynthia/tokenize , GHSA-jcjx-c3j3-44pr
-apollo-server , GHSA-qm7x-rc44-rrqw
-graphql-playground-react , CVE-2021-41249
-graphiql , CVE-2021-41248
-dotty , CVE-2021-23624
-bootstrap-table , CVE-2021-23472
-tempura , CVE-2021-23784
-jsonpointer , CVE-2021-23807
-json-ptr , CVE-2021-23509
-json-pointer , CVE-2021-23820
-rc , GHSA-g2q5-5433-rhrf
-coa , GHSA-73qr-pfmq-6rp8
-@grafana/data , CVE-2021-41174
-nbdime , CVE-2021-41134
-validator , CVE-2021-3765
-TinyMCE , GHSA-r8hm-w5f7-wj39
-aaptjs , CVE-2020-36379
-aaptjs , CVE-2020-36378
-aaptjs , CVE-2020-36377
-aaptjs , CVE-2020-36376
-aaptjs , CVE-2020-36381
-aaptjs , CVE-2020-36380
-froala-editor , CVE-2020-22864
-jquery-ui , CVE-2021-41183
-jquery-ui , CVE-2021-41184
-jquery-ui , CVE-2021-41182
-ua-parser-js , GHSA-pjwm-rvh2-c87w
-TinyMCE , GHSA-5h9g-x5rv-25wg
-x-assign , CVE-2021-23452
-modern-async , CVE-2021-41167
-vm2 , CVE-2021-23449
-@backstage/plugin-scaffolder-backend , CVE-2021-41151
-kindeditor , CVE-2021-42227
-kindeditor , CVE-2021-42228
-electron , CVE-2021-39184
-config-handler , CVE-2021-23448
-object-hierarchy-access , CVE-2020-28270
-@redocly/openapi-cli , GHSA-q324-q795-2q5p
-fastify-static , CVE-2021-22964
-keypair , CVE-2021-41117
-rsshub , CVE-2021-21278
-class-validator , CVE-2019-18413
-deepref , CVE-2020-28274
-predefine , CVE-2020-28280
-libnested , CVE-2020-28283
-getobject , CVE-2020-28282
-jsoneditor , CVE-2020-23849
-teddy , CVE-2021-23447
-opencv , CVE-2019-10061
-ckeditor4 , CVE-2021-26272
-thinkjs , CVE-2020-21176
-patchmerge , CVE-2021-25916
-froala-editor , CVE-2021-30109
-mongo-express , CVE-2021-23372
-strapi , CVE-2021-28128
-fastify-static , CVE-2021-22963
-lodash , CVE-2021-41720
-handsontable , CVE-2021-23446
-parse-server , CVE-2021-41109
-passport-oauth2 , CVE-2021-41580
-jsoneditor , CVE-2021-3822
-i , CVE-2021-3820
-datatables.net , CVE-2021-23445
-aurelia-path , CVE-2021-41097
-ghost , GHSA-65p7-pjj8-ggmr
-millisecond , GHSA-m489-xr35-fjxr
-serve-here.js , CVE-2019-5444
-node-static , GHSA-8r4g-cg4m-x23c
-jointjs , CVE-2021-23444
-edge.js , CVE-2021-23443
-jsuites , CVE-2021-41086
-@asyncapi/modelina , GHSA-4jg2-84c2-pj95
-ssh2 , CVE-2020-26301
-nth-check , CVE-2021-3803
-object-path , CVE-2021-3805
-taro , CVE-2021-3804
-@cookiex/deep , CVE-2021-23442
-code-server , CVE-2021-3810
-ansi-regex , CVE-2021-3807
-zrender , CVE-2021-39227
-ghost , GHSA-wfrj-qqc2-83cm
-mixme , GHSA-84p7-fh9c-6g8h
-prismjs , CVE-2021-3801
-peertube , CVE-2021-3780
-semver-regex , CVE-2021-3795
-@vuelidate/validators , CVE-2021-3794
-tmpl , CVE-2021-3777
-@openzeppelin/contracts , CVE-2021-41264
-@openzeppelin/contracts-upgradeable , GHSA-q4h9-46xg-m3x9
-body-parser-xml , CVE-2021-3666
-matrix-js-sdk , CVE-2021-40823
-set-value , CVE-2021-23440
-@viking04/merge , CVE-2021-3645
-remark-html , CVE-2021-39199
-objection , CVE-2021-3766
-file-upload-with-preview , CVE-2021-23439
-rebber , GHSA-2c83-wfv3-q25f
-parse-server , GHSA-593v-wcqx-hq2w
-immer , CVE-2021-3757
-@theia/mini-browser , CVE-2021-34435
-mpath , CVE-2021-23438
-Proto , CVE-2021-23426
-immer , CVE-2021-23436
-atlasboard , CVE-2021-39109
-parse-server , CVE-2021-39187
-axios , CVE-2021-3749
-total.js , CVE-2021-32831
-next , CVE-2021-39178
-detect-character-encoding , CVE-2021-39176
-@npmcli/arborist , CVE-2021-39135
-@npmcli/arborist , CVE-2021-39134
-tar , CVE-2021-37713
-tar , CVE-2021-37712
-tar , CVE-2021-37701
-open-graph , CVE-2021-23419
-serverless-offline , CVE-2021-38384
-merge-change , CVE-2021-23421
-object-path , CVE-2021-23434
-express-cart , CVE-2020-22403
-passport-saml , CVE-2021-39171
-@openzeppelin/contracts , CVE-2021-39167
-@openzeppelin/contracts-upgradeable , CVE-2021-39168
-hbs , CVE-2021-32822
-trim-off-newlines , CVE-2021-23425
-ansi-html , CVE-2021-23424
-transpile , CVE-2021-23429
-node-degenerator , CVE-2021-23406
-startserver , CVE-2021-23430
-mootools , CVE-2021-23432
-joplin , CVE-2021-23431
-detect-character-encoding , CVE-2021-39157
-@asyncapi/java-spring-cloud-stream-template , CVE-2021-37694
-ced , CVE-2021-39131
-ckeditor4 , CVE-2021-37695
-parse-server , CVE-2021-39138
-ckeditor4 , CVE-2021-32809
-ckeditor4 , CVE-2021-32808
-@diez/generation , CVE-2021-32830
-@github/paste-markdown , CVE-2021-37700
-next , CVE-2021-37699
-serve , CVE-2018-3718
-tar , CVE-2021-32804
-tar , CVE-2021-32803
-think-config , GHSA-6cj2-92m5-7mvp
-xmldom , CVE-2021-32796
-jszip , CVE-2021-23413
-url-parse , CVE-2021-3664
-@npmcli/git , GHSA-hxwm-x553-x359
-curly-bracket-parser , CVE-2021-23416
-deepmergefn , CVE-2021-23417
-video.js , CVE-2021-23414
-isomorphic-git , CVE-2021-30483
-@liquity/contracts , GHSA-xh2p-7p87-fhgh
-strapi , CVE-2019-19609
-locutus , CVE-2020-13619
-deephas , CVE-2020-28271
-field , CVE-2020-28269
-png-img , CVE-2020-28248
-msgpack , CVE-2021-23410
-anchorme , CVE-2021-23411
-gitlogplus , CVE-2021-23412
-ghost , CVE-2021-39192
-org.webjars.npm:xlsx , CVE-2021-32014
-org.webjars.npm:xlsx , CVE-2021-32012
-org.webjars.npm:xlsx , CVE-2021-32013
-urijs , CVE-2021-3647
-gatsby-source-wordpress , CVE-2021-32770
-putil-merge , CVE-2021-25953
-is-email , CVE-2021-36716
-total.js , CVE-2021-23389
-total4 , CVE-2021-23390
-just-safe-set , CVE-2021-25952
-ts-nodash , CVE-2021-23403
-record-like-deep-assign , CVE-2021-23402
-stellar-sdk , CVE-2021-32738
-think-helper , CVE-2021-32736
-nodemailer , CVE-2021-23400
-wincred , CVE-2021-23399
-mermaid , CVE-2021-35513
-prismjs , CVE-2021-32723
-@auth0/nextjs-auth0 , CVE-2021-32702
-react-bootstrap-table , CVE-2021-23398
-is-svg , CVE-2021-29059
-color-string , CVE-2021-29060
-mongo-express , CVE-2021-21422
-striptags , CVE-2021-32696
-lutils , CVE-2021-23396
-tenvoy , CVE-2021-32685
-supermixer , CVE-2020-24939
-valine , CVE-2021-34801
-@scandipwa/magento-scripts , CVE-2021-32684
-tenvoy , GHSA-7r96-8g3x-g36m
-nedb , CVE-2021-23395
-matrix-appservice-bridge , CVE-2021-32659
-@apollosproject/data-connector-rock , CVE-2021-32691
-expand-hash , CVE-2021-25948
-set-getter , CVE-2021-25949
-ckeditor4 , CVE-2021-33829
-locutus , CVE-2021-23392
-calipso , CVE-2021-23391
-reg-keygen-git-hash-plugin , CVE-2021-32673
-nestie , CVE-2021-25947
-glob-parent , CVE-2020-28469
-auth0-lock , CVE-2021-32641
-@backstage/techdocs-common , CVE-2021-32660
-@backstage/plugin-techdocs , CVE-2021-32661
-@backstage/techdocs-common , CVE-2021-32662
-merge-deep , CVE-2021-26707
-forms , CVE-2021-23388
-react-native , CVE-2020-1920
-@aws-crypto/client-browser , GHSA-h45p-w933-jxh3
-trim-newlines , CVE-2021-33623
-css-what , CVE-2021-33587
-nconf-toml , CVE-2021-25946
-ws , CVE-2021-32640
-normalize-url , CVE-2021-33502
-@ronomon/opened , CVE-2021-29300
-js-extend , CVE-2021-25945
-trailing-slash , CVE-2021-23387
-@worker-tools/stripe-webhook , GHSA-4g53-vp7q-gfjv
-tinymce , GHSA-5vm8-hhgr-jcjp
-@floffah/build , GHSA-jcgr-9698-82jx
-json-ptr , GHSA-rrqv-vjrw-hrcr
-pixl-class , CVE-2020-7640
-fun-map , CVE-2020-7644
-node-rules , CVE-2020-7609
-@keystonejs/keystone , CVE-2021-32624
-paypal-adaptive , CVE-2020-7643
-lazysizes , CVE-2020-7642
-svg2png , CVE-2020-11887
-msrcrypto , CVE-2020-1026
-express-mock-middleware , CVE-2020-7616
-fsa , CVE-2020-7615
-xdLocalStorage , CVE-2020-11611
-xdLocalStorage , CVE-2015-9544
-xdLocalStorage , CVE-2015-9545
-compass-compile , CVE-2020-7635
-heroku-addonpool , CVE-2020-7634
-adb-driver , CVE-2020-7636
-dns-packet , CVE-2021-23386
-jquery-bbq , CVE-2021-20086
-browserslist , CVE-2021-23364
-xmlhttprequest-ssl , CVE-2021-31597
-jquery-deparam , CVE-2021-20087
-safe-obj , CVE-2021-25928
-safe-flat , CVE-2021-25927
-postcss , CVE-2021-23382
-node-mpv , CVE-2020-7632
-diskusage-ng , CVE-2020-7631
-path-parse , CVE-2021-23343
-@fastify/csrf , CVE-2021-29624
-express-hbs , CVE-2021-32817
-haml-coffee , CVE-2021-32818
-squirrelly , CVE-2021-32819
-101 , CVE-2021-25943
-deep-override , CVE-2021-25941
-matrix-react-sdk , GHSA-8796-gc9j-63rv
-mosc , CVE-2020-7672
-cd-messenger , CVE-2020-7675
-access-policy , CVE-2020-7674
-node-extend , CVE-2020-7673
-casperjs , CVE-2020-7679
-wifiscanner , CVE-2020-15362
-mversion , CVE-2020-7688
-tileserver-gl , CVE-2020-15500
-koa-shopify-auth , CVE-2020-8176
-jspdf , CVE-2020-7690
-devcert , CVE-2020-8186
-rollup-plugin-serve , CVE-2020-7684
-react-native-fast-image , CVE-2020-7696
-docsify , CVE-2020-7680
-get-git-data , CVE-2020-7619
-tiny-conf , CVE-2020-7724
-geojson2kml , CVE-2020-28429
-pomelo-monitor , CVE-2020-7620
-quill , CVE-2021-3163
-@theia/messages , CVE-2021-28162
-swiper , CVE-2021-23370
-postcss , CVE-2021-23368
-servey , CVE-2020-8214
-bson , CVE-2020-7610
-canvas , CVE-2020-8215
-marscode , CVE-2020-7681
-picotts , CVE-2021-23378
-onion-oled-js , CVE-2021-23377
-ps-visitor , CVE-2021-23374
-google-closure-library , CVE-2020-8910
-marked-tree , CVE-2020-7682
-mock2easy , CVE-2020-7697
-jpv , CVE-2020-17479
-tinymce , CVE-2020-17480
-fastify-multipart , CVE-2020-8136
-phpjs , CVE-2020-7700
-madlib-object-utils , CVE-2020-7701
-nis-utils , CVE-2020-7703
-templ8 , CVE-2020-7702
-@irrelon/path , CVE-2020-7708
-connie-lang , CVE-2020-7706
-property-expr , CVE-2020-7707
-aedes , CVE-2020-13410
-json , CVE-2020-7712
-arr-flatten-unflatten , CVE-2020-7713
-deeps , CVE-2020-7716
-dot-notes , CVE-2020-7717
-confucious , CVE-2020-7714
-locutus , CVE-2020-7719
-node-oojs , CVE-2020-7721
-mixme , CVE-2021-29491
-gedi , CVE-2020-7727
-deep-get-set , CVE-2020-7715
-promisehelpers , CVE-2020-7723
-gammautils , CVE-2020-7718
-nodee-utils , CVE-2020-7722
-worksmith , CVE-2020-7725
-highcharts , CVE-2021-29489
-safe-object2 , CVE-2020-7726
-grunt , CVE-2020-7729
-bestzip , CVE-2020-7730
-blamer , CVE-2020-8137
-ghost , CVE-2020-8134
-docker-compose-remote-api , CVE-2020-7606
-gulp-styledocco , CVE-2020-7607
-gulp-tape , CVE-2020-7605
-pulverizr , CVE-2020-7604
-exiftool-vendored , GHSA-4whq-r978-2x68
-gulp-scss-lint , CVE-2020-7601
-closure-compiler-stream , CVE-2020-7603
-node-prompt-here , CVE-2020-7602
-primefaces , CVE-2020-10544
-ua-parser-js , CVE-2020-7733
-querymen , CVE-2020-7600
-utilitify , CVE-2019-10808
-cumulative-distribution-function , CVE-2021-29486
-ghost , CVE-2021-29484
-typeorm , CVE-2020-8158
-json-bigint , CVE-2020-8237
-joplin , CVE-2020-15930
-ng-packagr , CVE-2020-7735
-backbone-query-parameters , CVE-2021-20085
-react-draft-wysiwyg , CVE-2021-31712
-vega-util , CVE-2019-10806
-ckeditor4 , CVE-2020-9281
-redis , CVE-2021-29469
-bootstrap-select , CVE-2019-20921
-bmoor , CVE-2020-7736
-shiba , CVE-2020-7738
-oauth2-server , CVE-2017-18924
-json-pointer , CVE-2020-7709
-socket.io-file , CVE-2020-24807
-phantomjs-seo , CVE-2020-7739
-node-pdf-generator , CVE-2020-7740
-simpl-schema , CVE-2020-7742
-mathjs , CVE-2020-7743
-lightning-server , CVE-2020-7747
-osm-static-maps , CVE-2020-7749
-strapi , CVE-2020-27664
-trim , CVE-2020-7753
-dat.gui , CVE-2020-7755
-codemirror , CVE-2020-7760
-browserless-chrome , CVE-2020-7758
-pdf-image , CVE-2020-8132
-reveal.js , CVE-2020-8127
-droppy , CVE-2020-7757
-joplin , CVE-2020-28249
-chart.js , CVE-2020-7746
-@tsed/core , CVE-2020-7748
-npm-user-validate , CVE-2020-7754
-@absolunet/kafe , CVE-2020-7761
-json-ptr , CVE-2020-7766
-@grpc/grpc-js , CVE-2020-7768
-express-validators , CVE-2020-7767
-nodemailer , CVE-2020-7769
-json8 , CVE-2020-7770
-json8-merge-patch , CVE-2020-8268
-doc-path , CVE-2020-7772
-controlled-merge , CVE-2020-28268
-psnode , CVE-2021-23375
-portkiller , CVE-2021-23379
-killing , CVE-2021-23381
-ffmpegdotjs , CVE-2021-23376
-roar-pidusage , CVE-2021-23380
-@curveball/a12n-server , CVE-2021-29452
-jose , CVE-2021-29443
-jose-browser-runtime , CVE-2021-29444
-jose-node-esm-runtime , CVE-2021-29445
-jose-node-cjs-runtime , CVE-2021-29446
-@firebase/util , CVE-2020-7765
-handlebars , CVE-2021-23369
-chrono-node , CVE-2021-23371
-@nextcloud/dialogs , CVE-2021-29438
-jsrsasign , CVE-2021-30246
-netmask , CVE-2021-28918
-set-or-get , CVE-2021-25913
-valib , CVE-2019-10805
-seria-number , CVE-2019-10802
-serial-number , CVE-2019-10804
-react-adal , CVE-2020-7787
-jspdf , CVE-2020-7691
-enpeem , CVE-2019-10801
-corenlp-js-prefab , CVE-2020-28439
-compile-sass , CVE-2019-10799
-rdf-graph-array , CVE-2019-10798
-rpi , CVE-2019-10796
-multi-ini , CVE-2020-28460
-multi-ini , CVE-2020-28448
-set-object-value , CVE-2020-28281
-bodymen , CVE-2019-10792
-script-manager , CVE-2020-8129
-djv , CVE-2020-28464
-asciitable.js , CVE-2020-7771
-socket.io-parser , CVE-2020-36049
-jsreport-chrome-pdf , CVE-2020-7762
-jsreport , CVE-2020-8128
-sockjs , CVE-2020-8823
-sockjs , CVE-2020-7693
-@scullyio/scully , CVE-2020-28470
-jointjs , CVE-2020-28479
-@aws-sdk/shared-ini-file-loader , CVE-2020-28472
-projen , CVE-2021-21423
-node-red-contrib-huemagic , CVE-2021-25864
-config-shield , CVE-2021-26276
-spritesheet-js , CVE-2020-7782
-systeminformation , CVE-2021-21388
-node-etsy-client , CVE-2021-21421
-is-user-valid , CVE-2021-23335
-lodash , CVE-2021-23337
-curling , CVE-2019-10789
-underscore , CVE-2021-23358
-is-my-json-valid , CVE-2018-1107
-braces , CVE-2018-1109
-kill-by-port , CVE-2021-23363
-mongodb-query-parser , CVE-2020-24391
-@ckeditor/ckeditor5-engine , CVE-2021-21391
-nats , GHSA-prmc-5v5w-c465
-@prisma/sdk , CVE-2021-21414
-portprocesses , CVE-2021-23348
-isolated-vm , CVE-2021-21413
-@thi.ng/egf , CVE-2021-21412
-klona , CVE-2020-8125
-strapi , CVE-2020-8123
-sanitize-html , CVE-2021-26539
-sanitize-html , CVE-2021-26540
-im-resize , CVE-2019-10787
-im-metadata , CVE-2019-10788
-network-manager , CVE-2019-10786
-lsof , CVE-2019-10783
-@theia/mini-browser , CVE-2019-17636
-@theia/preview , CVE-2020-27224
-private-ip , CVE-2020-28360
-netmask , CVE-2021-29418
-@theia/console , CVE-2021-28161
-eslint-fixer , CVE-2021-26275
-yapi-vendor , CVE-2021-27884
-nuance-gulp-build-common , CVE-2020-28430
-fs-path , CVE-2020-8298
-copy-props , CVE-2020-28503
-hosted-git-info , CVE-2021-23362
-es6-crawler-detect , CVE-2020-28501
-vis-timeline , CVE-2020-28487
-iniparserjs , CVE-2021-23328
-launchpad , CVE-2021-23330
-decal , CVE-2020-28449
-decal , CVE-2020-28450
-http-proxy-agent , CVE-2019-10196
-url-parse , CVE-2020-8124
-url-parse , CVE-2021-27515
-port-killer , CVE-2021-23359
-ua-parser-js , CVE-2021-27292
-killport , CVE-2021-23360
-freediskspace , CVE-2020-7775
-get-ip-range , CVE-2021-27191
-lodash , CVE-2020-28500
-schema-inspector , CVE-2021-21267
-stringstream , GHSA-qpw2-xchm-655q
-set-in , CVE-2020-28273
-wc-cmd , CVE-2020-28431
-shescape , CVE-2021-21384
-gitlog , CVE-2021-26541
-static-eval , CVE-2021-23334
-async-git , CVE-2020-28490
-merge , CVE-2020-28499
-xmlhttprequest , CVE-2020-28502
-object-collider , CVE-2021-25914
-kill-process-by-name , CVE-2021-23356
-ps-kill , CVE-2021-23355
-kill-process-on-port , CVE-2020-28426
-node-ps , CVE-2020-7785
-macfromip , CVE-2020-7786
-restify-paginate , CVE-2020-27543
-mongodb-client-encryption , CVE-2021-20327
-printf , CVE-2021-23354
-ssri , CVE-2021-27290
-is-svg , CVE-2021-28092
-html-parse-stringify , CVE-2021-23346
-wazuh , CVE-2021-26814
-total.js , CVE-2021-23344
-highcharts-export-server , GHSA-hfwx-c7q6-g54c
-y18n , CVE-2020-7774
-jspdf , CVE-2021-23353
-madge , CVE-2021-23352
-nobelprizeparser , GHSA-4wv4-mgfq-598v
-msgpack5 , CVE-2021-21368
-xmldom , CVE-2021-21366
-ansi_up , CVE-2021-3377
-react-dev-utils , CVE-2021-24033
-@solid/identity-token-verifier , GHSA-xmh9-rg6f-j3mr
-elliptic , CVE-2020-28498
-botframework-connector , CVE-2021-1725
-pug , CVE-2021-21353
-fastify-http-proxy , CVE-2021-21322
-fastify-reply-from , CVE-2021-21321
-matrix-react-sdk , CVE-2021-21320
-urijs , CVE-2021-27516
-@progfay/scrapbox-parser , CVE-2021-27405
-@node-red/runtime , CVE-2021-21298
-@node-red/runtime , CVE-2021-21297
-three , CVE-2020-28496
-prismjs , CVE-2021-23341
-docsify , CVE-2021-23342
-rendertron , CVE-2020-8902
-systeminformation , CVE-2021-21315
-next-auth , CVE-2021-21310
-samba-client , CVE-2021-27185
-apexcharts , CVE-2021-23327
-ftp-srv , CVE-2020-26299
-marked , CVE-2021-21306
-dynamoose , CVE-2021-21304
-slashify , CVE-2021-3189
-total.js , CVE-2020-28494
-total.js , CVE-2020-28495
-dotty , CVE-2021-25912
-uap-core , CVE-2021-21317
-angular-expressions , CVE-2021-21277
-nested-object-assign , CVE-2021-23329
-@ckeditor/ckeditor5-markdown-gfm , CVE-2021-21254
-less-openui5 , CVE-2021-21316
-an0n-chat-lib , GHSA-7xcv-wvr7-4h6p
-discord-fix , GHSA-qv2g-99x4-45x6
-sonatype , GHSA-w8fh-pvq2-x8c4
-electron , CVE-2020-26272
-async-git , CVE-2021-3190
-node-red-dashboard , CVE-2021-3223
-@graphql-tools/git-loader , CVE-2021-23326
-fastify-csrf , CVE-2020-28482
-immer , CVE-2020-28477
-socket.io , CVE-2020-28481
-gsap , CVE-2020-28478
-jointjs , CVE-2020-28480
-hellojs , CVE-2020-7741
-jquery-validation , CVE-2021-21252
-ts-process-promises , CVE-2020-7784
-buns , CVE-2020-7794
-tinymce , GHSA-w7jx-j77m-wp65
-tinymce , GHSA-h96f-fc7c-9r55
-axios , CVE-2020-28168
-urijs , CVE-2020-26291
-vega , CVE-2020-26296
-parse-server , CVE-2020-26288
-date-and-time , CVE-2020-26289
-dompurify , CVE-2020-26870
-node-notifier , CVE-2020-7789
-mquery , CVE-2020-35149
-corenlp-js-interface , CVE-2020-28440
-connection-tester , CVE-2020-7781
-datatables.net , CVE-2020-28458
-systeminformation , CVE-2020-26274
-ecstatic , CVE-2019-10775
-ini , CVE-2020-7788
-@fast-csv/parse , CVE-2020-26256
-html-purify , GHSA-5p28-63mc-cgr9
-@highlightjs/cdn-assets , GHSA-7wwv-vh3v-89cq
-systeminformation , CVE-2020-26245
-highlight.js , CVE-2020-26237
-semantic-release , CVE-2020-26226
-json-logic-js , GHSA-m9hw-7xfv-wqg7
-find-my-way , CVE-2020-7764
-scratch-svg-renderer , CVE-2020-7750
-phantom-html-to-pdf , CVE-2020-7763
-strapi-plugin-content-manager , CVE-2020-27666
-strapi-plugin-content-type-builder , CVE-2020-27665
-systeminformation , CVE-2020-26300
-xml-crypto , GHSA-c27r-x354-4m68
-systeminformation , CVE-2020-7752
-parse-server , CVE-2020-15270
-object-path , CVE-2020-15256
-webpack-subresource-integrity , CVE-2020-15262
-npm-user-validate , GHSA-xgh6-85xh-479p
-nats , CVE-2020-26149
-jison , CVE-2020-8178
-next , CVE-2020-15242
-electron , CVE-2020-15215
-electron , CVE-2020-15174
-joplin , CVE-2020-9038
-react-native-webview , CVE-2020-6506
-socket.io-file , GHSA-6495-8jvh-f28x
-@actions/core , CVE-2020-15228
-electorn , GHSA-38hx-3542-8fh3
-loadyaml , GHSA-mfc2-93pr-jf92
-mirador , GHSA-hgwm-pv9h-q5m7
-node-forge , CVE-2020-7720
-renovate , GHSA-36rh-ggpr-j3gj
-bcoin , CVE-2018-17145
-node-fetch , CVE-2020-15168
-lemonldap-ng-handler , CVE-2020-24660
-personnummer , GHSA-vpgc-7h78-gx8f
-bl , CVE-2020-8244
-bestzip , GHSA-4qqc-mp5f-ccv4
-@sap-cloud-sdk/core , GHSA-r2vw-jgq9-jqx2
-next , GHSA-5vj8-3v2h-h38v
-bootstrap-select , GHSA-9r7h-6639-v5mw
-@toast-ui/editor , GHSA-cr56-66mx-293v
-kerberos , GHSA-m2mx-rfpw-jghv
-papaparse , GHSA-qvjc-g5vr-mfgr
-m-backdoor , GHSA-vv52-3mrp-455m
-sds , CVE-2020-7618
-node-weakauras-parser , GHSA-86mr-6m89-vgj3
-utils-extend , CVE-2020-8147
-yargs-parser , CVE-2020-7608
-@uppy/companion , CVE-2020-8135
-node-rules , GHSA-8whr-v3gm-w8h9
-htmr , GHSA-f8rq-m28h-8hxj
-sapper , GHSA-f3vw-587g-r29g
-lazysizes , GHSA-w4vp-3mq7-7v82
-priest-runner , GHSA-9px9-f7jw-fwhj
-react-oauth-flow , GHSA-65m9-m259-7jqw
-http-proxy , GHSA-6x33-pw7p-hmpq
-ngx-md , GHSA-xr53-m937-jr9c
-@commercial/subtext , GHSA-36c4-4r89-6whg
-@commercial/hapi , GHSA-66mv-xh68-h6v2
-@hapi/hapi , GHSA-23vw-mhv5-grv5
-hapi , GHSA-7hx8-2rxv-66xv
-@hapi/subtext , GHSA-g9cg-h3jm-cwrc
-subtext , GHSA-g64q-3vg8-8f93
-subtext , GHSA-5854-jvxx-2cg9
-@commercial/subtext , GHSA-cvfm-xjc8-f2vm
-@hapi/subtext , GHSA-3wqh-h42r-x8fq
-@hapi/ammo , GHSA-gjph-xf5q-6mfq
-@hapi/accept , GHSA-9vrw-m88g-w75q
-@commercial/ammo , GHSA-rhc3-76jw-4f2x
-ammo , GHSA-mg85-8mv5-ffjr
-marky-markdown , GHSA-pxmp-fwjc-4x7q
-marky-markdown , GHSA-mg69-6j3m-jvgw
-cordova-plugin-inappbrowser , CVE-2019-0219
-@hapi/hoek , GHSA-22h7-7wwg-qmgg
-markdown-it-katex , GHSA-5ff8-jcf9-fw62
-traceroute , GHSA-rjvj-673q-4hfw
-parsel , GHSA-vjvw-wcmw-pr26
-klona , GHSA-4r97-78gf-q24v
-parsel , GHSA-q643-w9jp-q2qg
-parsel , GHSA-wqgx-4q47-j2w5
-@hapi/boom , GHSA-2ggq-vfcp-gwhj
-npm-git-publish , GHSA-49mg-94fc-2fx6
-meta-git , GHSA-qcff-ffx3-m25c
-1337qq-js , GHSA-7wgh-5q4q-6wx5
-express-laravel-passport , GHSA-v66p-w7qx-wv98
-atlasboard-atlassian-package , GHSA-25v4-mcx4-hh35
-mongodb-query-parser , GHSA-97mg-3cr6-3x4c
-giting , GHSA-7r9x-hr76-jr96
-ftp-srv , GHSA-r4m5-47cq-6qg8
-type-graphql , GHSA-xf64-2f9p-6pqq
-passport-cognito , CVE-2019-19723
-nextcloud-vue-collections , GHSA-whv6-rj84-2vh2
-plotter , GHSA-65xx-c85x-wg76
-gnuplot , GHSA-cfwc-xjfp-44jg
-bin-links , GHSA-v45m-2wcp-gg98
-bin-links , GHSA-2mj8-pj3j-h362
-treekill , GHSA-533p-g2hq-qr26
-tree-kill , GHSA-884p-74jh-xrg2
-bin-links , GHSA-gqf6-75v8-vr26
-vue-moment , GHSA-hrpp-f84w-xhfg
-strapi , GHSA-9p2w-rmx4-9mw7
-react , CVE-2013-7035
-web3-eht , GHSA-29fh-xcjr-p7rx
-we3b , GHSA-36r8-9qq7-mh43
-wbe3 , GHSA-hg7w-2pf7-mxm2
-wallet-address-validtaor , GHSA-pc7q-c837-3wjq
-wallet-address-vaildator , GHSA-m6q2-9pfm-2wvr
-singale , GHSA-crfh-jmv2-2f9v
-signqle , GHSA-m794-qv59-gj7c
-siganle , GHSA-p5p2-rhc3-wmf3
-scryptys , GHSA-vrxj-4qhw-5vwq
-scrytsy , GHSA-vv7g-pjw9-4qj9
-sb58 , GHSA-674r-xx4c-gj7x
-ripedm160 , GHSA-9272-59x2-gwf2
-ripmed160 , GHSA-gmjp-776j-2394
-riped160 , GHSA-rwcq-qpm6-7867
-rceat , GHSA-7w7c-867m-4mqc
-path-to-regxep , GHSA-f7gc-6hcj-wc42
-hw-trnasport-u2f , GHSA-4363-x42f-xph6
-hdkye , GHSA-8pwx-j4r6-5v38
-hdeky , GHSA-255r-pghp-r5wh
-fs-extar , GHSA-435c-qcpm-wjw5
-ecuvre , GHSA-cgvm-rvfv-c92r
-ecruve , GHSA-fpf2-pr3j-4cm3
-dhkey , GHSA-qxrj-x7rm-2h49
-degbu , GHSA-xr3g-4gg5-w3wq
-cxt , GHSA-fpgg-r39h-3x5x
-crytpo-js , GHSA-m4fq-xh7w-jhfm
-crpyto-js , GHSA-73c6-vwjh-g3qh
-conistring , GHSA-cfc5-x58f-869w
-commanedr , GHSA-xcgx-27q5-7634
-commandre , GHSA-r8hx-3qx6-hxq9
-colne , GHSA-mhxg-pr3j-v9gr
-coinstrig , GHSA-4m3j-h8f2-4xh4
-coinstrng , GHSA-hj5w-xgw9-w4rj
-coinpayment , GHSA-3h99-v4qw-p2h5
-coinstirng , GHSA-ff6g-gm92-rf32
-cionstring , GHSA-xh8g-j88w-6v59
-bsae-x , GHSA-mgff-xpg3-3gwc
-bs85check , GHSA-4hq8-v42x-9wx3
-bs58chekc , GHSA-fwvq-x4j9-hr5f
-bs85 , GHSA-gvm7-8fq3-qjj2
-bs58chcek , GHSA-97mp-9g5c-6c93
-bs58chek , GHSA-3cpj-mj3q-82wr
-bpi39 , GHSA-762c-v946-pf25
-bpi66 , GHSA-7xc4-793x-25jp
-bitcroe-lib , GHSA-4m3p-x2hp-2pgx
-bp66 , GHSA-8gc6-65mm-xr6r
-bitconijs-lib , GHSA-74hh-4rcv-pp27
-bitconi-ops , GHSA-w9hw-v97w-g5f5
-bitconid-rpc , GHSA-9298-m7jf-55h2
-bitcoisnj-lib , GHSA-629c-j867-3v45
-bitcoin-sweep , GHSA-8hqw-qp6r-vqcm
-bitcoin-osp , GHSA-v8g7-9qv2-j865
-bitcoimjs-lib , GHSA-rv6q-p3x7-43fx
-bitcoimd-rpc , GHSA-rwmv-c7v8-v9vf
-bitcoijns-lib , GHSA-37vc-gwvp-6cgv
-bitcionjslib , GHSA-p4mf-4qvh-w8g5
-bitcion-ops , GHSA-85q4-v37c-wfpc
-bitcionjs , GHSA-qmgf-fp85-55gr
-bictore-lib , GHSA-f8vf-6hwg-hw55
-bip30 , GHSA-wch2-46wj-6x5j
-bictoinjs-lib , GHSA-hwh3-fhf6-73x9
-bictoind-rpc , GHSA-jqvv-r4w3-8f7w
-bictoin-ops , GHSA-xrrg-wfwc-c7r3
-bconi , GHSA-7j93-5m2h-rvjx
-bcion , GHSA-2fwq-wx47-hm6x
-babel-loqder , GHSA-9cph-cqqh-36pw
-baes-x , GHSA-2jm5-2cqf-6vw9
-babel-laoder , GHSA-qp6m-jqfr-2f7v
-babel-loadre , GHSA-vvfh-mvjv-w38q
-react , GHSA-hg79-j56m-fxgv
-iobroker.admin , CVE-2019-10765
-cxct , GHSA-c5xm-m64m-f2vq
-localeval , GHSA-mmqv-m45h-q2hp
-html-pdf-chrome , GHSA-5p98-wpc9-g498
-notevil , GHSA-9gxr-rhx6-4jgv
-sahmat , GHSA-83pq-466j-fc6j
-safe-object2 , GHSA-qccf-q7p4-3q3j
-getsetdeep , GHSA-8j49-49jq-vwcq
-deep-setter , GHSA-9qrg-h9g8-c65q
-get-setter , GHSA-ch82-gqh6-9xj9
-markdown , GHSA-wx77-rp39-c6vg
-reggae , GHSA-q9wr-gcjc-hq52
-flat-wrap , GHSA-g7h8-p22m-2rvx
-unflatten , GHSA-6fh5-8wq8-w3wr
-handlebars , GHSA-q2c6-c6pm-g3gh
-handlebars , GHSA-g9r4-xpmj-mj65
-malicious-npm-package , GHSA-49c6-3wr4-8jr4
-veval , GHSA-54qm-37qr-w5wq
-@zhaoyao91/eval-in-vm , GHSA-jp99-5h8w-gmxc
-pitboss-ng , GHSA-3gpc-w23c-w59w
-sandbox , GHSA-gc25-3vc5-2jf9
-lighter-vm , GHSA-c3hq-7mxh-mqxf
-sj-labc , GHSA-4fqg-89cc-5pv5
-handlebars , GHSA-2cf5-4w76-r9qv
-superhappyfuntime , GHSA-6qgx-f452-7699
-arsenic-tabasco-cyborg-peanut-butter , GHSA-r742-7j4h-hjr8
-sj-tw-abc , GHSA-4hfc-fv33-ph9p
-sj-tw-sec , GHSA-692h-g37c-qv44
-sj-tw-test-security , GHSA-rcv7-4w2m-gj9v
-owl-orchard-apple-sunshine , GHSA-h24p-2c3m-5qf4
-airtable , GHSA-jrj9-5qp6-2v8q
-showdown , GHSA-h6mq-3cj6-h738
-handlebars , GHSA-f52g-6jhx-586p
-zs-sha3 , GHSA-7696-qr5q-pg37
-ns-sha3 , GHSA-j67m-jg9p-ppg4
-ks-sha3 , GHSA-563h-49v8-g7x4
-jw-sha3 , GHSA-8g3r-968r-c644
-jsmsha3 , GHSA-657v-jjf8-83gh
-js-sxa3 , GHSA-jh67-3wqw-cvhr
-js-wha3 , GHSA-785g-gx74-gr39
-js-sja3 , GHSA-6343-m2qr-66gf
-js-sla3 , GHSA-h6m3-cx24-9626
-js-sia3 , GHSA-3mhm-jvqj-fvhg
-js-shq3 , GHSA-766v-7gjx-55hf
-js-shi3 , GHSA-g37j-v5gh-g25c
-js-she3 , GHSA-f8jj-45fj-44r6
-js-shc3 , GHSA-69mf-2cw2-38m8
-js-shas , GHSA-5wq6-v5cw-jvfr
-js-sha7 , GHSA-hvgc-mggg-pxr2
-js-rha3 , GHSA-95cg-3r4g-7w6j
-js-qha3 , GHSA-vf5m-q45w-8mh9
-js-cha3 , GHSA-7xf9-74cp-8hx3
-js-3ha3 , GHSA-52c9-458g-whrf
-jq-sha3 , GHSA-x8m7-cv39-xmg9
-jr-sha3 , GHSA-67mp-pcv9-vvq6
-jc-sha3 , GHSA-gfj6-p24g-6hpm
-j3-sha3 , GHSA-p3jx-g34v-q56j
-hs-sha3 , GHSA-6mrq-7r7m-hh4p
-bs-sha3 , GHSA-88xx-23mf-rcj2
-ruffer-xor , GHSA-2mxc-m4c3-wqhq
-fuffer-xor , GHSA-c2g6-57fp-22wp
-juffer-xor , GHSA-gqq4-937c-2282
-cuffer-xor , GHSA-6xm4-p6r2-mwrc
-buvfer-xor , GHSA-wjpj-gmc3-5w56
-bwffer-xor , GHSA-7qg7-6g3g-8vxg
-bugfer-xor , GHSA-8g64-9cm2-838j
-bunfer-xor , GHSA-6f93-xj8r-jp82
-bufner-xor , GHSA-7xf6-cpxm-5mx9
-bufver-xor , GHSA-cr4x-w2v7-4mmf
-bufger-xor , GHSA-2w8q-69fh-9gq6
-buffur-xor , GHSA-p7qp-3fh7-pv4p
-buffmr-xor , GHSA-wv39-cgmm-cq29
-buffgr-xor , GHSA-r9cj-xj33-4q42
-buffez-xor , GHSA-7frr-c83r-fm22
-buffev-xor , GHSA-x3w4-mrmv-cw2x
-buffes-xor , GHSA-28f4-mjfq-qrvf
-buffermxor , GHSA-536f-268f-6gxc
-buffer-zor , GHSA-f294-27fc-wgj7
-buffer-yor , GHSA-g2c4-4m64-vxm3
-buffer-xov , GHSA-3h9m-9g3g-5wqx
-buffer-xoz , GHSA-j6x7-42x2-hpcf
-buffer-xop , GHSA-jqjg-v355-hr9q
-buffer-xos , GHSA-h2j3-gg8w-4858
-buffer-xob , GHSA-gpg2-7r7j-4pm9
-buffer-xnr , GHSA-c4hh-fg8x-6h9p
-buffer-xo2 , GHSA-f72h-wf57-7xwh
-buffer-xkr , GHSA-rw53-q8x7-ccx8
-buffer-xmr , GHSA-5327-gfq5-8f4m
-buffer-por , GHSA-6xg2-cf6h-x4v8
-buffer-xgr , GHSA-mp55-2274-4pj8
-buffer-hor , GHSA-wh87-3959-vfrq
-buffep-xor , GHSA-73wv-v82c-xmqv
-buffer-8or , GHSA-4hm7-73ch-vm59
-buffe2-xor , GHSA-3f97-rj68-2pjf
-buffeb-xor , GHSA-5ggx-g294-qj3q
-buffar-xor , GHSA-f64g-whxf-w8f2
-buffdr-xor , GHSA-8549-p68h-m9mc
-bufder-xor , GHSA-w9q5-mvc6-5cw3
-budfer-xor , GHSA-6584-gfwm-3vc3
-bufber-xor , GHSA-p9g3-vpvp-hcj5
-bubfer-xor , GHSA-vm67-mh96-95mq
-btffer-xor , GHSA-8hrq-9wm7-v3jw
-bqffer-xor , GHSA-pxqp-mv67-g528
-b5ffer-xor , GHSA-jvfv-jhw9-jmpp
-beffer-xor , GHSA-7cvf-p83w-48q6
-saml2-js , GHSA-mfcp-34xw-p57x
-dompurify , GHSA-mjjq-c88q-qhr6
-safer-eval , GHSA-876r-hj45-fw7g
-simple-crypto-js , GHSA-5v7r-jg9r-vq44
-markdown-to-jsx , GHSA-ccrp-c664-8p4j
-decompress , CVE-2020-12265
-express-fileupload , GHSA-q3w9-g74q-vp5f
-node-git-server , GHSA-cv3v-7846-6pxm
-hexo-admin , GHSA-phph-xpj4-wvcv
-mongodb , GHSA-mh5c-679w-hh4r
-uglyfi.js , GHSA-8jf2-cq6v-w234
-ember_cli_babe , GHSA-vm7j-4rj6-mw2p
-8.9.4 , GHSA-725f-3pw7-rq6x
-harmlesspackage , GHSA-8hmr-w35f-3qgj
-yeoman-genrator , GHSA-f7g4-fm4c-54m9
-require-port , GHSA-rrvm-gqq8-q2wx
-pizza-pasta , GHSA-wxrm-2h86-v95f
-log-symboles , GHSA-h232-fpqx-mqgr
-json-serializer , GHSA-chh2-rvhg-wqwr
-comander , GHSA-4xg9-g7qj-jhg4
-bmap , GHSA-p59g-6cqr-m73w
-http-live-simulator , GHSA-xgp2-cc4r-7vf6
-ibm_db , GHSA-p77h-hv6g-fmfp
-apostrophe , GHSA-pv6r-vchh-cxg9
-discord.js-user , GHSA-69r6-7h4f-9p7q
-helmet-csp , GHSA-c3m8-x3cg-qm2c
-@wturyn/swagger-injector , GHSA-4x7w-frcq-v4m3
-swagger-injector , GHSA-v4x8-gw49-7hv4
-subtext , GHSA-2mvq-xp48-4c77
-mavon-editor , GHSA-jfcc-rm7f-xgf8
-snekserve , GHSA-hv4w-jhcj-6wfw
-@commercial/subtext , GHSA-fvwr-h9xh-m6wc
-@hapi/subtext , GHSA-4rgj-8mq3-hggj
-sql-injection , GHSA-hvxq-j2r4-4jm8
-evil-package , GHSA-p62r-jf56-h429
-larvitbase-www , GHSA-88h9-fc6v-jcw7
-simple-markdown , GHSA-4xf9-pgvv-xx67
-public , GHSA-4vvp-x9h2-x2vf
-sequelize , GHSA-fw4p-36j9-rrj3
-sparkies , GHSA-c4fm-46gm-4469
-serilize , GHSA-fw76-p9p2-6pvf
-serializes , GHSA-j899-348x-h3rq
-node-spdy , GHSA-wfjh-3hq2-r276
-node-ftp , GHSA-5jgp-pg4f-q8vj
-mysql-koa , GHSA-x45v-pvpg-hcrh
-mogodb-core , GHSA-g4m3-rpxr-h7vg
-mogoose , GHSA-5mm9-55c9-p5r7
-mogodb , GHSA-w3pp-wp5v-fjvp
-mogobd , GHSA-jchg-g94r-64qg
-koa-body-parse , GHSA-wqgq-mfvj-6qxp
-js-regular , GHSA-qcc9-q247-3m2m
-k0a_multer , GHSA-v95x-h953-x7fg
-js-base64-int , GHSA-76qf-6mvw-c5hm
-import-mysql , GHSA-whjr-jj69-7prm
-body-parse-xml , GHSA-jcmh-9fvm-j39w
-file-logging , GHSA-wwwg-6r7f-9c9h
-axios-http , GHSA-r2rg-683g-ff96
-axioss , GHSA-8w9j-6wg6-qv4f
-marsdb , GHSA-5mrr-rgp6-x4gr
-graphql-shield , GHSA-hx78-272p-mqqh
-bb-builder , GHSA-vm6v-w6q2-mrrq
-device-mqtt , GHSA-563h-697m-j7x5
-slush-fullstack-framework , GHSA-4j54-mmmv-hjpm
-pensi-scheduler , GHSA-j4ch-mw66-xmqv
-pyramid-proportion , GHSA-v6vv-hhqc-6hh2
-ngx-context-menu , GHSA-xwg3-gjxh-c8pm
-@fangrong/xoc , GHSA-pjxp-f379-6284
-iie-viz , GHSA-jf55-rgpx-p6rx
-jquery-airload , GHSA-78p3-96hc-3j47
-uploader-plugin , GHSA-fx6f-fpfv-5hmc
-zemen , GHSA-377f-vvrc-9wgg
-sailclothjs , GHSA-m5pf-5894-jmx7
-cal_rd , GHSA-226w-6hhj-69hp
-grpc-ts-health-check , GHSA-m86m-5m44-pc93
-mithril , GHSA-c3px-v9c7-m734
-notevil , GHSA-7r5f-7qr4-pf6q
-f-serv , GHSA-vx5w-cxch-wwc9
-console-feed , GHSA-g9wg-wq4f-2x5w
-anarchy , GHSA-jjhg-qw5v-r8xx
-otpauth , GHSA-rmmc-8cqj-hfp3
-cage-js , GHSA-jf8x-wg7f-p3w8
-fast-requests , GHSA-wjf2-7f9g-86f5
-rate-map , GHSA-x48m-gp6r-gp4v
-dmn-js-properties-panel , GHSA-h9wr-xr4r-66fh
-load-from-cwd-or-npm , GHSA-jxf5-7x3j-8j9m
-cmmn-js-properties-panel , GHSA-vmh4-322v-cfpc
-bpmn-js-properties-panel , GHSA-vpj4-89q8-rh38
-marked , GHSA-ch52-vgq2-943f
-domokeeper , GHSA-cr67-78jr-j94p
-nodes.js , GHSA-38vq-cjh5-vw7x
-deasyncp , GHSA-qfc9-x7gv-27jr
-sdfjghlkfjdshlkjdhsfg , GHSA-gcfc-mgg3-8j2c
-lodash.mergewith , GHSA-779f-wgxg-qr8f
-lodash.defaultsdeep , GHSA-46fh-8fc5-xcwx
-lodash.mergewith , GHSA-5947-m4fg-xhqg
-lodash.defaultsdeep , GHSA-h5mp-5q4p-ggf5
-lodash.merge , GHSA-2m96-9w4j-wgv7
-lodash.merge , GHSA-h726-x36v-rx45
-tiar , GHSA-4hjg-w3ww-38c6
-secure_identity_login_module , GHSA-59x8-7wx6-4hj9
-river-mock , GHSA-2h3x-95c6-885r
-retcodelog , GHSA-j8hw-49gg-vq3w
-qingting , GHSA-559q-92vx-xvjp
-node-buc , GHSA-x3m6-rprw-862w
-midway-dataproxy , GHSA-mq9h-cwc2-6j5r
-midway-xtpl , GHSA-w65v-hx54-xrqx
-hsf-clients , GHSA-g5q2-fcg9-j526
-luna-mock , GHSA-qm4q-f956-fg64
-cicada-render , GHSA-6m6m-j2hm-pxrg
-hpmm , GHSA-vxfp-qmpq-6826
-diamond-clien , GHSA-86gv-xpwv-jprc
-antd-cloud , GHSA-j4vm-hg8g-g9qv
-appx-compiler , GHSA-8q2c-2396-hf7j
-alipayjsapi , GHSA-rjhc-w3fj-j6x9
-alico , GHSA-jfx5-7mr2-g8hg
-ali-contributors , GHSA-8m5v-f2wp-wqr9
-ali-contributor , GHSA-h3m2-h22h-695r
-my-very-own-package , GHSA-crr2-ph72-c52g
-only-test-not-install , GHSA-g9wf-393q-4w38
-maybemaliciouspackage , GHSA-m9r7-q9fc-qwx5
-leetlog , GHSA-gfm8-g3vm-53jh
-malicious-do-not-install , GHSA-6879-xr95-5gf4
-quill , GHSA-588m-9qg5-35pq
-takeapeek , GHSA-4q2f-8g74-qm56
-jquery.json-viewer , GHSA-v9wp-8r97-v6xg
-restify-swagger-jsdoc , GHSA-gvff-25cc-4f66
-zencashjs , GHSA-xfrc-7mj2-5xh9
-bleach , GHSA-5634-rv46-48jf
-safe-eval , GHSA-9pcf-h8q9-63f6
-apostrophe , GHSA-h97g-4mx7-5p2p
-graylog-web-interface , GHSA-9qgh-7pgp-hp7r
-zero , GHSA-crf7-fvjx-863q
-eco , GHSA-r32x-jhw5-g48p
-@ionic/core , GHSA-r3xc-47qg-h929
-rpc-websocket , GHSA-x87g-rgrh-r6g3
-local-devices , GHSA-w725-67p7-xv22
-@berslucas/liljs , GHSA-c53x-wwx2-pg96
-require-node , GHSA-8j6j-4h2c-c65p
-smartsearchwp , GHSA-fgp6-8g62-qx6w
-file-static-server , GHSA-qjfh-xc44-rm9x
-put , GHSA-v6gv-fg46-h89j
-pullit , GHSA-8px5-63x9-5c7p
-ponse , GHSA-wfhx-6pcm-7m55
-bruteser , GHSA-v7cp-5326-54fh
-entitlements , GHSA-g8vp-6hv4-m67c
-mergify , GHSA-3f95-w5h5-fq86
-node-red , GHSA-5g6j-8hv4-vfgj
-serve , GHSA-cpgr-wmr9-qxv4
-untitled-model , GHSA-hq8g-qq57-5275
-swagger-ui , GHSA-w992-2gmj-9xxj
-swagger-ui , GHSA-22q9-hqm5-mhmc
-swagger-ui , GHSA-vp93-gcx5-4w52
-swagger-ui , GHSA-388g-jwpg-x6j4
-diagram-js-direct-editing , GHSA-j8r2-2x94-2q67
-diagram-js , GHSA-8fw4-xh83-3j6q
-wizard-syncronizer , GHSA-wgw3-gf4p-62xc
-swagger-ui , GHSA-4f9m-pxwh-68hg
-converse.js , CVE-2017-5858
-dojo , CVE-2015-5654
-serve , GHSA-xw79-hhv6-578c
-serve , GHSA-48gc-5j93-5cfq
-cordova-android , CVE-2016-6799
-resquel , GHSA-crpm-fm48-chj7
-node-sass , GHSA-9v62-24cr-58cx
-wxchangba , GHSA-j6v9-xgvh-f796
-bigint-money , GHSA-9r3m-mhfm-39cm
-atompm , GHSA-v86x-f47q-f7f4
-addax , GHSA-4q8f-5xxj-946r
-soletta-dev-app , GHSA-8mgg-5x65-m4m4
-expressfs , GHSA-mxmj-84q8-34r7
-node-wifi , GHSA-4x6x-782q-jfc4
-maleficent , GHSA-cr5w-6rv4-r2qg
-mx-nested-menu , GHSA-48hw-37g6-3gw4
-sails-mysql , GHSA-hx5x-49mm-vmhw
-vue-backbone , GHSA-5635-9mvj-r6hp
-grunt-radical , GHSA-4627-w373-375v
-grunt-radic , GHSA-9p49-cwh3-4qhf
-precode.js , GHSA-5w4r-wwc3-6qcp
-radic-util , GHSA-8qh7-xw58-3ww7
-scroool , GHSA-p7w2-mc6m-mfx2
-ngx-pica , GHSA-76wf-2xcf-6wmx
-pm-controls , GHSA-84qj-9qf2-q92r
-radicjs , GHSA-56r9-v65c-34jm
-leaflet-gpx , GHSA-gjc9-932x-c59p
-libubx , GHSA-m7xv-7p93-g6q8
-jekyll-for-github-projects , GHSA-j5qg-46p9-w2rp
-react-datepicker-plus , GHSA-4wcx-c9c4-89p2
-ng-ui-library , GHSA-2xw5-3767-qxvm
-motiv.scss , GHSA-2vqq-jgxx-fxjc
-github-jquery-widgets , GHSA-c722-pv5w-cfg2
-geoheat , GHSA-p32g-242c-76h3
-electron-native-notify , GHSA-j8qr-rvcv-crhv
-ember-power-timepicker , GHSA-28f8-hqmc-7ph8
-commmander , GHSA-q42c-rrp3-r3xm
-blubird , GHSA-rvww-x6m4-4vc2
-epress , GHSA-vf8q-pw7h-r2x2
-test-module-a , GHSA-76xq-58hj-vwm2
-angular-location-update , GHSA-53jx-4wwh-gcqj
-angluar-cli , GHSA-8mm3-2mcj-cx6r
-commqnder , GHSA-4xgp-xrg3-c73w
-shrugging-logging , GHSA-qv78-398w-cxp7
-font-scrubber , GHSA-65j7-66p7-9xgf
-loopback , GHSA-724c-6vrf-99rq
-ipfs-bitswap , GHSA-6fcr-9h9g-23fq
-kraken-api , GHSA-fgfj-rj24-mj7q
-rimrafall , GHSA-8hq2-fcqm-39hq
-yeoman-genrator , GHSA-fm7r-2pr7-rw2p
-uglyfi-js , GHSA-9xww-fwh9-95c5
-tensorplow , GHSA-m2fp-c79h-rr79
-require-ports , GHSA-qj3g-wfr7-3cv7
-logsymbles , GHSA-vcg5-9xw6-r56c
-jqeury , GHSA-4964-cjrr-jg97
-jquerz , GHSA-c6f3-3c98-2j2f
-hulp , GHSA-fqw7-8v6m-2f86
-froever , GHSA-2r8f-2665-3gxq
-colour-string , GHSA-8mmf-qp7j-2w24
-browserift , GHSA-43vf-2x6g-p2m5
-colro-name , GHSA-jp9g-5x75-ccp8
-bowe , GHSA-xmmp-hrmx-x5g7
-whiteproject , GHSA-8j7x-pr59-m5h8
-bowee , GHSA-wgvj-6v57-wjh3
-saync , GHSA-pm9v-325f-5g74
-reqest , GHSA-hg5q-rj62-c43g
-ag-grid-community , GHSA-7p6w-x2gr-rrf8
-destroyer-of-worlds , GHSA-w3f3-4j22-2v3p
-value-censorship , GHSA-xrr6-6ww3-f3qm
-donotinstallthis , GHSA-73hr-6785-f5p8
-fomantic-ui , GHSA-788m-pj96-7w2c
-jquery-mobile , GHSA-fj93-7wm4-8x2g
-google-closure-library , GHSA-r9q4-w3fm-wrm2
-wangeditor , GHSA-g7mw-5cq6-fv82
-carloprojectdiscord , GHSA-9rwj-8mh9-4876
-discord_debug_log , GHSA-5x8q-gj67-rhf2
-carloprojectlesang , GHSA-qj2g-642f-4jrv
-erquest , GHSA-4pmg-jgm5-3jg6
-rqeuest , GHSA-pj97-j597-ppm7
-requset , GHSA-w7wg-24g3-2c78
-equest , GHSA-mvch-rh6h-2m47
-requets , GHSA-f3pc-c2gf-hvgw
-reuest , GHSA-r863-p739-275c
-requst , GHSA-8qx4-r7fx-xc4v
-requet , GHSA-h44f-769q-j6px
-rrequest , GHSA-wc7q-qpm4-8pqv
-reques , GHSA-g8jc-mm3c-cwhj
-reequest , GHSA-rw4r-h883-8pf9
-requuest , GHSA-frxq-v7fm-m4pv
-reqquest , GHSA-4jfq-q299-g4cr
-requeest , GHSA-8vj3-jgcf-77jv
-requesst , GHSA-6c37-2rw5-9j7x
-requestt , GHSA-2563-83p7-f34p
-calk , GHSA-9mmw-3fmh-96g3
-chak , GHSA-9q9m-m2f6-jr5q
-eact , GHSA-pmgv-94f5-6w7w
-experss , GHSA-mmph-wp49-r48h
-commnader , GHSA-855m-jchh-9qjc
-exprss , GHSA-6qc7-jgq7-34rf
-momen , GHSA-h5vm-jhq7-w647
-aysnc , GHSA-gfjr-xqhm-qvv3
-asnyc , GHSA-v99v-xgjx-7m7g
-asycn , GHSA-h26f-j4mv-84g7
-asnc , GHSA-2p99-6f47-8x9j
-aasync , GHSA-9mjp-gv34-3jcf
-asyync , GHSA-rm7c-x424-g2mw
-asynnc , GHSA-5fm9-jmv7-fcx5
-asymc , GHSA-x6ch-c6rv-f7wh
-asinc , GHSA-87qw-7v97-w34r
-wepack-cli , GHSA-fpw3-x4xq-6vxq
-jajajejejiji , GHSA-rggq-f2wf-m6cp
-4equest , GHSA-p33q-w45h-2hcj
-preact , GHSA-cg48-9hh2-x6mx
-graphql-code-generator , GHSA-9w87-4j72-gcv7
-cocos-utils , GHSA-rffp-mc78-wjf7
-puppeteer , CVE-2019-5786
-typed-function , CVE-2017-1001004
-glance , GHSA-vw7g-jq9m-3q9v
-buttle , GHSA-pqpp-2363-649v
-express-cart , GHSA-9pr3-7449-977r
-harp , GHSA-cx7r-634m-2q2h
-smart-extend , GHSA-f8h3-rqrm-47v9
-tomato , GHSA-wqhw-frpx-5mmp
-googleapis , GHSA-7543-mr7h-6v86
-serialize-to-js , GHSA-w5q7-3pr9-x44w
-decompress-zip , GHSA-73v8-v6g4-vrpm
-stream-combine , GHSA-w6xj-45gv-fw35
-pi_video_recording , GHSA-9wjh-jr2j-6r4x
-loopback , GHSA-8wgc-jjvv-cv6v
-bootstrap-vue , GHSA-c7pp-x73h-4m2v
-loopback-connector-mongodb , GHSA-hxwc-5vw9-2w4w
-sandbox , GHSA-fm4j-4xhm-xpwx
-rrgod , GHSA-277p-xwpp-3jf7
-portionfatty12 , GHSA-p8fm-w787-x6x3
-commander-js , GHSA-2hqf-qqmq-pgpp
-semantic-ui-search , GHSA-p9vv-3945-x93h
-static-eval , GHSA-x9hc-rw35-f44h
-office-converter , GHSA-9p64-h5q4-phpm
-pomelo-monitor , GHSA-m5ch-gx8g-rg73
-rails-session-decoder , GHSA-44vf-8ffm-v2qh
-mermaid , GHSA-w32g-5hqp-gg6q
-markdown-it-toc-and-anchor , GHSA-x6m6-5hrf-fh6r
-jingo , GHSA-mpjf-8cmf-p789
-md-data-table , GHSA-hgr5-82rc-p936
-buefy , GHSA-xwqw-rf2q-xmhf
-text-qrcode , GHSA-h5vj-f7r9-w564
-flatmap-stream , GHSA-9x64-5r7x-2q53
-samsung-remote , GHSA-xhjx-mfr6-9rr4
-ascii-art , GHSA-9hqj-38j2-5jgm
-browserify-hmr , CVE-2018-14730
-express-cart , GHSA-f5cv-xrv9-r8w7
-merge-objects , GHSA-992f-wf4w-x36v
-foever , GHSA-j3qq-qvc8-c6g7
-soket.js , GHSA-x6gq-467r-hwcc
-soket.io , GHSA-wp2p-q35g-3rjj
-regenraotr , GHSA-5x7p-gm79-383m
-regenrator , GHSA-m5p4-7wf9-6w99
-axois , GHSA-wpfc-3w63-g4hm
-njwt , GHSA-g3qw-9pgp-xpj4
-boogeyman , GHSA-9hc2-w9gg-q6jw
-express-cart , GHSA-8h8v-6qqm-fwpq
-eslint-config-airbnb-standard , GHSA-m852-866j-69j8
-eslint-config-eslint , GHSA-pv55-r6j3-wp94
-pdf-image , CVE-2018-3757
-react-marked-markdown , GHSA-m7qm-r2r5-f77q
-base64url , GHSA-rvg8-pwq2-xj7q
-ladder-text-js , GHSA-33gc-f8v9-v8hm
-nothing-js , GHSA-353r-3v84-9pjj
-getcookies , GHSA-3cjv-4phw-gvvv
-dictum.js , GHSA-j5jc-jf8f-86q7
-nginxbeautifier , GHSA-28xx-8j99-m32j
-xoc , GHSA-54cr-gv8w-8324
-simple-alipay , GHSA-3wh2-2pp3-2823
-react-server-native , GHSA-fwvp-x5gj-773j
-s3asy , GHSA-3wjm-33mw-h388
-react-dates-sc , GHSA-5645-gc7h-98h8
-rc-calendar-jhorst , GHSA-4c87-gg2q-fc6m
-oauth-validator , GHSA-cxcf-78mr-wpg7
-modlibrary , GHSA-94m7-w873-6wwf
-json-serializer , GHSA-7xfq-xh6v-4mrm
-jasmin , GHSA-9cq4-mhmr-84gm
-freshdom , GHSA-8qm2-24qc-c4qg
-impala , GHSA-92px-q4w8-hrr5
-dossier , GHSA-c8h6-89q2-mgv8
-dynamo-schema , GHSA-vp8g-53fw-r9f2
-css_transform_support , GHSA-45cp-hpc9-8347
-css_transform_step , GHSA-4rx9-58m7-gr8w
-cordova-plugin-china-picker , GHSA-x9gm-qxhh-rf75
-coffee-project , GHSA-3fv6-q5xv-fhpw
-codify , GHSA-2q6w-rxf3-4wc9
-blingjs , GHSA-hfc6-79wv-5hpw
-awesome_react_utility , GHSA-m25q-fwg4-9v2p
-another-date-range-picker , GHSA-8rxg-9g6f-vq9p
-another-date-picker , GHSA-2p62-c4rm-mr72
-angular-material-sidenav-rnd , GHSA-qmxf-fxq7-w59f
-angular-bmap , GHSA-w8hg-mxvh-9h57
-@impala/bmap , GHSA-c82c-8pjw-6829
-mongoose , GHSA-r5xw-q988-826m
-openwhisk , GHSA-53mj-mc38-q894
-serve , GHSA-wm7q-rxch-43mx
-mrk.js , GHSA-hpr5-wp7c-hh5q
-626 , CVE-2018-3727
-redis-commander , GHSA-8c8c-4vfj-rrpc
-@vivaxy/here , GHSA-m4vv-p6fq-jhqp
-featurebook , GHSA-7x92-2j68-h32c
-hooka-tools , GHSA-m36m-x4c5-rjxj
-nodesass , CVE-2017-16080
-cross-env.js , CVE-2017-16081
-mysqljs , CVE-2017-16047
-botbait , CVE-2017-16126
-pandora-doomsday , CVE-2017-16127
-npm-script-demo , CVE-2017-16128
-section2.madisonjbrooks12 , CVE-2017-16172
-jansenstuffpleasework , CVE-2017-16176
-chatbyvista , CVE-2017-16177
-dasafio , CVE-2017-16179
-wintiwebdev , CVE-2017-16181
-serve46 , CVE-2017-16148
-iter-server , CVE-2017-16183
-scott-blanch-weather-app , CVE-2017-16184
-yjmyjmyjm , GHSA-g376-whg7-896m
-uekw1511server , CVE-2017-16185
-360class.jansenhm , CVE-2017-16186
-yttivy , CVE-2017-16219
-cypserver , CVE-2017-16191
-dcdcdcdcdc , CVE-2017-16190
-mfrs , CVE-2017-16193
-pytservce , CVE-2017-16195
-qinserve , CVE-2017-16197
-serverzyy , CVE-2017-16135
-shit-server , CVE-2017-16147
-susu-sum , CVE-2017-16199
-uv-tj-demo , CVE-2017-16200
-zjjserver , CVE-2017-16201
-dmmcquay.lab6 , CVE-2017-16208
-enserver , CVE-2017-16209
-lessindex , CVE-2017-16211
-mfrserver , CVE-2017-16213
-peiserver , CVE-2017-16214
-sgqserve , CVE-2017-16215
-wind-mvc , CVE-2017-16220
-tencent-server , CVE-2017-16216
-yzt , CVE-2017-16221
-hcbserver , CVE-2017-16171
-liuyaserver , CVE-2017-16170
-nodeload-nmickuli , GHSA-wmcq-3wfx-qjx5
-wenluhong1 , GHSA-224h-p7p5-rh85
-wffserve , CVE-2017-16168
-yyooopack , CVE-2017-16167
-dylmomo , CVE-2017-16163
-11xiaoli , CVE-2017-16160
-caolilinode , CVE-2017-16159
-dcserver , CVE-2017-16158
-shenliru , CVE-2017-16161
-welcomyzt , CVE-2017-16123
-liyujing , CVE-2017-16120
-myprolyz , CVE-2017-16156
-earlybird , CVE-2017-16154
-cuciuci , CVE-2017-16122
-weather.swlyons , CVE-2017-16110
-gaoxuyan , CVE-2017-16153
-gaoxiaotingtingting , CVE-2017-16108
-wangguojing123 , CVE-2017-16150
-zwserver , CVE-2017-16149
-serverliujiayi1 , CVE-2017-16095
-serverlyr , CVE-2017-16089
-serverhuwenhui , CVE-2017-16102
-serverwg , CVE-2017-16101
-serverwzl , CVE-2017-16105
-serveryaozeyan , CVE-2017-16096
-pidusage , CVE-2017-16034
-serveryztyzt , CVE-2017-16103
-fsk-server , CVE-2017-16090
-tiny-http , CVE-2017-16097
-xtalk , CVE-2017-16091
-windows-cpu , CVE-2017-1000219
-yui , CVE-2013-4939
-jquery , CVE-2012-6708
-ag-grid , CVE-2017-16009
-summit , CVE-2017-16020
-fury-adapter-swagger , CVE-2016-1000249
-pm2-kafka , CVE-2016-10693
-npm-test-sqlite3-trunk , CVE-2016-10695
-windows-latestchromedriver , CVE-2016-10696
-roslib-socketio , CVE-2016-10681
-gfe-sass , CVE-2017-16040
-windows-selenium-chromedriver , CVE-2016-10687
-adamvr-geoip-lite , CVE-2016-10680
-node-air-sdk , CVE-2016-10647
-frames-compiler , CVE-2016-10649
-apk-parser3 , CVE-2016-10574
-apk-parser , CVE-2016-10564
-gitbook , CVE-2017-16019
-npm , CVE-2013-4116
-uws , CVE-2016-10544
-mqtt , CVE-2016-1000242
-pivottable , CVE-2016-1000241
-c3 , CVE-2016-1000240
-swagger-ui , GHSA-g336-c7wv-8hp3
-node-krb5 , CVE-2016-1000238
-fuelux , CVE-2016-1000235
-swagger-ui , CVE-2016-1000233
-jqtree , CVE-2016-1000234
-emojione , CVE-2016-1000231
-rendr , CVE-2016-1000230
-swagger-ui , CVE-2016-5682
-gmail-js , CVE-2016-1000228
-bootstrap-tagsinput , CVE-2016-1000227
-swagger-ui , CVE-2016-1000226
-sequelize , CVE-2016-1000225
-ezseed-transmission , CVE-2016-1000224
-dojo , CVE-2008-6681
-jsrender , CVE-2016-3942
-jws , CVE-2016-1000223
-bittorrent-dht , CVE-2016-10519
-mysql , CVE-2015-9244
-hapi , CVE-2015-9243
-gm , CVE-2015-7982
-ansi2html , CVE-2015-9239
-bleach , CVE-2014-8881
-yar , CVE-2014-4179
-validator , CVE-2014-8882
-ungit , CVE-2015-4130
-tomato , CVE-2013-7379
-serve-static , CVE-2015-1164
-st , CVE-2014-3744
-remarkable , CVE-2014-10065
-paypal-ipn , CVE-2014-10067
-nhouston , CVE-2014-8883
-marked , CVE-2014-3743
-libyaml , CVE-2013-6393
-libnotify , CVE-2013-7381
-ldapauth , CVE-2015-7294
-jquery-ujs , GHSA-6qqj-rx4w-r3cj
-inert , CVE-2014-10068
-hubot-scripts , CVE-2013-7378
-hapi , CVE-2014-4671
-fancy-server , CVE-2014-10066
-ep_imageconvert , CVE-2013-3364
-datatables , CVE-2015-6584
-connect , CVE-2013-7370
-dompurify , CVE-2019-16728
-@novnc/novnc , CVE-2017-18635
-flood , GHSA-r587-7jh2-4qr3
-nodebb-plugin-blog-comments , CVE-2020-15156
-safe-eval , CVE-2020-7710
-highcharts , GHSA-gr4j-r575-g665
-bcrypt , CVE-2020-7689
-auth0-lock , CVE-2020-15119
-ftp-srv , CVE-2020-15152
-@uppy/companion , CVE-2020-8205
-@progress/kendo-angular-editor , GHSA-j7wp-vjj6-cp5m
-serialize-javascript , CVE-2020-7660
-tinymce , GHSA-vrv8-v4w8-f95h
-prismjs , CVE-2020-15138
-angular , GHSA-5cp4-xmrw-59wf
-polaris-website , GHSA-whrh-9j4q-g7ph
-save-server , CVE-2020-15135
-fastify , CVE-2020-8192
-express-fileupload , CVE-2020-7699
-slp-validate , CVE-2020-15131
-slpjs , CVE-2020-15130
-dot-prop , CVE-2020-8116
-elliptic , CVE-2020-13822
-rollup-plugin-server , CVE-2020-7686
-rollup-plugin-server , CVE-2020-7683
-auth0 , CVE-2020-15125
-git-tags-remote , GHSA-gm9x-q798-hmr4
-scratch-vm , CVE-2020-14000
-fast-http , CVE-2020-7687
-jpeg-js , CVE-2020-8175
-sails-hook-sockets , CVE-2018-21036
-parse , GHSA-wvh7-5p38-2qfc
-parse-server , CVE-2020-15126
-codecov , CVE-2020-15123
-lodash , CVE-2020-8203
-standard-version , GHSA-7xcx-6wjh-7xp2
-@knight-lab/timelinejs , CVE-2020-15092
-socket.io-file , CVE-2020-15779
-npm , CVE-2020-15095
-npm-registry-fetch , GHSA-jmqm-f2gx-4fjv
-electron , CVE-2020-15096
-electron , CVE-2020-4076
-electron , CVE-2020-4077
-electron , CVE-2020-4075
-express-jwt , CVE-2020-15084
-jsrsasign , GHSA-g753-jx37-7xwh
-jsrsasign , CVE-2020-14966
-generator-jhipster-kotlin , CVE-2019-16303
-jsrsasign , CVE-2020-14967
-jsrsasign , CVE-2020-14968
-generator-jhipster-kotlin , CVE-2020-4072
-url-regex , CVE-2020-7661
-angular , CVE-2020-7676
-mversion , CVE-2020-4059
-limdu , CVE-2020-4066
-dijit , CVE-2020-4051
-ssb-db , CVE-2020-4045
-umount , CVE-2020-7628
-ini-parser , CVE-2020-7617
-schema-inspector , CVE-2019-10781
-graphql-playground-html , CVE-2020-4038
-apollo-server , GHSA-w42g-7vfc-xf37
-logkitty , CVE-2020-8149
-websocket-extensions , CVE-2020-7662
-@nozbe/watermelondb , CVE-2020-4035
-snyk-broker , CVE-2020-7652
-snyk-broker , CVE-2020-7653
-snyk-broker , CVE-2020-7648
-snyk-broker , CVE-2020-7650
-snyk-broker , CVE-2020-7654
-snyk-broker , CVE-2020-7651
-dns-sync , CVE-2020-11079
-aegir , CVE-2020-11059
-jquery , CVE-2020-7656
-curlrequest , CVE-2020-7646
-slp-validate , CVE-2020-11072
-slpjs , CVE-2020-11071
-tinymce , CVE-2019-1010091
-hot-formula-parser , CVE-2020-6836
-qs , CVE-2017-1000048
-jquery , CVE-2020-11022
-jquery , CVE-2020-11023
-@actions/http-client , CVE-2020-11021
-npm-programmatic , CVE-2020-7614
-lix , CVE-2020-10800
-https-proxy-agent , GHSA-pc5p-h8pf-mvwp
-node-uuid , CVE-2015-8851
-sanitize-html , CVE-2016-1000237
-@fraction/oasis , CVE-2020-11003
-devcert-sanscache , CVE-2019-10778
-auth0-js , CVE-2020-5263
-confinit , CVE-2020-7638
-class-transformer , CVE-2020-7637
-acorn , GHSA-6chw-6frg-f759
-minimist , CVE-2020-7598
-seeftl , CVE-2019-15603
-fileview , CVE-2019-15602
-knockout , CVE-2019-14862
-ecstatic , GHSA-9q64-mpxx-87fg
-kind-of , CVE-2019-20149
-http_server , CVE-2019-15600
-statics-server , CVE-2019-15596
-next , CVE-2020-5284
-@metamask/eth-ledger-bridge-keyring , GHSA-vg44-fw64-cpjx
-acorn , GHSA-7fhm-mqm4-2wp7
-dojox , CVE-2020-5259
-dojo , CVE-2020-5258
-parse-server , CVE-2020-5251
-vp-toolkit , GHSA-ff5x-w9wg-h275
-vp-toolkit , GHSA-p94w-42g3-f7h4
-discord-markdown , GHSA-9r27-994c-4xch
-uap-core , CVE-2020-5243
-taffy , CVE-2019-10790
-codecov , CVE-2020-7597
-dojox , CVE-2019-10785
-yarn , CVE-2019-10773
-aws-lambda , CVE-2019-10777
-git-diff-apply , CVE-2019-10776
-angular , CVE-2019-14863
-node-df , CVE-2019-15597
-auth0-lock , CVE-2019-20174
-@ensdomains/ens , CVE-2020-5232
-tinymce , GHSA-27gm-ghr9-4v95
-node-red , CVE-2019-15607
-angular-expressions , CVE-2020-5219
-mongo-express , CVE-2019-10758
-cookie-signature , CVE-2016-1000236
-handlebars , CVE-2019-19919
-lodahs , CVE-2019-19771
-npm , CVE-2019-16777
-npm , CVE-2019-16776
-npm , CVE-2019-16775
-safer-eval , CVE-2019-10769
-serialize-to-js , CVE-2019-16772
-serialize-javascript , CVE-2019-16769
-jpv , CVE-2019-19507
-strapi , CVE-2019-18818
-pomelo , CVE-2019-18954
-iobroker.web , CVE-2019-10771
-iobroker.js-controller , CVE-2019-10767
-chartkick , CVE-2019-18841
-pannellum , CVE-2019-16763
-vant , GHSA-9xr8-8hmc-389f
-angular , CVE-2019-10768
-slp-validate , CVE-2019-16761
-slpjs , CVE-2019-16762
-@cubejs-backend/api-gateway , GHSA-4j6x-w426-6rc6
-sequelize , CVE-2019-10749
-sequelize , CVE-2019-10748
-node-red-dashboard , CVE-2019-10756
-sequelize , CVE-2019-10752
-renovate , GHSA-v7x3-7hw7-pcjg
-knex , CVE-2019-10757
-safer-eval , CVE-2019-10759
-realms-shim , GHSA-7cg8-pq9v-x98q
-safer-eval , CVE-2019-10760
-csv-parse , CVE-2019-17592
-swagger-ui , CVE-2019-17495
-mongoose , CVE-2019-17426
-eye.js , GHSA-mgv2-57vj-99xc
-realms-shim , GHSA-6jg8-7333-554w
-centra , GHSA-v6cj-r88p-92rm
-html-pdf , CVE-2019-15138
-generator-jhipster , GHSA-mc84-xr9p-938r
-status-board , CVE-2019-15479
-status-board , CVE-2019-15478
-bower , CVE-2019-5484
-gitlabhook , CVE-2019-5485
-generator-jhipster , GHSA-mwp6-j9wf-968c
-smartbanner.js , GHSA-9mrq-cjgh-32g2
-seneca , CVE-2019-5483
-larvitbase-api , CVE-2019-5479
-statichttpserver , CVE-2019-5480
-dojo , CVE-2010-2273
-sailsjs-cacheman , GHSA-5w65-6875-rhq8
-algo-httpserv , GHSA-cgjv-rghq-qhgp
-webtorrent , CVE-2019-15782
-deeply , CVE-2019-10750
-set-value , CVE-2019-10747
-mixin-deep , CVE-2019-10746
-selectize-plugin-a11y , CVE-2019-15482
-cyberchef , CVE-2019-15532
-eslint-utils , CVE-2019-15657
-connect-pg-simple , CVE-2019-15658
-openpgp , CVE-2019-9154
-openpgp , CVE-2019-9153
-openpgp , CVE-2019-9155
-editor.md , CVE-2019-14517
-editor.md , CVE-2019-14653
-libp2p-secio , GHSA-rch7-f4h5-x9rj
-rgb2hex , GHSA-65p8-3hm4-h9h8
-assign-deep , CVE-2019-10745
-yarn , CVE-2019-5448
-min-http-server , CVE-2019-5457
-http-file-server , CVE-2019-5458
-lodash , CVE-2019-1010266
-@nuxt/devalue , CVE-2019-13506
-http-file-server , CVE-2019-5447
-parse-server , CVE-2019-1020013
-lodash , CVE-2019-10744
-saml2-js , CVE-2017-11429
-mem , GHSA-4xcv-9jjx-gfj3
-mobile-icon-resizer , GHSA-mxjr-xmcg-fg7w
-angular , GHSA-28hp-fgcr-2r4h
-stringstream , CVE-2018-21270
-open , GHSA-28xh-wpgr-7fm8
-esm , GHSA-qx4v-6gc5-f2vv
-swagger-ui , GHSA-x9p2-fxq6-2m5f
-lactate , GHSA-68gr-cmcp-g3mj
-underscore.string , GHSA-v2p6-4mp7-3r9v
-serve-here , GHSA-g8m7-qhv7-9h5x
-constantinople , GHSA-4vmm-mhcq-4x9j
-squel , GHSA-4qhx-g9wp-g9m6
-@apollo/gateway , GHSA-74cr-77xc-8g6r
-keycloak-connect , CVE-2019-10157
-ids-enterprise , GHSA-49r3-3h96-rwj6
-lutils-merge , GHSA-f7qw-5pvg-mmwp
-diff , GHSA-h6ch-v84p-w6p9
-wiki-plugin-datalog , GHSA-pm52-wwrw-c282
-ids-enterprise , GHSA-hpfq-8wx8-cgqw
-ids-enterprise , GHSA-crfx-5phg-hmw9
-parse-server , CVE-2019-1020012
-harp , CVE-2019-5437
-harp , CVE-2019-5438
-sql , GHSA-8f93-rv4p-x4jw
-npmconf , GHSA-57cf-349j-352g
-fs-path , GHSA-gc94-6w89-hpqr
-localhost-now , GHSA-73cw-jxmm-qpgh
-http-proxy-agent , GHSA-8w57-jfpm-945m
-m-server , GHSA-vc6r-4x6g-mmqc
-node-os-utils , GHSA-j9f8-8h89-j69x
-querystringify , GHSA-hxcm-v35h-mg2x
-nwmatcher , GHSA-6394-6h9h-cfjg
-express-brute , GHSA-984p-xq9m-4rjw
-remarkable , CVE-2019-12041
-redbird , GHSA-8948-ffc6-jg52
-upmerge , GHSA-gm9g-2g8v-fvxj
-express-basic-auth , GHSA-c35v-qwqg-87jc
-jwt-simple , GHSA-8v5f-hp78-jgxq
-braces , GHSA-g95f-p29q-9xw4
-servey , GHSA-rv49-54qp-fw42
-typeorm , GHSA-w7q7-vjp8-7jv4
-dot , GHSA-4859-gpc7-4j66
-MIDIator.WebClient , GHSA-wxhq-pm8v-cw75
-tesseract.js , GHSA-83rx-c8cr-6j8q
-sequelize-cli , GHSA-3xc7-xg67-pw99
-handlebars , GHSA-q42p-pg8m-cqh6
-js-yaml , GHSA-2pr6-76vf-7546
-marked , GHSA-xf5p-87ch-gxw2
-statics-server , GHSA-74cp-qw7f-7hpw
-url-relative , GHSA-86p3-4gfq-38f2
-canvas , GHSA-vpq5-4rc8-c222
-gun , GHSA-886v-mm6p-4m66
-js-yaml , GHSA-8j8c-7jfh-h6hx
-opencv , GHSA-f698-m2v9-5fh3
-sequelize , GHSA-wfp9-vr4j-f49j
-ws , GHSA-5v72-xg48-5rpm
-loopback-connector-mongodb , GHSA-m734-r4g6-34f9
-byte , GHSA-xm7f-x4wx-wmgv
-cloudcmd , GHSA-m8fw-534v-xm85
-pem , GHSA-pgcr-7wm4-mcv6
-floody , GHSA-3p92-886g-qxpq
-express-cart , GHSA-3fc5-9x9m-vqc4
-command-exists , GHSA-cff4-rrq6-h78w
-ircdkit , GHSA-f7r3-p866-q9qr
-concat-stream , GHSA-g74r-ffvr-5q9f
-bl , GHSA-wrw9-m778-g6mc
-secure-compare , CVE-2015-9238
-tunnel-agent , GHSA-xc7v-wxcw-j472
-react-svg , GHSA-8xqr-4cpm-wx7g
-base64-url , GHSA-j4mr-9xw3-c9jx
-public , GHSA-7jfh-2xc9-ccv7
-angular-http-server , GHSA-vmhw-fhj6-m3g5
-deap , GHSA-xrmp-99wj-p6jc
-foreman , GHSA-xm28-fw2x-fqv2
-bracket-template , GHSA-jj6g-7j8p-7gf2
-ipns , GHSA-j59f-6m4q-62h6
-web3 , GHSA-27v7-qhfv-rqq8
-bootbox , GHSA-87mg-h5r3-hw88
-fstream , CVE-2019-13173
-ltt.js , GHSA-6qh5-wx38-q92g
-jquery.terminal , GHSA-2hwp-g4g7-mwwj
-terriajs-server , GHSA-p72p-rjr2-r439
-fs-git , CVE-2017-16087
-concat-with-sourcemaps , GHSA-2xv3-h762-ccxv
-shave , CVE-2019-12313
-verdaccio , CVE-2019-14772
-mysql , GHSA-5f7m-mmpc-qhh4
-generate-password , GHSA-6qqf-vvcr-7qrv
-webpack-bundle-analyzer , GHSA-pgr8-jg6h-8gw6
-axios , CVE-2019-10742
-remarkable , CVE-2019-12043
-simditor , CVE-2018-19048
-mqtt-packet , CVE-2019-5432
-tar , CVE-2018-20834
-tar-fs , CVE-2018-20835
-nodebb , CVE-2015-9286
-jquery , CVE-2019-11358
-jquery , CVE-2019-5428
-sequelize , CVE-2019-11069
-simple-markdown , CVE-2019-9844
-materialize-css , CVE-2019-11004
-materialize-css , CVE-2019-11003
-materialize-css , CVE-2019-11002
-buttle , CVE-2019-5422
-http-live-simulator , CVE-2019-5423
-total.js , CVE-2019-10260
-morgan , CVE-2019-5413
-kill-port , CVE-2019-5414
-serve , CVE-2019-5415
-serve , CVE-2019-5417
-localhost-now , CVE-2019-5416
-highcharts , CVE-2018-20801
-editor.md , CVE-2019-9737
-uap-core , CVE-2018-20164
-bootstrap , CVE-2019-8331
-total.js , CVE-2019-8903
-broccoli-closure , CVE-2016-10635
-dwebp-bin , CVE-2016-10633
-jvminstall , CVE-2016-10631
-nw-with-arm , CVE-2016-10629
-scala-bin , CVE-2016-10627
-headless-browser-lite , CVE-2016-10625
-macaca-chromedriver-zxa , CVE-2016-10623
-fibjs , CVE-2016-10621
-atom-node-module-installer , CVE-2016-10620
-pennyworth , CVE-2016-10619
-node-browser , CVE-2016-10618
-curses , CVE-2016-10615
-box2d-native , CVE-2016-10617
-bionode-sra , CVE-2016-10613
-ws , CVE-2016-10518
-poco , CVE-2016-10659
-tomita-parser , CVE-2016-10666
-selenium-standalone-painful , CVE-2016-10679
-massif , CVE-2016-10682
-sequelize , CVE-2016-10550
-sequelize , CVE-2016-10553
-waterline-sequel , CVE-2016-10551
-sequelize , CVE-2016-10554
-sequelize , CVE-2016-10556
-aerospike , CVE-2016-10558
-galenframework-cli , CVE-2016-10560
-iedriver , CVE-2016-10562
-go-ipfs-dep , CVE-2016-10563
-install-nw , CVE-2016-10566
-geoip-lite-country , CVE-2016-10568
-pngcrush-installer , CVE-2016-10570
-bkjs-wand , CVE-2016-10571
-mongodb-instance , CVE-2016-10572
-fuseki , CVE-2016-10576
-ibm_db , CVE-2016-10577
-unicode , CVE-2016-10578
-nodewebkit , CVE-2016-10580
-closurecompiler , CVE-2016-10582
-dalek-browser-chrome-canary , CVE-2016-10584
-macaca-chromedriver , CVE-2016-10586
-nw , CVE-2016-10588
-cue-sdk-node , CVE-2016-10590
-ipip , CVE-2016-10594
-jser-stat , CVE-2016-10592
-imageoptim , CVE-2016-10596
-arrayfire-js , CVE-2016-10598
-webrtc-native , CVE-2016-10600
-haxe , CVE-2016-10602
-dalek-browser-chrome , CVE-2016-10604
-dalek-browser-ie , CVE-2016-10605
-grunt-webdriver-qunit , CVE-2016-10606
-robot-js , CVE-2016-10608
-unicode-json , CVE-2016-10610
-strider-sauce , CVE-2016-10611
-dalek-browser-ie-canary , CVE-2016-10612
-httpsync , CVE-2016-10614
-openframe-image , CVE-2016-10616
-nodeschnaps , CVE-2016-10622
-selenium-chromedriver , CVE-2016-10624
-mystem3 , CVE-2016-10626
-selenium-wrapper , CVE-2016-10628
-install-g-test , CVE-2016-10630
-grunt-ccompiler , CVE-2016-10636
-scalajs-standalone-bin , CVE-2016-10634
-js-given , CVE-2016-10638
-haxe-dev , CVE-2016-10637
-redis-srvr , CVE-2016-10639
-node-thulac , CVE-2016-10640
-ntfserver , CVE-2016-10650
-webdriver-launcher , CVE-2016-10651
-clang-extra , CVE-2016-10655
-prebuild-lwip , CVE-2016-10652
-xd-testing , CVE-2016-10653
-sfml , CVE-2016-10654
-qbs , CVE-2016-10656
-co-cli-installer , CVE-2016-10657
-native-opencv , CVE-2016-10658
-fis-parser-sass-bin , CVE-2016-10660
-phantomjs-cheniu , CVE-2016-10661
-tomita , CVE-2016-10662
-wixtoolset , CVE-2016-10663
-mystem , CVE-2016-10664
-herbivore , CVE-2016-10665
-selenium-portal , CVE-2016-10667
-libsbml , CVE-2016-10668
-soci , CVE-2016-10669
-windows-seleniumjar-mirror , CVE-2016-10670
-mystem-wrapper , CVE-2016-10671
-cloudpub-redis , CVE-2016-10672
-ipip-coffee , CVE-2016-10673
-openframe-ascii-image , CVE-2016-10690
-windows-iedriver , CVE-2016-10689
-pk-app-wonderbox , CVE-2016-10685
-healthcenter , CVE-2016-10684
-arcanist , CVE-2016-10683
-serc.js , CVE-2016-10678
-google-closure-tools-latest , CVE-2016-10677
-rs-brightcove , CVE-2016-10676
-libsbmlsim , CVE-2016-10675
-limbus-buildgen , CVE-2016-10674
-bitty , CVE-2016-10561
-selenium-download , CVE-2016-10559
-appium-chromedriver , CVE-2016-10557
-igniteui , CVE-2016-10552
-sails , CVE-2016-10549
-call , CVE-2016-10543
-ws , CVE-2016-10542
-shell-quote , CVE-2016-10541
-cli , CVE-2016-10538
-backbone , CVE-2016-10537
-engine.io-client , CVE-2016-10536
-csrf-lite , CVE-2016-10535
-electron-packager , CVE-2016-10534
-console-io , CVE-2016-10532
-marked , CVE-2016-10531
-airbrake , CVE-2016-10530
-droppy , CVE-2016-10529
-restafary , CVE-2016-10528
-riot-compiler , CVE-2016-10527
-grunt-gh-pages , CVE-2016-10526
-i18n-node-angular , CVE-2016-10524
-hapi-auth-jwt2 , CVE-2016-10525
-jshamcrest , CVE-2016-10521
-mqtt-packet , CVE-2016-10523
-jadedown , CVE-2016-10520
-operadriver , CVE-2016-10565
-product-monitor , CVE-2016-10567
-embedza , CVE-2016-10569
-baryton-saxophone , CVE-2016-10573
-kindlegen , CVE-2016-10575
-chromedriver , CVE-2016-10579
-steroids , CVE-2016-10581
-closure-util , CVE-2016-10583
-libxl , CVE-2016-10585
-wasdk , CVE-2016-10587
-selenium-binaries , CVE-2016-10589
-prince , CVE-2016-10591
-ibapi , CVE-2016-10593
-jdf-sass , CVE-2016-10595
-cobalt-cli , CVE-2016-10597
-sauce-connect , CVE-2016-10599
-webdrvr , CVE-2016-10601
-air-sdk , CVE-2016-10603
-openframe-glslviewer , CVE-2016-10607
-chromedriver126 , CVE-2016-10609
-Haraka , CVE-2016-1000282
-cordova-plugin-ionic-webview , CVE-2018-16202
-rendertron , CVE-2017-18355
-http-live-simulator , CVE-2018-16479
-public , CVE-2018-16480
-html-pages , CVE-2018-16481
-mcstatic , CVE-2018-16482
-express-cart , CVE-2018-16483
-m-server , CVE-2018-16484
-m-server , CVE-2018-16485
-defaults-deep , CVE-2018-16486
-lodash , CVE-2018-16487
-just-extend , CVE-2018-16489
-mpath , CVE-2018-16490
-node.extend , CVE-2018-16491
-extend , CVE-2018-16492
-static-resource-server , CVE-2018-16493
-bootstrap , CVE-2018-20677
-bootstrap , CVE-2018-20676
-bootstrap , CVE-2016-10735
-xterm , CVE-2019-0542
-rendertron , CVE-2017-18352
-react-dom , CVE-2018-6341
-rendertron , CVE-2017-18354
-rendertron , CVE-2017-18353
-react-dev-utils , CVE-2018-6342
-webpack-dev-server , CVE-2018-14732
-jquery-file-upload , CVE-2018-9207
-simplehttpserver , CVE-2018-16478
-event-stream , GHSA-mh6f-8j2x-4483
-ethereumjs-vm , CVE-2018-19183
-simplemde , CVE-2018-19057
-yapi-vendor , CVE-2018-17574
-ckeditor , CVE-2018-17960
-valine , CVE-2018-19289
-windows-build-tools , CVE-2017-16003
-sqlserver , CVE-2017-16055
-mapbox.js , CVE-2017-1000043
-http-signature , CVE-2017-16005
-i18next , CVE-2017-16008
-html-janitor , CVE-2017-0931
-mapbox.js , CVE-2017-1000042
-remarkable , CVE-2017-16006
-sanitize-html , CVE-2017-16017
-http-proxy , CVE-2017-16014
-forms , CVE-2017-16015
-sanitize-html , CVE-2017-16016
-restify , CVE-2017-16018
-sync-exec , CVE-2017-16024
-request , CVE-2017-16026
-morris.js , CVE-2017-16022
-hostr , CVE-2017-16029
-mssql.js , CVE-2017-16056
-gruntcli , CVE-2017-16058
-nodemssql , CVE-2017-16057
-mssql-node , CVE-2017-16059
-editor.md , CVE-2018-19056
-cached-path-relative , CVE-2018-16472
-socket.io , CVE-2017-16031
-shout , CVE-2017-16043
-auth0-js , CVE-2018-6874
-nunjucks , CVE-2016-10547
-jwt-simple , CVE-2016-10555
-validator , CVE-2014-9772
-knightjs , CVE-2018-16475
-tianma-static , CVE-2018-16474
-takeapeek , CVE-2018-16473
-libnmap , CVE-2018-16461
-apex-publish-static-files , CVE-2018-16462
-node-tkinter , CVE-2017-16062
-tkinter , CVE-2017-16061
-merge , CVE-2018-16469
-parcel-bundler , CVE-2018-14731
-express , CVE-2014-6393
-handlebars , CVE-2015-8861
-express-restify-mongoose , CVE-2016-10533
-blueimp-file-upload , CVE-2018-9206
-dojox , CVE-2018-15494
-next , CVE-2018-18282
-tough-cookie , CVE-2016-1000232
-send , GHSA-pgv6-jrvv-75jp
-qs , GHSA-crvj-3gj9-gm2p
-qs , CVE-2014-10064
-jsonwebtoken , CVE-2015-9235
-minimatch , CVE-2016-10540
-negotiator , CVE-2016-10539
-uglify-js , GHSA-g6f4-j6c2-w3p3
-mustache , GHSA-3233-rgx3-c2wh
-hapi , CVE-2017-16013
-randomatic , CVE-2017-16028
-protobufjs , CVE-2018-3738
-atob , CVE-2018-3745
-deep-extend , CVE-2018-3750
-merge-options , CVE-2018-3752
-node-opensl , CVE-2017-16063
-sexstatic , CVE-2018-3755
-memjs , CVE-2018-3767
-glance , CVE-2018-3748
-augustine , CVE-2017-0930
-node-bsdiff-android , CVE-2016-10641
-apk-parser2 , CVE-2016-10632
-buttle , CVE-2018-3766
-merge-object , CVE-2018-3753
-merge-recursive , CVE-2018-3751
-html-pages , CVE-2018-3744
-bson , CVE-2018-13863
-ps , CVE-2018-16460
-egg-scripts , CVE-2018-3786
-noderequest , CVE-2017-16073
-bootstrap , CVE-2018-14041
-exceljs , CVE-2018-16459
-cryptiles , CVE-2018-1000620
-public , CVE-2018-3747
-query-mysql , CVE-2018-3754
-msrcrypto , CVE-2018-8319
-macaddress , CVE-2018-13797
-simplehttpserver , CVE-2018-3787
-editor.md , CVE-2018-16330
-mosca , CVE-2018-11615
-babelcli , CVE-2017-16060
-ffmepg , CVE-2017-16068
-node-opencv , CVE-2017-16067
-opencv.js , CVE-2017-16066
-openssl.js , CVE-2017-16065
-node-openssl , CVE-2017-16064
-nodemailer.js , CVE-2017-16072
-nodemailer-js , CVE-2017-16071
-nodecaffe , CVE-2017-16070
-nodeffmpeg , CVE-2017-16069
-easyquick , CVE-2017-16109
-smb , CVE-2017-16079
-proxy.js , CVE-2017-16076
-http-proxy.js , CVE-2017-16075
-crossenv , CVE-2017-16074
-timespan , CVE-2017-16115
-mongose , CVE-2017-16077
-shadowsock , CVE-2017-16078
-electron , CVE-2018-15685
-flintcms , CVE-2018-3783
-git-dummy-commit , CVE-2018-3785
-cryo , CVE-2018-3784
-haxe3 , CVE-2016-10688
-fis-sass-all , CVE-2016-10686
-aedes , CVE-2018-3778
-cmake , CVE-2016-10642
-jstestdriver , CVE-2016-10643
-slimerjs-edge , CVE-2016-10644
-grunt-images , CVE-2016-10645
-resourcehacker , CVE-2016-10646
-marionette-socket-host , CVE-2016-10648
-sshpk , CVE-2018-3737
-url-parse , CVE-2018-3774
-charset , CVE-2017-16098
-debug , CVE-2017-16137
-superagent , CVE-2017-16129
-metascraper , CVE-2018-3773
-discordi.js , CVE-2017-16207
-jquey , CVE-2017-16204
-desafio , CVE-2017-16164
-jikes , CVE-2017-16139
-static-eval , CVE-2017-16226
-st , CVE-2017-16224
-elding , CVE-2017-16222
-cofee-script , CVE-2017-16206
-coffescript , CVE-2017-16205
-coffe-script , CVE-2017-16203
-cofeescript , CVE-2017-16202
-ritp , CVE-2017-16198
-moment , GHSA-hxf5-mg84-pj4m
-npm , CVE-2016-3956
-is-my-json-valid , GHSA-ccq6-3qx5-vmqx
-hawk , CVE-2016-2515
-react-native-baidu-voice-synthesizer , CVE-2016-10697
-alto-saxophone , CVE-2016-10694
-haxeshim , CVE-2016-10692
-windows-seleniumjar , CVE-2016-10691
-whereis , CVE-2018-3772
-serve , CVE-2018-3712
-adm-zip , CVE-2018-1002204
-unzipper , CVE-2018-1002203
-superstatic , GHSA-wm77-q74p-5763
-mathjax , CVE-2018-1999024
-bracket-template , CVE-2018-3735
-mcstatic , CVE-2018-3730
-markdown-pdf , CVE-2018-3770
-https-proxy-agent , CVE-2018-3739
-jquery-ui , GHSA-g8q2-24jh-5hpc
-mystem-fix , CVE-2016-10698
-cyber-js , CVE-2017-16093
-dns-sync , GHSA-wxvm-fh75-mpgr
-pouchdb , CVE-2016-10546
-passport-azure-ad , CVE-2016-7191
-hekto , CVE-2018-3725
-general-file-server , CVE-2018-3724
-default-deep , CVE-2018-3723
-merge-deep , CVE-2018-3722
-lodash , CVE-2018-3721
-assign-deep , CVE-2018-3720
-mixin-deep , CVE-2018-3719
-anywhere , CVE-2018-3717
-simplehttpserver , CVE-2018-3716
-glance , CVE-2018-3715
-node-srv , CVE-2018-3714
-angular-http-server , CVE-2018-3713
-localhost-now , CVE-2018-3729
-f2e-server , CVE-2017-16038
-node-simple-router , CVE-2017-16083
-pg , CVE-2017-16082
-ikst , CVE-2017-16041
-hftp , CVE-2017-16039
-gomeplus-h5-proxy , CVE-2017-16037
-badjs-sourcemap-server , CVE-2017-16036
-hubl-server , CVE-2017-16035
-ua-parser , CVE-2017-16086
-tinyserver2 , CVE-2017-16085
-list-n-stream , CVE-2017-16084
-iter-http , CVE-2017-16094
-sencisho , CVE-2017-16092
-no-case , CVE-2017-16099
-pooledwebsocket , CVE-2017-16107
-citypredict.whauwiller , CVE-2017-16104
-parsejson , CVE-2017-16113
-content , CVE-2017-16111
-tmock , CVE-2017-16106
-fresh , CVE-2017-16119
-forwarded , CVE-2017-16118
-string , CVE-2017-16116
-marked , CVE-2017-16114
-node-server-forfront , CVE-2017-16124
-datachannel-client , CVE-2017-16121
-rtcmulticonnection-client , CVE-2017-16125
-method-override , CVE-2017-16136
-http_static_simple , CVE-2017-16134
-exxxxxxxxxxx , CVE-2017-16130
-d3.js , CVE-2017-16044
-node-sqlite , CVE-2017-16048
-jquery.js , CVE-2017-16045
-sqlite.js , CVE-2017-16050
-nodesqlite , CVE-2017-16049
-fabric-js , CVE-2017-16053
-node-fabric , CVE-2017-16052
-sqliter , CVE-2017-16051
-nodefabric , CVE-2017-16054
-html-janitor , CVE-2017-0928
-nes , CVE-2017-16025
-slug , CVE-2017-16117
-unicorn-list , CVE-2017-16131
-simple-npm-registry , CVE-2017-16132
-goserv , CVE-2017-16133
-lab6.brit95 , CVE-2017-16140
-lab6drewfusbyu , CVE-2017-16141
-infraserver , CVE-2017-16142
-commentapp.stetsonwood , CVE-2017-16143
-myserver.alexcthomas18 , CVE-2017-16144
-sspa , CVE-2017-16145
-mockserve , CVE-2017-16146
-electron , CVE-2017-16151
-static-html-server , CVE-2017-16152
-fast-http-cli , CVE-2017-16155
-censorify.tanisjr , CVE-2017-16157
-22lixian , CVE-2017-16162
-calmquist.static-server , CVE-2017-16165
-byucslabsix , CVE-2017-16166
-looppake , CVE-2017-16169
-utahcityfinder , CVE-2017-16173
-whispercast , CVE-2017-16174
-ewgaddis.lab6 , CVE-2017-16175
-intsol-package , CVE-2017-16178
-serverabc , CVE-2017-16180
-serverxxx , CVE-2017-16182
-open-device , CVE-2017-16187
-reecerver , CVE-2017-16188
-sly07 , CVE-2017-16189
-getcityapi.yoehoehne , CVE-2017-16192
-picard , CVE-2017-16194
-quickserver , CVE-2017-16196
-jn_jj_server , CVE-2017-16210
-ltt , CVE-2017-16212
-fbr-client , CVE-2017-16217
-dgard8.lab6 , CVE-2017-16218
-nodeaaaaa , CVE-2017-16223
-aegir , CVE-2017-16225
-uri-js , CVE-2017-16021
-decamelize , CVE-2017-16023
-useragent , CVE-2017-16030
-i18next , CVE-2017-16010
-tough-cookie , CVE-2017-15010
-node-jose , CVE-2017-16007
-mime , CVE-2017-16138
-fastify , CVE-2018-3711
-public , CVE-2018-3731
-resolve-path , CVE-2018-3732
-crud-file-server , CVE-2018-3733
-stattic , CVE-2018-3734
-hekto , CVE-2018-3743
-crud-file-server , CVE-2018-3726
-serve , CVE-2018-3809
-mariadb , CVE-2017-16046
-safe-eval , CVE-2017-16088
-dns-sync , CVE-2017-16100
-node-serialize , CVE-2017-5941
-serialize-to-js , CVE-2017-5954
-eslint-config-eslint , GHSA-hxxf-q3w9-4xgw
-growl , CVE-2017-16042
-hapi , CVE-2015-9236
-keystone , CVE-2015-9240
-hapi , CVE-2015-9241
-ecstatic , CVE-2015-9242
-reduce-css-calc , CVE-2016-10548
-pdfinfojs , CVE-2018-3746
-@ckeditor/ckeditor5-link , CVE-2018-11093
-hoek , CVE-2018-3728
-@risingstack/protect , CVE-2018-1000160
-electron , CVE-2018-1000136
-tiny-json-http , CVE-2018-1000096
-pym.js , CVE-2018-1000086
-ssri , CVE-2018-7651
-electron , CVE-2018-1000118
-auth0-js , CVE-2018-7307
-insight-api , CVE-2018-1000023
-moment , CVE-2017-18214
-aws-lambda-multipart-parser , CVE-2018-7560
-brace-expansion , CVE-2017-18077
-next , CVE-2018-6184
-electron , CVE-2018-1000006
-jquery , CVE-2016-10707
-jquery , CVE-2015-9251
-marked , CVE-2017-1000427
-marked , CVE-2017-17461
-samlify , CVE-2017-1000452
-passport-wsfed-saml2 , CVE-2017-16897
-mqtt , CVE-2017-10910
-ecstatic , CVE-2016-10703
-auth0-js , CVE-2017-17068
-mathjs , CVE-2017-1001003
-mathjs , CVE-2017-1001002
-next , CVE-2017-16877
-ejs , CVE-2017-1000228
-ejs , CVE-2017-1000189
-ejs , CVE-2017-1000188
-keystone , CVE-2017-16570
-printer , CVE-2014-3741
-codem-transcode , CVE-2013-7377
-keystone , CVE-2017-15881
-keystone , CVE-2017-15879
-keycloak-connect , CVE-2017-7474
-keystone , CVE-2017-15878
-jquery-ui , CVE-2010-5312
-js-yaml , CVE-2013-4660
-jquery-ui , CVE-2012-6662
-validator , CVE-2013-7452
-geddy , CVE-2015-5688
-marked , CVE-2015-1370
-sequelize , CVE-2015-1369
-dns-sync , CVE-2014-9682
-bassmaster , CVE-2014-7205
-crumb , CVE-2014-7193
-syntax-error , CVE-2014-7192
-send , CVE-2014-6394
-hapi , CVE-2014-3742
-qs , CVE-2014-7191
-validator , CVE-2013-7453
-validator , CVE-2013-7454
-validator , CVE-2013-7451
-tar , CVE-2015-8860
-mustache , CVE-2015-8862
-send , CVE-2015-8859
-semver , CVE-2015-8855
-uglify-js , CVE-2015-8858
-marked , CVE-2015-8854
-serve-index , CVE-2015-8856
-ms , CVE-2015-8315
-uglify-js , CVE-2015-8857
-ember , GHSA-vxp4-25qp-86qh
-handlebars , GHSA-fmr4-7g9q-7hc7
-validator , GHSA-9959-c6q6-6qp3
-electron , CVE-2016-1202
-plotly.js , CVE-2017-1000006
-jquery-ui , CVE-2016-7103
-is-my-json-valid , CVE-2016-2537
-moment , CVE-2016-4055
+sey,CVE-2021-23663
+md-to-pdf,CVE-2021-23639
+express-openid-connect,CVE-2021-41246
+swagger-ui,GHSA-qrmm-w75w-3wpx
+@fabiocaccamo/utils.js,CVE-2021-3815
+github-todos,CVE-2021-44684
+next,CVE-2021-43803
+plupload,CVE-2021-23562
+hexo,CVE-2021-25987
+nodebb,CVE-2021-43788
+nodebb,CVE-2021-43787
+nodebb,CVE-2021-43786
+@backstage/plugin-scaffolder-backend,CVE-2021-43783
+@joeattardi/emoji-button,CVE-2021-43785
+@backstage/plugin-scaffolder-backend,GHSA-2g8g-63j4-9w3r
+@backstage/plugin-auth-backend,CVE-2021-43776
+aws-iot-device-sdk-v2,CVE-2021-40828
+aws-iot-device-sdk-v2,CVE-2021-40831
+aws-iot-device-sdk-v2,CVE-2021-40830
+aws-iot-device-sdk-v2,CVE-2021-40829
+docker-cli-js,CVE-2021-23732
+pekeupload,CVE-2021-23673
+ssrf-agent,CVE-2021-23718
+algoliasearch-helper,CVE-2021-23433
+ckeditor4,CVE-2021-41165
+ckeditor4,CVE-2021-41164
+json-schema,CVE-2021-3918
+@openzeppelin/contracts,GHSA-wmpv-c2jp-j2xg
+@theia/plugin-ext,CVE-2021-41038
+starkbank-ecdsa,CVE-2021-43571
+apostrophe,CVE-2021-25979
+com.starkbank:ecdsa-java,GHSA-9wx7-jrvc-28mm
+@sap-cloud-sdk/core,CVE-2021-41251
+validator,GHSA-xx4c-jj58-r7x6
+apostrophe,CVE-2021-25978
+@cyyynthia/tokenize,GHSA-jcjx-c3j3-44pr
+apollo-server,GHSA-qm7x-rc44-rrqw
+graphql-playground-react,CVE-2021-41249
+graphiql,CVE-2021-41248
+dotty,CVE-2021-23624
+bootstrap-table,CVE-2021-23472
+tempura,CVE-2021-23784
+jsonpointer,CVE-2021-23807
+json-ptr,CVE-2021-23509
+json-pointer,CVE-2021-23820
+rc,GHSA-g2q5-5433-rhrf
+coa,GHSA-73qr-pfmq-6rp8
+@grafana/data,CVE-2021-41174
+nbdime,CVE-2021-41134
+validator,CVE-2021-3765
+TinyMCE,GHSA-r8hm-w5f7-wj39
+aaptjs,CVE-2020-36379
+aaptjs,CVE-2020-36378
+aaptjs,CVE-2020-36377
+aaptjs,CVE-2020-36376
+aaptjs,CVE-2020-36381
+aaptjs,CVE-2020-36380
+froala-editor,CVE-2020-22864
+jquery-ui,CVE-2021-41183
+jquery-ui,CVE-2021-41184
+jquery-ui,CVE-2021-41182
+ua-parser-js,GHSA-pjwm-rvh2-c87w
+TinyMCE,GHSA-5h9g-x5rv-25wg
+x-assign,CVE-2021-23452
+modern-async,CVE-2021-41167
+vm2,CVE-2021-23449
+@backstage/plugin-scaffolder-backend,CVE-2021-41151
+kindeditor,CVE-2021-42227
+kindeditor,CVE-2021-42228
+electron,CVE-2021-39184
+config-handler,CVE-2021-23448
+object-hierarchy-access,CVE-2020-28270
+@redocly/openapi-cli,GHSA-q324-q795-2q5p
+fastify-static,CVE-2021-22964
+keypair,CVE-2021-41117
+rsshub,CVE-2021-21278
+class-validator,CVE-2019-18413
+deepref,CVE-2020-28274
+predefine,CVE-2020-28280
+libnested,CVE-2020-28283
+getobject,CVE-2020-28282
+jsoneditor,CVE-2020-23849
+teddy,CVE-2021-23447
+opencv,CVE-2019-10061
+ckeditor4,CVE-2021-26272
+thinkjs,CVE-2020-21176
+patchmerge,CVE-2021-25916
+froala-editor,CVE-2021-30109
+mongo-express,CVE-2021-23372
+strapi,CVE-2021-28128
+fastify-static,CVE-2021-22963
+lodash,CVE-2021-41720
+handsontable,CVE-2021-23446
+parse-server,CVE-2021-41109
+passport-oauth2,CVE-2021-41580
+jsoneditor,CVE-2021-3822
+i,CVE-2021-3820
+datatables.net,CVE-2021-23445
+aurelia-path,CVE-2021-41097
+ghost,GHSA-65p7-pjj8-ggmr
+millisecond,GHSA-m489-xr35-fjxr
+serve-here.js,CVE-2019-5444
+node-static,GHSA-8r4g-cg4m-x23c
+jointjs,CVE-2021-23444
+edge.js,CVE-2021-23443
+jsuites,CVE-2021-41086
+@asyncapi/modelina,GHSA-4jg2-84c2-pj95
+ssh2,CVE-2020-26301
+nth-check,CVE-2021-3803
+object-path,CVE-2021-3805
+taro,CVE-2021-3804
+@cookiex/deep,CVE-2021-23442
+code-server,CVE-2021-3810
+ansi-regex,CVE-2021-3807
+zrender,CVE-2021-39227
+ghost,GHSA-wfrj-qqc2-83cm
+mixme,GHSA-84p7-fh9c-6g8h
+prismjs,CVE-2021-3801
+peertube,CVE-2021-3780
+semver-regex,CVE-2021-3795
+@vuelidate/validators,CVE-2021-3794
+tmpl,CVE-2021-3777
+@openzeppelin/contracts,CVE-2021-41264
+@openzeppelin/contracts-upgradeable,GHSA-q4h9-46xg-m3x9
+body-parser-xml,CVE-2021-3666
+matrix-js-sdk,CVE-2021-40823
+set-value,CVE-2021-23440
+@viking04/merge,CVE-2021-3645
+remark-html,CVE-2021-39199
+objection,CVE-2021-3766
+file-upload-with-preview,CVE-2021-23439
+rebber,GHSA-2c83-wfv3-q25f
+parse-server,GHSA-593v-wcqx-hq2w
+immer,CVE-2021-3757
+@theia/mini-browser,CVE-2021-34435
+mpath,CVE-2021-23438
+Proto,CVE-2021-23426
+immer,CVE-2021-23436
+atlasboard,CVE-2021-39109
+parse-server,CVE-2021-39187
+axios,CVE-2021-3749
+total.js,CVE-2021-32831
+next,CVE-2021-39178
+detect-character-encoding,CVE-2021-39176
+@npmcli/arborist,CVE-2021-39135
+@npmcli/arborist,CVE-2021-39134
+tar,CVE-2021-37713
+tar,CVE-2021-37712
+tar,CVE-2021-37701
+open-graph,CVE-2021-23419
+serverless-offline,CVE-2021-38384
+merge-change,CVE-2021-23421
+object-path,CVE-2021-23434
+express-cart,CVE-2020-22403
+passport-saml,CVE-2021-39171
+@openzeppelin/contracts,CVE-2021-39167
+@openzeppelin/contracts-upgradeable,CVE-2021-39168
+hbs,CVE-2021-32822
+trim-off-newlines,CVE-2021-23425
+ansi-html,CVE-2021-23424
+transpile,CVE-2021-23429
+node-degenerator,CVE-2021-23406
+startserver,CVE-2021-23430
+mootools,CVE-2021-23432
+joplin,CVE-2021-23431
+detect-character-encoding,CVE-2021-39157
+@asyncapi/java-spring-cloud-stream-template,CVE-2021-37694
+ced,CVE-2021-39131
+ckeditor4,CVE-2021-37695
+parse-server,CVE-2021-39138
+ckeditor4,CVE-2021-32809
+ckeditor4,CVE-2021-32808
+@diez/generation,CVE-2021-32830
+@github/paste-markdown,CVE-2021-37700
+next,CVE-2021-37699
+serve,CVE-2018-3718
+tar,CVE-2021-32804
+tar,CVE-2021-32803
+think-config,GHSA-6cj2-92m5-7mvp
+xmldom,CVE-2021-32796
+jszip,CVE-2021-23413
+url-parse,CVE-2021-3664
+@npmcli/git,GHSA-hxwm-x553-x359
+curly-bracket-parser,CVE-2021-23416
+deepmergefn,CVE-2021-23417
+video.js,CVE-2021-23414
+isomorphic-git,CVE-2021-30483
+@liquity/contracts,GHSA-xh2p-7p87-fhgh
+strapi,CVE-2019-19609
+locutus,CVE-2020-13619
+deephas,CVE-2020-28271
+field,CVE-2020-28269
+png-img,CVE-2020-28248
+msgpack,CVE-2021-23410
+anchorme,CVE-2021-23411
+gitlogplus,CVE-2021-23412
+ghost,CVE-2021-39192
+org.webjars.npm:xlsx,CVE-2021-32014
+org.webjars.npm:xlsx,CVE-2021-32012
+org.webjars.npm:xlsx,CVE-2021-32013
+urijs,CVE-2021-3647
+gatsby-source-wordpress,CVE-2021-32770
+putil-merge,CVE-2021-25953
+is-email,CVE-2021-36716
+total.js,CVE-2021-23389
+total4,CVE-2021-23390
+just-safe-set,CVE-2021-25952
+ts-nodash,CVE-2021-23403
+record-like-deep-assign,CVE-2021-23402
+stellar-sdk,CVE-2021-32738
+think-helper,CVE-2021-32736
+nodemailer,CVE-2021-23400
+wincred,CVE-2021-23399
+mermaid,CVE-2021-35513
+prismjs,CVE-2021-32723
+@auth0/nextjs-auth0,CVE-2021-32702
+react-bootstrap-table,CVE-2021-23398
+is-svg,CVE-2021-29059
+color-string,CVE-2021-29060
+mongo-express,CVE-2021-21422
+striptags,CVE-2021-32696
+lutils,CVE-2021-23396
+tenvoy,CVE-2021-32685
+supermixer,CVE-2020-24939
+valine,CVE-2021-34801
+@scandipwa/magento-scripts,CVE-2021-32684
+tenvoy,GHSA-7r96-8g3x-g36m
+nedb,CVE-2021-23395
+matrix-appservice-bridge,CVE-2021-32659
+@apollosproject/data-connector-rock,CVE-2021-32691
+expand-hash,CVE-2021-25948
+set-getter,CVE-2021-25949
+ckeditor4,CVE-2021-33829
+locutus,CVE-2021-23392
+calipso,CVE-2021-23391
+reg-keygen-git-hash-plugin,CVE-2021-32673
+nestie,CVE-2021-25947
+glob-parent,CVE-2020-28469
+auth0-lock,CVE-2021-32641
+@backstage/techdocs-common,CVE-2021-32660
+@backstage/plugin-techdocs,CVE-2021-32661
+@backstage/techdocs-common,CVE-2021-32662
+merge-deep,CVE-2021-26707
+forms,CVE-2021-23388
+react-native,CVE-2020-1920
+@aws-crypto/client-browser,GHSA-h45p-w933-jxh3
+trim-newlines,CVE-2021-33623
+css-what,CVE-2021-33587
+nconf-toml,CVE-2021-25946
+ws,CVE-2021-32640
+normalize-url,CVE-2021-33502
+@ronomon/opened,CVE-2021-29300
+js-extend,CVE-2021-25945
+trailing-slash,CVE-2021-23387
+@worker-tools/stripe-webhook,GHSA-4g53-vp7q-gfjv
+tinymce,GHSA-5vm8-hhgr-jcjp
+@floffah/build,GHSA-jcgr-9698-82jx
+json-ptr,GHSA-rrqv-vjrw-hrcr
+pixl-class,CVE-2020-7640
+fun-map,CVE-2020-7644
+node-rules,CVE-2020-7609
+@keystonejs/keystone,CVE-2021-32624
+paypal-adaptive,CVE-2020-7643
+lazysizes,CVE-2020-7642
+svg2png,CVE-2020-11887
+msrcrypto,CVE-2020-1026
+express-mock-middleware,CVE-2020-7616
+fsa,CVE-2020-7615
+xdLocalStorage,CVE-2020-11611
+xdLocalStorage,CVE-2015-9544
+xdLocalStorage,CVE-2015-9545
+compass-compile,CVE-2020-7635
+heroku-addonpool,CVE-2020-7634
+adb-driver,CVE-2020-7636
+dns-packet,CVE-2021-23386
+jquery-bbq,CVE-2021-20086
+browserslist,CVE-2021-23364
+xmlhttprequest-ssl,CVE-2021-31597
+jquery-deparam,CVE-2021-20087
+safe-obj,CVE-2021-25928
+safe-flat,CVE-2021-25927
+postcss,CVE-2021-23382
+node-mpv,CVE-2020-7632
+diskusage-ng,CVE-2020-7631
+path-parse,CVE-2021-23343
+@fastify/csrf,CVE-2021-29624
+express-hbs,CVE-2021-32817
+haml-coffee,CVE-2021-32818
+squirrelly,CVE-2021-32819
+101,CVE-2021-25943
+deep-override,CVE-2021-25941
+matrix-react-sdk,GHSA-8796-gc9j-63rv
+mosc,CVE-2020-7672
+cd-messenger,CVE-2020-7675
+access-policy,CVE-2020-7674
+node-extend,CVE-2020-7673
+casperjs,CVE-2020-7679
+wifiscanner,CVE-2020-15362
+mversion,CVE-2020-7688
+tileserver-gl,CVE-2020-15500
+koa-shopify-auth,CVE-2020-8176
+jspdf,CVE-2020-7690
+devcert,CVE-2020-8186
+rollup-plugin-serve,CVE-2020-7684
+react-native-fast-image,CVE-2020-7696
+docsify,CVE-2020-7680
+get-git-data,CVE-2020-7619
+tiny-conf,CVE-2020-7724
+geojson2kml,CVE-2020-28429
+pomelo-monitor,CVE-2020-7620
+quill,CVE-2021-3163
+@theia/messages,CVE-2021-28162
+swiper,CVE-2021-23370
+postcss,CVE-2021-23368
+servey,CVE-2020-8214
+bson,CVE-2020-7610
+canvas,CVE-2020-8215
+marscode,CVE-2020-7681
+picotts,CVE-2021-23378
+onion-oled-js,CVE-2021-23377
+ps-visitor,CVE-2021-23374
+google-closure-library,CVE-2020-8910
+marked-tree,CVE-2020-7682
+mock2easy,CVE-2020-7697
+jpv,CVE-2020-17479
+tinymce,CVE-2020-17480
+fastify-multipart,CVE-2020-8136
+phpjs,CVE-2020-7700
+madlib-object-utils,CVE-2020-7701
+nis-utils,CVE-2020-7703
+templ8,CVE-2020-7702
+@irrelon/path,CVE-2020-7708
+connie-lang,CVE-2020-7706
+property-expr,CVE-2020-7707
+aedes,CVE-2020-13410
+json,CVE-2020-7712
+arr-flatten-unflatten,CVE-2020-7713
+deeps,CVE-2020-7716
+dot-notes,CVE-2020-7717
+confucious,CVE-2020-7714
+locutus,CVE-2020-7719
+node-oojs,CVE-2020-7721
+mixme,CVE-2021-29491
+gedi,CVE-2020-7727
+deep-get-set,CVE-2020-7715
+promisehelpers,CVE-2020-7723
+gammautils,CVE-2020-7718
+nodee-utils,CVE-2020-7722
+worksmith,CVE-2020-7725
+highcharts,CVE-2021-29489
+safe-object2,CVE-2020-7726
+grunt,CVE-2020-7729
+bestzip,CVE-2020-7730
+blamer,CVE-2020-8137
+ghost,CVE-2020-8134
+docker-compose-remote-api,CVE-2020-7606
+gulp-styledocco,CVE-2020-7607
+gulp-tape,CVE-2020-7605
+pulverizr,CVE-2020-7604
+exiftool-vendored,GHSA-4whq-r978-2x68
+gulp-scss-lint,CVE-2020-7601
+closure-compiler-stream,CVE-2020-7603
+node-prompt-here,CVE-2020-7602
+primefaces,CVE-2020-10544
+ua-parser-js,CVE-2020-7733
+querymen,CVE-2020-7600
+utilitify,CVE-2019-10808
+cumulative-distribution-function,CVE-2021-29486
+ghost,CVE-2021-29484
+typeorm,CVE-2020-8158
+json-bigint,CVE-2020-8237
+joplin,CVE-2020-15930
+ng-packagr,CVE-2020-7735
+backbone-query-parameters,CVE-2021-20085
+react-draft-wysiwyg,CVE-2021-31712
+vega-util,CVE-2019-10806
+ckeditor4,CVE-2020-9281
+redis,CVE-2021-29469
+bootstrap-select,CVE-2019-20921
+bmoor,CVE-2020-7736
+shiba,CVE-2020-7738
+oauth2-server,CVE-2017-18924
+json-pointer,CVE-2020-7709
+socket.io-file,CVE-2020-24807
+phantomjs-seo,CVE-2020-7739
+node-pdf-generator,CVE-2020-7740
+simpl-schema,CVE-2020-7742
+mathjs,CVE-2020-7743
+lightning-server,CVE-2020-7747
+osm-static-maps,CVE-2020-7749
+strapi,CVE-2020-27664
+trim,CVE-2020-7753
+dat.gui,CVE-2020-7755
+codemirror,CVE-2020-7760
+browserless-chrome,CVE-2020-7758
+pdf-image,CVE-2020-8132
+reveal.js,CVE-2020-8127
+droppy,CVE-2020-7757
+joplin,CVE-2020-28249
+chart.js,CVE-2020-7746
+@tsed/core,CVE-2020-7748
+npm-user-validate,CVE-2020-7754
+@absolunet/kafe,CVE-2020-7761
+json-ptr,CVE-2020-7766
+@grpc/grpc-js,CVE-2020-7768
+express-validators,CVE-2020-7767
+nodemailer,CVE-2020-7769
+json8,CVE-2020-7770
+json8-merge-patch,CVE-2020-8268
+doc-path,CVE-2020-7772
+controlled-merge,CVE-2020-28268
+psnode,CVE-2021-23375
+portkiller,CVE-2021-23379
+killing,CVE-2021-23381
+ffmpegdotjs,CVE-2021-23376
+roar-pidusage,CVE-2021-23380
+@curveball/a12n-server,CVE-2021-29452
+jose,CVE-2021-29443
+jose-browser-runtime,CVE-2021-29444
+jose-node-esm-runtime,CVE-2021-29445
+jose-node-cjs-runtime,CVE-2021-29446
+@firebase/util,CVE-2020-7765
+handlebars,CVE-2021-23369
+chrono-node,CVE-2021-23371
+@nextcloud/dialogs,CVE-2021-29438
+jsrsasign,CVE-2021-30246
+netmask,CVE-2021-28918
+set-or-get,CVE-2021-25913
+valib,CVE-2019-10805
+seria-number,CVE-2019-10802
+serial-number,CVE-2019-10804
+react-adal,CVE-2020-7787
+jspdf,CVE-2020-7691
+enpeem,CVE-2019-10801
+corenlp-js-prefab,CVE-2020-28439
+compile-sass,CVE-2019-10799
+rdf-graph-array,CVE-2019-10798
+rpi,CVE-2019-10796
+multi-ini,CVE-2020-28460
+multi-ini,CVE-2020-28448
+set-object-value,CVE-2020-28281
+bodymen,CVE-2019-10792
+script-manager,CVE-2020-8129
+djv,CVE-2020-28464
+asciitable.js,CVE-2020-7771
+socket.io-parser,CVE-2020-36049
+jsreport-chrome-pdf,CVE-2020-7762
+jsreport,CVE-2020-8128
+sockjs,CVE-2020-8823
+sockjs,CVE-2020-7693
+@scullyio/scully,CVE-2020-28470
+jointjs,CVE-2020-28479
+@aws-sdk/shared-ini-file-loader,CVE-2020-28472
+projen,CVE-2021-21423
+node-red-contrib-huemagic,CVE-2021-25864
+config-shield,CVE-2021-26276
+spritesheet-js,CVE-2020-7782
+systeminformation,CVE-2021-21388
+node-etsy-client,CVE-2021-21421
+is-user-valid,CVE-2021-23335
+lodash,CVE-2021-23337
+curling,CVE-2019-10789
+underscore,CVE-2021-23358
+is-my-json-valid,CVE-2018-1107
+braces,CVE-2018-1109
+kill-by-port,CVE-2021-23363
+mongodb-query-parser,CVE-2020-24391
+@ckeditor/ckeditor5-engine,CVE-2021-21391
+nats,GHSA-prmc-5v5w-c465
+@prisma/sdk,CVE-2021-21414
+portprocesses,CVE-2021-23348
+isolated-vm,CVE-2021-21413
+@thi.ng/egf,CVE-2021-21412
+klona,CVE-2020-8125
+strapi,CVE-2020-8123
+sanitize-html,CVE-2021-26539
+sanitize-html,CVE-2021-26540
+im-resize,CVE-2019-10787
+im-metadata,CVE-2019-10788
+network-manager,CVE-2019-10786
+lsof,CVE-2019-10783
+@theia/mini-browser,CVE-2019-17636
+@theia/preview,CVE-2020-27224
+private-ip,CVE-2020-28360
+netmask,CVE-2021-29418
+@theia/console,CVE-2021-28161
+eslint-fixer,CVE-2021-26275
+yapi-vendor,CVE-2021-27884
+nuance-gulp-build-common,CVE-2020-28430
+fs-path,CVE-2020-8298
+copy-props,CVE-2020-28503
+hosted-git-info,CVE-2021-23362
+es6-crawler-detect,CVE-2020-28501
+vis-timeline,CVE-2020-28487
+iniparserjs,CVE-2021-23328
+launchpad,CVE-2021-23330
+decal,CVE-2020-28449
+decal,CVE-2020-28450
+http-proxy-agent,CVE-2019-10196
+url-parse,CVE-2020-8124
+url-parse,CVE-2021-27515
+port-killer,CVE-2021-23359
+ua-parser-js,CVE-2021-27292
+killport,CVE-2021-23360
+freediskspace,CVE-2020-7775
+get-ip-range,CVE-2021-27191
+lodash,CVE-2020-28500
+schema-inspector,CVE-2021-21267
+stringstream,GHSA-qpw2-xchm-655q
+set-in,CVE-2020-28273
+wc-cmd,CVE-2020-28431
+shescape,CVE-2021-21384
+gitlog,CVE-2021-26541
+static-eval,CVE-2021-23334
+async-git,CVE-2020-28490
+merge,CVE-2020-28499
+xmlhttprequest,CVE-2020-28502
+object-collider,CVE-2021-25914
+kill-process-by-name,CVE-2021-23356
+ps-kill,CVE-2021-23355
+kill-process-on-port,CVE-2020-28426
+node-ps,CVE-2020-7785
+macfromip,CVE-2020-7786
+restify-paginate,CVE-2020-27543
+mongodb-client-encryption,CVE-2021-20327
+printf,CVE-2021-23354
+ssri,CVE-2021-27290
+is-svg,CVE-2021-28092
+html-parse-stringify,CVE-2021-23346
+wazuh,CVE-2021-26814
+total.js,CVE-2021-23344
+highcharts-export-server,GHSA-hfwx-c7q6-g54c
+y18n,CVE-2020-7774
+jspdf,CVE-2021-23353
+madge,CVE-2021-23352
+nobelprizeparser,GHSA-4wv4-mgfq-598v
+msgpack5,CVE-2021-21368
+xmldom,CVE-2021-21366
+ansi_up,CVE-2021-3377
+react-dev-utils,CVE-2021-24033
+@solid/identity-token-verifier,GHSA-xmh9-rg6f-j3mr
+elliptic,CVE-2020-28498
+botframework-connector,CVE-2021-1725
+pug,CVE-2021-21353
+fastify-http-proxy,CVE-2021-21322
+fastify-reply-from,CVE-2021-21321
+matrix-react-sdk,CVE-2021-21320
+urijs,CVE-2021-27516
+@progfay/scrapbox-parser,CVE-2021-27405
+@node-red/runtime,CVE-2021-21298
+@node-red/runtime,CVE-2021-21297
+three,CVE-2020-28496
+prismjs,CVE-2021-23341
+docsify,CVE-2021-23342
+rendertron,CVE-2020-8902
+systeminformation,CVE-2021-21315
+next-auth,CVE-2021-21310
+samba-client,CVE-2021-27185
+apexcharts,CVE-2021-23327
+ftp-srv,CVE-2020-26299
+marked,CVE-2021-21306
+dynamoose,CVE-2021-21304
+slashify,CVE-2021-3189
+total.js,CVE-2020-28494
+total.js,CVE-2020-28495
+dotty,CVE-2021-25912
+uap-core,CVE-2021-21317
+angular-expressions,CVE-2021-21277
+nested-object-assign,CVE-2021-23329
+@ckeditor/ckeditor5-markdown-gfm,CVE-2021-21254
+less-openui5,CVE-2021-21316
+an0n-chat-lib,GHSA-7xcv-wvr7-4h6p
+discord-fix,GHSA-qv2g-99x4-45x6
+sonatype,GHSA-w8fh-pvq2-x8c4
+electron,CVE-2020-26272
+async-git,CVE-2021-3190
+node-red-dashboard,CVE-2021-3223
+@graphql-tools/git-loader,CVE-2021-23326
+fastify-csrf,CVE-2020-28482
+immer,CVE-2020-28477
+socket.io,CVE-2020-28481
+gsap,CVE-2020-28478
+jointjs,CVE-2020-28480
+hellojs,CVE-2020-7741
+jquery-validation,CVE-2021-21252
+ts-process-promises,CVE-2020-7784
+buns,CVE-2020-7794
+tinymce,GHSA-w7jx-j77m-wp65
+tinymce,GHSA-h96f-fc7c-9r55
+axios,CVE-2020-28168
+urijs,CVE-2020-26291
+vega,CVE-2020-26296
+parse-server,CVE-2020-26288
+date-and-time,CVE-2020-26289
+dompurify,CVE-2020-26870
+node-notifier,CVE-2020-7789
+mquery,CVE-2020-35149
+corenlp-js-interface,CVE-2020-28440
+connection-tester,CVE-2020-7781
+datatables.net,CVE-2020-28458
+systeminformation,CVE-2020-26274
+ecstatic,CVE-2019-10775
+ini,CVE-2020-7788
+@fast-csv/parse,CVE-2020-26256
+html-purify,GHSA-5p28-63mc-cgr9
+@highlightjs/cdn-assets,GHSA-7wwv-vh3v-89cq
+systeminformation,CVE-2020-26245
+highlight.js,CVE-2020-26237
+semantic-release,CVE-2020-26226
+json-logic-js,GHSA-m9hw-7xfv-wqg7
+find-my-way,CVE-2020-7764
+scratch-svg-renderer,CVE-2020-7750
+phantom-html-to-pdf,CVE-2020-7763
+strapi-plugin-content-manager,CVE-2020-27666
+strapi-plugin-content-type-builder,CVE-2020-27665
+systeminformation,CVE-2020-26300
+xml-crypto,GHSA-c27r-x354-4m68
+systeminformation,CVE-2020-7752
+parse-server,CVE-2020-15270
+object-path,CVE-2020-15256
+webpack-subresource-integrity,CVE-2020-15262
+npm-user-validate,GHSA-xgh6-85xh-479p
+nats,CVE-2020-26149
+jison,CVE-2020-8178
+next,CVE-2020-15242
+electron,CVE-2020-15215
+electron,CVE-2020-15174
+joplin,CVE-2020-9038
+react-native-webview,CVE-2020-6506
+socket.io-file,GHSA-6495-8jvh-f28x
+@actions/core,CVE-2020-15228
+electorn,GHSA-38hx-3542-8fh3
+loadyaml,GHSA-mfc2-93pr-jf92
+mirador,GHSA-hgwm-pv9h-q5m7
+node-forge,CVE-2020-7720
+renovate,GHSA-36rh-ggpr-j3gj
+bcoin,CVE-2018-17145
+node-fetch,CVE-2020-15168
+lemonldap-ng-handler,CVE-2020-24660
+personnummer,GHSA-vpgc-7h78-gx8f
+bl,CVE-2020-8244
+bestzip,GHSA-4qqc-mp5f-ccv4
+@sap-cloud-sdk/core,GHSA-r2vw-jgq9-jqx2
+next,GHSA-5vj8-3v2h-h38v
+bootstrap-select,GHSA-9r7h-6639-v5mw
+@toast-ui/editor,GHSA-cr56-66mx-293v
+kerberos,GHSA-m2mx-rfpw-jghv
+papaparse,GHSA-qvjc-g5vr-mfgr
+m-backdoor,GHSA-vv52-3mrp-455m
+sds,CVE-2020-7618
+node-weakauras-parser,GHSA-86mr-6m89-vgj3
+utils-extend,CVE-2020-8147
+yargs-parser,CVE-2020-7608
+@uppy/companion,CVE-2020-8135
+node-rules,GHSA-8whr-v3gm-w8h9
+htmr,GHSA-f8rq-m28h-8hxj
+sapper,GHSA-f3vw-587g-r29g
+lazysizes,GHSA-w4vp-3mq7-7v82
+priest-runner,GHSA-9px9-f7jw-fwhj
+react-oauth-flow,GHSA-65m9-m259-7jqw
+http-proxy,GHSA-6x33-pw7p-hmpq
+ngx-md,GHSA-xr53-m937-jr9c
+@commercial/subtext,GHSA-36c4-4r89-6whg
+@commercial/hapi,GHSA-66mv-xh68-h6v2
+@hapi/hapi,GHSA-23vw-mhv5-grv5
+hapi,GHSA-7hx8-2rxv-66xv
+@hapi/subtext,GHSA-g9cg-h3jm-cwrc
+subtext,GHSA-g64q-3vg8-8f93
+subtext,GHSA-5854-jvxx-2cg9
+@commercial/subtext,GHSA-cvfm-xjc8-f2vm
+@hapi/subtext,GHSA-3wqh-h42r-x8fq
+@hapi/ammo,GHSA-gjph-xf5q-6mfq
+@hapi/accept,GHSA-9vrw-m88g-w75q
+@commercial/ammo,GHSA-rhc3-76jw-4f2x
+ammo,GHSA-mg85-8mv5-ffjr
+marky-markdown,GHSA-pxmp-fwjc-4x7q
+marky-markdown,GHSA-mg69-6j3m-jvgw
+cordova-plugin-inappbrowser,CVE-2019-0219
+@hapi/hoek,GHSA-22h7-7wwg-qmgg
+markdown-it-katex,GHSA-5ff8-jcf9-fw62
+traceroute,GHSA-rjvj-673q-4hfw
+parsel,GHSA-vjvw-wcmw-pr26
+klona,GHSA-4r97-78gf-q24v
+parsel,GHSA-q643-w9jp-q2qg
+parsel,GHSA-wqgx-4q47-j2w5
+@hapi/boom,GHSA-2ggq-vfcp-gwhj
+npm-git-publish,GHSA-49mg-94fc-2fx6
+meta-git,GHSA-qcff-ffx3-m25c
+1337qq-js,GHSA-7wgh-5q4q-6wx5
+express-laravel-passport,GHSA-v66p-w7qx-wv98
+atlasboard-atlassian-package,GHSA-25v4-mcx4-hh35
+mongodb-query-parser,GHSA-97mg-3cr6-3x4c
+giting,GHSA-7r9x-hr76-jr96
+ftp-srv,GHSA-r4m5-47cq-6qg8
+type-graphql,GHSA-xf64-2f9p-6pqq
+passport-cognito,CVE-2019-19723
+nextcloud-vue-collections,GHSA-whv6-rj84-2vh2
+plotter,GHSA-65xx-c85x-wg76
+gnuplot,GHSA-cfwc-xjfp-44jg
+bin-links,GHSA-v45m-2wcp-gg98
+bin-links,GHSA-2mj8-pj3j-h362
+treekill,GHSA-533p-g2hq-qr26
+tree-kill,GHSA-884p-74jh-xrg2
+bin-links,GHSA-gqf6-75v8-vr26
+vue-moment,GHSA-hrpp-f84w-xhfg
+strapi,GHSA-9p2w-rmx4-9mw7
+react,CVE-2013-7035
+web3-eht,GHSA-29fh-xcjr-p7rx
+we3b,GHSA-36r8-9qq7-mh43
+wbe3,GHSA-hg7w-2pf7-mxm2
+wallet-address-validtaor,GHSA-pc7q-c837-3wjq
+wallet-address-vaildator,GHSA-m6q2-9pfm-2wvr
+singale,GHSA-crfh-jmv2-2f9v
+signqle,GHSA-m794-qv59-gj7c
+siganle,GHSA-p5p2-rhc3-wmf3
+scryptys,GHSA-vrxj-4qhw-5vwq
+scrytsy,GHSA-vv7g-pjw9-4qj9
+sb58,GHSA-674r-xx4c-gj7x
+ripedm160,GHSA-9272-59x2-gwf2
+ripmed160,GHSA-gmjp-776j-2394
+riped160,GHSA-rwcq-qpm6-7867
+rceat,GHSA-7w7c-867m-4mqc
+path-to-regxep,GHSA-f7gc-6hcj-wc42
+hw-trnasport-u2f,GHSA-4363-x42f-xph6
+hdkye,GHSA-8pwx-j4r6-5v38
+hdeky,GHSA-255r-pghp-r5wh
+fs-extar,GHSA-435c-qcpm-wjw5
+ecuvre,GHSA-cgvm-rvfv-c92r
+ecruve,GHSA-fpf2-pr3j-4cm3
+dhkey,GHSA-qxrj-x7rm-2h49
+degbu,GHSA-xr3g-4gg5-w3wq
+cxt,GHSA-fpgg-r39h-3x5x
+crytpo-js,GHSA-m4fq-xh7w-jhfm
+crpyto-js,GHSA-73c6-vwjh-g3qh
+conistring,GHSA-cfc5-x58f-869w
+commanedr,GHSA-xcgx-27q5-7634
+commandre,GHSA-r8hx-3qx6-hxq9
+colne,GHSA-mhxg-pr3j-v9gr
+coinstrig,GHSA-4m3j-h8f2-4xh4
+coinstrng,GHSA-hj5w-xgw9-w4rj
+coinpayment,GHSA-3h99-v4qw-p2h5
+coinstirng,GHSA-ff6g-gm92-rf32
+cionstring,GHSA-xh8g-j88w-6v59
+bsae-x,GHSA-mgff-xpg3-3gwc
+bs85check,GHSA-4hq8-v42x-9wx3
+bs58chekc,GHSA-fwvq-x4j9-hr5f
+bs85,GHSA-gvm7-8fq3-qjj2
+bs58chcek,GHSA-97mp-9g5c-6c93
+bs58chek,GHSA-3cpj-mj3q-82wr
+bpi39,GHSA-762c-v946-pf25
+bpi66,GHSA-7xc4-793x-25jp
+bitcroe-lib,GHSA-4m3p-x2hp-2pgx
+bp66,GHSA-8gc6-65mm-xr6r
+bitconijs-lib,GHSA-74hh-4rcv-pp27
+bitconi-ops,GHSA-w9hw-v97w-g5f5
+bitconid-rpc,GHSA-9298-m7jf-55h2
+bitcoisnj-lib,GHSA-629c-j867-3v45
+bitcoin-sweep,GHSA-8hqw-qp6r-vqcm
+bitcoin-osp,GHSA-v8g7-9qv2-j865
+bitcoimjs-lib,GHSA-rv6q-p3x7-43fx
+bitcoimd-rpc,GHSA-rwmv-c7v8-v9vf
+bitcoijns-lib,GHSA-37vc-gwvp-6cgv
+bitcionjslib,GHSA-p4mf-4qvh-w8g5
+bitcion-ops,GHSA-85q4-v37c-wfpc
+bitcionjs,GHSA-qmgf-fp85-55gr
+bictore-lib,GHSA-f8vf-6hwg-hw55
+bip30,GHSA-wch2-46wj-6x5j
+bictoinjs-lib,GHSA-hwh3-fhf6-73x9
+bictoind-rpc,GHSA-jqvv-r4w3-8f7w
+bictoin-ops,GHSA-xrrg-wfwc-c7r3
+bconi,GHSA-7j93-5m2h-rvjx
+bcion,GHSA-2fwq-wx47-hm6x
+babel-loqder,GHSA-9cph-cqqh-36pw
+baes-x,GHSA-2jm5-2cqf-6vw9
+babel-laoder,GHSA-qp6m-jqfr-2f7v
+babel-loadre,GHSA-vvfh-mvjv-w38q
+react,GHSA-hg79-j56m-fxgv
+iobroker.admin,CVE-2019-10765
+cxct,GHSA-c5xm-m64m-f2vq
+localeval,GHSA-mmqv-m45h-q2hp
+html-pdf-chrome,GHSA-5p98-wpc9-g498
+notevil,GHSA-9gxr-rhx6-4jgv
+sahmat,GHSA-83pq-466j-fc6j
+safe-object2,GHSA-qccf-q7p4-3q3j
+getsetdeep,GHSA-8j49-49jq-vwcq
+deep-setter,GHSA-9qrg-h9g8-c65q
+get-setter,GHSA-ch82-gqh6-9xj9
+markdown,GHSA-wx77-rp39-c6vg
+reggae,GHSA-q9wr-gcjc-hq52
+flat-wrap,GHSA-g7h8-p22m-2rvx
+unflatten,GHSA-6fh5-8wq8-w3wr
+handlebars,GHSA-q2c6-c6pm-g3gh
+handlebars,GHSA-g9r4-xpmj-mj65
+malicious-npm-package,GHSA-49c6-3wr4-8jr4
+veval,GHSA-54qm-37qr-w5wq
+@zhaoyao91/eval-in-vm,GHSA-jp99-5h8w-gmxc
+pitboss-ng,GHSA-3gpc-w23c-w59w
+sandbox,GHSA-gc25-3vc5-2jf9
+lighter-vm,GHSA-c3hq-7mxh-mqxf
+sj-labc,GHSA-4fqg-89cc-5pv5
+handlebars,GHSA-2cf5-4w76-r9qv
+superhappyfuntime,GHSA-6qgx-f452-7699
+arsenic-tabasco-cyborg-peanut-butter,GHSA-r742-7j4h-hjr8
+sj-tw-abc,GHSA-4hfc-fv33-ph9p
+sj-tw-sec,GHSA-692h-g37c-qv44
+sj-tw-test-security,GHSA-rcv7-4w2m-gj9v
+owl-orchard-apple-sunshine,GHSA-h24p-2c3m-5qf4
+airtable,GHSA-jrj9-5qp6-2v8q
+showdown,GHSA-h6mq-3cj6-h738
+handlebars,GHSA-f52g-6jhx-586p
+zs-sha3,GHSA-7696-qr5q-pg37
+ns-sha3,GHSA-j67m-jg9p-ppg4
+ks-sha3,GHSA-563h-49v8-g7x4
+jw-sha3,GHSA-8g3r-968r-c644
+jsmsha3,GHSA-657v-jjf8-83gh
+js-sxa3,GHSA-jh67-3wqw-cvhr
+js-wha3,GHSA-785g-gx74-gr39
+js-sja3,GHSA-6343-m2qr-66gf
+js-sla3,GHSA-h6m3-cx24-9626
+js-sia3,GHSA-3mhm-jvqj-fvhg
+js-shq3,GHSA-766v-7gjx-55hf
+js-shi3,GHSA-g37j-v5gh-g25c
+js-she3,GHSA-f8jj-45fj-44r6
+js-shc3,GHSA-69mf-2cw2-38m8
+js-shas,GHSA-5wq6-v5cw-jvfr
+js-sha7,GHSA-hvgc-mggg-pxr2
+js-rha3,GHSA-95cg-3r4g-7w6j
+js-qha3,GHSA-vf5m-q45w-8mh9
+js-cha3,GHSA-7xf9-74cp-8hx3
+js-3ha3,GHSA-52c9-458g-whrf
+jq-sha3,GHSA-x8m7-cv39-xmg9
+jr-sha3,GHSA-67mp-pcv9-vvq6
+jc-sha3,GHSA-gfj6-p24g-6hpm
+j3-sha3,GHSA-p3jx-g34v-q56j
+hs-sha3,GHSA-6mrq-7r7m-hh4p
+bs-sha3,GHSA-88xx-23mf-rcj2
+ruffer-xor,GHSA-2mxc-m4c3-wqhq
+fuffer-xor,GHSA-c2g6-57fp-22wp
+juffer-xor,GHSA-gqq4-937c-2282
+cuffer-xor,GHSA-6xm4-p6r2-mwrc
+buvfer-xor,GHSA-wjpj-gmc3-5w56
+bwffer-xor,GHSA-7qg7-6g3g-8vxg
+bugfer-xor,GHSA-8g64-9cm2-838j
+bunfer-xor,GHSA-6f93-xj8r-jp82
+bufner-xor,GHSA-7xf6-cpxm-5mx9
+bufver-xor,GHSA-cr4x-w2v7-4mmf
+bufger-xor,GHSA-2w8q-69fh-9gq6
+buffur-xor,GHSA-p7qp-3fh7-pv4p
+buffmr-xor,GHSA-wv39-cgmm-cq29
+buffgr-xor,GHSA-r9cj-xj33-4q42
+buffez-xor,GHSA-7frr-c83r-fm22
+buffev-xor,GHSA-x3w4-mrmv-cw2x
+buffes-xor,GHSA-28f4-mjfq-qrvf
+buffermxor,GHSA-536f-268f-6gxc
+buffer-zor,GHSA-f294-27fc-wgj7
+buffer-yor,GHSA-g2c4-4m64-vxm3
+buffer-xov,GHSA-3h9m-9g3g-5wqx
+buffer-xoz,GHSA-j6x7-42x2-hpcf
+buffer-xop,GHSA-jqjg-v355-hr9q
+buffer-xos,GHSA-h2j3-gg8w-4858
+buffer-xob,GHSA-gpg2-7r7j-4pm9
+buffer-xnr,GHSA-c4hh-fg8x-6h9p
+buffer-xo2,GHSA-f72h-wf57-7xwh
+buffer-xkr,GHSA-rw53-q8x7-ccx8
+buffer-xmr,GHSA-5327-gfq5-8f4m
+buffer-por,GHSA-6xg2-cf6h-x4v8
+buffer-xgr,GHSA-mp55-2274-4pj8
+buffer-hor,GHSA-wh87-3959-vfrq
+buffep-xor,GHSA-73wv-v82c-xmqv
+buffer-8or,GHSA-4hm7-73ch-vm59
+buffe2-xor,GHSA-3f97-rj68-2pjf
+buffeb-xor,GHSA-5ggx-g294-qj3q
+buffar-xor,GHSA-f64g-whxf-w8f2
+buffdr-xor,GHSA-8549-p68h-m9mc
+bufder-xor,GHSA-w9q5-mvc6-5cw3
+budfer-xor,GHSA-6584-gfwm-3vc3
+bufber-xor,GHSA-p9g3-vpvp-hcj5
+bubfer-xor,GHSA-vm67-mh96-95mq
+btffer-xor,GHSA-8hrq-9wm7-v3jw
+bqffer-xor,GHSA-pxqp-mv67-g528
+b5ffer-xor,GHSA-jvfv-jhw9-jmpp
+beffer-xor,GHSA-7cvf-p83w-48q6
+saml2-js,GHSA-mfcp-34xw-p57x
+dompurify,GHSA-mjjq-c88q-qhr6
+safer-eval,GHSA-876r-hj45-fw7g
+simple-crypto-js,GHSA-5v7r-jg9r-vq44
+markdown-to-jsx,GHSA-ccrp-c664-8p4j
+decompress,CVE-2020-12265
+express-fileupload,GHSA-q3w9-g74q-vp5f
+node-git-server,GHSA-cv3v-7846-6pxm
+hexo-admin,GHSA-phph-xpj4-wvcv
+mongodb,GHSA-mh5c-679w-hh4r
+uglyfi.js,GHSA-8jf2-cq6v-w234
+ember_cli_babe,GHSA-vm7j-4rj6-mw2p
+8.9.4,GHSA-725f-3pw7-rq6x
+harmlesspackage,GHSA-8hmr-w35f-3qgj
+yeoman-genrator,GHSA-f7g4-fm4c-54m9
+require-port,GHSA-rrvm-gqq8-q2wx
+pizza-pasta,GHSA-wxrm-2h86-v95f
+log-symboles,GHSA-h232-fpqx-mqgr
+json-serializer,GHSA-chh2-rvhg-wqwr
+comander,GHSA-4xg9-g7qj-jhg4
+bmap,GHSA-p59g-6cqr-m73w
+http-live-simulator,GHSA-xgp2-cc4r-7vf6
+ibm_db,GHSA-p77h-hv6g-fmfp
+apostrophe,GHSA-pv6r-vchh-cxg9
+discord.js-user,GHSA-69r6-7h4f-9p7q
+helmet-csp,GHSA-c3m8-x3cg-qm2c
+@wturyn/swagger-injector,GHSA-4x7w-frcq-v4m3
+swagger-injector,GHSA-v4x8-gw49-7hv4
+subtext,GHSA-2mvq-xp48-4c77
+mavon-editor,GHSA-jfcc-rm7f-xgf8
+snekserve,GHSA-hv4w-jhcj-6wfw
+@commercial/subtext,GHSA-fvwr-h9xh-m6wc
+@hapi/subtext,GHSA-4rgj-8mq3-hggj
+sql-injection,GHSA-hvxq-j2r4-4jm8
+evil-package,GHSA-p62r-jf56-h429
+larvitbase-www,GHSA-88h9-fc6v-jcw7
+simple-markdown,GHSA-4xf9-pgvv-xx67
+public,GHSA-4vvp-x9h2-x2vf
+sequelize,GHSA-fw4p-36j9-rrj3
+sparkies,GHSA-c4fm-46gm-4469
+serilize,GHSA-fw76-p9p2-6pvf
+serializes,GHSA-j899-348x-h3rq
+node-spdy,GHSA-wfjh-3hq2-r276
+node-ftp,GHSA-5jgp-pg4f-q8vj
+mysql-koa,GHSA-x45v-pvpg-hcrh
+mogodb-core,GHSA-g4m3-rpxr-h7vg
+mogoose,GHSA-5mm9-55c9-p5r7
+mogodb,GHSA-w3pp-wp5v-fjvp
+mogobd,GHSA-jchg-g94r-64qg
+koa-body-parse,GHSA-wqgq-mfvj-6qxp
+js-regular,GHSA-qcc9-q247-3m2m
+k0a_multer,GHSA-v95x-h953-x7fg
+js-base64-int,GHSA-76qf-6mvw-c5hm
+import-mysql,GHSA-whjr-jj69-7prm
+body-parse-xml,GHSA-jcmh-9fvm-j39w
+file-logging,GHSA-wwwg-6r7f-9c9h
+axios-http,GHSA-r2rg-683g-ff96
+axioss,GHSA-8w9j-6wg6-qv4f
+marsdb,GHSA-5mrr-rgp6-x4gr
+graphql-shield,GHSA-hx78-272p-mqqh
+bb-builder,GHSA-vm6v-w6q2-mrrq
+device-mqtt,GHSA-563h-697m-j7x5
+slush-fullstack-framework,GHSA-4j54-mmmv-hjpm
+pensi-scheduler,GHSA-j4ch-mw66-xmqv
+pyramid-proportion,GHSA-v6vv-hhqc-6hh2
+ngx-context-menu,GHSA-xwg3-gjxh-c8pm
+@fangrong/xoc,GHSA-pjxp-f379-6284
+iie-viz,GHSA-jf55-rgpx-p6rx
+jquery-airload,GHSA-78p3-96hc-3j47
+uploader-plugin,GHSA-fx6f-fpfv-5hmc
+zemen,GHSA-377f-vvrc-9wgg
+sailclothjs,GHSA-m5pf-5894-jmx7
+cal_rd,GHSA-226w-6hhj-69hp
+grpc-ts-health-check,GHSA-m86m-5m44-pc93
+mithril,GHSA-c3px-v9c7-m734
+notevil,GHSA-7r5f-7qr4-pf6q
+f-serv,GHSA-vx5w-cxch-wwc9
+console-feed,GHSA-g9wg-wq4f-2x5w
+anarchy,GHSA-jjhg-qw5v-r8xx
+otpauth,GHSA-rmmc-8cqj-hfp3
+cage-js,GHSA-jf8x-wg7f-p3w8
+fast-requests,GHSA-wjf2-7f9g-86f5
+rate-map,GHSA-x48m-gp6r-gp4v
+dmn-js-properties-panel,GHSA-h9wr-xr4r-66fh
+load-from-cwd-or-npm,GHSA-jxf5-7x3j-8j9m
+cmmn-js-properties-panel,GHSA-vmh4-322v-cfpc
+bpmn-js-properties-panel,GHSA-vpj4-89q8-rh38
+marked,GHSA-ch52-vgq2-943f
+domokeeper,GHSA-cr67-78jr-j94p
+nodes.js,GHSA-38vq-cjh5-vw7x
+deasyncp,GHSA-qfc9-x7gv-27jr
+sdfjghlkfjdshlkjdhsfg,GHSA-gcfc-mgg3-8j2c
+lodash.mergewith,GHSA-779f-wgxg-qr8f
+lodash.defaultsdeep,GHSA-46fh-8fc5-xcwx
+lodash.mergewith,GHSA-5947-m4fg-xhqg
+lodash.defaultsdeep,GHSA-h5mp-5q4p-ggf5
+lodash.merge,GHSA-2m96-9w4j-wgv7
+lodash.merge,GHSA-h726-x36v-rx45
+tiar,GHSA-4hjg-w3ww-38c6
+secure_identity_login_module,GHSA-59x8-7wx6-4hj9
+river-mock,GHSA-2h3x-95c6-885r
+retcodelog,GHSA-j8hw-49gg-vq3w
+qingting,GHSA-559q-92vx-xvjp
+node-buc,GHSA-x3m6-rprw-862w
+midway-dataproxy,GHSA-mq9h-cwc2-6j5r
+midway-xtpl,GHSA-w65v-hx54-xrqx
+hsf-clients,GHSA-g5q2-fcg9-j526
+luna-mock,GHSA-qm4q-f956-fg64
+cicada-render,GHSA-6m6m-j2hm-pxrg
+hpmm,GHSA-vxfp-qmpq-6826
+diamond-clien,GHSA-86gv-xpwv-jprc
+antd-cloud,GHSA-j4vm-hg8g-g9qv
+appx-compiler,GHSA-8q2c-2396-hf7j
+alipayjsapi,GHSA-rjhc-w3fj-j6x9
+alico,GHSA-jfx5-7mr2-g8hg
+ali-contributors,GHSA-8m5v-f2wp-wqr9
+ali-contributor,GHSA-h3m2-h22h-695r
+my-very-own-package,GHSA-crr2-ph72-c52g
+only-test-not-install,GHSA-g9wf-393q-4w38
+maybemaliciouspackage,GHSA-m9r7-q9fc-qwx5
+leetlog,GHSA-gfm8-g3vm-53jh
+malicious-do-not-install,GHSA-6879-xr95-5gf4
+quill,GHSA-588m-9qg5-35pq
+takeapeek,GHSA-4q2f-8g74-qm56
+jquery.json-viewer,GHSA-v9wp-8r97-v6xg
+restify-swagger-jsdoc,GHSA-gvff-25cc-4f66
+zencashjs,GHSA-xfrc-7mj2-5xh9
+bleach,GHSA-5634-rv46-48jf
+safe-eval,GHSA-9pcf-h8q9-63f6
+apostrophe,GHSA-h97g-4mx7-5p2p
+graylog-web-interface,GHSA-9qgh-7pgp-hp7r
+zero,GHSA-crf7-fvjx-863q
+eco,GHSA-r32x-jhw5-g48p
+@ionic/core,GHSA-r3xc-47qg-h929
+rpc-websocket,GHSA-x87g-rgrh-r6g3
+local-devices,GHSA-w725-67p7-xv22
+@berslucas/liljs,GHSA-c53x-wwx2-pg96
+require-node,GHSA-8j6j-4h2c-c65p
+smartsearchwp,GHSA-fgp6-8g62-qx6w
+file-static-server,GHSA-qjfh-xc44-rm9x
+put,GHSA-v6gv-fg46-h89j
+pullit,GHSA-8px5-63x9-5c7p
+ponse,GHSA-wfhx-6pcm-7m55
+bruteser,GHSA-v7cp-5326-54fh
+entitlements,GHSA-g8vp-6hv4-m67c
+mergify,GHSA-3f95-w5h5-fq86
+node-red,GHSA-5g6j-8hv4-vfgj
+serve,GHSA-cpgr-wmr9-qxv4
+untitled-model,GHSA-hq8g-qq57-5275
+swagger-ui,GHSA-w992-2gmj-9xxj
+swagger-ui,GHSA-22q9-hqm5-mhmc
+swagger-ui,GHSA-vp93-gcx5-4w52
+swagger-ui,GHSA-388g-jwpg-x6j4
+diagram-js-direct-editing,GHSA-j8r2-2x94-2q67
+diagram-js,GHSA-8fw4-xh83-3j6q
+wizard-syncronizer,GHSA-wgw3-gf4p-62xc
+swagger-ui,GHSA-4f9m-pxwh-68hg
+converse.js,CVE-2017-5858
+dojo,CVE-2015-5654
+serve,GHSA-xw79-hhv6-578c
+serve,GHSA-48gc-5j93-5cfq
+cordova-android,CVE-2016-6799
+resquel,GHSA-crpm-fm48-chj7
+node-sass,GHSA-9v62-24cr-58cx
+wxchangba,GHSA-j6v9-xgvh-f796
+bigint-money,GHSA-9r3m-mhfm-39cm
+atompm,GHSA-v86x-f47q-f7f4
+addax,GHSA-4q8f-5xxj-946r
+soletta-dev-app,GHSA-8mgg-5x65-m4m4
+expressfs,GHSA-mxmj-84q8-34r7
+node-wifi,GHSA-4x6x-782q-jfc4
+maleficent,GHSA-cr5w-6rv4-r2qg
+mx-nested-menu,GHSA-48hw-37g6-3gw4
+sails-mysql,GHSA-hx5x-49mm-vmhw
+vue-backbone,GHSA-5635-9mvj-r6hp
+grunt-radical,GHSA-4627-w373-375v
+grunt-radic,GHSA-9p49-cwh3-4qhf
+precode.js,GHSA-5w4r-wwc3-6qcp
+radic-util,GHSA-8qh7-xw58-3ww7
+scroool,GHSA-p7w2-mc6m-mfx2
+ngx-pica,GHSA-76wf-2xcf-6wmx
+pm-controls,GHSA-84qj-9qf2-q92r
+radicjs,GHSA-56r9-v65c-34jm
+leaflet-gpx,GHSA-gjc9-932x-c59p
+libubx,GHSA-m7xv-7p93-g6q8
+jekyll-for-github-projects,GHSA-j5qg-46p9-w2rp
+react-datepicker-plus,GHSA-4wcx-c9c4-89p2
+ng-ui-library,GHSA-2xw5-3767-qxvm
+motiv.scss,GHSA-2vqq-jgxx-fxjc
+github-jquery-widgets,GHSA-c722-pv5w-cfg2
+geoheat,GHSA-p32g-242c-76h3
+electron-native-notify,GHSA-j8qr-rvcv-crhv
+ember-power-timepicker,GHSA-28f8-hqmc-7ph8
+commmander,GHSA-q42c-rrp3-r3xm
+blubird,GHSA-rvww-x6m4-4vc2
+epress,GHSA-vf8q-pw7h-r2x2
+test-module-a,GHSA-76xq-58hj-vwm2
+angular-location-update,GHSA-53jx-4wwh-gcqj
+angluar-cli,GHSA-8mm3-2mcj-cx6r
+commqnder,GHSA-4xgp-xrg3-c73w
+shrugging-logging,GHSA-qv78-398w-cxp7
+font-scrubber,GHSA-65j7-66p7-9xgf
+loopback,GHSA-724c-6vrf-99rq
+ipfs-bitswap,GHSA-6fcr-9h9g-23fq
+kraken-api,GHSA-fgfj-rj24-mj7q
+rimrafall,GHSA-8hq2-fcqm-39hq
+yeoman-genrator,GHSA-fm7r-2pr7-rw2p
+uglyfi-js,GHSA-9xww-fwh9-95c5
+tensorplow,GHSA-m2fp-c79h-rr79
+require-ports,GHSA-qj3g-wfr7-3cv7
+logsymbles,GHSA-vcg5-9xw6-r56c
+jqeury,GHSA-4964-cjrr-jg97
+jquerz,GHSA-c6f3-3c98-2j2f
+hulp,GHSA-fqw7-8v6m-2f86
+froever,GHSA-2r8f-2665-3gxq
+colour-string,GHSA-8mmf-qp7j-2w24
+browserift,GHSA-43vf-2x6g-p2m5
+colro-name,GHSA-jp9g-5x75-ccp8
+bowe,GHSA-xmmp-hrmx-x5g7
+whiteproject,GHSA-8j7x-pr59-m5h8
+bowee,GHSA-wgvj-6v57-wjh3
+saync,GHSA-pm9v-325f-5g74
+reqest,GHSA-hg5q-rj62-c43g
+ag-grid-community,GHSA-7p6w-x2gr-rrf8
+destroyer-of-worlds,GHSA-w3f3-4j22-2v3p
+value-censorship,GHSA-xrr6-6ww3-f3qm
+donotinstallthis,GHSA-73hr-6785-f5p8
+fomantic-ui,GHSA-788m-pj96-7w2c
+jquery-mobile,GHSA-fj93-7wm4-8x2g
+google-closure-library,GHSA-r9q4-w3fm-wrm2
+wangeditor,GHSA-g7mw-5cq6-fv82
+carloprojectdiscord,GHSA-9rwj-8mh9-4876
+discord_debug_log,GHSA-5x8q-gj67-rhf2
+carloprojectlesang,GHSA-qj2g-642f-4jrv
+erquest,GHSA-4pmg-jgm5-3jg6
+rqeuest,GHSA-pj97-j597-ppm7
+requset,GHSA-w7wg-24g3-2c78
+equest,GHSA-mvch-rh6h-2m47
+requets,GHSA-f3pc-c2gf-hvgw
+reuest,GHSA-r863-p739-275c
+requst,GHSA-8qx4-r7fx-xc4v
+requet,GHSA-h44f-769q-j6px
+rrequest,GHSA-wc7q-qpm4-8pqv
+reques,GHSA-g8jc-mm3c-cwhj
+reequest,GHSA-rw4r-h883-8pf9
+requuest,GHSA-frxq-v7fm-m4pv
+reqquest,GHSA-4jfq-q299-g4cr
+requeest,GHSA-8vj3-jgcf-77jv
+requesst,GHSA-6c37-2rw5-9j7x
+requestt,GHSA-2563-83p7-f34p
+calk,GHSA-9mmw-3fmh-96g3
+chak,GHSA-9q9m-m2f6-jr5q
+eact,GHSA-pmgv-94f5-6w7w
+experss,GHSA-mmph-wp49-r48h
+commnader,GHSA-855m-jchh-9qjc
+exprss,GHSA-6qc7-jgq7-34rf
+momen,GHSA-h5vm-jhq7-w647
+aysnc,GHSA-gfjr-xqhm-qvv3
+asnyc,GHSA-v99v-xgjx-7m7g
+asycn,GHSA-h26f-j4mv-84g7
+asnc,GHSA-2p99-6f47-8x9j
+aasync,GHSA-9mjp-gv34-3jcf
+asyync,GHSA-rm7c-x424-g2mw
+asynnc,GHSA-5fm9-jmv7-fcx5
+asymc,GHSA-x6ch-c6rv-f7wh
+asinc,GHSA-87qw-7v97-w34r
+wepack-cli,GHSA-fpw3-x4xq-6vxq
+jajajejejiji,GHSA-rggq-f2wf-m6cp
+4equest,GHSA-p33q-w45h-2hcj
+preact,GHSA-cg48-9hh2-x6mx
+graphql-code-generator,GHSA-9w87-4j72-gcv7
+cocos-utils,GHSA-rffp-mc78-wjf7
+puppeteer,CVE-2019-5786
+typed-function,CVE-2017-1001004
+glance,GHSA-vw7g-jq9m-3q9v
+buttle,GHSA-pqpp-2363-649v
+express-cart,GHSA-9pr3-7449-977r
+harp,GHSA-cx7r-634m-2q2h
+smart-extend,GHSA-f8h3-rqrm-47v9
+tomato,GHSA-wqhw-frpx-5mmp
+googleapis,GHSA-7543-mr7h-6v86
+serialize-to-js,GHSA-w5q7-3pr9-x44w
+decompress-zip,GHSA-73v8-v6g4-vrpm
+stream-combine,GHSA-w6xj-45gv-fw35
+pi_video_recording,GHSA-9wjh-jr2j-6r4x
+loopback,GHSA-8wgc-jjvv-cv6v
+bootstrap-vue,GHSA-c7pp-x73h-4m2v
+loopback-connector-mongodb,GHSA-hxwc-5vw9-2w4w
+sandbox,GHSA-fm4j-4xhm-xpwx
+rrgod,GHSA-277p-xwpp-3jf7
+portionfatty12,GHSA-p8fm-w787-x6x3
+commander-js,GHSA-2hqf-qqmq-pgpp
+semantic-ui-search,GHSA-p9vv-3945-x93h
+static-eval,GHSA-x9hc-rw35-f44h
+office-converter,GHSA-9p64-h5q4-phpm
+pomelo-monitor,GHSA-m5ch-gx8g-rg73
+rails-session-decoder,GHSA-44vf-8ffm-v2qh
+mermaid,GHSA-w32g-5hqp-gg6q
+markdown-it-toc-and-anchor,GHSA-x6m6-5hrf-fh6r
+jingo,GHSA-mpjf-8cmf-p789
+md-data-table,GHSA-hgr5-82rc-p936
+buefy,GHSA-xwqw-rf2q-xmhf
+text-qrcode,GHSA-h5vj-f7r9-w564
+flatmap-stream,GHSA-9x64-5r7x-2q53
+samsung-remote,GHSA-xhjx-mfr6-9rr4
+ascii-art,GHSA-9hqj-38j2-5jgm
+browserify-hmr,CVE-2018-14730
+express-cart,GHSA-f5cv-xrv9-r8w7
+merge-objects,GHSA-992f-wf4w-x36v
+foever,GHSA-j3qq-qvc8-c6g7
+soket.js,GHSA-x6gq-467r-hwcc
+soket.io,GHSA-wp2p-q35g-3rjj
+regenraotr,GHSA-5x7p-gm79-383m
+regenrator,GHSA-m5p4-7wf9-6w99
+axois,GHSA-wpfc-3w63-g4hm
+njwt,GHSA-g3qw-9pgp-xpj4
+boogeyman,GHSA-9hc2-w9gg-q6jw
+express-cart,GHSA-8h8v-6qqm-fwpq
+eslint-config-airbnb-standard,GHSA-m852-866j-69j8
+eslint-config-eslint,GHSA-pv55-r6j3-wp94
+pdf-image,CVE-2018-3757
+react-marked-markdown,GHSA-m7qm-r2r5-f77q
+base64url,GHSA-rvg8-pwq2-xj7q
+ladder-text-js,GHSA-33gc-f8v9-v8hm
+nothing-js,GHSA-353r-3v84-9pjj
+getcookies,GHSA-3cjv-4phw-gvvv
+dictum.js,GHSA-j5jc-jf8f-86q7
+nginxbeautifier,GHSA-28xx-8j99-m32j
+xoc,GHSA-54cr-gv8w-8324
+simple-alipay,GHSA-3wh2-2pp3-2823
+react-server-native,GHSA-fwvp-x5gj-773j
+s3asy,GHSA-3wjm-33mw-h388
+react-dates-sc,GHSA-5645-gc7h-98h8
+rc-calendar-jhorst,GHSA-4c87-gg2q-fc6m
+oauth-validator,GHSA-cxcf-78mr-wpg7
+modlibrary,GHSA-94m7-w873-6wwf
+json-serializer,GHSA-7xfq-xh6v-4mrm
+jasmin,GHSA-9cq4-mhmr-84gm
+freshdom,GHSA-8qm2-24qc-c4qg
+impala,GHSA-92px-q4w8-hrr5
+dossier,GHSA-c8h6-89q2-mgv8
+dynamo-schema,GHSA-vp8g-53fw-r9f2
+css_transform_support,GHSA-45cp-hpc9-8347
+css_transform_step,GHSA-4rx9-58m7-gr8w
+cordova-plugin-china-picker,GHSA-x9gm-qxhh-rf75
+coffee-project,GHSA-3fv6-q5xv-fhpw
+codify,GHSA-2q6w-rxf3-4wc9
+blingjs,GHSA-hfc6-79wv-5hpw
+awesome_react_utility,GHSA-m25q-fwg4-9v2p
+another-date-range-picker,GHSA-8rxg-9g6f-vq9p
+another-date-picker,GHSA-2p62-c4rm-mr72
+angular-material-sidenav-rnd,GHSA-qmxf-fxq7-w59f
+angular-bmap,GHSA-w8hg-mxvh-9h57
+@impala/bmap,GHSA-c82c-8pjw-6829
+mongoose,GHSA-r5xw-q988-826m
+openwhisk,GHSA-53mj-mc38-q894
+serve,GHSA-wm7q-rxch-43mx
+mrk.js,GHSA-hpr5-wp7c-hh5q
+626,CVE-2018-3727
+redis-commander,GHSA-8c8c-4vfj-rrpc
+@vivaxy/here,GHSA-m4vv-p6fq-jhqp
+featurebook,GHSA-7x92-2j68-h32c
+hooka-tools,GHSA-m36m-x4c5-rjxj
+nodesass,CVE-2017-16080
+cross-env.js,CVE-2017-16081
+mysqljs,CVE-2017-16047
+botbait,CVE-2017-16126
+pandora-doomsday,CVE-2017-16127
+npm-script-demo,CVE-2017-16128
+section2.madisonjbrooks12,CVE-2017-16172
+jansenstuffpleasework,CVE-2017-16176
+chatbyvista,CVE-2017-16177
+dasafio,CVE-2017-16179
+wintiwebdev,CVE-2017-16181
+serve46,CVE-2017-16148
+iter-server,CVE-2017-16183
+scott-blanch-weather-app,CVE-2017-16184
+yjmyjmyjm,GHSA-g376-whg7-896m
+uekw1511server,CVE-2017-16185
+360class.jansenhm,CVE-2017-16186
+yttivy,CVE-2017-16219
+cypserver,CVE-2017-16191
+dcdcdcdcdc,CVE-2017-16190
+mfrs,CVE-2017-16193
+pytservce,CVE-2017-16195
+qinserve,CVE-2017-16197
+serverzyy,CVE-2017-16135
+shit-server,CVE-2017-16147
+susu-sum,CVE-2017-16199
+uv-tj-demo,CVE-2017-16200
+zjjserver,CVE-2017-16201
+dmmcquay.lab6,CVE-2017-16208
+enserver,CVE-2017-16209
+lessindex,CVE-2017-16211
+mfrserver,CVE-2017-16213
+peiserver,CVE-2017-16214
+sgqserve,CVE-2017-16215
+wind-mvc,CVE-2017-16220
+tencent-server,CVE-2017-16216
+yzt,CVE-2017-16221
+hcbserver,CVE-2017-16171
+liuyaserver,CVE-2017-16170
+nodeload-nmickuli,GHSA-wmcq-3wfx-qjx5
+wenluhong1,GHSA-224h-p7p5-rh85
+wffserve,CVE-2017-16168
+yyooopack,CVE-2017-16167
+dylmomo,CVE-2017-16163
+11xiaoli,CVE-2017-16160
+caolilinode,CVE-2017-16159
+dcserver,CVE-2017-16158
+shenliru,CVE-2017-16161
+welcomyzt,CVE-2017-16123
+liyujing,CVE-2017-16120
+myprolyz,CVE-2017-16156
+earlybird,CVE-2017-16154
+cuciuci,CVE-2017-16122
+weather.swlyons,CVE-2017-16110
+gaoxuyan,CVE-2017-16153
+gaoxiaotingtingting,CVE-2017-16108
+wangguojing123,CVE-2017-16150
+zwserver,CVE-2017-16149
+serverliujiayi1,CVE-2017-16095
+serverlyr,CVE-2017-16089
+serverhuwenhui,CVE-2017-16102
+serverwg,CVE-2017-16101
+serverwzl,CVE-2017-16105
+serveryaozeyan,CVE-2017-16096
+pidusage,CVE-2017-16034
+serveryztyzt,CVE-2017-16103
+fsk-server,CVE-2017-16090
+tiny-http,CVE-2017-16097
+xtalk,CVE-2017-16091
+windows-cpu,CVE-2017-1000219
+yui,CVE-2013-4939
+jquery,CVE-2012-6708
+ag-grid,CVE-2017-16009
+summit,CVE-2017-16020
+fury-adapter-swagger,CVE-2016-1000249
+pm2-kafka,CVE-2016-10693
+npm-test-sqlite3-trunk,CVE-2016-10695
+windows-latestchromedriver,CVE-2016-10696
+roslib-socketio,CVE-2016-10681
+gfe-sass,CVE-2017-16040
+windows-selenium-chromedriver,CVE-2016-10687
+adamvr-geoip-lite,CVE-2016-10680
+node-air-sdk,CVE-2016-10647
+frames-compiler,CVE-2016-10649
+apk-parser3,CVE-2016-10574
+apk-parser,CVE-2016-10564
+gitbook,CVE-2017-16019
+npm,CVE-2013-4116
+uws,CVE-2016-10544
+mqtt,CVE-2016-1000242
+pivottable,CVE-2016-1000241
+c3,CVE-2016-1000240
+swagger-ui,GHSA-g336-c7wv-8hp3
+node-krb5,CVE-2016-1000238
+fuelux,CVE-2016-1000235
+swagger-ui,CVE-2016-1000233
+jqtree,CVE-2016-1000234
+emojione,CVE-2016-1000231
+rendr,CVE-2016-1000230
+swagger-ui,CVE-2016-5682
+gmail-js,CVE-2016-1000228
+bootstrap-tagsinput,CVE-2016-1000227
+swagger-ui,CVE-2016-1000226
+sequelize,CVE-2016-1000225
+ezseed-transmission,CVE-2016-1000224
+dojo,CVE-2008-6681
+jsrender,CVE-2016-3942
+jws,CVE-2016-1000223
+bittorrent-dht,CVE-2016-10519
+mysql,CVE-2015-9244
+hapi,CVE-2015-9243
+gm,CVE-2015-7982
+ansi2html,CVE-2015-9239
+bleach,CVE-2014-8881
+yar,CVE-2014-4179
+validator,CVE-2014-8882
+ungit,CVE-2015-4130
+tomato,CVE-2013-7379
+serve-static,CVE-2015-1164
+st,CVE-2014-3744
+remarkable,CVE-2014-10065
+paypal-ipn,CVE-2014-10067
+nhouston,CVE-2014-8883
+marked,CVE-2014-3743
+libyaml,CVE-2013-6393
+libnotify,CVE-2013-7381
+ldapauth,CVE-2015-7294
+jquery-ujs,GHSA-6qqj-rx4w-r3cj
+inert,CVE-2014-10068
+hubot-scripts,CVE-2013-7378
+hapi,CVE-2014-4671
+fancy-server,CVE-2014-10066
+ep_imageconvert,CVE-2013-3364
+datatables,CVE-2015-6584
+connect,CVE-2013-7370
+dompurify,CVE-2019-16728
+@novnc/novnc,CVE-2017-18635
+flood,GHSA-r587-7jh2-4qr3
+nodebb-plugin-blog-comments,CVE-2020-15156
+safe-eval,CVE-2020-7710
+highcharts,GHSA-gr4j-r575-g665
+bcrypt,CVE-2020-7689
+auth0-lock,CVE-2020-15119
+ftp-srv,CVE-2020-15152
+@uppy/companion,CVE-2020-8205
+@progress/kendo-angular-editor,GHSA-j7wp-vjj6-cp5m
+serialize-javascript,CVE-2020-7660
+tinymce,GHSA-vrv8-v4w8-f95h
+prismjs,CVE-2020-15138
+angular,GHSA-5cp4-xmrw-59wf
+polaris-website,GHSA-whrh-9j4q-g7ph
+save-server,CVE-2020-15135
+fastify,CVE-2020-8192
+express-fileupload,CVE-2020-7699
+slp-validate,CVE-2020-15131
+slpjs,CVE-2020-15130
+dot-prop,CVE-2020-8116
+elliptic,CVE-2020-13822
+rollup-plugin-server,CVE-2020-7686
+rollup-plugin-server,CVE-2020-7683
+auth0,CVE-2020-15125
+git-tags-remote,GHSA-gm9x-q798-hmr4
+scratch-vm,CVE-2020-14000
+fast-http,CVE-2020-7687
+jpeg-js,CVE-2020-8175
+sails-hook-sockets,CVE-2018-21036
+parse,GHSA-wvh7-5p38-2qfc
+parse-server,CVE-2020-15126
+codecov,CVE-2020-15123
+lodash,CVE-2020-8203
+standard-version,GHSA-7xcx-6wjh-7xp2
+@knight-lab/timelinejs,CVE-2020-15092
+socket.io-file,CVE-2020-15779
+npm,CVE-2020-15095
+npm-registry-fetch,GHSA-jmqm-f2gx-4fjv
+electron,CVE-2020-15096
+electron,CVE-2020-4076
+electron,CVE-2020-4077
+electron,CVE-2020-4075
+express-jwt,CVE-2020-15084
+jsrsasign,GHSA-g753-jx37-7xwh
+jsrsasign,CVE-2020-14966
+generator-jhipster-kotlin,CVE-2019-16303
+jsrsasign,CVE-2020-14967
+jsrsasign,CVE-2020-14968
+generator-jhipster-kotlin,CVE-2020-4072
+url-regex,CVE-2020-7661
+angular,CVE-2020-7676
+mversion,CVE-2020-4059
+limdu,CVE-2020-4066
+dijit,CVE-2020-4051
+ssb-db,CVE-2020-4045
+umount,CVE-2020-7628
+ini-parser,CVE-2020-7617
+schema-inspector,CVE-2019-10781
+graphql-playground-html,CVE-2020-4038
+apollo-server,GHSA-w42g-7vfc-xf37
+logkitty,CVE-2020-8149
+websocket-extensions,CVE-2020-7662
+@nozbe/watermelondb,CVE-2020-4035
+snyk-broker,CVE-2020-7652
+snyk-broker,CVE-2020-7653
+snyk-broker,CVE-2020-7648
+snyk-broker,CVE-2020-7650
+snyk-broker,CVE-2020-7654
+snyk-broker,CVE-2020-7651
+dns-sync,CVE-2020-11079
+aegir,CVE-2020-11059
+jquery,CVE-2020-7656
+curlrequest,CVE-2020-7646
+slp-validate,CVE-2020-11072
+slpjs,CVE-2020-11071
+tinymce,CVE-2019-1010091
+hot-formula-parser,CVE-2020-6836
+qs,CVE-2017-1000048
+jquery,CVE-2020-11022
+jquery,CVE-2020-11023
+@actions/http-client,CVE-2020-11021
+npm-programmatic,CVE-2020-7614
+lix,CVE-2020-10800
+https-proxy-agent,GHSA-pc5p-h8pf-mvwp
+node-uuid,CVE-2015-8851
+sanitize-html,CVE-2016-1000237
+@fraction/oasis,CVE-2020-11003
+devcert-sanscache,CVE-2019-10778
+auth0-js,CVE-2020-5263
+confinit,CVE-2020-7638
+class-transformer,CVE-2020-7637
+acorn,GHSA-6chw-6frg-f759
+minimist,CVE-2020-7598
+seeftl,CVE-2019-15603
+fileview,CVE-2019-15602
+knockout,CVE-2019-14862
+ecstatic,GHSA-9q64-mpxx-87fg
+kind-of,CVE-2019-20149
+http_server,CVE-2019-15600
+statics-server,CVE-2019-15596
+next,CVE-2020-5284
+@metamask/eth-ledger-bridge-keyring,GHSA-vg44-fw64-cpjx
+acorn,GHSA-7fhm-mqm4-2wp7
+dojox,CVE-2020-5259
+dojo,CVE-2020-5258
+parse-server,CVE-2020-5251
+vp-toolkit,GHSA-ff5x-w9wg-h275
+vp-toolkit,GHSA-p94w-42g3-f7h4
+discord-markdown,GHSA-9r27-994c-4xch
+uap-core,CVE-2020-5243
+taffy,CVE-2019-10790
+codecov,CVE-2020-7597
+dojox,CVE-2019-10785
+yarn,CVE-2019-10773
+aws-lambda,CVE-2019-10777
+git-diff-apply,CVE-2019-10776
+angular,CVE-2019-14863
+node-df,CVE-2019-15597
+auth0-lock,CVE-2019-20174
+@ensdomains/ens,CVE-2020-5232
+tinymce,GHSA-27gm-ghr9-4v95
+node-red,CVE-2019-15607
+angular-expressions,CVE-2020-5219
+mongo-express,CVE-2019-10758
+cookie-signature,CVE-2016-1000236
+handlebars,CVE-2019-19919
+lodahs,CVE-2019-19771
+npm,CVE-2019-16777
+npm,CVE-2019-16776
+npm,CVE-2019-16775
+safer-eval,CVE-2019-10769
+serialize-to-js,CVE-2019-16772
+serialize-javascript,CVE-2019-16769
+jpv,CVE-2019-19507
+strapi,CVE-2019-18818
+pomelo,CVE-2019-18954
+iobroker.web,CVE-2019-10771
+iobroker.js-controller,CVE-2019-10767
+chartkick,CVE-2019-18841
+pannellum,CVE-2019-16763
+vant,GHSA-9xr8-8hmc-389f
+angular,CVE-2019-10768
+slp-validate,CVE-2019-16761
+slpjs,CVE-2019-16762
+@cubejs-backend/api-gateway,GHSA-4j6x-w426-6rc6
+sequelize,CVE-2019-10749
+sequelize,CVE-2019-10748
+node-red-dashboard,CVE-2019-10756
+sequelize,CVE-2019-10752
+renovate,GHSA-v7x3-7hw7-pcjg
+knex,CVE-2019-10757
+safer-eval,CVE-2019-10759
+realms-shim,GHSA-7cg8-pq9v-x98q
+safer-eval,CVE-2019-10760
+csv-parse,CVE-2019-17592
+swagger-ui,CVE-2019-17495
+mongoose,CVE-2019-17426
+eye.js,GHSA-mgv2-57vj-99xc
+realms-shim,GHSA-6jg8-7333-554w
+centra,GHSA-v6cj-r88p-92rm
+html-pdf,CVE-2019-15138
+generator-jhipster,GHSA-mc84-xr9p-938r
+status-board,CVE-2019-15479
+status-board,CVE-2019-15478
+bower,CVE-2019-5484
+gitlabhook,CVE-2019-5485
+generator-jhipster,GHSA-mwp6-j9wf-968c
+smartbanner.js,GHSA-9mrq-cjgh-32g2
+seneca,CVE-2019-5483
+larvitbase-api,CVE-2019-5479
+statichttpserver,CVE-2019-5480
+dojo,CVE-2010-2273
+sailsjs-cacheman,GHSA-5w65-6875-rhq8
+algo-httpserv,GHSA-cgjv-rghq-qhgp
+webtorrent,CVE-2019-15782
+deeply,CVE-2019-10750
+set-value,CVE-2019-10747
+mixin-deep,CVE-2019-10746
+selectize-plugin-a11y,CVE-2019-15482
+cyberchef,CVE-2019-15532
+eslint-utils,CVE-2019-15657
+connect-pg-simple,CVE-2019-15658
+openpgp,CVE-2019-9154
+openpgp,CVE-2019-9153
+openpgp,CVE-2019-9155
+editor.md,CVE-2019-14517
+editor.md,CVE-2019-14653
+libp2p-secio,GHSA-rch7-f4h5-x9rj
+rgb2hex,GHSA-65p8-3hm4-h9h8
+assign-deep,CVE-2019-10745
+yarn,CVE-2019-5448
+min-http-server,CVE-2019-5457
+http-file-server,CVE-2019-5458
+lodash,CVE-2019-1010266
+@nuxt/devalue,CVE-2019-13506
+http-file-server,CVE-2019-5447
+parse-server,CVE-2019-1020013
+lodash,CVE-2019-10744
+saml2-js,CVE-2017-11429
+mem,GHSA-4xcv-9jjx-gfj3
+mobile-icon-resizer,GHSA-mxjr-xmcg-fg7w
+angular,GHSA-28hp-fgcr-2r4h
+stringstream,CVE-2018-21270
+open,GHSA-28xh-wpgr-7fm8
+esm,GHSA-qx4v-6gc5-f2vv
+swagger-ui,GHSA-x9p2-fxq6-2m5f
+lactate,GHSA-68gr-cmcp-g3mj
+underscore.string,GHSA-v2p6-4mp7-3r9v
+serve-here,GHSA-g8m7-qhv7-9h5x
+constantinople,GHSA-4vmm-mhcq-4x9j
+squel,GHSA-4qhx-g9wp-g9m6
+@apollo/gateway,GHSA-74cr-77xc-8g6r
+keycloak-connect,CVE-2019-10157
+ids-enterprise,GHSA-49r3-3h96-rwj6
+lutils-merge,GHSA-f7qw-5pvg-mmwp
+diff,GHSA-h6ch-v84p-w6p9
+wiki-plugin-datalog,GHSA-pm52-wwrw-c282
+ids-enterprise,GHSA-hpfq-8wx8-cgqw
+ids-enterprise,GHSA-crfx-5phg-hmw9
+parse-server,CVE-2019-1020012
+harp,CVE-2019-5437
+harp,CVE-2019-5438
+sql,GHSA-8f93-rv4p-x4jw
+npmconf,GHSA-57cf-349j-352g
+fs-path,GHSA-gc94-6w89-hpqr
+localhost-now,GHSA-73cw-jxmm-qpgh
+http-proxy-agent,GHSA-8w57-jfpm-945m
+m-server,GHSA-vc6r-4x6g-mmqc
+node-os-utils,GHSA-j9f8-8h89-j69x
+querystringify,GHSA-hxcm-v35h-mg2x
+nwmatcher,GHSA-6394-6h9h-cfjg
+express-brute,GHSA-984p-xq9m-4rjw
+remarkable,CVE-2019-12041
+redbird,GHSA-8948-ffc6-jg52
+upmerge,GHSA-gm9g-2g8v-fvxj
+express-basic-auth,GHSA-c35v-qwqg-87jc
+jwt-simple,GHSA-8v5f-hp78-jgxq
+braces,GHSA-g95f-p29q-9xw4
+servey,GHSA-rv49-54qp-fw42
+typeorm,GHSA-w7q7-vjp8-7jv4
+dot,GHSA-4859-gpc7-4j66
+MIDIator.WebClient,GHSA-wxhq-pm8v-cw75
+tesseract.js,GHSA-83rx-c8cr-6j8q
+sequelize-cli,GHSA-3xc7-xg67-pw99
+handlebars,GHSA-q42p-pg8m-cqh6
+js-yaml,GHSA-2pr6-76vf-7546
+marked,GHSA-xf5p-87ch-gxw2
+statics-server,GHSA-74cp-qw7f-7hpw
+url-relative,GHSA-86p3-4gfq-38f2
+canvas,GHSA-vpq5-4rc8-c222
+gun,GHSA-886v-mm6p-4m66
+js-yaml,GHSA-8j8c-7jfh-h6hx
+opencv,GHSA-f698-m2v9-5fh3
+sequelize,GHSA-wfp9-vr4j-f49j
+ws,GHSA-5v72-xg48-5rpm
+loopback-connector-mongodb,GHSA-m734-r4g6-34f9
+byte,GHSA-xm7f-x4wx-wmgv
+cloudcmd,GHSA-m8fw-534v-xm85
+pem,GHSA-pgcr-7wm4-mcv6
+floody,GHSA-3p92-886g-qxpq
+express-cart,GHSA-3fc5-9x9m-vqc4
+command-exists,GHSA-cff4-rrq6-h78w
+ircdkit,GHSA-f7r3-p866-q9qr
+concat-stream,GHSA-g74r-ffvr-5q9f
+bl,GHSA-wrw9-m778-g6mc
+secure-compare,CVE-2015-9238
+tunnel-agent,GHSA-xc7v-wxcw-j472
+react-svg,GHSA-8xqr-4cpm-wx7g
+base64-url,GHSA-j4mr-9xw3-c9jx
+public,GHSA-7jfh-2xc9-ccv7
+angular-http-server,GHSA-vmhw-fhj6-m3g5
+deap,GHSA-xrmp-99wj-p6jc
+foreman,GHSA-xm28-fw2x-fqv2
+bracket-template,GHSA-jj6g-7j8p-7gf2
+ipns,GHSA-j59f-6m4q-62h6
+web3,GHSA-27v7-qhfv-rqq8
+bootbox,GHSA-87mg-h5r3-hw88
+fstream,CVE-2019-13173
+ltt.js,GHSA-6qh5-wx38-q92g
+jquery.terminal,GHSA-2hwp-g4g7-mwwj
+terriajs-server,GHSA-p72p-rjr2-r439
+fs-git,CVE-2017-16087
+concat-with-sourcemaps,GHSA-2xv3-h762-ccxv
+shave,CVE-2019-12313
+verdaccio,CVE-2019-14772
+mysql,GHSA-5f7m-mmpc-qhh4
+generate-password,GHSA-6qqf-vvcr-7qrv
+webpack-bundle-analyzer,GHSA-pgr8-jg6h-8gw6
+axios,CVE-2019-10742
+remarkable,CVE-2019-12043
+simditor,CVE-2018-19048
+mqtt-packet,CVE-2019-5432
+tar,CVE-2018-20834
+tar-fs,CVE-2018-20835
+nodebb,CVE-2015-9286
+jquery,CVE-2019-11358
+jquery,CVE-2019-5428
+sequelize,CVE-2019-11069
+simple-markdown,CVE-2019-9844
+materialize-css,CVE-2019-11004
+materialize-css,CVE-2019-11003
+materialize-css,CVE-2019-11002
+buttle,CVE-2019-5422
+http-live-simulator,CVE-2019-5423
+total.js,CVE-2019-10260
+morgan,CVE-2019-5413
+kill-port,CVE-2019-5414
+serve,CVE-2019-5415
+serve,CVE-2019-5417
+localhost-now,CVE-2019-5416
+highcharts,CVE-2018-20801
+editor.md,CVE-2019-9737
+uap-core,CVE-2018-20164
+bootstrap,CVE-2019-8331
+total.js,CVE-2019-8903
+broccoli-closure,CVE-2016-10635
+dwebp-bin,CVE-2016-10633
+jvminstall,CVE-2016-10631
+nw-with-arm,CVE-2016-10629
+scala-bin,CVE-2016-10627
+headless-browser-lite,CVE-2016-10625
+macaca-chromedriver-zxa,CVE-2016-10623
+fibjs,CVE-2016-10621
+atom-node-module-installer,CVE-2016-10620
+pennyworth,CVE-2016-10619
+node-browser,CVE-2016-10618
+curses,CVE-2016-10615
+box2d-native,CVE-2016-10617
+bionode-sra,CVE-2016-10613
+ws,CVE-2016-10518
+poco,CVE-2016-10659
+tomita-parser,CVE-2016-10666
+selenium-standalone-painful,CVE-2016-10679
+massif,CVE-2016-10682
+sequelize,CVE-2016-10550
+sequelize,CVE-2016-10553
+waterline-sequel,CVE-2016-10551
+sequelize,CVE-2016-10554
+sequelize,CVE-2016-10556
+aerospike,CVE-2016-10558
+galenframework-cli,CVE-2016-10560
+iedriver,CVE-2016-10562
+go-ipfs-dep,CVE-2016-10563
+install-nw,CVE-2016-10566
+geoip-lite-country,CVE-2016-10568
+pngcrush-installer,CVE-2016-10570
+bkjs-wand,CVE-2016-10571
+mongodb-instance,CVE-2016-10572
+fuseki,CVE-2016-10576
+ibm_db,CVE-2016-10577
+unicode,CVE-2016-10578
+nodewebkit,CVE-2016-10580
+closurecompiler,CVE-2016-10582
+dalek-browser-chrome-canary,CVE-2016-10584
+macaca-chromedriver,CVE-2016-10586
+nw,CVE-2016-10588
+cue-sdk-node,CVE-2016-10590
+ipip,CVE-2016-10594
+jser-stat,CVE-2016-10592
+imageoptim,CVE-2016-10596
+arrayfire-js,CVE-2016-10598
+webrtc-native,CVE-2016-10600
+haxe,CVE-2016-10602
+dalek-browser-chrome,CVE-2016-10604
+dalek-browser-ie,CVE-2016-10605
+grunt-webdriver-qunit,CVE-2016-10606
+robot-js,CVE-2016-10608
+unicode-json,CVE-2016-10610
+strider-sauce,CVE-2016-10611
+dalek-browser-ie-canary,CVE-2016-10612
+httpsync,CVE-2016-10614
+openframe-image,CVE-2016-10616
+nodeschnaps,CVE-2016-10622
+selenium-chromedriver,CVE-2016-10624
+mystem3,CVE-2016-10626
+selenium-wrapper,CVE-2016-10628
+install-g-test,CVE-2016-10630
+grunt-ccompiler,CVE-2016-10636
+scalajs-standalone-bin,CVE-2016-10634
+js-given,CVE-2016-10638
+haxe-dev,CVE-2016-10637
+redis-srvr,CVE-2016-10639
+node-thulac,CVE-2016-10640
+ntfserver,CVE-2016-10650
+webdriver-launcher,CVE-2016-10651
+clang-extra,CVE-2016-10655
+prebuild-lwip,CVE-2016-10652
+xd-testing,CVE-2016-10653
+sfml,CVE-2016-10654
+qbs,CVE-2016-10656
+co-cli-installer,CVE-2016-10657
+native-opencv,CVE-2016-10658
+fis-parser-sass-bin,CVE-2016-10660
+phantomjs-cheniu,CVE-2016-10661
+tomita,CVE-2016-10662
+wixtoolset,CVE-2016-10663
+mystem,CVE-2016-10664
+herbivore,CVE-2016-10665
+selenium-portal,CVE-2016-10667
+libsbml,CVE-2016-10668
+soci,CVE-2016-10669
+windows-seleniumjar-mirror,CVE-2016-10670
+mystem-wrapper,CVE-2016-10671
+cloudpub-redis,CVE-2016-10672
+ipip-coffee,CVE-2016-10673
+openframe-ascii-image,CVE-2016-10690
+windows-iedriver,CVE-2016-10689
+pk-app-wonderbox,CVE-2016-10685
+healthcenter,CVE-2016-10684
+arcanist,CVE-2016-10683
+serc.js,CVE-2016-10678
+google-closure-tools-latest,CVE-2016-10677
+rs-brightcove,CVE-2016-10676
+libsbmlsim,CVE-2016-10675
+limbus-buildgen,CVE-2016-10674
+bitty,CVE-2016-10561
+selenium-download,CVE-2016-10559
+appium-chromedriver,CVE-2016-10557
+igniteui,CVE-2016-10552
+sails,CVE-2016-10549
+call,CVE-2016-10543
+ws,CVE-2016-10542
+shell-quote,CVE-2016-10541
+cli,CVE-2016-10538
+backbone,CVE-2016-10537
+engine.io-client,CVE-2016-10536
+csrf-lite,CVE-2016-10535
+electron-packager,CVE-2016-10534
+console-io,CVE-2016-10532
+marked,CVE-2016-10531
+airbrake,CVE-2016-10530
+droppy,CVE-2016-10529
+restafary,CVE-2016-10528
+riot-compiler,CVE-2016-10527
+grunt-gh-pages,CVE-2016-10526
+i18n-node-angular,CVE-2016-10524
+hapi-auth-jwt2,CVE-2016-10525
+jshamcrest,CVE-2016-10521
+mqtt-packet,CVE-2016-10523
+jadedown,CVE-2016-10520
+operadriver,CVE-2016-10565
+product-monitor,CVE-2016-10567
+embedza,CVE-2016-10569
+baryton-saxophone,CVE-2016-10573
+kindlegen,CVE-2016-10575
+chromedriver,CVE-2016-10579
+steroids,CVE-2016-10581
+closure-util,CVE-2016-10583
+libxl,CVE-2016-10585
+wasdk,CVE-2016-10587
+selenium-binaries,CVE-2016-10589
+prince,CVE-2016-10591
+ibapi,CVE-2016-10593
+jdf-sass,CVE-2016-10595
+cobalt-cli,CVE-2016-10597
+sauce-connect,CVE-2016-10599
+webdrvr,CVE-2016-10601
+air-sdk,CVE-2016-10603
+openframe-glslviewer,CVE-2016-10607
+chromedriver126,CVE-2016-10609
+Haraka,CVE-2016-1000282
+cordova-plugin-ionic-webview,CVE-2018-16202
+rendertron,CVE-2017-18355
+http-live-simulator,CVE-2018-16479
+public,CVE-2018-16480
+html-pages,CVE-2018-16481
+mcstatic,CVE-2018-16482
+express-cart,CVE-2018-16483
+m-server,CVE-2018-16484
+m-server,CVE-2018-16485
+defaults-deep,CVE-2018-16486
+lodash,CVE-2018-16487
+just-extend,CVE-2018-16489
+mpath,CVE-2018-16490
+node.extend,CVE-2018-16491
+extend,CVE-2018-16492
+static-resource-server,CVE-2018-16493
+bootstrap,CVE-2018-20677
+bootstrap,CVE-2018-20676
+bootstrap,CVE-2016-10735
+xterm,CVE-2019-0542
+rendertron,CVE-2017-18352
+react-dom,CVE-2018-6341
+rendertron,CVE-2017-18354
+rendertron,CVE-2017-18353
+react-dev-utils,CVE-2018-6342
+webpack-dev-server,CVE-2018-14732
+jquery-file-upload,CVE-2018-9207
+simplehttpserver,CVE-2018-16478
+event-stream,GHSA-mh6f-8j2x-4483
+ethereumjs-vm,CVE-2018-19183
+simplemde,CVE-2018-19057
+yapi-vendor,CVE-2018-17574
+ckeditor,CVE-2018-17960
+valine,CVE-2018-19289
+windows-build-tools,CVE-2017-16003
+sqlserver,CVE-2017-16055
+mapbox.js,CVE-2017-1000043
+http-signature,CVE-2017-16005
+i18next,CVE-2017-16008
+html-janitor,CVE-2017-0931
+mapbox.js,CVE-2017-1000042
+remarkable,CVE-2017-16006
+sanitize-html,CVE-2017-16017
+http-proxy,CVE-2017-16014
+forms,CVE-2017-16015
+sanitize-html,CVE-2017-16016
+restify,CVE-2017-16018
+sync-exec,CVE-2017-16024
+request,CVE-2017-16026
+morris.js,CVE-2017-16022
+hostr,CVE-2017-16029
+mssql.js,CVE-2017-16056
+gruntcli,CVE-2017-16058
+nodemssql,CVE-2017-16057
+mssql-node,CVE-2017-16059
+editor.md,CVE-2018-19056
+cached-path-relative,CVE-2018-16472
+socket.io,CVE-2017-16031
+shout,CVE-2017-16043
+auth0-js,CVE-2018-6874
+nunjucks,CVE-2016-10547
+jwt-simple,CVE-2016-10555
+validator,CVE-2014-9772
+knightjs,CVE-2018-16475
+tianma-static,CVE-2018-16474
+takeapeek,CVE-2018-16473
+libnmap,CVE-2018-16461
+apex-publish-static-files,CVE-2018-16462
+node-tkinter,CVE-2017-16062
+tkinter,CVE-2017-16061
+merge,CVE-2018-16469
+parcel-bundler,CVE-2018-14731
+express,CVE-2014-6393
+handlebars,CVE-2015-8861
+express-restify-mongoose,CVE-2016-10533
+blueimp-file-upload,CVE-2018-9206
+dojox,CVE-2018-15494
+next,CVE-2018-18282
+tough-cookie,CVE-2016-1000232
+send,GHSA-pgv6-jrvv-75jp
+qs,GHSA-crvj-3gj9-gm2p
+qs,CVE-2014-10064
+jsonwebtoken,CVE-2015-9235
+minimatch,CVE-2016-10540
+negotiator,CVE-2016-10539
+uglify-js,GHSA-g6f4-j6c2-w3p3
+mustache,GHSA-3233-rgx3-c2wh
+hapi,CVE-2017-16013
+randomatic,CVE-2017-16028
+protobufjs,CVE-2018-3738
+atob,CVE-2018-3745
+deep-extend,CVE-2018-3750
+merge-options,CVE-2018-3752
+node-opensl,CVE-2017-16063
+sexstatic,CVE-2018-3755
+memjs,CVE-2018-3767
+glance,CVE-2018-3748
+augustine,CVE-2017-0930
+node-bsdiff-android,CVE-2016-10641
+apk-parser2,CVE-2016-10632
+buttle,CVE-2018-3766
+merge-object,CVE-2018-3753
+merge-recursive,CVE-2018-3751
+html-pages,CVE-2018-3744
+bson,CVE-2018-13863
+ps,CVE-2018-16460
+egg-scripts,CVE-2018-3786
+noderequest,CVE-2017-16073
+bootstrap,CVE-2018-14041
+exceljs,CVE-2018-16459
+cryptiles,CVE-2018-1000620
+public,CVE-2018-3747
+query-mysql,CVE-2018-3754
+msrcrypto,CVE-2018-8319
+macaddress,CVE-2018-13797
+simplehttpserver,CVE-2018-3787
+editor.md,CVE-2018-16330
+mosca,CVE-2018-11615
+babelcli,CVE-2017-16060
+ffmepg,CVE-2017-16068
+node-opencv,CVE-2017-16067
+opencv.js,CVE-2017-16066
+openssl.js,CVE-2017-16065
+node-openssl,CVE-2017-16064
+nodemailer.js,CVE-2017-16072
+nodemailer-js,CVE-2017-16071
+nodecaffe,CVE-2017-16070
+nodeffmpeg,CVE-2017-16069
+easyquick,CVE-2017-16109
+smb,CVE-2017-16079
+proxy.js,CVE-2017-16076
+http-proxy.js,CVE-2017-16075
+crossenv,CVE-2017-16074
+timespan,CVE-2017-16115
+mongose,CVE-2017-16077
+shadowsock,CVE-2017-16078
+electron,CVE-2018-15685
+flintcms,CVE-2018-3783
+git-dummy-commit,CVE-2018-3785
+cryo,CVE-2018-3784
+haxe3,CVE-2016-10688
+fis-sass-all,CVE-2016-10686
+aedes,CVE-2018-3778
+cmake,CVE-2016-10642
+jstestdriver,CVE-2016-10643
+slimerjs-edge,CVE-2016-10644
+grunt-images,CVE-2016-10645
+resourcehacker,CVE-2016-10646
+marionette-socket-host,CVE-2016-10648
+sshpk,CVE-2018-3737
+url-parse,CVE-2018-3774
+charset,CVE-2017-16098
+debug,CVE-2017-16137
+superagent,CVE-2017-16129
+metascraper,CVE-2018-3773
+discordi.js,CVE-2017-16207
+jquey,CVE-2017-16204
+desafio,CVE-2017-16164
+jikes,CVE-2017-16139
+static-eval,CVE-2017-16226
+st,CVE-2017-16224
+elding,CVE-2017-16222
+cofee-script,CVE-2017-16206
+coffescript,CVE-2017-16205
+coffe-script,CVE-2017-16203
+cofeescript,CVE-2017-16202
+ritp,CVE-2017-16198
+moment,GHSA-hxf5-mg84-pj4m
+npm,CVE-2016-3956
+is-my-json-valid,GHSA-ccq6-3qx5-vmqx
+hawk,CVE-2016-2515
+react-native-baidu-voice-synthesizer,CVE-2016-10697
+alto-saxophone,CVE-2016-10694
+haxeshim,CVE-2016-10692
+windows-seleniumjar,CVE-2016-10691
+whereis,CVE-2018-3772
+serve,CVE-2018-3712
+adm-zip,CVE-2018-1002204
+unzipper,CVE-2018-1002203
+superstatic,GHSA-wm77-q74p-5763
+mathjax,CVE-2018-1999024
+bracket-template,CVE-2018-3735
+mcstatic,CVE-2018-3730
+markdown-pdf,CVE-2018-3770
+https-proxy-agent,CVE-2018-3739
+jquery-ui,GHSA-g8q2-24jh-5hpc
+mystem-fix,CVE-2016-10698
+cyber-js,CVE-2017-16093
+dns-sync,GHSA-wxvm-fh75-mpgr
+pouchdb,CVE-2016-10546
+passport-azure-ad,CVE-2016-7191
+hekto,CVE-2018-3725
+general-file-server,CVE-2018-3724
+default-deep,CVE-2018-3723
+merge-deep,CVE-2018-3722
+lodash,CVE-2018-3721
+assign-deep,CVE-2018-3720
+mixin-deep,CVE-2018-3719
+anywhere,CVE-2018-3717
+simplehttpserver,CVE-2018-3716
+glance,CVE-2018-3715
+node-srv,CVE-2018-3714
+angular-http-server,CVE-2018-3713
+localhost-now,CVE-2018-3729
+f2e-server,CVE-2017-16038
+node-simple-router,CVE-2017-16083
+pg,CVE-2017-16082
+ikst,CVE-2017-16041
+hftp,CVE-2017-16039
+gomeplus-h5-proxy,CVE-2017-16037
+badjs-sourcemap-server,CVE-2017-16036
+hubl-server,CVE-2017-16035
+ua-parser,CVE-2017-16086
+tinyserver2,CVE-2017-16085
+list-n-stream,CVE-2017-16084
+iter-http,CVE-2017-16094
+sencisho,CVE-2017-16092
+no-case,CVE-2017-16099
+pooledwebsocket,CVE-2017-16107
+citypredict.whauwiller,CVE-2017-16104
+parsejson,CVE-2017-16113
+content,CVE-2017-16111
+tmock,CVE-2017-16106
+fresh,CVE-2017-16119
+forwarded,CVE-2017-16118
+string,CVE-2017-16116
+marked,CVE-2017-16114
+node-server-forfront,CVE-2017-16124
+datachannel-client,CVE-2017-16121
+rtcmulticonnection-client,CVE-2017-16125
+method-override,CVE-2017-16136
+http_static_simple,CVE-2017-16134
+exxxxxxxxxxx,CVE-2017-16130
+d3.js,CVE-2017-16044
+node-sqlite,CVE-2017-16048
+jquery.js,CVE-2017-16045
+sqlite.js,CVE-2017-16050
+nodesqlite,CVE-2017-16049
+fabric-js,CVE-2017-16053
+node-fabric,CVE-2017-16052
+sqliter,CVE-2017-16051
+nodefabric,CVE-2017-16054
+html-janitor,CVE-2017-0928
+nes,CVE-2017-16025
+slug,CVE-2017-16117
+unicorn-list,CVE-2017-16131
+simple-npm-registry,CVE-2017-16132
+goserv,CVE-2017-16133
+lab6.brit95,CVE-2017-16140
+lab6drewfusbyu,CVE-2017-16141
+infraserver,CVE-2017-16142
+commentapp.stetsonwood,CVE-2017-16143
+myserver.alexcthomas18,CVE-2017-16144
+sspa,CVE-2017-16145
+mockserve,CVE-2017-16146
+electron,CVE-2017-16151
+static-html-server,CVE-2017-16152
+fast-http-cli,CVE-2017-16155
+censorify.tanisjr,CVE-2017-16157
+22lixian,CVE-2017-16162
+calmquist.static-server,CVE-2017-16165
+byucslabsix,CVE-2017-16166
+looppake,CVE-2017-16169
+utahcityfinder,CVE-2017-16173
+whispercast,CVE-2017-16174
+ewgaddis.lab6,CVE-2017-16175
+intsol-package,CVE-2017-16178
+serverabc,CVE-2017-16180
+serverxxx,CVE-2017-16182
+open-device,CVE-2017-16187
+reecerver,CVE-2017-16188
+sly07,CVE-2017-16189
+getcityapi.yoehoehne,CVE-2017-16192
+picard,CVE-2017-16194
+quickserver,CVE-2017-16196
+jn_jj_server,CVE-2017-16210
+ltt,CVE-2017-16212
+fbr-client,CVE-2017-16217
+dgard8.lab6,CVE-2017-16218
+nodeaaaaa,CVE-2017-16223
+aegir,CVE-2017-16225
+uri-js,CVE-2017-16021
+decamelize,CVE-2017-16023
+useragent,CVE-2017-16030
+i18next,CVE-2017-16010
+tough-cookie,CVE-2017-15010
+node-jose,CVE-2017-16007
+mime,CVE-2017-16138
+fastify,CVE-2018-3711
+public,CVE-2018-3731
+resolve-path,CVE-2018-3732
+crud-file-server,CVE-2018-3733
+stattic,CVE-2018-3734
+hekto,CVE-2018-3743
+crud-file-server,CVE-2018-3726
+serve,CVE-2018-3809
+mariadb,CVE-2017-16046
+safe-eval,CVE-2017-16088
+dns-sync,CVE-2017-16100
+node-serialize,CVE-2017-5941
+serialize-to-js,CVE-2017-5954
+eslint-config-eslint,GHSA-hxxf-q3w9-4xgw
+growl,CVE-2017-16042
+hapi,CVE-2015-9236
+keystone,CVE-2015-9240
+hapi,CVE-2015-9241
+ecstatic,CVE-2015-9242
+reduce-css-calc,CVE-2016-10548
+pdfinfojs,CVE-2018-3746
+@ckeditor/ckeditor5-link,CVE-2018-11093
+hoek,CVE-2018-3728
+@risingstack/protect,CVE-2018-1000160
+electron,CVE-2018-1000136
+tiny-json-http,CVE-2018-1000096
+pym.js,CVE-2018-1000086
+ssri,CVE-2018-7651
+electron,CVE-2018-1000118
+auth0-js,CVE-2018-7307
+insight-api,CVE-2018-1000023
+moment,CVE-2017-18214
+aws-lambda-multipart-parser,CVE-2018-7560
+brace-expansion,CVE-2017-18077
+next,CVE-2018-6184
+electron,CVE-2018-1000006
+jquery,CVE-2016-10707
+jquery,CVE-2015-9251
+marked,CVE-2017-1000427
+marked,CVE-2017-17461
+samlify,CVE-2017-1000452
+passport-wsfed-saml2,CVE-2017-16897
+mqtt,CVE-2017-10910
+ecstatic,CVE-2016-10703
+auth0-js,CVE-2017-17068
+mathjs,CVE-2017-1001003
+mathjs,CVE-2017-1001002
+next,CVE-2017-16877
+ejs,CVE-2017-1000228
+ejs,CVE-2017-1000189
+ejs,CVE-2017-1000188
+keystone,CVE-2017-16570
+printer,CVE-2014-3741
+codem-transcode,CVE-2013-7377
+keystone,CVE-2017-15881
+keystone,CVE-2017-15879
+keycloak-connect,CVE-2017-7474
+keystone,CVE-2017-15878
+jquery-ui,CVE-2010-5312
+js-yaml,CVE-2013-4660
+jquery-ui,CVE-2012-6662
+validator,CVE-2013-7452
+geddy,CVE-2015-5688
+marked,CVE-2015-1370
+sequelize,CVE-2015-1369
+dns-sync,CVE-2014-9682
+bassmaster,CVE-2014-7205
+crumb,CVE-2014-7193
+syntax-error,CVE-2014-7192
+send,CVE-2014-6394
+hapi,CVE-2014-3742
+qs,CVE-2014-7191
+validator,CVE-2013-7453
+validator,CVE-2013-7454
+validator,CVE-2013-7451
+tar,CVE-2015-8860
+mustache,CVE-2015-8862
+send,CVE-2015-8859
+semver,CVE-2015-8855
+uglify-js,CVE-2015-8858
+marked,CVE-2015-8854
+serve-index,CVE-2015-8856
+ms,CVE-2015-8315
+uglify-js,CVE-2015-8857
+ember,GHSA-vxp4-25qp-86qh
+handlebars,GHSA-fmr4-7g9q-7hc7
+validator,GHSA-9959-c6q6-6qp3
+electron,CVE-2016-1202
+plotly.js,CVE-2017-1000006
+jquery-ui,CVE-2016-7103
+is-my-json-valid,CVE-2016-2537
+moment,CVE-2016-4055
