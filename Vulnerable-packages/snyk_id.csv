@@ -1,3 +1,4 @@
+name,id
 ckeditor4,CVE-2021-23562
 plupload,*
 @backstage/plugin-scaffolder-backend,CVE-2021-37981
