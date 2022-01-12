@@ -1,0 +1,3348 @@
+ckeditor4, CVE-2021-23562
+plupload,*
+@backstage/plugin-scaffolder-backend, CVE-2021-37981
+electron, CVE-2021-37984
+electron, CVE-2021-37987
+electron, CVE-2021-37996
+electron, CVE-2021-38003
+electron, CVE-2021-37992
+electron, CVE-2021-25987
+hexo,*
+richdocuments, CVE-2021-43783
+@backstage/plugin-scaffolder-backend, CVE-2021-43787
+nodebb, CVE-2021-43786
+nodebb,*
+@vue/cli, CVE-2021-34436
+@theia/core, CVE-2021-37979
+electron, CVE-2021-43776
+@backstage/plugin-auth-backend, CVE-2021-43785
+@joeattardi/emoji-button, CVE-2021-38002
+electron, CVE-2021-37998
+electron, CVE-2021-38001
+electron, CVE-2021-37979
+electron,*
+ag-grid-community,*
+@claviska/jquery-minicolors,*
+utils-copy, CVE-2021-40829
+aws-crt, CVE-2021-40831
+aws-crt, CVE-2021-40828
+aws-crt, CVE-2021-40830
+aws-crt, CVE-2021-23433
+algoliasearch-helper, CVE-2021-41164
+ckeditor4, CVE-2021-41165
+ckeditor4, CVE-2021-23718
+ssrf-agent, CVE-2021-25984
+@factor/plugin-forum, CVE-2021-25985
+@factor/cli, CVE-2021-41038
+@theia/plugin-ext,*
+terminal-kit,*
+@openzeppelin/contracts,*
+@openzeppelin/contracts-upgradeable, CVE-2021-25982
+@factor/plugin-forum, CVE-2021-25983
+@factor/plugin-forum, CVE-2021-41264
+@openzeppelin/contracts, CVE-2021-41264
+@openzeppelin/contracts-upgradeable, CVE-2021-3918
+json-schema,*
+@xvideos/alerts,*
+@pornhub/alerts,*
+@cyyynthia/tokenize,*
+natural,*
+uswds,*
+uglify-js,*
+starkbank-ecdsa, CVE-2021-41249
+apollo-server, CVE-2021-41249
+graphql-playground-react, CVE-2021-25978
+apostrophe, CVE-2021-32481
+gethue, CVE-2021-25979
+apostrophe, CVE-2021-41251
+@sap-cloud-sdk/core, CVE-2021-43788
+nodebb, CVE-2021-41248
+graphiql, CVE-2021-37976
+electron, CVE-2021-37978
+electron, CVE-2021-42057
+obsidian-dataview,*
+coa,*
+rc, CVE-2021-41174
+@grafana/data, CVE-2021-41134
+nbdime, CVE-2021-41134
+nbdime-jupyterlab, CVE-2021-37975
+electron, CVE-2021-37970
+electron, CVE-2021-37968
+electron, CVE-2021-37967
+electron,*
+tinymce, CVE-2021-23784
+tempura, CVE-2021-23624
+dotty, CVE-2021-23509
+json-ptr, CVE-2021-23820
+json-pointer, CVE-2021-23807
+jsonpointer, CVE-2021-23472
+bootstrap-table,*
+@brikcss/merge, CVE-2021-37980
+electron, CVE-2021-23732
+docker-cli-js, CVE-2020-26707
+aaptjs, CVE-2021-41748
+portainer, CVE-2020-22864
+froala-editor,*
+ramda,*
+noblox.js-proxies,*
+noblox.js-proxy, CVE-2021-41184
+jquery-ui, CVE-2021-41182
+jquery-ui, CVE-2021-41183
+jquery-ui,*
+tinymce,*
+conventional-commits-parser, CVE-2021-23673
+pekeupload,*
+ua-parser-js, CVE-2021-42740
+shell-quote, CVE-2021-41167
+modern-async,*
+klow,*
+klown,*
+okhsa, CVE-2021-42228
+kindeditor,*
+xss, CVE-2021-23451
+otp-generator,*
+git, CVE-2021-23452
+x-assign, CVE-2021-41151
+@backstage/plugin-scaffolder-backend, CVE-2021-42227
+kindeditor, CVE-2021-23449
+vm2,*
+uppy, CVE-2019-18413
+class-validator, CVE-2021-22964
+fastify-static, CVE-2021-39184
+electron,*
+@redocly/openapi-cli, CVE-2021-22960
+llhttp, CVE-2021-22959
+llhttp, CVE-2021-41117
+keypair, CVE-2021-3868
+prompts, CVE-2021-23448
+config-handler, CVE-2021-23447
+teddy, CVE-2021-22963
+fastify-static, CVE-2021-41109
+parse-server, CVE-2021-37973
+electron, CVE-2021-37960
+electron, CVE-2020-1915
+hermes-engine, CVE-2021-30086
+kindeditor, CVE-2021-37267
+kindeditor, CVE-2021-23446
+handsontable, CVE-2021-30633
+electron, CVE-2021-30628
+electron, CVE-2021-30626
+electron, CVE-2021-30630
+electron, CVE-2021-30631
+electron, CVE-2021-30627
+electron, CVE-2021-30632
+electron, CVE-2021-3822
+jsoneditor, CVE-2021-3820
+i, CVE-2021-23445
+datatables.net,*
+ghost,*
+@asyncapi/modelina, CVE-2020-26301
+ssh2,*
+ghost, CVE-2021-32265
+bento4, CVE-2021-23444
+jointjs, CVE-2021-23443
+edge.js, CVE-2021-39227
+zrender, CVE-2019-11004
+materialize-css,*
+ethers, CVE-2021-3810
+code-server, CVE-2021-3803
+nth-check, CVE-2021-40823
+matrix-js-sdk,*
+stylelint, CVE-2021-3795
+semver-regex,*
+@openzeppelin/contracts,*
+@openzeppelin/contracts-upgradeable, CVE-2021-3804
+taro, CVE-2021-23442
+@cookiex/deep, CVE-2021-3805
+object-path, CVE-2021-3794
+@vuelidate/validators, CVE-2021-3777
+tmpl, CVE-2021-3801
+prismjs,*
+code-oss-dev,*
+accessibility-insights-web, CVE-2021-40823
+matrix-js-sdk,*
+semver-regex,*
+colors-cli, CVE-2021-3807
+ansi-regex, CVE-2021-23440
+set-value, CVE-2021-3666
+body-parser-xml, CVE-2021-3645
+@viking04/merge,*
+parse-server, CVE-2021-39199
+remark-html,*
+rebber,*
+gun, CVE-2021-3766
+objection, CVE-2021-23439
+file-upload-with-preview, CVE-2021-34435
+@theia/mini-browser, CVE-2021-39187
+parse-server, CVE-2021-39109
+atlasboard, CVE-2021-23438
+mpath, CVE-2021-39176
+detect-character-encoding, CVE-2021-3749
+axios, CVE-2021-23436
+immer, CVE-2021-37701
+tar, CVE-2021-37712
+tar, CVE-2021-37713
+tar, CVE-2021-39134
+@npmcli/arborist, CVE-2021-39135
+@npmcli/arborist, CVE-2021-39178
+next, CVE-2021-39171
+passport-saml, CVE-2021-23434
+object-path, CVE-2021-39167
+@openzeppelin/contracts, CVE-2021-39168
+@openzeppelin/contracts-upgradeable, CVE-2021-39157
+detect-character-encoding, CVE-2021-39131
+ced, CVE-2021-23430
+startserver, CVE-2021-23431
+joplin, CVE-2021-23429
+transpile, CVE-2021-23406
+pac-resolver, CVE-2021-23432
+mootools, CVE-2021-39138
+parse-server, CVE-2021-23426
+proto, CVE-2021-32830
+@diez/generation,*
+string-kit,*
+ioredis, CVE-2021-23424
+ansi-html, CVE-2021-23425
+trim-off-newlines, CVE-2021-32822
+hbs, CVE-2021-32809
+ckeditor4, CVE-2021-37695
+ckeditor4, CVE-2021-32808
+ckeditor4, CVE-2021-37700
+@github/paste-markdown, CVE-2020-22403
+express-cart, CVE-2021-37699
+next, CVE-2021-37694
+@asyncapi/java-spring-cloud-stream-template, CVE-2021-23421
+merge-change, CVE-2021-38384
+serverless-offline,*
+@liquity/contracts,*
+@npmcli/git,*
+terriajs-server,*
+tar, CVE-2021-23419
+open-graph,*
+think-config, CVE-2021-30568
+electron, CVE-2021-30562
+electron, CVE-2021-30572
+electron, CVE-2021-30573
+electron, CVE-2021-30560
+electron, CVE-2021-30541
+electron, CVE-2021-30569
+electron, CVE-2021-30563
+electron, CVE-2021-32804
+tar, CVE-2021-32803
+tar, CVE-2021-37916
+joplin,*
+grapesjs, CVE-2021-30483
+isomorphic-git,*
+acookie,*
+vscode-npm-script,*
+firebase-extensions, CVE-2021-32796
+xmldom, CVE-2021-23416
+curly-bracket-parser, CVE-2021-23417
+deepmergefn, CVE-2021-3664
+url-parse, CVE-2021-23414
+video.js, CVE-2021-23413
+jszip, CVE-2021-23412
+gitlogplus, CVE-2021-39192
+ghost, CVE-2021-23411
+anchorme, CVE-2021-35065
+glob-parent, CVE-2021-28114
+froala-editor,*
+tui-editor,*
+@toast-ui/editor,*
+hey-sven, CVE-2021-36755
+nightscout, CVE-2021-32770
+gatsby-source-wordpress, CVE-2021-3647
+urijs,*
+urijs, CVE-2020-18145
+umeditor, CVE-2021-36383
+xo-server, CVE-2021-36383
+xo-web,*
+wp-calypso, CVE-2021-25953
+putil-merge, CVE-2021-25952
+just-safe-set, CVE-2021-30523
+electron, CVE-2021-30522
+electron, CVE-2021-23390
+total4, CVE-2021-23389
+total.js,*
+d3-color, CVE-2021-32738
+stellar-sdk,*
+jsoneditor, CVE-2021-23402
+record-like-deep-assign, CVE-2021-23403
+ts-nodash, CVE-2021-30547
+electron, CVE-2021-32736
+think-helper, CVE-2021-30551
+electron, CVE-2021-30544
+electron, CVE-2021-30548
+electron,*
+@toast-ui/editor, CVE-2021-32723
+prismjs, CVE-2021-30553
+electron, CVE-2021-30554
+electron,*
+noble, CVE-2021-35513
+mermaid, CVE-2021-23400
+nodemailer, CVE-2021-23399
+wincred, CVE-2021-32702
+@auth0/nextjs-auth0, CVE-2021-36716
+is-email,*
+@backstage/techdocs-common, CVE-2021-41097
+aurelia-path,*
+find-process, CVE-2021-23398
+react-bootstrap-table, CVE-2021-21422
+mongo-express, CVE-2021-32696
+striptags,*
+@apollo/client, CVE-2021-23397
+@ianwalter/merge, CVE-2021-32013
+xlsx, CVE-2021-32012
+xlsx, CVE-2021-23396
+lutils, CVE-2021-32014
+xlsx, CVE-2021-32691
+@apollosproject/data-connector-rock, CVE-2021-32659
+matrix-appservice-bridge, CVE-2021-34801
+valine, CVE-2021-24037
+hermes-engine, CVE-2021-32685
+tenvoy, CVE-2021-32684
+@scandipwa/magento-scripts, CVE-2021-23395
+nedb, CVE-2019-10260
+total.js, CVE-2021-33829
+ckeditor4, CVE-2021-25948
+expand-hash, CVE-2021-25949
+set-getter, CVE-2021-32673
+reg-keygen-git-hash-plugin, CVE-2021-23327
+apexcharts,*
+nestie, CVE-2021-23391
+calipso,*
+polished, CVE-2021-32641
+auth0-lock, CVE-2021-23392
+locutus, CVE-2021-25947
+nestie, CVE-2021-32662
+@backstage/techdocs-common, CVE-2021-32661
+@backstage/plugin-techdocs, CVE-2021-32660
+@backstage/techdocs-common, CVE-2021-30508
+electron, CVE-2021-30510
+electron, CVE-2021-30512
+electron, CVE-2021-30513
+electron, CVE-2021-30515
+electron, CVE-2021-30516
+electron, CVE-2021-30518
+electron,*
+@aws-crypto/decrypt-node,*
+@aws-crypto/decrypt-browser, CVE-2020-1920
+react-native,*
+layui,*
+layui-src, CVE-2021-23388
+forms, CVE-2021-33623
+trim-newlines,*
+tinymce, CVE-2021-33587
+css-what,*
+@floffah/build,*
+node-static,*
+node-static,*
+json-ptr, CVE-2021-25945
+js-extend, CVE-2021-25946
+nconf-toml, CVE-2021-32640
+ws, CVE-2021-32624
+@keystonejs/keystone, CVE-2021-29300
+@ronomon/opened, CVE-2021-33502
+normalize-url, CVE-2021-23386
+dns-packet, CVE-2021-32622
+matrix-react-sdk, CVE-2021-33041
+vmd, CVE-2020-8176
+@shopify/koa-shopify-auth, CVE-2021-32817
+express-hbs, CVE-2021-32818
+haml-coffee, CVE-2021-32819
+squirrelly, CVE-2021-23384
+koa-remove-trailing-slashes, CVE-2021-23387
+trailing-slash, CVE-2019-10062
+aurelia-templating-resources, CVE-2021-29624
+fastify-csrf, CVE-2021-25943
+101, CVE-2021-25941
+deep-override,*
+vconsole, CVE-2021-28128
+strapi, CVE-2020-8136
+fastify-multipart, CVE-2021-26543
+git-parse, CVE-2021-20085
+backbone-query-parameters,*
+frappe-charts, CVE-2021-29489
+highcharts, CVE-2021-23367
+is-svg, CVE-2021-22204
+exiftool-vendored.pl, CVE-2021-22204
+exiftool-vendored.exe, CVE-2021-23383
+handlebars, CVE-2021-23343
+path-parse,*
+ngx-markdown-editor, CVE-2021-28860
+mixme, CVE-2021-29369
+@rkesters/gnuplot, CVE-2021-29486
+cumulative-distribution-function, CVE-2021-21233
+electron, CVE-2021-21231
+electron, CVE-2021-21223
+electron, CVE-2021-21226
+electron, CVE-2021-29484
+ghost,*
+cypress,*
+confidence, CVE-2021-21223
+electron,*
+domify, CVE-2021-21222
+electron, CVE-2021-21198
+electron, CVE-2021-21202
+electron, CVE-2021-21206
+electron, CVE-2021-21225
+electron, CVE-2021-23364
+browserslist, CVE-2021-25927
+safe-flat, CVE-2021-25928
+safe-obj,*
+vconsole, CVE-2021-31712
+react-draft-wysiwyg, CVE-2017-18924
+oauth2-server,*
+validator, CVE-2021-3765
+validator,*
+validator,*
+dustjs-linkedin,*
+validator, CVE-2021-20089
+purl, CVE-2021-29469
+redis, CVE-2021-31597
+xmlhttprequest-ssl, CVE-2021-20086
+jquery-bbq, CVE-2021-20083
+jquery-query-object, CVE-2021-20087
+jquery-deparam, CVE-2021-20088
+mootools-more, CVE-2021-23382
+postcss, CVE-2021-21194
+electron, CVE-2021-21199
+electron, CVE-2021-21195
+electron, CVE-2021-29445
+jose-node-esm-runtime, CVE-2021-29444
+jose-browser-runtime, CVE-2021-29452
+@curveball/a12n-server,*
+meteor, CVE-2021-23376
+ffmpegdotjs, CVE-2021-23377
+onion-oled-js, CVE-2021-23375
+psnode, CVE-2021-23374
+ps-visitor, CVE-2021-23381
+killing,*
+editor.md, CVE-2021-23380
+roar-pidusage, CVE-2021-23378
+picotts, CVE-2021-23379
+portkiller, CVE-2021-29446
+jose-node-cjs-runtime, CVE-2021-29443
+jose, CVE-2021-27290
+ssri, CVE-2021-28458
+@azure/ms-rest-nodeauth, CVE-2021-29438
+@nextcloud/dialogs, CVE-2019-17636
+@theia/mini-browser, CVE-2020-8128
+jsreport, CVE-2021-23373
+set-deep-prop,*
+web-browserify, CVE-2021-23372
+mongo-express, CVE-2021-23368
+postcss,*
+shvl, CVE-2021-23371
+chrono-node, CVE-2021-23370
+swiper,*
+systeminformation, CVE-2021-30246
+jsrsasign, CVE-2021-21423
+projen, CVE-2021-20334
+mongodb-js-metrics, CVE-2021-21388
+systeminformation, CVE-2021-21414
+@prisma/sdk, CVE-2021-21391
+@ckeditor/ckeditor5-widget, CVE-2021-21391
+@ckeditor/ckeditor5-paste-from-office, CVE-2021-21391
+@ckeditor/ckeditor5-media-embed, CVE-2021-21391
+@ckeditor/ckeditor5-markdown-gfm, CVE-2021-21391
+@ckeditor/ckeditor5-list, CVE-2021-21391
+@ckeditor/ckeditor5-image, CVE-2021-21391
+@ckeditor/ckeditor5-font, CVE-2021-21391
+@ckeditor/ckeditor5-engine, CVE-2021-21413
+isolated-vm, CVE-2021-30109
+froala-editor, CVE-2021-21421
+node-etsy-client, CVE-2021-30074
+docsify, CVE-2021-23348
+portprocesses, CVE-2021-21412
+@thi.ng/egf,*
+mquery, CVE-2021-28918
+netmask, CVE-2021-23363
+kill-by-port, CVE-2021-23358
+underscore, CVE-2021-27884
+yapi-vendor, CVE-2021-21179
+electron, CVE-2021-21175
+electron, CVE-2021-21174
+electron, CVE-2021-21169
+electron, CVE-2021-21166
+electron, CVE-2021-21172
+electron,*
+mongoose, CVE-2021-23362
+hosted-git-info, CVE-2020-28503
+copy-props,*
+json, CVE-2021-23360
+killport,*
+convict, CVE-2020-28501
+es6-crawler-detect, CVE-2021-21267
+schema-inspector, CVE-2020-36144
+redash, CVE-2021-26275
+eslint-fixer, CVE-2021-21384
+shescape, CVE-2021-26814
+wazuh, CVE-2021-25916
+patchmerge, CVE-2021-23359
+port-killer, CVE-2021-21193
+electron, CVE-2021-21181
+electron, CVE-2021-21160
+electron, CVE-2021-21165
+electron, CVE-2021-21162
+electron,*
+node-dig,*
+@lyngs/digger,*
+@lyngs/merge, CVE-2021-23356
+kill-process-by-name, CVE-2021-23355
+ps-kill, CVE-2021-28161
+@wiptheia/core, CVE-2021-28092
+is-svg,*
+plain-object-merge, CVE-2021-21368
+msgpack5,*
+@solid/identity-token-verifier,*
+nobelprizeparser,*
+highcharts-export-server, CVE-2021-28162
+@wiptheia/core,*
+mongo-express, CVE-2021-23354
+printf, CVE-2021-29060
+color-string,*
+style-dictionary, CVE-2021-25915
+changeset, CVE-2021-21366
+xmldom, CVE-2021-24033
+react-dev-utils, CVE-2021-23353
+jspdf,*
+shiba, CVE-2021-1725
+botframework-connector,*
+moemark, CVE-2021-23352
+madge,*
+ghost,*
+paychex-common-npm,*
+paychex-framework,*
+paychex-framework-forms,*
+paychex-framework-core-ui,*
+paychex-app-common-html,*
+paychex-framework-approvals, CVE-2021-3377
+ansi_up,*
+rcenodejs, CVE-2020-28502
+xmlhttprequest, CVE-2020-28502
+xmlhttprequest-ssl,*
+alasql,*
+msgpack5,*
+radar-cms, CVE-2021-23344
+total.js,*
+systeminformation,*
+amzn,*
+zg-rentals,*
+lyft-dataset-sdk,*
+serverless-slack-app, CVE-2021-21321
+fastify-reply-from, CVE-2021-21322
+fastify-http-proxy, CVE-2021-21320
+matrix-react-sdk, CVE-2021-25914
+object-collider, CVE-2021-23346
+html-parse-stringify2, CVE-2021-23346
+html-parse-stringify,*
+prototyped.js, CVE-2021-21353
+pug, CVE-2021-21353
+pug-code-gen, CVE-2021-21297
+@node-red/editor-api, CVE-2021-21297
+@node-red/runtime, CVE-2021-21298
+@node-red/runtime,*
+rfc6902, CVE-2021-20327
+mongodb-client-encryption, CVE-2020-27543
+restify-paginate,*
+nunjucks, CVE-2020-27224
+@theia/preview, CVE-2020-28432
+theme-core, CVE-2020-28431
+wc-cmd, CVE-2020-28429
+geojson2kml, CVE-2020-28499
+merge, CVE-2020-8902
+rendertron, CVE-2021-27516
+urijs, CVE-2021-27515
+url-parse,*
+@stoplight/markdown, CVE-2020-28248
+png-img,*
+tree-kit, CVE-2021-27405
+@progfay/scrapbox-parser, CVE-2021-23342
+docsify, CVE-2021-23341
+prismjs,*
+label-studio,*
+admin-lte,*
+i18next,*
+adm-zip, CVE-2021-23369
+handlebars, CVE-2021-23337
+lodash.template, CVE-2021-23337
+lodash, CVE-2020-28500
+lodash, CVE-2021-21315
+systeminformation,*
+systeminformation, CVE-2021-27191
+get-ip-range, CVE-2021-27292
+ua-parser-js, CVE-2021-21310
+next-auth, CVE-2020-26299
+ftp-srv, CVE-2021-23335
+is-user-valid, CVE-2021-27185
+samba-client,*
+@angular/core, CVE-2020-7782
+spritesheet-js, CVE-2021-23327
+apexcharts, CVE-2020-7785
+node-ps, CVE-2020-7786
+macfromip, CVE-2021-26539
+sanitize-html, CVE-2021-25913
+set-or-get, CVE-2021-26541
+gitlog, CVE-2021-21306
+marked, CVE-2021-21304
+dynamoose, CVE-2021-26540
+sanitize-html, CVE-2021-3189
+slashify,*
+highcharts, CVE-2021-26707
+merge-deep, CVE-2020-28449
+decal, CVE-2020-28450
+decal,*
+jquerry,*
+http-proxy-middelware,*
+ngx-markdown-editor, CVE-2021-21118
+electron, CVE-2020-16044
+electron, CVE-2021-21317
+uap-core, CVE-2021-25912
+dotty, CVE-2021-21122
+electron,*
+tui-editor, CVE-2020-28498
+elliptic, CVE-2020-7775
+freediskspace, CVE-2020-21176
+thinkjs, CVE-2021-21277
+angular-expressions,*
+vue-devtools, CVE-2021-23330
+launchpad, CVE-2020-28426
+kill-process-on-port, CVE-2021-23329
+nested-object-assign, CVE-2021-21254
+@ckeditor/ckeditor5-markdown-gfm, CVE-2021-21316
+less-openui5, CVE-2021-23328
+iniparserjs, CVE-2020-26272
+electron, CVE-2020-28496
+three,*
+ghost, CVE-2020-28495
+total.js, CVE-2020-28494
+total.js, CVE-2021-26276
+config-shield,*
+@openzeppelin/contracts, CVE-2021-25864
+node-red-contrib-huemagic, CVE-2021-3223
+node-red-dashboard, CVE-2021-26271
+ckeditor4-dev, CVE-2021-21278
+rsshub, CVE-2020-28437
+heroku-env, CVE-2020-28435
+ffmpeg-sdk, CVE-2020-28434
+gitblame, CVE-2020-28445
+npm-help, CVE-2020-28447
+xopen, CVE-2020-28443
+sonar-wrapper, CVE-2020-28490
+async-git, CVE-2020-28446
+ntesseract, CVE-2020-28438
+deferred-exec, CVE-2020-28453
+npos-tesseract, CVE-2021-21123
+electron, CVE-2021-21119
+electron, CVE-2021-21120
+electron, CVE-2020-28487
+vis-timeline, CVE-2021-3190
+async-git, CVE-2020-28433
+node-latex-pdf,*
+lycwed-spritesheetjs, CVE-2020-28423
+monorepo-build, CVE-2020-28422
+git-archive, CVE-2020-28424
+s3-kilatstorage, CVE-2020-28425
+curljs, CVE-2020-7795
+get-npm-package-version,*
+sonatype,*
+an0n-chat-lib,*
+discord-fix,*
+ejs, CVE-2021-23326
+@graphql-tools/git-loader, CVE-2020-28479
+jointjs, CVE-2020-28480
+jointjs, CVE-2020-28482
+fastify-csrf, CVE-2020-28478
+gsap, CVE-2020-28477
+immer, CVE-2021-21252
+jquery-validation,*
+arpping,*
+curling,*
+imagickal,*
+dy-server2, CVE-2020-28472
+@aws-sdk/shared-ini-file-loader, CVE-2020-28472
+aws-sdk, CVE-2020-28471
+properties-reader, CVE-2020-16037
+electron, CVE-2020-16041
+electron, CVE-2020-28469
+glob-parent, CVE-2020-24025
+node-sass, CVE-2020-36048
+engine.io, CVE-2020-36049
+socket.io-parser, CVE-2020-7794
+buns, CVE-2020-7784
+ts-process-promises, CVE-2020-28481
+socket.io, CVE-2020-17150
+typescript-tslint-plugin,*
+tinymce, CVE-2020-28451
+image-tiler, CVE-2020-28470
+@scullyio/scully, CVE-2020-28436
+google-cloudstorage-commands, CVE-2020-7771
+asciitable.js, CVE-2020-28464
+djv, CVE-2020-26296
+vega, CVE-2020-26291
+urijs, CVE-2020-28279
+flattenizer, CVE-2020-28283
+libnested, CVE-2020-28281
+set-object-value, CVE-2020-28280
+predefine, CVE-2020-28278
+shvl, CVE-2020-28277
+dset, CVE-2020-28276
+deep-set, CVE-2020-28282
+getobject, CVE-2020-28462
+ion-parser, CVE-2020-28461
+js-ini,*
+inireader,*
+node-ini, CVE-2020-26288
+parse-server,*
+semver-regex, CVE-2020-26289
+date-and-time,*
+doiuse,*
+vega, CVE-2020-28448
+multi-ini, CVE-2020-15156
+nodebb-plugin-blog-comments,*
+@sdscoep/web-review, CVE-2020-28460
+multi-ini,*
+ng-zorro-antd, CVE-2020-28458
+datatables.net, CVE-2020-7781
+connection-tester, CVE-2020-16042
+electron, CVE-2020-28459
+markdown-it-decorate,*
+frappe-charts, CVE-2020-28455
+markdown-it-toc,*
+jiff,*
+props, CVE-2020-28442
+js-data, CVE-2020-26274
+systeminformation, CVE-2020-28441
+conf-cfg-ini, CVE-2020-7792
+mout, CVE-2020-7793
+ua-parser-js, CVE-2020-29455
+liveaddress, CVE-2020-35149
+mquery, CVE-2020-35149
+rxdb, CVE-2020-16023
+electron, CVE-2020-16040
+electron,*
+mavon-editor, CVE-2020-7789
+node-notifier, CVE-2020-28439
+corenlp-js-prefab, CVE-2020-28440
+corenlp-js-interface, CVE-2020-7788
+ini, CVE-2020-28274
+deepref, CVE-2020-26256
+@fast-csv/parse, CVE-2020-26256
+fast-csv, CVE-2020-7787
+react-adal,*
+ckeditor4-dev,*
+highlight.js,*
+html-purify, CVE-2020-28272
+keyget, CVE-2020-28273
+set-in, CVE-2020-11990
+cordova-plugin-camera, CVE-2020-16013
+electron,*
+markdown-it-texmath,*
+netlify-cms-widget-markdown, CVE-2020-26245
+systeminformation,*
+ts-dot-prop,*
+last-commit-log, CVE-2020-7778
+systeminformation, CVE-2020-26237
+highlight.js, CVE-2020-28360
+private-ip, CVE-2020-7777
+jsen, CVE-2020-20739
+libvips, CVE-2020-7779
+djvalidator, CVE-2020-26226
+semantic-release,*
+tui-editor, CVE-2020-16017
+electron, CVE-2020-16022
+electron, CVE-2020-16015
+electron, CVE-2020-16024
+electron, CVE-2020-16014
+electron,*
+objnest,*
+expressjs-ip-control,*
+zenn-cli,*
+markdown-it-prism, CVE-2020-7773
+markdown-it-highlightjs, CVE-2020-28268
+controlled-merge,*
+merge, CVE-2020-7772
+doc-path,*
+handsontable, CVE-2020-28270
+object-hierarchy-access, CVE-2020-28269
+field, CVE-2020-28271
+deephas, CVE-2020-7769
+nodemailer, CVE-2020-28249
+@joplin/renderer, CVE-2020-28249
+@joplin/lib, CVE-2020-28249
+joplin, CVE-2020-7767
+express-validators, CVE-2020-7768
+@grpc/grpc-js, CVE-2020-7768
+grpc, CVE-2020-28267
+@strikeentco/set,*
+node-downloader-helper,*
+wsbd.js,*
+ac-addon,*
+xpc.js,*
+discord.app,*
+db-json.js,*
+jdb.js, CVE-2020-8268
+json8-merge-patch,*
+discord.dll, CVE-2020-7766
+json-ptr, CVE-2020-7774
+y18n, CVE-2020-7765
+@firebase/util, CVE-2020-7764
+find-my-way, CVE-2020-28196
+node-krb5, CVE-2020-28196
+krb5, CVE-2020-28168
+axios, CVE-2020-7762
+jsreport-chrome-pdf, CVE-2020-7761
+@absolunet/kafe, CVE-2020-7763
+phantom-html-to-pdf, CVE-2020-7770
+json8,*
+twilio-npm,*
+dompurify, CVE-2020-7760
+codemirror, CVE-2020-27664
+strapi, CVE-2020-7758
+browserless-chrome, CVE-2020-7757
+droppy,*
+gfc,*
+xml-crypto, CVE-2020-26300
+systeminformation, CVE-2020-7755
+dat.gui,*
+nested-property,*
+http-live-simulator,*
+grapesjs,*
+create-git, CVE-2020-7753
+trim, CVE-2020-7752
+systeminformation,*
+jstoxml,*
+mountebank, CVE-2020-7751
+pathval,*
+locutus, CVE-2020-27665
+strapi-plugin-content-type-builder, CVE-2020-27666
+strapi-plugin-content-manager, CVE-2020-15270
+parse-server, CVE-2020-7750
+scratch-svg-renderer, CVE-2020-15999
+electron, CVE-2020-1914
+hermes-engine, CVE-2020-15262
+webpack-subresource-integrity, CVE-2020-7749
+osm-static-maps, CVE-2020-7748
+@tsed/core, CVE-2020-7747
+lightning-server, CVE-2020-7746
+chart.js, CVE-2020-7754
+npm-user-validate,*
+nodetest1010,*
+nodetest199,*
+npmpubman,*
+plutov-slack-client,*
+freespace,*
+bizcharts, CVE-2020-7743
+mathjs,*
+summernote, CVE-2020-15242
+next, CVE-2020-26870
+dompurify, CVE-2020-7742
+simpl-schema, CVE-2020-15174
+electron, CVE-2020-15215
+electron, CVE-2020-7741
+hellojs, CVE-2020-7709
+json-pointer, CVE-2020-7740
+node-pdf-generator, CVE-2020-7739
+phantomjs-seo, CVE-2020-24807
+socket.io-file, CVE-2020-26523
+froala-editor, CVE-2020-15228
+@actions/core,*
+electorn,*
+loadyaml, CVE-2020-7737
+safetydance, CVE-2020-7736
+bmoor,*
+canvas-designer,*
+datatables.net,*
+amp-html, CVE-2019-20921
+bootstrap-select, CVE-2020-26149
+nats.ws,*
+mountebank,*
+mountebank,*
+generator-jhipster,*
+m-server, CVE-2020-7735
+ng-packagr,*
+gity,*
+snekserve,*
+git-lib,*
+hnzserver,*
+http_server,*
+commit-msg, CVE-2020-15930
+joplin, CVE-2020-6506
+react-native-webview, CVE-2020-7738
+shiba,*
+@knutkirkhorn/free-space,*
+node-idevice,*
+heroku-exec-util,*
+authmagic-timerange-stateless-core, CVE-2020-7733
+ua-parser-js,*
+alfred-workflow-nodejs,*
+nagibabel,*
+renovate,*
+flsaba,*
+keyd,*
+objtools,*
+notevil,*
+passport-azure-ad,*
+trezor-connect,*
+joplin, CVE-2020-15168
+node-fetch,*
+json-logic-js, CVE-2018-17145
+bcoin, CVE-2020-24582
+zulip,*
+personnummer, CVE-2020-24660
+node-lemonldap-ng-handler, CVE-2020-1912
+hermes-engine, CVE-2020-1913
+hermes-engine,*
+bitcore-node,*
+sanitize-html,*
+extend-merge, CVE-2020-8135
+@uppy/companion,*
+static-server-gx, CVE-2017-16019
+gitbook, CVE-2020-7730
+bestzip,*
+infraserver, CVE-2020-7727
+gedi, CVE-2020-7726
+safe-object2, CVE-2020-7721
+node-oojs, CVE-2020-7724
+tiny-conf, CVE-2020-7723
+promisehelpers, CVE-2020-7722
+nodee-utils, CVE-2020-7725
+worksmith, CVE-2020-7717
+dot-notes, CVE-2020-7716
+deeps, CVE-2020-7715
+deep-get-set, CVE-2020-7714
+confucious, CVE-2020-7719
+locutus, CVE-2020-7718
+gammautils, CVE-2020-7713
+arr-flatten-unflatten, CVE-2020-7713
+arr-flatten-unflatten,*
+hangersteak, CVE-2020-7712
+json, CVE-2020-1911
+hermes-engine, CVE-2020-8244
+bl, CVE-2020-13410
+aedes,*
+fallguys,*
+min-http-server, CVE-2020-8237
+json-bigint,*
+windows-edge,*
+meemo-app,*
+extra-asciinema,*
+cloudron-surfer,*
+lodash.set,*
+lodash,*
+jquery-confirm, CVE-2020-7710
+safe-eval, CVE-2020-7729
+grunt, CVE-2020-15149
+nodebb,*
+extra-ffmpeg, CVE-2020-15256
+object-path-set, CVE-2020-15256
+object-path, CVE-2020-24939
+supermixer,*
+vboxmanage.js, CVE-2020-15119
+auth0-lock, CVE-2020-7704
+linux-cmdline, CVE-2020-7706
+connie-lang, CVE-2020-7707
+property-expr, CVE-2020-7708
+irrelon-path, CVE-2020-7708
+@irrelon/path, CVE-2020-7708
+@irrelon/path, CVE-2020-7702
+templ8, CVE-2020-7703
+nis-utils,*
+jsonpointer,*
+bootstrap-switch,*
+lodash, CVE-2020-7700
+phpjs, CVE-2020-7701
+madlib-object-utils,*
+buefy,*
+@progress/kendo-angular-editor, CVE-2020-12648
+tinymce, CVE-2020-17479
+jpv, CVE-2020-15138
+prismjs,*
+wappalyzer,*
+polaris-website, CVE-2020-15135
+save-server,*
+ftp-srv,*
+markdown,*
+markdown-it-katex,*
+is-my-json-valid,*
+is-my-json-valid, CVE-2020-15131
+slp-validate, CVE-2020-15130
+slpjs, CVE-2020-15125
+auth0, CVE-2020-7699
+express-fileupload,*
+git-tags-remote,*
+flat, CVE-2020-8192
+fastify, CVE-2020-6541
+electron, CVE-2020-6532
+electron, CVE-2020-6537
+electron,*
+fastify,*
+jingo,*
+fast-json-patch,*
+marked, CVE-2020-8158
+typeorm,*
+parse,*
+diskstats,*
+xps, CVE-2020-15126
+parse-server, CVE-2020-7697
+mock2easy, CVE-2018-21036
+sails-hook-sockets, CVE-2020-15123
+codecov,*
+express-cart,*
+i18next,*
+fine-uploader,*
+xlsx,*
+jquery-form, CVE-2020-15366
+ajv,*
+tmi.js,*
+windows-shortcuts,*
+admin-lte, CVE-2020-14000
+scratch-vm, CVE-2020-7696
+react-native-fast-image,*
+standard-version, CVE-2020-15092
+@knight-lab/timelinejs,*
+i18next,*
+tiptap,*
+npm-registry-fetch, CVE-2020-15095
+npm, CVE-2020-15779
+socket.io-file, CVE-2020-7693
+sockjs, CVE-2020-4076
+electron, CVE-2020-4075
+electron,*
+strider-git, CVE-2020-4077
+electron, CVE-2020-15096
+electron,*
+formiojs, CVE-2020-7691
+jspdf, CVE-2020-7690
+jspdf, CVE-2020-1694
+keycloak-connect, CVE-2020-13619
+locutus, CVE-2020-15500
+tileserver-gl,*
+bcrypt, CVE-2020-7689
+bcrypt, CVE-2020-23849
+jsoneditor, CVE-2020-15084
+express-jwt,*
+swagger-ui, CVE-2020-15362
+wifiscanner, CVE-2020-13279
+gitlab-workflow, CVE-2020-8205
+@uppy/companion, CVE-2020-7680
+docsify,*
+redoc, CVE-2020-7688
+mversion,*
+bunyan,*
+influx, CVE-2020-14968
+jsrsasign, CVE-2020-14967
+jsrsasign, CVE-2020-4066
+limdu, CVE-2020-14966
+jsrsasign, CVE-2020-13961
+strapi,*
+node-rsync,*
+scp, CVE-2020-7687
+fast-http, CVE-2020-7682
+marked-tree, CVE-2020-7681
+marscode, CVE-2020-7683
+rollup-plugin-server, CVE-2020-7686
+rollup-plugin-dev-server, CVE-2020-7684
+rollup-plugin-serve, CVE-2020-7684
+rollup-plugin-serve-favicon,*
+sapper,*
+wappalyzer, CVE-2020-7679
+casperjs,*
+@sap-cloud-sdk/core, CVE-2020-12827
+mjml, CVE-2020-13822
+elliptic, CVE-2020-4051
+dijit, CVE-2020-4059
+mversion,*
+tui-editor, CVE-2020-7677
+thenify, CVE-2020-7678
+node-import, CVE-2020-12725
+redash, CVE-2020-4045
+ssb-server, CVE-2020-4045
+ssb-db,*
+angular,*
+layui-src,*
+vue-instantsearch,*
+highcharts,*
+next, CVE-2020-8186
+devcert, CVE-2020-4038
+graphql-playground-html, CVE-2020-7676
+angular,*
+apollo-server-core, CVE-2020-7673
+node-extend, CVE-2020-7674
+access-policy, CVE-2020-7672
+mosc, CVE-2020-7675
+cd-messenger,*
+@fluentui/styles,*
+@uifabric/utilities,*
+ghost,*
+html-to-text, CVE-2020-4035
+@nozbe/watermelondb, CVE-2020-7011
+@elastic/app-search-node, CVE-2020-7011
+@elastic/app-search-javascript, CVE-2020-7012
+kibana, CVE-2020-7013
+kibana, CVE-2020-7015
+kibana,*
+node-addon-api,*
+nervjs, CVE-2020-7662
+websocket-extensions, CVE-2020-7661
+url-regex, CVE-2019-19729
+bson-objectid, CVE-2020-7660
+serialize-javascript, CVE-2020-11079
+dns-sync, CVE-2020-7654
+snyk-broker, CVE-2020-7653
+snyk-broker, CVE-2020-7652
+snyk-broker, CVE-2020-7651
+snyk-broker, CVE-2020-7650
+snyk-broker, CVE-2020-7649
+snyk-broker, CVE-2020-7648
+snyk-broker,*
+appium,*
+codemirror, CVE-2020-8178
+jison, CVE-2020-11059
+aegir,*
+bootstrap-select,*
+electron-updater,*
+markdown-to-jsx,*
+vega-embed, CVE-2020-6467
+electron, CVE-2020-6468
+electron, CVE-2020-7656
+jquery,*
+front-matter,*
+generator-jhipster,*
+openpgp,*
+http-proxy, CVE-2020-6831
+electron, CVE-2020-6463
+electron, CVE-2020-6460
+electron, CVE-2020-6459
+electron,*
+summernote,*
+objutil, CVE-2020-13110
+kerberos, CVE-2019-1010091
+tinymce, CVE-2020-11071
+slpjs, CVE-2020-11071
+slp-validate,*
+buefy, CVE-2020-8149
+logkitty, CVE-2020-6464
+electron,*
+instantsearch.js, CVE-2020-6458
+electron, CVE-2020-7646
+curlrequest,*
+markdown, CVE-2020-11022
+jquery, CVE-2020-11021
+@actions/http-client, CVE-2020-6461
+electron, CVE-2020-6462
+electron, CVE-2020-8203
+lodash, CVE-2020-8203
+@sailshq/lodash, CVE-2020-11020
+faye,*
+handlebars,*
+git-promise,*
+faye,*
+macaddress, CVE-2020-8175
+jpeg-js, CVE-2020-7642
+lazysizes, CVE-2019-19935
+froala-editor, CVE-2020-11887
+svg2png,*
+gry, CVE-2020-6457
+electron, CVE-2020-6429
+electron,*
+electron,*
+electron,*
+electron,*
+electron,*
+electron,*
+electron, CVE-2020-11003
+@fraction/oasis, CVE-2020-6422
+electron, CVE-2020-6428
+electron, CVE-2020-6449
+electron, CVE-2020-11023
+jquery, CVE-2020-6454
+electron, CVE-2020-6423
+electron, CVE-2020-6426
+electron, CVE-2020-6427
+electron,*
+vizion,*
+m-backdoor, CVE-2020-7643
+paypal-adaptive, CVE-2020-7641
+grunt-util-property, CVE-2020-5263
+auth0-js,*
+ghost, CVE-2020-7640
+pixl-class, CVE-2020-7640
+fun-map,*
+node-weakauras-parser, CVE-2018-6341
+sveltereact-domvuepreact-render-to-string, CVE-2020-7637
+class-transformer, CVE-2020-7633
+apiconnect-cli-plugins, CVE-2020-7639
+eivindfjeldstad-dot, CVE-2020-7639
+@eivifj/dot, CVE-2020-7636
+adb-driver, CVE-2020-7631
+diskusage-ng, CVE-2020-7632
+node-mpv, CVE-2020-7634
+heroku-addonpool, CVE-2020-7638
+confinit, CVE-2020-7635
+compass-compile, CVE-2020-6452
+electron, CVE-2020-6450
+electron,*
+papaparse, CVE-2020-7628
+umount, CVE-2020-7621
+strong-nginx-controller, CVE-2020-7624
+effect, CVE-2020-7625
+op-browser, CVE-2020-7623
+jscover, CVE-2020-7630
+git-add-remote, CVE-2020-7619
+get-git-data, CVE-2020-7627
+node-key-sender, CVE-2020-7629
+install-package, CVE-2020-7626
+karma-mojo, CVE-2020-7616
+express-mock-middleware, CVE-2020-7614
+npm-programmatic, CVE-2020-7618
+sds, CVE-2020-7613
+clamscan, CVE-2020-7617
+ini-parser, CVE-2020-7615
+fsa,*
+jsrsasign, CVE-2020-5284
+next,*
+mocha,*
+electron-updater,*
+prismjs,*
+@toast-ui/editor,*
+tui-editor, CVE-2020-8910
+google-closure-library,*
+eth-ledger-bridge-keyring,*
+@metamask/eth-ledger-bridge-keyring,*
+sapper, CVE-2019-2391
+bson, CVE-2020-8147
+utils-extend, CVE-2020-10800
+lix,*
+htmr, CVE-2020-7609
+node-rules, CVE-2020-7608
+yargs-parser, CVE-2020-7607
+gulp-styledocco, CVE-2020-7606
+docker-compose-remote-api, CVE-2020-7605
+gulp-tape, CVE-2020-7603
+closure-compiler-stream, CVE-2020-7604
+pulverizr, CVE-2020-7602
+node-prompt-here, CVE-2020-7601
+gulp-scss-lint, CVE-2020-7600
+querymen, CVE-2020-5258
+dojo, CVE-2020-5259
+dojox, CVE-2020-7598
+minimist, CVE-2019-10807
+blamer, CVE-2020-8134
+ghost, CVE-2019-20503
+electron, CVE-2020-9281
+ckeditor4-dev, CVE-2019-10808
+utilitify,*
+acorn,*
+vp-toolkit,*
+vp-toolkit, CVE-2019-10806
+vega-util,*
+jquery-confirm,*
+notevil, CVE-2020-5251
+parse-server,*
+react-oauth-flow, CVE-2020-8137
+uppy, CVE-2020-8137
+fastify, CVE-2019-10805
+valib, CVE-2019-10804
+serial-number, CVE-2019-10803
+push-dir, CVE-2019-10802
+giting, CVE-2019-10801
+enpeem, CVE-2020-12265
+decompress-tar, CVE-2020-12265
+decompress, CVE-2019-15608
+yarn,*
+irc-framework,*
+discord-markdown, CVE-2020-8132
+pdf-image, CVE-2019-10799
+compile-sass, CVE-2019-10798
+rdf-graph-array, CVE-2020-5243
+uap-core, CVE-2019-10795
+undefsafe, CVE-2019-10796
+rpi,*
+mongodb-query-parser, CVE-2020-9038
+joplin,*
+@commercial/subtext,*
+@commercial/subtext,*
+@hapi/subtext,*
+@hapi/subtext,*
+hapi,*
+@hapi/ammo,*
+subtext,*
+subtext,*
+@hapi/accept,*
+@commercial/ammo,*
+ammo, CVE-2019-10794
+component-flatten, CVE-2019-10793
+dot-object, CVE-2019-10792
+bodymen, CVE-2020-7597
+codecov,*
+marky-markdown,*
+marky-markdown, CVE-2020-8131
+yarn,*
+crypto-js,*
+@hapi/hoek, CVE-2020-8823
+sockjs, CVE-2020-8129
+script-manager, CVE-2019-10785
+dojox, CVE-2019-10791
+promise-probe, CVE-2019-10790
+taffy, CVE-2019-10789
+curling,*
+harp, CVE-2019-10788
+im-metadata, CVE-2019-10787
+im-resize, CVE-2019-10786
+network-manager,*
+listening-processes,*
+increments,*
+@azhou/basemodel,*
+simple-crypto-js, CVE-2019-20174
+auth0-lock, CVE-2020-8127
+reveal.js, CVE-2020-5232
+@ensdomains/ens, CVE-2019-15609
+kill-port-process, CVE-2020-17480
+tinymce,*
+file-browser,*
+md-fileserver,*
+deliver-or-else, CVE-2019-10783
+lsof, CVE-2020-8123
+strapi, CVE-2020-8116
+dot-prop, CVE-2020-8124
+url-parse, CVE-2020-5219
+angular-expressions, CVE-2020-7596
+codecov,*
+primeng,*
+sequelize, CVE-2020-8125
+klona, CVE-2020-6762
+parsel, CVE-2020-6763
+parsel, CVE-2019-10781
+schema-inspector, CVE-2019-20149
+kind-of,*
+node-sass, CVE-2019-0219
+cordova-plugin-inappbrowser,*
+1337qq-js, CVE-2019-15607
+node-red,*
+hexo-admin,*
+meta-git,*
+npm-git-publish, CVE-2020-6836
+hot-formula-parser,*
+total.js,*
+@hapi/boom,*
+hellojs,*
+soletta-dev-app, CVE-2019-10778
+devcert-sanscache, CVE-2017-11342
+node-sass, CVE-2017-11605
+node-sass, CVE-2018-11695
+node-sass, CVE-2018-11695
+node-sass, CVE-2019-18799
+node-sass, CVE-2017-12964
+node-sass, CVE-2017-11342
+node-sass, CVE-2017-11554
+node-sass, CVE-2019-18797
+node-sass, CVE-2018-11697
+node-sass, CVE-2017-11605
+node-sass, CVE-2017-10687
+node-sass, CVE-2019-6286
+node-sass, CVE-2018-19797
+node-sass, CVE-2017-12962
+node-sass, CVE-2018-19839
+node-sass, CVE-2017-11555
+node-sass, CVE-2018-19827
+node-sass, CVE-2018-20821
+node-sass, CVE-2017-12963
+node-sass, CVE-2018-20822
+node-sass, CVE-2018-11698
+node-sass, CVE-2017-11341
+node-sass, CVE-2019-10777
+aws-lambda, CVE-2019-1354
+nodegit, CVE-2019-1353
+nodegit, CVE-2019-1352
+nodegit, CVE-2019-1351
+nodegit, CVE-2019-10776
+git-diff-apply,*
+express-laravel-passport,*
+atlasboard-atlassian-package, CVE-2019-15903
+dbus, CVE-2019-15603
+seeftl, CVE-2019-10775
+ecstatic, CVE-2019-15602
+fileview,*
+type-graphql,*
+vue-moment,*
+nextcloud-vue-collections,*
+autolinker, CVE-2019-10773
+yarn, CVE-2019-10773
+@pnpm/package-bins,*
+trix, CVE-2019-16776
+npm, CVE-2019-16776
+bin-links, CVE-2019-16775
+bin-links, CVE-2019-16775
+npm, CVE-2019-16777
+bin-links, CVE-2019-16777
+npm, CVE-2020-7645
+chrome-launcher, CVE-2019-10769
+safer-eval, CVE-2019-16769
+serialize-javascript, CVE-2019-16769
+serialize-to-js, CVE-2019-19466
+sceditor, CVE-2019-15597
+node-df, CVE-2019-15600
+http_server, CVE-2019-15598
+treekill, CVE-2019-15598
+tree-kill, CVE-2019-19609
+strapi, CVE-2019-19507
+jpv,*
+viewerjs, CVE-2019-16767
+ezmaster,*
+devalue,*
+mysql2,*
+trix,*
+renovate, CVE-2019-19771
+bitconijs-lib, CVE-2019-19771
+bitconid-rpc, CVE-2019-19771
+bitcoisnj-lib, CVE-2019-19771
+bitcoin-sweep, CVE-2019-19771
+commanedr, CVE-2019-19771
+commandre, CVE-2019-19771
+bitcoin-osp, CVE-2019-19771
+bitcoimjs-lib, CVE-2019-19771
+bitcoimd-rpc, CVE-2019-19771
+bitcoijns-lib, CVE-2019-19771
+bitcion-ops, CVE-2019-19771
+colne, CVE-2019-19771
+coinstrng, CVE-2019-19771
+coinstrig, CVE-2019-19771
+bitcionjslib, CVE-2019-19771
+coinstirng, CVE-2019-19771
+coinpayment, CVE-2019-19771
+bitcionjs, CVE-2019-19771
+bip30, CVE-2019-19771
+ripmed160, CVE-2019-19771
+wallet-address-vaildator, CVE-2019-19771
+bictore-lib, CVE-2019-19771
+bictoin-ops, CVE-2019-19771
+bictoinjs-lib, CVE-2019-19771
+bictoind-rpc, CVE-2019-19771
+path-to-regxep, CVE-2019-19771
+bconi, CVE-2019-19771
+bcion, CVE-2019-19771
+baes-x, CVE-2019-19771
+cionstring, CVE-2019-19771
+wallet-address-vaildator, CVE-2019-19771
+babel-loqder, CVE-2019-19771
+babel-loadre, CVE-2019-19771
+singale, CVE-2019-19771
+wallet-address-validtaor, CVE-2019-19771
+scryptys, CVE-2019-19771
+babel-laoder, CVE-2019-19771
+web3-eht, CVE-2019-19771
+scrytsy, CVE-2019-19771
+ecuvre, CVE-2019-19771
+ecruve, CVE-2019-19771
+we3b, CVE-2019-19771
+hw-trnasport-u2f, CVE-2019-19771
+signqle, CVE-2019-19771
+dhkey, CVE-2019-19771
+bsae-x, CVE-2019-19771
+hdkye, CVE-2019-19771
+hdeky, CVE-2019-19771
+degbu, CVE-2019-19771
+bs85, CVE-2019-19771
+bs85check, CVE-2019-19771
+bs58chekc, CVE-2019-19771
+bs58chek, CVE-2019-19771
+bs58chcek, CVE-2019-19771
+ripmed160, CVE-2019-19771
+bpi66, CVE-2019-19771
+bpi39, CVE-2019-19771
+lodahs, CVE-2019-19771
+bp66, CVE-2019-19771
+cxt, CVE-2019-19771
+riped160, CVE-2019-19771
+ripedm160, CVE-2019-19771
+crytpo-js, CVE-2019-19771
+scrytsy, CVE-2019-19771
+crpyto-js, CVE-2019-19771
+fs-extar, CVE-2019-19771
+conistring, CVE-2019-19771
+singale, CVE-2019-19771
+bitcroe-lib, CVE-2019-19771
+bitconi-ops,*
+centra,*
+smartbanner.js,*
+gun,*
+@cubejs-backend/api-gateway,*
+generator-jhipster, CVE-2019-14517
+editor.md,*
+realms-shim, CVE-2018-11696
+node-sass, CVE-2018-19837
+node-sass, CVE-2017-11556
+node-sass, CVE-2018-20190
+node-sass, CVE-2018-11693
+node-sass, CVE-2018-11694
+node-sass, CVE-2017-11608
+node-sass, CVE-2019-6283
+node-sass, CVE-2018-11499
+node-sass, CVE-2019-16763
+pannellum,*
+cxct, CVE-2019-10767
+iobroker.js-controller,*
+handlebars, CVE-2019-10765
+iobroker.admin, CVE-2019-10768
+angular, CVE-2019-10771
+iobroker.web,*
+malicious-npm-package, CVE-2019-16762
+slpjs, CVE-2019-16761
+slp-validate,*
+handlebars,*
+superhappyfuntime,*
+sj-labc,*
+arsenic-tabasco-cyborg-peanut-butter, CVE-2019-18954
+pomelo,*
+elliptic,*
+php-unserialize,*
+electron,*
+electron, CVE-2019-18818
+strapi, CVE-2019-18841
+chartkick,*
+sj-tw-sec,*
+sj-tw-test-security,*
+sj-tw-abc,*
+owl-orchard-apple-sunshine,*
+airtable,*
+marsdb,*
+f-serv,*
+handlebars,*
+saml2-js,*
+ids-enterprise, CVE-2019-18608
+cezerin, CVE-2019-0205
+thrift,*
+vuetify,*
+jw-sha3,*
+ks-sha3,*
+ns-sha3,*
+beffer-xor,*
+js-sla3,*
+js-sja3,*
+js-sia3,*
+js-shq3,*
+js-shi3,*
+js-she3,*
+js-shc3,*
+js-shas,*
+js-sha7,*
+js-rha3,*
+b5ffer-xor,*
+js-qha3,*
+js-wha3,*
+jsmsha3,*
+js-cha3,*
+js-3ha3,*
+jr-sha3,*
+bwffer-xor,*
+buvfer-xor,*
+jq-sha3,*
+bunfer-xor,*
+bugfer-xor,*
+jc-sha3,*
+bufner-xor,*
+bufner-xor,*
+bufver-xor,*
+buffur-xor,*
+j3-sha3,*
+bufger-xor,*
+buffmr-xor,*
+buffgr-xor,*
+buffez-xor,*
+buffev-xor,*
+buffes-xor,*
+buffer-zor,*
+buffer-yor,*
+buffer-xoz,*
+buffer-xov,*
+buffer-xos,*
+buffer-xop,*
+buffer-xob,*
+buffer-xo2,*
+buffer-xnr,*
+buffer-xkr,*
+buffer-xmr,*
+buffer-por,*
+buffer-xgr,*
+buffer-hor,*
+buffermxor,*
+buffer-8or,*
+buffep-xor,*
+buffeb-xor,*
+buffe2-xor,*
+buffdr-xor,*
+buffe2-xor,*
+buffdr-xor,*
+buffar-xor,*
+bufber-xor,*
+bufder-xor,*
+hs-sha3,*
+budfer-xor,*
+bubfer-xor,*
+btffer-xor,*
+bs-sha3,*
+bqffer-xor,*
+cuffer-xor,*
+fuffer-xor,*
+ns-sha3,*
+pm2,*
+node-git-server,*
+pm2,*
+express-fileupload,*
+vue-apollo,*
+easy-autocomplete, CVE-2019-18350
+ant-design-pro,*
+hexo-admin,*
+mongodb, CVE-2019-10761
+vm2, CVE-2019-10758
+mongo-express, CVE-2019-17495
+swagger-ui, CVE-2019-17426
+mongoose,*
+simple-markdown,*
+markdown-it, CVE-2019-15596
+statics-server, CVE-2019-10757
+knex, CVE-2019-10756
+node-red-dashboard,*
+angular,*
+angular,*
+angular,*
+http-auth,*
+ses,*
+realms-shim,*
+apostrophe,*
+comander,*
+bmap,*
+pizza-pasta,*
+8.9.4,*
+ember_cli_babe,*
+log-symboles,*
+require-port,*
+uglyfi.js,*
+yeoman-genrator,*
+https-proxy-agent, CVE-2018-20843
+dbus,*
+showdown,*
+helmet-csp,*
+http-live-simulator, CVE-2018-5158
+pdfjs-dist, CVE-2017-18635
+@novnc/novnc, CVE-2019-19919
+handlebars, CVE-2019-16728
+dompurify,*
+discord.js-user,*
+@botpress/channel-web,*
+notevil, CVE-2019-17592
+csv-parse,*
+ibm_db,*
+@commercial/subtext,*
+@hapi/subtext,*
+subtext, CVE-2019-15138
+html-pdf,*
+ids-enterprise, CVE-2019-5485
+gitlabhook,*
+http_server, CVE-2019-16303
+generator-jhipster, CVE-2019-16303
+generator-jhipster-kotlin, CVE-2019-15302
+cryptpad,*
+evil-package, CVE-2019-15955
+total.js, CVE-2019-15952
+total.js, CVE-2019-15953
+total.js, CVE-2019-15954
+total.js,*
+larvitbase-www, CVE-2019-5483
+seneca,*
+mavon-editor,*
+simple-markdown,*
+mogoose,*
+js-regular,*
+mysql-koa,*
+file-logging,*
+axioss,*
+axios-http,*
+sparkies,*
+js-base64-int,*
+koa-body-parse,*
+node-spdy,*
+body-parse-xml,*
+import-mysql,*
+serializes,*
+serilize,*
+mogobd,*
+mogodb,*
+k0a_multer,*
+node-ftp,*
+mogodb-core, CVE-2019-15782
+webtorrent,*
+vant,*
+graphql-shield,*
+public, CVE-2018-11093
+@ckeditor/ckeditor5-link, CVE-2019-15658
+connect-pg-simple,*
+quill, CVE-2019-15479
+status-board, CVE-2019-15478
+status-board, CVE-2019-15532
+cyberchef, CVE-2019-5480
+statichttpserver,*
+stylelint, CVE-2019-15482
+selectize-plugin-a11y, CVE-2019-15657
+eslint-utils, CVE-2019-9155
+openpgp, CVE-2019-9154
+openpgp, CVE-2019-9153
+openpgp,*
+serialize-to-js,*
+wizard-syncronizer,*
+value-censorship,*
+cocos-utils,*
+bb-builder,*
+mithril,*
+googleapis, CVE-2019-5479
+larvitbase-api,*
+local-devices, CVE-2019-10752
+sequelize,*
+addax,*
+wxchangba,*
+pyramid-proportion,*
+pensi-scheduler,*
+device-mqtt,*
+slush-fullstack-framework,*
+zemen,*
+jquery-airload,*
+ngx-context-menu,*
+grpc-ts-health-check,*
+uploader-plugin,*
+sailclothjs,*
+cal_rd, CVE-2016-10744
+select2, CVE-2019-14653
+editor.md, CVE-2015-9286
+nodebb, CVE-2016-1000282
+haraka,*
+webtorrent, CVE-2019-5457
+min-http-server, CVE-2016-1202
+electron,*
+node-wifi,*
+domokeeper, CVE-2019-1020012
+parse-server, CVE-2019-1020013
+parse-server, CVE-2017-1000006
+plotly.js, CVE-2018-1000160
+@risingstack/protect, CVE-2019-5458
+http-file-server,*
+console-feed,*
+@vivaxy/here,*
+json-serializer,*
+tomato,*
+browserift,*
+maleficent,*
+expressfs,*
+otpauth, CVE-2018-8319
+msrcrypto,*
+fast-requests,*
+cage-js,*
+atompm,*
+load-from-cwd-or-npm,*
+rate-map,*
+dmn-js-properties-panel,*
+bpmn-js-properties-panel,*
+cmmn-js-properties-panel,*
+restify-swagger-jsdoc,*
+googleapis,*
+nodes.js,*
+secure_identity_login_module,*
+antd-cloud,*
+luna-mock,*
+node-buc,*
+hsf-clients,*
+hpmm,*
+tiar,*
+appx-compiler,*
+alico,*
+midway-xtpl,*
+ali-contributor,*
+alipayjsapi,*
+diamond-clien,*
+only-test-not-install,*
+qingting,*
+my-very-own-package,*
+midway-dataproxy,*
+leetlog,*
+river-mock,*
+cicada-render,*
+next-util,*
+malicious-do-not-install,*
+retcodelog,*
+ali-contributors,*
+zero,*
+jquery.json-viewer, CVE-2019-5448
+yarn, CVE-2019-5447
+http-file-server,*
+quill,*
+eco, CVE-2016-10364
+kibana, CVE-2015-8131
+kibana,*
+oidc-provider, CVE-2016-1000220
+kibana,*
+marked,*
+domokeeper, CVE-2018-1999024
+mathjax, CVE-2016-10366
+kibana, CVE-2016-10365
+kibana, CVE-2019-10744
+lodash, CVE-2019-10744
+@sailshq/lodash,*
+marked, CVE-2019-13127
+mxgraph,*
+takeapeek,*
+apostrophe,*
+require-node, CVE-2019-10750
+deeply, CVE-2018-14380
+graylog-web-interface,*
+rpc-websocket,*
+freshdom,*
+blingjs,*
+jasmin,*
+rc-calendar-jhorst,*
+dossier,*
+simple-alipay,*
+react-dates-sc,*
+modlibrary,*
+react-server-native,*
+another-date-range-picker,*
+another-date-picker,*
+angular-material-sidenav-rnd,*
+impala,*
+@impala/bmap,*
+cordova-plugin-china-picker,*
+awesome_react_utility,*
+angular-bmap,*
+nginxbeautifier,*
+oauth-validator,*
+dynamo-schema,*
+css_transform_support,*
+css_transform_step,*
+codify,*
+coffee-project,*
+s3asy,*
+xoc,*
+dictum.js,*
+axois,*
+regenrator,*
+regenraotr,*
+soket.js,*
+soket.io, CVE-2019-5444
+serve-here.js,*
+keystone,*
+keystone, CVE-2019-10749
+sequelize, CVE-2019-10748
+sequelize,*
+@berslucas/liljs, CVE-2019-10747
+set-value, CVE-2019-10746
+mixin-deep, CVE-2019-10745
+assign-deep,*
+smartsearchwp,*
+untitled-model,*
+diagram-js-direct-editing,*
+diagram-js,*
+swagger-ui,*
+swagger-ui, CVE-2016-1000226
+swagger-ui,*
+resquel,*
+swagger-ui, CVE-2019-10157
+keycloak-connect,*
+swagger-ui, CVE-2017-5858
+converse.js, CVE-2017-16570
+keystone,*
+ids-enterprise,*
+ids-enterprise,*
+colro-name,*
+radicjs,*
+ember-power-timepicker,*
+geoheat,*
+github-jquery-widgets,*
+grunt-radic,*
+grunt-radical,*
+vue-backbone,*
+scroool,*
+jekyll-for-github-projects,*
+leaflet-gpx,*
+libubx,*
+react-datepicker-plus,*
+radic-util,*
+precode.js,*
+angular-location-update,*
+motiv.scss,*
+pm-controls,*
+mx-nested-menu,*
+ng-ui-library,*
+ngx-pica, CVE-2016-6799
+cordova-android, CVE-2010-2273
+dojo, CVE-2015-5654
+dojo,*
+electron-native-notify,*
+wiki-plugin-datalog,*
+sails-mysql,*
+@apollo/gateway,*
+ag-grid-community,*
+angluar-cli,*
+epress,*
+font-scrubber,*
+commqnder,*
+commmander,*
+blubird,*
+ids-enterprise,*
+tensorplow,*
+kraken-api,*
+hulp,*
+rimrafall,*
+bowe,*
+whiteproject,*
+uglyfi-js,*
+require-ports,*
+colour-string,*
+yeoman-genrator,*
+jqeury,*
+jquerz,*
+froever,*
+logsymbles,*
+foever,*
+ipfs-bitswap,*
+bowee,*
+loopback,*
+express-validator,*
+verdaccio, CVE-2019-14772
+verdaccio,*
+lutils-merge,*
+destroyer-of-worlds,*
+donotinstallthis,*
+algo-httpserv,*
+smart-extend,*
+serve,*
+useragent, CVE-2019-13173
+fstream,*
+bootbox,*
+semantic-ui-search,*
+semantic-ui,*
+fomantic-ui,*
+carloprojectdiscord,*
+discord_debug_log,*
+carloprojectlesang,*
+pi_video_recording,*
+mermaid,*
+erquest,*
+asinc,*
+asnc,*
+asnyc,*
+asycn,*
+asymc,*
+asynnc,*
+asyync,*
+4equest,*
+momen,*
+wepack-cli,*
+aasync,*
+commnader,*
+eact,*
+exprss,*
+reequest,*
+saync,*
+jajajejejiji,*
+reqest,*
+reqquest,*
+experss,*
+requeest,*
+reques,*
+requesst,*
+requestt,*
+requet,*
+requets,*
+chak,*
+requset,*
+requst,*
+requuest,*
+aysnc,*
+reuest,*
+equest,*
+rqeuest,*
+rrequest,*
+calk,*
+angular-froala, CVE-2018-19048
+simditor, CVE-2019-12043
+remarkable, CVE-2019-12041
+remarkable,*
+x-editable,*
+markdown-to-jsx,*
+graphql-code-generator,*
+@graphql-codegen/cli,*
+jquery-mobile,*
+pupa, CVE-2018-20835
+tar-fs,*
+ecstatic,*
+wangeditor,*
+web3, CVE-2019-5432
+mqtt-packet,*
+jwt-simple,*
+google-closure-library, CVE-2019-10742
+axios,*
+awesomplete,*
+preact,*
+md-data-table,*
+express-brute,*
+@ionic/core, CVE-2019-5438
+harp,*
+redbird,*
+express-basic-auth, CVE-2019-12313
+shave,*
+ngx-bootstrap,*
+sequelize-cli,*
+webpack-bundle-analyzer,*
+mui-datatables,*
+handlebars, CVE-2019-13506
+@nuxt/devalue, CVE-2019-13506
+devalue, CVE-2019-13506
+@nuxtjs/devalue, CVE-2019-11069
+sequelize, CVE-2019-5437
+harp, CVE-2019-11002
+materialize-css, CVE-2019-11003
+materialize-css, CVE-2017-1001004
+typed-function,*
+js-yaml, CVE-2021-32573
+express-cart,*
+serve-handler,*
+upmerge,*
+buttle,*
+glance,*
+marked,*
+statics-server, CVE-2020-8215
+canvas, CVE-2018-20834
+tar, CVE-2020-8214
+servey,*
+typeorm, CVE-2020-8141
+dot,*
+sequelize,*
+js-yaml, CVE-2019-1010266
+lodash,*
+tesseract.js, CVE-2019-5786
+electron, CVE-2019-5786
+puppeteer,*
+open, CVE-2019-11358
+jquery, CVE-2019-10061
+opencv,*
+js-yaml, CVE-2019-5414
+kill-port, CVE-2019-5416
+localhost-now, CVE-2019-9844
+simple-markdown, CVE-2019-9737
+editor.md,*
+react-native-code-push, CVE-2019-10759
+safer-eval, CVE-2019-10760
+safer-eval,*
+react-json-pretty,*
+embark,*
+eslint-plugin-no-unsanitized,*
+safe-compare,*
+bootstrap-select,*
+summernote,*
+embark,*
+cryptr,*
+reveal.js, CVE-2019-8903
+total.js, CVE-2018-11798
+thrift, CVE-2019-8331
+bootstrap,*
+office-converter,*
+static-eval,*
+handlebars,*
+node-os-utils,*
+url-relative,*
+ircdkit,*
+pem, CVE-2018-14730
+browserify-hmr,*
+boogeyman,*
+ipns,*
+mobius1-selectr,*
+node-red-dashboard,*
+stream-combine, CVE-2018-16487
+lodash.mergewith, CVE-2018-16487
+lodash.merge, CVE-2018-16481
+html-pages, CVE-2018-16487
+lodash.defaultsdeep, CVE-2018-16493
+static-resource-server, CVE-2018-16487
+lodash._basemerge, CVE-2018-16487
+lodash, CVE-2018-16491
+node.extend, CVE-2018-16487
+@sailshq/lodash,*
+@hapi/wreck,*
+@hapi/subtext,*
+@hapi/statehood,*
+marked,*
+remove-markdown,*
+angucomplete-alt, CVE-2019-5484
+bower,*
+decompress-zip,*
+loopback-connector-mongodb,*
+loopback,*
+terriajs-server,*
+jquery.terminal,*
+bootstrap-vue, CVE-2018-16479
+http-live-simulator,*
+portionfatty12,*
+rrgod, CVE-2019-0542
+xterm,*
+autolinker,*
+text-qrcode,*
+rails-session-decoder,*
+jingo,*
+generate-password, CVE-2018-16202
+cordova-plugin-ionic-webview,*
+markdown-it-toc-and-anchor, CVE-2018-20677
+bootstrap, CVE-2018-20676
+bootstrap, CVE-2018-20676
+bootstrap-sass, CVE-2018-20677
+bootstrap-sass,*
+commander-js,*
+esm,*
+qunit,*
+ids-enterprise, CVE-2018-6333
+nuclide, CVE-2018-6342
+react-dev-utils,*
+buefy, CVE-2018-20164
+uap-core, CVE-2020-7620
+pomelo-monitor, CVE-2017-18352
+rendertron-middleware, CVE-2017-18353
+rendertron-middleware, CVE-2017-18354
+rendertron-middleware, CVE-2017-18355
+rendertron-middleware, CVE-2018-16490
+mpath,*
+mergify, CVE-2018-16489
+just-extend, CVE-2018-16478
+simplehttpserver,*
+event-stream,*
+flatmap-stream, CVE-2018-6873
+auth0-js, CVE-2018-17246
+kibana, CVE-2018-9207
+jquery-file-upload, CVE-2018-19289
+valine,*
+inline-source, CVE-2018-17960
+ckeditor,*
+serve-handler,*
+samlify, CVE-2019-5413
+morgan, CVE-2018-19057
+simplemde, CVE-2018-16475
+knightjs, CVE-2018-19056
+editor.md, CVE-2018-16474
+tianma-static, CVE-2018-16472
+cached-path-relative, CVE-2018-16473
+takeapeek, CVE-2018-18950
+kindeditor, CVE-2018-16469
+merge, CVE-2018-16461
+libnmap, CVE-2018-16462
+apex-publish-static-files,*
+graphql-upload,*
+apollo-upload-server,*
+apollo-upload-server,*
+graphql-upload,*
+jstree, CVE-2018-18282
+next, CVE-2019-5423
+http-live-simulator, CVE-2018-9206
+blueimp-file-upload,*
+rrule,*
+rrule,*
+passport-saml, CVE-2018-16486
+defaults-deep, CVE-2018-14731
+parcel-bundler, CVE-2018-14732
+webpack-dev-server,*
+express-cart,*
+react-tooltip, CVE-2018-16460
+ps,*
+ascii-art, CVE-2018-1000665
+dojo,*
+samsung-remote, CVE-2018-16330
+editor.md, CVE-2018-3787
+simplehttpserver , CVE-2018-11615
+mosca ,*
+mem , CVE-2018-15685
+electron ,*
+mergely , CVE-2018-3786
+egg-scripts , CVE-2019-5417
+serve , CVE-2018-16483
+express-cart ,*
+node-red , CVE-2018-16484
+m-server , CVE-2019-5422
+buttle ,*
+entitlements ,*
+ponse , CVE-2013-2022
+jplayer , CVE-2013-2023
+jplayer , CVE-2013-1942
+jplayer , CVE-2018-3783
+flintcms , CVE-2018-5673
+dojo , CVE-2018-15494
+dojox , CVE-2018-11537
+angular-jwt , CVE-2018-3778
+aedes , CVE-2018-16459
+exceljs ,*
+slugify , CVE-2017-18869
+chownr ,*
+superagent , CVE-2018-3774
+url-parse ,*
+utile ,*
+put ,*
+file-static-server , CVE-2018-3771
+statics-server , CVE-2018-3770
+markdown-pdf , CVE-2018-16492
+extend , CVE-2018-1000620
+cryptiles , CVE-2018-13339
+angular-redactor ,*
+eslint-config-eslint ,*
+eslint-config-airbnb-standard ,*
+eslint-scope , CVE-2018-3766
+buttle , CVE-2018-3767
+memjs , CVE-2018-1000536
+medis ,*
+mailparser-mit ,*
+emailjs-mime-parser ,*
+mailsplit ,*
+mailparser ,*
+haraka ,*
+platform.js ,*
+node-htmlparser-classic ,*
+underscore.string ,*
+hexo-editor ,*
+electron-markdownify ,*
+ismobilejs ,*
+njwt , CVE-2018-3784
+cryo , CVE-2018-3785
+git-dummy-commit , CVE-2018-11647
+oauth2orize-fprm ,*
+generate-pincode , CVE-2018-14041
+bootstrap , CVE-2018-14040
+bootstrap , CVE-2018-14040
+bootstrap-sass , CVE-2018-3758
+express-cart , CVE-2018-3755
+sexstatic , CVE-2018-3809
+serve ,*
+ag-grid , CVE-2018-1002203
+unzipper , CVE-2018-1002204
+adm-zip , CVE-2018-3757
+pdf-image ,*
+videojs-swf ,*
+tinymce ,*
+tinymce , CVE-2018-3743
+hekto ,*
+react-marked-markdown ,*
+nothing-js ,*
+ladder-text-js ,*
+citation-js ,*
+koa-body , CVE-2018-3754
+query-mysql , CVE-2018-13797
+macaddress ,*
+localhost-now ,*
+open ,*
+sql , CVE-2018-21270
+stringstream ,*
+npmconf , CVE-2018-3744
+html-pages ,*
+buttle , CVE-2020-8298
+fs-path ,*
+base64url ,*
+byte ,*
+command-exists ,*
+base64-url ,*
+angular-http-server ,*
+superstatic ,*
+squel ,*
+constantinople ,*
+http-fetch-cookies ,*
+getcookies ,*
+express-cookies ,*
+ua-parser-js ,*
+react-svg , CVE-2018-9861
+ckeditor-dev ,*
+concat-with-sourcemaps , CVE-2018-3745
+atob ,*
+foreman ,*
+rgb2hex , CVE-2018-16482
+mcstatic ,*
+cloudcmd ,*
+querystringify , CVE-2018-3746
+pdfinfojs , CVE-2018-3750
+deep-extend ,*
+safe-compare , CVE-2018-16480
+public , CVE-2018-3753
+merge-objects , CVE-2018-3751
+merge-recursive , CVE-2018-3752
+merge-options , CVE-2018-3748
+glance , CVE-2018-3749
+deap ,*
+plist ,*
+ducktype ,*
+is-url ,*
+simpl-schema , CVE-2018-3735
+bracket-template , CVE-2018-6874
+auth0-lock , CVE-2018-6874
+auth0-js , CVE-2019-10196
+http-proxy-agent , CVE-2018-3737
+sshpk ,*
+mol-proto , CVE-2018-3818
+kibana , CVE-2017-8439
+kibana , CVE-2018-3736
+https-proxy-agent , CVE-2018-3773
+metascraper , CVE-2018-3772
+whereis , CVE-2018-1000136
+electron , CVE-2018-1000023
+insight-api ,*
+eslint , CVE-2018-8108
+bui , CVE-2017-18197
+mxgraph , CVE-2018-7408
+npm , CVE-2018-1000123
+cordova-plugin-ios-keychain , CVE-2018-3717
+simple-server , CVE-2018-3724
+general-file-server , CVE-2018-3718
+serve ,*
+zs123 ,*
+zhaolei1111 ,*
+webrepl ,*
+tmadserver ,*
+stevenc4.server ,*
+starfruit ,*
+serverzyqzyq ,*
+serversyysyy ,*
+serverlyj333 ,*
+rjpserver ,*
+paopao613 ,*
+nodejsccc ,*
+nodejs_liamgb ,*
+meryl ,*
+terminal-share ,*
+lab6_agolotin ,*
+jiazhipeng ,*
+jacobj66-weather ,*
+hdsdhhksjd ,*
+gyfserver , CVE-2013-1808
+zeroclipboard , CVE-2018-1000096
+tiny-json-http , CVE-2018-1000118
+electron , CVE-2018-3714
+node-srv , CVE-2018-3715
+glance ,*
+path-complete-extname , CVE-2018-3734
+stattic , CVE-2018-7307
+auth0-js , CVE-2018-3713
+angular-http-server ,*
+clean-css ,*
+diff , CVE-2018-3716
+simplehttpserver , CVE-2018-3717
+anywhere ,*
+mrk.js ,*
+useragent , CVE-2018-3725
+hekto , CVE-2018-7560
+aws-lambda-multipart-parser , CVE-2018-3727
+626 ,*
+ua-parser-js ,*
+loopback ,*
+zxyserver ,*
+yypsulie11 ,*
+yxxserver ,*
+wuzhuangserver ,*
+wrlc ,*
+wenluhong111 ,*
+web-server-mock ,*
+weathertest.bryceperkins ,*
+songcaihong ,*
+shenliru3 ,*
+servewuqianqianqian ,*
+serveryyl ,*
+serverfff ,*
+rapid-httpserver ,*
+proxey ,*
+web-node-server ,*
+nodeload ,*
+myserve111 ,*
+iceman178.weather.cs360 ,*
+cs360getcity ,*
+phpjs ,*
+content ,*
+nwmatcher , CVE-2018-3729
+localhost-now ,*
+uas-parser , CVE-2018-3738
+protobufjs ,*
+emailjs-mime-codec , CVE-2018-20801
+highcharts , CVE-2018-3820
+kibana , CVE-2018-3819
+kibana , CVE-2018-3821
+kibana ,*
+gatsby-cli , CVE-2019-14862
+knockout , CVE-2018-6464
+simditor ,*
+xingbaohai ,*
+willvdb_test_server ,*
+websvr ,*
+simple-mock-server ,*
+mime_web_server ,*
+express-blinker ,*
+easy-router ,*
+caolilinode1 ,*
+caihong ,*
+binocular-lamp , CVE-2017-11429
+saml2-js ,*
+wicket ,*
+marked , CVE-2018-13863
+bson ,*
+cuiaiguang ,*
+wuzhuang ,*
+asset-cache ,*
+ptest ,*
+micra , CVE-2018-16485
+m-server ,*
+static-cling ,*
+html-pages ,*
+api-proxy ,*
+basic-static ,*
+hserver-static ,*
+sabu ,*
+awning ,*
+atropa-server ,*
+atropa-ide ,*
+aso-server ,*
+stattic ,*
+pico-static-server ,*
+bae-nodejs , CVE-2018-3733
+crud-file-server ,*
+node-staticserver ,*
+server-static ,*
+butler-server ,*
+bruteser ,*
+canvas-designer ,*
+glurp ,*
+der-server ,*
+ex-http-frame ,*
+btnode ,*
+gfm-srv ,*
+getstats ,*
+gamebutler ,*
+fast-http ,*
+easy-node-server ,*
+dilu ,*
+isv-http ,*
+httpea ,*
+markdown-server ,*
+serverxh ,*
+lab6.1 ,*
+less-livereload ,*
+lander ,*
+litedoc ,*
+censorify.matt.shurtz ,*
+zhanglina ,*
+node-http-server ,*
+node-static-webserver ,*
+server12311 ,*
+fakelearnnodejs ,*
+servershuai ,*
+lab6-wclaibor ,*
+ussasasa ,*
+grunt-serve ,*
+grunt-fileserver ,*
+nitro-server ,*
+wenluhong11 ,*
+my-sn ,*
+zhangranbigman ,*
+secure-servedir ,*
+servedir ,*
+checkit ,*
+github-url-to-object ,*
+node-json-db ,*
+compromise ,*
+node-forge ,*
+git-username ,*
+mongoose-beautiful-unique-validation ,*
+node-cxc ,*
+truncate ,*
+skeemas ,*
+sanitize ,*
+email-existence ,*
+datatype-expansion ,*
+astronomia ,*
+address-rfc2822 , CVE-2018-3732
+resolve-path ,*
+valid-email ,*
+xlsx ,*
+vue ,*
+shaka-player ,*
+moddle-xml ,*
+harb ,*
+markdown-js ,*
+converse.js ,*
+pym.js , CVE-2018-3731
+public , CVE-2018-3726
+crud-file-server , CVE-2017-1000421
+gifsicle ,*
+node-pg-migrate ,*
+gettext-parser ,*
+deckardcain ,*
+abaaso ,*
+html-dom-parser , CVE-2018-1109
+braces ,*
+angular ,*
+validator ,*
+postcss-inline-base64 ,*
+cejs ,*
+validator ,*
+jasmine-core , CVE-2018-3723
+defaults-deep , CVE-2018-3720
+assign-deep , CVE-2018-3719
+mixin-deep , CVE-2018-3722
+merge-deep ,*
+valid-data-url ,*
+q-io ,*
+nicest ,*
+mimer ,*
+jquery.csssr.validation ,*
+htmllint ,*
+dirty-json ,*
+citeproc , CVE-2018-1107
+is-my-json-valid , CVE-2018-7651
+ssri ,*
+sailsjs-cacheman ,*
+safe-compare , CVE-2017-0931
+html-janitor , CVE-2018-3721
+lodash.merge ,*
+pullit , CVE-2018-3721
+lodash.mergewith , CVE-2018-3721
+lodash.defaultsdeep , CVE-2018-3721
+lodash._basemerge , CVE-2018-3721
+lodash , CVE-2018-3721
+@sailshq/lodash , CVE-2018-3728
+hoek , CVE-2018-6561
+dijit , CVE-2017-3160
+cordova-android , CVE-2017-0928
+html-janitor , CVE-2017-1000424
+electron , CVE-2018-6184
+next , CVE-2017-7474
+keycloak-auth-utils ,*
+mathjs ,*
+mathjs ,*
+mathjs , CVE-2018-3711
+fastify ,*
+redis-commander , CVE-2017-0930
+augustine ,*
+lactate , CVE-2018-1000006
+electron , CVE-2018-3712
+serve ,*
+traceroute , CVE-2017-1000452
+samlify , CVE-2017-1000452
+express-saml2 , CVE-2017-1000491
+shiba , CVE-2017-11481
+kibana , CVE-2017-11482
+kibana , CVE-2017-8451
+kibana , CVE-2016-10735
+bootstrap-sass , CVE-2016-10735
+bootstrap ,*
+featurebook ,*
+weyland ,*
+showdown-xss-filter ,*
+jsviews ,*
+js-xss ,*
+libp2p-secio ,*
+blocks ,*
+serve-here , CVE-2018-0114
+node-jose , CVE-2017-8452
+kibana , CVE-2017-8440
+kibana , CVE-2017-8443
+kibana , CVE-2017-11479
+kibana , CVE-2017-10910
+mqtt , CVE-2017-16897
+passport-wsfed-saml2 ,*
+marked ,*
+marked ,*
+vue ,*
+vue ,*
+ractive ,*
+kibana ,*
+pure ,*
+swagger-ui ,*
+keystone ,*
+botkit ,*
+angular ,*
+jquery-colorbox ,*
+crypto-browserify , CVE-2016-10703
+ecstatic ,*
+content-type-parser ,*
+whatwg-mimetype ,*
+mobile-detect , CVE-2017-17068
+auth0-js , CVE-2017-16128
+npm-script-demo , CVE-2017-1001002
+mathjs , CVE-2017-1001003
+mathjs , CVE-2017-18214
+moment , CVE-2017-16877
+next ,*
+ws , CVE-2014-0072
+cordova-plugin-file-transfer , CVE-2014-0073
+cordova-plugin-inappbrowser , CVE-2015-1835
+cordova-android ,*
+sandbox , CVE-2017-15881
+keystone , CVE-2017-15878
+keystone , CVE-2017-15879
+keystone ,*
+hooka-tools ,*
+discordi.js , CVE-2017-16226
+static-eval ,*
+ljjnodeserve ,*
+nodeserver-jta ,*
+severzlt , CVE-2017-16225
+aegir , CVE-2017-16224
+st ,*
+xbhxbh ,*
+wangshuai ,*
+tinyserver ,*
+nopach ,*
+nodejs.jseidl , CVE-2017-16204
+jquey ,*
+electron ,*
+electron ,*
+electron ,*
+electron ,*
+electron ,*
+electron ,*
+electron ,*
+electron ,*
+electron , CVE-2017-16205
+coffescript , CVE-2017-16203
+coffe-script , CVE-2017-16202
+cofeescript , CVE-2017-16206
+cofee-script , CVE-2017-16151
+electron , CVE-2017-16136
+method-override , CVE-2017-16129
+superagent , CVE-2017-16119
+fresh , CVE-2017-16118
+forwarded , CVE-2017-16138
+mime , CVE-2017-16116
+string , CVE-2017-16115
+timespan , CVE-2017-16117
+slug , CVE-2017-16137
+debug , CVE-2017-16114
+marked , CVE-2017-15010
+tough-cookie , CVE-2017-16113
+parsejson , CVE-2017-16127
+pandora-doomsday ,*
+shrugging-logging ,*
+test-module-a ,*
+sdfjghlkfjdshlkjdhsfg ,*
+mktmpio ,*
+anarchy , CVE-2017-16126
+botbait ,*
+ikst ,*
+subtitles-lib ,*
+npm_scripts_test_metrics ,*
+npm-exploit ,*
+deasyncp ,*
+harmlesspackage ,*
+maybemaliciouspackage , CVE-2017-16111
+content , CVE-2017-16100
+dns-sync , CVE-2017-16099
+no-case , CVE-2017-16098
+charset , CVE-2017-16088
+safe-eval , CVE-2017-1000451
+fs-git , CVE-2017-16086
+ua-parser , CVE-2017-16082
+pg ,*
+mysql ,*
+js-quantities ,*
+js-quantities ,*
+foundation-sites ,*
+xxf11 , CVE-2017-16061
+tkinter ,*
+srverqq , CVE-2017-16055
+sqlserver , CVE-2017-16051
+sqliter ,*
+sqlite.js , CVE-2017-16079
+smb , CVE-2017-16078
+shadowsock ,*
+servergmf ,*
+proxy.js ,*
+openssl.js ,*
+opencv.js , CVE-2017-16049
+nodesqlite , CVE-2017-16080
+nodesass , CVE-2017-16073
+noderequest , CVE-2017-16057
+nodemssql ,*
+nodemailer.js , CVE-2017-16071
+nodemailer-js , CVE-2017-16069
+nodeffmpeg , CVE-2017-16054
+nodefabric , CVE-2017-16070
+nodecaffe , CVE-2017-16062
+node-tkinter , CVE-2017-16048
+node-sqlite , CVE-2017-16064
+node-openssl , CVE-2017-16063
+node-opensl , CVE-2017-16067
+node-opencv , CVE-2017-16052
+node-fabric , CVE-2017-16047
+mysqljs ,*
+mssql.js , CVE-2017-16059
+mssql-node , CVE-2017-16077
+mongose , CVE-2017-16046
+mariadb ,*
+lzl123 ,*
+lihuini ,*
+jquery.js ,*
+http-proxy.js ,*
+hechatroom , CVE-2017-16058
+gruntcli ,*
+ghod5servercs360 , CVE-2017-16068
+ffmepg , CVE-2017-16053
+fabric-js ,*
+d3.js ,*
+cxy , CVE-2017-16074
+crossenv ,*
+cross-env.js , CVE-2017-16060
+babelcli ,*
+openwhisk , CVE-2017-16123
+welcomyzt , CVE-2017-16133
+goserv , CVE-2017-16191
+cypserver , CVE-2017-16134
+http_static_simple ,*
+360class.jansenhm ,*
+commentapp.stetsonwood , CVE-2017-16159
+caolilinode , CVE-2017-16190
+dcdcdcdcdc , CVE-2017-16199
+susu-sum , CVE-2017-16161
+shenliru , CVE-2017-16182
+serverxxx ,*
+section2.madisonjbrooks12 , CVE-2017-16132
+simple-npm-registry , CVE-2017-16177
+chatbyvista , CVE-2017-16141
+lab6drewfusbyu , CVE-2017-16148
+serve46 ,*
+yjmyjmyjm , CVE-2017-16040
+gfe-sass , CVE-2017-16041
+ikst ,*
+tunnel-agent ,*
+koa-static-cache ,*
+contwidgetor ,*
+edp-package ,*
+web-debug , CVE-2017-16038
+f2e-server ,*
+http-signature ,*
+semantic-ui ,*
+semantic-ui ,*
+jstree ,*
+express-graphql ,*
+crumb , CVE-2015-5204
+cordova-plugin-file-transfer , CVE-2015-5207
+cordova-ios ,*
+floody , CVE-2015-5208
+cordova-ios , CVE-2015-5256
+cordova-android , CVE-2014-3500
+cordova-android , CVE-2014-3502
+cordova-android , CVE-2014-3501
+cordova-android , CVE-2015-8320
+cordova-android ,*
+next ,*
+serve ,*
+next , CVE-2017-16222
+elding , CVE-2017-16168
+wffserve , CVE-2017-16083
+node-simple-router , CVE-2017-16184
+scott-blanch-weather-app , CVE-2017-16139
+jikes , CVE-2017-16166
+byucslabsix ,*
+dmmcquay.lab6 ,*
+citypredict.whauwiller ,*
+frvr ,*
+innomon ,*
+connect-parse-php , CVE-2017-16039
+hftp ,*
+mysql2csv , CVE-2017-16201
+zjjserver , CVE-2017-16221
+yzt , CVE-2017-16167
+yyooopack , CVE-2017-16219
+yttivy , CVE-2017-16193
+mfrs , CVE-2017-16091
+xtalk , CVE-2017-16212
+ltt ,*
+xiongrui-httpserver ,*
+ltt.js ,*
+wisper ,*
+thrushs , CVE-2017-16181
+wintiwebdev ,*
+thrushs , CVE-2017-16220
+wind-mvc , CVE-2017-16174
+whispercast , CVE-2017-16125
+rtcmulticonnection-client ,*
+lam ,*
+weather.swlyons ,*
+given-html-report , CVE-2017-16150
+wangguojing123 , CVE-2017-16200
+uv-tj-demo ,*
+parse-ssi , CVE-2017-16173
+utahcityfinder , CVE-2017-16131
+unicorn-list , CVE-2017-16185
+uekw1511server , CVE-2017-16106
+tmock ,*
+wenluhong1 , CVE-2017-16085
+tinyserver2 , CVE-2017-16097
+tiny-http , CVE-2017-16216
+tencent-server , CVE-2017-16152
+static-html-server , CVE-2017-16145
+sspa , CVE-2017-16189
+sly07 , CVE-2017-16147
+shit-server , CVE-2017-16215
+sgqserve , CVE-2017-16135
+serverzyy , CVE-2017-16103
+serveryztyzt , CVE-2017-16096
+serveryaozeyan , CVE-2017-16105
+serverwzl , CVE-2017-16101
+serverwg , CVE-2017-16089
+serverlyr , CVE-2017-16095
+serverliujiayi1 , CVE-2017-16102
+serverhuwenhui , CVE-2017-16180
+serverabc ,*
+run-this-place , CVE-2017-16198
+ritp , CVE-2017-16188
+reecerver , CVE-2017-16196
+quickserver , CVE-2017-16197
+qinserve , CVE-2017-16195
+pytservce , CVE-2017-16194
+picard , CVE-2017-1000220
+pidusage , CVE-2017-16214
+peiserver , CVE-2017-16187
+open-device , CVE-2017-16223
+nodeaaaaa , CVE-2017-16124
+node-server-forfront , CVE-2017-16149
+zwserver ,*
+myserver.alexcthomas18 , CVE-2017-16156
+myprolyz , CVE-2017-16146
+mockserve , CVE-2017-16213
+mfrserver ,*
+nodeload-nmickuli , CVE-2017-16169
+looppake , CVE-2017-16120
+liyujing , CVE-2017-16170
+liuyaserver , CVE-2017-16211
+lessindex ,*
+lab6.brit95 , CVE-2017-16210
+jn_jj_server , CVE-2017-16176
+jansenstuffpleasework , CVE-2017-16183
+iter-server , CVE-2017-16094
+iter-http , CVE-2017-16178
+intsol-package , CVE-2017-16142
+infraserver , CVE-2017-16035
+hubl-server , CVE-2017-16171
+hcbserver , CVE-2017-16037
+gomeplus-h5-proxy ,*
+getcityapi.yoehoehne , CVE-2017-16153
+gaoxuyan , CVE-2017-16108
+gaoxiaotingtingting , CVE-2017-16090
+fsk-server , CVE-2017-16217
+fbr-client , CVE-2017-16155
+fast-http-cli , CVE-2017-16130
+exxxxxxxxxxx ,*
+ewgaddis.lab6 , CVE-2017-16209
+enserver , CVE-2017-16109
+easyquick , CVE-2017-16154
+earlybird , CVE-2017-16163
+dylmomo ,*
+dgard8.lab6 , CVE-2017-16164
+desafio , CVE-2017-16158
+dcserver , CVE-2017-16121
+datachannel-client , CVE-2017-16179
+dasafio , CVE-2017-16093
+cyber-js , CVE-2017-16122
+cuciuci ,*
+craft-ai-icons ,*
+city-weather-abe ,*
+censorify.tanisjr ,*
+calmquist.static-server , CVE-2017-16036
+badjs-sourcemap-server , CVE-2017-16162
+22lixian , CVE-2017-16160
+11xiaoli ,*
+rocketmake-nuget ,*
+ip ,*
+rendr-handlebars ,*
+octotree ,*
+hotel ,*
+ghost ,*
+octotree ,*
+ghost ,*
+ghost , CVE-2015-1411
+ghost , CVE-2015-1407
+ghost , CVE-2015-1409
+ghost , CVE-2015-1408
+ghost , CVE-2015-1406
+ghost , CVE-2015-1410
+ghost , CVE-2014-1403
+easyxdm ,*
+bootstrap-markdown , CVE-2017-1000219
+windows-cpu ,*
+amqp-match ,*
+ms ,*
+riot ,*
+rendr ,*
+rendr ,*
+ql.io-engine ,*
+polyfill-service ,*
+nforce ,*
+uikit ,*
+mediaelement ,*
+fullpage.js ,*
+favico.js ,*
+eslint_d ,*
+datatables ,*
+brunch ,*
+actionhero ,*
+actionhero , CVE-2016-4567
+mediaelement , CVE-2017-16042
+growl , CVE-2017-16092
+sencisho ,*
+ec2-price ,*
+guaycuru ,*
+protojs ,*
+microservicebus.node ,*
+mongo-parse ,*
+mongo-edit ,*
+kmc ,*
+mongui ,*
+mock2easy ,*
+mongoosemask ,*
+mongoosify ,*
+modjs ,*
+nd-validator ,*
+modulify ,*
+m-log ,*
+nameless-cli ,*
+m2m-supervisor ,*
+mobile-icon-resizer ,*
+mixin-pro , CVE-2017-18077
+brace-expansion , CVE-2017-16107
+pooledwebsocket , CVE-2017-16084
+list-n-stream ,*
+nodux-core ,*
+dompurify ,*
+dompurify ,*
+dompurify ,*
+dompurify ,*
+dompurify , CVE-2017-16023
+decamelize , CVE-2017-16030
+useragent , CVE-2017-16021
+uri-js , CVE-2017-16024
+sync-exec , CVE-2017-16017
+sanitize-html , CVE-2017-16025
+nes ,*
+morris.js , CVE-2017-16020
+summit , CVE-2017-16028
+react-native-meteor-oauth , CVE-2017-16015
+forms , CVE-2017-16016
+sanitize-html ,*
+bootstrap , CVE-2017-16013
+hapi ,*
+share ,*
+nodebb ,*
+nodebb , CVE-2011-3389
+faye ,*
+jspdf ,*
+generator-jhipster ,*
+generator-jhipster ,*
+keystone ,*
+ag-grid , CVE-2017-16007
+node-jose ,*
+youtransfer ,*
+wysihtml , CVE-2014-1869
+zeroclipboard , CVE-2012-6550
+zeroclipboard ,*
+vega ,*
+squire-rte ,*
+reveal.js ,*
+rethinkdb ,*
+rethinkdb ,*
+pouchdb ,*
+knockout ,*
+foundation-sites ,*
+swagger-ui ,*
+foundation-sites ,*
+concat-stream ,*
+yms ,*
+thelounge ,*
+lets-chat , CVE-2017-1000048
+qs ,*
+quill ,*
+plotly.js , CVE-2017-5954
+serialize-to-js ,*
+angular , CVE-2017-16043
+shout , CVE-2017-5941
+node-serialize , CVE-2017-16014
+http-proxy ,*
+uuid , CVE-2017-16018
+restify , CVE-2017-16005
+http-signature , CVE-2010-5312
+jquery-ui , CVE-2017-16006
+remarkable ,*
+socket.io ,*
+socket.io ,*
+textangular ,*
+textangular ,*
+connect , CVE-2013-4116
+npm ,*
+markdown-it ,*
+sequelize , CVE-2010-4207
+yui , CVE-2012-5881
+yui ,*
+yui , CVE-2013-4939
+yui , CVE-2013-4941
+yui , CVE-2017-16010
+i18next , CVE-2017-16008
+i18next ,*
+ws , CVE-2017-1000427
+marked ,*
+websocket-driver ,*
+validator ,*
+sails ,*
+sails ,*
+angular ,*
+angular ,*
+angular ,*
+angular ,*
+angular ,*
+angular ,*
+angular , CVE-2019-14863
+angular ,*
+angular ,*
+angular ,*
+angular ,*
+angular ,*
+angular ,*
+angular ,*
+angular ,*
+angular ,*
+angular ,*
+angular-gettext ,*
+react , CVE-2013-7035
+react ,*
+clamscan , CVE-2016-1000249
+fury-adapter-swagger ,*
+tinymce , CVE-2017-16003
+windows-build-tools ,*
+mysql ,*
+loopback-connector-mysql ,*
+loopback-connector-mssql ,*
+loopback-connector-oracle ,*
+loopback-connector-postgresql , CVE-2016-10698
+mystem-fix , CVE-2016-10697
+react-native-baidu-voice-synthesizer , CVE-2016-10696
+windows-latestchromedriver , CVE-2016-10695
+npm-test-sqlite3-trunk , CVE-2016-10694
+alto-saxophone , CVE-2016-10693
+pm2-kafka , CVE-2016-10692
+haxeshim , CVE-2016-10691
+windows-seleniumjar , CVE-2016-10690
+openframe-ascii-image , CVE-2016-10689
+windows-iedriver , CVE-2016-10688
+haxe3 , CVE-2016-10687
+windows-selenium-chromedriver , CVE-2016-10686
+fis-sass-all , CVE-2016-10685
+pk-app-wonderbox , CVE-2016-10684
+healthcenter , CVE-2016-10683
+arcanist , CVE-2016-10682
+massif , CVE-2016-10681
+roslib-socketio , CVE-2016-10680
+adamvr-geoip-lite , CVE-2016-10679
+selenium-standalone-painful ,*
+serc.js , CVE-2016-10677
+google-closure-tools-latest , CVE-2016-10676
+rs-brightcove , CVE-2016-10675
+libsbmlsim , CVE-2016-10674
+limbus-buildgen , CVE-2016-10673
+ipip-coffee , CVE-2016-10672
+cloudpub-redis , CVE-2016-10671
+mystem-wrapper , CVE-2016-10670
+windows-seleniumjar-mirror , CVE-2016-10669
+soci , CVE-2016-10668
+libsbml , CVE-2016-10667
+selenium-portal , CVE-2016-10666
+tomita-parser , CVE-2016-10665
+herbivore , CVE-2016-10664
+mystem , CVE-2016-10663
+wixtoolset , CVE-2016-10662
+tomita , CVE-2016-10661
+phantomjs-cheniu , CVE-2016-10660
+fis-parser-sass-bin , CVE-2016-10659
+poco , CVE-2016-10658
+native-opencv , CVE-2016-10657
+co-cli-installer , CVE-2016-10656
+qbs , CVE-2016-10655
+clang-extra , CVE-2016-10654
+sfml , CVE-2016-10653
+xd-testing , CVE-2016-10652
+prebuild-lwip , CVE-2016-10651
+webdriver-launcher , CVE-2016-10650
+ntfserver , CVE-2016-10649
+frames-compiler , CVE-2016-10648
+marionette-socket-host , CVE-2016-10647
+node-air-sdk , CVE-2016-10646
+resourcehacker , CVE-2016-10645
+grunt-images , CVE-2016-10644
+slimerjs-edge , CVE-2016-10643
+jstestdriver , CVE-2016-10642
+cmake , CVE-2016-10641
+node-bsdiff-android , CVE-2016-10640
+node-thulac , CVE-2016-10639
+redis-srvr , CVE-2016-10638
+js-given , CVE-2016-10636
+grunt-ccompiler , CVE-2016-10635
+broccoli-closure , CVE-2016-10634
+scalajs-standalone-bin , CVE-2016-10633
+dwebp-bin , CVE-2016-10632
+apk-parser2 , CVE-2016-10631
+jvminstall , CVE-2016-10630
+install-g-test , CVE-2016-10629
+nw-with-arm , CVE-2016-10628
+selenium-wrapper , CVE-2016-10627
+scala-bin , CVE-2016-10626
+mystem3 , CVE-2016-10625
+headless-browser-lite , CVE-2016-10624
+selenium-chromedriver , CVE-2016-10623
+macaca-chromedriver-zxa , CVE-2016-10622
+nodeschnaps , CVE-2016-10621
+fibjs , CVE-2016-10620
+atom-node-module-installer , CVE-2016-10619
+pennyworth , CVE-2016-10618
+node-browser , CVE-2016-10617
+box2d-native , CVE-2016-10616
+openframe-image , CVE-2016-10615
+curses , CVE-2016-10614
+httpsync , CVE-2016-10613
+bionode-sra , CVE-2016-10612
+dalek-browser-ie-canary , CVE-2016-10611
+strider-sauce , CVE-2016-10610
+unicode-json , CVE-2016-10609
+chromedriver126 , CVE-2016-10608
+robot-js , CVE-2016-10607
+openframe-glslviewer , CVE-2016-10606
+grunt-webdriver-qunit , CVE-2016-10605
+dalek-browser-ie , CVE-2016-10604
+dalek-browser-chrome , CVE-2016-10603
+air-sdk , CVE-2016-10637
+haxe-dev , CVE-2016-10602
+haxe , CVE-2016-10601
+webdrvr , CVE-2016-10600
+webrtc-native , CVE-2016-10599
+sauce-connect , CVE-2016-10598
+arrayfire-js , CVE-2016-10597
+cobalt-cli , CVE-2016-10596
+imageoptim , CVE-2016-10595
+jdf-sass , CVE-2016-10576
+fuseki , CVE-2016-10572
+mongodb-instance , CVE-2016-10568
+geoip-lite-country , CVE-2016-10566
+install-nw , CVE-2016-10562
+iedriver , CVE-2016-10707
+jquery , CVE-2012-6662
+jquery-ui ,*
+node-forge ,*
+jquery-mobile ,*
+jquery-migrate ,*
+clusterize.js , CVE-2016-10591
+prince , CVE-2016-10592
+jser-stat , CVE-2016-10594
+ipip , CVE-2016-10593
+ibapi , CVE-2016-10590
+cue-sdk-node , CVE-2017-16029
+hostr , CVE-2016-10564
+apk-parser ,*
+knex ,*
+podium , CVE-2016-10581
+steroids , CVE-2016-10573
+baryton-saxophone , CVE-2016-10578
+unicode , CVE-2016-10574
+apk-parser3 , CVE-2016-10586
+macaca-chromedriver , CVE-2016-10577
+ibm_db , CVE-2016-10585
+libxl , CVE-2016-10569
+embedza , CVE-2016-10588
+nw , CVE-2016-10575
+kindlegen , CVE-2016-10567
+product-monitor , CVE-2016-10580
+nodewebkit , CVE-2016-10570
+pngcrush-installer , CVE-2016-10587
+wasdk , CVE-2016-10584
+dalek-browser-chrome-canary , CVE-2016-10579
+chromedriver , CVE-2016-10589
+selenium-binaries , CVE-2016-10571
+bkjs-wand , CVE-2016-10582
+closurecompiler , CVE-2016-10583
+closure-util , CVE-2016-10565
+operadriver , CVE-2016-10563
+go-ipfs-dep ,*
+mongoose , CVE-2016-10561
+bitty , CVE-2017-1000188
+ejs , CVE-2017-1000189
+ejs , CVE-2016-10557
+appium-chromedriver , CVE-2016-10558
+aerospike , CVE-2016-10559
+selenium-download , CVE-2016-10560
+galenframework-cli , CVE-2016-7191
+passport-azure-ad , CVE-2017-1000228
+ejs , CVE-2015-9251
+jquery ,*
+node-uuid ,*
+fernet ,*
+rendr ,*
+hapi ,*
+engine.io ,*
+life_star ,*
+hoek ,*
+shout , CVE-2016-10555
+jwt-simple , CVE-2016-10551
+waterline-sequel , CVE-2016-10552
+igniteui ,*
+tinymce ,*
+moment ,*
+jsjws ,*
+cheerio , CVE-2014-6071
+jquery , CVE-2012-6708
+jquery , CVE-2011-4969
+jquery , CVE-2016-10549
+sails , CVE-2016-10544
+uws ,*
+plotly.js ,*
+plotly.js , CVE-2016-10546
+pouchdb , CVE-2016-10548
+reduce-css-calc ,*
+airbrake ,*
+uc.micro ,*
+boom ,*
+ckeditor-dev ,*
+markdown-it ,*
+ckeditor-dev ,*
+git-ls-remote ,*
+ckeditor-dev ,*
+brisket ,*
+ckeditor-dev ,*
+bl ,*
+crossbow-lang ,*
+dustjs-linkedin , CVE-2016-10547
+nunjucks , CVE-2016-1000236
+cookie-signature , CVE-2016-10538
+cli , CVE-2016-1000241
+pivottable , CVE-2016-1000240
+c3 , CVE-2016-1000242
+mqtt ,*
+swagger-ui , CVE-2016-1000238
+node-krb5 ,*
+sanitize-html , CVE-2016-1000224
+ezseed-transmission , CVE-2016-1000223
+jws , CVE-2016-1000235
+fuelux , CVE-2016-1000234
+jqtree ,*
+swagger-ui , CVE-2016-1000231
+emojione , CVE-2016-1000230
+rendr , CVE-2016-1000232
+tough-cookie , CVE-2016-7103
+jquery-ui , CVE-2016-1000229
+swagger-ui , CVE-2016-1000228
+gmail-js , CVE-2016-1000227
+bootstrap-tagsinput ,*
+swagger-ui , CVE-2016-1000225
+sequelize , CVE-2016-10543
+call , CVE-2016-10542
+ws , CVE-2016-10537
+backbone , CVE-2016-10535
+csrf-lite , CVE-2016-10533
+express-restify-mongoose , CVE-2016-10541
+shell-quote ,*
+minimatch , CVE-2016-10540
+minimatch , CVE-2016-10539
+negotiator ,*
+engine.io-client , CVE-2016-10532
+console-io , CVE-2016-10534
+electron-packager , CVE-2016-10531
+marked ,*
+npm , CVE-2016-10553
+sequelize , CVE-2016-10554
+sequelize , CVE-2016-10550
+sequelize , CVE-2016-10556
+sequelize ,*
+sequelize , CVE-2016-3942
+jsrender , CVE-2016-10529
+droppy , CVE-2016-10528
+restafary , CVE-2016-10530
+airbrake , CVE-2015-8851
+node-uuid , CVE-2017-16026
+request , CVE-2016-10527
+riot-compiler , CVE-2016-10526
+grunt-gh-pages , CVE-2016-4055
+moment , CVE-2016-10525
+hapi-auth-jwt2 , CVE-2016-10524
+i18n-node-angular ,*
+mongoose , CVE-2016-2515
+hawk , CVE-2015-7499
+libxmljs , CVE-2016-2537
+is-my-json-valid , CVE-2016-10523
+mqtt-packet ,*
+mapbox.js , CVE-2016-10520
+jadedown , CVE-2016-10521
+jshamcrest , CVE-2015-9243
+hapi , CVE-2016-10518
+ws , CVE-2015-9244
+mysql , CVE-2016-10519
+bittorrent-dht , CVE-2015-9241
+hapi , CVE-2015-9242
+ecstatic , CVE-2015-8861
+handlebars , CVE-2015-8862
+mustache , CVE-2015-9240
+keystone , CVE-2015-8315
+millisecond , CVE-2015-9236
+hapi , CVE-2014-8881
+bleach , CVE-2015-9239
+ansi2html , CVE-2015-7982
+gm ,*
+handlebars , CVE-2013-4170
+ember ,*
+mustache ,*
+backbone , CVE-2010-2275
+dojo , CVE-2015-8860
+tar ,*
+ember , CVE-2015-8315
+ms ,*
+mapbox.js , CVE-2010-2272
+dojo , CVE-2015-8858
+uglify-js , CVE-2016-1000237
+sanitize-html , CVE-2015-8859
+send , CVE-2014-0013
+ember , CVE-2015-9238
+secure-compare ,*
+ldapauth , CVE-2015-6584
+datatables , CVE-2015-7294
+ldapauth-fork , CVE-2015-8857
+uglify-js , CVE-2015-5688
+geddy , CVE-2015-1840
+jquery-ujs , CVE-2015-8855
+semver , CVE-2015-9235
+jsonwebtoken , CVE-2015-8856
+serve-index , CVE-2015-4130
+ungit , CVE-2015-1369
+sequelize , CVE-2015-1164
+serve-static , CVE-2014-10068
+inert , CVE-2014-10067
+paypal-ipn , CVE-2014-10066
+fancy-server , CVE-2014-8883
+nhouston , CVE-2014-10065
+remarkable , CVE-2014-8882
+validator , CVE-2014-9682
+dns-sync , CVE-2014-9772
+validator , CVE-2014-7205
+bassmaster , CVE-2014-6394
+send , CVE-2014-6393
+express , CVE-2014-10064
+qs , CVE-2014-7191
+qs , CVE-2014-7193
+crumb , CVE-2014-7192
+syntax-error , CVE-2014-3742
+hapi , CVE-2014-4671
+hapi , CVE-2014-4179
+yar , CVE-2014-3741
+printer , CVE-2014-3744
+st , CVE-2013-6393
+libyaml , CVE-2015-8854
+marked , CVE-2014-1850
+marked , CVE-2015-1370
+marked , CVE-2013-7377
+codem-transcode , CVE-2013-7451
+validator , CVE-2013-7370
+connect , CVE-2013-4660
+js-yaml , CVE-2013-7381
+libnotify , CVE-2013-7378
+hubot-scripts , CVE-2013-3364
+ep_imageconvert , CVE-2013-7379
+tomato , CVE-2013-7379
