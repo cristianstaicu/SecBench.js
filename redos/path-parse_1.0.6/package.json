@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-23343",
   "dependencies": {
     "path-parse": "1.0.6"
   },

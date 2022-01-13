@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-23353",
   "dependencies": {
     "jspdf": "2.1.1"
   },

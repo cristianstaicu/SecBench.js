@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-1920",
   "dependencies": {
     "react-native": "0.63.0-rc.0"
   },

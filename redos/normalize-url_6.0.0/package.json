@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-33502",
   "dependencies": {
     "normalize-url": "6.0.0"
   },

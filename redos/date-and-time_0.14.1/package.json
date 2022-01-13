@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-26289",
   "dependencies": {
     "date-and-time": "0.14.1"
   },

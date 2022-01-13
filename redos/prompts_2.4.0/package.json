@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-3868",
   "dependencies": {
     "prompts": "2.4.0"
   },

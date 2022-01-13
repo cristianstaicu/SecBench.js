@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-26256",
   "dependencies": {
     "fast-csv": "4.3.5"
   },

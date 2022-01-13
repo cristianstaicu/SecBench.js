@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7661",
   "dependencies": {
     "url-regex": "5.0.0"
   },

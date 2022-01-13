@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2022-21670",
   "dependencies": {
     "markdown-it": "9.1.0"
   },

@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-23346",
   "dependencies": {
     "html-parse-stringify2": "2.0.1"
   },

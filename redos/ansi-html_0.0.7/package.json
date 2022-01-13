@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-23424",
   "dependencies": {
     "ansi-html": "0.0.7"
   },

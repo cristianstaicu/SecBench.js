@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-36716",
   "dependencies": {
     "is-email": "1.0.0"
   },

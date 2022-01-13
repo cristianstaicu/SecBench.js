@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-29060",
   "dependencies": {
     "color-string": "1.5.4"
   },

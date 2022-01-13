@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2017-16115",
   "dependencies": {
     "timespan": "2.3.0"
   },

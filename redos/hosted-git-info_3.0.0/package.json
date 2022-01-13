@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-23362",
   "dependencies": {
     "hosted-git-info": "3.0.0"
   },

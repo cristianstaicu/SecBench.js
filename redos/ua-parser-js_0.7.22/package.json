@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-27292",
   "dependencies": {
     "ua-parser-js": "0.7.22"
   },

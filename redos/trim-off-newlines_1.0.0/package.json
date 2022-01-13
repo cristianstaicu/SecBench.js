@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-23425",
   "dependencies": {
     "trim-off-newlines": "1.0.0"
   },

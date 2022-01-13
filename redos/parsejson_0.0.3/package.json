@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2017-16113",
   "dependencies": {
     "parsejson": "0.0.3"
   },

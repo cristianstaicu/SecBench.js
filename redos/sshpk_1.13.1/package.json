@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2018-3737",
   "dependencies": {
     "sshpk": "1.13.1"
   },

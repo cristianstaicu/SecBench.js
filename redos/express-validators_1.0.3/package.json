@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7767",
   "dependencies": {
     "express-validators": "1.0.3"
   },

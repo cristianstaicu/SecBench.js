@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-3887",
   "dependencies": {
     "validator": "13.5.0"
   },

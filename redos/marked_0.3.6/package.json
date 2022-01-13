@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-21306",
   "dependencies": {
     "marked": "0.3.6"
   },
