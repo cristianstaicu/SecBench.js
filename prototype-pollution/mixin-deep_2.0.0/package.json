@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "2.0.1",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/jonschlinkert/mixin-deep/commit/8f464c8ce9761a8c9c2b3457eaeee9d404fa7af9",
   "sink": "./set.js:36"
 }

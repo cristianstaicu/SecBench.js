@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "3.2.5",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/aheckmann/mquery/commit/158f059e058579d2d08c2f1380689f5f69336778",
   "sink": "./set.js:36"
 }

@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "4.0.1",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/jonschlinkert/set-value/commit/7cf8073bb06bf0c15e08475f9f952823b4576452",
   "sink": "./set.js:36"
 }

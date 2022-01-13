@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-c36v-fmgq-m8hx"
   },
   "fixedVersion": "9.0.6",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/immerjs/immer/commit/fa671e55ee9bd42ae08cc239102b665a23958237",
   "sink": "./set.js:36"
 }

@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-4q97-fh3f-j294"
   },
   "fixedVersion": "5.1.0",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/okunishinishi/node-objnest/commit/c541e1a775b562d63402a14dac9f8cbc52b116d7",
   "sink": "./set.js:36"
 }

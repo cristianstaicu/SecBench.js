@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-p3hc-fv2j-rp68"
   },
   "fixedVersion": "1.0.2",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/lukeed/nestie/commit/c571c77928ecd7f256a935c7c3860f33dac4653f",
   "sink": "./set.js:36"
 }

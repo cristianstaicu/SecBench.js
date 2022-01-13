@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "0.1.1",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/mattinsler/connie-lang/commit/ef376d404c712dd28309ba07f28a8f87f24a015a",
   "sink": "./set.js:36"
 }

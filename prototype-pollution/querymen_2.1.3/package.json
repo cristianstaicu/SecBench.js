@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "2.1.4",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/diegohaz/querymen/commit/1987fefcb3b7508253a29502a008d5063a873cef",
   "sink": "./set.js:36"
 }

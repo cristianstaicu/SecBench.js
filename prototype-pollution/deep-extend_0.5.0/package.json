@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "0.5.1",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/unclechu/node-deep-extend/commit/433ee51ed606f4e1867ece57b6ff5a47bebb492f",
   "sink": "./set.js:36"
 }

@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-7c7g-72q7-4xhm"
   },
   "fixedVersion": "1.2.1",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/isaymatato/deepref/commit/24935e6a1060cb09c641d3075982f0b44cfca4c2",
   "sink": "./set.js:36"
 }

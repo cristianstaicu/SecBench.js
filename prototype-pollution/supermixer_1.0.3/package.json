@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-7prf-vw4p-qr59"
   },
   "fixedVersion": "1.0.5",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/stampit-org/supermixer/commit/94dcc6fc45e0fed96187cb52aaffadf76dbbc0a3",
   "sink": "./set.js:36"
 }

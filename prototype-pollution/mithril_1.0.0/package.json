@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "1.1.7",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/MithrilJS/mithril.js/commit/97fa1788c2184ff4b87fd3f558b7003f9eeee2b1",
   "sink": "./set.js:36"
 }

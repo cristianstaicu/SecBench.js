@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "1.0.2",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/ASaiAnudeep/deep-override/commit/2aced17651fb684959a6e04b1465a8329b3d5268",
   "sink": "./set.js:36"
 }

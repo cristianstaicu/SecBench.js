@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-cvxm-f295-x957"
   },
   "fixedVersion": "3.0.0",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/cosmosio/nested-property/commit/881cf37eb956641fc26011ff66a436eb603c89d1",
   "sink": "./set.js:36"
 }

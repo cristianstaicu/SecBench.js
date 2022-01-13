@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "2.1.3",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/rhalff/dot-object/commit/f76cff5fe6d01d30ce110d8f454db2e5bd28a7de",
   "sink": "./set.js:36"
 }

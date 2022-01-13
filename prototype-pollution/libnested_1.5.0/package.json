@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "1.5.1",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/dominictarr/libnested/commit/9619863a319ed1e5c19ddcbdbe3312f9cef72760",
   "sink": "./set.js:36"
 }

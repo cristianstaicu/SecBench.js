@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-hc9w-4p87-j549"
   },
   "fixedVersion": "0.2.6",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/eugeneware/changeset/commit/9e588844edbb9993b32e7366cc799262b4447f99",
   "sink": "./set.js:36"
 }

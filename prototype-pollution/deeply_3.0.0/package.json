@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-g9r4-xpmj-mj65"
   },
   "fixedVersion": "3.1.0",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/alexindigo/deeply/commit/6eccb2f03ec8d3eefc6805053c4cc2a36aab1505",
   "sink": "./set.js:36"
 }

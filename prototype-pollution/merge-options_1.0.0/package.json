@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "1.0.1",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/schnittstabil/merge-options/commit/d4a93bc2890455e0931ac0779667023e6cb101d4",
   "sink": "./set.js:36"
 }

@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-cxm3-284p-qc4v"
   },
   "fixedVersion": "4.0.0",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/monsterkodi/sds/commit/a228f025fd1be033088b7abbc0f77118d573f216",
   "sink": "./set.js:36"
 }

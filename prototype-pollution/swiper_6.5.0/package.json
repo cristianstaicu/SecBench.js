@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-p3hc-fv2j-rp68"
   },
   "fixedVersion": "6.5.1",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/nolimits4web/swiper/commit/9dad2739b7474f383474773d5ab898a0c29ac178",
   "sink": "./set.js:36"
 }

@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "19.8.5",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/i18next/i18next/commit/932f5f662893376254d826e9b01dc4e4c0cd91c0",
   "sink": "./set.js:36"
 }

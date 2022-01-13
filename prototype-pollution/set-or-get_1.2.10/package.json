@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "1.2.11",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/IonicaBizau/set-or-get.js/commit/82ede5cccb2e8d13e4f62599203a4389f6d8e936",
   "sink": "./set.js:36"
 }

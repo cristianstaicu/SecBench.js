@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "2.3.0",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/mrodrig/doc-path/commit/3e2bb168cf303bffcd7fae5f8d05e5300c1541c7",
   "sink": "./set.js:36"
 }

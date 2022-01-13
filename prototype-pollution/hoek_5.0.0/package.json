@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-4q97-fh3f-j294"
   },
   "fixedVersion": "8.5.1",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/hapijs/hoek/commit/948baf98634a5c206875b67d11368f133034fa90",
   "sink": "./set.js:36"
 }

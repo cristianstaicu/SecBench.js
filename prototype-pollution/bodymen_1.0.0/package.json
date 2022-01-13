@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-4q97-fh3f-j294"
   },
   "fixedVersion": "1.1.1",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/diegohaz/bodymen/commit/5d52e8cf360410ee697afd90937e6042c3a8653b",
   "sink": "./set.js:36"
 }

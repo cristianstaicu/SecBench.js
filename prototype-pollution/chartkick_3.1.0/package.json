@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "3.2.0",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/ankane/chartkick.js/commit/3f833c2b229db140295b44074fef56428e0a8b91",
   "sink": "./set.js:36"
 }

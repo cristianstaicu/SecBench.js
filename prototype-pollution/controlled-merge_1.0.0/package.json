@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "1.3.0",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/hlfshell/controlled-merge/commit/5a4b2e9ffe5a0be7f8843d4ab038599d3ae5f9d4",
   "sink": "./set.js:36"
 }

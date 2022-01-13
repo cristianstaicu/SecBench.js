@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "2.2.0",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/steveukx/properties/commit/0877cc871db9865f58dd9389ce99e61be05380a5",
   "sink": "./set.js:36"
 }

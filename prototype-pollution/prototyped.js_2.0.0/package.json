@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "2.0.1",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/ardalanamini/prototyped.js/commit/3ab56e78250d3d5b44ac03938d3d04591b206730",
   "sink": "./set.js:36"
 }

@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "2.0.0",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/Ajnasz/IniReader/commit/c260e4e9050c731dbdb88e1d2e23e851528d3d93",
   "sink": "./set.js:36"
 }

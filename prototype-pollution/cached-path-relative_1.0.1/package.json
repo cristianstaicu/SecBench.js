@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-hc9w-4p87-j549"
   },
   "fixedVersion": "1.0.2",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/ashaffer/cached-path-relative/commit/a43cffec84ed0e9eceecb43b534b6937a8028fc0",
   "sink": "./set.js:36"
 }

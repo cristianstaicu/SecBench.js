@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "1.1.1",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/chaijs/pathval/commit/7859e0e1ce4c2c67de897edce097ed31f80661d0",
   "sink": "./set.js:36"
 }

@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-6cf8-qhqj-vjqm"
   },
   "fixedVersion": "3.4.7",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/totaljs/framework/commit/b3f901561d66ab799a4a99279893b94cad7ae4ff",
   "sink": "./set.js:36"
 }

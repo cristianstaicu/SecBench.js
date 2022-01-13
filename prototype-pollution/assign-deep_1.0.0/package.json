@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
   "fixedVersion": "1.0.1",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/jonschlinkert/assign-deep/commit/90bf1c551d05940898168d04066bbf15060f50cc",
   "sink": "./set.js:36"
 }
