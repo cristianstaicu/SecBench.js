@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "git-diff-apply": "0.22.0"
+  }
+}
