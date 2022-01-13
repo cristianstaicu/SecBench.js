@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "0.6.1",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/Khan/simple-markdown/commit/015a719bf5cdc561feea05500ecb3274ef609cd2",
   "sink": ""
 }

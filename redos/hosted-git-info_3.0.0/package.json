@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "3.0.8",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/npm/hosted-git-info/commit/bede0dc38e1785e732bf0a48ba6f81a4a908eba3",
   "sink": ""
 }

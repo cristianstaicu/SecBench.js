@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "2.0.0",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/markedjs/marked/commit/7293251c438e3ee968970f7609f1a27f9007bccd",
   "sink": ""
 }

@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "1.2.1",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/caolan/forms/pull/214/commits/d4bd5b5febfe49c1f585f162e04ec810f8dc47a0",
   "sink": ""
 }

@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "10.4.1",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/highlightjs/highlight.js/commit/373b9d862401162e832ce77305e49b859e110f9c",
   "sink": ""
 }

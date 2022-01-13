@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "5.4.7",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/ethers-io/ethers.js/commit/32a6b2a362815eb85ce3f3abad5adf92f2b80e10",
   "sink": ""
 }

@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "4.3.0",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/sindresorhus/is-svg/commit/732fc72779840c45a30817d3fe28e12058592b02",
   "sink": ""
 }

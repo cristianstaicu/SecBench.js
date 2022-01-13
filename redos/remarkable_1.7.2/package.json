@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "1.7.3",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/jonschlinkert/remarkable/pull/335/commits/b8bb2c0987f06d2b34e882159249f1538c6dc380",
   "sink": ""
 }

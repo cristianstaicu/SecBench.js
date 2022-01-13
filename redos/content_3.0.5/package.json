@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "3.0.7",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/hapijs/content/commit/96beb34f7c38a08d024dbf9cd63865c56e2955d9",
   "sink": ""
 }

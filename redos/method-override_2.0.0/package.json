@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "2.3.10",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/expressjs/method-override/commit/4c58835a61fdf7a8e070d6f8ecd5379a961d0987",
   "sink": ""
 }

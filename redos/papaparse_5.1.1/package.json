@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "5.2.0",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/mholt/PapaParse/commit/235a12758cd77266d2e98fd715f53536b34ad621",
   "sink": ""
 }

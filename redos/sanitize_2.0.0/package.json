@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": " 2.1.0",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/pocketly/node-sanitize/commit/4fd57530367ea9f2570b1e57d1a1a32e7f5d644f#diff-bd042f5439b55acdcce363c79e2f55d6R148",
   "sink": ""
 }

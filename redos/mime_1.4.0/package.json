@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "2.0.5",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/emailjs/emailjs-mime-codec/pull/22/commits/895f624ff7d480d762d662ba1c3bb91831dc4646",
   "sink": ""
 }

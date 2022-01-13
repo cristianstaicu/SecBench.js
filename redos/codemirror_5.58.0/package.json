@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "5.58.2",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/codemirror/CodeMirror/commit/55d0333907117c9231ffdf555ae8824705993bbb",
   "sink": ""
 }

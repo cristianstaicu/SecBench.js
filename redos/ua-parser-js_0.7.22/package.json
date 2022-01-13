@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "0.7.24",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/faisalman/ua-parser-js/commit/809439e20e273ce0d25c1d04e111dcf6011eb566",
   "sink": ""
 }

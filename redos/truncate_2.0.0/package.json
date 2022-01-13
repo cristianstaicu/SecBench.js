@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "2.0.1",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/FGRibreau/node-truncate/commit/a3cea056427b2dfbbffebf24a95419b09db23b22",
   "sink": ""
 }

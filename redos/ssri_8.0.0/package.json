@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "6.0.2",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/npm/ssri/commit/76e223317d971f19e4db8191865bdad5edee40d2",
   "sink": ""
 }

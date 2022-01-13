@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "0.27.2",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/ramda/ramda/pull/3212/commits/94d057032c9b3ecf26d9842fbb12c981bda29f4b",
   "sink": ""
 }

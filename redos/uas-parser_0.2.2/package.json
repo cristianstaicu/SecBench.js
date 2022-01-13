@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "0.2.3",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/GUI/uas-parser/commit/c33b1247d02244484c78d1cb06a7103156f17109",
   "sink": ""
 }

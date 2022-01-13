@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "1.0.1",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/npm/npm-user-validate/commit/c8a87dac1a4cc6988b5418f30411a8669bef204e",
   "sink": ""
 }

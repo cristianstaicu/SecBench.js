@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "4.16.5",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/browserslist/browserslist/commit/c091916910dfe0b5fd61caad96083c6709b02d98",
   "sink": ""
 }

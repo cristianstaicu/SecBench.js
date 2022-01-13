@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "0.12.8",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/cronvel/string-kit/commit/9cac4c298ee92c1695b0695951f1488884a7ca73",
   "sink": ""
 }

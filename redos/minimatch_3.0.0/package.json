@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "3.0.2",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/isaacs/minimatch/commit/6944abf9e0694bd22fd9dad293faa40c2bc8a955",
   "sink": ""
 }
