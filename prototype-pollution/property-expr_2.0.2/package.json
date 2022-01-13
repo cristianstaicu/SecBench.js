@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7707",
   "dependencies": {
     "property-expr": "2.0.2"
   },

@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-23329",
   "dependencies": {
     "nested-object-assign": "1.0.3"
   },

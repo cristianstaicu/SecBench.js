@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-23509",
   "dependencies": {
     "json-ptr": "1.1.0"
   },

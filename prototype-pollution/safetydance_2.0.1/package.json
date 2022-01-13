@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7737",
   "dependencies": {
     "safetydance": "2.0.1"
   },

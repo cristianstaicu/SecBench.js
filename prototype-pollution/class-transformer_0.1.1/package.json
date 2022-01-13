@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7637",
   "dependencies": {
     "class-transformer": "0.1.1"
   },

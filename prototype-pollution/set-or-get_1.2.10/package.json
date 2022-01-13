@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-25913",
   "dependencies": {
     "set-or-get": "1.2.10"
   },

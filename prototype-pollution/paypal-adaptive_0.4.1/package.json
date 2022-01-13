@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7643",
   "dependencies": {
     "paypal-adaptive": "0.4.1"
   },

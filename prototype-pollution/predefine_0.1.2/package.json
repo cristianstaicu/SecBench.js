@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-28280",
   "dependencies": {
     "predefine": "0.1.2"
   },

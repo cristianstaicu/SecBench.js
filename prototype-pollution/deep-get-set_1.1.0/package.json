@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7715",
   "dependencies": {
     "deep-get-set": "1.1.0"
   },

@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-23700",
   "dependencies": {
     "merge-deep2": "3.0.5"
   },

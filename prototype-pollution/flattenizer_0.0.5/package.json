@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-28279",
   "dependencies": {
     "flattenizer": "0.0.5"
   },

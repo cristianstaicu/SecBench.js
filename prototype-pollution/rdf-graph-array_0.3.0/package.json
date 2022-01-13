@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2019-10798",
   "dependencies": {
     "rdf-graph-array": "0.3.0"
   },

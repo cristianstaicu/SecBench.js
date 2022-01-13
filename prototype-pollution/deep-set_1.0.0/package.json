@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-28276",
   "dependencies": {
     "deep-set": "1.0.0"
   },

@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7608",
   "dependencies": {
     "yargs-parser": "6.0.0"
   },

@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-8268",
   "dependencies": {
     "json8-merge-patch": "1.0.1"
   },

@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-20086",
   "dependencies": {
     "jquery": "1.11.0"
   },

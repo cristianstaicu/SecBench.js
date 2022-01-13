@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-28268",
   "dependencies": {
     "controlled-merge": "1.0.0"
   },

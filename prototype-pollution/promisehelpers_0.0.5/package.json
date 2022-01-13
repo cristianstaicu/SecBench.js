@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7723",
   "dependencies": {
     "promisehelpers": "0.0.5"
   },

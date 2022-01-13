@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-23700",
   "dependencies": {
     "merge": "2.1.0"
   },

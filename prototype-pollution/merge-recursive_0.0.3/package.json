@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2018-3751",
   "dependencies": {
     "merge-recursive": "0.0.3"
   },

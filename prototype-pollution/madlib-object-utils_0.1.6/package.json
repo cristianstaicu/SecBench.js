@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7701",
   "dependencies": {
     "madlib-object-utils": "0.1.6"
   },

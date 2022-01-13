@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2019-10794",
   "dependencies": {
     "component-flatten": "1.0.1"
   },

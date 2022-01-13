@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-8158",
   "dependencies": {
     "typeorm": "0.2.24"
   },

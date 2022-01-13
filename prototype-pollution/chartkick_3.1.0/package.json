@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2019-18841",
   "dependencies": {
     "chartkick": "3.1.0"
   },

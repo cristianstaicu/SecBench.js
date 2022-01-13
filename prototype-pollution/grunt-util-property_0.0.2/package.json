@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7641",
   "dependencies": {
     "grunt-util-property": "0.0.2"
   },

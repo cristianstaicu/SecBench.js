@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7721",
   "dependencies": {
     "node-oojs": "1.4.0"
   },

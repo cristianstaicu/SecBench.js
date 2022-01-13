@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-23624",
   "dependencies": {
     "dotty": "0.0.1"
   },

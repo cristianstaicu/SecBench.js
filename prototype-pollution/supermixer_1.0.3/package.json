@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-24939",
   "dependencies": {
     "supermixer": "1.0.3"
   },

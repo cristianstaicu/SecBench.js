@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7719",
   "dependencies": {
     "locutus": "2.0.11"
   },

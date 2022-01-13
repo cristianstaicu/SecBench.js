@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-25941",
   "dependencies": {
     "deep-override": "1.0.0"
   },

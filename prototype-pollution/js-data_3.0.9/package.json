@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-23574",
   "dependencies": {
     "js-data": "3.0.9"
   },

@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7638",
   "dependencies": {
     "confinit": "0.3.0"
   },

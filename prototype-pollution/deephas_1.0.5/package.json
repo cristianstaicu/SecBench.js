@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-28271",
   "dependencies": {
     "deephas": "1.0.5"
   },

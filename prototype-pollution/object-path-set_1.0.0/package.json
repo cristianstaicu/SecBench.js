@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-15256",
   "dependencies": {
     "object-path-set": "1.0.0"
   },

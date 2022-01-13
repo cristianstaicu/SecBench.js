@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7725",
   "dependencies": {
     "worksmith": "1.0.0"
   },

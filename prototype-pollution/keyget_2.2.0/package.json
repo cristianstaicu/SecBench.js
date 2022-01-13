@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-28272",
   "dependencies": {
     "keyget": "2.2.0"
   },

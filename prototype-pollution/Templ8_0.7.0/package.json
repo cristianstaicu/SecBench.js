@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7702",
   "dependencies": {
     "Templ8": "0.7.0"
   },

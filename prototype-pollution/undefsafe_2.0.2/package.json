@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2019-10795",
   "dependencies": {
     "undefsafe": "2.0.2"
   },

@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7722",
   "dependencies": {
     "nodee-utils": "1.2.2"
   },

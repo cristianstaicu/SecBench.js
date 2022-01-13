@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-28282",
   "dependencies": {
     "getobject": "0.1.0"
   },

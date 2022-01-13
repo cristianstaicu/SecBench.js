@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7742",
   "dependencies": {
     "simpl-schema": "1.10.0"
   },

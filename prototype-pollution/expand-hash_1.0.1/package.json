@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-25948",
   "dependencies": {
     "expand-hash": "1.0.1"
   },

@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-23436",
   "dependencies": {
     "immer": "8.0.0"
   },

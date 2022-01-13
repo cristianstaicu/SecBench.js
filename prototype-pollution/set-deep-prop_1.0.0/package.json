@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-23373",
   "dependencies": {
     "set-deep-prop": "1.0.0"
   },

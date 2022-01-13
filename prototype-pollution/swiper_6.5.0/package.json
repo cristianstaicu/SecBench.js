@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-23370",
   "dependencies": {
     "swiper": "6.5.0"
   },

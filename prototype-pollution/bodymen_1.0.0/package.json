@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2019-10792",
   "dependencies": {
     "bodymen": "1.0.0"
   },

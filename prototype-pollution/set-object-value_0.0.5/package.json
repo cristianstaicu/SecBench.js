@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-28281",
   "dependencies": {
     "set-object-value": "0.0.5"
   },

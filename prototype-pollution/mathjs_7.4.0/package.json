@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7743",
   "dependencies": {
     "mathjs": "7.4.0"
   },

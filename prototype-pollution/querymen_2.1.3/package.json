@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7600",
   "dependencies": {
     "querymen": "2.1.3"
   },

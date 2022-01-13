@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7718",
   "dependencies": {
     "gammautils": "0.0.81"
   },

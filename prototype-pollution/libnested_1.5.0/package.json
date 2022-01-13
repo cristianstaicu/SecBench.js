@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-28283",
   "dependencies": {
     "libnested": "1.5.0"
   },

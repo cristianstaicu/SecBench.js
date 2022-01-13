@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-25928",
   "dependencies": {
     "safe-obj": "1.0.0"
   },

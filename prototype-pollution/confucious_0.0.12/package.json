@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7714",
   "dependencies": {
     "confucious": "0.0.12"
   },

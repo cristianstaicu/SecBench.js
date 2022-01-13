@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2018-3752",
   "dependencies": {
     "merge-options": "1.0.0"
   },

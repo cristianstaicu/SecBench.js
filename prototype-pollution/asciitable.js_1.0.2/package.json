@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7771",
   "dependencies": {
     "asciitable.js": "1.0.2"
   },

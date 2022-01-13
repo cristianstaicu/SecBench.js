@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2018-16486",
   "dependencies": {
     "defaults-deep": "0.2.4"
   },

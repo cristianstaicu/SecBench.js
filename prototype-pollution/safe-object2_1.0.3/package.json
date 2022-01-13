@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7726",
   "dependencies": {
     "safe-object2": "1.0.3"
   },

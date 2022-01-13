@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2021-23444",
   "dependencies": {
     "jointjs": "2.2.1"
   },

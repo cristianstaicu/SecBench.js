@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-28448",
   "dependencies": {
     "multi-ini": "2.1.0"
   },
