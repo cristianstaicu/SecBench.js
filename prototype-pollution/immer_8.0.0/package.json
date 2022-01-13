@@ -7,7 +7,7 @@
     "source1": "https://security.snyk.io/vuln/SNYK-JS-IMMER-1540542",
     "source2": "https://github.com/advisories/GHSA-c36v-fmgq-m8hx"
   },
-  "fixedVersion": "n/a",
+  "fixedVersion": "9.0.6",
   "fixCommit": "n/a",
   "sink": "./set.js:36"
 }

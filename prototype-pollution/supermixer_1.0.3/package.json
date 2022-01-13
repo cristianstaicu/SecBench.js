@@ -7,7 +7,7 @@
     "source1": "https://security.snyk.io/vuln/SNYK-JS-SUPERMIXER-607909",
     "source2": "https://github.com/advisories/GHSA-7prf-vw4p-qr59"
   },
-  "fixedVersion": "n/a",
+  "fixedVersion": "1.0.5",
   "fixCommit": "n/a",
   "sink": "./set.js:36"
 }

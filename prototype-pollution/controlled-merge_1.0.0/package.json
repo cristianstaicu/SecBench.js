@@ -7,7 +7,7 @@
     "source1": "https://security.snyk.io/vuln/SNYK-JS-CONTROLLEDMERGE-1040460",
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
-  "fixedVersion": "n/a",
+  "fixedVersion": "1.3.0",
   "fixCommit": "n/a",
   "sink": "./set.js:36"
 }

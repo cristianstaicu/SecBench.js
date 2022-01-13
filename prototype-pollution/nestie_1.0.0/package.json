@@ -7,7 +7,7 @@
     "source1": "https://security.snyk.io/vuln/SNYK-JS-NESTIE-1300518",
     "source2": "https://github.com/advisories/GHSA-p3hc-fv2j-rp68"
   },
-  "fixedVersion": "n/a",
+  "fixedVersion": "1.0.2",
   "fixCommit": "n/a",
   "sink": "./set.js:36"
 }

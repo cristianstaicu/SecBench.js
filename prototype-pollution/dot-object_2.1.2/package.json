@@ -7,7 +7,7 @@
     "source1": "https://security.snyk.io/vuln/SNYK-JS-DOTOBJECT-548905",
     "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
   },
-  "fixedVersion": "n/a",
+  "fixedVersion": "2.1.3",
   "fixCommit": "n/a",
   "sink": "./set.js:36"
 }

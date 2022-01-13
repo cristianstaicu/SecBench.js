@@ -7,7 +7,7 @@
     "source1": "https://security.snyk.io/vuln/SNYK-JS-DEEPREF-1049536",
     "source2": "https://github.com/advisories/GHSA-7c7g-72q7-4xhm"
   },
-  "fixedVersion": "n/a",
+  "fixedVersion": "1.2.1",
   "fixCommit": "n/a",
   "sink": "./set.js:36"
 }
