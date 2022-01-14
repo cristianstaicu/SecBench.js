@@ -1,0 +1,6 @@
+{
+    "dependencies": {
+      "@azure/ms-rest-nodeauth": "3.0.6"
+    }
+  }
+  
