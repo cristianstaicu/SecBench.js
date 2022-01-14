@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2019-10776",
   "dependencies": {
     "command-exists": "1.2.2"
 	},

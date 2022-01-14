@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2018-13797",
   "dependencies": {
     "macaddress": "0.2.8"
 	},

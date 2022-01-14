@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2018-16462",
   "dependencies": {
     "apex-publish-static-files": "2.0.0"
 	},

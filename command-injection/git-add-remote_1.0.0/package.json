@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-7630",
   "dependencies": {
     "git-add-remote": "1.0.0"
 	},

@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-7631",
   "dependencies": {
     "diskusage-ng": "0.2.6"
 	},

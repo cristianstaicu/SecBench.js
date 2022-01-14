@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-7619",
   "dependencies": {
     "get-git-data": "1.3.0"
 	},

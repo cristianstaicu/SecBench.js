@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2021-29300",
   "dependencies": {
     "samsung-remote": "1.2.5"
 	},

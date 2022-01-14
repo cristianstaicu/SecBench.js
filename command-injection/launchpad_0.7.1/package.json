@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2021-23330",
   "dependencies": {
     "launchpad": "0.7.1"
 	},

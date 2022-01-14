@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2019-10788",
   "dependencies": {
     "strider-git": "1.0.3"
 	},

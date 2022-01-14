@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-7632",
   "dependencies": {
     "node-mpv": "0.12.2"
 	},

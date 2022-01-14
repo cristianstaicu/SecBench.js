@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-28434",
   "dependencies": {
     "gitblame": "0.1.1"
 	},

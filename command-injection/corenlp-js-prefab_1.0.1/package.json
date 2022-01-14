@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-28439",
   "dependencies": {
     "corenlp-js-prefab": "1.0.1"
 	},

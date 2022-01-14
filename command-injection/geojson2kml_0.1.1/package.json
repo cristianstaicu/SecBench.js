@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-28429",
   "dependencies": {
     "geojson2kml": "0.1.1"
 	},

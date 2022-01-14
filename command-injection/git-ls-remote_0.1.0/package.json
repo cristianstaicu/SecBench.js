@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2019-10788",
   "dependencies": {
     "git-ls-remote": "0.1.0"
 	},

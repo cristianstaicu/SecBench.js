@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2014-9682",
   "dependencies": {
     "dns-sync": "0.1.0"
 	},

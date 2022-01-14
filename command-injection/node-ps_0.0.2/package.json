@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-7785",
   "dependencies": {
     "node-ps": "0.0.2"
 	},

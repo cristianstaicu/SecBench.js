@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-7625",
   "dependencies": {
     "op-browser": "1.0.8"
 	},

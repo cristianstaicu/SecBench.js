@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2018-3757",
   "dependencies": {
     "pdf-image": "1.0.5"
 	},

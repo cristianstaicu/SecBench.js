@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-7730",
   "dependencies": {
     "bestzip": "2.1.6"
 	},

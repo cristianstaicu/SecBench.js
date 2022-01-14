@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-7621",
   "dependencies": {
     "strong-nginx-controller": "1.0.2"
 	},

@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2021-26543",
   "dependencies": {
     "git-parse": "1.0.4"
 	},

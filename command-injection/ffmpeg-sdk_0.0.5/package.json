@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-28435",
   "dependencies": {
     "ffmpeg-sdk": "0.0.5"
 	},

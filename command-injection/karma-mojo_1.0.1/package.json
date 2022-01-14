@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-7626",
   "dependencies": {
     "karma-mojo": "1.0.1"
 	},

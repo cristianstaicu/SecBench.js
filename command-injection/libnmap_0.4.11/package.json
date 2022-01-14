@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2018-16461",
   "dependencies": {
     "libnmap": "0.4.11"
 	},

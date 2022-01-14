@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-7606",
   "dependencies": {
     "docker-compose-remote-api": "0.1.4"
 	},

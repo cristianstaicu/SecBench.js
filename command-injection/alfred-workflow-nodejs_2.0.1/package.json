@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2018-16462",
   "dependencies": {
     "alfred-workflow-nodejs": "2.0.1"
 	},

@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2019-10799",
   "dependencies": {
     "compile-sass": "1.0.0"
 	},

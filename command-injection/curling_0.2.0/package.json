@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2019-10789",
   "dependencies": {
     "curling": "0.2.0"
 	},

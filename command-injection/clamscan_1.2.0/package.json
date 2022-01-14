@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-7613",
   "dependencies": {
     "clamscan": "1.2.0"
 	},

@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-28425",
   "dependencies": {
     "curljs": "0.1.2"
 	},

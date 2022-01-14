@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2018-3746",
   "dependencies": {
     "pdfinfojs": "0.3.6"
 	},

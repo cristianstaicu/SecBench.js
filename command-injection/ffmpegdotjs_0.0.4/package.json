@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2021-23376",
   "dependencies": {
     "ffmpegdotjs": "0.0.4"
 	},

@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2021-23378",
   "dependencies": {
     "picotts": "0.1.0"
 	},

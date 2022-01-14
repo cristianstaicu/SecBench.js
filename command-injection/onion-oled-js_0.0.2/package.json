@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2021-23377",
   "dependencies": {
     "onion-oled-js": "0.0.2"
 	},

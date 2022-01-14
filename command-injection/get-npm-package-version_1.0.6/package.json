@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-7795",
   "dependencies": {
     "get-npm-package-version": "1.0.6"
 	},

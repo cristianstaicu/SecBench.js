@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-28490",
   "dependencies": {
     "async-git": "1.13.1"
 	},

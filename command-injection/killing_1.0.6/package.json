@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2021-23381",
   "dependencies": {
     "killing": "1.0.6"
 	},

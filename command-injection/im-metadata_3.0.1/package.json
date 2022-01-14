@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2019-10788",
   "dependencies": {
     "im-metadata": "3.0.1"
 	},

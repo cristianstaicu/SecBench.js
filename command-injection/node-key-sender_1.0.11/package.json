@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-7627",
   "dependencies": {
     "node-key-sender": "1.0.11"
 	},

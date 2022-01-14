@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-28446",
   "dependencies": {
     "ntesseract": "0.2.8"
 	},

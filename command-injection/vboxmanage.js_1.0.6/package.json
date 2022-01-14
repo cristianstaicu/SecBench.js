@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2019-10783",
   "dependencies": {
     "vboxmanage.js": "1.0.6"
 	},

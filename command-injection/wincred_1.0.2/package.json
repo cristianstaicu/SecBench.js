@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2021-23399",
   "dependencies": {
     "wincred": "1.0.2"
 	},

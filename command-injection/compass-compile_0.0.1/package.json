@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-7635",
   "dependencies": {
     "compass-compile": "0.0.1"
 	},

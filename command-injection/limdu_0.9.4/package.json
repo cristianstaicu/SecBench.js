@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-4066",
   "dependencies": {
     "limdu": "0.9.4"
 	},

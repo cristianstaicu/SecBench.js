@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-28424",
   "dependencies": {
     "s3-kilatstorage": "0.5.6"
 	},

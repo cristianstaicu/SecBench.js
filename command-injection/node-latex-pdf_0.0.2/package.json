@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-28433",
   "dependencies": {
     "node-latex-pdf": "0.0.2"
 	},

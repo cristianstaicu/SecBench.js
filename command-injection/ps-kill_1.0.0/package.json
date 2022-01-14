@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2021-23355",
   "dependencies": {
     "ps-kill": "1.0.0"
 	},
