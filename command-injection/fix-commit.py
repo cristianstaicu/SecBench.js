@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 
 dirnames = next(walk('.'))[1]
 for dirs in dirnames:
-    # print(dirs)
-    if("node_modules" == str(dirs) or dirs == 'jison_0.4.17'):
+    print(dirs)
+    if("node_modules" == str(dirs) or "jison_0.4.17" == str(dirs)):
         continue
     else:
         file_read = './'+dirs+'/package.json'
@@ -15,7 +15,7 @@ for dirs in dirnames:
         flag =0
         f2 = open(file_read,'w')
         for line in lines:
-            if ('"id": ""' in line):
+            if ('"fixCommit": "n/a"' in line):
                 URL = 'https://security.snyk.io/search?type=npm&q=' + str(dir_val)
                 # print(URL)
                 page = requests.get(URL)
@@ -32,9 +32,11 @@ for dirs in dirnames:
                     #     print(len(string_list))
                     flag =0
                     for j in range (0,len(string_list)):
-                        if ('Command injection'.lower() in string_list[j].lower()):
+                        if ('Command Injection'.lower() in string_list[j].lower()):
+                            # print('reaching')
                             val1 = str(string_list[j-1])
                             source1=val1.split('href="')
+                            # print(len(source1),source1[-1])
                             # source1=val1.split('href="')[1]
                             source2 = source1[1].replace('">','')
                             URL1 = 'https://security.snyk.io/' + source2
@@ -43,21 +45,36 @@ for dirs in dirnames:
                             to_parse1 = str(soup1)
                             string_list1= []
                             string_list1 = to_parse1.splitlines()
+                            cve=0
                             for k in range (len(string_list1)):
-                                if 'https://cve.mitre.org/cgi-bin/cvename.cgi?name='.lower() in string_list1[k].lower():
-                                    val3= string_list1[k].split('https://cve.mitre.org/cgi-bin/cvename.cgi?name=')[1]
-                                    cve_id = val3.split('"')[0]
+                                if '[GitHub Commit]'.lower() in string_list1[k].lower():
+                                    # print('reaching', dirs)
+                                    val3= string_list1[k].split('semver')[0]
+                                    # print(val3)
+                                    if('Github Commit' in val3):
+                                        val4 = val3.split('Github Commit](')[1]
+                                    elif('GitHub Commit' in val3):
+                                        val4 = val3.split('GitHub Commit](')[1]
+                                    # print(val4)
+                                    val5= val4.split(')')[0]
+                                    comm =val5.replace('\\u002F','/')
+                                    # comm = val3.split('"')[0]
                                     print(dirs,'yes')
+                                    cve=1
                                     break
+                            if(cve == 1):
+                                line1 = line.replace('n/a',comm)
+                                f2.write(line1)
+                                flag =1
+                                break
+                            else:
+                                f2.write(line)
+                                break
 
-                            line1 = line.replace('""','"'+ cve_id + '"')
-                            f2.write(line1)
-                            flag =1
-                            break
 
-                    if (flag == 0):
-                        f2.write(line)
-                        break
+                    # if (flag == 0):
+                    #     f2.write(line)
+                    #     break
 
             else:
                 f2.write(line)
