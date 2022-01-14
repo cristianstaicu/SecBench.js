@@ -4,7 +4,7 @@
     "postcss": "8.0.0"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-POSTCSS-1255640",
     "source2": ""
   },
   "fixedVersion": "8.2.13",

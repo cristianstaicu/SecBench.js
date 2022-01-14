@@ -4,7 +4,7 @@
     "ua-parser-js": "0.7.22"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-UAPARSERJS-1072471",
     "source2": ""
   },
   "fixedVersion": "0.7.24",
