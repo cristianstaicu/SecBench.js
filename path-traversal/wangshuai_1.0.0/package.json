@@ -4,7 +4,7 @@
     "wangshuai": "1.0.0"
 	},
 	"links": {
-		"source1": "",
+		"source1": "https://security.snyk.io/vuln/npm:wangshuai:20170910",
 		"source2": ""
 	},
 	"fixedVersion": "n/a",

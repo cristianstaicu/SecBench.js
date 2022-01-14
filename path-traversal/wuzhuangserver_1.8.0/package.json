@@ -4,7 +4,7 @@
     "wuzhuangserver": "1.8.0"
 	},
 	"links": {
-		"source1": "",
+		"source1": "https://security.snyk.io/vuln/npm:wuzhuangserver:20180306",
 		"source2": ""
 	},
 	"fixedVersion": "n/a",

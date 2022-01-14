@@ -4,7 +4,7 @@
     "iceman178.weather.cs360": "0.1.1"
 	},
 	"links": {
-		"source1": "",
+		"source1": "https://security.snyk.io/vuln/npm:iceman178.weather.cs360:20180306",
 		"source2": ""
 	},
 	"fixedVersion": "n/a",

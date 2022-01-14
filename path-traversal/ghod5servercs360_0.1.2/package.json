@@ -4,7 +4,7 @@
     "ghod5servercs360": "0.1.2"
 	},
 	"links": {
-		"source1": "",
+		"source1": "https://security.snyk.io/vuln/npm:ghod5servercs360:20170730",
 		"source2": ""
 	},
 	"fixedVersion": "n/a",

@@ -4,7 +4,7 @@
     "ponse": "2.0.0"
 	},
 	"links": {
-		"source1": "",
+		"source1": "https://security.snyk.io/vuln/npm:ponse:20180718",
 		"source2": ""
 	},
 	"fixedVersion": "n/a",

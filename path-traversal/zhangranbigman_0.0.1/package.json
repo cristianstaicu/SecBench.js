@@ -4,7 +4,7 @@
     "zhangranbigman": "0.0.1"
 	},
 	"links": {
-		"source1": "",
+		"source1": "https://security.snyk.io/vuln/npm:zhangranbigman:20180226",
 		"source2": ""
 	},
 	"fixedVersion": "n/a",
