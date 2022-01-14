@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/npm:method-override:20170927",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-qx2f-477c-35rq"
   },
   "fixedVersion": "2.3.10",
   "fixCommit": "https://github.com/expressjs/method-override/commit/4c58835a61fdf7a8e070d6f8ecd5379a961d0987",

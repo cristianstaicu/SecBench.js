@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-PATHPARSE-1077067",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-hj48-42vr-x3v9"
   },
   "fixedVersion": "1.0.7",
   "fixCommit": "n/a",

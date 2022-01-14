@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/npm:charset:20170908",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-9cp3-fh5x-xfcj"
   },
   "fixedVersion": "1.0.1",
   "fixCommit": "n/a",

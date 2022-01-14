@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/npm:is-my-json-valid:20180214",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-f522-ffg8-j8r6"
   },
   "fixedVersion": "2.20.2",
   "fixCommit": "https://github.com/mafintosh/is-my-json-valid/commit/c3fc04fc455d40e9b29537f8e2c73a28ce106edb",

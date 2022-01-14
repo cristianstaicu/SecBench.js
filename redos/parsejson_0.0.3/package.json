@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/npm:parsejson:20170908",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-q75g-2496-mxpp"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",

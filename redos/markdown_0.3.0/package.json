@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-MARKDOWNIT-2331914",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-hgmg-hhc8-g5wr"
   },
   "fixedVersion": "12.3.2",
   "fixCommit": "https://github.com/markdown-it/markdown-it/commit/ffc49ab46b5b751cd2be0aabb146f2ef84986101",

@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-REACTNATIVE-1298632",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-7f53-fmmv-mfjv"
   },
   "fixedVersion": "0.64.1",
   "fixCommit": "https://github.com/facebook/react-native/commit/ca09ae82715e33c9ac77b3fa55495cf84ba891c7",

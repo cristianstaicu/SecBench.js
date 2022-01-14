@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-BROWSERSLIST-1090194",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-w8qv-6jwh-64r5"
   },
   "fixedVersion": "4.16.5",
   "fixCommit": "https://github.com/browserslist/browserslist/commit/c091916910dfe0b5fd61caad96083c6709b02d98",

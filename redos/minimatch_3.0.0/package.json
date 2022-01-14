@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-MINIMATCH-1019388",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-hxm2-r34f-qmc5"
   },
   "fixedVersion": "3.0.2",
   "fixCommit": "https://github.com/isaacs/minimatch/commit/6944abf9e0694bd22fd9dad293faa40c2bc8a955",

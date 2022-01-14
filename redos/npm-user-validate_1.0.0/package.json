@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-NPMUSERVALIDATE-1019352",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-pw54-mh39-w3hc"
   },
   "fixedVersion": "1.0.1",
   "fixCommit": "https://github.com/npm/npm-user-validate/commit/c8a87dac1a4cc6988b5418f30411a8669bef204e",
