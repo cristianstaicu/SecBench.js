@@ -8,6 +8,6 @@
 		"source2": ""
 	},
 	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
+	"fixCommit": "https://github.com/vincentmorneau/apex-publish-static-files/commit/2209af8f2b65c24aa55ab757e0e05b958c16f063",
 	"sink": ""
 }

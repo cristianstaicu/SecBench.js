@@ -8,6 +8,6 @@
 		"source2": ""
 	},
 	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
+	"fixCommit": "https://github.com/iximiuz/node-diskusage-ng/commit/48e7e093486b528f0c81ec699573e0e4a431b8d3#diff-38182cfe286a150ebcc88df0ec57ed66",
 	"sink": ""
 }

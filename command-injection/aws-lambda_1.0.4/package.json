@@ -8,6 +8,6 @@
 		"source2": ""
 	},
 	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
+	"fixCommit": "https://github.com/awspilot/cli-lambda-deploy/commit/0985a18bffb265817bc84836c9a65f2bb04a51ac",
 	"sink": ""
 }

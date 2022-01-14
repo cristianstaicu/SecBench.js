@@ -8,6 +8,6 @@
 		"source2": ""
 	},
 	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
+	"fixCommit": "https://github.com/taoyuan/ntesseract/commit/fcbc36f381798b4362179c0cdf9961b437c7b619",
 	"sink": ""
 }

@@ -8,6 +8,6 @@
 		"source2": ""
 	},
 	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
+	"fixCommit": "https://github.com/PhilipSkinner/diskstats/commit/5631570fcaea48e9e86735c7e68757aa3c44e106",
 	"sink": ""
 }

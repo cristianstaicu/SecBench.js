@@ -8,6 +8,6 @@
 		"source2": ""
 	},
 	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
+	"fixCommit": "https://github.com/scravy/node-macaddress/commit/358fd594adb196a86b94ac9c691f69fe5dad2332",
 	"sink": ""
 }

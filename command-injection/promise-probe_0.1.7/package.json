@@ -8,6 +8,6 @@
 		"source2": ""
 	},
 	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
+	"fixCommit": "https://github.com/dottgonzo/node-promise-probe/commit/0d9affb67fc1ad985903536d35372cf55efe5a45",
 	"sink": ""
 }

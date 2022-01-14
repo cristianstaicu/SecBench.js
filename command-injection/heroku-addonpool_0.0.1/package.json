@@ -8,6 +8,6 @@
 		"source2": ""
 	},
 	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
+	"fixCommit": "https://github.com/nodef/heroku-addonpool/commit/b1a5b316473ac92d783f3d54ee048d54082da38d",
 	"sink": ""
 }
