@@ -5,7 +5,7 @@
 	},
 	"links": {
 		"source1": "https://security.snyk.io/vuln/npm:cypserver:20170617",
-		"source2": ""
+		"source2": "https://github.com/advisories/GHSA-m69q-pmxg-vqch"
 	},
 	"fixedVersion": "n/a",
 	"fixCommit": "n/a",
