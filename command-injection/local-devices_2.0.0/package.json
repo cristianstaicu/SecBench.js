@@ -1,7 +1,8 @@
 {
 	"id": "",
-  "dependencies": {
-    "local-devices": "2.0.0"
+	"dependencies": {
+		"@babel/highlight": "^7.16.7",
+		"local-devices": "2.0.0"
 	},
 	"links": {
 		"source1": "https://security.snyk.io/vuln/SNYK-JS-LIMDU-572951",

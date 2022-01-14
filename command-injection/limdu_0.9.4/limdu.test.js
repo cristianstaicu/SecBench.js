@@ -1,6 +1,3 @@
-// mkdir tmp
-// ln -s `which echo` tmp/liblinear_train
-// PATH=`pwd`/tmp/:$PATH
 
 //https://securitylab.github.com/advisories/GHSL-2020-113-limdu/
 test("Command Injection in limdu", () => {
