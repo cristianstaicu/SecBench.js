@@ -223,7 +223,8 @@
     "decal_2.0.0": "./decal_2.0.0/",
     "jointjs_3.4.0": "./jointjs_3.4.0",
     "object-path_0.11.0": "./object-path_0.11.0/",
-    "rfc6902_4.0.2": "./rfc6902_4.0.2/"
+    "rfc6902_4.0.2": "./rfc6902_4.0.2/",
+    "iniparserjs_1.0.4": "./iniparserjs_1.0.4/"
   },
   "description": "After installing the dependencies using `npm install`, one can run individual tests with `jest test_name` or the entire suite by runing `jest` in this folder.",
   "version": "1.0.0",
