@@ -1,5 +1,5 @@
 {
-"id": "",
+"id": "CVE-2020-26707",
   "dependencies": {
     "aaptjs": "1.3.1"
 	},

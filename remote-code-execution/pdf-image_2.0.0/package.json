@@ -1,5 +1,5 @@
 {
-"id": "",
+"id": "CVE-2020-8132",
   "dependencies": {
     "pdf-image": "2.0.0"
 	},
