@@ -1,5 +1,13 @@
 {
+	"id": "",
   "dependencies": {
     "ntesseract": "0.2.8"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

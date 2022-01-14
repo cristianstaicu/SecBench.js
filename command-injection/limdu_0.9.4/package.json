@@ -1,5 +1,13 @@
 {
+	"id": "",
   "dependencies": {
     "limdu": "0.9.4"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

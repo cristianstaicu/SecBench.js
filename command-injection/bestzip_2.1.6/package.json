@@ -1,5 +1,13 @@
 {
+	"id": "",
   "dependencies": {
     "bestzip": "2.1.6"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

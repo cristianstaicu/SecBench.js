@@ -1,5 +1,13 @@
 {
+	"id": "",
   "dependencies": {
     "s3-kilatstorage": "0.5.6"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

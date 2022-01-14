@@ -1,5 +1,13 @@
 {
+	"id": "",
   "dependencies": {
     "@thi.ng/egf": "2.2.0"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

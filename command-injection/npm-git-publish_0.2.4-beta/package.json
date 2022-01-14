@@ -1,5 +1,13 @@
 {
+	"id": "",
   "dependencies": {
     "npm-git-publish": "0.2.4-beta"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

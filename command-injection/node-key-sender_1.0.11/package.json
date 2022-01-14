@@ -1,5 +1,13 @@
 {
+	"id": "",
   "dependencies": {
     "node-key-sender": "1.0.11"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }
