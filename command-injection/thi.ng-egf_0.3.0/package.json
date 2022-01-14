@@ -1,7 +1,7 @@
 {
 	"id": "",
   "dependencies": {
-    "@thi.ng/egf": "2.2.0"
+    "@thi.ng/egf": "0.3.0"
 	},
 	"links": {
 		"source1": "",
