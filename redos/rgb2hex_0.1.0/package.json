@@ -4,7 +4,7 @@
     "rgb2hex": "0.1.0"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/npm:rgb2hex:20180429",
     "source2": ""
   },
   "fixedVersion": "0.1.6",

@@ -4,7 +4,7 @@
     "brace-expansion": "1.1.6"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/npm:brace-expansion:20170302",
     "source2": ""
   },
   "fixedVersion": "1.1.7",

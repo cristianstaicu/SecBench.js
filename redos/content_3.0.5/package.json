@@ -4,7 +4,7 @@
     "content": "3.0.5"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/npm:content:20180305",
     "source2": ""
   },
   "fixedVersion": "3.0.7",
