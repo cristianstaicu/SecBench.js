@@ -4,7 +4,7 @@
     "http_server": "1.0.12"
 	},
 	"links": {
-		"source1": "",
+		"source1": "https://security.snyk.io/vuln/SNYK-JS-HTTPSERVERNODE-1727656",
 		"source2": ""
 	},
 	"fixedVersion": "n/a",
