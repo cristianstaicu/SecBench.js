@@ -4,7 +4,7 @@
     "serialize-to-js": "^0.5.0"
 	},
 	"links": {
-		"source1": "",
+		"source1": "https://security.snyk.io/vuln/npm:serialize-to-js:20170208",
 		"source2": ""
 	},
 	"fixedVersion": "1.0.0",
