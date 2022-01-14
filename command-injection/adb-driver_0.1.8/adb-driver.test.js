@@ -1,4 +1,4 @@
-/https:/ / snyk.io / vuln / SNYK - JS - ADBDRIVER - 564430;
+// /https:/ / snyk.io / vuln / SNYK - JS - ADBDRIVER - 564430;
 test("Command Injection in adb-driver", () => {
   const root = require("adb-driver");
   const fs = require("fs");
