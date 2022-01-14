@@ -8,6 +8,6 @@
 		"source2": "https://github.com/advisories/GHSA-52r9-g5g6-2hjp"
 	},
 	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
+	"fixCommit": "https://github.com/nim579/node-srv/commit/15be996c0520ac6e4dee0cf0808fc7e72effd2a2",
 	"sink": ""
 }

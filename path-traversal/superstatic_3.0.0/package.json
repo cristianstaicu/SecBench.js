@@ -8,6 +8,6 @@
 		"source2": "https://github.com/advisories/GHSA-wm77-q74p-5763"
 	},
 	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
+	"fixCommit": "https://github.com/firebase/superstatic/commit/e396ff62f588732989137d6c40d46b310e51ef2b",
 	"sink": ""
 }
