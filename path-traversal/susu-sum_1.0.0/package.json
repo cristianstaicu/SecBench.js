@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2017-16199",
   "dependencies": {
     "susu-sum": "1.0.0"
 	},

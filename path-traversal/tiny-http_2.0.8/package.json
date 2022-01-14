@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2017-16097",
   "dependencies": {
     "tiny-http": "2.0.8"
 	},

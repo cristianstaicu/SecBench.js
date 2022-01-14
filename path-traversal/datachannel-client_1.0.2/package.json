@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2017-16121",
   "dependencies": {
     "datachannel-client": "1.0.2"
 	},

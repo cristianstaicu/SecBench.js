@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2018-3714",
   "dependencies": {
     "node-srv": "2.0.0"
 	},

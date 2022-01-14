@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2017-16154",
   "dependencies": {
     "earlybird": "0.1.7"
 	},

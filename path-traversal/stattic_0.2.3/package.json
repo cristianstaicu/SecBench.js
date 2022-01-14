@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2018-3734",
   "dependencies": {
     "stattic": "0.2.3"
 	},

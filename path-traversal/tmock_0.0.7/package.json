@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2017-16106",
   "dependencies": {
     "tmock": "0.0.7"
 	},

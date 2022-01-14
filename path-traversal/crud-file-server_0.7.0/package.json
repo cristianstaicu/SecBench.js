@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2018-3733",
   "dependencies": {
     "crud-file-server": "0.7.0"
 	},

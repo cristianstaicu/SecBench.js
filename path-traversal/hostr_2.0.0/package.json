@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2017-16029",
   "dependencies": {
     "hostr": "2.0.0"
 	},

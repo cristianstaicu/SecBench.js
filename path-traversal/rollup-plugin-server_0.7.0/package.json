@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-7683",
   "dependencies": {
     "rollup-plugin-server": "0.7.0"
 	},

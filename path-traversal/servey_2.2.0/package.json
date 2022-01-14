@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-8214",
   "dependencies": {
     "servey": "2.2.0"
 	},

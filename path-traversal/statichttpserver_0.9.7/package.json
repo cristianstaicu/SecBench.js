@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2019-5480",
   "dependencies": {
     "statichttpserver": "0.9.7"
 	},

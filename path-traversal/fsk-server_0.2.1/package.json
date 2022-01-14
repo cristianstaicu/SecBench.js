@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2017-16090",
   "dependencies": {
     "fsk-server": "0.2.1"
 	},

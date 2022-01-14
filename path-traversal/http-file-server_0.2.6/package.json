@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2019-5447",
   "dependencies": {
     "http-file-server": "0.2.6"
 	},

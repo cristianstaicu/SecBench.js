@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2017-16101",
   "dependencies": {
     "serverwg": "1.0.0"
 	},

@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2017-16173",
   "dependencies": {
     "utahcityfinder": "0.0.1"
 	},

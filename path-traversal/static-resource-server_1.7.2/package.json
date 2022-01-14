@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2018-16493",
   "dependencies": {
     "static-resource-server": "1.7.2"
 	},

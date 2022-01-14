@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2017-16187",
   "dependencies": {
     "open-device": "4.0.1"
 	},

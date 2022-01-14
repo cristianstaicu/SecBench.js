@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2017-16142",
   "dependencies": {
     "infraserver": "0.0.1"
 	},

@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2019-15596",
   "dependencies": {
     "statics-server": "0.0.9"
 	},

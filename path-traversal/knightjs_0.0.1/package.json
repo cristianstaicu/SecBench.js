@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2018-16475",
   "dependencies": {
     "knightjs": "0.0.1"
 	},

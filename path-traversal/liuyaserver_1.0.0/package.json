@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2017-16170",
   "dependencies": {
     "liuyaserver": "1.0.0"
 	},

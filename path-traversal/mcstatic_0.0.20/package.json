@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2018-16482",
   "dependencies": {
     "mcstatic": "0.0.20"
 	},

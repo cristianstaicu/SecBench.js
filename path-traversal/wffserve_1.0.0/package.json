@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2017-16168",
   "dependencies": {
     "wffserve": "1.0.0"
 	},

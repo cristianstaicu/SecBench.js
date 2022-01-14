@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2017-16217",
   "dependencies": {
     "fbr-client": "1.0.3"
 	},

@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2017-16152",
   "dependencies": {
     "static-html-server": "0.1.2"
 	},

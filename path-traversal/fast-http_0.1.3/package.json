@@ -1,5 +1,5 @@
 {
-	"id": "",
+	"id": "CVE-2020-7687",
   "dependencies": {
     "fast-http": "0.1.3"
 	},
