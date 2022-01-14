@@ -4,7 +4,7 @@
     "adb-driver": "0.1.8"
 	},
 	"links": {
-		"source1": "",
+		"source1": "https://security.snyk.io/vuln/SNYK-JS-ADBDRIVER-564430",
 		"source2": ""
 	},
 	"fixedVersion": "n/a",

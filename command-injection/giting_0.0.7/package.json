@@ -4,7 +4,7 @@
     "giting": "0.0.7"
 	},
 	"links": {
-		"source1": "",
+		"source1": "https://security.snyk.io/vuln/SNYK-JS-GITING-559008",
 		"source2": ""
 	},
 	"fixedVersion": "n/a",

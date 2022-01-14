@@ -4,7 +4,7 @@
     "killport": "1.0.1"
 	},
 	"links": {
-		"source1": "",
+		"source1": "https://security.snyk.io/vuln/SNYK-JS-KILLPORT-1078535",
 		"source2": ""
 	},
 	"fixedVersion": "n/a",

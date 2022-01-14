@@ -4,7 +4,7 @@
     "whereis": "0.4.0"
 	},
 	"links": {
-		"source1": "",
+		"source1": "https://security.snyk.io/vuln/SNYK-JS-NODEPS-1048335",
 		"source2": ""
 	},
 	"fixedVersion": "n/a",

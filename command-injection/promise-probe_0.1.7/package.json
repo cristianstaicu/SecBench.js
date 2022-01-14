@@ -4,7 +4,7 @@
     "promise-probe": "0.1.7"
 	},
 	"links": {
-		"source1": "",
+		"source1": "https://security.snyk.io/vuln/SNYK-JS-PROMISEPROBE-546816",
 		"source2": ""
 	},
 	"fixedVersion": "n/a",

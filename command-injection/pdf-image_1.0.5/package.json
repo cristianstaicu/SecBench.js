@@ -4,7 +4,7 @@
     "pdf-image": "1.0.5"
 	},
 	"links": {
-		"source1": "",
+		"source1": "https://security.snyk.io/vuln/SNYK-JS-PSVISITOR-1078544",
 		"source2": ""
 	},
 	"fixedVersion": "n/a",
