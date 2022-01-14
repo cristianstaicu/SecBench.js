@@ -7,7 +7,7 @@
 		"source1": "https://security.snyk.io/vuln/SNYK-JS-SERVEHEREJS-450884",
 		"source2": "https://github.com/advisories/GHSA-4448-rc82-fcr7"
 	},
-	"fixedVersion": "n/a",
+	"fixedVersion": "1.2.0",
 	"fixCommit": "https://github.com/ChristoPy/serve-here.js/commit/cefb51d03290b6a88dd13143ab2de31b8cf57c39",
 	"sink": ""
 }

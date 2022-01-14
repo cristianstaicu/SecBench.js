@@ -7,7 +7,7 @@
 		"source1": "https://security.snyk.io/vuln/npm:angular-http-server:20180426",
 		"source2": ""
 	},
-	"fixedVersion": "n/a",
+	"fixedVersion": "1.4.4",
 	"fixCommit": "https://github.com/simonh1000/angular-http-server/commit/8bafc9577161469f5dea01e0b98ea9c525d063e9",
 	"sink": ""
 }
