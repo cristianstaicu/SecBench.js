@@ -1,5 +1,13 @@
 {
+	"id": "",
   "dependencies": {
     "node-static-webserver": "0.0.1"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

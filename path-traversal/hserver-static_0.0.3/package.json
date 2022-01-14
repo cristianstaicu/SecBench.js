@@ -1,5 +1,13 @@
 {
+	"id": "",
   "dependencies": {
     "hserver-static": "0.0.3"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

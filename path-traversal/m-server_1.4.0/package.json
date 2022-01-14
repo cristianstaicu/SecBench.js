@@ -1,5 +1,13 @@
 {
+	"id": "",
   "dependencies": {
     "m-server": "1.4.0"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

@@ -1,5 +1,13 @@
 {
+	"id": "",
   "dependencies": {
     "serverhuwenhui": "1.1.0"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

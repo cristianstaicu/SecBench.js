@@ -1,5 +1,13 @@
 {
+	"id": "",
   "dependencies": {
     "websvr": "0.1.41"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

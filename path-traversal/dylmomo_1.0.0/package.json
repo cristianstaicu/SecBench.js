@@ -1,5 +1,13 @@
 {
+	"id": "",
   "dependencies": {
     "dylmomo": "1.0.0"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

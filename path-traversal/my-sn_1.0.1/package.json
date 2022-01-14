@@ -1,5 +1,13 @@
 {
+	"id": "",
   "dependencies": {
     "my-sn": "1.0.1"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

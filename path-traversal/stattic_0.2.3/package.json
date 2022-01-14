@@ -1,5 +1,13 @@
 {
+	"id": "",
   "dependencies": {
     "stattic": "0.2.3"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

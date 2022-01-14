@@ -1,5 +1,13 @@
 {
+	"id": "",
   "dependencies": {
     "butler-server": "0.11.0"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

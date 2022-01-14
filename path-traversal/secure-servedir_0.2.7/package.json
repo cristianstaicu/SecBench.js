@@ -1,5 +1,13 @@
 {
+	"id": "",
   "dependencies": {
     "secure-servedir": "0.2.7"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

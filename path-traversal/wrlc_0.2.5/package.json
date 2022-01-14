@@ -1,5 +1,13 @@
 {
+	"id": "",
   "dependencies": {
     "wrlc": "0.2.5"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }
