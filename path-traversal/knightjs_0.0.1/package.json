@@ -5,7 +5,7 @@
 	},
 	"links": {
 		"source1": "https://security.snyk.io/vuln/SNYK-JS-KNIGHTJS-72575",
-		"source2": ""
+		"source2": "https://github.com/advisories/GHSA-3hvm-hgpw-rx4j"
 	},
 	"fixedVersion": "n/a",
 	"fixCommit": "n/a",

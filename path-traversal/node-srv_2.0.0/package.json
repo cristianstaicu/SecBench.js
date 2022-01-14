@@ -5,7 +5,7 @@
 	},
 	"links": {
 		"source1": "https://security.snyk.io/vuln/npm:node-srv:20180125",
-		"source2": ""
+		"source2": "https://github.com/advisories/GHSA-52r9-g5g6-2hjp"
 	},
 	"fixedVersion": "n/a",
 	"fixCommit": "n/a",

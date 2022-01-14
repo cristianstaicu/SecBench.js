@@ -5,7 +5,7 @@
 	},
 	"links": {
 		"source1": "https://security.snyk.io/vuln/SNYK-JS-SERVEHEREJS-450884",
-		"source2": ""
+		"source2": "https://github.com/advisories/GHSA-4448-rc82-fcr7"
 	},
 	"fixedVersion": "n/a",
 	"fixCommit": "n/a",
