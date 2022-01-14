@@ -1,13 +1,13 @@
 {
-  "id": "",
+"id": "",
   "dependencies": {
     "json-ptr": "2.0.0"
-  },
-  "links": {
-    "source1": "https://www.huntr.dev/bounties/2-npm-json-ptr/",
-    "source2": ""
-  },
-  "fixedVersion": "n/a",
-  "fixCommit": "n/a",
-  "sink": ""
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

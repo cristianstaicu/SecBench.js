@@ -1,14 +1,13 @@
 {
-  "name": "marsdb_0.6.11",
-  "version": "1.0.0",
-  "description": "",
-  "main": "marsdb.test.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+"id": "",
   "dependencies": {
     "marsdb": "0.6.11"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

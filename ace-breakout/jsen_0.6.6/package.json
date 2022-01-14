@@ -1,14 +1,13 @@
 {
-  "name": "jsen_0.6.6",
-  "version": "1.0.0",
-  "description": "",
-  "main": "jsen.test.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+"id": "",
   "dependencies": {
     "jsen": "0.6.6"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

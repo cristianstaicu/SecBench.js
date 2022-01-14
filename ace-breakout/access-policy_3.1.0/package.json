@@ -1,14 +1,13 @@
 {
-  "name": "access-policy_3.1.0",
-  "version": "1.0.0",
-  "description": "",
-  "main": "poc.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+"id": "",
   "dependencies": {
     "access-policy": "^3.1.0"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

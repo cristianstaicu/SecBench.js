@@ -1,14 +1,13 @@
 {
-  "name": "modulify_0.1.0",
-  "version": "1.0.0",
-  "description": "",
-  "main": "modulify.test.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+"id": "",
   "dependencies": {
     "modulify": "0.1.0"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

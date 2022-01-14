@@ -1,14 +1,13 @@
 {
-  "name": "eslint-utils_1.2.0",
-  "version": "1.0.0",
-  "description": "",
-  "main": "eslint-utils.test.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+"id": "",
   "dependencies": {
     "eslint-utils": "1.2.0"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

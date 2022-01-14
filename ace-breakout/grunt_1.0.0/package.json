@@ -1,13 +1,13 @@
 {
-  "id": "",
+"id": "",
   "dependencies": {
     "grunt": "1.0.0"
-  },
-  "links": {
-    "source1": "",
-    "source2": ""
-  },
-  "fixedVersion": "n/a",
-  "fixCommit": "n/a",
-  "sink": ""
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

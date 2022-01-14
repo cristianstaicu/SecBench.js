@@ -1,14 +1,13 @@
 {
-  "name": "mathjs_3.10.3",
-  "version": "1.0.0",
-  "description": "",
-  "main": "mathjs.test.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+"id": "",
   "dependencies": {
     "mathjs": "3.10.3"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }

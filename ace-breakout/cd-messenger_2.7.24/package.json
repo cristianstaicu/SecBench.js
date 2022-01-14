@@ -1,14 +1,13 @@
 {
-  "name": "cd-messenger_2.7.24",
-  "version": "1.0.0",
-  "description": "",
-  "main": "poc.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+"id": "",
   "dependencies": {
     "cd-messenger": "2.7.24"
-  }
+	},
+	"links": {
+		"source1": "",
+		"source2": ""
+	},
+	"fixedVersion": "n/a",
+	"fixCommit": "n/a",
+	"sink": ""
 }
