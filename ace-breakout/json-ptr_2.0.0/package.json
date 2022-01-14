@@ -4,7 +4,7 @@
     "json-ptr": "2.0.0"
 	},
 	"links": {
-		"source1": "",
+		"source1": "https://github.com/advisories/GHSA-rrqv-vjrw-hrcr",
 		"source2": ""
 	},
 	"fixedVersion": "2.1.0",

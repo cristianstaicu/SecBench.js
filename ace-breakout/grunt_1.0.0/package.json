@@ -4,7 +4,7 @@
     "grunt": "1.0.0"
 	},
 	"links": {
-		"source1": "",
+		"source1": "https://github.com/advisories/GHSA-m5pj-vjjf-4m3h",
 		"source2": ""
 	},
 	"fixedVersion": "1.3.0",

@@ -4,7 +4,7 @@
     "underscore": "1.13.0-0"
 	},
 	"links": {
-		"source1": "",
+		"source1": "https://github.com/advisories/GHSA-cf4h-3jhx-xvhq",
 		"source2": ""
 	},
 	"fixedVersion": "n/a",

@@ -4,7 +4,7 @@
     "eslint-utils": "1.2.0"
 	},
 	"links": {
-		"source1": "",
+		"source1": "https://github.com/advisories/GHSA-3gx7-xhv7-5mx3",
 		"source2": ""
 	},
 	"fixedVersion": "1.4.1",

@@ -4,7 +4,7 @@
     "djv": "2.0.0"
 	},
 	"links": {
-		"source1": "",
+		"source1": "https://github.com/advisories/GHSA-4hv7-3q38-97m8",
 		"source2": ""
 	},
 	"fixedVersion": "n/a",
