@@ -8,6 +8,6 @@
 		"source2": ""
 	},
 	"fixedVersion": "1.3.0",
-	"fixCommit": "n/a",
+	"fixCommit": "https://github.com/gruntjs/grunt/commit/e350cea1724eb3476464561a380fb6a64e61e4e7",
 	"sink": ""
 }

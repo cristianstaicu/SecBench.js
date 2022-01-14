@@ -8,6 +8,6 @@
 		"source2": ""
 	},
 	"fixedVersion": "3.3.1",
-	"fixCommit": "n/a",
+	"fixCommit": "https://github.com/thenables/thenify/commit/0d94a24eb933bc835d568f3009f4d269c4c4c17a",
 	"sink": ""
 }

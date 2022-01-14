@@ -8,6 +8,6 @@
 		"source2": ""
 	},
 	"fixedVersion": "3.13.1",
-	"fixCommit": "n/a",
+	"fixCommit": "https://github.com/nodeca/js-yaml/pull/480/commits/e18afbf1edcafb7add2c4c7b22abc8d6ebc2fa61",
 	"sink": ""
 }

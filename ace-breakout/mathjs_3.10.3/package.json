@@ -8,6 +8,6 @@
 		"source2": ""
 	},
 	"fixedVersion": "3.11.5",
-	"fixCommit": "n/a",
+	"fixCommit": "https://github.com/josdejong/mathjs/compare/v3.10.3...v3.11.5",
 	"sink": ""
 }

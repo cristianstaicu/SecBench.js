@@ -8,6 +8,6 @@
 		"source2": ""
 	},
 	"fixedVersion": "2.0.2",
-	"fixCommit": "n/a",
+	"fixCommit": "https://github.com/browserify/static-eval/commit/32f8efd072625e267aa7237d2daff35738c50d2a",
 	"sink": ""
 }

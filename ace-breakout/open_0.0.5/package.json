@@ -8,6 +8,6 @@
 		"source2": ""
 	},
 	"fixedVersion": "0.10.0",
-	"fixCommit": "n/a",
+	"fixCommit": "https://github.com/SAP/less-openui5/commit/c0d3a8572974a20ea6cee42da11c614a54f100e8",
 	"sink": ""
 }
