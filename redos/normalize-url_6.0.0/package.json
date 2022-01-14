@@ -4,7 +4,7 @@
     "normalize-url": "6.0.0"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-NORMALIZEURL-1296539",
     "source2": ""
   },
   "fixedVersion": "6.0.1",

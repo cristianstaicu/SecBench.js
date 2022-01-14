@@ -4,7 +4,7 @@
     "fresh": "0.5.0"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/npm:fresh:20170908",
     "source2": ""
   },
   "fixedVersion": "0.5.2",

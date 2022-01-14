@@ -4,7 +4,7 @@
     "fast-csv": "4.3.5"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-FASTCSVPARSE-1049537",
     "source2": ""
   },
   "fixedVersion": "4.3.6",

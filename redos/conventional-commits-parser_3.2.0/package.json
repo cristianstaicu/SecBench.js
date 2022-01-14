@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://github.com/conventional-changelog/conventional-changelog/pull/861/commits/2fcd2d4e2a05986b3cd410d2d0db7d975ccca0f1",
-    "source2": ""
+    "source2": "https://security.snyk.io/vuln/SNYK-JS-CONVENTIONALCOMMITSPARSER-1766960"
   },
   "fixedVersion": "3.2.3",
   "fixCommit": "https://github.com/conventional-changelog/conventional-changelog/commit/c696fa35f93e0ee13728d6cf1221587ac6386311",

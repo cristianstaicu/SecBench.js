@@ -4,7 +4,7 @@
     "html-dom-parser": "0.1.2"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/npm:html-dom-parser:20180220",
     "source2": ""
   },
   "fixedVersion": "0.1.3",

@@ -4,7 +4,7 @@
     "browserslist": "4.16.4"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-BROWSERSLIST-1090194",
     "source2": ""
   },
   "fixedVersion": "4.16.5",

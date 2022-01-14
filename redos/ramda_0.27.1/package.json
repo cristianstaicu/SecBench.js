@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://www.huntr.dev/bounties/51dfe927-1bf1-4b36-91ca-2197337e663a/",
-    "source2": ""
+    "source2": "https://security.snyk.io/vuln/SNYK-JS-RAMDA-1582370"
   },
   "fixedVersion": "0.27.2",
   "fixCommit": "https://github.com/ramda/ramda/pull/3212/commits/94d057032c9b3ecf26d9842fbb12c981bda29f4b",

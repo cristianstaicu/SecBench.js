@@ -4,7 +4,7 @@
     "highlight.js": "10.4.0"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-HIGHLIGHTJS-1048676",
     "source2": ""
   },
   "fixedVersion": "10.4.1",

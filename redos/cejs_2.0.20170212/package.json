@@ -4,7 +4,7 @@
     "cejs": "2.0.20170212"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/npm:cejs:20180217",
     "source2": ""
   },
   "fixedVersion": "2.0.20180219",

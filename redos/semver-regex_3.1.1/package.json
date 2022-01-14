@@ -4,7 +4,7 @@
     "semver-regex": "3.1.1"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-SEMVERREGEX-1585624",
     "source2": ""
   },
   "fixedVersion": "3.1.3",

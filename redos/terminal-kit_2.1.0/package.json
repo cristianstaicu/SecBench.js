@@ -4,7 +4,7 @@
     "terminal-kit": "2.1.0"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-TERMINALKIT-1734787",
     "source2": ""
   },
   "fixedVersion": "2.1.8",

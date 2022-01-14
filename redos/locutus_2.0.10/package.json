@@ -4,7 +4,7 @@
     "locutus": "2.0.10"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-LOCUTUS-1090597",
     "source2": ""
   },
   "fixedVersion": "2.0.15",

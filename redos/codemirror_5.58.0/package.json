@@ -4,7 +4,7 @@
     "codemirror": "5.58.0"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-CODEMIRROR-1016937",
     "source2": ""
   },
   "fixedVersion": "5.58.2",

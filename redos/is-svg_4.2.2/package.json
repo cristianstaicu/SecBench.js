@@ -4,7 +4,7 @@
     "is-svg": "4.2.2"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-ISSVG-1243891",
     "source2": ""
   },
   "fixedVersion": "4.3.0",

@@ -4,7 +4,7 @@
     "email-existence": "0.1.5"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/npm:email-existence:20180225",
     "source2": ""
   },
   "fixedVersion": "0.1.6",

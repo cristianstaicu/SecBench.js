@@ -4,7 +4,7 @@
     "date-and-time": "0.14.1"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-DATEANDTIME-1054430",
     "source2": ""
   },
   "fixedVersion": "0.14.2",

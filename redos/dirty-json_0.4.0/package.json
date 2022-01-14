@@ -4,7 +4,7 @@
     "dirty-json": "0.4.0"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/npm:dirty-json:20180213",
     "source2": ""
   },
   "fixedVersion": "0.5.2",

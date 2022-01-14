@@ -4,7 +4,7 @@
     "prompts": "2.4.0"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-PROMPTS-1729737",
     "source2": ""
   },
   "fixedVersion": "2.4.2",

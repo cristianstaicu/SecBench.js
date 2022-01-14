@@ -4,7 +4,7 @@
     "tough-cookie": "2.3.2"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/npm:tough-cookie:20170905",
     "source2": ""
   },
   "fixedVersion": "2.3.3",

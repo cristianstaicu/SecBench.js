@@ -4,7 +4,7 @@
     "ethers": "5.2.0"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-ETHERS-1586048",
     "source2": ""
   },
   "fixedVersion": "5.4.7",

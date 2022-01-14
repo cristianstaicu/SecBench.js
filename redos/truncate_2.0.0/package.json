@@ -4,7 +4,7 @@
     "truncate": "2.0.0"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/npm:truncate:20180225",
     "source2": ""
   },
   "fixedVersion": "2.0.1",
