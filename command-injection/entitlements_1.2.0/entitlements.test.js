@@ -8,8 +8,10 @@ test("Command Injection in entitlements", () => {
   //checking that its not present already
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-
-  entitlements(";touch entitlements", function (error, data) {});
+  try{
+    entitlements(";touch entitlements", function (error, data) {});
+  }
+  catch(e){}
 
   sleep.sleep(5);
   //checking that its created by after exploit.
