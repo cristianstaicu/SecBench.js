@@ -7,7 +7,7 @@
 		"source1": "https://security.snyk.io/vuln/SNYK-JS-GETNPMPACKAGEVERSION-1050390",
 		"source2": ""
 	},
-	"fixedVersion": "n/a",
+	"fixedVersion": "1.0.7",
 	"fixCommit": "https://github.com/hoperyy/get-npm-package-version/commit/40b1cf31a0607ea66f9e30a0c3af1383b52b2dec",
 	"sink": ""
 }

@@ -7,7 +7,7 @@
 		"source1": "https://security.snyk.io/vuln/SNYK-JS-NODENOTIFIER-1035794",
 		"source2": ""
 	},
-	"fixedVersion": "n/a",
+	"fixedVersion": "5.4.5",
 	"fixCommit": "https://github.com/mikaelbr/node-notifier/commit/2d3927b200a0fd1721e8b8ad59f84f383d3f0e0a",
 	"sink": ""
 }

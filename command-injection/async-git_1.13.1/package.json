@@ -7,7 +7,7 @@
 		"source1": "https://security.snyk.io/vuln/SNYK-JS-ASYNCGIT-1064877",
 		"source2": ""
 	},
-	"fixedVersion": "n/a",
+	"fixedVersion": "1.13.2",
 	"fixCommit": "https://github.com/omrilotan/async-git/commit/d1950a5021f4e19d92f347614be0d85ce991510d",
 	"sink": ""
 }

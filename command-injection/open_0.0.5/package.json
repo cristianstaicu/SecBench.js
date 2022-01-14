@@ -7,7 +7,7 @@
 		"source1": "https://security.snyk.io/vuln/SNYK-JS-RONOMONOPENED-1296551",
 		"source2": ""
 	},
-	"fixedVersion": "n/a",
+	"fixedVersion": "1.5.2",
 	"fixCommit": "https://github.com/ronomon/opened/commit/7effe011d4fea8fac7f78c00615e0a6e69af68ec",
 	"sink": ""
 }

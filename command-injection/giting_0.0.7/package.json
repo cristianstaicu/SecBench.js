@@ -7,7 +7,7 @@
 		"source1": "https://security.snyk.io/vuln/SNYK-JS-GITING-559008",
 		"source2": ""
 	},
-	"fixedVersion": "n/a",
+	"fixedVersion": "0.0.8",
 	"fixCommit": "https://github.com/MangoRaft/git/commit/9be41081f547d3dcef25e7d7c957bc2a3be2dfe0",
 	"sink": ""
 }

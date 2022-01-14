@@ -7,7 +7,7 @@
 		"source1": "https://security.snyk.io/vuln/SNYK-JS-DEVCERTSANSCACHE-540926",
 		"source2": ""
 	},
-	"fixedVersion": "n/a",
+	"fixedVersion": "0.4.7",
 	"fixCommit": "https://github.com/guybedford/devcert/commit/571f4e6d077f7f21c6aed655ae380d85a7a5d3b8",
 	"sink": ""
 }

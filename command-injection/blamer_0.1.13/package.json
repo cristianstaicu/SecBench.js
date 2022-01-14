@@ -7,7 +7,7 @@
 		"source1": "https://security.snyk.io/vuln/SNYK-JS-BLAMER-559541",
 		"source2": ""
 	},
-	"fixedVersion": "n/a",
+	"fixedVersion": "1.0.1",
 	"fixCommit": "https://github.com/kucherenko/blamer/commit/5fada8c9b6986ecd28942b724fa682e77ce1e11c",
 	"sink": ""
 }

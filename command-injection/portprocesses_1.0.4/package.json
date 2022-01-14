@@ -7,7 +7,7 @@
 		"source1": "https://security.snyk.io/vuln/SNYK-JS-PORTPROCESSES-1078536",
 		"source2": ""
 	},
-	"fixedVersion": "n/a",
+	"fixedVersion": "1.0.5",
 	"fixCommit": "https://github.com/rrainn/PortProcesses/commit/86811216c9b97b01b5722f879f8c88a7aa4214e1",
 	"sink": ""
 }
