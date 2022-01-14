@@ -1,5 +1,5 @@
 {
-"id": "",
+"id": "CVE-2020-7677",
   "dependencies": {
     "thenify": "3.3.0"
 	},

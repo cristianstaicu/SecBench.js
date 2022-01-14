@@ -1,5 +1,5 @@
 {
-"id": "",
+"id": "CVE-2020-7660",
   "dependencies": {
     "serialize-javascript": "2.0.0"
 	},

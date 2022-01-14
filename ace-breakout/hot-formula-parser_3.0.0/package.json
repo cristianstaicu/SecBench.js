@@ -1,5 +1,5 @@
 {
-"id": "",
+"id": "CVE-2020-6836",
   "dependencies": {
     "hot-formula-parser": "3.0.0"
 	},

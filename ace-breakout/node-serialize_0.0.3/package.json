@@ -1,5 +1,5 @@
 {
-"id": "",
+"id": "CVE-2017-5941",
   "dependencies": {
     "node-serialize": "0.0.3"
 	},

@@ -1,5 +1,5 @@
 {
-"id": "",
+"id": "CVE-2020-7675",
   "dependencies": {
     "cd-messenger": "2.7.24"
 	},

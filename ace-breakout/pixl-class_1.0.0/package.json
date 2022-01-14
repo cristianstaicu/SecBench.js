@@ -1,5 +1,5 @@
 {
-"id": "",
+"id": "CVE-2020-7640",
   "dependencies": {
     "pixl-class": "^1.0.0"
 	},

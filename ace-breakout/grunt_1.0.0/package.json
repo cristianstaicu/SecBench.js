@@ -1,5 +1,5 @@
 {
-"id": "",
+"id": "CVE-2020-7729",
   "dependencies": {
     "grunt": "1.0.0"
 	},
