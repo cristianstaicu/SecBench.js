@@ -9,5 +9,5 @@
   },
   "fixedVersion": "2.2.2",
   "fixCommit": "https://github.com/angus-c/just/commit/dd57a476f4bb9d78c6f60741898dc04c71d2eb53",
-  "sink": ""
+  "sink": "index.js:36:17"
 }

@@ -10,5 +10,5 @@
   },
   "fixedVersion": "4.17.11",
   "fixCommit": "https://github.com/lodash/lodash/commit/90e6199a161b6445b01454517b40ef65ebecd2ad",
-  "sink": ""
+  "sink": "lodash.js:2573:21"
 }

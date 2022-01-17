@@ -10,5 +10,5 @@
   },
   "fixedVersion": "1.1.7",
   "fixCommit": "https://github.com/aurelia/path/releases/tag/1.1.7",
-  "sink": ""
+  "sink": "dist/commonjs/aurelia-path.js:163:42"
 }

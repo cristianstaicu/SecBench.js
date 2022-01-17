@@ -10,5 +10,5 @@
   },
   "fixedVersion": "0.4.0",
   "fixCommit": "https://github.com/kriszyp/json-schema/commit/22f146111f541d9737e832823699ad3528ca7741",
-  "sink": ""
+  "sink": "lib/validate.js:217:27"
 }

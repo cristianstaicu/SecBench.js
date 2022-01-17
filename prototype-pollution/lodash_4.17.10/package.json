@@ -9,5 +9,5 @@
   },
   "fixedVersion": "4.17.12",
   "fixCommit": "https://github.com/sailshq/lodash/pull/1/commits/c3fd203b3be87a8177f7f00824033c95f981f984",
-  "sink": ""
+  "sink": "lodash.js:2573:21"
 }

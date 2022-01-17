@@ -8,5 +8,5 @@
   },
   "fixedVersion": "0.3.4",
   "fixCommit": "https://github.com/firebase/firebase-js-sdk/commit/9cf727fcc3d049551b16ae0698ac33dc2fe45ada",
-  "sink": ""
+  "sink": "util/dist/index.node.cjs.js:437:22"
 }

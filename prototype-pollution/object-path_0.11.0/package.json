@@ -10,5 +10,5 @@
   },
   "fixedVersion": "0.11.5",
   "fixCommit": "https://github.com/mariocasciaro/object-path/commit/7bdf4abefd102d16c163d633e8994ef154cab9eb",
-  "sink": ""
+  "sink": "index.js:19:13"
 }

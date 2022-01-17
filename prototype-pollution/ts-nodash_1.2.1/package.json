@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.2.7",
   "fixCommit": "https://github.com/BadOPCode/NoDash/commit/b9cc2b3b49f6cd5228e406bc57e17a28b998fea5",
-  "sink": ""
+  "sink": "lib/Merge.js:43:31"
 }

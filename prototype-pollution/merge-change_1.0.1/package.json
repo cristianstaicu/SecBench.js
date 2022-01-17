@@ -8,5 +8,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
-  "sink": ""
+  "sink": "utils.js:63:26"
 }

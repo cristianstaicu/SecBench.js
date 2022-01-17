@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.6.1",
   "fixCommit": "https://github.com/manuelstofer/json-pointer/pull/34/files",
-  "sink": ""
+  "sink": "index.js:91:18"
 }
