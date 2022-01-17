@@ -57,7 +57,16 @@ for (let j = 0; j < folders.length; j++) {
             .replace(/.*vulnerabilities4js/, ".")
             .replace(/\)/g, "")
             .replace("    at ", "");
-        console.log(`${files[i]},${location}`);
+        // console.log(`${files[i]},${location}`);
+        l1 =location.split('node_modules/')[1]
+        l2 = l1.split(/\/(.+)/)[1]
+        l3 = l2.split(/[0-9]:[0-9]/)[0]
+        // console.log(l3)
+        let path_to_file = path.resolve(currentDir)
+        const file_read = fs.readFileSync(path_to_file+'/package.json').toString()
+        let sink_location='"sink": "'+`${l3}"`
+        let modified=file_read.replace('"sink": ""',sink_location)
+        fs.writeFileSync(path_to_file+'/package.json',modified)
       } catch (e) {
         console.log(`${files[i]}\n`);
         // console.log(`Error in ${files[i]}\n`);
