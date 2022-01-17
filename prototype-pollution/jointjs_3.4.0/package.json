@@ -9,5 +9,5 @@
   },
   "fixedVersion": "3.4.2",
   "fixCommit": "https://github.com/clientIO/joint/commit/e5bf89efef6d5ea572d66870ffd86560de7830a8",
-  "sink": ""
+  "sink": "dist/joint.min.js:"
 }

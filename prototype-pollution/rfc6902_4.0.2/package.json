@@ -8,5 +8,5 @@
   },
   "fixedVersion": "5.0.0",
   "fixCommit": "n/a",
-  "sink": ""
+  "sink": "patch.js:5"
 }
