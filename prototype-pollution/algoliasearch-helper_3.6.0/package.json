@@ -9,5 +9,5 @@
   },
   "fixedVersion": "3.6.2",
   "fixCommit": "https://github.com/algolia/algoliasearch-helper-js/commit/4ff542b70b92a6b81cce8b9255700b0bc0817edd",
-  "sink": "src/functions/merge.js:3"
+  "sink": ""
 }

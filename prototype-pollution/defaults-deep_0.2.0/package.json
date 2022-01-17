@@ -10,5 +10,5 @@
   },
   "fixedVersion": "0.2.4",
   "fixCommit": "https://github.com/jonschlinkert/defaults-deep/commit/c873f341327ad885ff4d0f23b3d3bca31b0343e5",
-  "sink": "index.js:1"
+  "sink": ""
 }

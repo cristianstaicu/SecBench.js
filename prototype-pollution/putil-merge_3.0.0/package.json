@@ -9,5 +9,5 @@
   },
   "fixedVersion": "3.7.0",
   "fixCommit": "https://github.com/panates/putil-merge/commit/a8f5087faaa034cc2dc2e8070c13014ad6a34043",
-  "sink": "lib/merge.js:7"
+  "sink": ""
 }

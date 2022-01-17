@@ -9,5 +9,5 @@
   },
   "fixedVersion": "3.0.0",
   "fixCommit": "https://github.com/vincit/objection.js/commit/b41aab8dcd78f426f7468dcda541a7aca18a66a6",
-  "sink": "lib/utils/objectUtils.js:24"
+  "sink": ""
 }
