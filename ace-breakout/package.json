@@ -29,7 +29,6 @@
 		"hot-formula-parser_3.0.0": "./hot-formula-parser_3.0.0/",
 		"js-yaml_3.13.0": "./js-yaml_3.13.0/",
 		"m-log_0.0.1": "./m-log_0.0.1/",
-		"node_modules": "./node_modules/",
 		"local-devices_2.0.0": "./local-devices_2.0.0/",
 		"node-rules_3.0.0": "./node-rules_3.0.0/",
 		"wifiscanner_1.0.1": "./wifiscanner_1.0.1/",
