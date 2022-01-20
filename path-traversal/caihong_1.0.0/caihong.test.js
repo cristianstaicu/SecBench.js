@@ -21,8 +21,11 @@ test("Path Traversal in caihong", (done) => {
 
   exec(attack_string, (error, stdout) => {
     //attack
-    expect(stdout).toBe(hostsFile);
-
+    let out = false;
+    if (stdout.includes(hostsFile)) {
+      out = true;
+    }
+    expect(out).toBe(true);
     done();
   });
 });
