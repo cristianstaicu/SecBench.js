@@ -19,10 +19,16 @@ test("Path Traversal in hftp", (done) => {
   sleep.sleep(2);
   let attack_string = `curl -v --path-as-is "http://127.0.0.1:8888${genstr()}"`;
 
-  exec(attack_string, (error, stdout) => {
+  let end_serv ='fuser -k 8888/tcp'
+  let val = exec(attack_string, (error, stdout) => {
     //attack
+    // console.log(val.pid)
+    
     expect(stdout).toBe(hostsFile);
-
-    done();
+    // process.kill(val.pid)
+    exec(end_serv, (error, stdout) => {
+      done();
+    })
+    
   });
-});
+},10000);
