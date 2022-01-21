@@ -10,7 +10,11 @@ test("Path Traversal in rollup-plugin-server", (done) => {
   const fs = require("fs");
   const { exec } = require("child_process");
   let hostsFile = fs.readFileSync(pathToFlag).toString();
-
+  const a = require("child_process");
+  try{
+    a.execSync('fuser -k 9000/tcp',()=>{})
+  }
+  catch(e){}
   server({
     host: "localhost",
     port: 9000,
@@ -20,6 +24,9 @@ test("Path Traversal in rollup-plugin-server", (done) => {
 
   exec(attack_string, (error, stdout) => {
     expect(stdout).toBe(hostsFile);
-    done();
+    // a.execSync('fuser -k 9000/tcp',()=>{
+      done();
+    // })
+    
   });
 });
