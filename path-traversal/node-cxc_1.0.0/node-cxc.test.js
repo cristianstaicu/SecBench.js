@@ -18,7 +18,7 @@ test("Path Traversal in node-cxc", (done) => {
     a.execSync('fuser -k 80/tcp',()=>{})//killing any other process using the same port
   }catch(e){}
 
-  let server = "sudo node ./node_modules/node-cxc/app.js"; //to start the server
+  let server = "node ./node_modules/node-cxc/app.js"; //to start the server
   let exe = exec(server, (error, stdout) => {}); //starting the server
   //console.log(exe.pid)
   sleep.sleep(2);

@@ -16,7 +16,7 @@ test("Path Traversal in server12311", (done) => {
 
   try{
     a.execSync('fuser -k 8888/tcp',()=>{})//killing any other process using the same port
-  }catch(e){}
+  }catch(e){};
 
   let server = "node ./node_modules/server12311/index.js"; //to start the server
   let exe = exec(server, (error, stdout) => {}); //starting the server

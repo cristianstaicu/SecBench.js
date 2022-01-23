@@ -15,7 +15,7 @@ test("Path Traversal in servedir", (done) => {
 
   try{
     a.execSync('fuser -k 8980/tcp',()=>{})//killing any other process using the same port
-  }catch(e){}
+  }catch(e){};
 
   pkg(__dirname, 8980);
 
