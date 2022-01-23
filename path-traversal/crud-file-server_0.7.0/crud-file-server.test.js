@@ -12,6 +12,11 @@ test("Path Traversal in crud-file-server", (done) => {
   const sleep = require("sleep");
   const { exec } = require("child_process");
   let hostsFile = fs.readFileSync(pathToFlag).toString();
+  const a = require("child_process");
+
+  try{
+    a.execSync('fuser -k 8998/tcp',()=>{})//killing any other process using the same port
+  }catch(e){}
 
   let server =
     "node ./node_modules/crud-file-server/bin/crud-file-server -p 8998"; //to start the server

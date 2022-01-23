@@ -10,7 +10,11 @@ test("Path Traversal in api-proxy", (done) => {
   const fs = require("fs");
   const { exec } = require("child_process");
   let hostsFile = fs.readFileSync(pathToFlag).toString();
-
+  const a = require("child_process");
+  try{
+    a.execSync('fuser -k 8888/tcp',()=>{})
+  }catch(e){}
+  
   require("api-proxy").start(8888); //starting the server.
 
   let attack_string = `curl -v --path-as-is "http://127.0.0.1:8888${genstr()}"`;

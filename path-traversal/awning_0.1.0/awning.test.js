@@ -11,6 +11,10 @@ test("Path Traversal in awning", (done) => {
   const fs = require("fs");
   const { exec } = require("child_process");
   let hostsFile = fs.readFileSync(pathToFlag).toString();
+  const a = require("child_process");
+  try{
+    a.execSync('fuser -k 8886/tcp',()=>{})
+  }catch(e){}
 
   let server = new Awning(8886);
 

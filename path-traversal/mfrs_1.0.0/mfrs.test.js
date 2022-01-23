@@ -12,6 +12,11 @@ test("Path Traversal in mfrs", (done) => {
   const sleep = require("sleep");
   const { exec } = require("child_process");
   let hostsFile = fs.readFileSync(pathToFlag).toString();
+  const a = require("child_process");
+
+  try{
+    a.execSync('fuser -k 8888/tcp',()=>{})//killing any other process using the same port
+  }catch(e){}
 
   let server = "node ./node_modules/mfrs/index.js"; //to start the server
   let exe = exec(server, (error, stdout) => {}); //starting the server
@@ -25,4 +30,4 @@ test("Path Traversal in mfrs", (done) => {
 
     done();
   });
-});
+},30000);

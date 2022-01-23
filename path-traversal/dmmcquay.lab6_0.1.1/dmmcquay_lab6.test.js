@@ -12,6 +12,11 @@ test("Path Traversal in dmmcquay.lab6", (done) => {
   const sleep = require("sleep");
   const { exec } = require("child_process");
   let hostsFile = fs.readFileSync(pathToFlag).toString();
+  const a = require("child_process");
+
+  try{
+    a.execSync('fuser -k 8080/tcp',()=>{})//killing any other process using the same port
+  }catch(e){}
 
   let server = "node ./node_modules/dmmcquay.lab6/simple.js"; //to start the server
   let exe = exec(server, (error, stdout) => {}); //starting the server
@@ -21,7 +26,11 @@ test("Path Traversal in dmmcquay.lab6", (done) => {
 
   exec(attack_string, (error, stdout) => {
     //attack
-    expect(stdout).toBe(hostsFile);
+    let out = false;
+    if (stdout.includes(hostsFile)) {
+      out = true;
+    }
+    expect(out).toBe(true);
 
     done();
   });

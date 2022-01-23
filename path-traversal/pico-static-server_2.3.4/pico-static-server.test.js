@@ -11,6 +11,11 @@ test("Path Traversal in pico-static-server", (done) => {
   const fs = require("fs");
   const { exec } = require("child_process");
   let hostsFile = fs.readFileSync(pathToFlag).toString();
+  const a = require("child_process");
+
+  try{
+    a.execSync('fuser -k 8982/tcp',()=>{})//killing any other process using the same port
+  }catch(e){}
 
   const staticServer = createServer({
     defaultFile: "index.html", // not required, defaults to 'index.html'

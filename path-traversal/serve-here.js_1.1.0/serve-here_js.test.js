@@ -12,6 +12,11 @@ test("Path Traversal in serve-here.js", (done) => {
   const sleep = require("sleep");
   const { exec } = require("child_process");
   let hostsFile = fs.readFileSync(pathToFlag).toString();
+  const a = require("child_process");
+
+  try{
+    a.execSync('fuser -k 8000/tcp',()=>{})//killing any other process using the same port
+  }catch(e){}
 
   let server = "node ./node_modules/serve-here.js/bin/index.js"; //to start the server
   let exe = exec(server, (error, stdout) => {}); //starting the server

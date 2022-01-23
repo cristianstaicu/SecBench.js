@@ -11,6 +11,11 @@ test("Path Traversal in rollup-plugin-dev-server", (done) => {
   const fs = require("fs");
   const { exec } = require("child_process");
   let hostsFile = fs.readFileSync(pathToFlag).toString();
+  const a = require("child_process");
+
+  try{
+    a.execSync('fuser -k 10001/tcp',()=>{})//killing any other process using the same port
+  }catch(e){}
 
   let attack_string = `curl -v --path-as-is "http://127.0.0.1:10001${genstr()}"`;
   server({

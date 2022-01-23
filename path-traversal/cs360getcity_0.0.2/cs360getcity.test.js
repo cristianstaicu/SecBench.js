@@ -12,6 +12,11 @@ test("Path Traversal in cs360getcity", (done) => {
   const sleep = require("sleep");
   const { exec } = require("child_process");
   let hostsFile = fs.readFileSync(pathToFlag).toString();
+  const a = require("child_process");
+
+  try{
+    a.execSync('fuser -k 80/tcp',()=>{})//killing any other process using the same port
+  }catch(e){}
 
   let server = "sudo node ./node_modules/cs360getcity/getcity.js"; //to start the server
   let exe = exec(server, (error, stdout) => {}); //starting the server

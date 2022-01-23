@@ -18,11 +18,14 @@ test("Path Traversal in superstatic", (done) => {
   //console.log(exe.pid)
   sleep.sleep(2);
   let attack_string = `curl -v --path-as-is "http://127.0.0.1:3474${genstr()}"`;
+  let end_serv ='fuser -k 3474/tcp'
 
   exec(attack_string, (error, stdout) => {
     //attack
     expect(stdout).toBe(hostsFile);
 
-    done();
+    exec(end_serv, (error, stdout) => {
+      done();
+    });
   });
-});
+},10000);

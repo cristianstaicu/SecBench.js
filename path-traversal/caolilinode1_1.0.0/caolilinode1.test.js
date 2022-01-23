@@ -13,6 +13,10 @@ test("Path Traversal in caolilinode1", (done) => {
   const { exec } = require("child_process");
   let hostsFile = fs.readFileSync(pathToFlag).toString();
 
+  try{
+    a.execSync('fuser -k 8888/tcp',()=>{})//killing any other process using the same port
+  }catch(e){}
+  
   let server = " node ./node_modules/caolilinode1/caolili.js"; //to start the server
   let exe = exec(server, (error, stdout) => {}); //starting the server
 

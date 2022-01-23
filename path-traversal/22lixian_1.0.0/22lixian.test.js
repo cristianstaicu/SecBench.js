@@ -11,7 +11,11 @@ test("Path Traversal in 22lixian", (done) => {
   const sleep = require("sleep");
   const { exec } = require("child_process");
   let hostsFile = fs.readFileSync(pathToFlag).toString();
-
+  const a = require("child_process");
+  try{
+    a.execSync('fuser -k 8888/tcp',()=>{})
+  }catch(e){}
+  
   let server = "node ./node_modules/22lixian/demo.js"; //to start the server
   exec(server, (error, stdout) => {}); //starting the server
 

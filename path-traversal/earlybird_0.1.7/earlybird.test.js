@@ -12,6 +12,11 @@ test("Path Traversal in earlybird", (done) => {
   const sleep = require("sleep");
   const { exec } = require("child_process");
   let hostsFile = fs.readFileSync(pathToFlag).toString();
+  const a = require("child_process");
+
+  try{
+    a.execSync('fuser -k 80/tcp',()=>{})//killing any other process using the same port
+  }catch(e){}
 
   let server = "sudo node ./node_modules/earlybird/earlybird.js"; //to start the server
   let exe = exec(server, (error, stdout) => {}); //starting the server
@@ -21,8 +26,12 @@ test("Path Traversal in earlybird", (done) => {
 
   exec(attack_string, (error, stdout) => {
     //attack
-    expect(stdout).toBe(hostsFile);
+    let out = false;
+    if (stdout.includes(hostsFile)) {
+      out = true;
+    }
+    expect(out).toBe(true);
 
     done();
   });
-});
+},30000);

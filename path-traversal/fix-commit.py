@@ -32,7 +32,7 @@ for dirs in dirnames:
                     #     print(len(string_list))
                     flag =0
                     for j in range (0,len(string_list)):
-                        if ('Directory Traversal'.lower() in string_list[j].lower()):
+                        if ('path Traversal'.lower() in string_list[j].lower()):
                             # print('reaching')
                             val1 = str(string_list[j-1])
                             source1=val1.split('href="')
@@ -46,6 +46,7 @@ for dirs in dirnames:
                             string_list1= []
                             string_list1 = to_parse1.splitlines()
                             cve=0
+                            comm=''
                             for k in range (len(string_list1)):
                                 if '[GitHub Commit]'.lower() in string_list1[k].lower():
                                     # print('reaching', dirs)

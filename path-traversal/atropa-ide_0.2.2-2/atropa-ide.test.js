@@ -12,6 +12,11 @@ test("Path Traversal in atropa-ide", (done) => {
   const { exec } = require("child_process");
   let hostsFile = fs.readFileSync(pathToFlag).toString();
 
+  const a = require("child_process");
+  try{
+    a.execSync('fuser -k 8884/tcp',()=>{})
+  }catch(e){}
+
   const path = require("path");
   let port = 8884;
   let serverRoot = path.resolve(__dirname);
