@@ -1,0 +1,864 @@
+Title,Package Name,Details Page,CVE,Affected Version
+Moderate severity vulnerability that affects validator,validator,https://github.com//advisories/GHSA-rh6c-q938-3r9q,CVE-2013-7452,< 1.1.0
+Moderate severity vulnerability that affects validator,validator,https://github.com//advisories/GHSA-552w-rqg8-gxxm,CVE-2013-7453,< 1.1.0
+Moderate severity vulnerability that affects validator,validator,https://github.com//advisories/GHSA-qpjp-7rp2-9c3f,CVE-2013-7451,< 1.1.0
+Moderate severity vulnerability that affects ember,ember,https://github.com//advisories/GHSA-vxp4-25qp-86qh,,">= 1.8.0, < 1.11.4>= 1.12.0, < 1.12.2>= 1.13.0, < 1.13.12>= 2.0.0, < 2.0.3>= 2.1.0, < 2.1.2>= 2.2.0, < 2.2.1"
+Moderate severity vulnerability that affects handlebars,handlebars,https://github.com//advisories/GHSA-fmr4-7g9q-7hc7,,< 4.0.0
+Moderate severity vulnerability that affects validator,validator,https://github.com//advisories/GHSA-9959-c6q6-6qp3,,< 2.0.0
+Moderate severity vulnerability that affects marked,marked,https://github.com//advisories/GHSA-crmx-v835-hcp4,CVE-2017-17461,< 0.3.9
+Cross-Site Scripting (XSS) in jquery,jquery,https://github.com//advisories/GHSA-rmxg-73gg-4p98,CVE-2015-9251,< 3.0.0
+High severity vulnerability that affects pym.js,pym.js,https://github.com//advisories/GHSA-82gw-pqf7-q3j2,CVE-2018-1000086,">= 0.4.2, <= 1.3.1"
+Malicious Package in eslint-scope,eslint-scope,https://github.com//advisories/GHSA-hxxf-q3w9-4xgw,,= 5.0.1= 3.7.2
+Information Exposure on Case Insensitive File Systems in serve,serve,https://github.com//advisories/GHSA-686g-3xr3-x4x6,CVE-2018-3809,< 7.0.0
+Directory Traversal in dgard8.lab6,dgard8.lab6,https://github.com//advisories/GHSA-xqfm-ff6g-24c7,CVE-2017-16218,<= 0.0.1
+Directory Traversal in getcityapi.yoehoehne,getcityapi.yoehoehne,https://github.com//advisories/GHSA-4vcm-qfxh-p6c3,CVE-2017-16192,<= 0.0.1
+Directory Traversal in ewgaddis.lab6,ewgaddis.lab6,https://github.com//advisories/GHSA-5x5w-v4xq-p64r,CVE-2017-16175,<= 0.1.1
+Directory Traversal in calmquist.static-server,calmquist.static-server,https://github.com//advisories/GHSA-756f-6j3f-48q9,CVE-2017-16165,<= 0.1.1
+Directory Traversal in censorify.tanisjr,censorify.tanisjr,https://github.com//advisories/GHSA-776r-w3v9-96mv,CVE-2017-16157,<= 0.1.4
+Directory Traversal in myserver.alexcthomas18,myserver.alexcthomas18,https://github.com//advisories/GHSA-rgq8-25qc-h54q,CVE-2017-16144,<= 0.0.1
+Directory Traversal in commentapp.stetsonwood,commentapp.stetsonwood,https://github.com//advisories/GHSA-j5mg-fpq8-vvxv,CVE-2017-16143,<= 0.0.1
+Directory Traversal in lab6.brit95,lab6.brit95,https://github.com//advisories/GHSA-7vq3-wcjw-3fxh,CVE-2017-16140,<= 0.1.1
+Hijacked Environment Variables in sqlite.js,sqlite.js,https://github.com//advisories/GHSA-6f34-pq9f-36vf,CVE-2017-16050,<= 1.0.2
+Hijacked Environment Variables in jquery.js,jquery.js,https://github.com//advisories/GHSA-jp27-cwp2-5qqr,CVE-2017-16045,<= 1.0.2
+Hijacked Environment Variables in d3.js,d3.js,https://github.com//advisories/GHSA-qmjg-g86h-6rc9,CVE-2017-16044,<= 1.0.2
+Directory Traversal in citypredict.whauwiller,citypredict.whauwiller,https://github.com//advisories/GHSA-vxwf-pprx-wc25,CVE-2017-16104,<= 1.0.0
+Critical severity vulnerability that affects dns-sync,dns-sync,https://github.com//advisories/GHSA-wxvm-fh75-mpgr,,< 0.1.1
+High severity vulnerability that affects jquery-ui,jquery-ui,https://github.com//advisories/GHSA-g8q2-24jh-5hpc,,< 1.12.0
+Path Traversal in superstatic,superstatic,https://github.com//advisories/GHSA-wm77-q74p-5763,,< 5.0.2
+Moderate severity vulnerability that affects is-my-json-valid,is-my-json-valid,https://github.com//advisories/GHSA-ccq6-3qx5-vmqx,,<= 2.12.3
+npm Token Leak in npm,npm,https://github.com//advisories/GHSA-m5h6-hr3q-22h5,CVE-2016-3956,"<= 2.15.0>= 3.0.0, <= 3.8.2"
+Moderate severity vulnerability that affects moment,moment,https://github.com//advisories/GHSA-hxf5-mg84-pj4m,,< 2.11.2
+Exfiltrates Discord login tokens to pastebin in discordi.js,discordi.js,https://github.com//advisories/GHSA-fv9m-f7w4-889c,CVE-2017-16207,<= 14.0.3
+Hijacked Environment Variables in http-proxy.js,http-proxy.js,https://github.com//advisories/GHSA-4g54-95xv-f353,CVE-2017-16075,<= 1.0.2
+Hijacked Environment Variables in proxy.js,proxy.js,https://github.com//advisories/GHSA-qj73-v688-wqxf,CVE-2017-16076,<= 1.0.2
+Hijacked Environment Variables in nodemailer.js,nodemailer.js,https://github.com//advisories/GHSA-j866-8vxx-27hx,CVE-2017-16072,<= 1.0.2
+Hijacked Environment Variables in openssl.js,openssl.js,https://github.com//advisories/GHSA-22gq-x6pg-752j,CVE-2017-16065,>= 0.0.0
+Moderate severity vulnerability that affects opencv.js,opencv.js,https://github.com//advisories/GHSA-5hxw-r847-qfwp,CVE-2017-16066,<= 1.2.1
+Moderate severity vulnerability that affects mustache,mustache,https://github.com//advisories/GHSA-3233-rgx3-c2wh,,< 2.2.1
+High severity vulnerability that affects uglify-js,uglify-js,https://github.com//advisories/GHSA-g6f4-j6c2-w3p3,,< 2.4.24
+High severity vulnerability that affects qs,qs,https://github.com//advisories/GHSA-crvj-3gj9-gm2p,,< 1.0.0
+Moderate severity vulnerability that affects send,send,https://github.com//advisories/GHSA-pgv6-jrvv-75jp,,< 0.8.4
+Insecure randomness in socket.io,socket.io,https://github.com//advisories/GHSA-qv2v-m59f-v5fw,CVE-2017-16031,<= 0.9.6
+Hijacked Environment Variables in mssql.js,mssql.js,https://github.com//advisories/GHSA-5mhv-9qw8-j63g,CVE-2017-16056,<= 1.0.2
+Cross-Site Scripting in morris.js,morris.js,https://github.com//advisories/GHSA-fwx5-5fqj-jv98,CVE-2017-16022,= 0.5.0
+Content Injection via TileJSON attribute in mapbox.js,mapbox.js,https://github.com//advisories/GHSA-qr28-7j6p-9hmv,CVE-2017-1000042,"< 1.6.5>= 2.0.0, < 2.1.7"
+Content Injection via TileJSON Name in mapbox.js,mapbox.js,https://github.com//advisories/GHSA-q69p-5h74-w36f,CVE-2017-1000043,"< 1.6.6>= 2.0.0, < 2.2.4"
+Moderate severity vulnerability that affects yapi-vendor,yapi-vendor,https://github.com//advisories/GHSA-5xgh-643p-cp2g,CVE-2018-17574,< 1.3.23
+Low severity vulnerability that affects ethereumjs-vm,ethereumjs-vm,https://github.com//advisories/GHSA-2mw7-wggm-m6w3,CVE-2018-19183,<= 2.4.0
+Critical severity vulnerability that affects event-stream and flatmap-stream,flatmap-stream,https://github.com//advisories/GHSA-mh6f-8j2x-4483,,= 3.3.6> 0
+Low severity vulnerability that affects mcstatic,mcstatic,https://github.com//advisories/GHSA-cxmj-qjv6-vx9p,CVE-2018-16482,<= 0.0.20
+Low severity vulnerability that affects public,public,https://github.com//advisories/GHSA-649c-x44h-4q7v,CVE-2018-16480,< 0.1.4
+Insecure Defaults Allow MITM Over TLS in engine.io-client,engine.io-client,https://github.com//advisories/GHSA-4r4m-hjwj-43p8,CVE-2016-10536,< 1.6.9
+Downloads Resources over HTTP in serc.js,serc.js,https://github.com//advisories/GHSA-vcph-57hv-89c4,CVE-2016-10678,<= 0.0.1
+"XSS in jQuery as used in Drupal, Backdrop CMS, and other products",jquery,https://github.com//advisories/GHSA-6c3j-c64m-qhgq,CVE-2019-11358,< 3.4.0
+Cross-Site Scripting in webpack-bundle-analyzer,webpack-bundle-analyzer,https://github.com//advisories/GHSA-pgr8-jg6h-8gw6,,< 3.3.2
+Cryptographically Weak PRNG in generate-password,generate-password,https://github.com//advisories/GHSA-6qqf-vvcr-7qrv,,< 1.4.1
+Remote Memory Exposure in mysql,mysql,https://github.com//advisories/GHSA-5f7m-mmpc-qhh4,,< 2.14.0
+Out-of-bounds Read in concat-with-sourcemaps,concat-with-sourcemaps,https://github.com//advisories/GHSA-2xv3-h762-ccxv,,">= 1.0.0, < 1.0.6"
+Server-Side Request Forgery in terriajs-server,terriajs-server,https://github.com//advisories/GHSA-p72p-rjr2-r439,,< 2.7.4
+Reflected Cross-Site Scripting in jquery.terminal,jquery.terminal,https://github.com//advisories/GHSA-2hwp-g4g7-mwwj,,< 1.21.0
+Directory Traversal in ltt.js,ltt.js,https://github.com//advisories/GHSA-6qh5-wx38-q92g,,= 1.0.0
+Cross-Site Scripting in bootbox,bootbox,https://github.com//advisories/GHSA-87mg-h5r3-hw88,,<= 5.5.2
+Insecure Credential Storage in web3,web3,https://github.com//advisories/GHSA-27v7-qhfv-rqq8,,<= 1.5.2
+Improper Key Verification in ipns,ipns,https://github.com//advisories/GHSA-j59f-6m4q-62h6,,< 0.1.3
+Cross-Site Scripting in bracket-template,bracket-template,https://github.com//advisories/GHSA-jj6g-7j8p-7gf2,,<= 1.1.5
+Denial of Service in foreman,foreman,https://github.com//advisories/GHSA-xm28-fw2x-fqv2,,< 3.0.1
+Prototype Pollution in deap,deap,https://github.com//advisories/GHSA-xrmp-99wj-p6jc,,< 1.0.1
+Path Traversal in angular-http-server,angular-http-server,https://github.com//advisories/GHSA-vmhw-fhj6-m3g5,,< 1.4.4
+Cross-Site Scripting in public,public,https://github.com//advisories/GHSA-7jfh-2xc9-ccv7,,< 0.1.4= 0.1.5
+Cross-Site Scripting in react-svg,react-svg,https://github.com//advisories/GHSA-8xqr-4cpm-wx7g,,< 2.2.18
+Out-of-bounds Read in base64-url,base64-url,https://github.com//advisories/GHSA-j4mr-9xw3-c9jx,,< 2.0.0
+Memory Exposure in tunnel-agent,tunnel-agent,https://github.com//advisories/GHSA-xc7v-wxcw-j472,,< 0.6.0
+Memory Exposure in bl,bl,https://github.com//advisories/GHSA-wrw9-m778-g6mc,,< 0.9.5= 1.0.0
+Memory Exposure in concat-stream,concat-stream,https://github.com//advisories/GHSA-g74r-ffvr-5q9f,,">= 1.5.0, < 1.5.2>= 1.4.0, < 1.4.11>= 1.3.0, < 1.3.2"
+Denial of Service in ircdkit,ircdkit,https://github.com//advisories/GHSA-f7r3-p866-q9qr,,<= 1.0.3
+Command Injection in command-exists,command-exists,https://github.com//advisories/GHSA-cff4-rrq6-h78w,,< 1.2.4
+Privilege Escalation in express-cart,express-cart,https://github.com//advisories/GHSA-3fc5-9x9m-vqc4,,< 1.1.6
+Remote Memory Exposure in floody,floody,https://github.com//advisories/GHSA-3p92-886g-qxpq,,< 0.1.1
+Sensitive Data Exposure in pem,pem,https://github.com//advisories/GHSA-pgcr-7wm4-mcv6,,< 1.13.2
+Cross-Site Scripting (XSS) in cloudcmd,cloudcmd,https://github.com//advisories/GHSA-m8fw-534v-xm85,,< 9.1.6
+Out-of-bounds Read in byte,byte,https://github.com//advisories/GHSA-xm7f-x4wx-wmgv,,< 1.4.1
+NoSQL Injection in loopback-connector-mongodb,loopback-connector-mongodb,https://github.com//advisories/GHSA-m734-r4g6-34f9,,< 3.6.0
+Denial of Service in ws,ws,https://github.com//advisories/GHSA-5v72-xg48-5rpm,,">= 0.2.6, < 1.1.5>= 2.0.0, < 3.3.1"
+NoSQL Injection in sequelize,sequelize,https://github.com//advisories/GHSA-wfp9-vr4j-f49j,,< 4.12.0
+Command Injection in opencv,opencv,https://github.com//advisories/GHSA-f698-m2v9-5fh3,,< 6.1.0
+Code Injection in js-yaml,js-yaml,https://github.com//advisories/GHSA-8j8c-7jfh-h6hx,,< 3.13.1
+High severity vulnerability that affects gun,gun,https://github.com//advisories/GHSA-886v-mm6p-4m66,,< 0.2019.416
+Denial of Service in canvas,canvas,https://github.com//advisories/GHSA-vpq5-4rc8-c222,,< 1.6.10
+Denial of Service in url-relative,url-relative,https://github.com//advisories/GHSA-86p3-4gfq-38f2,,<= 1.0.0
+Path Traversal in statics-server,statics-server,https://github.com//advisories/GHSA-74cp-qw7f-7hpw,,<= 0.0.9
+Regular Expression Denial of Service in marked,marked,https://github.com//advisories/GHSA-xf5p-87ch-gxw2,,< 0.3.18
+Denial of Service in js-yaml,js-yaml,https://github.com//advisories/GHSA-2pr6-76vf-7546,,< 3.13.0
+Prototype Pollution in handlebars,handlebars,https://github.com//advisories/GHSA-q42p-pg8m-cqh6,,">= 4.1.0, < 4.1.2>= 4.0.0, < 4.0.14< 3.0.7"
+Sensitive Data Exposure in sequelize-cli,sequelize-cli,https://github.com//advisories/GHSA-3xc7-xg67-pw99,,<= 5.4.0
+Insecure Default Configuration in tesseract.js,tesseract.js,https://github.com//advisories/GHSA-83rx-c8cr-6j8q,,< 1.0.19
+Regular Expression Denial of Service in clean-css,dotnetng.template,https://github.com//advisories/GHSA-wxhq-pm8v-cw75,,= 1.0.100= 0.1.5= 0.0.3= 0.0.1= 0.0.2< 4.1.11= 4.1.10= 3.0.1= 1.0.0.3
+Command Injection in dot,dot,https://github.com//advisories/GHSA-4859-gpc7-4j66,,<= 1.1.2
+SQL Injection in typeorm,typeorm,https://github.com//advisories/GHSA-w7q7-vjp8-7jv4,,< 0.1.15
+Path Traversal in servey,servey,https://github.com//advisories/GHSA-rv49-54qp-fw42,,< 3.1.0
+Regular Expression Denial of Service in braces,braces,https://github.com//advisories/GHSA-g95f-p29q-9xw4,,< 2.3.1
+Signature Verification Bypass in jwt-simple,jwt-simple,https://github.com//advisories/GHSA-8v5f-hp78-jgxq,,< 0.5.3
+Timing Attack in express-basic-auth,express-basic-auth,https://github.com//advisories/GHSA-c35v-qwqg-87jc,,< 1.1.7
+Prototype Pollution in upmerge,upmerge,https://github.com//advisories/GHSA-gm9g-2g8v-fvxj,,<= 0.1.8
+Insecure Default Configuration in redbird,redbird,https://github.com//advisories/GHSA-8948-ffc6-jg52,,<= 0.9.0
+Rate Limiting Bypass in express-brute,express-brute,https://github.com//advisories/GHSA-984p-xq9m-4rjw,,<= 1.0.1
+Regular Expression Denial of Service,nwmatcher,https://github.com//advisories/GHSA-6394-6h9h-cfjg,,< 1.4.4
+Prototype Pollution,querystringify,https://github.com//advisories/GHSA-hxcm-v35h-mg2x,,< 2.0.0
+Remote Code Execution in node-os-utils,node-os-utils,https://github.com//advisories/GHSA-j9f8-8h89-j69x,,< 1.1.0
+Path Traversal in m-server,m-server,https://github.com//advisories/GHSA-vc6r-4x6g-mmqc,,< 1.4.2
+Denial of Service in http-proxy-agent,http-proxy-agent,https://github.com//advisories/GHSA-8w57-jfpm-945m,,< 2.1.0
+Path Traversal in localhost-now,localhost-now,https://github.com//advisories/GHSA-73cw-jxmm-qpgh,,<= 1.0.2
+Command Injection in fs-path,fs-path,https://github.com//advisories/GHSA-gc94-6w89-hpqr,,<= 0.0.25
+Out-of-bounds Read in npmconf,npmconf,https://github.com//advisories/GHSA-57cf-349j-352g,,< 2.1.3
+SQL Injection in sql,sql,https://github.com//advisories/GHSA-8f93-rv4p-x4jw,,<= 0.78.0
+Cross-Site Scripting in ids-enterprise,ids-enterprise,https://github.com//advisories/GHSA-crfx-5phg-hmw9,,< 4.18.2
+Cross-Site Scripting in ids-enterprise,ids-enterprise,https://github.com//advisories/GHSA-hpfq-8wx8-cgqw,,< 4.18.2
+Command Injection in wiki-plugin-datalog,wiki-plugin-datalog,https://github.com//advisories/GHSA-pm52-wwrw-c282,,< 0.1.6
+Regular Expression Denial of Service (ReDoS),diff,https://github.com//advisories/GHSA-h6ch-v84p-w6p9,,< 3.5.0
+Prototype Pollution in lutils-merge,lutils-merge,https://github.com//advisories/GHSA-f7qw-5pvg-mmwp,,<= 0.2.6
+Cross-Site Scripting in ids-enterprise,ids-enterprise,https://github.com//advisories/GHSA-49r3-3h96-rwj6,,< 4.18.2
+Prototype Pollution in @apollo/gateway,@apollo/gateway,https://github.com//advisories/GHSA-74cr-77xc-8g6r,,< 0.6.2
+Failure to sanitize quotes which can lead to sql injection in squel,squel,https://github.com//advisories/GHSA-4qhx-g9wp-g9m6,,<= 5.13.0
+Sandbox Bypass Leading to Arbitrary Code Execution in constantinople,constantinople,https://github.com//advisories/GHSA-4vmm-mhcq-4x9j,,< 3.1.1
+Path Traversal in serve-here.js,serve-here,https://github.com//advisories/GHSA-g8m7-qhv7-9h5x,,<= 3.2.0
+Regular Expression Denial of Service in underscore.string,underscore.string,https://github.com//advisories/GHSA-v2p6-4mp7-3r9v,,< 3.3.5
+Directory Traversal in lactate,lactate,https://github.com//advisories/GHSA-68gr-cmcp-g3mj,,<= 0.13.12
+Reverse Tabnapping in swagger-ui,swagger-ui,https://github.com//advisories/GHSA-x9p2-fxq6-2m5f,,< 3.18.0
+Regular Expression Denial of Service,esm,https://github.com//advisories/GHSA-qx4v-6gc5-f2vv,,< 3.1.0
+Command Injection in open,open,https://github.com//advisories/GHSA-28xh-wpgr-7fm8,,< 6.0.0
+Cross-Site Scripting via JSONP,angular,https://github.com//advisories/GHSA-28hp-fgcr-2r4h,,< 1.6.0
+Arbitrary Code Injection in mobile-icon-resizer,mobile-icon-resizer,https://github.com//advisories/GHSA-mxjr-xmcg-fg7w,,">= 0.2.0, < 0.4.3"
+Denial of Service in mem,mem,https://github.com//advisories/GHSA-4xcv-9jjx-gfj3,,< 4.0.0
+Denial of Service in rgb2hex,rgb2hex,https://github.com//advisories/GHSA-65p8-3hm4-h9h8,,< 0.1.6
+Identity Spoofing in libp2p-secio,libp2p-secio,https://github.com//advisories/GHSA-rch7-f4h5-x9rj,,< 0.9.0
+Path Traversal in algo-httpserv,algo-httpserv,https://github.com//advisories/GHSA-cgjv-rghq-qhgp,,< 1.1.2
+Undefined Behavior in sailsjs-cacheman,sailsjs-cacheman,https://github.com//advisories/GHSA-5w65-6875-rhq8,,<= 1.0.0
+Low severity vulnerability that affects smartbanner.js,smartbanner.js,https://github.com//advisories/GHSA-9mrq-cjgh-32g2,,< 1.14.1
+Critical severity vulnerability that affects generator-jhipster,generator-jhipster,https://github.com//advisories/GHSA-mwp6-j9wf-968c,,< 6.3.0
+High severity vulnerability that affects generator-jhipster,generator-jhipster,https://github.com//advisories/GHSA-mc84-xr9p-938r,,< 6.3.1
+Buffer Overflow in centra,centra,https://github.com//advisories/GHSA-v6cj-r88p-92rm,,< 2.4.0
+Sandbox Breakout in realms-shim,ses,https://github.com//advisories/GHSA-6jg8-7333-554w,,< 1.2.0< 0.6.3
+Low severity vulnerability that affects eye.js,eye.js,https://github.com//advisories/GHSA-mgv2-57vj-99xc,,= 1.2.0
+Sandbox Breakout in realms-shim,realms-shim,https://github.com//advisories/GHSA-7cg8-pq9v-x98q,,< 1.2.1
+Moderate severity vulnerability that affects renovate,renovate,https://github.com//advisories/GHSA-v7x3-7hw7-pcjg,,< 19.38.7
+Default Express middleware security check is ignored in production,@cubejs-backend/api-gateway,https://github.com//advisories/GHSA-4j6x-w426-6rc6,,">= 0.11.0, <= 0.11.16"
+Cross-Site Scripting in vant,vant,https://github.com//advisories/GHSA-9xr8-8hmc-389f,,< 2.1.8
+Cross-Site Scripting in serialize-javascript,serialize-javascript,https://github.com//advisories/GHSA-h9rv-jmmf-4pgx,CVE-2019-16769,< 2.1.1
+Cross-site scripting vulnerability in TinyMCE,tinymce,https://github.com//advisories/GHSA-27gm-ghr9-4v95,,"< 4.9.7>= 5.0.0, < 5.1.4"
+discord-html not escaping HTML code blocks when lacking a language identifier,discord-markdown,https://github.com//advisories/GHSA-9r27-994c-4xch,,< 2.3.1
+Holder can (re)create authentic credentials after receiving a credential in vp-toolkit,vp-toolkit,https://github.com//advisories/GHSA-p94w-42g3-f7h4,,< 0.2.2
+Holder can generate proof of ownership for credentials it does not control in vp-toolkit,vp-toolkit,https://github.com//advisories/GHSA-ff5x-w9wg-h275,,< 0.2.2
+Withdrawn: ESLint dependencies are vulnerable (ReDoS and Prototype Pollution),minimist,https://github.com//advisories/GHSA-7fhm-mqm4-2wp7,,"< 5.7.4>= 6.0.0, < 6.4.1>= 7.0.0, < 7.1.1< 1.2.2"
+Incorrect Account Used for Signing,eth-ledger-bridge-keyring,https://github.com//advisories/GHSA-vg44-fw64-cpjx,,< 0.2.2< 0.2.1
+Open Redirect in ecstatic,ecstatic,https://github.com//advisories/GHSA-9q64-mpxx-87fg,,"< 2.2.2>= 3.0.0, < 3.3.2>= 4.0.0, < 4.1.2"
+Regular Expression Denial of Service in Acorn,acorn,https://github.com//advisories/GHSA-6chw-6frg-f759,,">= 6.0.0, < 6.4.1>= 7.0.0, < 7.1.1>= 5.5.0, < 5.7.4"
+Machine-In-The-Middle in https-proxy-agent,https-proxy-agent,https://github.com//advisories/GHSA-pc5p-h8pf-mvwp,,< 2.2.3
+False-negative validation results in MINT transactions with invalid baton,slpjs,https://github.com//advisories/GHSA-jc83-cpf9-q7c6,CVE-2020-11071,< 0.27.2
+Regular Expression Denial of Service in websocket-extensions (NPM package),websocket-extensions,https://github.com//advisories/GHSA-g78m-2chm-r7qv,CVE-2020-7662,< 0.1.4
+Introspection in schema validation in Apollo Server,apollo-server-micro,https://github.com//advisories/GHSA-w42g-7vfc-xf37,,< 2.14.2< 2.14.2< 2.14.2< 2.14.2< 2.14.2< 2.14.2< 2.14.2< 2.14.2< 2.14.2< 2.14.2< 2.14.2< 2.14.2
+Log Forging in generator-jhipster-kotlin,generator-jhipster-kotlin,https://github.com//advisories/GHSA-pfxf-wh96-fvjc,CVE-2020-4072,= 1.6.0
+ECDSA signature vulnerability of Minerva timing attack in jsrsasign,jsrsasign,https://github.com//advisories/GHSA-g753-jx37-7xwh,,">= 4.0.0, < 8.0.13"
+Sensitive information exposure through logs in npm-registry-fetch,npm-registry-fetch,https://github.com//advisories/GHSA-jmqm-f2gx-4fjv,,"< 4.0.5>= 5.0.0, < 8.1.1"
+Command Injection in standard-version,standard-version,https://github.com//advisories/GHSA-7xcx-6wjh-7xp2,,< 8.0.1
+Storing Password in Local Storage,parse,https://github.com//advisories/GHSA-wvh7-5p38-2qfc,,< 2.10.0
+Command Injection in git-tags-remote,git-tags-remote,https://github.com//advisories/GHSA-gm9x-q798-hmr4,,< 1.0.4
+CSRF Vulnerability in polaris-website,polaris-website,https://github.com//advisories/GHSA-whrh-9j4q-g7ph,,< 1.1.1
+XSS via JQLite DOM manipulation functions in AngularJS,angular,https://github.com//advisories/GHSA-5cp4-xmrw-59wf,,< 1.8.0
+Cross-site scripting vulnerability in TinyMCE,tinymce,https://github.com//advisories/GHSA-vrv8-v4w8-f95h,,"< 4.9.11>= 5.0.0, < 5.4.1"
+Cross-Site Scripting in @progress/kendo-angular-editor,@progress/kendo-angular-editor,https://github.com//advisories/GHSA-j7wp-vjj6-cp5m,,< 1.2.3
+Cross-Site Scripting in highcharts,highcharts,https://github.com//advisories/GHSA-gr4j-r575-g665,,"< 7.2.2>= 8.0.0, < 8.1.1"
+Server secret was included in static assets and served to clients,flood,https://github.com//advisories/GHSA-r587-7jh2-4qr3,,< 3.0.0
+Unauthenticated Remote Command Injection in ep_imageconvert,ep_imageconvert,https://github.com//advisories/GHSA-28gr-86hg-r48w,CVE-2013-3364,<= 0.0.2
+CSRF Vulnerability in jquery-ujs,jquery-ujs,https://github.com//advisories/GHSA-6qqj-rx4w-r3cj,,<= 1.0.3
+Cross-Site Scripting in dojo,dojo,https://github.com//advisories/GHSA-39cx-xcwj-3rc4,CVE-2008-6681,<= 1.0
+Cross-Site Scripting in swagger-ui,swagger-ui,https://github.com//advisories/GHSA-7f59-x49p-v8mq,CVE-2016-1000226,< 2.2.1
+Cross-Site Scripting in swagger-ui,swagger-ui,https://github.com//advisories/GHSA-mrx7-8hxf-f853,CVE-2016-1000233,< 2.2.1
+Cross-Site Scripting in swagger-ui,swagger-ui,https://github.com//advisories/GHSA-g336-c7wv-8hp3,,< 2.2.1
+Local Privilege Escalation in npm,npm,https://github.com//advisories/GHSA-v3jv-wrf4-5845,CVE-2013-4116,< 1.3.3
+XSS via Angular Expression in ag-grid,ag-grid,https://github.com//advisories/GHSA-wfw3-rgfr-6g67,CVE-2017-16009,>= 0.0.0
+Cross-Site Scripting in jquery,org.webjars.npm:jquery,https://github.com//advisories/GHSA-2pqj-h3vj-pqgw,CVE-2012-6708,">= 1.7.1, <= 1.8.3>= 1.7.1, <= 1.8.3"
+Cross-Site Scripting in yui,yui,https://github.com//advisories/GHSA-mj87-8xf8-fp4w,CVE-2013-4939,< 3.10.2
+Directory Traversal in weather.swlyons,weather.swlyons,https://github.com//advisories/GHSA-2r4h-2ghh-5hpx,CVE-2017-16110,>= 0.0.0
+Directory Traversal in wenluhong1,wenluhong1,https://github.com//advisories/GHSA-224h-p7p5-rh85,,>= 0.0.0
+Directory Traversal in nodeload-nmickuli,nodeload-nmickuli,https://github.com//advisories/GHSA-wmcq-3wfx-qjx5,,>= 0.0.0
+Directory Traversal in dmmcquay.lab6,dmmcquay.lab6,https://github.com//advisories/GHSA-ccw5-7vfh-p5hm,CVE-2017-16208,>= 0.0.0
+Directory Traversal in 360class.jansenhm,360class.jansenhm,https://github.com//advisories/GHSA-25jw-gcfj-283j,CVE-2017-16186,>= 0.0.0
+Directory Traversal in yjmyjmyjm,yjmyjmyjm,https://github.com//advisories/GHSA-g376-whg7-896m,,>= 0.0.0
+Directory Traversal in section2.madisonjbrooks12,section2.madisonjbrooks12,https://github.com//advisories/GHSA-h372-w3xp-2jg3,CVE-2017-16172,>= 0.0.0
+Hijacked Environment Variables in cross-env.js,cross-env.js,https://github.com//advisories/GHSA-hwhq-3hrj-v6v5,CVE-2017-16081,>= 0.0.0
+Silently Runs Cryptocoin Miner in hooka-tools,hooka-tools,https://github.com//advisories/GHSA-m36m-x4c5-rjxj,,>= 0.0.0
+Directory Traversal in featurebook,featurebook,https://github.com//advisories/GHSA-7x92-2j68-h32c,,>= 0
+Directory Traversal in @vivaxy/here,@vivaxy/here,https://github.com//advisories/GHSA-m4vv-p6fq-jhqp,,<= 3.2.1
+Reflected Cross-Site Scripting in redis-commander,redis-commander,https://github.com//advisories/GHSA-8c8c-4vfj-rrpc,,>= 0.0.0
+Cross-Site Scripting in mrk.js,mrk.js,https://github.com//advisories/GHSA-hpr5-wp7c-hh5q,,< 2.0.1
+Byass due to validation before canonicalization in serve,serve,https://github.com//advisories/GHSA-wm7q-rxch-43mx,,< 6.5.2
+Remote Memory Exposure in mongoose,mongoose,https://github.com//advisories/GHSA-r5xw-q988-826m,,">= 3.5.5, <= 3.8.38>= 4.0.0, <= 4.3.5"
+Remote Memory Exposure in openwhisk,openwhisk,https://github.com//advisories/GHSA-53mj-mc38-q894,,< 3.3.1
+Malicious Package in @impala/bmap,@impala/bmap,https://github.com//advisories/GHSA-c82c-8pjw-6829,,= 1.0.3
+Malicious Package in angular-bmap,angular-bmap,https://github.com//advisories/GHSA-w8hg-mxvh-9h57,,= 0.0.9
+Malicious Package in angular-material-sidenav-rnd,angular-material-sidenav-rnd,https://github.com//advisories/GHSA-qmxf-fxq7-w59f,,= 0.1.1
+Malicious Package in another-date-picker,another-date-picker,https://github.com//advisories/GHSA-2p62-c4rm-mr72,,= 2.0.43
+Malicious Package in another-date-range-picker,another-date-range-picker,https://github.com//advisories/GHSA-8rxg-9g6f-vq9p,,= 4.1.48
+Malicious Package in awesome_react_utility,awesome_react_utility,https://github.com//advisories/GHSA-m25q-fwg4-9v2p,,= 1.0.2
+Malicious Package in blingjs,blingjs,https://github.com//advisories/GHSA-hfc6-79wv-5hpw,,= 0.0.4
+Malicious Package in codify,codify,https://github.com//advisories/GHSA-2q6w-rxf3-4wc9,,= 0.3.1
+Malicious Package in coffee-project,coffee-project,https://github.com//advisories/GHSA-3fv6-q5xv-fhpw,,= 1.7.5
+Malicious Package in cordova-plugin-china-picker,cordova-plugin-china-picker,https://github.com//advisories/GHSA-x9gm-qxhh-rf75,,= 1.0.910
+Malicious Package in css_transform_support,css_transform_support,https://github.com//advisories/GHSA-45cp-hpc9-8347,,= 1.0.2
+Malicious Package in css_transform_step,css_transform_step,https://github.com//advisories/GHSA-4rx9-58m7-gr8w,,= 1.0.6
+Malicious Package in dynamo-schema,dynamo-schema,https://github.com//advisories/GHSA-vp8g-53fw-r9f2,,= 0.0.3
+Malicious Package in dossier,dossier,https://github.com//advisories/GHSA-c8h6-89q2-mgv8,,= 0.0.4
+Malicious Package in impala,impala,https://github.com//advisories/GHSA-92px-q4w8-hrr5,,= 1.1.7
+Malicious Package in freshdom,freshdom,https://github.com//advisories/GHSA-8qm2-24qc-c4qg,,= 0.0.6
+Malicious Package in jasmin,jasmin,https://github.com//advisories/GHSA-9cq4-mhmr-84gm,,= 0.0.3
+Malicious Package in modlibrary,modlibrary,https://github.com//advisories/GHSA-94m7-w873-6wwf,,= 0.1.1
+Malicious Package in json-serializer,json-serializer,https://github.com//advisories/GHSA-7xfq-xh6v-4mrm,,= 2.0.10
+Malicious Package in oauth-validator,oauth-validator,https://github.com//advisories/GHSA-cxcf-78mr-wpg7,,= 1.0.2
+Malicious Package in rc-calendar-jhorst,rc-calendar-jhorst,https://github.com//advisories/GHSA-4c87-gg2q-fc6m,,= 8.4.3
+Malicious Package in react-dates-sc,react-dates-sc,https://github.com//advisories/GHSA-5645-gc7h-98h8,,= 0.3.0
+Malicious Package in react-server-native,react-server-native,https://github.com//advisories/GHSA-fwvp-x5gj-773j,,= 0.0.7
+Malicious Package in s3asy,s3asy,https://github.com//advisories/GHSA-3wjm-33mw-h388,,= 0.4.8
+Malicious Package in simple-alipay,simple-alipay,https://github.com//advisories/GHSA-3wh2-2pp3-2823,,= 1.0.1
+Malicious Package in xoc,xoc,https://github.com//advisories/GHSA-54cr-gv8w-8324,,= 1.0.7
+Malicious Package in nginxbeautifier,nginxbeautifier,https://github.com//advisories/GHSA-28xx-8j99-m32j,,= 1.0.14
+Malicious Package in dictum.js,dictum.js,https://github.com//advisories/GHSA-j5jc-jf8f-86q7,,= 1.0.5
+Malicious Package in getcookies,getcookies,https://github.com//advisories/GHSA-3cjv-4phw-gvvv,,>= 0
+Malicious Package in nothing-js,nothing-js,https://github.com//advisories/GHSA-353r-3v84-9pjj,,>= 0
+Malicious Package in ladder-text-js,ladder-text-js,https://github.com//advisories/GHSA-33gc-f8v9-v8hm,,>= 0
+Out-of-bounds Read in base64url,base64url,https://github.com//advisories/GHSA-rvg8-pwq2-xj7q,,< 3.0.0
+Cross-Site Scripting in react-marked-markdown,react-marked-markdown,https://github.com//advisories/GHSA-m7qm-r2r5-f77q,,>= 0.0.0
+Malicious Package in eslint-config-eslint,eslint-config-eslint,https://github.com//advisories/GHSA-pv55-r6j3-wp94,,= 5.0.2
+Malicious Package in eslint-config-airbnb-standard,eslint-config-airbnb-standard,https://github.com//advisories/GHSA-m852-866j-69j8,,= 2.0.0
+Path Traversal in express-cart,express-cart,https://github.com//advisories/GHSA-8h8v-6qqm-fwpq,,<= 1.1.5
+Malicious Package in boogeyman,boogeyman,https://github.com//advisories/GHSA-9hc2-w9gg-q6jw,,>= 0.0.0
+Out-of-bounds Read in njwt,njwt,https://github.com//advisories/GHSA-g3qw-9pgp-xpj4,,< 1.0.0
+Malicious Package in axois,axois,https://github.com//advisories/GHSA-wpfc-3w63-g4hm,,>= 0
+Malicious Package in regenraotr,regenraotr,https://github.com//advisories/GHSA-5x7p-gm79-383m,,>= 0
+Malicious Package in regenrator,regenrator,https://github.com//advisories/GHSA-m5p4-7wf9-6w99,,>= 0
+Malicious Package in soket.io,soket.io,https://github.com//advisories/GHSA-wp2p-q35g-3rjj,,>= 0
+Malicious Package in soket.js,soket.js,https://github.com//advisories/GHSA-x6gq-467r-hwcc,,>= 0
+Malicious Package in foever,foever,https://github.com//advisories/GHSA-j3qq-qvc8-c6g7,,>= 0
+Prototype Pollution in merge-objects,merge-objects,https://github.com//advisories/GHSA-992f-wf4w-x36v,,>= 0.0.0
+NoSQL injection in express-cart,express-cart,https://github.com//advisories/GHSA-f5cv-xrv9-r8w7,,<= 1.1.7
+Command Injection in ascii-art,ascii-art,https://github.com//advisories/GHSA-9hqj-38j2-5jgm,,<= 1.4.2
+Command Injection in samsung-remote,samsung-remote,https://github.com//advisories/GHSA-xhjx-mfr6-9rr4,,< 1.3.5
+Malicious Package in flatmap-stream,flatmap-stream,https://github.com//advisories/GHSA-9x64-5r7x-2q53,,= 0.1.1
+Entropy Backdoor in text-qrcode,text-qrcode,https://github.com//advisories/GHSA-h5vj-f7r9-w564,,>= 0.0.0
+Cross-Site Scripting in buefy,buefy,https://github.com//advisories/GHSA-xwqw-rf2q-xmhf,,< 0.7.2
+Cross-Site Scripting in md-data-table,md-data-table,https://github.com//advisories/GHSA-hgr5-82rc-p936,,>= 0.0.0
+Denial of Service in markdown-it-toc-and-anchor,markdown-it-toc-and-anchor,https://github.com//advisories/GHSA-x6m6-5hrf-fh6r,,< 4.2.0
+Cross-Site Scripting in jingo,jingo,https://github.com//advisories/GHSA-mpjf-8cmf-p789,,< 1.9.2
+Cross-Site Scripting in mermaid,mermaid,https://github.com//advisories/GHSA-w32g-5hqp-gg6q,,< 8.2.3
+Sensitive Data Exposure in rails-session-decoder,rails-session-decoder,https://github.com//advisories/GHSA-44vf-8ffm-v2qh,,>= 0.0.0
+Remote Code Execution in pomelo-monitor,pomelo-monitor,https://github.com//advisories/GHSA-m5ch-gx8g-rg73,,>= 0.0.0
+Sandbox Breakout / Arbitrary Code Execution in static-eval,static-eval,https://github.com//advisories/GHSA-x9hc-rw35-f44h,,<= 2.0.1
+Remote Code Execution in office-converter,office-converter,https://github.com//advisories/GHSA-9p64-h5q4-phpm,,>= 0.0.0
+Cross-Site Scripting in semantic-ui-search,semantic-ui-search,https://github.com//advisories/GHSA-p9vv-3945-x93h,,>= 0
+Malicious Package in commander-js,commander-js,https://github.com//advisories/GHSA-2hqf-qqmq-pgpp,,>= 0.0.0
+Malicious Package in rrgod,rrgod,https://github.com//advisories/GHSA-277p-xwpp-3jf7,,>= 0.0.0
+Malicious Package in portionfatty12,portionfatty12,https://github.com//advisories/GHSA-p8fm-w787-x6x3,,>= 0.0.0
+Sandbox Breakout / Arbitrary Code Execution in sandbox,sandbox,https://github.com//advisories/GHSA-fm4j-4xhm-xpwx,,>= 0.0.0
+NoSQL Injection in loopback-connector-mongodb,loopback-connector-mongodb,https://github.com//advisories/GHSA-hxwc-5vw9-2w4w,,<= 3.5.0
+Cross-Site Scripting in bootstrap-vue,bootstrap-vue,https://github.com//advisories/GHSA-c7pp-x73h-4m2v,,<= 2.0.0-rc.11
+Improper Authorization in loopback,loopback,https://github.com//advisories/GHSA-8wgc-jjvv-cv6v,,"<= 2.39.2>= 3.0.0, <= 3.21.0"
+Remote Code Execution in pi_video_recording,pi_video_recording,https://github.com//advisories/GHSA-9wjh-jr2j-6r4x,,>= 0
+Malicious Package in stream-combine,stream-combine,https://github.com//advisories/GHSA-w6xj-45gv-fw35,,= 2.0.2
+Arbitrary File Overwrite in decompress-zip,decompress-zip,https://github.com//advisories/GHSA-73v8-v6g4-vrpm,,"< 0.2.2>= 0.3.0, < 0.3.2"
+Denial of Service in serialize-to-js,serialize-to-js,https://github.com//advisories/GHSA-w5q7-3pr9-x44w,,< 2.0.0
+Improper Authorization in googleapis,googleapis,https://github.com//advisories/GHSA-7543-mr7h-6v86,,< 39.1.0
+Command Injection in tomato,tomato,https://github.com//advisories/GHSA-wqhw-frpx-5mmp,,>= 0
+Prototype Pollution in smart-extend,smart-extend,https://github.com//advisories/GHSA-f8h3-rqrm-47v9,,>= 0
+Cross-Site Scripting in harp,harp,https://github.com//advisories/GHSA-cx7r-634m-2q2h,,>= 0
+Cross-Site Scripting in express-cart,express-cart,https://github.com//advisories/GHSA-9pr3-7449-977r,,>= 0
+Unauthorized File Access in glance,glance,https://github.com//advisories/GHSA-vw7g-jq9m-3q9v,,< 3.0.7
+Cross-Site Scripting in buttle,buttle,https://github.com//advisories/GHSA-pqpp-2363-649v,,>= 0
+Command Injection in cocos-utils,cocos-utils,https://github.com//advisories/GHSA-rffp-mc78-wjf7,,>= 0
+Insecure Default Configuration in graphql-code-generator,graphql-code-generator,https://github.com//advisories/GHSA-9w87-4j72-gcv7,,< 0.18.2
+HTML Injection in preact,preact,https://github.com//advisories/GHSA-cg48-9hh2-x6mx,,">= 10.0.0-alpha.0, <= 10.0.0-beta.0"
+Malicious Package in 4equest,4equest,https://github.com//advisories/GHSA-p33q-w45h-2hcj,,>= 0
+Malicious Package in jajajejejiji,jajajejejiji,https://github.com//advisories/GHSA-rggq-f2wf-m6cp,,>= 0
+Malicious Package in wepack-cli,wepack-cli,https://github.com//advisories/GHSA-fpw3-x4xq-6vxq,,>= 0
+Malicious Package in asinc,asinc,https://github.com//advisories/GHSA-87qw-7v97-w34r,,>= 0
+Malicious Package in asynnc,asynnc,https://github.com//advisories/GHSA-5fm9-jmv7-fcx5,,>= 0
+Malicious Package in asymc,asymc,https://github.com//advisories/GHSA-x6ch-c6rv-f7wh,,>= 0
+Malicious Package in asyync,asyync,https://github.com//advisories/GHSA-rm7c-x424-g2mw,,>= 0
+Malicious Package in aasync,aasync,https://github.com//advisories/GHSA-9mjp-gv34-3jcf,,>= 0
+Malicious Package in asnc,asnc,https://github.com//advisories/GHSA-2p99-6f47-8x9j,,>= 0
+Malicious Package in asycn,asycn,https://github.com//advisories/GHSA-h26f-j4mv-84g7,,>= 0
+Malicious Package in asnyc,asnyc,https://github.com//advisories/GHSA-v99v-xgjx-7m7g,,>= 0
+Malicious Package in aysnc,aysnc,https://github.com//advisories/GHSA-gfjr-xqhm-qvv3,,>= 0
+Malicious Package in momen,momen,https://github.com//advisories/GHSA-h5vm-jhq7-w647,,>= 0
+Malicious Package in commnader,commnader,https://github.com//advisories/GHSA-855m-jchh-9qjc,,>= 0
+Malicious Package in exprss,exprss,https://github.com//advisories/GHSA-6qc7-jgq7-34rf,,>= 0
+Malicious Package in experss,experss,https://github.com//advisories/GHSA-mmph-wp49-r48h,,>= 0
+Malicious Package in eact,eact,https://github.com//advisories/GHSA-pmgv-94f5-6w7w,,>= 0
+Malicious Package in chak,chak,https://github.com//advisories/GHSA-9q9m-m2f6-jr5q,,>= 0
+Malicious Package in calk,calk,https://github.com//advisories/GHSA-9mmw-3fmh-96g3,,>= 0
+Malicious Package in requestt,requestt,https://github.com//advisories/GHSA-2563-83p7-f34p,,>= 0
+Malicious Package in requeest,requeest,https://github.com//advisories/GHSA-8vj3-jgcf-77jv,,>= 0
+Malicious Package in requesst,requesst,https://github.com//advisories/GHSA-6c37-2rw5-9j7x,,>= 0
+Malicious Package in requuest,requuest,https://github.com//advisories/GHSA-frxq-v7fm-m4pv,,>= 0
+Malicious Package in reqquest,reqquest,https://github.com//advisories/GHSA-4jfq-q299-g4cr,,>= 0
+Malicious Package in reequest,reequest,https://github.com//advisories/GHSA-rw4r-h883-8pf9,,>= 0
+Malicious Package in reques,reques,https://github.com//advisories/GHSA-g8jc-mm3c-cwhj,,>= 0
+Malicious Package in rrequest,rrequest,https://github.com//advisories/GHSA-wc7q-qpm4-8pqv,,>= 0
+Malicious Package in requet,requet,https://github.com//advisories/GHSA-h44f-769q-j6px,,>= 0
+Malicious Package in requst,requst,https://github.com//advisories/GHSA-8qx4-r7fx-xc4v,,>= 0
+Malicious Package in reuest,reuest,https://github.com//advisories/GHSA-r863-p739-275c,,>= 0
+Malicious Package in equest,equest,https://github.com//advisories/GHSA-mvch-rh6h-2m47,,>= 0
+Malicious Package in requets,requets,https://github.com//advisories/GHSA-f3pc-c2gf-hvgw,,>= 0
+Malicious Package in requset,requset,https://github.com//advisories/GHSA-w7wg-24g3-2c78,,>= 0
+Malicious Package in rqeuest,rqeuest,https://github.com//advisories/GHSA-pj97-j597-ppm7,,>= 0
+Malicious Package in erquest,erquest,https://github.com//advisories/GHSA-4pmg-jgm5-3jg6,,>= 0
+Malicious Package in carloprojectlesang,carloprojectlesang,https://github.com//advisories/GHSA-qj2g-642f-4jrv,,>= 0
+Malicious Package in discord_debug_log,discord_debug_log,https://github.com//advisories/GHSA-5x8q-gj67-rhf2,,>= 0
+Cross-Site Scripting in wangeditor,wangeditor,https://github.com//advisories/GHSA-g7mw-5cq6-fv82,,>= 0
+Malicious Package in carloprojectdiscord,carloprojectdiscord,https://github.com//advisories/GHSA-9rwj-8mh9-4876,,>= 0
+Cross-Site Scripting in google-closure-library,google-closure-library,https://github.com//advisories/GHSA-r9q4-w3fm-wrm2,,< 20190301.0.0
+Cross-Site Scripting in jquery-mobile,jquery-mobile,https://github.com//advisories/GHSA-fj93-7wm4-8x2g,,>= 0
+Cross-Site Scripting in fomantic-ui,fomantic-ui,https://github.com//advisories/GHSA-788m-pj96-7w2c,,< 2.7.0
+Malicious Package in donotinstallthis,donotinstallthis,https://github.com//advisories/GHSA-73hr-6785-f5p8,,>= 0
+Sandbox Breakout / Arbitrary Code Execution in value-censorship,value-censorship,https://github.com//advisories/GHSA-xrr6-6ww3-f3qm,,>= 0
+Malicious Package in destroyer-of-worlds,destroyer-of-worlds,https://github.com//advisories/GHSA-w3f3-4j22-2v3p,,>= 0
+Cross-Site Scripting in ag-grid-community,ag-grid-community,https://github.com//advisories/GHSA-7p6w-x2gr-rrf8,,< 14.0.0
+Malicious Package in reqest,reqest,https://github.com//advisories/GHSA-hg5q-rj62-c43g,,>= 0
+Malicious Package in saync,saync,https://github.com//advisories/GHSA-pm9v-325f-5g74,,>= 0
+Malicious Package in bowee,bowee,https://github.com//advisories/GHSA-wgvj-6v57-wjh3,,>= 0
+Malicious Package in bowe,bowe,https://github.com//advisories/GHSA-xmmp-hrmx-x5g7,,>= 0
+Malicious Package in whiteproject,whiteproject,https://github.com//advisories/GHSA-8j7x-pr59-m5h8,,>= 0
+Malicious Package in browserift,browserift,https://github.com//advisories/GHSA-43vf-2x6g-p2m5,,>= 0
+Malicious Package in colro-name,colro-name,https://github.com//advisories/GHSA-jp9g-5x75-ccp8,,>= 0
+Malicious Package in colour-string,colour-string,https://github.com//advisories/GHSA-8mmf-qp7j-2w24,,>= 0
+Malicious Package in froever,froever,https://github.com//advisories/GHSA-2r8f-2665-3gxq,,>= 0
+Malicious Package in hulp,hulp,https://github.com//advisories/GHSA-fqw7-8v6m-2f86,,>= 0
+Malicious Package in jqeury,jqeury,https://github.com//advisories/GHSA-4964-cjrr-jg97,,>= 0
+Malicious Package in jquerz,jquerz,https://github.com//advisories/GHSA-c6f3-3c98-2j2f,,>= 0
+Malicious Package in require-ports,require-ports,https://github.com//advisories/GHSA-qj3g-wfr7-3cv7,,>= 0
+Malicious Package in logsymbles,logsymbles,https://github.com//advisories/GHSA-vcg5-9xw6-r56c,,>= 0
+Malicious Package in uglyfi-js,uglyfi-js,https://github.com//advisories/GHSA-9xww-fwh9-95c5,,>= 0
+Malicious Package in tensorplow,tensorplow,https://github.com//advisories/GHSA-m2fp-c79h-rr79,,>= 0
+Malicious Package in yeoman-genrator,yeoman-genrator,https://github.com//advisories/GHSA-fm7r-2pr7-rw2p,,>= 0
+Malicious Package in rimrafall,rimrafall,https://github.com//advisories/GHSA-8hq2-fcqm-39hq,,>= 0
+Malicious Package in kraken-api,kraken-api,https://github.com//advisories/GHSA-fgfj-rj24-mj7q,,= 0.1.8
+Sensitive Data Exposure in loopback,loopback,https://github.com//advisories/GHSA-724c-6vrf-99rq,,"<= 2.41.0>= 3.0.0, <= 3.25.0"
+Denial of Service in ipfs-bitswap,ipfs-bitswap,https://github.com//advisories/GHSA-6fcr-9h9g-23fq,,< 0.24.1
+Malicious Package in font-scrubber,font-scrubber,https://github.com//advisories/GHSA-65j7-66p7-9xgf,,>= 0
+Malicious Package in shrugging-logging,shrugging-logging,https://github.com//advisories/GHSA-qv78-398w-cxp7,,>= 0
+Malicious Package in angular-location-update,angular-location-update,https://github.com//advisories/GHSA-53jx-4wwh-gcqj,,= 0.0.3
+Malicious Package in angluar-cli,angluar-cli,https://github.com//advisories/GHSA-8mm3-2mcj-cx6r,,>= 0
+Malicious Package in commqnder,commqnder,https://github.com//advisories/GHSA-4xgp-xrg3-c73w,,>= 0
+Malicious Package in geoheat,geoheat,https://github.com//advisories/GHSA-p32g-242c-76h3,,= 1.3.2
+Malicious Package in electron-native-notify,electron-native-notify,https://github.com//advisories/GHSA-j8qr-rvcv-crhv,,>= 0
+Malicious Package in ember-power-timepicker,ember-power-timepicker,https://github.com//advisories/GHSA-28f8-hqmc-7ph8,,= 1.0.8
+Malicious Package in commmander,commmander,https://github.com//advisories/GHSA-q42c-rrp3-r3xm,,>= 0
+Malicious Package in blubird,blubird,https://github.com//advisories/GHSA-rvww-x6m4-4vc2,,>= 0
+Malicious Package in epress,epress,https://github.com//advisories/GHSA-vf8q-pw7h-r2x2,,>= 0
+Malicious Package in test-module-a,test-module-a,https://github.com//advisories/GHSA-76xq-58hj-vwm2,,>= 0
+Malicious Package in github-jquery-widgets,github-jquery-widgets,https://github.com//advisories/GHSA-c722-pv5w-cfg2,,= 0.1.2
+Malicious Package in grunt-radical,grunt-radical,https://github.com//advisories/GHSA-4627-w373-375v,,= 0.0.14
+Malicious Package in grunt-radic,grunt-radic,https://github.com//advisories/GHSA-9p49-cwh3-4qhf,,= 0.1.1
+Malicious Package in precode.js,precode.js,https://github.com//advisories/GHSA-5w4r-wwc3-6qcp,,= 1.1.1
+Malicious Package in radic-util,radic-util,https://github.com//advisories/GHSA-8qh7-xw58-3ww7,,= 1.0.2
+Malicious Package in scroool,scroool,https://github.com//advisories/GHSA-p7w2-mc6m-mfx2,,= 0.1.7
+Malicious Package in ngx-pica,ngx-pica,https://github.com//advisories/GHSA-76wf-2xcf-6wmx,,= 1.1.5
+Malicious Package in pm-controls,pm-controls,https://github.com//advisories/GHSA-84qj-9qf2-q92r,,= 1.1.8
+Malicious Package in radicjs,radicjs,https://github.com//advisories/GHSA-56r9-v65c-34jm,,= 0.2.1
+Malicious Package in leaflet-gpx,leaflet-gpx,https://github.com//advisories/GHSA-gjc9-932x-c59p,,= 1.0.1
+Malicious Package in libubx,libubx,https://github.com//advisories/GHSA-m7xv-7p93-g6q8,,= 1.0.3
+Malicious Package in jekyll-for-github-projects,jekyll-for-github-projects,https://github.com//advisories/GHSA-j5qg-46p9-w2rp,,= 0.2.12
+Malicious Package in react-datepicker-plus,react-datepicker-plus,https://github.com//advisories/GHSA-4wcx-c9c4-89p2,,">= 2.4.2, <= 2.4.3"
+Malicious Package in ng-ui-library,ng-ui-library,https://github.com//advisories/GHSA-2xw5-3767-qxvm,,= 1.0.987
+Malicious Package in motiv.scss,motiv.scss,https://github.com//advisories/GHSA-2vqq-jgxx-fxjc,,= 0.4.20
+Malicious Package in mx-nested-menu,mx-nested-menu,https://github.com//advisories/GHSA-48hw-37g6-3gw4,,= 0.1.30
+SQL Injection in sails-mysql,sails-mysql,https://github.com//advisories/GHSA-hx5x-49mm-vmhw,,< 0.10.8
+Malicious Package in vue-backbone,vue-backbone,https://github.com//advisories/GHSA-5635-9mvj-r6hp,,= 0.1.2
+Malicious Package in maleficent,maleficent,https://github.com//advisories/GHSA-cr5w-6rv4-r2qg,,>= 0
+Command Injection in expressfs,expressfs,https://github.com//advisories/GHSA-mxmj-84q8-34r7,,>= 0
+Command Injection in node-wifi,node-wifi,https://github.com//advisories/GHSA-4x6x-782q-jfc4,,< 2.0.12
+Command Injection in addax,addax,https://github.com//advisories/GHSA-4q8f-5xxj-946r,,< 1.1.0
+Command Injection in soletta-dev-app,soletta-dev-app,https://github.com//advisories/GHSA-8mgg-5x65-m4m4,,>= 0
+Unauthorized File Access in atompm,atompm,https://github.com//advisories/GHSA-v86x-f47q-f7f4,,< 0.8.2
+Denial of Service in node-sass,node-sass,https://github.com//advisories/GHSA-9v62-24cr-58cx,,">= 3.3.0, < 4.13.1"
+Command Injection in wxchangba,wxchangba,https://github.com//advisories/GHSA-j6v9-xgvh-f796,,>= 0.0.0
+Incorrect Calculation in bigint-money,bigint-money,https://github.com//advisories/GHSA-9r3m-mhfm-39cm,,< 0.6.2
+SQL Injection in resquel,resquel,https://github.com//advisories/GHSA-crpm-fm48-chj7,,>= 0
+Path Traversal in serve,serve,https://github.com//advisories/GHSA-48gc-5j93-5cfq,,< 10.1.2
+Cross-Site Scripting in serve,serve,https://github.com//advisories/GHSA-xw79-hhv6-578c,,< 10.0.2
+Cross-Site Scripting in swagger-ui,swagger-ui,https://github.com//advisories/GHSA-4f9m-pxwh-68hg,,< 3.20.9
+Command Injection in wizard-syncronizer,wizard-syncronizer,https://github.com//advisories/GHSA-wgw3-gf4p-62xc,,>= 0.0.0
+Cross-Site Scripting in diagram-js,diagram-js,https://github.com//advisories/GHSA-8fw4-xh83-3j6q,,"< 2.6.2>= 3.0.0, < 3.3.1"
+Cross-Site Scripting in swagger-ui,swagger-ui,https://github.com//advisories/GHSA-388g-jwpg-x6j4,,< 3.0.13
+Cross-Site Scripting in diagram-js-direct-editing,diagram-js-direct-editing,https://github.com//advisories/GHSA-j8r2-2x94-2q67,,< 1.4.3
+Cross-Site Scripting in swagger-ui,swagger-ui,https://github.com//advisories/GHSA-vp93-gcx5-4w52,,< 2.2.1
+Cross-Site Scripting in swagger-ui,swagger-ui,https://github.com//advisories/GHSA-22q9-hqm5-mhmc,,< 2.2.1
+SQL Injection in untitled-model,untitled-model,https://github.com//advisories/GHSA-hq8g-qq57-5275,,>= 0
+Cross-Site Scripting in swagger-ui,swagger-ui,https://github.com//advisories/GHSA-w992-2gmj-9xxj,,< 2.2.1
+Cross-Site Scripting in serve,serve,https://github.com//advisories/GHSA-cpgr-wmr9-qxv4,,< 10.0.2
+Cross-Site Scripting in node-red,node-red,https://github.com//advisories/GHSA-5g6j-8hv4-vfgj,,< 0.18.6
+Prototype Pollution in mergify,mergify,https://github.com//advisories/GHSA-3f95-w5h5-fq86,,>= 0
+Command Injection in entitlements,entitlements,https://github.com//advisories/GHSA-g8vp-6hv4-m67c,,< 1.3.0
+Path Traversal in bruteser,bruteser,https://github.com//advisories/GHSA-v7cp-5326-54fh,,< 0.1.0
+Path Traversal in ponse,ponse,https://github.com//advisories/GHSA-wfhx-6pcm-7m55,,< 2.0.2
+Command Injection in pullit,pullit,https://github.com//advisories/GHSA-8px5-63x9-5c7p,,< 1.4.0
+Sensitive Data Exposure in put,put,https://github.com//advisories/GHSA-v6gv-fg46-h89j,,>= 0
+Path Traversal in file-static-server,file-static-server,https://github.com//advisories/GHSA-qjfh-xc44-rm9x,,>= 0.0.0
+Malicious Package in smartsearchwp,smartsearchwp,https://github.com//advisories/GHSA-fgp6-8g62-qx6w,,>= 0
+Arbitrary Code Execution in require-node,require-node,https://github.com//advisories/GHSA-8j6j-4h2c-c65p,,"< 1.3.4> 2.0.0, < 2.0.4"
+Cross-Site Scripting in @berslucas/liljs,@berslucas/liljs,https://github.com//advisories/GHSA-c53x-wwx2-pg96,,< 1.0.2
+Command Injection in local-devices,local-devices,https://github.com//advisories/GHSA-w725-67p7-xv22,,< 3.0.0
+Cross-Site Scripting in @ionic/core,@ionic/core,https://github.com//advisories/GHSA-r3xc-47qg-h929,,"< 4.0.3>= 4.1.0, < 4.1.3>= 4.2.0, < 4.2.1>= 4.3.0, < 4.3.1"
+Malicious Package in rpc-websocket,rpc-websocket,https://github.com//advisories/GHSA-x87g-rgrh-r6g3,,>= 0.7.7
+Cross-Site Scripting in eco,eco,https://github.com//advisories/GHSA-r32x-jhw5-g48p,,>= 0.0.0
+Path Traversal in zero,zero,https://github.com//advisories/GHSA-crf7-fvjx-863q,,< 1.0.6
+Cross-Site Scripting in graylog-web-interface,graylog-web-interface,https://github.com//advisories/GHSA-9qgh-7pgp-hp7r,,>= 0.0.0
+Open Redirect in apostrophe,apostrophe,https://github.com//advisories/GHSA-h97g-4mx7-5p2p,,< 2.92.0
+Sandbox Breakout / Arbitrary Code Execution in safe-eval,safe-eval,https://github.com//advisories/GHSA-9pcf-h8q9-63f6,,>= 0.0.0
+Undefined Behavior in zencashjs,zencashjs,https://github.com//advisories/GHSA-xfrc-7mj2-5xh9,,< 1.2.0
+Cross-Site Scripting in bleach,bleach,https://github.com//advisories/GHSA-5634-rv46-48jf,,>= 0.0.0
+Cross-Site Scripting in jquery.json-viewer,jquery.json-viewer,https://github.com//advisories/GHSA-v9wp-8r97-v6xg,,< 1.3.0
+Path Traversal in restify-swagger-jsdoc,restify-swagger-jsdoc,https://github.com//advisories/GHSA-gvff-25cc-4f66,,< 3.2.1
+Cross-Site Scripting in takeapeek,takeapeek,https://github.com//advisories/GHSA-4q2f-8g74-qm56,,>= 0.0.0
+Reverse Tabnabbing in quill,quill,https://github.com//advisories/GHSA-588m-9qg5-35pq,,< 1.3.7
+Malicious Package in malicious-do-not-install,malicious-do-not-install,https://github.com//advisories/GHSA-6879-xr95-5gf4,,>= 0.0.0
+Malicious Package in leetlog,leetlog,https://github.com//advisories/GHSA-gfm8-g3vm-53jh,,>= 0.1.2
+Malicious Package in maybemaliciouspackage,maybemaliciouspackage,https://github.com//advisories/GHSA-m9r7-q9fc-qwx5,,>= 0.0.0
+Malicious Package in my-very-own-package,my-very-own-package,https://github.com//advisories/GHSA-crr2-ph72-c52g,,>= 0.0.0
+Malicious Package in only-test-not-install,only-test-not-install,https://github.com//advisories/GHSA-g9wf-393q-4w38,,>= 0.0.0
+Malicious Package in ali-contributor,ali-contributor,https://github.com//advisories/GHSA-h3m2-h22h-695r,,>= 0.0.0
+Malicious Package in ali-contributors,ali-contributors,https://github.com//advisories/GHSA-8m5v-f2wp-wqr9,,>= 0.0.0
+Malicious Package in alico,alico,https://github.com//advisories/GHSA-jfx5-7mr2-g8hg,,>= 0.0.0
+Malicious Package in alipayjsapi,alipayjsapi,https://github.com//advisories/GHSA-rjhc-w3fj-j6x9,,>= 0.0.0
+Malicious Package in antd-cloud,antd-cloud,https://github.com//advisories/GHSA-j4vm-hg8g-g9qv,,>= 0.0.0
+Malicious Package in appx-compiler,appx-compiler,https://github.com//advisories/GHSA-8q2c-2396-hf7j,,>= 0.0.0
+Malicious Package in diamond-clien,diamond-clien,https://github.com//advisories/GHSA-86gv-xpwv-jprc,,>= 0.0.0
+Malicious Package in cicada-render,cicada-render,https://github.com//advisories/GHSA-6m6m-j2hm-pxrg,,>= 0.0.0
+Malicious Package in hpmm,hpmm,https://github.com//advisories/GHSA-vxfp-qmpq-6826,,>= 0.0.0
+Malicious Package in hsf-clients,hsf-clients,https://github.com//advisories/GHSA-g5q2-fcg9-j526,,>= 0.0.0
+Malicious Package in luna-mock,luna-mock,https://github.com//advisories/GHSA-qm4q-f956-fg64,,>= 0.0.0
+Malicious Package in midway-dataproxy,midway-dataproxy,https://github.com//advisories/GHSA-mq9h-cwc2-6j5r,,>= 0.0.0
+Malicious Package in midway-xtpl,midway-xtpl,https://github.com//advisories/GHSA-w65v-hx54-xrqx,,>= 0.0.0
+Malicious Package in node-buc,node-buc,https://github.com//advisories/GHSA-x3m6-rprw-862w,,>= 0.0.0
+Malicious Package in retcodelog,retcodelog,https://github.com//advisories/GHSA-j8hw-49gg-vq3w,,>= 0.0.0
+Malicious Package in qingting,qingting,https://github.com//advisories/GHSA-559q-92vx-xvjp,,>= 0.0.0
+Malicious Package in river-mock,river-mock,https://github.com//advisories/GHSA-2h3x-95c6-885r,,>= 0.0.0
+Malicious Package in secure_identity_login_module,secure_identity_login_module,https://github.com//advisories/GHSA-59x8-7wx6-4hj9,,>= 0.0.0
+Malicious Package in tiar,tiar,https://github.com//advisories/GHSA-4hjg-w3ww-38c6,,>= 0.0.0
+Prototype Pollution in lodash.merge,lodash.merge,https://github.com//advisories/GHSA-h726-x36v-rx45,,< 4.6.2
+Prototype Pollution in lodash.merge,lodash.merge,https://github.com//advisories/GHSA-2m96-9w4j-wgv7,,< 4.6.1
+Prototype Pollution in lodash.defaultsdeep,lodash.defaultsdeep,https://github.com//advisories/GHSA-h5mp-5q4p-ggf5,,< 4.6.1
+Prototype Pollution in lodash.mergewith,lodash.mergewith,https://github.com//advisories/GHSA-5947-m4fg-xhqg,,< 4.6.1
+Prototype Pollution in lodash.defaultsdeep,lodash.defaultsdeep,https://github.com//advisories/GHSA-46fh-8fc5-xcwx,,< 4.6.1
+Prototype Pollution in lodash.mergewith,lodash.mergewith,https://github.com//advisories/GHSA-779f-wgxg-qr8f,,< 4.6.2
+Malicious Package in sdfjghlkfjdshlkjdhsfg,sdfjghlkfjdshlkjdhsfg,https://github.com//advisories/GHSA-gcfc-mgg3-8j2c,,>= 0.0.0
+Malicious Package in deasyncp,deasyncp,https://github.com//advisories/GHSA-qfc9-x7gv-27jr,,>= 0.0.0
+Malicious Package in nodes.js,nodes.js,https://github.com//advisories/GHSA-38vq-cjh5-vw7x,,>= 0.0.0
+Local File Inclusion in domokeeper,domokeeper,https://github.com//advisories/GHSA-cr67-78jr-j94p,,>= 0.0.0
+Regular Expression Denial of Service in marked,marked,https://github.com//advisories/GHSA-ch52-vgq2-943f,,">= 0.4.0, < 0.7.0"
+Cross-Site Scripting in bpmn-js-properties-panel,bpmn-js-properties-panel,https://github.com//advisories/GHSA-vpj4-89q8-rh38,,< 0.31.0
+Cross-Site Scripting in cmmn-js-properties-panel,cmmn-js-properties-panel,https://github.com//advisories/GHSA-vmh4-322v-cfpc,,< 0.8.0
+Cross-Site Scripting in dmn-js-properties-panel,dmn-js-properties-panel,https://github.com//advisories/GHSA-h9wr-xr4r-66fh,,< 0.3.0
+Malicious Package in load-from-cwd-or-npm,load-from-cwd-or-npm,https://github.com//advisories/GHSA-jxf5-7x3j-8j9m,,= 3.0.2
+Malicious Package in rate-map,rate-map,https://github.com//advisories/GHSA-x48m-gp6r-gp4v,,= 1.0.3
+Malicious Package in cage-js,cage-js,https://github.com//advisories/GHSA-jf8x-wg7f-p3w8,,>= 0.0.0
+Malicious Package in fast-requests,fast-requests,https://github.com//advisories/GHSA-wjf2-7f9g-86f5,,>= 0.0.0
+Authentication Bypass in otpauth,otpauth,https://github.com//advisories/GHSA-rmmc-8cqj-hfp3,,< 3.2.8
+Cross-Site Scripting in console-feed,console-feed,https://github.com//advisories/GHSA-g9wg-wq4f-2x5w,,< 2.8.10
+Malicious Package in anarchy,anarchy,https://github.com//advisories/GHSA-jjhg-qw5v-r8xx,,>= 0.0.0
+Sandbox Breakout / Arbitrary Code Execution in notevil,notevil,https://github.com//advisories/GHSA-7r5f-7qr4-pf6q,,< 1.3.2
+Path Traversal in f-serv,f-serv,https://github.com//advisories/GHSA-vx5w-cxch-wwc9,,>= 0.0.0
+Prototype Pollution in mithril,mithril,https://github.com//advisories/GHSA-c3px-v9c7-m734,,"< 1.1.7>= 2.0.0, < 2.0.2"
+Denial of Service in grpc-ts-health-check,grpc-ts-health-check,https://github.com//advisories/GHSA-m86m-5m44-pc93,,< 2.0.0
+Malicious Package in sailclothjs,sailclothjs,https://github.com//advisories/GHSA-m5pf-5894-jmx7,,= 1.2.6
+Malicious Package in cal_rd,cal_rd,https://github.com//advisories/GHSA-226w-6hhj-69hp,,>= 0.0.0
+Malicious Package in zemen,zemen,https://github.com//advisories/GHSA-377f-vvrc-9wgg,,= 0.0.5
+Malicious Package in uploader-plugin,uploader-plugin,https://github.com//advisories/GHSA-fx6f-fpfv-5hmc,,= 1.0.2
+Malicious Package in jquery-airload,jquery-airload,https://github.com//advisories/GHSA-78p3-96hc-3j47,,= 0.2.5
+Malicious Package in iie-viz,iie-viz,https://github.com//advisories/GHSA-jf55-rgpx-p6rx,,= 1.0.4
+Malicious Package in @fangrong/xoc,@fangrong/xoc,https://github.com//advisories/GHSA-pjxp-f379-6284,,= 1.0.6
+Malicious Package in ngx-context-menu,ngx-context-menu,https://github.com//advisories/GHSA-xwg3-gjxh-c8pm,,= 0.0.26
+Malicious Package in pyramid-proportion,pyramid-proportion,https://github.com//advisories/GHSA-v6vv-hhqc-6hh2,,= 1.0.5
+Malicious Package in pensi-scheduler,pensi-scheduler,https://github.com//advisories/GHSA-j4ch-mw66-xmqv,,= 1.1.3
+Malicious Package in slush-fullstack-framework,slush-fullstack-framework,https://github.com//advisories/GHSA-4j54-mmmv-hjpm,,= 0.9.2
+Malicious Package in device-mqtt,device-mqtt,https://github.com//advisories/GHSA-563h-697m-j7x5,,= 1.0.11
+Malicious Package in bb-builder,bb-builder,https://github.com//advisories/GHSA-vm6v-w6q2-mrrq,,>= 0.0.0
+Authorization Bypass in graphql-shield,graphql-shield,https://github.com//advisories/GHSA-hx78-272p-mqqh,,< 6.0.6
+Command Injection in marsdb,marsdb,https://github.com//advisories/GHSA-5mrr-rgp6-x4gr,,>= 0.0.0
+Malicious Package in axios-http,axios-http,https://github.com//advisories/GHSA-r2rg-683g-ff96,,>= 0.0.0
+Malicious Package in axioss,axioss,https://github.com//advisories/GHSA-8w9j-6wg6-qv4f,,>= 0.0.0
+Malicious Package in body-parse-xml,body-parse-xml,https://github.com//advisories/GHSA-jcmh-9fvm-j39w,,>= 0.0.0
+Malicious Package in file-logging,file-logging,https://github.com//advisories/GHSA-wwwg-6r7f-9c9h,,>= 0.0.0
+Malicious Package in js-base64-int,js-base64-int,https://github.com//advisories/GHSA-76qf-6mvw-c5hm,,>= 0.0.0
+Malicious Package in import-mysql,import-mysql,https://github.com//advisories/GHSA-whjr-jj69-7prm,,>= 0.0.0
+Malicious Package in js-regular,js-regular,https://github.com//advisories/GHSA-qcc9-q247-3m2m,,>= 0.0.0
+Malicious Package in k0a_multer,k0a_multer,https://github.com//advisories/GHSA-v95x-h953-x7fg,,>= 0.0.0
+Malicious Package in koa-body-parse,koa-body-parse,https://github.com//advisories/GHSA-wqgq-mfvj-6qxp,,>= 0.0.0
+Malicious Package in mogobd,mogobd,https://github.com//advisories/GHSA-jchg-g94r-64qg,,>= 0.0.0
+Malicious Package in mogodb,mogodb,https://github.com//advisories/GHSA-w3pp-wp5v-fjvp,,>= 0.0.0
+Malicious Package in mogodb-core,mogodb-core,https://github.com//advisories/GHSA-g4m3-rpxr-h7vg,,>= 0.0.0
+Malicious Package in mogoose,mogoose,https://github.com//advisories/GHSA-5mm9-55c9-p5r7,,>= 0.0.0
+Malicious Package in mysql-koa,mysql-koa,https://github.com//advisories/GHSA-x45v-pvpg-hcrh,,>= 0.0.0
+Malicious Package in node-ftp,node-ftp,https://github.com//advisories/GHSA-5jgp-pg4f-q8vj,,>= 0.0.0
+Malicious Package in node-spdy,node-spdy,https://github.com//advisories/GHSA-wfjh-3hq2-r276,,>= 0.0.0
+Malicious Package in serializes,serializes,https://github.com//advisories/GHSA-j899-348x-h3rq,,>= 0.0.0
+Malicious Package in serilize,serilize,https://github.com//advisories/GHSA-fw76-p9p2-6pvf,,>= 0.0.0
+Malicious Package in sparkies,sparkies,https://github.com//advisories/GHSA-c4fm-46gm-4469,,>= 0.0.0
+Denial of Service in sequelize,sequelize,https://github.com//advisories/GHSA-fw4p-36j9-rrj3,,< 4.44.4
+Path Traversal in public,public,https://github.com//advisories/GHSA-4vvp-x9h2-x2vf,,>= 0.0.0
+Regular Expression Denial of Service in simple-markdown,simple-markdown,https://github.com//advisories/GHSA-4xf9-pgvv-xx67,,< 0.5.2
+Unintended Require in larvitbase-www,larvitbase-www,https://github.com//advisories/GHSA-88h9-fc6v-jcw7,,>= 0.0.0
+Malicious Package in evil-package,evil-package,https://github.com//advisories/GHSA-p62r-jf56-h429,,>= 0.0.0
+Regular Expression Denial of Service in sql-injection,sql-injection,https://github.com//advisories/GHSA-hvxq-j2r4-4jm8,,>= 0.0.0
+Denial of Service in @hapi/subtext,@hapi/subtext,https://github.com//advisories/GHSA-4rgj-8mq3-hggj,,< 6.1.2
+Denial of Service in @commercial/subtext,@commercial/subtext,https://github.com//advisories/GHSA-fvwr-h9xh-m6wc,,< 5.1.1
+Cross-Site Scripting in snekserve,snekserve,https://github.com//advisories/GHSA-hv4w-jhcj-6wfw,,>= 0.0.0
+Denial of Service in subtext,subtext,https://github.com//advisories/GHSA-2mvq-xp48-4c77,,>= 0.0.0
+Cross-Site Scripting in mavon-editor,mavon-editor,https://github.com//advisories/GHSA-jfcc-rm7f-xgf8,,< 2.8.2
+Path Traversal in swagger-injector,swagger-injector,https://github.com//advisories/GHSA-v4x8-gw49-7hv4,,>= 0.0.0
+Path Traversal in @wturyn/swagger-injector,@wturyn/swagger-injector,https://github.com//advisories/GHSA-4x7w-frcq-v4m3,,>= 0.0.0
+Configuration Override in helmet-csp,helmet-csp,https://github.com//advisories/GHSA-c3m8-x3cg-qm2c,,">= 1.2.2, < 2.9.1"
+Malicious Package in discord.js-user,discord.js-user,https://github.com//advisories/GHSA-69r6-7h4f-9p7q,,>= 0.0.0
+Denial of Service in apostrophe,apostrophe,https://github.com//advisories/GHSA-pv6r-vchh-cxg9,,< 2.97.1
+Sensitive Data Exposure in ibm_db,ibm_db,https://github.com//advisories/GHSA-p77h-hv6g-fmfp,,< 2.6.0
+Denial of Service in http-live-simulator,http-live-simulator,https://github.com//advisories/GHSA-xgp2-cc4r-7vf6,,< 1.0.8
+Malicious Package in bmap,bmap,https://github.com//advisories/GHSA-p59g-6cqr-m73w,,= 1.0.3
+Malicious Package in comander,comander,https://github.com//advisories/GHSA-4xg9-g7qj-jhg4,,>= 0.0.0
+Malicious Package in json-serializer,json-serializer,https://github.com//advisories/GHSA-chh2-rvhg-wqwr,,= 2.0.10
+Malicious Package in log-symboles,log-symboles,https://github.com//advisories/GHSA-h232-fpqx-mqgr,,>= 0.0.0
+Malicious Package in pizza-pasta,pizza-pasta,https://github.com//advisories/GHSA-wxrm-2h86-v95f,,>= 0.0.0
+Malicious Package in require-port,require-port,https://github.com//advisories/GHSA-rrvm-gqq8-q2wx,,>= 0.0.0
+Malicious Package in yeoman-genrator,yeoman-genrator,https://github.com//advisories/GHSA-f7g4-fm4c-54m9,,>= 0.0.0
+Malicious Package in harmlesspackage,harmlesspackage,https://github.com//advisories/GHSA-8hmr-w35f-3qgj,,>= 0.0.0
+Malicious Package in ember_cli_babe,ember_cli_babe,https://github.com//advisories/GHSA-vm7j-4rj6-mw2p,,>= 0.0.0
+Malicious Package in 8.9.4,8.9.4,https://github.com//advisories/GHSA-725f-3pw7-rq6x,,>= 0.0.0
+Denial of Service in mongodb,mongodb,https://github.com//advisories/GHSA-mh5c-679w-hh4r,,< 3.1.13
+Malicious Package in uglyfi.js,uglyfi.js,https://github.com//advisories/GHSA-8jf2-cq6v-w234,,>= 0.0.0
+Cross-Site Scripting in hexo-admin,hexo-admin,https://github.com//advisories/GHSA-phph-xpj4-wvcv,,>= 0.0.0
+Denial of Service in express-fileupload,express-fileupload,https://github.com//advisories/GHSA-q3w9-g74q-vp5f,,< 1.1.6-alpha.6<= 1.1.3-alpha.2<= 1.1.2-alpha.1<= 1.1.1-alpha.3<= 1.0.0-alpha.1
+Unauthorized File Access in node-git-server,node-git-server,https://github.com//advisories/GHSA-cv3v-7846-6pxm,,< 0.6.1
+Cross-Site Scripting in markdown-to-jsx,markdown-to-jsx,https://github.com//advisories/GHSA-ccrp-c664-8p4j,,< 6.11.4
+Sandbox Breakout / Arbitrary Code Execution in safer-eval,safer-eval,https://github.com//advisories/GHSA-876r-hj45-fw7g,,>= 0.0.0
+Insecure Cryptography Algorithm in simple-crypto-js,simple-crypto-js,https://github.com//advisories/GHSA-5v7r-jg9r-vq44,,< 2.3.0
+Authentication Bypass in saml2-js,saml2-js,https://github.com//advisories/GHSA-mfcp-34xw-p57x,,< 2.0.5
+Cross-Site Scripting in dompurify,dompurify,https://github.com//advisories/GHSA-mjjq-c88q-qhr6,,< 2.0.7
+Malicious Package in b5ffer-xor,b5ffer-xor,https://github.com//advisories/GHSA-jvfv-jhw9-jmpp,,>= 0.0.0
+Malicious Package in beffer-xor,beffer-xor,https://github.com//advisories/GHSA-7cvf-p83w-48q6,,>= 0.0.0
+Malicious Package in bqffer-xor,bqffer-xor,https://github.com//advisories/GHSA-pxqp-mv67-g528,,>= 0.0.0
+Malicious Package in btffer-xor,btffer-xor,https://github.com//advisories/GHSA-8hrq-9wm7-v3jw,,>= 0.0.0
+Malicious Package in bubfer-xor,bubfer-xor,https://github.com//advisories/GHSA-vm67-mh96-95mq,,>= 0.0.0
+Malicious Package in bufber-xor,bufber-xor,https://github.com//advisories/GHSA-p9g3-vpvp-hcj5,,>= 0.0.0
+Malicious Package in budfer-xor,budfer-xor,https://github.com//advisories/GHSA-6584-gfwm-3vc3,,>= 0.0.0
+Malicious Package in buffar-xor,buffar-xor,https://github.com//advisories/GHSA-f64g-whxf-w8f2,,>= 0.0.0
+Malicious Package in buffdr-xor,buffdr-xor,https://github.com//advisories/GHSA-8549-p68h-m9mc,,>= 0.0.0
+Malicious Package in bufder-xor,bufder-xor,https://github.com//advisories/GHSA-w9q5-mvc6-5cw3,,>= 0.0.0
+Malicious Package in buffe2-xor,buffe2-xor,https://github.com//advisories/GHSA-3f97-rj68-2pjf,,>= 0.0.0
+Malicious Package in buffeb-xor,buffeb-xor,https://github.com//advisories/GHSA-5ggx-g294-qj3q,,>= 0.0.0
+Malicious Package in buffep-xor,buffep-xor,https://github.com//advisories/GHSA-73wv-v82c-xmqv,,>= 0.0.0
+Malicious Package in buffer-8or,buffer-8or,https://github.com//advisories/GHSA-4hm7-73ch-vm59,,>= 0.0.0
+Malicious Package in buffer-hor,buffer-hor,https://github.com//advisories/GHSA-wh87-3959-vfrq,,>= 0.0.0
+Malicious Package in buffer-por,buffer-por,https://github.com//advisories/GHSA-6xg2-cf6h-x4v8,,>= 0.0.0
+Malicious Package in buffer-xgr,buffer-xgr,https://github.com//advisories/GHSA-mp55-2274-4pj8,,>= 0.0.0
+Malicious Package in buffer-xkr,buffer-xkr,https://github.com//advisories/GHSA-rw53-q8x7-ccx8,,>= 0.0.0
+Malicious Package in buffer-xmr,buffer-xmr,https://github.com//advisories/GHSA-5327-gfq5-8f4m,,>= 0.0.0
+Malicious Package in buffer-xnr,buffer-xnr,https://github.com//advisories/GHSA-c4hh-fg8x-6h9p,,>= 0.0.0
+Malicious Package in buffer-xo2,buffer-xo2,https://github.com//advisories/GHSA-f72h-wf57-7xwh,,>= 0.0.0
+Malicious Package in buffer-xob,buffer-xob,https://github.com//advisories/GHSA-gpg2-7r7j-4pm9,,>= 0.0.0
+Malicious Package in buffer-xop,buffer-xop,https://github.com//advisories/GHSA-jqjg-v355-hr9q,,>= 0.0.0
+Malicious Package in buffer-xos,buffer-xos,https://github.com//advisories/GHSA-h2j3-gg8w-4858,,>= 0.0.0
+Malicious Package in buffer-xov,buffer-xov,https://github.com//advisories/GHSA-3h9m-9g3g-5wqx,,>= 0.0.0
+Malicious Package in buffer-xoz,buffer-xoz,https://github.com//advisories/GHSA-j6x7-42x2-hpcf,,>= 0.0.0
+Malicious Package in buffer-yor,buffer-yor,https://github.com//advisories/GHSA-g2c4-4m64-vxm3,,>= 0.0.0
+Malicious Package in buffer-zor,buffer-zor,https://github.com//advisories/GHSA-f294-27fc-wgj7,,>= 0.0.0
+Malicious Package in buffermxor,buffermxor,https://github.com//advisories/GHSA-536f-268f-6gxc,,>= 0.0.0
+Malicious Package in buffes-xor,buffes-xor,https://github.com//advisories/GHSA-28f4-mjfq-qrvf,,>= 0.0.0
+Malicious Package in buffev-xor,buffev-xor,https://github.com//advisories/GHSA-x3w4-mrmv-cw2x,,>= 0.0.0
+Malicious Package in buffez-xor,buffez-xor,https://github.com//advisories/GHSA-7frr-c83r-fm22,,>= 0.0.0
+Malicious Package in buffgr-xor,buffgr-xor,https://github.com//advisories/GHSA-r9cj-xj33-4q42,,>= 0.0.0
+Malicious Package in buffmr-xor,buffmr-xor,https://github.com//advisories/GHSA-wv39-cgmm-cq29,,>= 0.0.0
+Malicious Package in buffur-xor,buffur-xor,https://github.com//advisories/GHSA-p7qp-3fh7-pv4p,,>= 0.0.0
+Malicious Package in bufger-xor,bufger-xor,https://github.com//advisories/GHSA-2w8q-69fh-9gq6,,>= 0.0.0
+Malicious Package in bufver-xor,bufver-xor,https://github.com//advisories/GHSA-cr4x-w2v7-4mmf,,>= 0.0.0
+Malicious Package in bufner-xor,bufner-xor,https://github.com//advisories/GHSA-7xf6-cpxm-5mx9,,>= 0.0.0
+Malicious Package in bunfer-xor,bunfer-xor,https://github.com//advisories/GHSA-6f93-xj8r-jp82,,>= 0.0.0
+Malicious Package in bugfer-xor,bugfer-xor,https://github.com//advisories/GHSA-8g64-9cm2-838j,,>= 0.0.0
+Malicious Package in buvfer-xor,buvfer-xor,https://github.com//advisories/GHSA-wjpj-gmc3-5w56,,>= 0.0.0
+Malicious Package in bwffer-xor,bwffer-xor,https://github.com//advisories/GHSA-7qg7-6g3g-8vxg,,>= 0.0.0
+Malicious Package in cuffer-xor,cuffer-xor,https://github.com//advisories/GHSA-6xm4-p6r2-mwrc,,>= 0.0.0
+Malicious Package in fuffer-xor,fuffer-xor,https://github.com//advisories/GHSA-c2g6-57fp-22wp,,>= 0.0.0
+Malicious Package in juffer-xor,juffer-xor,https://github.com//advisories/GHSA-gqq4-937c-2282,,>= 0.0.0
+Malicious Package in ruffer-xor,ruffer-xor,https://github.com//advisories/GHSA-2mxc-m4c3-wqhq,,>= 0.0.0
+Malicious Package in bs-sha3,bs-sha3,https://github.com//advisories/GHSA-88xx-23mf-rcj2,,>= 0.0.0
+Malicious Package in hs-sha3,hs-sha3,https://github.com//advisories/GHSA-6mrq-7r7m-hh4p,,>= 0.0.0
+Malicious Package in j3-sha3,j3-sha3,https://github.com//advisories/GHSA-p3jx-g34v-q56j,,>= 0.0.0
+Malicious Package in jc-sha3,jc-sha3,https://github.com//advisories/GHSA-gfj6-p24g-6hpm,,>= 0.0.0
+Malicious Package in jq-sha3,jq-sha3,https://github.com//advisories/GHSA-x8m7-cv39-xmg9,,>= 0.0.0
+Malicious Package in jr-sha3,jr-sha3,https://github.com//advisories/GHSA-67mp-pcv9-vvq6,,>= 0.0.0
+Malicious Package in js-3ha3,js-3ha3,https://github.com//advisories/GHSA-52c9-458g-whrf,,>= 0.0.0
+Malicious Package in js-cha3,js-cha3,https://github.com//advisories/GHSA-7xf9-74cp-8hx3,,>= 0.0.0
+Malicious Package in js-qha3,js-qha3,https://github.com//advisories/GHSA-vf5m-q45w-8mh9,,>= 0.0.0
+Malicious Package in js-rha3,js-rha3,https://github.com//advisories/GHSA-95cg-3r4g-7w6j,,>= 0.0.0
+Malicious Package in js-sha7,js-sha7,https://github.com//advisories/GHSA-hvgc-mggg-pxr2,,>= 0.0.0
+Malicious Package in js-shas,js-shas,https://github.com//advisories/GHSA-5wq6-v5cw-jvfr,,>= 0.0.0
+Malicious Package in js-shc3,js-shc3,https://github.com//advisories/GHSA-69mf-2cw2-38m8,,>= 0.0.0
+Malicious Package in js-she3,js-she3,https://github.com//advisories/GHSA-f8jj-45fj-44r6,,>= 0.0.0
+Malicious Package in js-shi3,js-shi3,https://github.com//advisories/GHSA-g37j-v5gh-g25c,,>= 0.0.0
+Malicious Package in js-shq3,js-shq3,https://github.com//advisories/GHSA-766v-7gjx-55hf,,>= 0.0.0
+Malicious Package in js-sia3,js-sia3,https://github.com//advisories/GHSA-3mhm-jvqj-fvhg,,>= 0.0.0
+Malicious Package in js-sja3,js-sja3,https://github.com//advisories/GHSA-6343-m2qr-66gf,,>= 0.0.0
+Malicious Package in js-sla3,js-sla3,https://github.com//advisories/GHSA-h6m3-cx24-9626,,>= 0.0.0
+Malicious Package in js-sxa3,js-sxa3,https://github.com//advisories/GHSA-jh67-3wqw-cvhr,,>= 0.0.0
+Malicious Package in js-wha3,js-wha3,https://github.com//advisories/GHSA-785g-gx74-gr39,,>= 0.0.0
+Malicious Package in jsmsha3,jsmsha3,https://github.com//advisories/GHSA-657v-jjf8-83gh,,>= 0.0.0
+Malicious Package in jw-sha3,jw-sha3,https://github.com//advisories/GHSA-8g3r-968r-c644,,>= 0.0.0
+Malicious Package in ks-sha3,ks-sha3,https://github.com//advisories/GHSA-563h-49v8-g7x4,,>= 0.0.0
+Malicious Package in zs-sha3,zs-sha3,https://github.com//advisories/GHSA-7696-qr5q-pg37,,>= 0.0.0
+Malicious Package in ns-sha3,ns-sha3,https://github.com//advisories/GHSA-j67m-jg9p-ppg4,,>= 0.0.0
+Reverse Tabnabbing in showdown,showdown,https://github.com//advisories/GHSA-h6mq-3cj6-h738,,< 1.9.1
+Denial of Service in handlebars,handlebars,https://github.com//advisories/GHSA-f52g-6jhx-586p,,">= 4.0.0, < 4.4.5"
+Machine-In-The-Middle in airtable,airtable,https://github.com//advisories/GHSA-jrj9-5qp6-2v8q,,">= 0.1.19, < 0.7.2"
+Malicious Package in owl-orchard-apple-sunshine,owl-orchard-apple-sunshine,https://github.com//advisories/GHSA-h24p-2c3m-5qf4,,>= 0.0.0
+Malicious Package in sj-tw-test-security,sj-tw-test-security,https://github.com//advisories/GHSA-rcv7-4w2m-gj9v,,>= 0.0.0
+Malicious Package in sj-tw-sec,sj-tw-sec,https://github.com//advisories/GHSA-692h-g37c-qv44,,>= 0.0.0
+Malicious Package in sj-tw-abc,sj-tw-abc,https://github.com//advisories/GHSA-4hfc-fv33-ph9p,,>= 0.0.0
+Malicious Package in arsenic-tabasco-cyborg-peanut-butter,arsenic-tabasco-cyborg-peanut-butter,https://github.com//advisories/GHSA-r742-7j4h-hjr8,,>= 0.0.0
+Malicious Package in superhappyfuntime,superhappyfuntime,https://github.com//advisories/GHSA-6qgx-f452-7699,,>= 0.0.0
+Arbitrary Code Execution in handlebars,handlebars,https://github.com//advisories/GHSA-2cf5-4w76-r9qv,,"< 3.0.8>= 4.0.0, < 4.5.2"
+Malicious Package in sj-labc,sj-labc,https://github.com//advisories/GHSA-4fqg-89cc-5pv5,,>= 0.0.0
+Sandbox Breakout / Arbitrary Code Execution in lighter-vm,lighter-vm,https://github.com//advisories/GHSA-c3hq-7mxh-mqxf,,>= 0.0.0
+Sandbox Breakout / Arbitrary Code Execution in sandbox,sandbox,https://github.com//advisories/GHSA-gc25-3vc5-2jf9,,>= 0.0.0
+Sandbox Breakout / Arbitrary Code Execution in pitboss-ng,pitboss-ng,https://github.com//advisories/GHSA-3gpc-w23c-w59w,,< 2.0.0
+Sandbox Breakout / Arbitrary Code Execution in @zhaoyao91/eval-in-vm,@zhaoyao91/eval-in-vm,https://github.com//advisories/GHSA-jp99-5h8w-gmxc,,>= 0.0.0
+Sandbox Breakout / Arbitrary Code Execution in veval,veval,https://github.com//advisories/GHSA-54qm-37qr-w5wq,,>= 0.0.0
+Malicious Package in malicious-npm-package,malicious-npm-package,https://github.com//advisories/GHSA-49c6-3wr4-8jr4,,>= 0.0.0
+Prototype Pollution in handlebars,handlebars,https://github.com//advisories/GHSA-g9r4-xpmj-mj65,,"< 3.0.8>= 4.0.0, < 4.5.3"
+Arbitrary Code Execution in handlebars,handlebars,https://github.com//advisories/GHSA-q2c6-c6pm-g3gh,,"< 3.0.8>= 4.0.0, < 4.5.3"
+Prototype Pollution in flat-wrap,flat-wrap,https://github.com//advisories/GHSA-g7h8-p22m-2rvx,,>= 0.0.0
+Prototype Pollution in unflatten,unflatten,https://github.com//advisories/GHSA-6fh5-8wq8-w3wr,,>= 0.0.0
+Regular Expression Denial of Service in markdown,markdown,https://github.com//advisories/GHSA-wx77-rp39-c6vg,,> 0.0.0
+Prototype Pollution in reggae,reggae,https://github.com//advisories/GHSA-q9wr-gcjc-hq52,,>= 0.0.0
+Prototype Pollution in get-setter,get-setter,https://github.com//advisories/GHSA-ch82-gqh6-9xj9,,>= 0.0.0
+Prototype Pollution in getsetdeep,getsetdeep,https://github.com//advisories/GHSA-8j49-49jq-vwcq,,>= 0.0.0
+Prototype Pollution in deep-setter,deep-setter,https://github.com//advisories/GHSA-9qrg-h9g8-c65q,,>= 0.0.0
+Prototype Pollution in safe-object2,safe-object2,https://github.com//advisories/GHSA-qccf-q7p4-3q3j,,>= 0.0.0
+Sandbox Breakout / Prototype Pollution in notevil,notevil,https://github.com//advisories/GHSA-9gxr-rhx6-4jgv,,< 1.3.3
+Prototype Pollution in sahmat,sahmat,https://github.com//advisories/GHSA-83pq-466j-fc6j,,>= 0.0.0
+Server-Side Request Forgery in html-pdf-chrome,html-pdf-chrome,https://github.com//advisories/GHSA-5p98-wpc9-g498,,> 0.0.0
+Sandbox Breakout / Arbitrary Code Execution in localeval,localeval,https://github.com//advisories/GHSA-mmqv-m45h-q2hp,,>= 0.0.0
+Malicious Package in cxct,cxct,https://github.com//advisories/GHSA-c5xm-m64m-f2vq,,>= 0.0.0
+Cross-Site Scripting in react,react,https://github.com//advisories/GHSA-hg79-j56m-fxgv,,< 0.14.0
+Malicious Package in babel-laoder,babel-laoder,https://github.com//advisories/GHSA-qp6m-jqfr-2f7v,,>= 0.0.0
+Malicious Package in babel-loadre,babel-loadre,https://github.com//advisories/GHSA-vvfh-mvjv-w38q,,>= 0.0.0
+Malicious Package in babel-loqder,babel-loqder,https://github.com//advisories/GHSA-9cph-cqqh-36pw,,>= 0.0.0
+Malicious Package in baes-x,baes-x,https://github.com//advisories/GHSA-2jm5-2cqf-6vw9,,>= 0.0.0
+Malicious Package in bcion,bcion,https://github.com//advisories/GHSA-2fwq-wx47-hm6x,,>= 0.0.0
+Malicious Package in bconi,bconi,https://github.com//advisories/GHSA-7j93-5m2h-rvjx,,>= 0.0.0
+Malicious Package in bictoin-ops,bictoin-ops,https://github.com//advisories/GHSA-xrrg-wfwc-c7r3,,>= 0.0.0
+Malicious Package in bictoinjs-lib,bictoinjs-lib,https://github.com//advisories/GHSA-hwh3-fhf6-73x9,,>= 0.0.0
+Malicious Package in bictoind-rpc,bictoind-rpc,https://github.com//advisories/GHSA-jqvv-r4w3-8f7w,,>= 0.0.0
+Malicious Package in bictore-lib,bictore-lib,https://github.com//advisories/GHSA-f8vf-6hwg-hw55,,>= 0.0.0
+Malicious Package in bip30,bip30,https://github.com//advisories/GHSA-wch2-46wj-6x5j,,>= 0.0.0
+Malicious Package in bitcion-ops,bitcion-ops,https://github.com//advisories/GHSA-85q4-v37c-wfpc,,>= 0.0.0
+Malicious Package in bitcionjs,bitcionjs,https://github.com//advisories/GHSA-qmgf-fp85-55gr,,>= 0.0.0
+Malicious Package in bitcionjslib,bitcionjslib,https://github.com//advisories/GHSA-p4mf-4qvh-w8g5,,>= 0.0.0
+Malicious Package in bitcoijns-lib,bitcoijns-lib,https://github.com//advisories/GHSA-37vc-gwvp-6cgv,,>= 0.0.0
+Malicious Package in bitcoimd-rpc,bitcoimd-rpc,https://github.com//advisories/GHSA-rwmv-c7v8-v9vf,,>= 0.0.0
+Malicious Package in bitcoimjs-lib,bitcoimjs-lib,https://github.com//advisories/GHSA-rv6q-p3x7-43fx,,>= 0.0.0
+Malicious Package in bitcoin-osp,bitcoin-osp,https://github.com//advisories/GHSA-v8g7-9qv2-j865,,>= 0.0.0
+Malicious Package in bitcoin-sweep,bitcoin-sweep,https://github.com//advisories/GHSA-8hqw-qp6r-vqcm,,>= 0.0.0
+Malicious Package in bitcoisnj-lib,bitcoisnj-lib,https://github.com//advisories/GHSA-629c-j867-3v45,,>= 0.0.0
+Malicious Package in bitconid-rpc,bitconid-rpc,https://github.com//advisories/GHSA-9298-m7jf-55h2,,>= 0.0.0
+Malicious Package in bitconi-ops,bitconi-ops,https://github.com//advisories/GHSA-w9hw-v97w-g5f5,,>= 0.0.0
+Malicious Package in bitconijs-lib,bitconijs-lib,https://github.com//advisories/GHSA-74hh-4rcv-pp27,,>= 0.0.0
+Malicious Package in bitcroe-lib,bitcroe-lib,https://github.com//advisories/GHSA-4m3p-x2hp-2pgx,,>= 0.0.0
+Malicious Package in bp66,bp66,https://github.com//advisories/GHSA-8gc6-65mm-xr6r,,>= 0.0.0
+Malicious Package in bpi39,bpi39,https://github.com//advisories/GHSA-762c-v946-pf25,,>= 0.0.0
+Malicious Package in bpi66,bpi66,https://github.com//advisories/GHSA-7xc4-793x-25jp,,>= 0.0.0
+Malicious Package in bs58chek,bs58chek,https://github.com//advisories/GHSA-3cpj-mj3q-82wr,,>= 0.0.0
+Malicious Package in bs58chcek,bs58chcek,https://github.com//advisories/GHSA-97mp-9g5c-6c93,,>= 0.0.0
+Malicious Package in bs85check,bs85check,https://github.com//advisories/GHSA-4hq8-v42x-9wx3,,>= 0.0.0
+Malicious Package in bs58chekc,bs58chekc,https://github.com//advisories/GHSA-fwvq-x4j9-hr5f,,>= 0.0.0
+Malicious Package in bs85,bs85,https://github.com//advisories/GHSA-gvm7-8fq3-qjj2,,>= 0.0.0
+Malicious Package in cionstring,cionstring,https://github.com//advisories/GHSA-xh8g-j88w-6v59,,>= 0.0.0
+Malicious Package in bsae-x,bsae-x,https://github.com//advisories/GHSA-mgff-xpg3-3gwc,,>= 0.0.0
+Malicious Package in coinpayment,coinpayment,https://github.com//advisories/GHSA-3h99-v4qw-p2h5,,>= 0.0.0
+Malicious Package in coinstirng,coinstirng,https://github.com//advisories/GHSA-ff6g-gm92-rf32,,>= 0.0.0
+Malicious Package in coinstrig,coinstrig,https://github.com//advisories/GHSA-4m3j-h8f2-4xh4,,>= 0.0.0
+Malicious Package in coinstrng,coinstrng,https://github.com//advisories/GHSA-hj5w-xgw9-w4rj,,>= 0.0.0
+Malicious Package in colne,colne,https://github.com//advisories/GHSA-mhxg-pr3j-v9gr,,>= 0.0.0
+Malicious Package in commandre,commandre,https://github.com//advisories/GHSA-r8hx-3qx6-hxq9,,>= 0.0.0
+Malicious Package in commanedr,commanedr,https://github.com//advisories/GHSA-xcgx-27q5-7634,,>= 0.0.0
+Malicious Package in conistring,conistring,https://github.com//advisories/GHSA-cfc5-x58f-869w,,>= 0.0.0
+Malicious Package in crpyto-js,crpyto-js,https://github.com//advisories/GHSA-73c6-vwjh-g3qh,,>= 0.0.0
+Malicious Package in crytpo-js,crytpo-js,https://github.com//advisories/GHSA-m4fq-xh7w-jhfm,,>= 0.0.0
+Malicious Package in cxt,cxt,https://github.com//advisories/GHSA-fpgg-r39h-3x5x,,>= 0.0.0
+Malicious Package in degbu,degbu,https://github.com//advisories/GHSA-xr3g-4gg5-w3wq,,>= 0.0.0
+Malicious Package in ecruve,ecruve,https://github.com//advisories/GHSA-fpf2-pr3j-4cm3,,>= 0.0.0
+Malicious Package in dhkey,dhkey,https://github.com//advisories/GHSA-qxrj-x7rm-2h49,,>= 0.0.0
+Malicious Package in ecuvre,ecuvre,https://github.com//advisories/GHSA-cgvm-rvfv-c92r,,>= 0.0.0
+Malicious Package in fs-extar,fs-extar,https://github.com//advisories/GHSA-435c-qcpm-wjw5,,>= 0.0.0
+Malicious Package in hdeky,hdeky,https://github.com//advisories/GHSA-255r-pghp-r5wh,,>= 0.0.0
+Malicious Package in hdkye,hdkye,https://github.com//advisories/GHSA-8pwx-j4r6-5v38,,>= 0.0.0
+Malicious Package in hw-trnasport-u2f,hw-trnasport-u2f,https://github.com//advisories/GHSA-4363-x42f-xph6,,>= 0.0.0
+Malicious Package in path-to-regxep,path-to-regxep,https://github.com//advisories/GHSA-f7gc-6hcj-wc42,,>= 0.0.0
+Malicious Package in rceat,rceat,https://github.com//advisories/GHSA-7w7c-867m-4mqc,,>= 0.0.0
+Malicious Package in riped160,riped160,https://github.com//advisories/GHSA-rwcq-qpm6-7867,,>= 0.0.0
+Malicious Package in ripedm160,ripedm160,https://github.com//advisories/GHSA-9272-59x2-gwf2,,>= 0.0.0
+Malicious Package in ripmed160,ripmed160,https://github.com//advisories/GHSA-gmjp-776j-2394,,>= 0.0.0
+Malicious Package in sb58,sb58,https://github.com//advisories/GHSA-674r-xx4c-gj7x,,>= 0.0.0
+Malicious Package in scryptys,scryptys,https://github.com//advisories/GHSA-vrxj-4qhw-5vwq,,>= 0.0.0
+Malicious Package in scrytsy,scrytsy,https://github.com//advisories/GHSA-vv7g-pjw9-4qj9,,>= 0.0.0
+Malicious Package in siganle,siganle,https://github.com//advisories/GHSA-p5p2-rhc3-wmf3,,>= 0.0.0
+Malicious Package in signqle,signqle,https://github.com//advisories/GHSA-m794-qv59-gj7c,,>= 0.0.0
+Malicious Package in singale,singale,https://github.com//advisories/GHSA-crfh-jmv2-2f9v,,>= 0.0.0
+Malicious Package in wallet-address-validtaor,wallet-address-validtaor,https://github.com//advisories/GHSA-pc7q-c837-3wjq,,>= 0.0.0
+Malicious Package in wallet-address-vaildator,wallet-address-vaildator,https://github.com//advisories/GHSA-m6q2-9pfm-2wvr,,>= 0.0.0
+Malicious Package in we3b,we3b,https://github.com//advisories/GHSA-36r8-9qq7-mh43,,>= 0.0.0
+Malicious Package in wbe3,wbe3,https://github.com//advisories/GHSA-hg7w-2pf7-mxm2,,>= 0.0.0
+Malicious Package in web3-eht,web3-eht,https://github.com//advisories/GHSA-29fh-xcjr-p7rx,,>= 0.0.0
+Outdated Static Dependency in vue-moment,vue-moment,https://github.com//advisories/GHSA-hrpp-f84w-xhfg,,< 4.1.0
+Command Injection in strapi,strapi,https://github.com//advisories/GHSA-9p2w-rmx4-9mw7,,<= 3.0.0-beta.17.7
+Arbitrary File Write in bin-links,bin-links,https://github.com//advisories/GHSA-gqf6-75v8-vr26,,< 1.1.5
+Command Injection in tree-kill,tree-kill,https://github.com//advisories/GHSA-884p-74jh-xrg2,,< 1.2.2
+Command Injection in treekill,treekill,https://github.com//advisories/GHSA-533p-g2hq-qr26,,>= 0.0.0
+Symlink reference outside of node_modules in bin-links,bin-links,https://github.com//advisories/GHSA-2mj8-pj3j-h362,,< 1.1.5
+Global node_modules Binary Overwrite in bin-links,bin-links,https://github.com//advisories/GHSA-v45m-2wcp-gg98,,< 1.1.6
+Command Injection in gnuplot,gnuplot,https://github.com//advisories/GHSA-cfwc-xjfp-44jg,,>= 0.0.0
+Command Injection in plotter,plotter,https://github.com//advisories/GHSA-65xx-c85x-wg76,,>= 0.0.0
+Cross-Site Scripting in nextcloud-vue-collections,nextcloud-vue-collections,https://github.com//advisories/GHSA-whv6-rj84-2vh2,,< 0.4.2
+Improper Authorization in passport-cognito,passport-cognito,https://github.com//advisories/GHSA-v6c5-hwqg-3x5q,CVE-2019-19723,>= 0.0.0
+Information Exposure in type-graphql,type-graphql,https://github.com//advisories/GHSA-xf64-2f9p-6pqq,,< 0.17.6
+Server-Side Request Forgery in ftp-srv,ftp-srv,https://github.com//advisories/GHSA-r4m5-47cq-6qg8,,> 0.0.0
+Remote Code Execution in mongodb-query-parser,mongodb-query-parser,https://github.com//advisories/GHSA-97mg-3cr6-3x4c,,< 2.0.0
+Command Injection in giting,giting,https://github.com//advisories/GHSA-7r9x-hr76-jr96,,>= 0.0.0
+Cross-Site Scripting in atlasboard-atlassian-package,atlasboard-atlassian-package,https://github.com//advisories/GHSA-25v4-mcx4-hh35,,>= 0.0.0
+Authentication Bypass in express-laravel-passport,express-laravel-passport,https://github.com//advisories/GHSA-v66p-w7qx-wv98,,>= 0.0.0
+Malicious Package in 1337qq-js,1337qq-js,https://github.com//advisories/GHSA-7wgh-5q4q-6wx5,,>= 0.0.0
+Command Injection in meta-git,meta-git,https://github.com//advisories/GHSA-qcff-ffx3-m25c,,>= 0.0.0
+Command Injection in npm-git-publish,npm-git-publish,https://github.com//advisories/GHSA-49mg-94fc-2fx6,,>= 0.0.0
+Cross-Site Scripting in @hapi/boom,@hapi/boom,https://github.com//advisories/GHSA-2ggq-vfcp-gwhj,,< 0.3.8
+Hardcoded Initialization Vector in parsel,parsel,https://github.com//advisories/GHSA-q643-w9jp-q2qg,,>= 0.0.0
+Insecure Cryptography Algorithm in parsel,parsel,https://github.com//advisories/GHSA-wqgx-4q47-j2w5,,>= 0.0.0
+Insufficient Entropy in parsel,parsel,https://github.com//advisories/GHSA-vjvw-wcmw-pr26,,>= 0.0.0
+Prototype Pollution in klona,klona,https://github.com//advisories/GHSA-4r97-78gf-q24v,,< 1.1.1
+Command Injection in traceroute,traceroute,https://github.com//advisories/GHSA-rjvj-673q-4hfw,,>= 0.0.0
+Cross-Site Scripting in markdown-it-katex,markdown-it-katex,https://github.com//advisories/GHSA-5ff8-jcf9-fw62,,> 0.0.0
+Prototype Pollution in @hapi/hoek,@hapi/hoek,https://github.com//advisories/GHSA-22h7-7wwg-qmgg,,">= 8.3.2, < 8.5.1>= 9.0.0, < 9.0.3"
+HTML Injection in marky-markdown,marky-markdown,https://github.com//advisories/GHSA-mg69-6j3m-jvgw,,>= 0.0.0
+HTML Injection in marky-markdown,marky-markdown,https://github.com//advisories/GHSA-pxmp-fwjc-4x7q,,>= 0.0.0
+Denial of Service in ammo,ammo,https://github.com//advisories/GHSA-mg85-8mv5-ffjr,,>= 0.0.0
+Denial of Service in @commercial/ammo,@commercial/ammo,https://github.com//advisories/GHSA-rhc3-76jw-4f2x,,< 2.1.1
+Denial of Service in @hapi/ammo,@hapi/ammo,https://github.com//advisories/GHSA-gjph-xf5q-6mfq,,"< 3.1.2>= 4.0.0, < 5.0.1"
+Denial of Service in @hapi/accept,@hapi/accept,https://github.com//advisories/GHSA-9vrw-m88g-w75q,,">= 3.2.0, < 3.2.4>= 4.0.0, < 5.0.1"
+Denial of Service in @hapi/subtext,@hapi/subtext,https://github.com//advisories/GHSA-3wqh-h42r-x8fq,,">= 4.1.0, < 6.1.3>= 7.0.0, < 7.0.3"
+Denial of Service in @commercial/subtext,@commercial/subtext,https://github.com//advisories/GHSA-cvfm-xjc8-f2vm,,= 5.1.1
+Denial of Service in subtext,subtext,https://github.com//advisories/GHSA-5854-jvxx-2cg9,,>= 4.1.0
+Prototype Pollution in subtext,subtext,https://github.com//advisories/GHSA-g64q-3vg8-8f93,,>= 0.0.0
+Prototype Pollution in @hapi/subtext,@hapi/subtext,https://github.com//advisories/GHSA-g9cg-h3jm-cwrc,,"< 6.1.3>= 7.0.0, < 7.0.3"
+Denial of Service in hapi,hapi,https://github.com//advisories/GHSA-7hx8-2rxv-66xv,,>= 0.0.0
+Denial of Service in @hapi/hapi,@hapi/hapi,https://github.com//advisories/GHSA-23vw-mhv5-grv5,,"< 18.4.1>= 19.0.0, < 19.1.1"
+Denial of Service in @commercial/hapi,@commercial/hapi,https://github.com//advisories/GHSA-66mv-xh68-h6v2,,"< 16.8.2>= 17.0.0, < 17.9.2>= 18.0.0, < 18.4.1>= 19.0.0, < 19.1.1"
+Prototype Pollution in @commercial/subtext,@commercial/subtext,https://github.com//advisories/GHSA-36c4-4r89-6whg,,< 5.1.2
+Cross-Site Scripting in ngx-md,ngx-md,https://github.com//advisories/GHSA-xr53-m937-jr9c,,< 6.0.3
+Denial of Service in http-proxy,http-proxy,https://github.com//advisories/GHSA-6x33-pw7p-hmpq,,< 1.18.1
+Improper Authorization in react-oauth-flow,react-oauth-flow,https://github.com//advisories/GHSA-65m9-m259-7jqw,,>= 0.0.0
+Command Injection in priest-runner,priest-runner,https://github.com//advisories/GHSA-9px9-f7jw-fwhj,,>= 0.0.0
+Cross-Site Scripting in lazysizes,lazysizes,https://github.com//advisories/GHSA-w4vp-3mq7-7v82,,<= 5.2.1-rc0
+Cross-Site Scripting in htmr,htmr,https://github.com//advisories/GHSA-f8rq-m28h-8hxj,,< 0.8.7
+Path Traversal in sapper,sapper,https://github.com//advisories/GHSA-f3vw-587g-r29g,,< 0.27.11
+Command Injection in node-rules,node-rules,https://github.com//advisories/GHSA-8whr-v3gm-w8h9,,< 5.0.0
+Buffer Overflow in node-weakauras-parser,node-weakauras-parser,https://github.com//advisories/GHSA-86mr-6m89-vgj3,,">= 1.0.4, < 1.0.5>= 2.0.0, < 2.0.2>= 3.0.0, < 3.0.1"
+Malicious Package in m-backdoor,m-backdoor,https://github.com//advisories/GHSA-vv52-3mrp-455m,,>= 0.0.0
+DLL Injection in kerberos,kerberos,https://github.com//advisories/GHSA-m2mx-rfpw-jghv,,< 1.0.0
+Regular Expression Denial of Service in papaparse,papaparse,https://github.com//advisories/GHSA-qvjc-g5vr-mfgr,,< 5.2.0
+Cross-Site Scripting in @toast-ui/editor,@toast-ui/editor,https://github.com//advisories/GHSA-cr56-66mx-293v,,< 2.2.0
+Cross-Site Scripting in bootstrap-select,bootstrap-select,https://github.com//advisories/GHSA-9r7h-6639-v5mw,,< 1.13.6
+Remote Code Execution in next,next,https://github.com//advisories/GHSA-5vj8-3v2h-h38v,,< 5.1.0
+Improper Authorization in @sap-cloud-sdk/core,@sap-cloud-sdk/core,https://github.com//advisories/GHSA-r2vw-jgq9-jqx2,,">= 1.19.0, < 1.21.2"
+Command Injection in bestzip,bestzip,https://github.com//advisories/GHSA-4qqc-mp5f-ccv4,,< 2.1.7
+Validation bypass vulnerability,personnummer,https://github.com//advisories/GHSA-vpgc-7h78-gx8f,,< 3.1.0
+Azure DevOps token leakage in logs,renovate,https://github.com//advisories/GHSA-36rh-ggpr-j3gj,,">= 19.180.0, < 23.25.1"
+Potential XSS in jQuery dependency in Mirador,mirador,https://github.com//advisories/GHSA-hgwm-pv9h-q5m7,,<= 2.7.2
+Malicious code in `loadyaml`,loadyaml,https://github.com//advisories/GHSA-mfc2-93pr-jf92,,<= 1.0.2
+Malicious code in `electorn`,electorn,https://github.com//advisories/GHSA-38hx-3542-8fh3,,<= 10.0.0
+File restriction bypass in socket.io-file,socket.io-file,https://github.com//advisories/GHSA-6495-8jvh-f28x,,<= 2.0.31
+Regular Expression Denial of Service in npm-user-validate,npm-user-validate,https://github.com//advisories/GHSA-xgh6-85xh-479p,,<= 1.0.0
+HMAC-SHA1 signatures can bypass validation via key confusion,xml-crypto,https://github.com//advisories/GHSA-c27r-x354-4m68,,<= 1.5.3
+Prototype Pollution in json-logic-js,json-logic-js,https://github.com//advisories/GHSA-m9hw-7xfv-wqg7,,< 2.0.0
+ReDOS vulnerabities: multiple grammars,highlight.js,https://github.com//advisories/GHSA-7wwv-vh3v-89cq,,"< 10.4.1>= 9.0.0, < 10.4.1"
+Cross-Site Scripting bypass in html-purify,html-purify,https://github.com//advisories/GHSA-5p28-63mc-cgr9,,<= 1.1.0
+Regex denial of service vulnerability in codesample plugin,tinymce,https://github.com//advisories/GHSA-h96f-fc7c-9r55,,< 5.6.0
+Cross-site scripting vulnerability in TinyMCE,tinymce,https://github.com//advisories/GHSA-w7jx-j77m-wp65,,< 5.6.0
+Malicious npm package: sonatype,sonatype,https://github.com//advisories/GHSA-w8fh-pvq2-x8c4,,>= 0.0.0
+Malicious npm package: discord-fix,discord-fix,https://github.com//advisories/GHSA-qv2g-99x4-45x6,,>= 0.0.0
+Malicious npm package: an0n-chat-lib,an0n-chat-lib,https://github.com//advisories/GHSA-7xcv-wvr7-4h6p,,>= 0.0.0
+Verification flaw in Solid identity-token-verifier,@solid/identity-token-verifier,https://github.com//advisories/GHSA-xmh9-rg6f-j3mr,,< 0.5.2
+Code injection in nobelprizeparser,nobelprizeparser,https://github.com//advisories/GHSA-4wv4-mgfq-598v,,< 1.0.2
+Vulnerability allowing for reading internal HTTP resources,highcharts-export-server,https://github.com//advisories/GHSA-hfwx-c7q6-g54c,,<= 2.0.30
+Withdrawn: Arbitrary Code Execution in static-eval,static-eval,https://github.com//advisories/GHSA-8v27-2fg9-7h62,CVE-2021-23334,<= 2.1.0
+Out-of-Bounds read in stringstream,stringstream,https://github.com//advisories/GHSA-qpw2-xchm-655q,,< 0.0.6
+Command Injection in nuance-gulp-build-common,nuance-gulp-build-common,https://github.com//advisories/GHSA-8695-fr6h-9fq8,CVE-2020-28430,<= 0.0.1
+Client TLS credentials sent raw to server in npm package nats,nats,https://github.com//advisories/GHSA-prmc-5v5w-c465,,">= 2.0.0-201, <= 2.0.0-208"
+Remote code execution in mongo-express,mongodb-query-parser,https://github.com//advisories/GHSA-hxmg-hm46-cf62,CVE-2020-24391,< 2.0.0
+Prototype pollution in set-object-value,set-object-value,https://github.com//advisories/GHSA-4jj4-m52p-8rx3,CVE-2020-28281,< 0.0.6
+Improper parsing of octal bytes in netmask,netmask,https://github.com//advisories/GHSA-4c7m-wxvm-r7gc,CVE-2021-28918,< 1.1.0
+Cross-site Scripting in PrimeFaces,primefaces,https://github.com//advisories/GHSA-fw5f-7c6c-3vmv,CVE-2020-10544,<= 7.0.11
+Arbitrary code execution in ExifTool,exiftool-vendored,https://github.com//advisories/GHSA-4whq-r978-2x68,,< 14.3.0
+Cross-site Scripting in quill,quill,https://github.com//advisories/GHSA-4943-9vgg-gr5r,CVE-2021-3163,<= 1.3.7
+Command injection in get-git-data,get-git-data,https://github.com//advisories/GHSA-wj6h-7chw-x4h2,CVE-2020-7619,<= 1.3.1
+File upload local preview can run embedded scripts after user interaction,matrix-react-sdk,https://github.com//advisories/GHSA-8796-gc9j-63rv,,< 3.21.0
+Improper Input Validation in xdLocalStorage,xdLocalStorage,https://github.com//advisories/GHSA-76qm-4f93-fg6f,CVE-2015-9545,<= 2.0.5
+Improper Input Validation in xdLocalStorage,xdLocalStorage,https://github.com//advisories/GHSA-vrc7-6g8w-jh56,CVE-2015-9544,<= 2.0.5
+Open Redirect in xdLocalStorage,xdLocalStorage,https://github.com//advisories/GHSA-c6c4-jmqx-3r33,CVE-2020-11611,<= 2.0.5
+Incorrect Calculation in the MSR JavaScript Cryptography Library,msrcrypto,https://github.com//advisories/GHSA-9x9j-836w-8f55,CVE-2020-1026,< 1.5.8
+Uncontrolled Resource Consumption in fun-map,fun-map,https://github.com//advisories/GHSA-p33m-7w7f-gmj8,CVE-2020-7644,<= 3.3.1
+Arbitrary Code Execution in json-ptr,json-ptr,https://github.com//advisories/GHSA-rrqv-vjrw-hrcr,,< 2.1.0
+Improper Neutralization of Special Elements used in a Command ('Command Injection') in @floffah/build,@floffah/build,https://github.com//advisories/GHSA-jcgr-9698-82jx,,< 1.0.0
+Cross-site scripting vulnerability in TinyMCE,tinymce,https://github.com//advisories/GHSA-5vm8-hhgr-jcjp,,< 5.7.1
+constructEvent does not verify header,@worker-tools/stripe-webhook,https://github.com//advisories/GHSA-4g53-vp7q-gfjv,,< 1.1.4
+Improper Verification of Cryptographic Signature in aws-encryption-sdk-javascript,@aws-crypto/client-node,https://github.com//advisories/GHSA-h45p-w933-jxh3,,"< 1.9.0>= 2.0.0, < 2.2.0< 1.9.0>= 2.0.0, < 2.2.0"
+Improper Verification of Cryptographic Signature,tenvoy,https://github.com//advisories/GHSA-7r96-8g3x-g36m,,< 7.0.3
+Code Injection in total.js,total.js,https://github.com//advisories/GHSA-7fm6-gxqg-2pwr,CVE-2021-23389,< 3.4.9
+Deserialization of Untrusted Data in msgpack,msgpack,https://github.com//advisories/GHSA-mx67-wv8x-hvv9,CVE-2021-23410,<= 1.0.3
+Incorrect TCR calculation in batchLiquidateTroves() during Recovery Mode,@liquity/contracts,https://github.com//advisories/GHSA-xh2p-7p87-fhgh,,<= 1.0.0
+Arbitrary Command Injection due to Improper Command Sanitization,@npmcli/git,https://github.com//advisories/GHSA-hxwm-x553-x359,,< 2.0.8
+Improperly Controlled Modification of Object Prototype Attributes,think-config,https://github.com//advisories/GHSA-6cj2-92m5-7mvp,,< 1.1.3
+Prototype Pollution in immer,immer,https://github.com//advisories/GHSA-c36v-fmgq-m8hx,CVE-2021-3757,< 9.0.6
+Incorrect version tags linked to external repository,parse-server,https://github.com//advisories/GHSA-593v-wcqx-hq2w,,">= 4.0.0, < 4.5.2>= 4.6.0, < 4.10.0"
+Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') in ZMarkdown,rebber,https://github.com//advisories/GHSA-2c83-wfv3-q25f,,< 5.2.1
+UUPSUpgradeable vulnerability in @openzeppelin/contracts-upgradeable,@openzeppelin/contracts-upgradeable,https://github.com//advisories/GHSA-q4h9-46xg-m3x9,,">= 4.1.0, < 4.3.2"
+Cross-site Scripting in peertube,peertube,https://github.com//advisories/GHSA-f2c5-997w-7f5c,CVE-2021-3780,< 3.4.0
+Prototype Pollution in mixme,mixme,https://github.com//advisories/GHSA-84p7-fh9c-6g8h,,< 0.5.2
+Remote command injection when using sendmail email transport,ghost,https://github.com//advisories/GHSA-wfrj-qqc2-83cm,,< 4.15.0
+Improper Control of Generation of Code ('Code Injection') in @asyncapi/modelina,@asyncapi/modelina,https://github.com//advisories/GHSA-4jg2-84c2-pj95,,<= 0.30.1
+Clipboard-based XSS,jsuites,https://github.com//advisories/GHSA-qh7x-j4v8-qw5w,CVE-2021-41086,< 4.9.11
+Denial of Service in node-static,node-static,https://github.com//advisories/GHSA-8r4g-cg4m-x23c,,<= 0.7.11
+Regular Expression Denial of Service in millisecond,millisecond,https://github.com//advisories/GHSA-m489-xr35-fjxr,,< 0.1.2
+Member account takeover,ghost,https://github.com//advisories/GHSA-65p7-pjj8-ggmr,,">= 3.18.0, < 3.42.6>= 4.0.0, < 4.15.1"
+Improper Access Control in passport-oauth2,passport-oauth2,https://github.com//advisories/GHSA-f794-r6xc-hf3v,CVE-2021-41580,< 1.6.1
+Withdrawn: Arbitrary code execution in lodash,lodash,https://github.com//advisories/GHSA-8p5q-j9m2-g8wr,CVE-2021-41720,<= 4.17.21
+Path traversal when using `preview-docs` when working dir contains files with question mark `?` in name,@redocly/openapi-cli,https://github.com//advisories/GHSA-q324-q795-2q5p,,<= 1.0.0-beta.58
+Cross-site scripting vulnerability in TinyMCE,tinymce/tinymce,https://github.com//advisories/GHSA-5h9g-x5rv-25wg,,< 5.9.0< 5.9.0< 5.9.0
+Embedded malware in ua-parser-js,ua-parser-js,https://github.com//advisories/GHSA-pjwm-rvh2-c87w,,= 0.7.29= 0.8.0= 1.0.0
+Vulnerability in crunch function leads to arbitrary code execution via filePath parameters,aaptjs,https://github.com//advisories/GHSA-m7p2-ghfh-pjvx,CVE-2020-36380,<= 1.3.1
+Vulnerability in list function leads to arbitrary code execution via filePath parameters,aaptjs,https://github.com//advisories/GHSA-4g7x-7vgq-3j28,CVE-2020-36376,<= 1.3.1
+Vulnerability in dump function leads to arbitrary code execution via filePath parameters,aaptjs,https://github.com//advisories/GHSA-r496-7hgp-53wf,CVE-2020-36377,<= 1.3.1
+Vulnerability in remove function leads to arbitrary code execution via filePath parameters,aaptjs,https://github.com//advisories/GHSA-9cq3-fj2h-ggj5,CVE-2020-36379,<= 1.3.1
+Vulnerability in packageCmd function leads to arbitrary code execution via filePath parameters,aaptjs,https://github.com//advisories/GHSA-4qwq-q4pr-rr7r,CVE-2020-36378,<= 1.3.1
+Cross-site scripting vulnerability in TinyMCE plugins,tinymce/tinymce,https://github.com//advisories/GHSA-r8hm-w5f7-wj39,,< 5.10.0< 3.4.0< 5.10.0< 5.10.0
+Embedded malware in coa,coa,https://github.com//advisories/GHSA-73qr-pfmq-6rp8,,= 2.0.3= 2.0.4= 2.1.1= 2.1.3= 3.0.1= 3.1.3
+Embedded malware in rc,rc,https://github.com//advisories/GHSA-g2q5-5433-rhrf,,= 1.2.9= 1.3.9= 2.3.9
+Cross-site Scripting Vulnerability in GraphQL Playground (distributed by Apollo Server),apollo-server,https://github.com//advisories/GHSA-qm7x-rc44-rrqw,,">= 2.0.0, < 2.25.3>= 3.0.0, < 3.4.1"
+Insufficient Session Expiration in @cyyynthia/tokenize,@cyyynthia/tokenize,https://github.com//advisories/GHSA-jcjx-c3j3-44pr,,">= 1.1.0, < 1.1.3"
+Inefficient Regular Expression Complexity in Validator.js,validator,https://github.com//advisories/GHSA-xx4c-jj58-r7x6,,">= 11.1.0, < 13.7.0"
+Signature verification vulnerability in Stark Bank ecdsa libraries,starkbank-ecdsa,https://github.com//advisories/GHSA-9wx7-jrvc-28mm,,= 1.0.0< 2.0.1= 1.3.1= 1.1.2
+Improper Verification of Cryptographic Signature in starkbank-ecdsa,starkbank-ecdsa,https://github.com//advisories/GHSA-q9q6-f556-gpm7,CVE-2021-43571,< 1.1.3
+ERC1155Supply vulnerability in OpenZeppelin Contracts,@openzeppelin/contracts-upgradeable,https://github.com//advisories/GHSA-wmpv-c2jp-j2xg,,">= 4.2.0, < 4.3.3>= 4.2.0, < 4.3.3"
+RCE vulnerability affecting v1beta3 templates in @backstage/plugin-scaffolder-backend,@backstage/plugin-scaffolder-backend,https://github.com//advisories/GHSA-2g8g-63j4-9w3r,,< 0.15.14
+Unexpected server crash in Next.js.,next,https://github.com//advisories/GHSA-25mp-g6fv-mqxx,CVE-2021-43803,">= 12.0.0, < 12.0.5< 11.1.3"
+Command injection in github-todos,github-todos,https://github.com//advisories/GHSA-792j-9wj3-j634,CVE-2021-44684,<= 3.1.0
+Prototype Pollution in @fabiocaccamo/utils.js,@fabiocaccamo/utils.js,https://github.com//advisories/GHSA-3xph-cp8f-2229,CVE-2021-3815,< 0.17.2
+Server side request forgery in SwaggerUI,swagger-ui-dist,https://github.com//advisories/GHSA-qrmm-w75w-3wpx,,< 4.1.3< 4.1.3
+Session fixation in express-openid-connect,express-openid-connect,https://github.com//advisories/GHSA-7rg2-qxmf-hhx9,CVE-2021-41246,">= 2.3.0, < 2.5.2"
+Prototype Pollution in merge-deep2.,merge-deep2,https://github.com//advisories/GHSA-j28q-p8ww-cp87,CVE-2021-23700,<= 3.0.6
+Prototype Pollution in comb.,comb,https://github.com//advisories/GHSA-vxr4-rxw7-g7v6,CVE-2021-23561,<= 2.0.0
+Prototype Pollution in sey,sey,https://github.com//advisories/GHSA-wjpc-cgvw-xx23,CVE-2021-23663,<= 0.3.0
+Code Injection in md-to-pdf.,md-to-pdf,https://github.com//advisories/GHSA-x949-7cm6-fm6p,CVE-2021-23639,< 5.0.0
