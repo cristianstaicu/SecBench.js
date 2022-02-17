@@ -4,18 +4,35 @@ test("Arbitrary code execution in wifiscanner", () => {
   let wifiscanner = require("wifiscanner");
   const sleep = require("sleep");
 
-  const path = "./wifiscanner";
+  const path = "./wifiscanner.txt";
 
   let options = {
-    args: ";/bin/touch wifiscanner;#",
+    args: "./wifiscanner.txt",
+    binaryPath: "touch",
   };
+  try {
+    let scanner = wifiscanner(options);
+    scanner.scan(function (error, networks) {
+      // if(error) {
+      //   console.error(error);
+      // } else {
+      //   console.dir(networks);
+      // }
+    });
+  } catch (error) {
+    console.log(error);
+  }
 
-  //checking that its not present already
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(false);
+  // let options = {
+  //   args: ";/bin/touch wifiscanner;#",
+  // };
 
-  let scanner = wifiscanner(options);
-  scanner.scan(function (error, networks) {});
+  // //checking that its not present already
+  // file_exist = fs.existsSync(path);
+  // expect(file_exist).toBe(false);
+
+  // let scanner = wifiscanner(options);
+  // scanner.scan(function (error, networks) {});
 
   sleep.sleep(2);
   //checking that its created by after exploit.

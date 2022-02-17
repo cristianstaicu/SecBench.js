@@ -2,6 +2,13 @@ test("Arbitrary code execution in open", () => {
   const fs = require("fs");
   const path = "./open";
 
+  try {
+    fs.unlinkSync(path);
+    console.log("File removed:", path);
+  } catch (err) {
+    console.error(err);
+  }
+
   //checking that its not present already
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
@@ -11,7 +18,8 @@ test("Arbitrary code execution in open", () => {
       file_exist = fs.existsSync(path);
       expect(file_exist).toBe(true);
 
-      fs.unlink(path, function (err) {}); //deleting the file after creation
+      // fs.unlink(path, function (err) {}); //deleting the file after creation
+      fs.unlinkSync(path);
     });
   } catch (error) {}
 
