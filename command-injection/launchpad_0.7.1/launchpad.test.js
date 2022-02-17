@@ -19,8 +19,7 @@ test("Command Injection in launchpad", (done) => {
   tst.getPid(() => {
     file_exist = fs.existsSync(pathToFlag);    
     expect(file_exist).toBe(true);
-    fs.unlink(pathToFlag, function () { done(); }); // deleting the file after creation
-    done();
+    fs.unlink(pathToFlag, function () { done(); }); // deleting the file after creation    
   });
 
 });
