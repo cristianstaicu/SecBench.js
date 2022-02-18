@@ -2,7 +2,7 @@
 test("Remote code execution in pdf-image", () => {
   var PDFImage = require("pdf-image").PDFImage;
   const fs = require("fs");
-  const path = "./pdf-image";
+  const path = "./pdf-image_2";
 
   try {
     fs.unlinkSync(path);
@@ -16,7 +16,7 @@ test("Remote code execution in pdf-image", () => {
   expect(file_exist).toBe(false);
 
   try {
-    let pdfImage = new PDFImage('"; touch pdf-image #"');
+    let pdfImage = new PDFImage('"; touch pdf-image_2 #"');
 
     pdfImage.getInfo().then(() => {
       file_exist = fs.existsSync(path);
