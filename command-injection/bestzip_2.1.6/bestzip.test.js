@@ -11,7 +11,7 @@ test("Command Injection in bestzip", () => {
 
   zip({ source: "", destination: "./; touch bestzip" });
 
-  sleep.sleep(5);
+  sleep.sleep(1);
   //checking that its created by after exploit.
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);

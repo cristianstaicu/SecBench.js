@@ -4,6 +4,13 @@ test("Remote code execution in pdf-image", () => {
   const fs = require("fs");
   const path = "./pdf-image";
 
+  try {
+    fs.unlinkSync(path);
+    console.log("File removed:", path);
+  } catch (err) {
+    console.error(err);
+  }
+
   //checking that its not present already
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
