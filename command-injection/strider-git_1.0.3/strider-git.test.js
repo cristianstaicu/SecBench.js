@@ -4,24 +4,27 @@ test("Command Injection in strider-git", () => {
   const fs = require("fs");
   const path = "./strider-git";
   const sleep = require("sleep");
-
-  //checking that its not present already
+  try {
+    fs.unlinkSync(path);
+    console.log("File removed:", path);
+  } catch (err) {
+    console.error(err);
+  }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-
   git.getBranches(
     {
-      auth: { type: "ssaas;touch strider-git; ", privkey: "sss" },
+      auth: {
+        type: "ssaas;touch strider-git; ",
+        privkey: "sss",
+      },
       url: "http://sss",
     },
     "",
     function () {}
   );
-
   sleep.sleep(5);
-  //checking that its created by after exploit.
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
-
-  fs.unlink(path, function (err) {}); //deleting the file after creation
+  fs.unlink(path, function (err) {});
 });

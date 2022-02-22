@@ -1,3 +1,4 @@
+//checking that its not present already
 test("Remote code execution in git", () => {
   const Git = require("git").Git;
   const fs = require("fs");
@@ -5,19 +6,19 @@ test("Remote code execution in git", () => {
   const sleep = require("sleep");
   let repo = new Git("repo-test");
   let user_input = "; touch git";
-
-  //checking that its not present already
+  try {
+    fs.unlinkSync(path);
+    console.log("File removed:", path);
+  } catch (err) {
+    console.error(err);
+  }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-
   try {
     repo.git(user_input, function (err, result) {});
   } catch (error) {}
-
   sleep.sleep(3);
-  //checking that its created by after exploit.
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
-
-  fs.unlink(path, function (err) {}); //deleting the file after creation
+  fs.unlink(path, function (err) {});
 });

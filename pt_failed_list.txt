@@ -1,0 +1,530 @@
+ FAIL  node-cxc_1.0.0/node-cxc.test.js
+  ● Path Traversal in node-cxc
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "<!DOCTYPE html>
+    <html>
+    <body>·
+    <h1>CISPA</h1>
+    <p>vulns4js! is here.</p>·
+    </body>
+    </html> "
+    Received: ""
+
+      27 |   exec(attack_string, (error, stdout) => {
+      28 |     //attack
+    > 29 |     expect(stdout).toBe(hostsFile);
+         |                    ^
+      30 | 
+      31 |     done();
+      32 |   });
+
+      at node-cxc_1.0.0/node-cxc.test.js:29:20
+
+ FAIL  serverhuwenhui_1.1.0/serverhuwenhui.test.js
+  ● Path Traversal in serverhuwenhui
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "<!DOCTYPE html>
+    <html>
+    <body>·
+    <h1>CISPA</h1>
+    <p>vulns4js! is here.</p>·
+    </body>
+    </html> "
+    Received: ""
+
+      27 |   exec(attack_string, (error, stdout) => {
+      28 |     //attack
+    > 29 |     expect(stdout).toBe(hostsFile);
+         |                    ^
+      30 | 
+      31 |     done();
+      32 |   });
+
+      at serverhuwenhui_1.1.0/serverhuwenhui.test.js:29:20
+
+ FAIL  static-server-gx_1.2.1/static-server-gx.test.js
+  ● Path Traversal in static-server-gx
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "<!DOCTYPE html>
+    <html>
+    <body>·
+    <h1>CISPA</h1>
+    <p>vulns4js! is here.</p>·
+    </body>
+    </html> "
+    Received: ""
+
+      27 |   exec(attack_string, (error, stdout) => {
+      28 |     //attack
+    > 29 |     expect(stdout).toBe(hostsFile);
+         |                    ^
+      30 |     done();
+      31 |   });
+      32 | });
+
+      at static-server-gx_1.2.1/static-server-gx.test.js:29:20
+
+ FAIL  m-server_1.4.0/m-server.test.js
+  ● Path Traversal in m-server
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "<!DOCTYPE html>
+    <html>
+    <body>·
+    <h1>CISPA</h1>
+    <p>vulns4js! is here.</p>·
+    </body>
+    </html> "
+    Received: ""
+
+      27 |   exec(attack_string, (error, stdout) => {
+      28 |     //attack
+    > 29 |     expect(stdout).toBe(hostsFile);
+         |                    ^
+      30 | 
+      31 |     done();
+      32 |   });
+
+      at m-server_1.4.0/m-server.test.js:29:20
+
+ FAIL  hserver-static_0.0.3/hserver-static.test.js
+  ● Path Traversal in hserver-static
+
+    Cannot find module 'hserver' from 'hserver-static_0.0.3/hserver-static.test.js'
+
+       9 | 
+      10 | test("Path Traversal in hserver-static", (done) => {
+    > 11 |   const Hserver = require("hserver");
+         |                   ^
+      12 |   const Hstatic = require("hserver-static");
+      13 |   const fs = require("fs");
+      14 |   const { exec } = require("child_process");
+
+      at Resolver.resolveModule (../node_modules/jest-resolve/build/index.js:306:11)
+      at Object.<anonymous> (hserver-static_0.0.3/hserver-static.test.js:11:19)
+
+ FAIL  litedoc_1.0.1/litedoc.test.js
+  ● Path Traversal in litedoc
+
+    Cannot find module 'lite/test/file-server' from 'node_modules/litedoc/server.js'
+
+      18 |   }catch(e){}
+      19 | 
+    > 20 |   pkg.start();
+         |       ^
+      21 | 
+      22 |   let attack_string = `curl -v --path-as-is "http://127.0.0.1:18080${genstr()}"`;
+      23 | 
+
+      at Resolver.resolveModule (../node_modules/jest-resolve/build/index.js:306:11)
+      at Object.start (node_modules/litedoc/server.js:10:2)
+      at Object.start (node_modules/litedoc/index.js:67:22)
+      at Object.<anonymous> (litedoc_1.0.1/litedoc.test.js:20:7)
+
+ FAIL  bae-nodejs_1.0.0/bae-nodejs.test.js
+  ● Path Traversal in bae-nodejs
+
+    Cannot find module 'lite/test/file-server' from 'node_modules/bae-nodejs/server.js'
+
+      17 |     a.execSync('fuser -k 8080/tcp',()=>{})//killing any other process using the same port
+      18 |   }catch(e){}
+    > 19 |   pkg.start(__dirname);
+         |       ^
+      20 | 
+      21 |   let attack_string = `curl -v --path-as-is "http://127.0.0.1:18080${genstr()}"`;
+      22 | 
+
+      at Resolver.resolveModule (../node_modules/jest-resolve/build/index.js:306:11)
+      at Object.start (node_modules/bae-nodejs/server.js:8:2)
+      at Object.start (node_modules/bae-nodejs/index.js:60:22)
+      at Object.<anonymous> (bae-nodejs_1.0.0/bae-nodejs.test.js:19:7)
+
+ FAIL  node-srv_2.0.0/node-srv.test.js
+  ● Path Traversal in node-srv
+
+    listen EADDRINUSE: address already in use 0.0.0.0:8080
+
+
+
+ FAIL  rollup-plugin-server_0.7.0/rollup-plugin-server.test.js
+  ● Path Traversal in rollup-plugin-server
+
+    listen EADDRINUSE: address already in use :::9000
+
+      16 |   }
+      17 |   catch(e){}
+    > 18 |   server({
+         |   ^
+      19 |     host: "localhost",
+      20 |     port: 9000,
+      21 |   });
+
+      at server (node_modules/rollup-plugin-server/dist/index.cjs.js:96:32)
+      at Object.<anonymous> (rollup-plugin-server_0.7.0/rollup-plugin-server.test.js:18:3)
+
+ FAIL  asset-cache_0.0.6/asset-cache.test.js
+  ● Path Traversal in asset-cache
+
+    listen EADDRINUSE: address already in use :::9000
+
+      16 |     a.execSync('fuser -k 9000/tcp',()=>{})
+      17 |   }catch(e){}
+    > 18 |   pkg.listen(9000, function () {});
+         |       ^
+      19 | 
+      20 |   let attack_string = `curl -v --path-as-is "http://127.0.0.1:9000${genstr()}"`;
+      21 | 
+
+      at Object.<anonymous> (asset-cache_0.0.6/asset-cache.test.js:18:7)
+
+ FAIL  rollup-plugin-serve_0.4.2/rollup-plugin-serve.test.js (31.747 s)
+  ● Path Traversal in rollup-plugin-serve
+
+    : Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Error:
+
+       7 | }
+       8 | 
+    >  9 | test("Path Traversal in rollup-plugin-serve", (done) => {
+         | ^
+      10 |   const server = require("rollup-plugin-serve");
+      11 |   const fs = require("fs");
+      12 |   const { exec } = require("child_process");
+
+      at new Spec (../node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)
+      at Object.<anonymous> (rollup-plugin-serve_0.4.2/rollup-plugin-serve.test.js:9:1)
+
+ FAIL  canvas-designer_1.2.1/canvas-designer.test.js (33.87 s)
+  ● Path Traversal in canvas-designer
+
+    : Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Error:
+
+       8 | }
+       9 | 
+    > 10 | test("Path Traversal in canvas-designer", (done) => {
+         | ^
+      11 |   const fs = require("fs");
+      12 |   const sleep = require("sleep");
+      13 |   const { exec } = require("child_process");
+
+      at new Spec (../node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)
+      at Object.<anonymous> (canvas-designer_1.2.1/canvas-designer.test.js:10:1)
+
+ FAIL  fbr-client_1.0.3/fbr-client.test.js (33.868 s)
+  ● Path Traversal in fbr-client
+
+    : Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Error:
+
+       8 | }
+       9 | 
+    > 10 | test("Path Traversal in fbr-client", (done) => {
+         | ^
+      11 |   const fs = require("fs");
+      12 |   const sleep = require("sleep");
+      13 |   const { exec } = require("child_process");
+
+      at new Spec (../node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)
+      at Object.<anonymous> (fbr-client_1.0.3/fbr-client.test.js:10:1)
+
+ FAIL  my-sn_1.0.1/my-sn.test.js (33.884 s)
+  ● Path Traversal in my-sn
+
+    : Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Error:
+
+       8 | }
+       9 | 
+    > 10 | test("Path Traversal in my-sn", (done) => {
+         | ^
+      11 |   const fs = require("fs");
+      12 |   const sleep = require("sleep");
+      13 |   const { exec } = require("child_process");
+
+      at new Spec (../node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)
+      at Object.<anonymous> (my-sn_1.0.1/my-sn.test.js:10:1)
+
+ FAIL  intsol-package_1.0.0/intsol-package.test.js (33.83 s)
+  ● Path Traversal in intsol-package
+
+    : Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Error:
+
+       8 | }
+       9 | 
+    > 10 | test("Path Traversal in intsol-package", (done) => {
+         | ^
+      11 |   const fs = require("fs");
+      12 |   const sleep = require("sleep");
+      13 |   const { exec } = require("child_process");
+
+      at new Spec (../node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)
+      at Object.<anonymous> (intsol-package_1.0.0/intsol-package.test.js:10:1)
+
+ FAIL  getstats_1.0.6/getstats.test.js (33.853 s)
+  ● Path Traversal in getstats
+
+    : Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Error:
+
+       8 | }
+       9 | 
+    > 10 | test("Path Traversal in getstats", (done) => {
+         | ^
+      11 |   const fs = require("fs");
+      12 |   const sleep = require("sleep");
+      13 |   const { exec } = require("child_process");
+
+      at new Spec (../node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)
+      at Object.<anonymous> (getstats_1.0.6/getstats.test.js:10:1)
+
+ FAIL  dilu_0.1.3/dilu.test.js (33.886 s)
+  ● Path Traversal in dilu
+
+    : Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Error:
+
+       8 | }
+       9 | 
+    > 10 | test("Path Traversal in dilu", (done) => {
+         | ^
+      11 |   const fs = require("fs");
+      12 |   const sleep = require("sleep");
+      13 |   const { exec } = require("child_process");
+
+      at new Spec (../node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)
+      at Object.<anonymous> (dilu_0.1.3/dilu.test.js:10:1)
+
+ FAIL  serverliujiayi1_1.1.0/serverliujiayi1.test.js (33.998 s)
+  ● Path Traversal in serverliujiayi1
+
+    : Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Error:
+
+       8 | }
+       9 | 
+    > 10 | test("Path Traversal in serverliujiayi1", (done) => {
+         | ^
+      11 |   const fs = require("fs");
+      12 |   const sleep = require("sleep");
+      13 |   const { exec } = require("child_process");
+
+      at new Spec (../node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)
+      at Object.<anonymous> (serverliujiayi1_1.1.0/serverliujiayi1.test.js:10:1)
+
+ FAIL  statichttpserver_0.9.7/statichttpserver.test.js (33.976 s)
+  ● Path Traversal in statichttpserver
+
+    : Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 30000 ms timeout specified by jest.setTimeout.Error:
+
+       8 | }
+       9 | 
+    > 10 | test("Path Traversal in statichttpserver", (done) => {
+         | ^
+      11 |   const fs = require("fs");
+      12 |   const sleep = require("sleep");
+      13 |   const { exec } = require("child_process");
+
+      at new Spec (../node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)
+      at Object.<anonymous> (statichttpserver_0.9.7/statichttpserver.test.js:10:1)
+
+ FAIL  http-live-simulator_1.0.0/http-live-simulator.test.js
+  ● Path Traversal in http-live-simulator
+
+    expect(received).toBe(expected) // Object.is equality
+
+    - Expected  - 9
+    + Received  + 4
+
+    - <!DOCTYPE html>
+    - <html>
+    - <body>
+    -
+    - <h1>CISPA</h1>
+    - <p>vulns4js! is here.</p>
+    -
+    - </body>
+    - </html> 
+    + �.../../../../../../../../../../../../../../.././../../../../../../../../../../../Users/masuduhasanmasudbhuiyan/Music/vulns4js/path-traversal/    .html HTTP/1.1
+    + Host: 127.0.0.1:9000
+    + User-Agent: curl/7.53.1
+    + A
+
+      26 | 
+      27 |   exec(attack_string, (error, stdout) => {
+    > 28 |     expect(stdout).toBe(hostsFile);
+         |                    ^
+      29 |     done();
+      30 |   });
+      31 | });
+
+      at rollup-plugin-serve_0.4.2/rollup-plugin-serve.test.js:28:20
+
+ FAIL  crud-file-server_0.7.0/crud-file-server.test.js
+  ● Path Traversal in crud-file-server
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "<!DOCTYPE html>
+    <html>
+    <body>·
+    <h1>CISPA</h1>
+    <p>vulns4js! is here.</p>·
+    </body>
+    </html> "
+    Received: ""
+
+      28 |   exec(attack_string, (error, stdout) => {
+      29 |     //attack
+    > 30 |     expect(stdout).toBe(hostsFile);
+         |                    ^
+      31 | 
+      32 |     done();
+      33 |   });
+
+      at crud-file-server_0.7.0/crud-file-server.test.js:30:20
+
+ FAIL  tinyserver_0.1.1/tinyserver.test.js
+  ● Path Traversal in tinyserver
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "<!DOCTYPE html>
+    <html>
+    <body>·
+    <h1>CISPA</h1>
+    <p>vulns4js! is here.</p>·
+    </body>
+    </html> "
+    Received: ""
+
+      27 |   exec(attack_string, (error, stdout) => {
+      28 |     //attack
+    > 29 |     expect(stdout).toBe(hostsFile);
+         |                    ^
+      30 | 
+      31 |     done();
+      32 |   });
+
+      at tinyserver_0.1.1/tinyserver.test.js:29:20
+
+ FAIL  serverzyy_1.0.0/serverzyy.test.js
+  ● Path Traversal in serverzyy
+
+    expect(received).toBe(expected) // Object.is equality
+
+    - Expected  - 9
+    + Received  + 1
+
+    - <!DOCTYPE html>
+    - <html>
+    - <body>
+    -
+    - <h1>CISPA</h1>
+    - <p>vulns4js! is here.</p>
+    -
+    - </body>
+    - </html> 
+    + �
+
+      24 | 
+      25 |   exec(attack_string, (error, stdout) => {
+    > 26 |     expect(stdout).toBe(hostsFile);
+         |                    ^
+      27 |     // a.execSync('fuser -k 9000/tcp',()=>{
+      28 |       done();
+      29 |     // })
+
+      at rollup-plugin-server_0.7.0/rollup-plugin-server.test.js:26:20
+
+ FAIL  sgqserve_1.0.0/sgqserve.test.js
+  ● Path Traversal in sgqserve
+
+    expect(received).toBe(expected) // Object.is equality
+
+    - Expected  - 9
+    + Received  + 1
+
+    - <!DOCTYPE html>
+    - <html>
+    - <body>
+    -
+    - <h1>CISPA</h1>
+    - <p>vulns4js! is here.</p>
+    -
+    - </body>
+    - </html> 
+    + �
+
+      21 | 
+      22 |   exec(attack_string, (error, stdout) => {
+    > 23 |     expect(stdout).toBe(hostsFile);
+         |                    ^
+      24 |     done();
+      25 |   });
+      26 | });
+
+      at asset-cache_0.0.6/asset-cache.test.js:23:20
+
+ FAIL  web-node-server_0.1.0/web-node-server.test.js
+  ● Path Traversal in web-node-server
+
+    listen EADDRINUSE: address already in use :::9999
+
+      25 |   };
+      26 |   const pkg = require("web-node-server");
+    > 27 |   pkg.start(config);
+         |       ^
+      28 | 
+      29 |   let attack_string = `curl -v --path-as-is "http://127.0.0.1:9999${genstr()}"`;
+      30 | 
+
+      at Object.start (node_modules/web-node-server/nodeserver.js:100:32)
+      at Object.<anonymous> (web-node-server_0.1.0/web-node-server.test.js:27:7)
+
+ FAIL  wrlc_0.2.5/wrlc.test.js
+  ● Path Traversal in wrlc
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "<!DOCTYPE html>
+    <html>
+    <body>·
+    <h1>CISPA</h1>
+    <p>vulns4js! is here.</p>·
+    </body>
+    </html> "
+    Received: ""
+
+      23 | 
+      24 |   exec(attack_string, (error, stdout) => {
+    > 25 |     expect(stdout).toBe(hostsFile);
+         |                    ^
+      26 |     done();
+      27 |   });
+      28 | });
+
+      at wrlc_0.2.5/wrlc.test.js:25:20
+
+ FAIL  fast-http_0.1.3/fast-http.test.js
+  ● Path Traversal in fast-http
+
+    listen EADDRINUSE: address already in use :::8080
+
+      16 |     a.execSync('fuser -k 8080/tcp',()=>{})//killing any other process using the same port
+      17 |   }catch(e){}
+    > 18 |     let srv = new Server(8080, "./", true);
+         |               ^
+      19 | 
+      20 |   let attack_string = `curl -v --path-as-is "http://127.0.0.1:8080${genstr()}"`;
+      21 | 
+
+      at new Object.<anonymous>.module.exports (node_modules/fast-http/index.js:52:12)
+      at Object.<anonymous> (fast-http_0.1.3/fast-http.test.js:18:15)
+
+
+Test Suites: 27 failed, 153 passed, 180 total
+Tests:       27 failed, 153 passed, 180 total
+Snapshots:   0 total
+Time:        68.078 s
+Ran all test suites.

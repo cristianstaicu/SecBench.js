@@ -4,17 +4,17 @@ test("Command Injection in kill-port", () => {
   const fs = require("fs");
   const path = "./kill-port";
   const sleep = require("sleep");
-
-  //checking that its not present already
+  try {
+    fs.unlinkSync(path);
+    console.log("File removed:", path);
+  } catch (err) {
+    console.error(err);
+  }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-
   kill("23;`touch kill-port; 2222222222`");
-
   sleep.sleep(5);
-  //checking that its created by after exploit.
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
-
-  fs.unlink(path, function (err) {}); //deleting the file after creation
+  fs.unlink(path, function (err) {});
 });

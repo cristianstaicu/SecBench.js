@@ -1,0 +1,248 @@
+Vulnerability,Package Name,Details Page,CVE,POC Available,Affected Version,Github Link
+Prototype Pollution,utils-copy,https://security.snyk.io/vuln/SNYK-JS-UTILSCOPY-1766956,,True,* ,
+Code Injection,obsidian-dataview,https://security.snyk.io/vuln/SNYK-JS-OBSIDIANDATAVIEW-1912069,CVE-2021-42057,True,* ,
+Prototype Pollution,@brikcss/merge,https://security.snyk.io/vuln/SNYK-JS-BRIKCSSMERGE-1727594,,True,* ,
+Code Injection,docker-cli-js,https://security.snyk.io/vuln/SNYK-JS-DOCKERCLIJS-1568516,CVE-2021-23732,True,* ,
+Code Injection,@asyncapi/modelina,https://security.snyk.io/vuln/SNYK-JS-ASYNCAPIMODELINA-1657554,,True,* ,
+ReDoS,taro,https://security.snyk.io/vuln/SNYK-JS-TARO-1585633,CVE-2021-3804,True,* ,https://github.com/NervJS/taro/commit/acadb6c826ba57f2030a626f1de4f7b4608fcdb5
+ReDoS,@vuelidate/validators,https://security.snyk.io/vuln/SNYK-JS-VUELIDATEVALIDATORS-1585154,CVE-2021-3794,True,<2.0.0-alpha.22 ,https://github.com/vuelidate/vuelidate/commit/1f0ca31c30e5032f00dbd14c4791b5ee7928f71d
+ReDoS,prismjs,https://security.snyk.io/vuln/SNYK-JS-PRISMJS-1585202,CVE-2021-3801,True,<1.25.0 ,https://github.com/PrismJS/prism/commit/0ff371bb4775a131634f47d0fe85794c547232f9
+ReDoS,ansi-regex,https://security.snyk.io/vuln/SNYK-JS-ANSIREGEX-1583908,CVE-2021-3807,True,>=6.0.0 <6.0.1 >2.1.1 <5.0.1 ,https://github.com/chalk/ansi-regex/commit/8d1d7cdb586269882c4bdc1b7325d0c58c8f76f9
+Prototype Pollution,body-parser-xml,https://security.snyk.io/vuln/SNYK-JS-BODYPARSERXML-1584211,CVE-2021-3666,True,<2.0.3 ,
+Command Injection,rebber,https://security.snyk.io/vuln/SNYK-JS-REBBER-1583439,,True,<5.2.1 ,https://github.com/zestedesavoir/zmarkdown/commit/db3fd70576028364e7168b3aec8600cf80b7a111
+Path Traversal,gun,https://security.snyk.io/vuln/SNYK-JS-GUN-1583448,,True,<0.2019.416 ,
+Path Traversal,startserver,https://security.snyk.io/vuln/SNYK-JS-STARTSERVER-1296388,CVE-2021-23430,True,* ,
+Code Injection,pac-resolver,https://security.snyk.io/vuln/SNYK-JS-PACRESOLVER-1564857,CVE-2021-23406,True,<5.0.0 ,https://github.com/TooTallNate/node-degenerator/commit/ccc3445354135398b6eb1a04c7d27c13b833f2d5
+Command Injection,@diez/generation,https://security.snyk.io/vuln/SNYK-JS-DIEZGENERATION-1566823,CVE-2021-32830,True,* ,
+Prototype Pollution,ioredis,https://security.snyk.io/vuln/SNYK-JS-IOREDIS-1567196,,True,<4.27.8 ,https://github.com/luin/ioredis/commit/7d73b9d07b52ec077f235292aa15c7aca203bba9
+Prototype Pollution,open-graph,https://security.snyk.io/vuln/SNYK-JS-OPENGRAPH-1536747,CVE-2021-23419,True,<0.2.6 ,https://github.com/samholmes/node-open-graph/commit/a0cef507a90adaac7dbbe9c404f09a50bdefb348
+Command Injection,gitlogplus,https://security.snyk.io/vuln/SNYK-JS-GITLOGPLUS-1315832,CVE-2021-23412,True,* ,
+Code Injection,total4,https://security.snyk.io/vuln/SNYK-JS-TOTAL4-1130527,CVE-2021-23390,True,<0.0.43 ,https://github.com/totaljs/framework4/commit/8a72d8c20f38bbcac031a76a51238aa528f68821
+Code Injection,total.js,https://security.snyk.io/vuln/SNYK-JS-TOTALJS-1088607,CVE-2021-32831,True,<3.4.9 ,https://github.com/totaljs/framework/commit/887b0fa9e162ef7a2dd9cec20a5ca122726373b3
+Prototype Pollution,noble,https://security.snyk.io/vuln/SNYK-JS-NOBLE-1314742,,True,* ,
+Prototype Pollution,backbone-query-parameters,https://security.snyk.io/vuln/SNYK-JS-BACKBONEQUERYPARAMETERS-1290381,CVE-2021-20085,True,* ,
+ReDoS,is-svg,https://security.snyk.io/vuln/SNYK-JS-ISSVG-1243891,CVE-2021-29059,True,>=2.1.0 <4.3.0 ,https://github.com/sindresorhus/is-svg/commit/732fc72779840c45a30817d3fe28e12058592b02
+Code Injection,exiftool-vendored.exe,https://security.snyk.io/vuln/SNYK-JS-EXIFTOOLVENDOREDEXE-1279040,CVE-2021-22204,True,<12.25.0 ,https://github.com/photostructure/exiftool-vendored.exe/commit/66be0b2c50cbba945a3566b131e26effc6fc960c
+Code Injection,exiftool-vendored.pl,https://security.snyk.io/vuln/SNYK-JS-EXIFTOOLVENDOREDPL-1279041,CVE-2021-22204,True,<12.25.0 ,https://github.com/photostructure/exiftool-vendored.exe/commit/66be0b2c50cbba945a3566b131e26effc6fc960c
+ReDoS,validator,https://security.snyk.io/vuln/SNYK-JS-VALIDATOR-1090599,,True,<13.6.0 ,https://github.com/tux-tn/validator.js/commit/b21879cf45c05ee11b2d79e612b651bf7b2d93b7#diff-f41087599986e29c3c0dc15b62f1bf96d8aba16fe41f3730e315c84c2c4cb311
+ReDoS,validator,https://security.snyk.io/vuln/SNYK-JS-VALIDATOR-1090600,CVE-2021-3765,True,<13.7.0 ,
+ReDoS,validator,https://security.snyk.io/vuln/SNYK-JS-VALIDATOR-1090601,,True,<13.6.0 ,
+ReDoS,validator,https://security.snyk.io/vuln/SNYK-JS-VALIDATOR-1090602,,True,<13.6.0 ,
+Command Injection,@azure/ms-rest-nodeauth,https://security.snyk.io/vuln/SNYK-JS-AZUREMSRESTNODEAUTH-1245464,CVE-2021-28458,True,<3.0.8 ,
+ReDoS,postcss,https://security.snyk.io/vuln/SNYK-JS-POSTCSS-1090595,CVE-2021-23368,True,>=7.0.0 <7.0.36 >=8.0.0 <8.2.10 ,
+Prototype Pollution,mongoose,https://security.snyk.io/vuln/SNYK-JS-MONGOOSE-1086688,,True,<5.12.2 ,https://github.com/Automattic/mongoose/commit/3ed44ffa13737be9fc0d709980da9c3c552d54e7
+Code Injection,json,https://security.snyk.io/vuln/SNYK-JS-JSON-1082930,,True,<11.0.0 ,https://github.com/trentm/json/commit/4114e321b02371c8e972ac42a8d43fa0ff6d3e3a
+Path Traversal,wazuh,https://security.snyk.io/vuln/SNYK-JS-WAZUH-1087421,CVE-2021-26814,True,<4.0.4 ,
+Prototype Pollution,@lyngs/digger,https://security.snyk.io/vuln/SNYK-JS-LYNGSDIGGER-1069826,,True,* ,
+Prototype Pollution,@lyngs/merge,https://security.snyk.io/vuln/SNYK-JS-LYNGSMERGE-1069823,,True,* ,
+Command Injection,madge,https://security.snyk.io/vuln/SNYK-JS-MADGE-1082875,CVE-2021-23352,True,<4.0.1 ,https://github.com/pahen/madge/commit/da5cbc9ab30372d687fa7c324b22af7ffa5c6332
+Code Injection,total.js,https://security.snyk.io/vuln/SNYK-JS-TOTALJS-1077069,CVE-2021-23344,True,<3.4.8 ,https://github.com/totaljs/framework/commit/c812bbcab8981797d3a1b9993fc42dad3d246f04
+Prototype Pollution,rfc6902,https://security.snyk.io/vuln/SNYK-JS-RFC6902-1053318,,True,<5.0.0 ,
+Prototype Pollution,merge,https://security.snyk.io/vuln/SNYK-JS-MERGE-1042987,CVE-2020-28499,True,<2.1.1 ,https://github.com/yeikos/js.merge/commit/7b0ddc2701d813f2ba289b32d6a4b9d4cc235fb4
+Prototype Pollution,tree-kit,https://security.snyk.io/vuln/SNYK-JS-TREEKIT-1077068,,True,<0.7.0 ,
+Command Injection,lodash,https://security.snyk.io/vuln/SNYK-JS-LODASH-1040724,CVE-2021-23337,True,<4.17.21 ,https://github.com/lodash/lodash/commit/3469357cff396a26c363f8c1b5a91dde28ba4b1c
+Command Injection,lodash.template,https://security.snyk.io/vuln/SNYK-JS-LODASHTEMPLATE-1088054,CVE-2021-23337,True,* ,https://github.com/lodash/lodash/commit/3469357cff396a26c363f8c1b5a91dde28ba4b1c
+Command Injection,systeminformation,https://security.snyk.io/vuln/SNYK-JS-SYSTEMINFORMATION-1074913,CVE-2021-21315,True,<4.34.11 >=5.0.0 <5.3.1 ,
+Command Injection,spritesheet-js,https://security.snyk.io/vuln/SNYK-JS-SPRITESHEETJS-1048333,CVE-2020-7782,True,* ,
+Command Injection,gitlog,https://security.snyk.io/vuln/SNYK-JS-GITLOG-1070779,CVE-2021-26541,True,>=3.3.0 <4.0.4 ,
+Prototype Pollution,highcharts,https://security.snyk.io/vuln/SNYK-JS-HIGHCHARTS-1018906,,True,<9.0.0 ,https://github.com/highcharts/highcharts/commit/fead359b37079482994ee86c2e2e60fbb02ffcb8
+Prototype Pollution,merge-deep,https://security.snyk.io/vuln/SNYK-JS-MERGEDEEP-1070277,CVE-2021-26707,True,<3.0.3 ,https://github.com/jonschlinkert/merge-deep/commit/e370968581413a2e5ffdbbf7c2f5094e0e0b3861
+Command Injection,kill-process-on-port,https://security.snyk.io/vuln/SNYK-JS-KILLPROCESSONPORT-1055458,CVE-2020-28426,True,* ,
+Command Injection,npos-tesseract,https://security.snyk.io/vuln/SNYK-JS-NPOSTESSERACT-1051031,CVE-2020-28453,True,* ,
+Command Injection,lycwed-spritesheetjs,https://security.snyk.io/vuln/SNYK-JS-LYCWEDSPRITESHEETJS-1050428,,True,* ,
+Command Injection,s3-kilatstorage,https://security.snyk.io/vuln/SNYK-JS-S3KILATSTORAGE-1050396,CVE-2020-28424,True,* ,
+Prototype Pollution,jointjs,https://security.snyk.io/vuln/SNYK-JS-JOINTJS-1024444,CVE-2020-28480,True,<3.3.0 ,
+Prototype Pollution,gsap,https://security.snyk.io/vuln/SNYK-JS-GSAP-1054614,CVE-2020-28478,True,<3.6.0 ,
+Prototype Pollution,immer,https://security.snyk.io/vuln/SNYK-JS-IMMER-1019369,CVE-2020-28477,True,<8.0.1 ,https://github.com/immerjs/immer/commit/da2bd4fa0edc9335543089fe7d290d6a346c40c5
+Code Injection,curling,https://security.snyk.io/vuln/SNYK-JS-CURLING-1060043,,True,* ,
+ReDoS,glob-parent,https://security.snyk.io/vuln/SNYK-JS-GLOBPARENT-1016905,CVE-2020-28469,True,<5.1.2 ,
+Command Injection,image-tiler,https://security.snyk.io/vuln/SNYK-JS-IMAGETILER-1051029,CVE-2020-28451,True,<2.0.2 ,https://github.com/MrP/image-tiler/commit/f4a0b13a4bf43655fc4013e04bbceaf77aecbeb8
+Prototype Pollution,node-ini,https://security.snyk.io/vuln/SNYK-JS-NODEINI-1054844,,True,* ,
+ReDoS,semver-regex,https://security.snyk.io/vuln/SNYK-JS-SEMVERREGEX-1047770,,True,<3.1.2 ,https://github.com/sindresorhus/semver-regex/commit/6baf2cc1d470c2fb63666bdebeef06822be7ba8c
+Prototype Pollution,multi-ini,https://security.snyk.io/vuln/SNYK-JS-MULTIINI-1053229,CVE-2020-28460,True,<2.1.2 ,https://github.com/evangelion1204/multi-ini/commit/6b2212b2ce152c19538a2431415f72942c5a1bde
+Prototype Pollution,js-data,https://security.snyk.io/vuln/SNYK-JS-JSDATA-1023655,CVE-2020-28442,True,<3.0.10 ,
+Command Injection,systeminformation,https://security.snyk.io/vuln/SNYK-JS-SYSTEMINFORMATION-1050436,CVE-2020-26274,True,<4.31.1 ,https://github.com/sebhildebrandt/systeminformation/commit/1faadcbf68f1b1fdd5eb2054f68fc932be32ac99
+Prototype Pollution,conf-cfg-ini,https://security.snyk.io/vuln/SNYK-JS-CONFCFGINI-1048973,CVE-2020-28441,True,<1.2.2 ,https://github.com/loge5/conf-cfg-ini/commit/3a88a6c52c31eb6c0f033369eed40aa168a636ea
+Prototype Pollution,mquery,https://security.snyk.io/vuln/SNYK-JS-MQUERY-1050858,CVE-2020-35149,True,<3.2.3 ,https://github.com/aheckmann/mquery/commit/792e69fd0a7281a0300be5cade5a6d7c1d468ad4
+Prototype Pollution,rxdb,https://security.snyk.io/vuln/SNYK-JS-RXDB-1050985,CVE-2020-35149,True,<9.11.0 ,https://github.com/aheckmann/mquery/commit/792e69fd0a7281a0300be5cade5a6d7c1d468ad4
+Prototype Pollution,ini,https://security.snyk.io/vuln/SNYK-JS-INI-1048974,CVE-2020-7788,True,<1.3.6 ,https://github.com/npm/ini/commit/56d2805e07ccd94e2ba0984ac9240ff02d44b6f1
+Prototype Pollution,systeminformation,https://security.snyk.io/vuln/SNYK-JS-SYSTEMINFORMATION-1043753,CVE-2020-7778,True,<4.30.2 ,
+Command Injection,nodemailer,https://security.snyk.io/vuln/SNYK-JS-NODEMAILER-1038834,CVE-2020-7769,True,<6.4.16 ,https://github.com/nodemailer/nodemailer/commit/ba31c64c910d884579875c52d57ac45acc47aa54
+Prototype Pollution,json-ptr,https://security.snyk.io/vuln/SNYK-JS-JSONPTR-1016939,CVE-2020-7766,True,<2.0.0 ,
+Path Traversal,browserless-chrome,https://security.snyk.io/vuln/SNYK-JS-BROWSERLESSCHROME-1023657,CVE-2020-7758,True,<1.43.0 ,https://github.com/browserless/chrome/commit/848b87e5bea4f8473eea85261a5ff922d6ebd2b6
+Path Traversal,droppy,https://security.snyk.io/vuln/SNYK-JS-DROPPY-1023656,CVE-2020-7757,True,* ,
+ReDoS,trim,https://security.snyk.io/vuln/SNYK-JS-TRIM-1017038,CVE-2020-7753,True,<0.0.3 ,
+Command Injection,systeminformation,https://security.snyk.io/vuln/SNYK-JS-SYSTEMINFORMATION-1021909,CVE-2020-7752,True,<4.27.11 ,https://github.com/sebhildebrandt/systeminformation/commit/931fecaec2c1a7dcc10457bb8cd552d08089da61
+ReDoS,locutus,https://security.snyk.io/vuln/SNYK-JS-LOCUTUS-1009836,,True,<2.0.15 ,https://github.com/locutusjs/locutus/commit/e094f85153753d7f919df7dd6f8503d8742c960a
+Command Injection,freespace,https://security.snyk.io/vuln/SNYK-JS-FREESPACE-1018705,,True,* ,
+Prototype Pollution,json-pointer,https://security.snyk.io/vuln/SNYK-JS-JSONPOINTER-596925,CVE-2020-7709,True,<0.6.1 ,
+Command Injection,alfred-workflow-nodejs,https://security.snyk.io/vuln/SNYK-JS-ALFREDWORKFLOWNODEJS-608975,,True,* ,
+Prototype Pollution,json-logic-js,https://security.snyk.io/vuln/SNYK-JS-JSONLOGICJS-674308,,True,<2.0.0 ,
+Command Injection,json,https://security.snyk.io/vuln/SNYK-JS-JSON-597481,CVE-2020-7712,True,<10.0.0 ,
+Code Injection,windows-edge,https://security.snyk.io/vuln/SNYK-JS-WINDOWSEDGE-608480,,True,<1.1.0 ,https://github.com/eugeneware/windows-edge/commit/20ce41e1111d05533d9b4f6e2da274c13b278e0d
+Prototype Pollution,lodash.set,https://security.snyk.io/vuln/SNYK-JS-LODASHSET-1320032,,True,* ,
+Command Injection,extra-ffmpeg,https://security.snyk.io/vuln/SNYK-JS-EXTRAFFMPEG-607911,,True,* ,https://github.com/nodef/extra-ffmpeg/commit/e39f999494209c042b39cd74edc44758ff29172b
+Command Injection,vboxmanage.js,https://security.snyk.io/vuln/SNYK-JS-VBOXMANAGEJS-607910,,True,<1.0.9 ,https://github.com/danielgindi/node-vboxmanage/commit/8efe421dd19c474cbdeb0908cbcc7aabfe343d5e
+ReDoS,wappalyzer,https://security.snyk.io/vuln/SNYK-JS-WAPPALYZER-597530,,True,<6.0.6 ,https://github.com/AliasIO/wappalyzer/commit/ad853a3abdd1f558895aaa75852c0510d3b1b87d
+ReDoS,is-my-json-valid,https://security.snyk.io/vuln/SNYK-JS-ISMYJSONVALID-597165,,True,<2.20.2 ,https://github.com/mafintosh/is-my-json-valid/commit/c3fc04fc455d40e9b29537f8e2c73a28ce106edb
+Code Injection,is-my-json-valid,https://security.snyk.io/vuln/SNYK-JS-ISMYJSONVALID-597167,,True,<2.20.3 ,https://github.com/mafintosh/is-my-json-valid/commit/3419563687df463b4ca709a2b46be8e15d6a2b3d
+Command Injection,git-tags-remote,https://security.snyk.io/vuln/SNYK-JS-GITTAGSREMOTE-596503,,True,<1.0.3 ,
+Prototype Pollution,flat,https://security.snyk.io/vuln/SNYK-JS-FLAT-596927,,True,>=5.0.0 <5.0.2 >=4.0.0 <4.1.1 >=3.0.0 <3.0.1 >=2.0.0 <2.0.2 >=5.0.0 <5.0.2 <1.6.2 ,
+Command Injection,diskstats,https://security.snyk.io/vuln/SNYK-JS-DISKSTATS-590099,,True,<0.1.0 ,https://github.com/PhilipSkinner/diskstats/commit/5631570fcaea48e9e86735c7e68757aa3c44e106
+Command Injection,xps,https://security.snyk.io/vuln/SNYK-JS-XPS-590098,,True,<1.0.3 ,https://github.com/sorellabs/xps/commit/768481146b8ead3811310eecc0f56e2d107cb740
+Prototype Pollution,i18next,https://security.snyk.io/vuln/SNYK-JS-I18NEXT-585930,,True,<19.8.3 ,https://github.com/i18next/i18next/commit/ed6169fa21b67d8e73b20d82579aff6f9b808a69
+Prototype Pollution,fine-uploader,https://security.snyk.io/vuln/SNYK-JS-FINEUPLOADER-585902,,True,* ,
+Command Injection,standard-version,https://security.snyk.io/vuln/SNYK-JS-STANDARDVERSION-575708,,True,<8.0.1 ,https://github.com/conventional-changelog/standard-version/commit/871201ff8de6091d4b9b2ce9bf8611a1fc2f7836
+Command Injection,strider-git,https://security.snyk.io/vuln/SNYK-JS-STRIDERGIT-572913,,True,<2.0.0 ,https://github.com/Strider-CD/strider-git/commit/13da05fff05f7089dbb97a393be097deaadd2a9e
+Command Injection,mversion,https://security.snyk.io/vuln/SNYK-JS-MVERSION-573174,CVE-2020-7688,True,<2.0.1 ,https://github.com/mikaelbr/mversion/commit/b7a8b32600e60759a7ad3921ec4a2750bf173482
+Command Injection,node-rsync,https://security.snyk.io/vuln/SNYK-JS-NODERSYNC-568773,,True,* ,
+Command Injection,scp,https://security.snyk.io/vuln/SNYK-JS-SCP-1009828,,True,* ,
+Path Traversal,marked-tree,https://security.snyk.io/vuln/SNYK-JS-MARKEDTREE-590121,CVE-2020-7682,True,* ,
+Path Traversal,marscode,https://security.snyk.io/vuln/SNYK-JS-MARSCODE-590122,CVE-2020-7681,True,* ,
+Path Traversal,rollup-plugin-serve-favicon,https://security.snyk.io/vuln/SNYK-JS-ROLLUPPLUGINSERVEFAVICON-585950,CVE-2020-7684,True,* ,https://github.com/thgh/rollup-plugin-serve/commit/3d144f2f47e86fcba34f5a144968da94220e3969
+Path Traversal,rollup-plugin-serve-favicon,https://security.snyk.io/vuln/SNYK-JS-ROLLUPPLUGINSERVEFAVICON-585950,CVE-2020-7684,True,* ,https://github.com/thgh/rollup-plugin-serve/commit/3d144f2f47e86fcba34f5a144968da94220e3969
+Path Traversal,sapper,https://security.snyk.io/vuln/SNYK-JS-SAPPER-572858,,True,<0.27.11 ,
+ReDoS,wappalyzer,https://security.snyk.io/vuln/SNYK-JS-WAPPALYZER-572854,,True,<6.0.3 ,
+Prototype Pollution,casperjs,https://security.snyk.io/vuln/SNYK-JS-CASPERJS-572803,CVE-2020-7679,True,* ,
+Code Injection,node-import,https://security.snyk.io/vuln/SNYK-JS-NODEIMPORT-571691,CVE-2020-7678,True,* ,
+ReDoS,websocket-extensions,https://security.snyk.io/vuln/SNYK-JS-WEBSOCKETEXTENSIONS-570623,CVE-2020-7663,True,<0.1.4 ,https://github.com/faye/websocket-extensions-node/commit/29496f6838bfadfe5a2f85dff33ed0ba33873237
+Code Injection,logkitty,https://security.snyk.io/vuln/SNYK-JS-LOGKITTY-568763,CVE-2020-8149,True,<0.7.1 ,
+ReDoS,markdown,https://security.snyk.io/vuln/SNYK-JS-MARKDOWN-560793,,True,* ,
+Prototype Pollution,@sailshq/lodash,https://security.snyk.io/vuln/SNYK-JS-SAILSHQLODASH-567754,CVE-2020-8203,True,* ,
+Prototype Pollution,lodash,https://security.snyk.io/vuln/SNYK-JS-LODASH-567746,CVE-2020-8203,True,<4.17.16 ,
+Code Injection,git-promise,https://security.snyk.io/vuln/SNYK-JS-GITPROMISE-567476,,True,<1.0.0 ,https://github.com/piuccio/git-promise/commit/ce122adb7b7ceae3813abeedadf73d57a67d39ba
+Command Injection,gry,https://security.snyk.io/vuln/SNYK-JS-GRY-566987,,True,<6.0.0 ,
+Command Injection,fsa,https://security.snyk.io/vuln/SNYK-JS-FSA-564118,CVE-2020-7615,True,* ,
+Prototype Pollution,express-mock-middleware,https://security.snyk.io/vuln/SNYK-JS-EXPRESSMOCKMIDDLEWARE-564120,CVE-2020-7616,True,* ,
+Path Traversal,sapper,https://security.snyk.io/vuln/SNYK-JS-SAPPER-561051,,True,<0.27.11 ,https://github.com/sveltejs/sapper/commit/63ffe9043170fbed8a5d260decfdc05e4440a555
+Command Injection,gulp-styledocco,https://security.snyk.io/vuln/SNYK-JS-GULPSTYLEDOCCO-560126,CVE-2020-7607,True,* ,
+Command Injection,docker-compose-remote-api,https://security.snyk.io/vuln/SNYK-JS-DOCKERCOMPOSEREMOTEAPI-560125,CVE-2020-7606,True,* ,
+Command Injection,gulp-tape,https://security.snyk.io/vuln/SNYK-JS-GULPTAPE-560124,CVE-2020-7605,True,* ,
+Command Injection,closure-compiler-stream,https://security.snyk.io/vuln/SNYK-JS-CLOSURECOMPILERSTREAM-560123,CVE-2020-7603,True,* ,
+Command Injection,pulverizr,https://security.snyk.io/vuln/SNYK-JS-PULVERIZR-560122,CVE-2020-7604,True,* ,
+Command Injection,node-prompt-here,https://security.snyk.io/vuln/SNYK-JS-NODEPROMPTHERE-560115,CVE-2020-7602,True,* ,
+Command Injection,gulp-scss-lint,https://security.snyk.io/vuln/SNYK-JS-GULPSCSSLINT-560114,CVE-2020-7601,True,* ,
+Prototype Pollution,dojo,https://security.snyk.io/vuln/SNYK-JS-DOJO-559224,CVE-2020-5258,True,<1.11.10 >=1.12.1 <1.12.8 >=1.13.0 <1.13.7 >=1.14.0 <1.14.6 >=1.15.0 <1.15.3 >=1.16.0 <1.16.2 ,https://github.com/dojo/dojo/commit/20a00afb68f5587946dc76fbeaa68c39bda2171d
+Prototype Pollution,uppy,https://security.snyk.io/vuln/SNYK-JS-UPPY-559068,CVE-2020-8137,True,<1.9.3 ,https://github.com/transloadit/uppy/commit/d98384989fd00d955a7de1504d48433357a3b2e5
+Prototype Pollution,fastify,https://security.snyk.io/vuln/SNYK-JS-FASTIFY-559018,CVE-2020-8137,True,<1.0.5 ,https://github.com/transloadit/uppy/commit/d98384989fd00d955a7de1504d48433357a3b2e5
+Command Injection,push-dir,https://security.snyk.io/vuln/SNYK-JS-PUSHDIR-559009,CVE-2019-10803,True,* ,
+Command Injection,compile-sass,https://security.snyk.io/vuln/SNYK-JS-COMPILESASS-551804,CVE-2019-10799,True,<1.0.5 ,
+Code Injection,mongodb-query-parser,https://security.snyk.io/vuln/SNYK-JS-MONGODBQUERYPARSER-548939,,True,<2.0.0 ,https://github.com/mongodb-js/query-parser/commit/814b86b50665a3c2647c2f5d8c7f1b3ac3b54984
+Command Injection,codecov,https://security.snyk.io/vuln/SNYK-JS-CODECOV-548879,CVE-2020-7597,True,<3.6.5 ,https://github.com/codecov/codecov-node/commit/02cf13d8b93ac547b5b4c2cfe186b7d874fd234f
+Command Injection,network-manager,https://security.snyk.io/vuln/SNYK-JS-NETWORKMANAGER-544035,CVE-2019-10786,True,* ,
+Code Injection,listening-processes,https://security.snyk.io/vuln/SNYK-JS-LISTENINGPROCESSES-544025,,True,* ,
+Prototype Pollution,dot-prop,https://security.snyk.io/vuln/SNYK-JS-DOTPROP-543489,CVE-2020-8116,True,>1.0.1 <4.2.1 >=5.0.0 <5.1.1 ,https://github.com/sindresorhus/dot-prop/commit/3039c8c07f6fdaa8b595ec869ae0895686a7a0f2
+Command Injection,codecov,https://security.snyk.io/vuln/SNYK-JS-CODECOV-543183,CVE-2020-7596,True,<3.6.2 ,https://github.com/codecov/codecov-node/commit/2f4eff90dd21e58dd56074dc4933b15a91373de6
+Command Injection,devcert-sanscache,https://security.snyk.io/vuln/SNYK-JS-DEVCERTSANSCACHE-540926,CVE-2019-10778,True,<0.4.7 ,https://github.com/guybedford/devcert/commit/571f4e6d077f7f21c6aed655ae380d85a7a5d3b8
+Command Injection,chrome-launcher,https://security.snyk.io/vuln/SNYK-JS-CHROMELAUNCHER-537575,CVE-2020-7645,True,<0.13.2 ,
+Code Injection,safer-eval,https://security.snyk.io/vuln/SNYK-JS-SAFEREVAL-534901,CVE-2019-10769,True,* ,
+Path Traversal,http_server,https://security.snyk.io/vuln/SNYK-JS-HTTPSERVER-536780,CVE-2019-15600,True,* ,
+Command Injection,tree-kill,https://security.snyk.io/vuln/SNYK-JS-TREEKILL-536781,CVE-2019-15599,True,<1.2.2 ,https://github.com/pkrumins/node-tree-kill/commit/ff73dbf144c4c2daa67799a50dfff59cd455c63c
+Command Injection,treekill,https://security.snyk.io/vuln/SNYK-JS-TREEKILL-536805,CVE-2019-15599,True,* ,https://github.com/pkrumins/node-tree-kill/commit/ff73dbf144c4c2daa67799a50dfff59cd455c63c
+Prototype Pollution,angular,https://security.snyk.io/vuln/SNYK-JS-ANGULAR-534884,CVE-2019-10768,True,>=1.4.0-beta.6 <1.7.9 ,https://github.com/angular/angular.js/commit/add78e62004e80bb1e16ab2dfe224afa8e513bc3
+Command Injection,pm2,https://security.snyk.io/vuln/SNYK-JS-PM2-474345,,True,<4.3.0 ,https://github.com/Unitech/pm2/pull/4595/commits/4c40fe54005575848bf169344e47e05a5c555574
+Command Injection,pm2,https://security.snyk.io/vuln/SNYK-JS-PM2-474304,,True,<4.3.0 ,
+Code Injection,mongo-express,https://security.snyk.io/vuln/SNYK-JS-MONGOEXPRESS-473215,CVE-2019-10758,True,<0.54.0 ,
+Code Injection,gitlabhook,https://security.snyk.io/vuln/SNYK-JS-GITLABHOOK-466987,CVE-2019-5485,True,* ,
+Code Injection,total.js,https://security.snyk.io/vuln/SNYK-JS-TOTALJS-461099,CVE-2019-15954,True,>=3.1.0 ,
+Path Traversal,@vivaxy/here,https://security.snyk.io/vuln/SNYK-JS-VIVAXYHERE-455285,,True,<3.2.2 ,https://github.com/vivaxy/here/commit/298dbab41344dfb7f95f66b1fa7b5cfb436bd4a2
+Prototype Pollution,set-value,https://security.snyk.io/vuln/SNYK-JS-SETVALUE-450213,CVE-2019-10747,True,<2.0.1 >=3.0.0 <3.0.1 ,https://github.com/jonschlinkert/set-value/commit/95e9d9923f8a8b4a01da1ea138fcc39ec7b6b15f
+Code Injection,pomelo-monitor,https://security.snyk.io/vuln/SNYK-JS-POMELOMONITOR-173695,CVE-2020-7620,True,* ,https://github.com/halfblood369/monitor/pull/2/commits/ea34c7333acb622ab760eafeab81863c2bad94a3
+Code Injection,cryo,https://security.snyk.io/vuln/npm:cryo:20180619,CVE-2018-3784,True,* ,
+Path Traversal,tmadserver,https://security.snyk.io/vuln/npm:tmadserver:20180315,,True,* ,
+Path Traversal,starfruit,https://security.snyk.io/vuln/npm:starfruit:20180315,,True,* ,
+Path Traversal,nodejs_liamgb,https://security.snyk.io/vuln/npm:nodejs_liamgb:20180315,,True,* ,
+Path Traversal,meryl,https://security.snyk.io/vuln/npm:meryl:20180315,,True,* ,
+Path Traversal,lab6_agolotin,https://security.snyk.io/vuln/npm:lab6_agolotin:20180315,,True,* ,
+Path Traversal,jiazhipeng,https://security.snyk.io/vuln/npm:jiazhipeng:20180315,,True,* ,
+Path Traversal,jacobj66-weather,https://security.snyk.io/vuln/npm:jacobj66-weather:20180315,,True,* ,
+Path Traversal,web-server-mock,https://security.snyk.io/vuln/npm:web-server-mock:20180306,,True,* ,
+Path Traversal,rapid-httpserver,https://security.snyk.io/vuln/npm:rapid-httpserver:20180306,,True,* ,
+Path Traversal,nodeload,https://security.snyk.io/vuln/npm:nodeload:20180306,,True,* ,
+Path Traversal,cs360getcity,https://security.snyk.io/vuln/npm:cs360getcity:20180306,,True,* ,
+Path Traversal,websvr,https://security.snyk.io/vuln/npm:websvr:20180226,,True,* ,
+Path Traversal,mime_web_server,https://security.snyk.io/vuln/npm:mime_web_server:20180226,,True,* ,
+Path Traversal,easy-router,https://security.snyk.io/vuln/npm:easy-router:20180226,,True,* ,
+Path Traversal,caihong,https://security.snyk.io/vuln/npm:caihong:20180226,,True,* ,
+Path Traversal,binocular-lamp,https://security.snyk.io/vuln/npm:binocular-lamp:20180226,,True,* ,
+Path Traversal,wuzhuang,https://security.snyk.io/vuln/npm:wuzhuang:20180226,,True,* ,
+Path Traversal,micra,https://security.snyk.io/vuln/npm:micra:20180226,,True,* ,
+Path Traversal,static-cling,https://security.snyk.io/vuln/npm:static-cling:20180226,,True,* ,
+Path Traversal,html-pages,https://security.snyk.io/vuln/npm:html-pages:20180226,,True,* ,
+Path Traversal,atropa-server,https://security.snyk.io/vuln/npm:atropa-server:20180226,,True,* ,
+Path Traversal,aso-server,https://security.snyk.io/vuln/npm:aso-server:20180226,,True,* ,
+Path Traversal,stattic,https://security.snyk.io/vuln/npm:stattic:20180226,,True,* ,
+Path Traversal,server-static,https://security.snyk.io/vuln/npm:server-static:20180226,,True,* ,
+Path Traversal,bruteser,https://security.snyk.io/vuln/npm:bruteser:20180226,,True,* ,
+Path Traversal,glurp,https://security.snyk.io/vuln/npm:glurp:20180226,,True,* ,
+Path Traversal,btnode,https://security.snyk.io/vuln/npm:btnode:20180226,,True,* ,
+Path Traversal,fast-http,https://security.snyk.io/vuln/npm:fast-http:20180226,,True,* ,
+Path Traversal,markdown-server,https://security.snyk.io/vuln/npm:markdown-server:20180226,,True,* ,
+Path Traversal,less-livereload,https://security.snyk.io/vuln/npm:less-livereload:20180226,,True,* ,
+Path Traversal,lab6-wclaibor,https://security.snyk.io/vuln/npm:lab6-wclaibor:20180226,,True,* ,
+Path Traversal,grunt-serve,https://security.snyk.io/vuln/npm:grunt-serve:20180226,,True,* ,
+Path Traversal,grunt-fileserver,https://security.snyk.io/vuln/npm:grunt-fileserver:20180226,,True,* ,
+Path Traversal,wenluhong11,https://security.snyk.io/vuln/npm:wenluhong11:20180226,,True,* ,
+Path Traversal,servedir,https://security.snyk.io/vuln/npm:servedir:20180226,,True,<1.0.1 ,
+Prototype Pollution,merge-deep,https://security.snyk.io/vuln/npm:merge-deep:20180215,CVE-2018-3722,True,<3.0.1 ,
+Prototype Pollution,assign-deep,https://security.snyk.io/vuln/npm:assign-deep:20180215,CVE-2018-3720,True,<0.4.7 ,
+Prototype Pollution,lodash,https://security.snyk.io/vuln/npm:lodash:20180130,CVE-2018-3721,True,<4.17.5 ,https://github.com/lodash/lodash/commit/d8e069cc3410082e44eb18fcf8e7f3d08ebe1d4a
+Command Injection,pullit,https://security.snyk.io/vuln/npm:pullit:20180214,,True,<1.4.0 ,"https:\u002F\u002Fgithub.com\u002Fjkup\u002Fpullit\u002Fcommit\u002F4fec455774ee08f4dce0ef2ef934ffcc37219bfb)"",severity:""high"",packageName:e,packageManager:f,publicationTime:""2018-02-14T13:22:50Z"",disclosureTime:""2018-02-13T22:00:00Z"",credit:[g],identifiers:{ALTERNATIVE:[""SNYK-JS-PULLIT-10883""],CVE:[],CWE:[""CWE-94""],NSP:[1004]},semver:{vulnerable:[h]},CVSSv3:""CVSS:3.1\u002FAV:N\u002FAC:L\u002FPR:N\u002FUI:R\u002FS:U\u002FC:H\u002FI:H\u002FA:H\u002FE:F\u002FRL:O\u002FRC:C"",cvssScore:8.8,language:""js"",socialTrendAlert:a,proprietary:a,breadcrumbItems:[{url:""\u002Fvulns"",label:""Snyk Vulnerability Database""},{label:f,url:""\u002Fvulns?type=npm""},{label:e,testHook:""filter""}],vulnDescription:{""Overview\r"":""\u003Cp\u003E\u003Ca href=\""https:\u002F\u002Fwww.npmjs.com\u002Fpackage\u002Fpullit\""\u003E\u003Ccode\u003Epullit\u003C\u002Fcode\u003E\u003C\u002Fa\u003E is Display and pull branches from GitHub pull requests.\u003C\u002Fp\u003"
+Prototype Pollution,hoek,https://security.snyk.io/vuln/npm:hoek:20180212,CVE-2018-3728,True,<4.2.1 >=5.0.0 <5.0.3 ,https://github.com/hapijs/hoek/commit/32ed5c9413321fbc37da5ca81a7cbab693786dee
+Prototype Pollution,@sailshq/lodash,https://security.snyk.io/vuln/SNYK-JS-SAILSHQLODASH-460130,CVE-2018-3721,True,<3.10.4 ,https://github.com/lodash/lodash/commit/d8e069cc3410082e44eb18fcf8e7f3d08ebe1d4a
+Prototype Pollution,lodash.mergewith,https://security.snyk.io/vuln/SNYK-JS-LODASHMERGEWITH-174137,CVE-2018-3721,True,<4.6.1 ,https://github.com/lodash/lodash/commit/d8e069cc3410082e44eb18fcf8e7f3d08ebe1d4a
+Prototype Pollution,lodash.merge,https://security.snyk.io/vuln/SNYK-JS-LODASHMERGE-173733,CVE-2018-3721,True,<4.6.2 ,https://github.com/lodash/lodash/commit/d8e069cc3410082e44eb18fcf8e7f3d08ebe1d4a
+Prototype Pollution,lodash.defaultsdeep,https://security.snyk.io/vuln/SNYK-JS-LODASHDEFAULTSDEEP-450198,CVE-2018-3721,True,<4.6.1 ,https://github.com/lodash/lodash/commit/d8e069cc3410082e44eb18fcf8e7f3d08ebe1d4a
+Prototype Pollution,lodash._basemerge,https://security.snyk.io/vuln/SNYK-JS-LODASHBASEMERGE-450201,CVE-2018-3721,True,* ,https://github.com/lodash/lodash/commit/d8e069cc3410082e44eb18fcf8e7f3d08ebe1d4a
+Command Injection,traceroute,https://security.snyk.io/vuln/npm:traceroute:20160311,,True,<=1.0.0 ,https://github.com/jaw187/node-traceroute/commit/b99ee024a01a40d3d20a92ad3769cc78a3f6386f
+Code Injection,sandbox,https://security.snyk.io/vuln/npm:sandbox:20160821,,True,* ,
+Code Injection,pg,https://security.snyk.io/vuln/npm:pg:20170813,CVE-2017-16082,True,<2.11.2 >=3.0.0 <3.6.4 >=4.0.0 <4.5.7 >=5.0.0 <5.2.1 >=6.0.0 <6.0.5 >=6.1.0 <6.1.6 >=6.2.0 <6.2.5 >=6.3.0 <6.3.3 >=6.4.0 <6.4.2 >=7.0.0 <7.0.2 >=7.1.0 <7.1.2 ,
+Path Traversal,hechatroom,https://security.snyk.io/vuln/npm:hechatroom:20170730,,True,* ,
+Path Traversal,ghod5servercs360,https://security.snyk.io/vuln/npm:ghod5servercs360:20170730,,True,* ,
+Path Traversal,shenliru,https://security.snyk.io/vuln/npm:shenliru:20170612,CVE-2017-16161,True,* ,
+Path Traversal,lab6drewfusbyu,https://security.snyk.io/vuln/npm:lab6drewfusbyu:20170612,CVE-2017-16141,True,* ,
+Path Traversal,simple-npm-registry,https://security.snyk.io/vuln/npm:simple-npm-registry:20170612,CVE-2017-16132,True,* ,
+Path Traversal,caolilinode,https://security.snyk.io/vuln/npm:caolilinode:20170617,CVE-2017-16159,True,* ,
+Path Traversal,http_static_simple,https://security.snyk.io/vuln/npm:http_static_simple:20170612,CVE-2017-16134,True,* ,
+Path Traversal,chatbyvista,https://security.snyk.io/vuln/npm:chatbyvista:20170612,CVE-2017-16177,True,* ,
+Path Traversal,elding,https://security.snyk.io/vuln/npm:elding:20170525,CVE-2017-16222,True,* ,
+Path Traversal,scott-blanch-weather-app,https://security.snyk.io/vuln/npm:scott-blanch-weather-app:20170505,CVE-2017-16184,True,* ,
+Path Traversal,jikes,https://security.snyk.io/vuln/npm:jikes:20170518,CVE-2017-16139,True,* ,
+Path Traversal,byucslabsix,https://security.snyk.io/vuln/npm:byucslabsix:20170525,CVE-2017-16166,True,* ,
+Path Traversal,yzt,https://security.snyk.io/vuln/npm:yzt:20170509,CVE-2017-16221,True,* ,
+Path Traversal,yttivy,https://security.snyk.io/vuln/npm:yttivy:20170521,CVE-2017-16219,True,* ,
+Path Traversal,xtalk,https://security.snyk.io/vuln/npm:xtalk:20170418,CVE-2017-16091,True,* ,
+Path Traversal,xiongrui-httpserver,https://security.snyk.io/vuln/npm:xiongrui-httpserver:20170504,,True,* ,
+Path Traversal,thrushs,https://security.snyk.io/vuln/npm:thrushs:20170427,,True,* ,
+Path Traversal,whispercast,https://security.snyk.io/vuln/npm:whispercast:20170511,CVE-2017-16174,True,* ,
+Path Traversal,uv-tj-demo,https://security.snyk.io/vuln/npm:uv-tj-demo:20170509,CVE-2017-16200,True,* ,
+Path Traversal,utahcityfinder,https://security.snyk.io/vuln/npm:utahcityfinder:20170510,CVE-2017-16173,True,* ,
+Path Traversal,unicorn-list,https://security.snyk.io/vuln/npm:unicorn-list:20170510,CVE-2017-16131,True,* ,
+Path Traversal,wenluhong1,https://security.snyk.io/vuln/npm:wenluhong1:20170509,,True,* ,
+Path Traversal,tiny-http,https://security.snyk.io/vuln/npm:tiny-http:20170418,CVE-2017-16097,True,* ,
+Path Traversal,tencent-server,https://security.snyk.io/vuln/npm:tencent-server:20170503,CVE-2017-16216,True,* ,
+Path Traversal,sspa,https://security.snyk.io/vuln/npm:sspa:20170510,CVE-2017-16145,True,* ,
+Path Traversal,sly07,https://security.snyk.io/vuln/npm:sly07:20170518,CVE-2017-16189,True,* ,
+Path Traversal,reecerver,https://security.snyk.io/vuln/npm:reecerver:20170425,CVE-2017-16188,True,* ,
+Path Traversal,quickserver,https://security.snyk.io/vuln/npm:quickserver:20170425,CVE-2017-16196,True,* ,
+Path Traversal,qinserve,https://security.snyk.io/vuln/npm:qinserve:20170510,CVE-2017-16197,True,* ,
+Path Traversal,picard,https://security.snyk.io/vuln/npm:picard:20170510,CVE-2017-16194,True,* ,
+Command Injection,pidusage,https://security.snyk.io/vuln/npm:pidusage:20170605,CVE-2017-16034,True,<1.1.5 ,"https://github.com/soyuka/pidusage/commit/b70eca15f7ca7f1b82a15f8a5d4bb48737f5a89d)"",severity:""high"",packageName:e,packageManager:f,publicationTime:""2017-06-07T12:36:55Z"",disclosureTime:""2017-06-05T21:00:00Z"",credit:[g],identifiers:{ALTERNATIVE:[""SNYK-JS-PIDUSAGE-10633""],CVE:[""CVE-2017-1000220"",""CVE-2017-16034""],CWE:[""CWE-77""],GHSA:[""GHSA-hfq9-rfpv-j8r8""],NSP:[356]},semver:{vulnerable:[h]},CVSSv3:""CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C"",cvssScore:8.4,language:""js"",socialTrendAlert:a,proprietary:a,breadcrumbItems:[{url:""/vulns"",label:""Snyk Vulnerability Database""},{label:f,url:""/vulns?type=npm""},{label:e,testHook:""filter""}],vulnDescription:{""Overview"":""<p><a href=""https://www.npmjs.com/package/pidusage""><code>pidusage</code></a> is a package for Cross-platform process cpu % and memory usage of a PID"
+Path Traversal,node-server-forfront,https://security.snyk.io/vuln/npm:node-server-forfront:20170521,CVE-2017-16124,True,* ,
+Path Traversal,mockserve,https://security.snyk.io/vuln/npm:mockserve:20170423,CVE-2017-16146,True,* ,
+Path Traversal,nodeload-nmickuli,https://security.snyk.io/vuln/npm:nodeload-nmickuli:20170418,,True,* ,
+Path Traversal,jn_jj_server,https://security.snyk.io/vuln/npm:jn_jj_server:20170422,CVE-2017-16210,True,* ,
+Path Traversal,jansenstuffpleasework,https://security.snyk.io/vuln/npm:jansenstuffpleasework:20170518,CVE-2017-16176,True,* ,
+Path Traversal,iter-server,https://security.snyk.io/vuln/npm:iter-server:20170511,CVE-2017-16183,True,* ,
+Path Traversal,iter-http,https://security.snyk.io/vuln/npm:iter-http:20170418,CVE-2017-16094,True,* ,
+Path Traversal,hcbserver,https://security.snyk.io/vuln/npm:hcbserver:20170429,CVE-2017-16171,True,* ,
+Path Traversal,gomeplus-h5-proxy,https://security.snyk.io/vuln/npm:gomeplus-h5-proxy:20170429,CVE-2017-16037,True,* ,
+Path Traversal,enserver,https://security.snyk.io/vuln/npm:enserver:20170516,CVE-2017-16209,True,* ,
+Path Traversal,easyquick,https://security.snyk.io/vuln/npm:easyquick:20170418,CVE-2017-16109,True,* ,
+Path Traversal,earlybird,https://security.snyk.io/vuln/npm:earlybird:20170418,CVE-2017-16154,True,* ,
+Path Traversal,desafio,https://security.snyk.io/vuln/npm:desafio:20170429,CVE-2017-16164,True,* ,
+Path Traversal,dcserver,https://security.snyk.io/vuln/npm:dcserver:20170516,CVE-2017-16158,True,* ,
+Path Traversal,dasafio,https://security.snyk.io/vuln/npm:dasafio:20170509,CVE-2017-16179,True,* ,
+Path Traversal,city-weather-abe,https://security.snyk.io/vuln/npm:city-weather-abe:20170521,,True,* ,
+Path Traversal,badjs-sourcemap-server,https://security.snyk.io/vuln/npm:badjs-sourcemap-server:20170418,CVE-2017-16036,True,* ,
+Path Traversal,list-n-stream,https://security.snyk.io/vuln/npm:list-n-stream:20170418,CVE-2017-16084,True,<0.0.11 ,https:\u002F\u002Fgithub.com\u002FKoryNunn\u002Flist-n-stream\u002Fcommit\u002F99b0b40b34aaedfcdf25da46bef0a06b9c47fb59)\

