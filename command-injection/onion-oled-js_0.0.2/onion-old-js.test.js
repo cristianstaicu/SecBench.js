@@ -5,8 +5,10 @@ test("Command Injection in onion-oled-js", () => {
   const path = "./onion-oled-js";
   const sleep = require("sleep");
   try {
-    fs.unlinkSync(path);
-    console.log("File removed:", path);
+    if (fs.existsSync(path)) {
+      fs.unlinkSync(path);
+      console.log("File removed:", path);
+    }
   } catch (err) {
     console.error(err);
   }
@@ -14,7 +16,6 @@ test("Command Injection in onion-oled-js", () => {
   expect(file_exist).toBe(false);
   OLEDExp.scroll(";touch onion-oled-js #");
   sleep.sleep(5);
-
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {});

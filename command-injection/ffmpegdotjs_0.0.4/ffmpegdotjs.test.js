@@ -5,8 +5,10 @@ test("Command Injection in ffmpegdotjs", () => {
   const path = "./ffmpegdotjs";
   const sleep = require("sleep");
   try {
-    fs.unlinkSync(path);
-    console.log("File removed:", path);
+    if (fs.existsSync(path)) {
+      fs.unlinkSync(path);
+      console.log("File removed:", path);
+    }
   } catch (err) {
     console.error(err);
   }
@@ -19,7 +21,6 @@ test("Command Injection in ffmpegdotjs", () => {
     "n || touch ffmpegdotjs; #"
   );
   sleep.sleep(5);
-
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {});

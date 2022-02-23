@@ -5,12 +5,9 @@ test("Command Injection in find-process", () => {
   const path = "./find-process";
   const command = "$(touch find-process)";
   const sleep = require("sleep");
-
   find("pid", command);
-
   sleep.sleep(5);
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
-
-  fs.unlink(path, function (err) {}); //deleting the file after creation
+  fs.unlink(path, function (err) {});
 });

@@ -6,8 +6,10 @@ test("Remote code execution in arpping", () => {
   const sleep = require("sleep");
   let arpping = new Arpping();
   try {
-    fs.unlinkSync(path);
-    console.log("File removed:", path);
+    if (fs.existsSync(path)) {
+      fs.unlinkSync(path);
+      console.log("File removed:", path);
+    }
   } catch (err) {
     console.error(err);
   }

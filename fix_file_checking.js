@@ -4,6 +4,47 @@ const estraverse = require("estraverse");
 const escodegen = require("escodegen");
 const path = require("path");
 
+// function transformAndReplace(ast) {
+//   let done = false;
+//   estraverse.replace(ast, {
+//     enter: function (node, parent) {
+//       if (done) {
+//         this.break();
+//         return;
+//       }
+//       if (node.type === "ExpressionStatement" && !node.computed) {
+//         if (node.expression.left) {
+//           if (node.expression.left.name == "file_exist") {
+//             // console.log(parent.body)
+//             for (let key = 0; key < parent.body.length; key++) {
+//               // console.log(key)
+//               if (parent.body[key] === node) {
+//                 code_to_inject = ` try {
+//                                     fs.unlinkSync(path);
+//                                     console.log("File removed:", path);
+//                                   } catch (err) {
+//                                     console.error(err);
+//                                   }`;
+//                 let analysisTree = esprima.parse(code_to_inject);
+//                 // console.log(analysisTree)
+//                 let newNode = analysisTree.body[0];
+//                 // console.log(newNode)
+//                 // newNode.expressions[0].right = node;
+//                 // parent.body[key]= newNode;
+//                 parent.body.splice(key, 0, newNode);
+//                 done = true;
+//                 this.break();
+//                 break;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     },
+//   });
+//   return ast;
+// }
+
 function transformAndReplace(ast) {
   let done = false;
   estraverse.replace(ast, {
@@ -12,30 +53,32 @@ function transformAndReplace(ast) {
         this.break();
         return;
       }
-      if (node.type === "ExpressionStatement" && !node.computed) {
-        if (node.expression.left) {
-          if (node.expression.left.name == "file_exist") {
-            // console.log(parent.body)
-            for (let key = 0; key < parent.body.length; key++) {
-              // console.log(key)
-              if (parent.body[key] === node) {
-                code_to_inject = ` try {
+      if (node.type === "TryStatement" && !node.computed) {
+        // console.log(node);
+        // console.log(node.block.body[1].expression.arguments[0].value)
+        if (
+          node.block.body[1].expression.arguments[0].value == "File removed:"
+        ) {
+          for (let key = 0; key < parent.body.length; key++) {
+            if (parent.body[key] === node) {
+              code_to_inject = `try {
+                                  if (fs.existsSync(path)) {
                                     fs.unlinkSync(path);
                                     console.log("File removed:", path);
-                                  } catch (err) {
+                                  }
+                                } catch (err) {
                                     console.error(err);
-                                  }`;
-                let analysisTree = esprima.parse(code_to_inject);
-                // console.log(analysisTree)
-                let newNode = analysisTree.body[0];
-                // console.log(newNode)
-                // newNode.expressions[0].right = node;
-                // parent.body[key]= newNode;
-                parent.body.splice(key, 0, newNode);
-                done = true;
-                this.break();
-                break;
-              }
+                                }`;
+              let analysisTree = esprima.parse(code_to_inject);
+              // console.log(analysisTree)
+              let newNode = analysisTree.body[0];
+              // console.log(newNode)
+              // // newNode.expressions[0].right = node;
+              parent.body[key] = newNode;
+              // parent.body.splice(key, 0, newNode);
+              done = true;
+              this.break();
+              break;
             }
           }
         }
@@ -113,52 +156,38 @@ try {
               var ast = esprima.parse(data, { comment: true });
               var source = ast.comments[0].value;
               is_done = checkifalreadydone(ast);
-              if (!is_done) {
-                number_of_occurance = checkNumberOfOccurance(ast);
-                if (number_of_occurance == 4) {
-                  ast = transformAndReplace(ast);
-                  // ast = escodegen.attachComments(ast, ast.comments);
-                  // console.log(ast)
-                  code_to_write = escodegen.generate(ast, { comment: true });
-                  code_with_comment = "//" + source + "\n" + code_to_write;
-                  console.log(code_with_comment);
-                  outputFile = path.join(outer_folder_path, file_name);
-                  // fs.writeFileSync (outputFile, code_with_comment, { encoding: 'utf-8' })
-                }
-              }
+              ast = transformAndReplace(ast);
+              code_to_write = escodegen.generate(ast, { comment: true });
+              // console.log(code_to_write);
+              code_with_comment = "//" + source + "\n" + code_to_write;
+              // console.log(code_with_comment);
+              outputFile = path.join(outer_folder_path, file_name);
+              // if (!is_done) {
+              // number_of_occurance = checkNumberOfOccurance(ast);
+              // if (number_of_occurance == 4) {
+              //   ast = transformAndReplace(ast);
+              //   // ast = escodegen.attachComments(ast, ast.comments);
+              //   // console.log(ast)
+              //   code_to_write = escodegen.generate(ast, { comment: true });
+              //   code_with_comment = "//" + source + "\n" + code_to_write;
+              //   console.log(code_with_comment);
+              //   outputFile = path.join(outer_folder_path, file_name);
+              fs.writeFileSync(outputFile, code_with_comment, {
+                encoding: "utf-8",
+              });
+              // }
+              // }
             }
           }
-
-          // var data = fs.readFileSync(filepath).toString()
-          // // console.log(data)
-          // // Strip 'declare export' statements from Flow 0.19, which aren't supported by esprima.
-          // // They're not useful to us anyway.
-          // // data = data.replace(/declare export .*?(?:\n|$)/ig, '')
-          // // console.log(esprima.parse(data.toString()).body[0].expression)
-          // var ast = esprima.parse(data);
-          // console.log(checkifalreadydone(ast));
-          // ast = transformAndReplace(ast);
-          // console.log(escodegen.generate(ast));
         } catch (err) {
           console.log(err);
         }
-        // if (folder_path.includes("adb-driver"))break;
+        // if (folder_path.includes("aaptjs"))break;
       }
     }
   }
-
-  // var data = fs.readFileSync(filepath).toString()
-  // // console.log(data)
-  // // Strip 'declare export' statements from Flow 0.19, which aren't supported by esprima.
-  // // They're not useful to us anyway.
-  // // data = data.replace(/declare export .*?(?:\n|$)/ig, '')
-  // // console.log(esprima.parse(data.toString()).body[0].expression)
-  // var ast = esprima.parse(data);
-  // console.log(checkifalreadydone(ast));
-  // ast = transformAndReplace(ast);
-  // console.log(escodegen.generate(ast));
 } catch (e) {
-  throw Error("File is not valid, error: " + e.message);
+  throw Error(e.message);
 }
 
 // ast = esprima.parse('/Users/masudulhasanmasudbhuiyan/Music/vulns4js/command-injection/bunyan_2.0.0/bunyan.test.js');

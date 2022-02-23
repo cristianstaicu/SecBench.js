@@ -5,8 +5,10 @@ test("Command Injection in wc-cmd", () => {
   const path = "./wc-cmd";
   const sleep = require("sleep");
   try {
-    fs.unlinkSync(path);
-    console.log("File removed:", path);
+    if (fs.existsSync(path)) {
+      fs.unlinkSync(path);
+      console.log("File removed:", path);
+    }
   } catch (err) {
     console.error(err);
   }

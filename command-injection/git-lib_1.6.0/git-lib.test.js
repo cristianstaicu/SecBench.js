@@ -4,8 +4,10 @@ test("Remote code execution in git-lib", () => {
   const fs = require("fs");
   const path = "./git-lib";
   try {
-    fs.unlinkSync(path);
-    console.log("File removed:", path);
+    if (fs.existsSync(path)) {
+      fs.unlinkSync(path);
+      console.log("File removed:", path);
+    }
   } catch (err) {
     console.error(err);
   }

@@ -5,8 +5,10 @@ test("Command Injection in get-npm-package-version", () => {
   const path = "./get-npm-package-version";
   const sleep = require("sleep");
   try {
-    fs.unlinkSync(path);
-    console.log("File removed:", path);
+    if (fs.existsSync(path)) {
+      fs.unlinkSync(path);
+      console.log("File removed:", path);
+    }
   } catch (err) {
     console.error(err);
   }

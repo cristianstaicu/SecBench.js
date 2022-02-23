@@ -5,8 +5,10 @@ test("Command Injection in portkiller", () => {
   const sleep = require("sleep");
   const path = "./portkiller";
   try {
-    fs.unlinkSync(path);
-    console.log("File removed:", path);
+    if (fs.existsSync(path)) {
+      fs.unlinkSync(path);
+      console.log("File removed:", path);
+    }
   } catch (err) {
     console.error(err);
   }

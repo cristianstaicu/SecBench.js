@@ -17,8 +17,10 @@ test("Command Injection in launchpad", (done) => {
   );
   tst.getPid(() => {
     try {
-      fs.unlinkSync(path);
-      console.log("File removed:", path);
+      if (fs.existsSync(path)) {
+        fs.unlinkSync(path);
+        console.log("File removed:", path);
+      }
     } catch (err) {
       console.error(err);
     }

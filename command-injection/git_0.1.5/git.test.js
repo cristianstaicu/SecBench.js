@@ -7,8 +7,10 @@ test("Remote code execution in git", () => {
   let repo = new Git("repo-test");
   let user_input = "; touch git";
   try {
-    fs.unlinkSync(path);
-    console.log("File removed:", path);
+    if (fs.existsSync(path)) {
+      fs.unlinkSync(path);
+      console.log("File removed:", path);
+    }
   } catch (err) {
     console.error(err);
   }

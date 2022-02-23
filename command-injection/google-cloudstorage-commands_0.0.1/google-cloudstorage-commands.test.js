@@ -5,8 +5,10 @@ test("Command Injection in google-cloudstorage-commands", () => {
   const path = "./google-cloudstorage-commands";
   const sleep = require("sleep");
   try {
-    fs.unlinkSync(path);
-    console.log("File removed:", path);
+    if (fs.existsSync(path)) {
+      fs.unlinkSync(path);
+      console.log("File removed:", path);
+    }
   } catch (err) {
     console.error(err);
   }

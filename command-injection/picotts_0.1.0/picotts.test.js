@@ -5,8 +5,10 @@ test("Command Injection in picotts", () => {
   const path = "./picotts";
   const sleep = require("sleep");
   try {
-    fs.unlinkSync(path);
-    console.log("File removed:", path);
+    if (fs.existsSync(path)) {
+      fs.unlinkSync(path);
+      console.log("File removed:", path);
+    }
   } catch (err) {
     console.error(err);
   }
@@ -16,7 +18,6 @@ test("Command Injection in picotts", () => {
     if (!err) console.log("Correctly played");
   });
   sleep.sleep(5);
-
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, () => {});

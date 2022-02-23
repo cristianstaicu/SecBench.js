@@ -4,18 +4,16 @@ test("Remote code execution in gity", () => {
   const fs = require("fs");
   const path = "./gity";
   const sleep = require("sleep");
-
   try {
-    fs.unlinkSync(path);
-    console.log("File removed:", path);
+    if (fs.existsSync(path)) {
+      fs.unlinkSync(path);
+      console.log("File removed:", path);
+    }
   } catch (err) {
     console.error(err);
   }
-
-  //checking that its not present already
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-
   try {
     let git = Git()
       .add("*.js")
@@ -23,10 +21,8 @@ test("Remote code execution in gity", () => {
       .run(() => {
         file_exist = fs.existsSync(path);
         expect(file_exist).toBe(true);
-
-        fs.unlink(path, function (err) {}); //deleting the file after creation
+        fs.unlink(path, function (err) {});
       });
   } catch (error) {}
-
-  fs.unlink(path, function (err) {}); //deleting the file after creation
+  fs.unlink(path, function (err) {});
 });
