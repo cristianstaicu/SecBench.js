@@ -1,9 +1,9 @@
+process.on('unhandledRejection', () => {/* ignore the unhandled promise */})
 //https://snyk.io/vuln/SNYK-JS-CODECOV-548879
-test("Command Injection in codecov", () => {
+test("Command Injection in codecov", () => {  
   const root = require("codecov");
   const fs = require("fs");
-  const path = "./codecov";
-  const sleep = require("sleep");
+  const path = "./codecov";  
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);
@@ -21,14 +21,12 @@ test("Command Injection in codecov", () => {
       "gcov-args": " ",
     },
   };
-  try {
-    root.handleInput.upload(
-      args,
-      function () {},
-      function () {}
-    );
-  } catch (error) {}
-  sleep.sleep(5);
+  
+  root.handleInput.upload(
+    args,
+    function () {},
+    function () {}
+  );  
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {});
