@@ -1,5 +1,6 @@
 //https://hackerone.com/reports/730111
-test("Remote code execution in gity", () => {
+test("Remote code execution in gity", (done) => {
+  expect.assertions(2);
   const Git = require("gity");
   const fs = require("fs");
   const path = "./gity";
@@ -21,8 +22,9 @@ test("Remote code execution in gity", () => {
       .run(() => {
         file_exist = fs.existsSync(path);
         expect(file_exist).toBe(true);
-        fs.unlink(path, function (err) {});
+        fs.unlink(path, function (err) {
+          done();
+        });
       });
   } catch (error) {}
-  fs.unlink(path, function (err) {});
 });
