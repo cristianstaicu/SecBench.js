@@ -1,5 +1,5 @@
 //https://hackerone.com/reports/330957
-test("Command Injection in pdfinfojs", async () => {
+test("Command Injection in pdfinfojs", (done) => {
   expect.assertions(2);
   const pdfinfo = require("pdfinfojs");
   const fs = require("fs");
@@ -15,9 +15,11 @@ test("Command Injection in pdfinfojs", async () => {
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
   pdf = new pdfinfo("$(touch pdfinfojs)");
-  await pdf.getInfo(function (err, info, params) {
+  pdf.getInfo(function (err, info, params) {
     file_exist = fs.existsSync(path);
     expect(file_exist).toBe(true);
-    fs.unlink(path, function (err) {});
+    fs.unlink(path, function (err) {
+      done();
+    });
   });
 });

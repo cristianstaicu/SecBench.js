@@ -16,7 +16,7 @@ test("Command Injection in local-devices", () => {
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
   let userInput = "127.0.0.1 | touch local-devices";
-  find(userInput).then(() => {
+  return find(userInput).then(() => {
     file_exist = fs.existsSync(path);
     expect(file_exist).toBe(true);
     fs.unlink(path, function (err) {});

@@ -16,7 +16,7 @@ test("Remote code execution in pdf-image", () => {
   expect(file_exist).toBe(false);
   try {
     let pdfImage = new PDFImage('"; touch pdf-image_2 #"');
-    pdfImage.getInfo().then(() => {
+    return pdfImage.getInfo().finally(() => {
       file_exist = fs.existsSync(path);
       expect(file_exist).toBe(true);
       fs.unlink(path, function (err) {});

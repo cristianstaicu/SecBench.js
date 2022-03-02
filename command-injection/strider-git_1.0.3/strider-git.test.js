@@ -1,5 +1,5 @@
 //https://snyk.io/vuln/SNYK-JS-STRIDERGIT-572913
-test("Command Injection in strider-git", () => {
+test("Command Injection in strider-git", (done) => {
   expect.assertions(2);
   const git = require("strider-git/lib");
   const fs = require("fs");
@@ -24,9 +24,12 @@ test("Command Injection in strider-git", () => {
       url: "http://sss",
     },
     "",
-    function () {}
+    function () {
+      file_exist = fs.existsSync(path);
+      expect(file_exist).toBe(true);
+      fs.unlink(path, function (err) {
+        done();
+      });
+    }
   );
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
 });

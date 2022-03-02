@@ -19,5 +19,6 @@ test("Command Injection in npm-help", () => {
   root.latestVersion(module);
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
+  fs.unlinkSync("./version");
   fs.unlink(path, function (err) {});
 });

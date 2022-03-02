@@ -15,8 +15,9 @@ test("Command Injection in onion-oled-js", () => {
   }
   let file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-  OLEDExp.scroll(";touch onion-oled-js #");
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
+  return OLEDExp.scroll(";touch onion-oled-js #").finally(() => {
+    file_exist = fs.existsSync(path);
+    expect(file_exist).toBe(true);
+    fs.unlink(path, function (err) {});
+  });
 });

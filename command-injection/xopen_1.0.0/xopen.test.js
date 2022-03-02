@@ -16,8 +16,9 @@ test("Command Injection in xopen", () => {
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
   let attack_code = "& touch xopen";
-  root(attack_code);
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
+  return root(attack_code).finally(() => {
+    file_exist = fs.existsSync(path);
+    expect(file_exist).toBe(true);
+    fs.unlink(path, function (err) {});
+  });
 });

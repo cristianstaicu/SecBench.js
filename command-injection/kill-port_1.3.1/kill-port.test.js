@@ -15,8 +15,9 @@ test("Command Injection in kill-port", () => {
   }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-  kill("23;`touch kill-port; 2222222222`");
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
+  return kill("23;`touch kill-port; 2222222222`").then(() => {
+    file_exist = fs.existsSync(path);
+    expect(file_exist).toBe(true);
+    fs.unlink(path, function (err) {});
+  });
 });

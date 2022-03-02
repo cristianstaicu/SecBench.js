@@ -1,0 +1,13 @@
+{
+  "id": " CVE-2020-8178",
+  "dependencies": {
+    "install-package": "0.4.17"
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-JISON-570539",
+    "source2": ""
+  },
+  "fixedVersion": "",
+  "fixCommit": "n/a",
+  "sink": ""
+}

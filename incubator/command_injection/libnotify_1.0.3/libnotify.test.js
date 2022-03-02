@@ -1,5 +1,5 @@
 //https://snyk.io/vuln/npm:libnotify:20130515
-test("Command Injection in libnotify", () => {
+test("Command Injection in libnotify", (done) => {
   expect.assertions(2);
   const libnotify = require("libnotify");
   const fs = require("fs");
@@ -15,9 +15,11 @@ test("Command Injection in libnotify", () => {
   }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-  libnotify.notify("$(touch libnotify)", function () {
+  libnotify.notify("$(touch libnotify)", { title: "\\" }, function () {
     file_exist = fs.existsSync(path);
     expect(file_exist).toBe(true);
-    fs.unlink(path, function (err) {});
+    // fs.unlink(path, function (err) {
+    //   done();
+    // });
   });
 });

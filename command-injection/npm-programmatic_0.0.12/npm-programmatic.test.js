@@ -16,8 +16,13 @@ test("Command Injection in npm-programmatic", () => {
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
   let attack_code = "& touch npm-programmatic &";
-  root.install([attack_code], { cwd: "./" });
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
+  return root
+    .install([attack_code], { cwd: "./" })
+    .then(() => {})
+    .catch((err) => {})
+    .finally(() => {
+      file_exist = fs.existsSync(path);
+      expect(file_exist).toBe(true);
+      fs.unlink(path, function (err) {});
+    });
 });

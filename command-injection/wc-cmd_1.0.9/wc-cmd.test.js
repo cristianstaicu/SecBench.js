@@ -1,5 +1,5 @@
 //https://snyk.io/vuln/SNYK-JS-WCCMD-1050423
-test("Command Injection in wc-cmd", () => {
+test("Command Injection in wc-cmd", (done) => {
   expect.assertions(2);
   const a = require("wc-cmd");
   const fs = require("fs");
@@ -15,8 +15,11 @@ test("Command Injection in wc-cmd", () => {
   }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-  a("touch wc-cmd");
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
+  a("touch wc-cmd", () => {
+    file_exist = fs.existsSync(path);
+    expect(file_exist).toBe(true);
+    fs.unlink(path, function (err) {
+      done();
+    });
+  });
 });

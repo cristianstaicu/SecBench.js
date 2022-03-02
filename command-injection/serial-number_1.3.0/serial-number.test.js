@@ -1,5 +1,5 @@
 //https://snyk.io/vuln/SNYK-JS-SERIALNUMBER-559010
-test("Command Injection in serial-number", () => {
+test("Command Injection in serial-number", (done) => {
   expect.assertions(2);
   const root = require("serial-number");
   const fs = require("fs");
@@ -15,8 +15,11 @@ test("Command Injection in serial-number", () => {
   }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-  root(function () {}, "touch serial-number;");
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
+  root(function () {
+    file_exist = fs.existsSync(path);
+    expect(file_exist).toBe(true);
+    fs.unlink(path, function (err) {
+      done();
+    });
+  }, "touch serial-number;");
 });

@@ -1,5 +1,5 @@
 // https://snyk.io/vuln/SNYK-JS-LYCWEDSPRITESHEETJS-1050428
-test("Command Injection in lycwed-spritesheetjs", () => {
+test("Command Injection in lycwed-spritesheetjs", (done) => {
   expect.assertions(2);
   let spritesheet = require("lycwed-spritesheetjs");
   const fs = require("fs");
@@ -24,7 +24,9 @@ test("Command Injection in lycwed-spritesheetjs", () => {
     function () {
       file_exist = fs.existsSync(path);
       expect(file_exist).toBe(true);
-      fs.unlink(path, function (err) {});
+      fs.unlink(path, function (err) {
+        done();
+      });
     }
   );
 });

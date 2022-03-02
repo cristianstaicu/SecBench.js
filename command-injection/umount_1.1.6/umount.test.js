@@ -1,5 +1,5 @@
 //https://snyk.io/vuln/SNYK-JS-UMOUNT-564265
-test("Command Injection in umount", () => {
+test("Command Injection in umount", (done) => {
   expect.assertions(2);
   const root = require("umount");
   const fs = require("fs");
@@ -16,8 +16,11 @@ test("Command Injection in umount", () => {
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
   let device = '" $(touch umount) "';
-  root.umount(device, function () {});
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
+  root.umount(device, function () {
+    file_exist = fs.existsSync(path);
+    expect(file_exist).toBe(true);
+    fs.unlink(path, function (err) {
+      done();
+    });
+  });
 });

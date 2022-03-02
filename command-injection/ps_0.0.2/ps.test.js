@@ -1,5 +1,5 @@
 //https://hackerone.com/reports/390848
-test("Command Injection in ps", () => {
+test("Command Injection in ps", (done) => {
   expect.assertions(2);
   const ps = require("ps");
   const fs = require("fs");
@@ -15,8 +15,11 @@ test("Command Injection in ps", () => {
   }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-  ps.lookup({ pid: "$(touch ps)" }, function (err, proc) {});
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
+  ps.lookup({ pid: "$(touch ps)" }, function (err, proc) {
+    file_exist = fs.existsSync(path);
+    expect(file_exist).toBe(true);
+    fs.unlink(path, function (err) {
+      done();
+    });
+  });
 });

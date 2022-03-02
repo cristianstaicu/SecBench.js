@@ -16,11 +16,18 @@ test("Command Injection in kill-port-process", () => {
   }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-  killPortProcess(PORT)
+  return killPortProcess(PORT)
     .then(() => {
+      console.log("here!");
       file_exist = fs.existsSync(path);
       expect(file_exist).toBe(true);
-      fs.unlinkSync(path);
     })
-    .catch((err) => {});
+    .catch((err) => {})
+    .finally(() => {
+      console.log("here!!!!");
+      if (fs.existsSync(path)) {
+        fs.unlinkSync(path);
+        console.log("File removed!:", path);
+      }
+    });
 });

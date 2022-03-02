@@ -1,5 +1,5 @@
 //https://snyk.io/vuln/SNYK-JS-PROMISEPROBE-546816
-test("Command Injection in promise-probe", () => {
+test("Command Injection in promise-probe", async () => {
   expect.assertions(2);
   const root = require("promise-probe");
   const fs = require("fs");
@@ -16,9 +16,16 @@ test("Command Injection in promise-probe", () => {
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
   let attack_code = "& touch promise-probe";
-  root.ffprobe(attack_code, function () {
-    file_exist = fs.existsSync(path);
-    expect(file_exist).toBe(true);
-    fs.unlink(path, function (err) {});
-  });
+  // return root.ffprobe(attack_code).finally(()=>{
+  //   file_exist = fs.existsSync(path);
+  //   expect(file_exist).toBe(true);
+  //   fs.unlink(path, function (err) {});
+  // });
+
+  try {
+    await root.ffprobe(attack_code);
+  } catch (err) {}
+  file_exist = fs.existsSync(path);
+  expect(file_exist).toBe(true);
+  fs.unlink(path, function (err) {});
 });

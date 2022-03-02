@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2020-28446",
+  "dependencies": {
+    "ntesseract": "0.2.8"
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-NTESSERACT-1050982",
+    "source2": ""
+  },
+  "fixedVersion": "0.2.9",
+  "fixCommit": "https://github.com/taoyuan/ntesseract/commit/fcbc36f381798b4362179c0cdf9961b437c7b619",
+  "sink": ""
+}

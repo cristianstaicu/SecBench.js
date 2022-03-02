@@ -17,10 +17,20 @@ test("Command Injection in node-notifier", () => {
   } catch (err) {
     console.error(err);
   }
+  // file_exist = fs.existsSync(path);
+  // expect(file_exist).toBe(false);
+  // notifier.notify(options);
+  // setTimeout(() => {
+  //   file_exist = fs.existsSync(path);
+  //   expect(file_exist).toBe(true);
+  //   fs.unlink(path, () => {done();});
+  // }, 2000);
+
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
   notifier.notify(options);
+  sleep.sleep(2);
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
+  // fs.unlink(path, function (err) {});
 });
