@@ -1,5 +1,6 @@
 //https://hackerone.com/reports/394294
 test("Command Injection in samsung-remote", () => {
+  expect.assertions(2);
   const SamsungRemote = require("samsung-remote");
   const fs = require("fs");
   const path = "./samsung-remote";
@@ -16,7 +17,6 @@ test("Command Injection in samsung-remote", () => {
   expect(file_exist).toBe(false);
   var remote = new SamsungRemote({ ip: "127.0.0.1; touch samsung-remote;" });
   remote.isAlive(function (err) {});
-  sleep.sleep(5);
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {});

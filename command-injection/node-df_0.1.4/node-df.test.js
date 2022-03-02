@@ -1,5 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-NODEDF-536779
 test("Command Injection in node-df", () => {
+  expect.assertions(2);
   const df = require("node-df");
   const fs = require("fs");
   const path = "./node-df";
@@ -21,7 +22,6 @@ test("Command Injection in node-df", () => {
     precision: 2,
   };
   df(options, function (error, response) {});
-  sleep.sleep(5);
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {});

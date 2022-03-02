@@ -1,5 +1,6 @@
 // https://snyk.io/vuln/SNYK-JS-LYCWEDSPRITESHEETJS-1050428
 test("Command Injection in lycwed-spritesheetjs", () => {
+  expect.assertions(2);
   let spritesheet = require("lycwed-spritesheetjs");
   const fs = require("fs");
   const path = "./lycwed-spritesheetjs";

@@ -1,5 +1,6 @@
 //https://hackerone.com/reports/319473
 test("Command Injection in open", () => {
+  expect.assertions(2);
   const fs = require("fs");
   const path = "./open";
   const sleep = require("sleep");
@@ -14,7 +15,6 @@ test("Command Injection in open", () => {
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
   require("open")("http://example.com/`touch open`");
-  sleep.sleep(5);
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {});

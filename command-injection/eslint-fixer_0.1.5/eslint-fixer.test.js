@@ -1,5 +1,6 @@
 // https://snyk.io/vuln/SNYK-JS-MONOREPOBUILD-1050392
 test("Command Injection in eslint-fixer", () => {
+  expect.assertions(2);
   const fix = require("eslint-fixer");
   const fs = require("fs");
   const path = "./eslint-fixer";
@@ -14,7 +15,7 @@ test("Command Injection in eslint-fixer", () => {
   }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-  fix("$(touch eslint-fixer)").finally(() => {
+  return fix("$(touch eslint-fixer)").finally(() => {
     file_exist = fs.existsSync(path);
     expect(file_exist).toBe(true);
     fs.unlink(path, () => {});

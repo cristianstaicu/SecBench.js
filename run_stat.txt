@@ -1,0 +1,734 @@
+/bin/sh: 1: -type: not found
+fatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --filter <args>       object filtering
+
+fatal: Cannot do hard reset with paths.
+ PASS  monorepo-build_0.1.9/monorepo-build.test.js
+  ● Console
+
+    console.log
+      syntax-error
+
+      at Object.<anonymous> (monorepo-build_0.1.9/monorepo-build.test.js:33:13)
+
+    console.log
+      herr!
+
+      at monorepo-build_0.1.9/monorepo-build.test.js:39:13
+
+ PASS  picotts_0.1.0/picotts.test.js (5.519 s)
+ PASS  codecov_3.6.4/codecov.test.js (6.062 s)
+  ● Console
+
+    console.log
+        _____          _  
+       / ____|        | |  
+      | |     ___   __| | ___  ___ _____   __  
+      | |    / _ \ / _` |/ _ \/ __/ _ \ \ / /  
+      | |___| (_) | (_| |  __/ (_| (_) \ V /  
+       \_____\___/ \__,_|\___|\___\___/ \_/  
+                                      v3.6.4
+
+      at Object.upload (node_modules/codecov/lib/codecov.js:254:11)
+
+    console.log
+      ==> Detecting CI Provider
+
+      at Object.upload (node_modules/codecov/lib/codecov.js:267:13)
+
+    console.log
+          No CI Detected. Using git/mercurial
+
+      at Object.configuration (node_modules/codecov/lib/services/localGit.js:5:13)
+
+    console.log
+      ==> Configuration:
+
+      at Object.upload (node_modules/codecov/lib/codecov.js:323:11)
+
+    console.log
+          Endpoint: https://codecov.io
+
+      at Object.upload (node_modules/codecov/lib/codecov.js:324:11)
+
+    console.log
+      {
+        commit: '0da5cfe8cdb3a8fb32eea99e29191f8d69563e6e',
+        branch: 'main',
+        package: 'node-v3.6.4'
+      }
+
+      at Object.upload (node_modules/codecov/lib/codecov.js:326:11)
+
+    console.log
+      ==> Building file structure
+
+      at Object.upload (node_modules/codecov/lib/codecov.js:357:11)
+
+    console.log
+      ==> Generating gcov reports (skip via --disable=gcov)
+
+      at Object.upload (node_modules/codecov/lib/codecov.js:374:15)
+
+    console.log
+          $ find & touch codecov & -type f -name '*.gcno'  -exec     {} +
+
+      at Object.upload (node_modules/codecov/lib/codecov.js:418:15)
+
+    console.log
+          Failed to run gcov command.
+
+      at Object.upload (node_modules/codecov/lib/codecov.js:421:15)
+
+    console.log
+      ==> Scanning for reports
+
+      at Object.upload (node_modules/codecov/lib/codecov.js:477:13)
+
+    console.log
+          X Failed to read file at
+
+      at Object.upload (node_modules/codecov/lib/codecov.js:506:19)
+
+    console.log
+      ==> Uploading reports
+
+      at Object.upload (node_modules/codecov/lib/codecov.js:521:15)
+
+ PASS  hot-formula-parser_3.0.0/hot-formula-parser.test.js (5.169 s)
+ PASS  get-npm-package-version_1.0.6/get-npm-package-version.test.js (6.949 s)
+ PASS  geojson2kml_0.1.1/geojson2kml.test.js (5.136 s)
+node:internal/validators:224
+    throw new ERR_INVALID_CALLBACK(callback);
+    ^
+
+TypeError: Callback must be a function. Received undefined
+    at makeCallback (node:fs:186:3)
+    at Object.unlink (node:fs:1704:14)
+    at /home/vulns4js/command-injection/node_modules/picotts/index.js:18:6
+    at ChildProcess.exithandler (node:child_process:406:5)
+    at ChildProcess.emit (node:events:520:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:520:28)
+    at Pipe.<anonymous> (node:net:687:12) {
+  code: 'ERR_INVALID_CALLBACK'
+}
+ PASS  wc-cmd_1.0.9/wc-cmd.test.js (5.138 s)
+ PASS  wincred_1.0.2/wincred.test.js (5.155 s)
+ PASS  curling_0.2.0/curling.test.js (5.135 s)
+/bin/sh: 1: lsof: not found
+ PASS  adb-driver_0.1.8/adb-driver.test.js (5.355 s)
+ PASS  open_0.0.5/open.test.js (5.208 s)
+ PASS  install-package_0.4.0/install-package.test.js (5.92 s)
+ PASS  port-killer_1.0.1/port-killer.test.js (5.178 s)
+ PASS  karma-mojo_1.0.1/karma-mojo.test.js (5.695 s)
+  ● Console
+
+    console.log
+      error
+
+      at Object.<anonymous> (karma-mojo_1.0.1/karma-mojo.test.js:28:13)
+
+/home/vulns4js/command-injection/node_modules/karma-mojo/index.js:156
+      log.info('Grepped:', fileList);
+          ^
+
+TypeError: Cannot read properties of undefined (reading 'info')
+    at /home/vulns4js/command-injection/node_modules/karma-mojo/index.js:156:11
+    at /home/vulns4js/command-injection/node_modules/karma-mojo/index.js:104:9
+    at ChildProcess.exithandler (node:child_process:390:7)
+    at ChildProcess.emit (node:events:520:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:520:28)
+    at Pipe.<anonymous> (node:net:687:12)
+ PASS  libnmap_0.4.11/libnmap.test.js (5.799 s)
+ PASS  dns-sync_0.1.0/dns-sync.test.js (5.514 s)
+ PASS  theme-core_0.2.5/theme-core.test.js (5.375 s)
+gpg: no valid OpenPGP data found.
+gpg: decrypt_message failed: Unknown system error
+ PASS  buns_1.1.6/buns.test.js (25.565 s)
+  ● Console
+
+    console.log
+      error
+
+      at Object.<anonymous> (buns_1.1.6/buns.test.js:21:13)
+
+ PASS  deferred-exec_0.3.1/deferred-exec.test.js (5.202 s)
+ PASS  growl_1.9.0/growl.test.js (5.171 s)
+ PASS  thi.ng-egf_0.3.0/egf.test.js (5.254 s)
+ PASS  sonar-wrapper_0.1.2/sonar-wrapper.test.js (5.59 s)
+  ● Console
+
+    console.log
+      -----------------------------------
+
+      at Object.initConf (node_modules/sonar-wrapper/lib/debug.js:8:13)
+
+    console.log
+      { 'sonar.projectName': '& touch sonar-wrapper' }
+
+      at node_modules/sonar-wrapper/lib/sonarRunner.js:9:17
+
+    console.log
+       -Dsonar.host.url=./ -Dsonar.projectName=& touch sonar-wrapper
+
+      at node_modules/sonar-wrapper/lib/sonarRunner.js:16:17
+
+
+  ●  Cannot log after tests are done. Did you forget to wait for something async in your test?
+    Attempted to log "-- : ".
+
+      at console.log (../../../usr/lib/node_modules/jest/node_modules/@jest/console/build/BufferedConsole.js:199:10)
+      at node_modules/sonar-wrapper/lib/sonarRunner.js:23:29
+
+node:internal/process/promises:265
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "TypeError: Cannot read properties of null (reading 'indexOf')".] {
+  code: 'ERR_UNHANDLED_REJECTION'
+}
+ PASS  total.js_3.4.6/total-js.test.js (5.232 s)
+/bin/sh: 1:   : not found
+ PASS  kill-port-process_0.0.1/kill-port-process.test.js (5.198 s)
+/home/vulns4js/command-injection/node_modules/kill-port-process/src/index.js:48
+				log(`Successfully terminated process running on port ${input}`);
+				^
+
+ReferenceError: log is not defined
+    at /home/vulns4js/command-injection/node_modules/kill-port-process/src/index.js:48:5
+    at ChildProcess.exithandler (node:child_process:406:5)
+    at ChildProcess.emit (node:events:520:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:520:28)
+    at Pipe.<anonymous> (node:net:687:12)
+ PASS  blamer_0.1.13/blamer.test.js (5.236 s)
+ PASS  ts-process-promises_1.0.2/ts-process-promises.test.js (5.224 s)
+ PASS  git-dummy-commit_1.3.0/git-dummy-commit.test.js (5.566 s)
+ PASS  node-mpv_0.12.2/node-mpv.test.js (5.26 s)
+ PASS  kill-port_1.3.1/kill-port.test.js (5.158 s)
+ PASS  ps-visitor_0.0.2/ps-visitor.test.js (5.147 s)
+ PASS  alfred-workflow-nodejs_2.0.1/alfred-workflow-nodejs.test.js (5.49 s)
+ PASS  ffmpegdotjs_0.0.4/ffmpegdotjs.test.js (5.151 s)
+ PASS  find-process_1.4.4/find-process.test.js (5.177 s)
+node:internal/timers:386
+    throw new ERR_OUT_OF_RANGE(name, 'a non-negative finite number', msecs);
+    ^
+
+RangeError [ERR_OUT_OF_RANGE]: The value of "msecs" is out of range. It must be a non-negative finite number. Received NaN
+    at new NodeError (node:internal/errors:371:5)
+    at getTimerDuration (node:internal/timers:386:11)
+    at Socket.setStreamTimeout [as setTimeout] (node:internal/stream_base_commons:244:11)
+    at Object.<anonymous> (/home/vulns4js/command-injection/node_modules/connection-tester/scripts/connection-tester.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1155:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'ERR_OUT_OF_RANGE'
+}
+ PASS  kill-process-by-name_1.0.5/kill-process-by-name.test.js (5.171 s)
+ PASS  freespace_1.0.4/freespace.test.js (5.168 s)
+ PASS  giting_0.0.7/giting.test.js (5.16 s)
+ PASS  git-add-remote_1.0.0/git-add-remote.test.js (5.162 s)
+ PASS  connection-tester_0.2.0/connection-tester.test.js (5.225 s)
+ PASS  onion-oled-js_0.0.2/onion-old-js.test.js (5.161 s)
+ PASS  pdfinfojs_0.3.6/pdfinfojs.test.js (5.206 s)
+
+  ●  Cannot log after tests are done. Did you forget to wait for something async in your test?
+    Attempted to log "".
+
+      at console.log (../../../usr/lib/node_modules/jest/node_modules/@jest/console/build/BufferedConsole.js:199:10)
+      at cb (node_modules/freespace/index.js:28:21)
+
+ PASS  command-exists_1.2.2/command-exists.test.js (5.155 s)
+ PASS  git-parse_1.0.4/git-parse.test.js (5.201 s)
+ PASS  scp_0.0.3/scp.test.js (5.159 s)
+ PASS  heroku-env_0.2.0/heroku-env.test.js (5.113 s)
+ PASS  diskusage-ng_0.2.6/diskusage-ng.test.js (5.101 s)
+ PASS  npm-programmatic_0.0.12/npm-programmatic.test.js (5.17 s)
+ PASS  umount_1.1.6/umount.test.js (5.123 s)
+ PASS  ps-kill_1.0.0/ps-kill.test.js (5.1 s)
+/bin/sh: 1: asciinema: not found
+ PASS  ps_0.0.2/ps.test.js (5.144 s)
+ PASS  gry_5.0.8/gry.test.js (5.153 s)
+
+  ●  Cannot log after tests are done. Did you forget to wait for something async in your test?
+    Attempted to log "Finished!".
+
+      22 |   file_exist = fs.existsSync(path);
+      23 |   expect(file_exist).toBe(true);
+    > 24 |   fs.unlink(path, function (err) {});
+         |             ^
+      25 | });
+      26 |
+
+      at console.log (../../../usr/lib/node_modules/jest/node_modules/@jest/console/build/BufferedConsole.js:199:10)
+      at gry_5.0.8/gry.test.js:24:13
+      at LimitIt.<anonymous> (node_modules/gry/lib/index.js:85:17)
+      at node_modules/limit-it/lib/index.js:138:20
+
+ PASS  killport_1.0.1/killport.test.js (5.166 s)
+ PASS  git-ls-remote_0.1.0/git-ls-remote.test.js (5.173 s)
+ PASS  extra-asciinema_1.0.0/extra-asciinema.test.js (5.161 s)
+/bin/sh: 1: tnpm: not found
+ PASS  compass-compile_0.0.1/compass-compile.test.js (5.164 s)
+ PASS  killing_1.0.6/killing.test.js (5.145 s)
+/bin/sh: 1: wget: not found
+ PASS  lsof_0.1.0/lsof.test.js (5.153 s)
+
+  ●  Cannot log after tests are done. Did you forget to wait for something async in your test?
+    Attempted to log "Unhandled rejection Error: Command failed: npm install & touch npm-programmatic &  --no-save
+    /bin/sh: 1: --no-save: not found
+
+        at ChildProcess.exithandler (node:child_process:399:12)
+        at ChildProcess.emit (node:events:520:28)
+        at maybeClose (node:internal/child_process:1092:16)
+        at Socket.<anonymous> (node:internal/child_process:451:11)
+        at Socket.emit (node:events:520:28)
+        at Pipe.<anonymous> (node:net:687:12)".
+
+      at Pipe.<anonymous> (node:net:687:12)".
+      at printWarning (node_modules/bluebird/js/release/debuggability.js:954:17)
+      at formatAndLogError (node_modules/bluebird/js/release/debuggability.js:679:13)
+      at fireRejectionEvent (node_modules/bluebird/js/release/debuggability.js:704:13)
+      at Promise._notifyUnhandledRejection (node_modules/bluebird/js/release/debuggability.js:90:9)
+      at Timeout.unhandledRejectionCheck [as _onTimeout] (node_modules/bluebird/js/release/debuggability.js:39:25)
+
+ PASS  samsung-remote_1.2.5/samsung-remote.test.js (5.147 s)
+ PASS  npm-help_1.0.0/npm-help.test.js (5.151 s)
+ PASS  vboxmanage.js_1.0.6/vboxmanage-js.test.js (5.183 s)
+ PASS  corenlp-js-interface_1.0.3/corenlp-js-interface.test.js (5.137 s)
+ PASS  portkiller_1.0.2/portkiller.test.js (5.158 s)
+  ● Console
+
+    console.log
+      port number is missing.
+
+      at Object.<anonymous> (node_modules/portkiller/index.js:35:11)
+
+
+  ●  Cannot log after tests are done. Did you forget to wait for something async in your test?
+    Attempted to log "port $(touch portkiller) is not open.".
+
+      at console.log (../../../usr/lib/node_modules/jest/node_modules/@jest/console/build/BufferedConsole.js:199:10)
+      at node_modules/portkiller/index.js:16:17
+
+ PASS  effect_1.0.4/effect.test.js (5.162 s)
+ PASS  async-git_1.13.1/async-git.test.js (5.161 s)
+node:child_process:399
+      ex = new Error('Command failed: ' + cmd + '\n' + stderr);
+           ^
+
+Error: Command failed: git reset "$(touch async-git)" --hard
+fatal: empty string is not a valid pathspec. please use . instead if you meant to match all paths
+
+    at ChildProcess.exithandler (node:child_process:399:12)
+    at ChildProcess.emit (node:events:520:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:520:28)
+    at Pipe.<anonymous> (node:net:687:12) {
+  killed: false,
+  code: 128,
+  signal: null,
+  cmd: 'git reset "$(touch async-git)" --hard',
+  exitCode: 128
+}
+ PASS  gitblame_0.1.1/gitblame.test.js (5.142 s)
+ PASS  pdf-image_1.0.5/pdf-image.test.js (5.153 s)
+/bin/sh: 1: sql: not found
+/bin/sh: 1: @/home/vulns4js/command-injection/node_modules/apex-publish-static-files/lib/script: not found
+ PASS  curljs_0.1.2/curljs.test.js (5.21 s)
+ PASS  macaddress_0.2.8/macaddress.test.js (5.143 s)
+ PASS  google-cloudstorage-commands_0.0.1/google-cloudstorage-commands.test.js (5.458 s)
+ PASS  macfromip_1.1.1/macfromip.test.js (5.191 s)
+ PASS  apex-publish-static-files_2.0.0/apex-publish-static-files.test.js (5.182 s)
+  ● Console
+
+    console.log
+      Uploading to 111 - Application Static Files...
+
+      at Object.publish (node_modules/apex-publish-static-files/index.js:51:14)
+
+    console.error
+      Error: Command failed: "sql" ;touch apex-publish-static-files; @"/home/vulns4js/command-injection/node_modules/apex-publish-static-files/lib/script" "/home/vulns4js/command-injection/node_modules/apex-publish-static-files/lib/distUpload.js" "/home/vulns4js/command-injection" 111 "application" "undefined"
+      /bin/sh: 1: sql: not found
+      /bin/sh: 1: @/home/vulns4js/command-injection/node_modules/apex-publish-static-files/lib/script: not found
+      
+          at checkExecSyncError (node:child_process:828:11)
+          at execSync (node:child_process:902:15)
+          at Object.publish (/home/vulns4js/command-injection/node_modules/apex-publish-static-files/index.js:54:25)
+          at Object.<anonymous> (/home/vulns4js/command-injection/apex-publish-static-files_2.0.0/apex-publish-static-files.test.js:17:13)
+          at Promise.then.completed (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:391:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:10)
+          at _callCircusTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+          at processTicksAndRejections (node:internal/process/task_queues:96:5)
+          at _runTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3) {
+        status: 127,
+        signal: null,
+        output: [
+          null,
+          '',
+          '/bin/sh: 1: sql: not found\n' +
+            '/bin/sh: 1: @/home/vulns4js/command-injection/node_modules/apex-publish-static-files/lib/script: not found\n'
+        ],
+        pid: 9775,
+        stdout: '',
+        stderr: '/bin/sh: 1: sql: not found\n' +
+          '/bin/sh: 1: @/home/vulns4js/command-injection/node_modules/apex-publish-static-files/lib/script: not found\n'
+      }
+
+      15 |   file_exist = fs.existsSync(path);
+      16 |   expect(file_exist).toBe(false);
+    > 17 |   publisher.publish({
+         |             ^
+      18 |     connectString: ";touch apex-publish-static-files;",
+      19 |     directory: "./",
+      20 |     appID: 111,
+
+      at Object.publish (node_modules/apex-publish-static-files/index.js:74:12)
+      at Object.<anonymous> (apex-publish-static-files_2.0.0/apex-publish-static-files.test.js:17:13)
+
+ PASS  ntesseract_0.2.8/ntesseract.test.js (5.172 s)
+ PASS  node-ps_0.0.2/node-ps.test.js (5.155 s)
+ PASS  node-df_0.1.4/node-df.test.js (5.112 s)
+ PASS  rpi_0.0.3/rpi.test.js (5.113 s)
+/home/vulns4js/command-injection/node_modules/rpi/src/lib/gpio.js:50
+		if (error) throw new Error(stderr);
+		           ^
+
+Error: /bin/sh: 1: gpio: not found
+/bin/sh: 1: 123: not found
+
+    at /home/vulns4js/command-injection/node_modules/rpi/src/lib/gpio.js:50:20
+    at ChildProcess.exithandler (node:child_process:406:5)
+    at ChildProcess.emit (node:events:520:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:520:28)
+    at Pipe.<anonymous> (node:net:687:12)
+ PASS  heroku-addonpool_0.0.1/heroku-addonpool.test.js (5.109 s)
+ PASS  im-metadata_3.0.1/im-metadata.test.js (5.11 s)
+node:internal/fs/utils:670
+    throw new ERR_INVALID_ARG_TYPE(propName, ['string', 'Buffer', 'URL'], path);
+    ^
+
+TypeError: The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+    at Object.readFile (node:fs:393:10)
+    at /home/vulns4js/command-injection/node_modules/ntesseract/lib/tesseract.js:105:12
+    at f (/home/vulns4js/command-injection/node_modules/once/once.js:25:25)
+    at Glob.<anonymous> (/home/vulns4js/command-injection/node_modules/glob/glob.js:148:7)
+    at Glob.emit (node:events:520:28)
+    at Glob.Object.<anonymous>.Glob._finish (/home/vulns4js/command-injection/node_modules/glob/glob.js:194:8)
+    at done (/home/vulns4js/command-injection/node_modules/glob/glob.js:179:14)
+    at Glob.Object.<anonymous>.Glob._processReaddir2 (/home/vulns4js/command-injection/node_modules/glob/glob.js:405:12)
+    at /home/vulns4js/command-injection/node_modules/glob/glob.js:368:17
+    at RES (/home/vulns4js/command-injection/node_modules/inflight/inflight.js:31:16) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+/bin/sh: 1: lsof: not found
+ PASS  node-key-sender_1.0.11/node-key-sender.test.js (5.106 s)
+/bin/sh: 1: wget: not found
+ PASS  jison_0.4.17/jison.test.js (5.147 s)
+ PASS  psnode_0.0.1/psnode.test.js (5.245 s)
+/home/vulns4js/command-injection/node_modules/heroku-addonpool/index.js:27
+        for(var cfg of cfgs.match(/[^\r\n]+/g))
+                            ^
+
+TypeError: cfgs.match is not a function or its return value is not iterable
+    at /home/vulns4js/command-injection/node_modules/heroku-addonpool/index.js:27:29
+    at ChildProcess.exithandler (node:child_process:390:7)
+    at ChildProcess.emit (node:events:520:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:520:28)
+    at Pipe.<anonymous> (node:net:687:12)
+ PASS  kill-by-port_0.0.1/kill-by-port.test.js (5.557 s)
+ PASS  corenlp-js-prefab_1.0.1/corenlp-js-prefab.test.js (5.181 s)
+  ● Console
+
+    console.log
+      error
+
+      at Object.<anonymous> (corenlp-js-prefab_1.0.1/corenlp-js-prefab.test.js:20:13)
+
+ PASS  xps_1.0.2/xps.test.js (5.574 s)
+ PASS  portprocesses_1.0.4/portprocesses.test.js (5.158 s)
+ PASS  serial-number_1.3.0/serial-number.test.js (5.476 s)
+ PASS  ffmpeg-sdk_0.0.5/ffmpeg-sdk.test.js (5.133 s)
+ PASS  whereis_0.4.0/whereis.test.js (5.151 s)
+  ● Console
+
+    console.log
+      File removed: ./whereis
+
+      at Object.<anonymous> (whereis_0.4.0/whereis.test.js:10:15)
+
+ PASS  react-dev-utils_11.0.0/react-dev-utils.test.js (5.165 s)
+/home/vulns4js/command-injection/node_modules/data.task/lib/task.js:94
+      return reject(a);
+             ^
+
+TypeError: reject is not a function
+    at /home/vulns4js/command-injection/node_modules/data.task/lib/task.js:94:14
+    at /home/vulns4js/command-injection/node_modules/xps/lib/utils.js:29:19
+    at ChildProcess.exithandler (node:child_process:406:5)
+    at ChildProcess.emit (node:events:520:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:520:28)
+    at Pipe.<anonymous> (node:net:687:12)
+ PASS  xopen_1.0.0/xopen.test.js (5.157 s)
+ PASS  imagickal_5.0.1/imagickal.test.js
+ PASS  gm_1.20.0/gm.test.js (5.161 s)
+ PASS  strider-git_1.0.3/strider-git.test.js (5.138 s)
+ PASS  im-resize_2.3.2/im-resize.test.js (5.146 s)
+ PASS  git_0.1.5/git.test.js
+ PASS  node-unrar_0.1.0/node-unrar.test.js
+
+  ●  Cannot log after tests are done. Did you forget to wait for something async in your test?
+    Attempted to log "Unhandled rejection Error: Unable to parse identify data, output was:
+        at /home/vulns4js/command-injection/node_modules/imagickal/lib/imagickal.js:141:19
+        at ChildProcess.exithandler (node:child_process:390:7)
+        at ChildProcess.emit (node:events:520:28)
+        at maybeClose (node:internal/child_process:1092:16)
+        at Socket.<anonymous> (node:internal/child_process:451:11)
+        at Socket.emit (node:events:520:28)
+        at Pipe.<anonymous> (node:net:687:12)".
+
+      at node_modules/imagickal/lib/imagickal.js:141:19
+      at Pipe.<anonymous> (node:net:687:12)".
+      at printWarning (node_modules/bluebird/js/release/debuggability.js:954:17)
+      at formatAndLogError (node_modules/bluebird/js/release/debuggability.js:679:13)
+      at fireRejectionEvent (node_modules/bluebird/js/release/debuggability.js:704:13)
+      at Promise._notifyUnhandledRejection (node_modules/bluebird/js/release/debuggability.js:90:9)
+      at Timeout.unhandledRejectionCheck [as _onTimeout] (node_modules/bluebird/js/release/debuggability.js:39:25)
+
+ PASS  node-notifier_8.0.0/node-notifier.test.js
+ PASS  roar-pidusage_1.1.6/roar-pidusage.test.js
+ PASS  npm-git-publish_0.2.4-beta/npm-git-publish.test.js
+ PASS  arpping_2.0.0/arpping.test.js
+ PASS  node-os-utils_1.0.0/node-os-utils.test.js
+/home/vulns4js/command-injection/node_modules/node-os-utils/lib/bucket.js:20
+            return resolve(self.options.NOT_SUPPORTED_VALUE)
+                                        ^
+
+TypeError: Cannot read properties of undefined (reading 'NOT_SUPPORTED_VALUE')
+    at /home/vulns4js/command-injection/node_modules/node-os-utils/lib/bucket.js:20:41
+    at ChildProcess.exithandler (node:child_process:390:7)
+    at ChildProcess.emit (node:events:520:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:520:28)
+    at Pipe.<anonymous> (node:net:687:12)
+ PASS  libnotify_1.0.3/libnotify.test.js
+/home/vulns4js/command-injection/node_modules/libnotify/lib/libnotify.js:61
+    if (err) return callback(err)
+                    ^
+
+TypeError: callback is not a function
+    at /home/vulns4js/command-injection/node_modules/libnotify/lib/libnotify.js:61:21
+    at /home/vulns4js/command-injection/node_modules/libnotify/lib/libnotify.js:26:14
+    at ChildProcess.exithandler (node:child_process:406:5)
+    at ChildProcess.emit (node:events:520:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:520:28)
+    at Pipe.<anonymous> (node:net:687:12)
+ PASS  heroku-exec-util_0.7.5/heroku-exec-util.test.js
+  ● Console
+
+    console.log
+      File removed: ./heroku-exec-util
+
+      at Object.<anonymous> (heroku-exec-util_0.7.5/heroku-exec-util.test.js:10:15)
+
+ PASS  git-lib_1.6.0/git-lib.test.js
+ PASS  bunyan_2.0.0/bunyan.test.js
+ PASS  apiconnect-cli-plugins_6.0.2/apiconnect-cli-plugins.test.js
+  ● Console
+
+    console.log
+      File removed: ./apiconnect-cli-plugins
+
+      at Object.<anonymous> (apiconnect-cli-plugins_6.0.2/apiconnect-cli-plugins.test.js:10:15)
+
+ PASS  git-tags-remote_1.0.2/git-tags-remote.test.js
+/bin/sh: 15: -g: not found
+/bin/sh: 15: [String: '/usr/bin/npm'] {
+  stdout: '/usr/bin/npm',
+  stderr: null,
+  code: 0,
+  cat: [Function: bound ],
+  exec: [Function: bound ],
+  grep: [Function: bound ],
+  head: [Function: bound ],
+  sed: [Function: bound ],
+  sort: [Function: bound ],
+  tail: [Function: bound ],
+  to: [Function: bound ],
+  toEnd: [Function: bound ],
+  uniq: [Function: bound ]
+}: not found
+ PASS  aaptjs_1.3.1/aaptjs.test.js
+ERROR: specify zip file name (only)
+ PASS  diskstats_0.0.2/diskstats.test.js
+  ● Console
+
+    console.log
+      File removed: ./diskstats
+
+      at Object.<anonymous> (diskstats_0.0.2/diskstats.test.js:10:15)
+
+
+  ●  Cannot log after tests are done. Did you forget to wait for something async in your test?
+    Attempted to log "Unhandled rejection Error: Command failed: "[String: '/usr/bin/npm'] {
+      stdout: '/usr/bin/npm',
+      stderr: null,
+      code: 0,
+      cat: [Function: bound ],
+      exec: [Function: bound ],
+      grep: [Function: bound ],
+      head: [Function: bound ],
+      sed: [Function: bound ],
+      sort: [Function: bound ],
+      tail: [Function: bound ],
+      to: [Function: bound ],
+      toEnd: [Function: bound ],
+      uniq: [Function: bound ]
+    }" --prefix "/tmp/0.308034742664395-1645716776479" install & touch apiconnect-cli-plugins & -g --silent --no-spin --no-progress
+    /bin/sh: 15: -g: not found
+    /bin/sh: 15: [String: '/usr/bin/npm'] {
+      stdout: '/usr/bin/npm',
+      stderr: null,
+      code: 0,
+      cat: [Function: bound ],
+      exec: [Function: bound ],
+      grep: [Function: bound ],
+      head: [Function: bound ],
+      sed: [Function: bound ],
+      sort: [Function: bound ],
+      tail: [Function: bound ],
+      to: [Function: bound ],
+      toEnd: [Function: bound ],
+      uniq: [Function: bound ]
+    }: not found
+
+        at ChildProcess.exithandler (node:child_process:399:12)
+        at ChildProcess.emit (node:events:520:28)
+        at maybeClose (node:internal/child_process:1092:16)
+        at Socket.<anonymous> (node:internal/child_process:451:11)
+        at Socket.emit (node:events:520:28)
+        at Pipe.<anonymous> (node:net:687:12)".
+
+      at Pipe.<anonymous> (node:net:687:12)".
+      at printWarning (node_modules/bluebird/js/release/debuggability.js:954:17)
+      at formatAndLogError (node_modules/bluebird/js/release/debuggability.js:679:13)
+      at fireRejectionEvent (node_modules/bluebird/js/release/debuggability.js:704:13)
+      at Promise._notifyUnhandledRejection (node_modules/bluebird/js/release/debuggability.js:90:9)
+      at Timeout.unhandledRejectionCheck [as _onTimeout] (node_modules/bluebird/js/release/debuggability.js:39:25)
+
+ PASS  bestzip_2.1.6/bestzip.test.js
+ PASS  lycwed-spritesheetjs_1.2.5/lycwed-spritesheetjs.test.js
+  ● Console
+
+    console.log
+      File removed: ./lycwed-spritesheetjs
+
+      at Object.<anonymous> (lycwed-spritesheetjs_1.2.5/lycwed-spritesheetjs.test.js:10:15)
+
+ PASS  get-git-data_1.3.0/get-git-data.test.js
+  ● Console
+
+    console.log
+      File removed: ./get-git-data
+
+      at Object.<anonymous> (get-git-data_1.3.0/get-git-data.test.js:10:15)
+
+ PASS  local-devices_2.0.0/local-devices.test.js
+node:internal/process/promises:265
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "fatal: unrecognized argument: -
+".] {
+  code: 'ERR_UNHANDLED_REJECTION'
+}
+ PASS  pdf-image_2.0.0/pdf-image.test.js
+ PASS  op-browser_1.0.8/op-browser.test.js
+ PASS  pidusage_1.0.0/pidusage.test.js
+ PASS  enpeem_2.2.0/enpeem.test.js
+  ● Console
+
+    console.log
+      File removed: ./enpeem
+
+      at Object.<anonymous> (enpeem_2.2.0/enpeem.test.js:10:15)
+
+ PASS  clamscan_1.2.0/clamscan.test.js
+node:internal/process/promises:265
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "Error: No valid & active virus scanning binaries are active and available and host/socket option provided!".] {
+  code: 'ERR_UNHANDLED_REJECTION'
+}
+ PASS  eslint-fixer_0.1.5/eslint-fixer.test.js
+ PASS  gity_1.0.5/gity.test.js
+ PASS  promise-probe_0.1.7/promise-probe.test.js
+  ● Console
+
+    console.log
+      File removed: ./promise-probe
+
+      at Object.<anonymous> (promise-probe_0.1.7/promise-probe.test.js:10:15)
+
+ PASS  node-latex-pdf_0.0.2/node-latex-pdf.test.js
+A worker process has failed to exit gracefully and has been force exited. This is likely caused by tests leaking due to improper teardown. Try running with --detectOpenHand

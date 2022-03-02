@@ -1,5 +1,6 @@
 //https://hackerone.com/reports/319476
 test("Command Injection in whereis", () => {
+  expect.assertions(2);
   const whereis = require("whereis");
   const fs = require("fs");
   const path = "./whereis";
@@ -16,7 +17,6 @@ test("Command Injection in whereis", () => {
   expect(file_exist).toBe(false);
   let filename = "; touch whereis";
   whereis(filename, function (err, path) {});
-  sleep.sleep(5);
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {});

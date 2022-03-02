@@ -1,5 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-SCP-1009828
 test("Command Injection in scp", () => {
+  expect.assertions(2);
   const scp = require("scp");
   const fs = require("fs");
   const path = "./scp";
@@ -22,7 +23,6 @@ test("Command Injection in scp", () => {
     path: "~",
   };
   scp.send(options, function (err) {});
-  sleep.sleep(5);
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {});

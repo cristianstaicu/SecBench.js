@@ -1,5 +1,6 @@
 //https://github.com/advisories/GHSA-4qqc-mp5f-ccv4
 test("Command Injection in bestzip", (done) => {
+  expect.assertions(2);
   const zip = require("bestzip");
   const fs = require("fs");
   const path = "./bestzip";

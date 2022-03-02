@@ -1,5 +1,6 @@
 //https://hackerone.com/reports/390865
 test("Command Injection in libnmap", () => {
+  expect.assertions(2);
   const nmap = require("libnmap");
   const fs = require("fs");
   const path = "./libnmap";
@@ -22,7 +23,6 @@ test("Command Injection in libnmap", () => {
       console.log(JSON.stringify(report[item]));
     }
   });
-  sleep.sleep(5);
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {});

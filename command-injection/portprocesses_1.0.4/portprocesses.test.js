@@ -1,5 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-PORTPROCESSES-1078536
 test("Command Injection in portprocesses", () => {
+  expect.assertions(2);
   const portprocesses = require("portprocesses");
   const fs = require("fs");
   const path = "./portprocesses";
@@ -15,7 +16,6 @@ test("Command Injection in portprocesses", () => {
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
   portprocesses.killProcess("$(touch portprocesses)");
-  sleep.sleep(5);
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, () => {});

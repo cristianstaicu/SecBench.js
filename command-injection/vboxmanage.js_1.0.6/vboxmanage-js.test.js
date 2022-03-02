@@ -1,5 +1,6 @@
 //https://hackerone.com/reports/864777
 test("Command Injection in vboxmanage.js", () => {
+  expect.assertions(2);
   const VBox = require("vboxmanage.js");
   const fs = require("fs");
   const path = "./vboxmanag-js";
@@ -17,7 +18,6 @@ test("Command Injection in vboxmanage.js", () => {
   VBox.start(";touch vboxmanag-js;")
     .then(function () {})
     .catch(function (err) {});
-  sleep.sleep(5);
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {});

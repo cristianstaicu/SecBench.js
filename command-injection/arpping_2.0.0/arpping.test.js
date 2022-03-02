@@ -1,5 +1,6 @@
 //https://security.snyk.io/vuln/SNYK-JS-ARPPING-1060047
 test("Remote code execution in arpping", () => {
+  expect.assertions(2);
   const Arpping = require("arpping");
   const fs = require("fs");
   const path = "./arpping";
@@ -8,18 +9,20 @@ test("Remote code execution in arpping", () => {
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);
-      console.log("File removed:", path);
+      // console.log('File removed:', path);
     }
   } catch (err) {
     console.error(err);
   }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-  try {
-    arpping.ping([";touch arpping;"]);
-  } catch (error) {}
-  sleep.sleep(3);
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
+  return arpping
+    .ping([";touch arpping;"])
+    .then(() => {})
+    .catch((err) => console.log(err))
+    .finally(() => {
+      file_exist = fs.existsSync(path);
+      expect(file_exist).toBe(true);
+      fs.unlink(path, function (err) {});
+    });
 });

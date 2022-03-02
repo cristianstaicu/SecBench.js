@@ -1,5 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-NPMPROGRAMMATIC-564115
 test("Command Injection in npm-programmatic", () => {
+  expect.assertions(2);
   const root = require("npm-programmatic");
   const fs = require("fs");
   const path = "./npm-programmatic";
@@ -16,7 +17,6 @@ test("Command Injection in npm-programmatic", () => {
   expect(file_exist).toBe(false);
   let attack_code = "& touch npm-programmatic &";
   root.install([attack_code], { cwd: "./" });
-  sleep.sleep(5);
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {});

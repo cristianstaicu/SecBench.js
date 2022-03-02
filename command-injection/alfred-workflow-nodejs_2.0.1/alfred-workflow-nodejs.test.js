@@ -1,5 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-ALFREDWORKFLOWNODEJS-608975
-test("Command Injection in killing", () => {
+test("Command Injection in killing", (done) => {
+  expect.assertions(2);
   const AlfredNode = require("alfred-workflow-nodejs");
   const fs = require("fs");
   const path = "./alfred-workflow-nodejs";
@@ -15,9 +16,11 @@ test("Command Injection in killing", () => {
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
   var utils = AlfredNode.utils;
-  utils.wfVars.remove(' "; touch alfred-workflow-nodejs #', false);
-  sleep.sleep(5);
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
+  utils.wfVars.remove(' "; touch alfred-workflow-nodejs #', function () {
+    file_exist = fs.existsSync(path);
+    expect(file_exist).toBe(true);
+    fs.unlink(path, function (err) {
+      done();
+    });
+  });
 });

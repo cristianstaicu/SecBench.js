@@ -1,5 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-CLAMSCAN-564113
 test("Command Injection in clamscan", () => {
+  expect.assertions(2);
   const Root = require("clamscan");
   const fs = require("fs");
   const path = "./clamscan";
@@ -16,11 +17,15 @@ test("Command Injection in clamscan", () => {
   expect(file_exist).toBe(false);
   var attack_code = "touch clamscan";
   var root = new Root();
-  let run = root.init({ clamscan: { path: attack_code + "&" } });
-  run.then(() => {
-    sleep.sleep(5);
-    file_exist = fs.existsSync(path);
-    expect(file_exist).toBe(true);
-    fs.unlink(path, function (err) {});
-  });
+  fs.mkdir(attack_code + "&", function () {});
+  // root.init({"clamscan": {'path': attack_code + "&"}});
+  return root
+    .init({ clamscan: { path: attack_code + "&" } })
+    .then(() => {})
+    .catch((err) => {})
+    .finally(() => {
+      file_exist = fs.existsSync(path);
+      expect(file_exist).toBe(true);
+      fs.unlink(path, function (err) {});
+    });
 });

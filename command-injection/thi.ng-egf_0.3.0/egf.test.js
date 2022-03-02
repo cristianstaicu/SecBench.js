@@ -1,5 +1,6 @@
 //https://securitylab.github.com/advisories/GHSL-2021-062-thi-ng-egf-cmd-injection/
 test("Command Injection in @thi.ng/egf", () => {
+  expect.assertions(2);
   const egf = require("@thi.ng/egf");
   const fs = require("fs");
   const path = "./egf";
@@ -17,7 +18,6 @@ test("Command Injection in @thi.ng/egf", () => {
   try {
     egf.BUILTINS.gpg("foo", "bar`touch egf`", { opts: { decrypt: true } });
   } catch (error) {}
-  sleep.sleep(5);
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {});

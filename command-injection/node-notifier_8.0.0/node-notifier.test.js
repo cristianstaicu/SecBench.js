@@ -1,5 +1,6 @@
 // https://snyk.io/vuln/SNYK-JS-NODENOTIFIER-1035794
 test("Command Injection in node-notifier", () => {
+  expect.assertions(2);
   const Notify = require("node-notifier").NotifySend;
   let notifier = new Notify({ suppressOsdCheck: true });
   let options = JSON.parse(
@@ -19,7 +20,6 @@ test("Command Injection in node-notifier", () => {
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
   notifier.notify(options);
-  sleep.sleep(2);
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {});

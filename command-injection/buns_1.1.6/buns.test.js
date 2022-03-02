@@ -1,5 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-BUNS-1050389
 test("Command Injection in buns", () => {
+  expect.assertions(2);
   var root = require("buns");
   const fs = require("fs");
   const path = "./buns";
@@ -7,7 +8,7 @@ test("Command Injection in buns", () => {
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);
-      console.log("File removed:", path);
+      // console.log('File removed:', path);
     }
   } catch (err) {
     console.error(err);
@@ -18,10 +19,9 @@ test("Command Injection in buns", () => {
   try {
     root.install(name);
   } catch (error) {
-    console.log("error");
+  } finally {
+    file_exist = fs.existsSync(path);
+    expect(file_exist).toBe(true);
+    fs.unlink(path, function (err) {});
   }
-  sleep.sleep(5);
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
 });

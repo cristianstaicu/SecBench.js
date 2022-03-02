@@ -1,5 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-IMMETADATA-544184
-test("Command Injection in im-metadata", () => {
+test("Command Injection in im-metadata", (done) => {
+  expect.assertions(2);
   const metadata = require("im-metadata");
   const fs = require("fs");
   const path = "./im-metadata";
@@ -17,9 +18,11 @@ test("Command Injection in im-metadata", () => {
   metadata("./foo.jpg;touch im-metadata", { exif: true }, function (
     error,
     metadata
-  ) {});
-  sleep.sleep(5);
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
+  ) {
+    file_exist = fs.existsSync(path);
+    expect(file_exist).toBe(true);
+    fs.unlink(path, function (err) {
+      done();
+    });
+  });
 });

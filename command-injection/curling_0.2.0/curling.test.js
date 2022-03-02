@@ -1,5 +1,6 @@
 //https://meet.google.com/wjg-fngp-nco
-test("Command Injection in curling", () => {
+test("Command Injection in curling", (done) => {
+  expect.assertions(2);
   const root = require("curling");
   const fs = require("fs");
   const path = "./curling";
@@ -14,9 +15,13 @@ test("Command Injection in curling", () => {
   }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-  root.run("& touch curling", function () {});
-  sleep.sleep(5);
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
+  root.run("& touch curling", function (err) {
+    if (err) throw err;
+    else {
+      file_exist = fs.existsSync(path);
+      expect(file_exist).toBe(true);
+      fs.unlink(path, function (err) {});
+      done();
+    }
+  });
 });

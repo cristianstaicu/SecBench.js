@@ -1,5 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-EFFECT-564256
-test("Command Injection in effect", () => {
+test("Command Injection in effect", (done) => {
+  expect.assertions(2);
   const Root = require("effect");
   const fs = require("fs");
   const path = "./effect";
@@ -15,9 +16,17 @@ test("Command Injection in effect", () => {
   }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-  Root.edge(options, function () {});
-  sleep.sleep(5);
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
+  Root.edge(options, () => {
+    file_exist = fs.existsSync(path);
+    expect(file_exist).toBe(true);
+    fs.unlinkSync("-colorspace");
+    fs.unlinkSync("-edge");
+    fs.unlinkSync("-negate");
+    fs.unlinkSync("-resize");
+    fs.unlinkSync("5");
+    fs.unlinkSync("100%");
+    fs.unlinkSync("Gray");
+    fs.unlinkSync(path);
+    done();
+  });
 });

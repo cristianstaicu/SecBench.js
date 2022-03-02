@@ -1,5 +1,6 @@
 //https://github.com/DylanPiercey/local-devices/pull/16
 test("Command Injection in local-devices", () => {
+  expect.assertions(2);
   const find = require("local-devices");
   const fs = require("fs");
   const path = "./local-devices";
@@ -16,7 +17,6 @@ test("Command Injection in local-devices", () => {
   expect(file_exist).toBe(false);
   let userInput = "127.0.0.1 | touch local-devices";
   find(userInput).then(() => {
-    sleep.sleep(5);
     file_exist = fs.existsSync(path);
     expect(file_exist).toBe(true);
     fs.unlink(path, function (err) {});

@@ -1,5 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-XPS-590098
 test("Command Injection in xps", () => {
+  expect.assertions(2);
   const ps = require("xps");
   const fs = require("fs");
   const path = "./xps";
@@ -15,7 +16,6 @@ test("Command Injection in xps", () => {
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
   ps.kill("`touch xps;`").fork();
-  sleep.sleep(5);
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {});

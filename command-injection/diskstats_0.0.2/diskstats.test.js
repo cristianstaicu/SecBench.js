@@ -1,5 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-DISKSTATS-590099
-test("Command Injection in diskstats", () => {
+test("Command Injection in diskstats", (done) => {
+  expect.assertions(2);
   const diskstats = require("diskstats");
   const fs = require("fs");
   const path = "./diskstats";
@@ -15,9 +16,9 @@ test("Command Injection in diskstats", () => {
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
   diskstats.check("; touch diskstats", () => {
-    sleep.sleep(1);
     file_exist = fs.existsSync(path);
     expect(file_exist).toBe(true);
     fs.unlinkSync(path);
+    done();
   });
 });

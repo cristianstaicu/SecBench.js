@@ -1,5 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-APICONNECTCLIPLUGINS-564427
 test("Command Injection in apiconnect-cli-plugins", () => {
+  expect.assertions(2);
   const root = require("apiconnect-cli-plugins");
   const fs = require("fs");
   const path = "./apiconnect-cli-plugins";
@@ -7,7 +8,7 @@ test("Command Injection in apiconnect-cli-plugins", () => {
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);
-      console.log("File removed:", path);
+      // console.log('File removed:', path);
     }
   } catch (err) {
     console.error(err);
@@ -15,9 +16,7 @@ test("Command Injection in apiconnect-cli-plugins", () => {
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
   let payload = "& touch apiconnect-cli-plugins &";
-  let RUN = root.pluginLoader.installPlugin(payload, "");
-  RUN.then(() => {
-    sleep.sleep(5);
+  return root.pluginLoader.installPlugin(payload, "").catch(() => {
     file_exist = fs.existsSync(path);
     expect(file_exist).toBe(true);
     fs.unlink(path, function (err) {});

@@ -1,5 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-ASYNCGIT-1064877
-test("Command Injection in async-git", () => {
+test("Command Injection in async-git", async () => {
+  expect.assertions(2);
   const git = require("async-git");
   const fs = require("fs");
   const path = "./async-git";
@@ -14,8 +15,11 @@ test("Command Injection in async-git", () => {
   }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-  git.reset("$(touch async-git)");
-  sleep.sleep(5);
+  try {
+    await git.reset("$(touch async-git)");
+  } catch (e) {
+    // console.log(e);
+  }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {});

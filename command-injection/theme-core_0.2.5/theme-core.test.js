@@ -1,5 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-THEMECORE-1050425
-test("Command Injection in theme-core", () => {
+test("Command Injection in theme-core", (done) => {
+  expect.assertions(2);
   const a = require("theme-core");
   const fs = require("fs");
   const path = "./theme-core";
@@ -14,9 +15,10 @@ test("Command Injection in theme-core", () => {
   }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-  a.utils.sh("touch theme-core");
-  sleep.sleep(5);
-  file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
+  a.utils.sh("touch theme-core", true, function () {
+    file_exist = fs.existsSync(path);
+    expect(file_exist).toBe(true);
+    fs.unlink(path, function (err) {});
+    done();
+  });
 });

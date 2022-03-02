@@ -1,5 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-PORTKILLER-1078533
 test("Command Injection in port-killer", () => {
+  expect.assertions(2);
   const port_killer = require("port-killer");
   const fs = require("fs");
   const path = "./port-killer";
@@ -15,7 +16,6 @@ test("Command Injection in port-killer", () => {
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
   port_killer("$(touch port-killer)");
-  sleep.sleep(5);
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {});

@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2019-10796",
+  "dependencies": {
+    "rpi": "0.0.3"
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-RPI-548942",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
+}

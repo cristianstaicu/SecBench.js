@@ -1,5 +1,6 @@
 //https://hackerone.com/reports/863956
-test("Command Injection in extra-asciinema", () => {
+test("Command Injection in extra-asciinema", (done) => {
+  expect.assertions(2);
   const asciinema = require("extra-asciinema");
   const fs = require("fs");
   const path = "./extra-asciinema";
@@ -7,7 +8,6 @@ test("Command Injection in extra-asciinema", () => {
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);
-      console.log("File removed:", path);
     }
   } catch (err) {
     console.error(err);
@@ -15,8 +15,9 @@ test("Command Injection in extra-asciinema", () => {
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
   asciinema.uploadSync("; touch extra-asciinema");
-  sleep.sleep(5);
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
+  fs.unlink(path, function (err) {
+    done();
+  });
 });

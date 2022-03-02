@@ -1,5 +1,6 @@
 //https://hackerone.com/reports/319467
 test("Command Injection in macaddress", () => {
+  expect.assertions(2);
   const killing = require("killing");
   const fs = require("fs");
   const path = "./macaddress";
@@ -16,7 +17,6 @@ test("Command Injection in macaddress", () => {
   expect(file_exist).toBe(false);
   let iface = "; touch macaddress; echo ";
   require("macaddress").one(iface, function (err, mac) {});
-  sleep.sleep(5);
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {});

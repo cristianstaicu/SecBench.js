@@ -1,5 +1,6 @@
 //https://snyk.io/vuln/SNYK-JS-OPBROWSER-564259
 test("Command Injection in op-browser", () => {
+  expect.assertions(2);
   const root = require("op-browser");
   const fs = require("fs");
   const path = "./op-browser";
@@ -16,7 +17,6 @@ test("Command Injection in op-browser", () => {
   expect(file_exist).toBe(false);
   let run = root.open("chrome", "& touch op-browser", "", "");
   run.then(() => {
-    sleep.sleep(5);
     file_exist = fs.existsSync(path);
     expect(file_exist).toBe(true);
     fs.unlink(path, function (err) {});
