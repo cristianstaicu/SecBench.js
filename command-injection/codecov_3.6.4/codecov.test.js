@@ -1,10 +1,12 @@
+process.on("unhandledRejection", () => {
+  /* ignore the unhandled promise */
+});
 //https://snyk.io/vuln/SNYK-JS-CODECOV-548879
 test("Command Injection in codecov", async () => {
   expect.assertions(2);
   const root = require("codecov");
   const fs = require("fs");
   const path = "./codecov";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

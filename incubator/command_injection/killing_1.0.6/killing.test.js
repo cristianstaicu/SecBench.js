@@ -1,10 +1,9 @@
-//problem is the program dosent end
+//https://security.snyk.io/vuln/SNYK-JS-KILLING-1078532
 test("Command Injection in killing", (done) => {
-  expect.assertions(2);
   const killing = require("killing");
   const fs = require("fs");
   const path = "./killing";
-  const sleep = require("sleep");
+
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);
@@ -13,13 +12,15 @@ test("Command Injection in killing", (done) => {
   } catch (err) {
     console.error(err);
   }
-  file_exist = fs.existsSync(path);
+  let file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-  killing("$(touch killing)", function () {
+  killing("$(touch killing & exit 1)");
+
+  setTimeout(() => {
     file_exist = fs.existsSync(path);
     expect(file_exist).toBe(true);
-    fs.unlink(path, function (err) {
+    fs.unlink(path, () => {
       done();
     });
-  });
+  }, 500);
 });
