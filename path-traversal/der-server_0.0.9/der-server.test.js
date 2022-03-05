@@ -1,4 +1,3 @@
-//https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/der-server/test.js
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
@@ -11,6 +10,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in der-server", (done) => {
+  expect.assertions(1);
   var pkg = require("der-server");
   const fs = require("fs");
   const { exec } = require("child_process");

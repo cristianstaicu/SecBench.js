@@ -1,11 +1,9 @@
-//killing any other process using the same port
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
     execSync("fuser -k 8080/tcp");
   } catch (e) {}
 });
-
 const path = require("path");
 const { sleep } = require("sleep");
 const pathToFlag = path.resolve(__dirname, "../flag.html");
@@ -13,6 +11,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in statics-server", (done) => {
+  expect.assertions(1);
   const fs = require("fs");
   const sleep = require("sleep");
   const { exec } = require("child_process");

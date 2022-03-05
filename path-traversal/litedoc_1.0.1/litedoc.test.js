@@ -1,4 +1,3 @@
-//https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/litedoc/test.js
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
@@ -11,6 +10,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in litedoc", (done) => {
+  expect.assertions(1);
   const pkg = require("litedoc");
   const fs = require("fs");
   const { exec } = require("child_process");

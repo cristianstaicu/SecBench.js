@@ -1,4 +1,3 @@
-//https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/bae-nodejs/test.js
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
@@ -12,6 +11,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in bae-nodejs", (done) => {
+  expect.assertions(1);
   const pkg = require("bae-nodejs");
   const fs = require("fs");
   const { exec } = require("child_process");

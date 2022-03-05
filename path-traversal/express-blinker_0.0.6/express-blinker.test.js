@@ -1,4 +1,3 @@
-//https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/express-blinker/test.js
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
@@ -11,6 +10,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in express-blinker", (done) => {
+  expect.assertions(1);
   const express = require("express");
   let app = express();
   const pkg = require("express-blinker");

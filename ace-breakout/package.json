@@ -3,7 +3,7 @@
     "access-policy_3.1.0": "./access-policy_3.1.0/",
     "cd-messenger_2.7.24": "./cd-messenger_2.7.24/",
     "djv_2.0.0": "./djv_2.0.0/",
-    "eslint-utils_1.2.0": "./eslint-utils_1.2.0/",
+    "eslint": "^8.10.0",
     "hot-formula-parser_3.0.0": "./hot-formula-parser_3.0.0/",
     "is-my-json-valid_2.20.0": "./is-my-json-valid_2.20.0/",
     "js-yaml_3.13.0": "./js-yaml_3.13.0/",

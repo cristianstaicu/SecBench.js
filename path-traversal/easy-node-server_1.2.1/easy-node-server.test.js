@@ -1,4 +1,3 @@
-//https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/easy-node-server/test.js
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
@@ -11,6 +10,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in easy-node-server", (done) => {
+  expect.assertions(1);
   const pkg = require("easy-node-server");
   const fs = require("fs");
   const { exec } = require("child_process");

@@ -1,4 +1,3 @@
-//
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
@@ -11,6 +10,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in awning", (done) => {
+  expect.assertions(1);
   const Awning = require("awning").HttpServer;
   const fs = require("fs");
   const { exec } = require("child_process");

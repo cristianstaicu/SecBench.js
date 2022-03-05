@@ -1,4 +1,3 @@
-//https://snyk.io/vuln/SNYK-JS-ROLLUPPLUGINSERVE-585897
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
@@ -11,6 +10,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in rollup-plugin-serve", (done) => {
+  expect.assertions(1);
   const server = require("rollup-plugin-serve");
   const fs = require("fs");
   const { exec } = require("child_process");

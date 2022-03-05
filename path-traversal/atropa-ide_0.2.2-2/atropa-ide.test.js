@@ -1,4 +1,3 @@
-//https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/atropa-ide/test.js
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
@@ -11,6 +10,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in atropa-ide", (done) => {
+  expect.assertions(1);
   const ide = require("atropa-ide");
   const fs = require("fs");
   const { exec } = require("child_process");

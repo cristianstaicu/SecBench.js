@@ -1,17 +1,16 @@
-//https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/proxey/test.js
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
     execSync("fuser -k 8981/tcp");
   } catch (e) {}
 });
-
 const path = require("path");
 const pathToFlag = path.resolve(__dirname, "../flag.html");
 function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in proxey", (done) => {
+  expect.assertions(1);
   const pkg = require("proxey");
   const fs = require("fs");
   const { exec } = require("child_process");

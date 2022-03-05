@@ -1,4 +1,3 @@
-//https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/crud-file-server/PoC.sh
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
@@ -12,6 +11,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in crud-file-server", (done) => {
+  expect.assertions(1);
   const fs = require("fs");
   const sleep = require("sleep");
   const { exec } = require("child_process");

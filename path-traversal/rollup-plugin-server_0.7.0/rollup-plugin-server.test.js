@@ -1,4 +1,3 @@
-// a.execSync('fuser -k 9000/tcp',()=>{
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
@@ -11,6 +10,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in rollup-plugin-server", (done) => {
+  expect.assertions(1);
   const server = require("rollup-plugin-server");
   const fs = require("fs");
   const { exec } = require("child_process");

@@ -1,4 +1,3 @@
-//https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/package.json
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
@@ -11,6 +10,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in basic-static", (done) => {
+  expect.assertions(1);
   const basicStatic = require("basic-static");
   const serveStatic = basicStatic({
     rootDir: process.cwd(),

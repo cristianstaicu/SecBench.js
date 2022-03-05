@@ -1,4 +1,3 @@
-//
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
@@ -12,6 +11,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in glance", (done) => {
+  expect.assertions(1);
   const http = require("http");
   const glance = require("glance");
   const fs = require("fs");

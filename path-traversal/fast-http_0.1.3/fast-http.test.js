@@ -1,4 +1,3 @@
-//killing any other process using the same port
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
@@ -11,6 +10,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in fast-http", (done) => {
+  expect.assertions(1);
   const Server = require("fast-http");
   const fs = require("fs");
   const { exec, execSync } = require("child_process");

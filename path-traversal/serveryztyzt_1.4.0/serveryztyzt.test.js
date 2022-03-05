@@ -1,11 +1,9 @@
-//
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
     execSync("fuser -k 9987/tcp");
   } catch (e) {}
 });
-
 const path = require("path");
 const { sleep } = require("sleep");
 const pathToFlag = path.resolve(__dirname, "../flag.html");
@@ -13,6 +11,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in serveryztyzt", (done) => {
+  expect.assertions(1);
   const fs = require("fs");
   const sleep = require("sleep");
   const { exec } = require("child_process");

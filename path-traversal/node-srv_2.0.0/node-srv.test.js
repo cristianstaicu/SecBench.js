@@ -1,4 +1,3 @@
-//killing any other process using the same port
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
@@ -11,6 +10,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in node-srv", (done) => {
+  expect.assertions(1);
   let Server = require("node-srv");
   const fs = require("fs");
   const { exec } = require("child_process");

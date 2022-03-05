@@ -1,4 +1,3 @@
-//https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/node-simple-router/test.js
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
@@ -11,6 +10,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in node-simple-router", (done) => {
+  expect.assertions(1);
   const Router = require("node-simple-router");
   const http = require("http");
   const fs = require("fs");

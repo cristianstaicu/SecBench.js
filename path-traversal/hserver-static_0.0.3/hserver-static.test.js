@@ -1,4 +1,3 @@
-//https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/hserver-static/test.js
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
@@ -12,6 +11,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in hserver-static", (done) => {
+  expect.assertions(1);
   const Hserver = require("hserver");
   const Hstatic = require("hserver-static");
   const fs = require("fs");

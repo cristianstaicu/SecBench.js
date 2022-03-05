@@ -1,4 +1,3 @@
-//https://snyk.io/vuln/SNYK-JS-STATICSERVERGX-609517
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
@@ -12,6 +11,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in static-server-gx", (done) => {
+  expect.assertions(1);
   const fs = require("fs");
   const sleep = require("sleep");
   const { exec } = require("child_process");

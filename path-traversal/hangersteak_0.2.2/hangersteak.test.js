@@ -1,4 +1,3 @@
-//killing any other process using the same port
 var execSync = require("child_process").execSync;
 afterAll(() => {
   try {
@@ -11,6 +10,7 @@ function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
 test("Path Traversal in hangersteak", (done) => {
+  expect.assertions(1);
   const http = require("http");
   const hangersteak = require("hangersteak");
   const fs = require("fs");
