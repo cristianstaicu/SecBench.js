@@ -1,9 +1,3 @@
-var execSync = require("child_process").execSync;
-afterAll(() => {
-  try {
-    execSync("fuser -k 8884/tcp");
-  } catch (e) {}
-});
 const path = require("path");
 const pathToFlag = path.resolve(__dirname, "../flag.html");
 function genstr(n) {

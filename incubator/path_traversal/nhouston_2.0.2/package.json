@@ -1,0 +1,13 @@
+{
+  "id": "CVE-2014-8883",
+  "dependencies": {
+    "nhouston": "2.0.2"
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:nhouston:20141114",
+    "source2": "https://github.com/advisories/GHSA-44g9-w23c-5rw7"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
+}
