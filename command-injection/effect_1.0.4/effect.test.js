@@ -19,14 +19,16 @@ test("Command Injection in effect", (done) => {
   Root.edge(options, () => {
     file_exist = fs.existsSync(path);
     expect(file_exist).toBe(true);
-    fs.unlinkSync("-colorspace");
-    fs.unlinkSync("-edge");
-    fs.unlinkSync("-negate");
-    fs.unlinkSync("-resize");
-    fs.unlinkSync("5");
-    fs.unlinkSync("100%");
-    fs.unlinkSync("Gray");
-    fs.unlinkSync(path);
+    try {
+      fs.unlinkSync("-colorspace");
+      fs.unlinkSync("-edge");
+      fs.unlinkSync("-negate");
+      fs.unlinkSync("-resize");
+      fs.unlinkSync("5");
+      fs.unlinkSync("100%");
+      fs.unlinkSync("Gray");
+      fs.unlinkSync(path);
+    } catch (err) {}
     done();
   });
 });

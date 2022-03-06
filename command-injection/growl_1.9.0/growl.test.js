@@ -1,9 +1,9 @@
-//https://snyk.io/vuln/SNYK-JS-SERIALNUMBER-559010
-test("Command Injection in serial-number", (done) => {
+//https://github.com/tj/node-growl/issues/60
+test("Command Injection in growl", (done) => {
   expect.assertions(2);
-  const root = require("serial-number");
+  const growl = require("growl");
   const fs = require("fs");
-  const path = "./serial-number";
+  const path = "./growl";
   const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
@@ -15,11 +15,11 @@ test("Command Injection in serial-number", (done) => {
   }
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-  root(function () {
+  growl("`touch growl`", {}, () => {
     file_exist = fs.existsSync(path);
     expect(file_exist).toBe(true);
     fs.unlink(path, function (err) {
       done();
     });
-  }, "touch serial-number;");
+  });
 });
