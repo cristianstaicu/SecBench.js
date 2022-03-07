@@ -45,7 +45,6 @@
     "hot-formula-parser_3.0.0": "./hot-formula-parser_3.0.0/",
     "im-metadata_3.0.1": "./im-metadata_3.0.1/",
     "im-resize_2.3.2": "./im-resize_2.3.2/",
-    "install-package_0.4.0": "./install-package_0.4.0/",
     "jison_0.4.17": "./jison_0.4.17/",
     "kill-by-port_0.0.1": "./kill-by-port_0.0.1/",
     "kill-port-process_0.0.1": "./kill-port-process_0.0.1/",
@@ -102,7 +101,8 @@
     "node-unrar_0.1.0": "./node-unrar_0.1.0/",
     "aaptjs_1.3.1": "./aaptjs_1.3.1/",
     "imagickal_5.0.1": "./imagickal_5.0.1/",
-    "growl_1.9.0": "./growl_1.9.0"
+    "growl_1.9.0": "./growl_1.9.0",
+    "killing_1.0.6": "./killing_1.0.6"
   },
   "scripts": {
     "test": "jest"

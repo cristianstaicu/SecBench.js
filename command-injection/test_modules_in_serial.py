@@ -3,7 +3,7 @@ import os
 import traceback
 import subprocess
 count=0
-lst =  glob.glob("../path-traversal/*")
+lst =  glob.glob("../command-injection/*")
 for folder in lst:
     index = folder.rfind("/")
     main_folder_name = folder[index+1:]
