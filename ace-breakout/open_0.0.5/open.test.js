@@ -1,27 +1,21 @@
-test("Arbitrary code execution in open", () => {
+test("Arbitrary code execution in open", (done) => {
+  expect.assertions(2);
   const fs = require("fs");
   const path = "./open";
-
   try {
-    fs.unlinkSync(path);
+    if (fs.existsSync(path)) fs.unlinkSync(path);
     console.log("File removed:", path);
   } catch (err) {
     console.error(err);
   }
-
-  //checking that its not present already
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-
   try {
-    require("open")("http://example.com/`touch open`", () => {
+    require("open")('""`touch open`', () => {
       file_exist = fs.existsSync(path);
       expect(file_exist).toBe(true);
-
-      // fs.unlink(path, function (err) {}); //deleting the file after creation
-      fs.unlinkSync(path);
+      if (file_exist) fs.unlinkSync(path);
+      done();
     });
   } catch (error) {}
-
-  //checking that its created by after exploit.
 });

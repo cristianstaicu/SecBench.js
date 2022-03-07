@@ -1,8 +1,7 @@
-//https://security.snyk.io/vuln/SNYK-JS-DJV-1014545
 test("Arbitrary code execution in  djv", () => {
+  expect.assertions(2);
   const djv = require("djv");
   expect({}.polluted).toBe(undefined);
-
   try {
     const env = new djv();
     const evilSchema = JSON.parse(
@@ -10,9 +9,6 @@ test("Arbitrary code execution in  djv", () => {
     );
     env.addSchema("test", evilSchema);
     env.validate("test#/common", { type: "custom" });
-  } catch (error) {
-    //console.log(error);
-  }
-
+  } catch (error) {}
   expect({}.polluted).toBe("yes");
 });

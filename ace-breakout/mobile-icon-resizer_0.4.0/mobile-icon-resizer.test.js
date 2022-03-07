@@ -1,10 +1,8 @@
-//
 test("Arbitrary code execution in mobile-icon-resizer", () => {
+  expect.assertions(2);
   const fs = require("fs");
   const resize = require("mobile-icon-resizer");
   const path = "./mobile-icon-resizer";
-
-  //checking that its not present already
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
   let options = {
@@ -25,14 +23,10 @@ test("Arbitrary code execution in mobile-icon-resizer", () => {
       ],
     },
   };
-
   try {
     resize(options, function (err) {});
   } catch (e) {}
-
-  //checking that its created by after exploit.
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
-
-  fs.unlink(path, function (err) {}); //deleting the file after creation
+  fs.unlink(path, function (err) {});
 });

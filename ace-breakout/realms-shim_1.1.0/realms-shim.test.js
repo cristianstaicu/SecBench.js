@@ -1,9 +1,8 @@
 test("Arbitrary code execution in realms-shim", () => {
+  expect.assertions(2);
   let Realm = require("realms-shim");
   const r = Realm.makeRootRealm();
-
   expect({}.polluted).toBe(undefined);
-
   try {
     r.evaluate(`let HostException;
           try{
@@ -15,6 +14,5 @@ test("Arbitrary code execution in realms-shim", () => {
           HostObject.polluted = 'yes';
           `);
   } catch (error) {}
-  
   expect({}.polluted).toBe("yes");
 });
