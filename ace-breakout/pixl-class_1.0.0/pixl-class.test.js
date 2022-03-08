@@ -4,7 +4,7 @@ test("Arbitrary code execution in pixl-class", () => {
   const a = require("pixl-class");
   const path = "./pixl-class";
   try {
-    fs.unlinkSync(path);
+    if (fs.existsSync(path)) fs.unlinkSync(path);
     console.log("File removed:", path);
   } catch (err) {
     console.error(err);
