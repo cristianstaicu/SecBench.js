@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-ISSVG-1243891",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-7r28-3m3f-r2pr"
   },
   "fixedVersion": "4.3.0",
   "fixCommit": "https://github.com/sindresorhus/is-svg/commit/732fc72779840c45a30817d3fe28e12058592b02",

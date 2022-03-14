@@ -4,7 +4,7 @@
     "merge-recursive": "0.0.3"
   },
   "links": {
-    "source1": "https://security.snyk.io/vuln/SNYK-JS-JSDATA-1584361",
+    "source1": "https://security.snyk.io/vuln/npm:merge-recursive:20180415",
     "source2": "https://github.com/advisories/GHSA-cvxm-f295-x957"
   },
   "fixedVersion": "n/a",

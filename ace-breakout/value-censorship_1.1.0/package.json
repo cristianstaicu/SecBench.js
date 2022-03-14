@@ -1,13 +1,13 @@
 {
-"id": "",
+  "id": "",
   "dependencies": {
     "value-censorship": "1.1.0"
-	},
-	"links": {
-		"source1": "https://github.com/advisories/GHSA-xrr6-6ww3-f3qm",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://github.com/advisories/GHSA-xrr6-6ww3-f3qm",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

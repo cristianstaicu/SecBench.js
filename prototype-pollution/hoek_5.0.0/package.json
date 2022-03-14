@@ -1,13 +1,13 @@
 {
-  "id": "",
+  "id": "CVE-2018-3728",
   "dependencies": {
     "hoek": "5.0.0"
   },
   "links": {
-    "source1": "https://security.snyk.io/vuln/SNYK-JS-HAPIHOEK-548452",
-    "source2": "https://github.com/advisories/GHSA-4q97-fh3f-j294"
+    "source1": "https://security.snyk.io/vuln/npm:hoek:20180212",
+    "source2": "https://github.com/advisories/GHSA-jp4x-w63m-7wgm"
   },
-  "fixedVersion": "8.5.1",
-  "fixCommit": "https://github.com/hapijs/hoek/commit/948baf98634a5c206875b67d11368f133034fa90",
+  "fixedVersion": "5.0.3",
+  "fixCommit": "https://github.com/hapijs/hoek/commit/32ed5c9413321fbc37da5ca81a7cbab693786dee",
   "sink": "./set.js:36"
 }

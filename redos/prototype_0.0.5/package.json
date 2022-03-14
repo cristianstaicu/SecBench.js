@@ -1,10 +1,10 @@
 {
-  "id": "",
+  "id": "CVE-2020-27511",
   "dependencies": {
     "prototype": "0.0.5"
   },
   "links": {
-    "source1": "",
+    "source1": "https://github.com/yetingli/PoCs/blob/main/CVE-2020-27511/Prototype.md",
     "source2": ""
   },
   "fixedVersion": "n/a",

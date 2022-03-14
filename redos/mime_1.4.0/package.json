@@ -1,13 +1,13 @@
 {
-  "id": "",
+  "id": "CVE-2017-16138",
   "dependencies": {
     "mime": "1.4.0"
   },
   "links": {
-    "source1": "https://security.snyk.io/vuln/npm:emailjs-mime-codec:20180225",
-    "source2": ""
+    "source1": "https://security.snyk.io/vuln/npm:mime:20170907",
+    "source2": "https://github.com/advisories/GHSA-wrvr-8mpx-r7pp"
   },
-  "fixedVersion": "2.0.5",
-  "fixCommit": "https://github.com/emailjs/emailjs-mime-codec/pull/22/commits/895f624ff7d480d762d662ba1c3bb91831dc4646",
+  "fixedVersion": "2.0.3",
+  "fixCommit": "https://github.com/broofa/node-mime/commit/1df903fdeb9ae7eaa048795b8d580ce2c98f40b0",
   "sink": ""
 }

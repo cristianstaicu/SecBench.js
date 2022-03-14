@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-LODASH-450202",
-    "source2": "https://github.com/sailshq/lodash/pull/1"
+    "source2": "https://github.com/advisories/GHSA-jf85-cpcp-j695"
   },
   "fixedVersion": "4.17.12",
   "fixCommit": "https://github.com/sailshq/lodash/pull/1/commits/c3fd203b3be87a8177f7f00824033c95f981f984",

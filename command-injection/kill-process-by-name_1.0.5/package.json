@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2021-23356",
+  "id": "CVE-2021-23356",
   "dependencies": {
     "kill-process-by-name": "1.0.5"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-KILLPROCESSBYNAME-1078534",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-KILLPROCESSBYNAME-1078534",
+    "source2": "https://github.com/advisories/GHSA-qc65-cgvr-93p6"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

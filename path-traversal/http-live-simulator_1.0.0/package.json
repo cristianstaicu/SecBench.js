@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2018-16479",
+  "id": "CVE-2018-16479",
   "dependencies": {
     "http-live-simulator": "1.0.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-HTTPLIVESIMULATOR-73554",
-		"source2": "https://github.com/advisories/GHSA-2hhw-p8mg-jrm6"
-	},
-	"fixedVersion": "1.0.7",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-HTTPLIVESIMULATOR-73554",
+    "source2": "https://github.com/advisories/GHSA-7c9w-qmrq-ff8r"
+  },
+  "fixedVersion": "1.0.7",
+  "fixCommit": "n/a",
+  "sink": ""
 }

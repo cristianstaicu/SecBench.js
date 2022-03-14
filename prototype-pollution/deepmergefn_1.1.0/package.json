@@ -4,7 +4,8 @@
     "deepmergefn": "1.1.0"
   },
   "links": {
-    "source1": "https://security.snyk.io/vuln/SNYK-JS-DEEPMERGEFN-1310984"
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-DEEPMERGEFN-1310984",
+    "source2": "https://github.com/advisories/GHSA-vj72-mwrj-m2xq"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",

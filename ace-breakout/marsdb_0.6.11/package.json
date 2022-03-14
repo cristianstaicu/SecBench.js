@@ -1,13 +1,13 @@
 {
-"id": "",
+  "id": "",
   "dependencies": {
     "marsdb": "0.6.11"
-	},
-	"links": {
-		"source1": "",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-MARSDB-480405",
+    "source2": "https://github.com/advisories/GHSA-5mrr-rgp6-x4gr"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

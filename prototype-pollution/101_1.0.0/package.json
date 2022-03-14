@@ -2,9 +2,9 @@
   "id": "CVE-2021-25943",
   "dependencies": {
     "101": "1.0.0"
-  },  
+  },
   "links": {
-    "source1": "https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943",
+    "source1": "https://github.com/advisories/GHSA-cwcx-rxgc-cmw3",
     "source2": "https://security.snyk.io/vuln/SNYK-JS-101-1292345"
   },
   "fixedVersion": "n/a",

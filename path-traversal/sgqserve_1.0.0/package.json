@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16215",
+  "id": "CVE-2017-16215",
   "dependencies": {
     "sgqserve": "1.0.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:sgqserve:20170518",
-		"source2": "https://github.com/advisories/GHSA-m8pw-hgvj-cwcm"
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:sgqserve:20170518",
+    "source2": "https://github.com/advisories/GHSA-m8pw-hgvj-cwcm"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

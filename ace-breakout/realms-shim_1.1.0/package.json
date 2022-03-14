@@ -1,13 +1,13 @@
 {
-"id": " CVE-2021-23594",
+  "id": "CVE-2021-23594",
   "dependencies": {
     "realms-shim": "1.1.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-REALMSSHIM-2309907",
-		"source2": "https://github.com/advisories/GHSA-7cg8-pq9v-x98q"
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-REALMSSHIM-2309907",
+    "source2": "https://github.com/advisories/GHSA-7cg8-pq9v-x98q"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

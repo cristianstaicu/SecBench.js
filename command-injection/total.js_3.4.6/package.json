@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2020-28494",
+  "id": "CVE-2020-28494",
   "dependencies": {
     "total.js": "3.4.6"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-TOTALJS-1046672",
-		"source2": ""
-	},
-	"fixedVersion": "3.4.7",
-	"fixCommit": "https://github.com/totaljs/framework/commit/6192491ab2631e7c1d317c221f18ea613e2c18a5",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-TOTALJS-1046672",
+    "source2": "https://github.com/advisories/GHSA-4449-hg37-77v8"
+  },
+  "fixedVersion": "3.4.7",
+  "fixCommit": "https://github.com/totaljs/framework/commit/6192491ab2631e7c1d317c221f18ea613e2c18a5",
+  "sink": ""
 }

@@ -1,12 +1,13 @@
 {
-  "id": "",
+  "id": "CVE-2020-15366",
   "dependencies": {
     "ajv": "5.2.2"
   },
   "links": {
-    "source1": "",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-AJV-584908",
     "source2": ""
   },
   "fixCommit": "n/a",
-  "sink": ""
+  "sink": "",
+  "fixedVersion": "6.12.3"
 }

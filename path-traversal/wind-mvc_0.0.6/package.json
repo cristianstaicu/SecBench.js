@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16220",
+  "id": "CVE-2017-16220",
   "dependencies": {
     "wind-mvc": "0.0.6"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:wind-mvc:20170503",
-		"source2": "https://github.com/advisories/GHSA-7g8m-5qh9-9pgw"
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:wind-mvc:20170503",
+    "source2": "https://github.com/advisories/GHSA-7g8m-5qh9-9pgw"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

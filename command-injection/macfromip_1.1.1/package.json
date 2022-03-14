@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2020-7786",
+  "id": "CVE-2020-7786",
   "dependencies": {
     "macfromip": "1.1.1"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-MACFROMIP-1048336",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "https://github.com/bcamarneiro/macfromip/commit/1bbed8cd6f8299ad2e9d028e0ed0771340ab8391",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-MACFROMIP-1048336",
+    "source2": "https://github.com/advisories/GHSA-vh8f-xw5v-8993"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "https://github.com/bcamarneiro/macfromip/commit/1bbed8cd6f8299ad2e9d028e0ed0771340ab8391",
+  "sink": ""
 }

@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-DEFAULTSDEEP-173661",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": "https://github.com/advisories/GHSA-pjxw-22xf-6pwc"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",

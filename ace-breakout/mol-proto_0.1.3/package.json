@@ -1,13 +1,13 @@
 {
-"id": "",
+  "id": "",
   "dependencies": {
     "mol-proto": "^0.1.3"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:mol-proto:20160407",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:mol-proto:20160407",
+    "source2": ""
+  },
+  "fixedVersion": "1.0.6",
+  "fixCommit": "https://github.com/milojs/proto/pull/2/commits/10adbec293e7dfdb2e9e565bfd77187cf0373cbe",
+  "sink": ""
 }

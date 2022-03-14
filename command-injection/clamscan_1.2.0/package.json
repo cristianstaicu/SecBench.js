@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2020-7613",
+  "id": "CVE-2020-7613",
   "dependencies": {
     "clamscan": "1.2.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-CLAMSCAN-564113",
-		"source2": ""
-	},
-	"fixedVersion": "1.3.0",
-	"fixCommit": "https://github.com/kylefarris/clamscan/commit/5f557c970817fe8c578ec3f7ad3bcbcef4cf5538",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-CLAMSCAN-564113",
+    "source2": ""
+  },
+  "fixedVersion": "1.3.0",
+  "fixCommit": "https://github.com/kylefarris/clamscan/commit/5f557c970817fe8c578ec3f7ad3bcbcef4cf5538",
+  "sink": ""
 }

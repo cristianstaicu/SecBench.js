@@ -3,8 +3,9 @@
   "dependencies": {
     "@firebase/util": "0.3.3"
   },
-  "link": {
-    "source1": "https://security.snyk.io/vuln/SNYK-JS-FIREBASEUTIL-1038324"
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-FIREBASEUTIL-1038324",
+    "source2": "https://github.com/advisories/GHSA-fpm5-vv97-jfwg"
   },
   "fixedVersion": "0.3.4",
   "fixCommit": "https://github.com/firebase/firebase-js-sdk/commit/9cf727fcc3d049551b16ae0698ac33dc2fe45ada",

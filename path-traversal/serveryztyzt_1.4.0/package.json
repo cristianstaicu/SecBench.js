@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16103",
+  "id": "CVE-2017-16103",
   "dependencies": {
     "serveryztyzt": "1.4.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:serveryztyzt:20170516",
-		"source2": "https://github.com/advisories/GHSA-q4cq-539c-3mmm"
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:serveryztyzt:20170516",
+    "source2": "https://github.com/advisories/GHSA-q4cq-539c-3mmm"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-DATEANDTIME-1054430",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-r92x-f52r-x54g"
   },
   "fixedVersion": "0.14.2",
   "fixCommit": "https://github.com/knowledgecode/date-and-time/commit/9e4b501eacddccc8b1f559fb414f48472ee17c2a",

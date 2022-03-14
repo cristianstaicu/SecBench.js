@@ -4,7 +4,7 @@
     "vant": "2.12.11"
   },
   "links": {
-    "source1": "",
+    "source1": "https://securitylab.github.com/advisories/GHSL-2020-343-redos-Vant/",
     "source2": ""
   },
   "fixedVersion": "n/a",

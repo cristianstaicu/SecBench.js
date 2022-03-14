@@ -1,5 +1,5 @@
 {
-  "id": "-",
+  "id": "",
   "dependencies": {
     "@brikcss/merge": "1.3.0"
   },
@@ -7,7 +7,7 @@
     "source1": "https://security.snyk.io/vuln/SNYK-JS-BRIKCSSMERGE-1727594",
     "source2": ""
   },
-  "fixedVersion": "N/A",
+  "fixedVersion": "n/a",
   "fixCommit": "N/A",
   "sink": "merge/dist/lib/merge.js:2:1599"
 }

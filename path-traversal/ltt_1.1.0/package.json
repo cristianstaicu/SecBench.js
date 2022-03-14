@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16212",
+  "id": "CVE-2017-16212",
   "dependencies": {
     "ltt": "1.1.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:ltt:20170503",
-		"source2": "https://github.com/advisories/GHSA-6qh5-wx38-q92g"
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:ltt:20170503",
+    "source2": "https://github.com/advisories/GHSA-5jg5-w395-9684"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

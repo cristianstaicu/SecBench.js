@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2021-23374",
+  "id": "CVE-2021-23374",
   "dependencies": {
     "ps-visitor": "0.0.2"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-PSVISITOR-1078544",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-PSVISITOR-1078544",
+    "source2": "https://github.com/advisories/GHSA-v2jv-33gh-xx29"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

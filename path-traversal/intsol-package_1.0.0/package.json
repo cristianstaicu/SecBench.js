@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16178",
+  "id": "CVE-2017-16178",
   "dependencies": {
     "intsol-package": "1.0.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:intsol-package:20170511",
-		"source2": "https://github.com/advisories/GHSA-23wc-v4mf-x7v4"
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:intsol-package:20170511",
+    "source2": "https://github.com/advisories/GHSA-23wc-v4mf-x7v4"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

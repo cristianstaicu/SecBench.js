@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16085",
+  "id": "CVE-2017-16085",
   "dependencies": {
     "tinyserver2": "0.5.2"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:tinyserver2:20170503",
-		"source2": ""
-	},
-	"fixedVersion": "0.6.1",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:tinyserver2:20170503",
+    "source2": "https://github.com/advisories/GHSA-g8wf-rcg3-qw4q"
+  },
+  "fixedVersion": "0.6.1",
+  "fixCommit": "n/a",
+  "sink": ""
 }

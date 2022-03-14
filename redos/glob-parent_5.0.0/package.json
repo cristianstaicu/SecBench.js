@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-GLOBPARENT-1314294",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-ww39-953v-wcq6"
   },
   "fixedVersion": "6.0.1",
   "fixCommit": "https://github.com/gulpjs/glob-parent/commit/3e9f04a3b4349db7e1962d87c9a7398cda51f339",

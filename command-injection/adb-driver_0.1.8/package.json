@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2020-7636",
+  "id": "CVE-2020-7636",
   "dependencies": {
     "adb-driver": "0.1.8"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-ADBDRIVER-564430",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-ADBDRIVER-564430",
+    "source2": "https://github.com/advisories/GHSA-4m6q-rxhm-675w"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

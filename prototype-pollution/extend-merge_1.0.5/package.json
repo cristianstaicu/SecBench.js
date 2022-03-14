@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-EXTENDMERGE-609868",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": ""
   },
   "fixedVersion": "1.0.6",
   "fixCommit": "https://github.com/crysalead-js/extend-merge/commit/6c8dc4e4b5983fa3e85544716f8e347dea2ba3b0",

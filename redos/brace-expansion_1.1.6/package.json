@@ -5,9 +5,9 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/npm:brace-expansion:20170302",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-832h-xg76-4gv6"
   },
   "fixedVersion": "1.1.7",
-  "fixCommit": "https://github.com/juliangruber/brace-expansion/pull/35/commits/b13381281cead487cbdbfd6a69fb097ea5e456c3",
+  "fixCommit": "https://github.com/juliangruber/brace-expansion/pull/35/commits/b13381281cead487cbdbfd6a69fb097ea5e456c3)\",severity:\"medium\",packageName:e,packageManager:f,publicationTime:\"2017-04-26T09:19:21Z\",disclosureTime:\"2017-03-01T22:00:00Z\",credit:[g],identifiers:{ALTERNATIVE:[\"SNYK-JS-BRACEEXPANSION-10483\"],CVE:[\"CVE-2017-18077\"],CWE:[\"CWE-400\"],GHSA:[\"GHSA-832h-xg76-4gv6\"],NSP:[338]},semver:{vulnerable:[h]},CVSSv3:\"CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H\",cvssScore:6.2,language:\"js\",socialTrendAlert:b,proprietary:b,breadcrumbItems:[{url:\"/vulns\",label:\"Snyk Vulnerability Database\"},{label:f,url:\"/vulns?type=npm\"},{label:e,testHook:\"filter\"}],vulnDescription:{\"Overview\r\":\"<p><a href=\"https://www.npmjs.com/package/brace-expansion\"><code>brace-expansion</code></a> is a package that performs brace expansion as known from sh/bash",
   "sink": ""
 }

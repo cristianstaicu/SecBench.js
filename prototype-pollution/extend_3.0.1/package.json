@@ -1,13 +1,13 @@
 {
-  "id": "CVE-2021-23568",
+  "id": "CVE-2018-16492",
   "dependencies": {
     "extend": "3.0.1"
   },
   "links": {
-    "source1": "https://security.snyk.io/vuln/SNYK-JS-JSEXTEND-1297101",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source1": "https://security.snyk.io/vuln/npm:extend:20180424",
+    "source2": "https://github.com/advisories/GHSA-qrmc-fj45-qfc2"
   },
   "fixedVersion": "1.0.1",
-  "fixCommit": "https://github.com/eggjs/extend2/commit/aa332a59116c8398976434b57ea477c6823054f8",
+  "fixCommit": "https://github.com/justmoon/node-extend/commit/0e68e71d93507fcc391e398bc84abd0666b28190",
   "sink": "./set.js:36"
 }

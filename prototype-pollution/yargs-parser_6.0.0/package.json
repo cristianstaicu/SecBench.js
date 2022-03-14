@@ -5,9 +5,9 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-YARGSPARSER-560381",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": "https://github.com/advisories/GHSA-p9pc-299p-vxgp"
   },
-  "fixedVersion": "5.0.1",
+  "fixedVersion": "18.1.1",
   "fixCommit": "n/a",
   "sink": "./set.js:36"
 }

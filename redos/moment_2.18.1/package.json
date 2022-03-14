@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/npm:moment:20170905",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-446m-mv8f-q348"
   },
   "fixedVersion": "2.19.3",
   "fixCommit": "n/a",

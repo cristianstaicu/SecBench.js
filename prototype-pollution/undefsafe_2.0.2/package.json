@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-UNDEFSAFE-548940",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": ""
   },
   "fixedVersion": "2.0.3",
   "fixCommit": "https://github.com/remy/undefsafe/commit/f272681b3a50e2c4cbb6a8533795e1453382c822",

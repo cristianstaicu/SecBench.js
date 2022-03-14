@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-LUTILSMERGE-174783",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": "https://github.com/advisories/GHSA-f7qw-5pvg-mmwp"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",

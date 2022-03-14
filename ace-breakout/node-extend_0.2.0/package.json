@@ -1,13 +1,13 @@
 {
-"id": "CVE-2020-7673",
+  "id": "CVE-2020-7673",
   "dependencies": {
     "node-extend": "^0.2.0"
-	},
-	"links": {
-		"source1": "",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-NODEEXTEND-571491",
+    "source2": "https://github.com/advisories/GHSA-cg42-4wrc-gp47"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

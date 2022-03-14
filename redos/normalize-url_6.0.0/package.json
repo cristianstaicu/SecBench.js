@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-NORMALIZEURL-1296539",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-px4h-xg32-q955"
   },
   "fixedVersion": "6.0.1",
   "fixCommit": "https://github.com/sindresorhus/normalize-url/commit/b1fdb5120b6d27a88400d8800e67ff5a22bd2103",

@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-UPMERGE-174133",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": "https://github.com/advisories/GHSA-gm9g-2g8v-fvxj"
   },
   "fixedVersion": "0.1.8",
   "fixCommit": "n/a",

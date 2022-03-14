@@ -1,13 +1,13 @@
 {
-  "id": "",
+  "id": "CVE-2017-16116",
   "dependencies": {
     "string": "3.3.3"
   },
   "links": {
-    "source1": "https://security.snyk.io/vuln/SNYK-JS-STRINGKIT-1567201",
-    "source2": ""
+    "source1": "https://security.snyk.io/vuln/npm:string:20170907",
+    "source2": "https://github.com/advisories/GHSA-g36h-6r4f-3mqp"
   },
-  "fixedVersion": "0.12.8",
-  "fixCommit": "https://github.com/cronvel/string-kit/commit/9cac4c298ee92c1695b0695951f1488884a7ca73",
+  "fixedVersion": "n/a",
+  "fixCommit": "",
   "sink": ""
 }

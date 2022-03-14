@@ -1,13 +1,13 @@
 {
-"id": " CVE-2020-7710",
+  "id": " CVE-2020-7710",
   "dependencies": {
     "safe-eval": "0.2.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:safe-eval:20170830",
-		"source2": "https://security.snyk.io/vuln/SNYK-JS-SAFEEVAL-608076"
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-SAFEEVAL-608076",
+    "source2": "https://github.com/advisories/GHSA-hrpq-r399-whgw"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

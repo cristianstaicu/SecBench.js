@@ -1,13 +1,13 @@
 {
-"id": "",
+  "id": "",
   "dependencies": {
     "@zhaoyao91/eval-in-vm": "0.0.0"
-	},
-	"links": {
-		"source1": "",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://github.com/advisories/GHSA-jp99-5h8w-gmxc",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

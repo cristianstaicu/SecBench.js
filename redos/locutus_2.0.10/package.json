@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-LOCUTUS-1090597",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-39q4-p535-c852"
   },
   "fixedVersion": "2.0.15",
   "fixCommit": "https://github.com/locutusjs/locutus/commit/eb863321990e7e5514aa14f68b8d9978ece9e65e",

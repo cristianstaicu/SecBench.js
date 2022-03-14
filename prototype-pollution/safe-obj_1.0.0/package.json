@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-SAFEOBJ-1277111",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": "https://github.com/advisories/GHSA-wpgh-hmv4-r3v5"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",

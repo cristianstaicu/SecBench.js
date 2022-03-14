@@ -1,13 +1,13 @@
 {
-	"id": "",
+  "id": "",
   "dependencies": {
     "wuzhuang": "1.0.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:wuzhuangserver:20180306",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:wuzhuang:20180226",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

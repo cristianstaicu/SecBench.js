@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2021-29300",
+  "id": "CVE-2021-29300",
   "dependencies": {
     "samsung-remote": "1.2.5"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-SAMSUNGREMOTE-72278",
-		"source2": ""
-	},
-	"fixedVersion": "1.3.5",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-SAMSUNGREMOTE-72278",
+    "source2": "https://github.com/advisories/GHSA-fg5w-w99f-rj6w"
+  },
+  "fixedVersion": "1.5.2",
+  "fixCommit": "https://github.com/ronomon/opened/commit/7effe011d4fea8fac7f78c00615e0a6e69af68ec",
+  "sink": ""
 }

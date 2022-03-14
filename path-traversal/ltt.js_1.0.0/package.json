@@ -1,13 +1,13 @@
 {
-	"id": "",
+  "id": "",
   "dependencies": {
     "ltt.js": "1.0.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:ltt.js:20170503",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:ltt.js:20170503",
+    "source2": "https://github.com/advisories/GHSA-6qh5-wx38-q92g"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

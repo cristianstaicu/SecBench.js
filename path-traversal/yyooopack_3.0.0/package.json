@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16167",
+  "id": "CVE-2017-16167",
   "dependencies": {
     "yyooopack": "3.0.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:yyooopack:20170516",
-		"source2": "https://github.com/advisories/GHSA-c3h5-qchh-46hh"
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:yyooopack:20170516",
+    "source2": "https://github.com/advisories/GHSA-c3h5-qchh-46hh"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

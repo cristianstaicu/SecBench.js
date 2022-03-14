@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2019-10789",
+  "id": "CVE-2019-10789",
   "dependencies": {
     "curling": "0.2.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-CURLING-546484",
-		"source2": ""
-	},
-	"fixedVersion": "1.1.0",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-CURLING-546484",
+    "source2": "https://github.com/advisories/GHSA-xmxh-g7wj-8m4m"
+  },
+  "fixedVersion": "1.1.0",
+  "fixCommit": "n/a",
+  "sink": ""
 }

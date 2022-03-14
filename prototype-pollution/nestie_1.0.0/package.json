@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-NESTIE-1300518",
-    "source2": "https://github.com/advisories/GHSA-p3hc-fv2j-rp68"
+    "source2": "https://github.com/advisories/GHSA-m7rg-8wvq-846v"
   },
   "fixedVersion": "1.0.2",
   "fixCommit": "https://github.com/lukeed/nestie/commit/c571c77928ecd7f256a935c7c3860f33dac4653f",

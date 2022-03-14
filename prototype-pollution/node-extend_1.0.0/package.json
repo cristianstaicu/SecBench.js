@@ -1,13 +1,13 @@
 {
-  "id": "CVE-2020-7703",
+  "id": "CVE-2018-16491",
   "dependencies": {
     "node.extend": "1.0.0"
   },
   "links": {
-    "source1": "https://security.snyk.io/vuln/SNYK-JS-NISUTILS-598799",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-NODEEXTEND-73641",
+    "source2": "https://github.com/advisories/GHSA-r96c-57pf-9jjm"
   },
-  "fixedVersion": "n/a",
+  "fixedVersion": "2.0.1",
   "fixCommit": "n/a",
   "sink": "./set.js:36"
 }

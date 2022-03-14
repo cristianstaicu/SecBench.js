@@ -4,7 +4,8 @@
     "merge-change": "1.0.1"
   },
   "links": {
-    "source1": "https://github.com/VladimirShestakov/merge-change/blob/9901f145e06158f284f52de42e6ba5b0f702fb65/utils.js#L89-L123"
+    "source1": "https://github.com/VladimirShestakov/merge-change/blob/9901f145e06158f284f52de42e6ba5b0f702fb65/utils.js#L89-L123",
+    "source2": "https://security.snyk.io/vuln/SNYK-JS-MERGECHANGE-1310985"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",

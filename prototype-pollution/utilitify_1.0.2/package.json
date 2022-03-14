@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-UTILITIFY-559497",
-    "source2": "https://github.com/advisories/GHSA-g9r4-xpmj-mj65"
+    "source2": "https://github.com/advisories/GHSA-9534-h433-2rjf"
   },
   "fixedVersion": "1.0.3",
   "fixCommit": "https://github.com/xcritical-software/utilitify/commit/88d6e27009823338bf319ffb768fe6b08e8ad2d1",

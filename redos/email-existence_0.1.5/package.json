@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "0.1.6",
-  "fixCommit": "https://github.com/nmanousos/email-existence/commit/0029ba71b6ad0d8ec0baa2ecc6256d038bdd9b56",
+  "fixCommit": "https:\\u002F\\u002Fgithub.com\\u002Fnmanousos\\u002Femail-existence\\u002Fcommit\\u002F0029ba71b6ad0d8ec0baa2ecc6256d038bdd9b56)\",severity:\"low\",packageName:d,packageManager:e,publicationTime:\"2018-02-25T14:35:12.955000Z\",disclosureTime:\"2018-02-25T13:55:42.264000Z\",credit:[f],identifiers:{ALTERNATIVE:[\"SNYK-JS-EMAILEXISTENCE-10918\"],CVE:[],CWE:[\"CWE-185\",\"CWE-400\"]},semver:{vulnerable:[g]},CVSSv3:\"CVSS:3.1\\u002FAV:N\\u002FAC:H\\u002FPR:N\\u002FUI:N\\u002FS:U\\u002FC:N\\u002FI:N\\u002FA:L\\u002FE:P\\u002FRL:O\\u002FRC:C\",cvssScore:3.7,language:\"js\",socialTrendAlert:h,proprietary:a,breadcrumbItems:[{url:\"\\u002Fvulns\",label:\"Snyk Vulnerability Database\"},{label:e,url:\"\\u002Fvulns?type=npm\"},{label:d,testHook:\"filter\"}],vulnDescription:{Overview:\"\\u003Cp\\u003E\\u003Ca href=\\\"https:\\u002F\\u002Fwww.npmjs.com\\u002Fpackage\\u002Femail-existence\\\"\\u003E\\u003Ccode\\u003Eemail-existence\\u003C\\u002Fcode\\u003E\\u003C\\u002Fa\\u003E checks existence of email addresses.\\u003C\\u002Fp\\u003",
   "sink": ""
 }

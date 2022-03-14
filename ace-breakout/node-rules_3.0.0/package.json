@@ -1,13 +1,13 @@
 {
-"id": "CVE-2020-7609",
+  "id": "CVE-2020-7609",
   "dependencies": {
     "node-rules": "3.0.0"
-	},
-	"links": {
-		"source1": "",
-		"source2": ""
-	},
-	"fixedVersion": "5.0.0",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-NODERULES-560426",
+    "source2": "https://github.com/advisories/GHSA-f78f-353m-cf4j"
+  },
+  "fixedVersion": "5.0.0",
+  "fixCommit": "n/a",
+  "sink": ""
 }

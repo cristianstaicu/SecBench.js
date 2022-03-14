@@ -1,13 +1,13 @@
 {
-"id": "",
+  "id": "CVE-2020-7766",
   "dependencies": {
     "json-ptr": "2.0.0"
-	},
-	"links": {
-		"source1": "https://github.com/advisories/GHSA-rrqv-vjrw-hrcr",
-		"source2": ""
-	},
-	"fixedVersion": "2.1.0",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://github.com/advisories/GHSA-x5r6-x823-9848",
+    "source2": "https://security.snyk.io/vuln/SNYK-JS-JSONPTR-1016939"
+  },
+  "fixedVersion": "2.0.0",
+  "fixCommit": "n/a",
+  "sink": ""
 }

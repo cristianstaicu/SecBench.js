@@ -7,7 +7,7 @@
     "source1": "https://security.snyk.io/vuln/SNYK-JS-SETOBJECTVALUE-1054931",
     "source2": "https://github.com/advisories/GHSA-4jj4-m52p-8rx3"
   },
-  "fixedVersion": "0.0.6",
+  "fixedVersion": " 0.0.6",
   "fixCommit": "https://github.com/react-atomic/react-atomic-organism/commit/c8ec63388f7785078cb27275b56ed955ffd3db6c",
   "sink": "./set.js:36"
 }

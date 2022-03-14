@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2021-23399",
+  "id": "CVE-2021-23399",
   "dependencies": {
     "wincred": "1.0.2"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-WINCRED-1078538",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-WINCRED-1078538",
+    "source2": "https://github.com/advisories/GHSA-v85c-hgq5-7pfw"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-CHANGESET-1083989",
-    "source2": "https://github.com/advisories/GHSA-hc9w-4p87-j549"
+    "source2": ""
   },
   "fixedVersion": "0.2.6",
   "fixCommit": "https://github.com/eugeneware/changeset/commit/9e588844edbb9993b32e7366cc799262b4447f99",

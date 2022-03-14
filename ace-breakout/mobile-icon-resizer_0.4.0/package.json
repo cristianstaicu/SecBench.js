@@ -1,13 +1,13 @@
 {
-"id": "",
+  "id": "",
   "dependencies": {
     "mobile-icon-resizer": "0.4.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:mobile-icon-resizer:20160408",
-		"source2": "https://github.com/advisories/GHSA-mxjr-xmcg-fg7w"
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:mobile-icon-resizer:20160408",
+    "source2": "https://github.com/advisories/GHSA-mxjr-xmcg-fg7w"
+  },
+  "fixedVersion": "0.4.3",
+  "fixCommit": "https://github.com/muzzley/mobile-icon-resizer/commit/a6c50f884bd282d74ab77e1fce6317d5d0dd2f0f",
+  "sink": ""
 }

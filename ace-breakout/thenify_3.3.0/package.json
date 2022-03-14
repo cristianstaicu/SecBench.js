@@ -1,13 +1,13 @@
 {
-"id": "CVE-2020-7677",
+  "id": "CVE-2020-7677",
   "dependencies": {
     "thenify": "3.3.0"
-	},
-	"links": {
-		"source1": "",
-		"source2": ""
-	},
-	"fixedVersion": "3.3.1",
-	"fixCommit": "https://github.com/thenables/thenify/commit/0d94a24eb933bc835d568f3009f4d269c4c4c17a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-THENIFY-571690",
+    "source2": ""
+  },
+  "fixedVersion": "3.3.1",
+  "fixCommit": "https://github.com/thenables/thenify/commit/0d94a24eb933bc835d568f3009f4d269c4c4c17a",
+  "sink": ""
 }

@@ -1,13 +1,13 @@
 {
-"id": "CVE-2020-6836",
+  "id": "CVE-2020-6836",
   "dependencies": {
     "hot-formula-parser": "3.0.0"
-	},
-	"links": {
-		"source1": "",
-		"source2": ""
-	},
-	"fixedVersion": "3.0.1",
-	"fixCommit": "https://github.com/handsontable/formula-parser/commit/396b089738d4bf30eb570a4fe6a188affa95cd5e",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-HOTFORMULAPARSER-541328",
+    "source2": "https://github.com/advisories/GHSA-rc77-xxq6-4mff"
+  },
+  "fixedVersion": "3.0.1",
+  "fixCommit": "https://github.com/handsontable/formula-parser/commit/396b089738d4bf30eb570a4fe6a188affa95cd5e",
+  "sink": ""
 }

@@ -1,13 +1,13 @@
 {
-"id": "",
+  "id": "CVE-2020-28464",
   "dependencies": {
     "djv": "2.0.0"
-	},
-	"links": {
-		"source1": "https://github.com/advisories/GHSA-4hv7-3q38-97m8",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://github.com/advisories/GHSA-4hv7-3q38-97m8",
+    "source2": "https://security.snyk.io/vuln/SNYK-JS-DJV-1014545"
+  },
+  "fixedVersion": "2.1.4",
+  "fixCommit": "n/a",
+  "sink": ""
 }

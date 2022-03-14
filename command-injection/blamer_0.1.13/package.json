@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2019-10807",
+  "id": "CVE-2019-10807",
   "dependencies": {
     "blamer": "0.1.13"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-BLAMER-559541",
-		"source2": ""
-	},
-	"fixedVersion": "1.0.1",
-	"fixCommit": "https://github.com/kucherenko/blamer/commit/5fada8c9b6986ecd28942b724fa682e77ce1e11c",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-BLAMER-559541",
+    "source2": "https://github.com/advisories/GHSA-7vm7-j8p7-h346"
+  },
+  "fixedVersion": "1.0.1",
+  "fixCommit": "https://github.com/kucherenko/blamer/commit/5fada8c9b6986ecd28942b724fa682e77ce1e11c",
+  "sink": ""
 }

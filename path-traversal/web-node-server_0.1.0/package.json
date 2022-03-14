@@ -1,13 +1,13 @@
 {
-	"id": "",
+  "id": "",
   "dependencies": {
     "web-node-server": "0.1.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:web-node-server:20180306",
-		"source2": ""
-	},
-	"fixedVersion": "0.0.11",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:web-node-server:20180306",
+    "source2": ""
+  },
+  "fixedVersion": "0.0.11",
+  "fixCommit": "n/a",
+  "sink": ""
 }

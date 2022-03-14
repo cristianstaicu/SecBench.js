@@ -1,13 +1,13 @@
 {
-  "id": "",
+  "id": "CVE-2020-28267",
   "dependencies": {
     "@strikeentco/set": "1.0.0"
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-STRIKEENTCOSET-1038821",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": ""
   },
-  "fixedVersion": "n/a",
-  "fixCommit": "n/a",
+  "fixedVersion": "1.0.1",
+  "fixCommit": "https://github.com/strikeentco/set/commit/102cc6b2e1d1e0c928ced87e75df759d5541ff60",
   "sink": "./set.js:36"
 }

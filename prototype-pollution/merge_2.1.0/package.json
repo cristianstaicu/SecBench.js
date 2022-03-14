@@ -1,11 +1,11 @@
 {
-  "id": "CVE-2021-23700",
+  "id": "CVE-2020-28499",
   "dependencies": {
     "merge": "2.1.0"
   },
   "links": {
-    "source1": "https://security.snyk.io/vuln/SNYK-JS-MERGEDEEP2-1727593",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-MERGE-1042987",
+    "source2": "https://github.com/advisories/GHSA-7wpw-2hjm-89gp"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",

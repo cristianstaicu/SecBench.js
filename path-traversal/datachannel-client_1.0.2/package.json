@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16121",
+  "id": "CVE-2017-16121",
   "dependencies": {
     "datachannel-client": "1.0.2"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:datachannel-client:20170418",
-		"source2": "https://github.com/advisories/GHSA-jpg7-6c9f-7q54"
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:datachannel-client:20170418",
+    "source2": "https://github.com/advisories/GHSA-jpg7-6c9f-7q54"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

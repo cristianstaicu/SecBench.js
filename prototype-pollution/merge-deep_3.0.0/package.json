@@ -1,13 +1,13 @@
 {
-  "id": "CVE-2021-23700",
+  "id": "CVE-2021-26707",
   "dependencies": {
     "merge-deep": "3.0.0"
   },
   "links": {
-    "source1": "https://security.snyk.io/vuln/SNYK-JS-MERGEDEEP2-1727593",
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-MERGEDEEP-1070277",
     "source2": "https://github.com/advisories/GHSA-r6rj-9ch6-g264"
   },
-  "fixedVersion": "n/a",
-  "fixCommit": "n/a",
+  "fixedVersion": "3.0.3",
+  "fixCommit": "https://github.com/jonschlinkert/merge-deep/commit/e370968581413a2e5ffdbbf7c2f5094e0e0b3861",
   "sink": "./set.js:36"
 }

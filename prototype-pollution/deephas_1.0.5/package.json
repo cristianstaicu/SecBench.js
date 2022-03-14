@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-DEEPHAS-1039845",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": "https://github.com/advisories/GHSA-4fr2-j4g9-mppf"
   },
   "fixedVersion": "1.0.7",
   "fixCommit": "https://github.com/sharpred/deepHas/commit/2fe011713a6178c50f7deb6f039a8e5435981e20",

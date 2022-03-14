@@ -1,13 +1,13 @@
 {
-	"id": "",
+  "id": "",
   "dependencies": {
     "my-sn": "1.0.1"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:my-sn:20180226",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:my-sn:20180226",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

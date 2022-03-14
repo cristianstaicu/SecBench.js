@@ -5,9 +5,9 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-SSRI-1246392",
-    "source2": "https://github.com/advisories/GHSA-325j-24f4-qv5x"
+    "source2": "https://github.com/advisories/GHSA-vx3p-948g-6vhq"
   },
-  "fixedVersion": "6.0.2",
+  "fixedVersion": "8.0.1",
   "fixCommit": "https://github.com/npm/ssri/commit/76e223317d971f19e4db8191865bdad5edee40d2",
   "sink": ""
 }

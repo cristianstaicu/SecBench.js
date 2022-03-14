@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-KEYGET-1048048",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": ""
   },
   "fixedVersion": "2.3.0",
   "fixCommit": "https://github.com/rumkin/keyget/commit/17d15b6c75036eb429075a8cfeccfc18094dd2e2",

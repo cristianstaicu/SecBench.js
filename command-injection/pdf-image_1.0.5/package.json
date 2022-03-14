@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2018-3757",
+  "id": "CVE-2018-3757",
   "dependencies": {
     "pdf-image": "1.0.5"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-PSVISITOR-1078544",
-		"source2": ""
-	},
-	"fixedVersion": "2.0.1",
-	"fixCommit": "https://github.com/roest01/node-pdf-image/commit/54679496a89738443917608c2bbe2f6e5dd20e83",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:pdf-image:20180529",
+    "source2": "https://github.com/advisories/GHSA-5gwh-g79j-vh4q"
+  },
+  "fixedVersion": "2.0.1",
+  "fixCommit": "https://github.com/roest01/node-pdf-image/commit/54679496a89738443917608c2bbe2f6e5dd20e83",
+  "sink": ""
 }

@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16039",
+  "id": "CVE-2017-16039",
   "dependencies": {
     "hftp": "0.0.6"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:hftp:20170422",
-		"source2": "https://github.com/advisories/GHSA-76p6-gpvf-6wmv"
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:hftp:20170422",
+    "source2": "https://github.com/advisories/GHSA-76p6-gpvf-6wmv"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

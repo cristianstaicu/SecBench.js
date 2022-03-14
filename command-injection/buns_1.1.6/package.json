@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2020-7794",
+  "id": "CVE-2020-7794",
   "dependencies": {
     "buns": "1.1.6"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-BUNS-1050389",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-BUNS-1050389",
+    "source2": "https://github.com/advisories/GHSA-487w-pqcm-63hq"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

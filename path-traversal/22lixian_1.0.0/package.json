@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16162",
+  "id": "CVE-2017-16162",
   "dependencies": {
     "22lixian": "1.0.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:22lixian:20170511",
-		"source2": "https://github.com/advisories/GHSA-rrfc-g2gh-xvjm"
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:22lixian:20170511",
+    "source2": "https://github.com/advisories/GHSA-rrfc-g2gh-xvjm"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

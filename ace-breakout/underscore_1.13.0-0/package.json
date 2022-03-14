@@ -1,13 +1,13 @@
 {
-"id": "CVE-2021-23358",
+  "id": "CVE-2021-23358",
   "dependencies": {
     "underscore": "1.13.0-0"
-	},
-	"links": {
-		"source1": "https://github.com/advisories/GHSA-cf4h-3jhx-xvhq",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://github.com/advisories/GHSA-cf4h-3jhx-xvhq",
+    "source2": ""
+  },
+  "fixedVersion": "1.12.1",
+  "fixCommit": "https://github.com/jashkenas/underscore/commit/4c73526d43838ad6ab43a6134728776632adeb66",
+  "sink": ""
 }

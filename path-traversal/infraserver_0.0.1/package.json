@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16142",
+  "id": "CVE-2017-16142",
   "dependencies": {
     "infraserver": "0.0.1"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:infraserver:20170518",
-		"source2": "https://github.com/advisories/GHSA-v464-rcx7-j875"
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:infraserver:20170518",
+    "source2": "https://github.com/advisories/GHSA-v464-rcx7-j875"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

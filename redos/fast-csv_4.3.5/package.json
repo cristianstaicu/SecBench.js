@@ -4,8 +4,8 @@
     "fast-csv": "4.3.5"
   },
   "links": {
-    "source1": "https://security.snyk.io/vuln/SNYK-JS-FASTCSVPARSE-1049537",
-    "source2": ""
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-FASTCSV-1049538",
+    "source2": "https://github.com/advisories/GHSA-8cv5-p934-3hwp"
   },
   "fixedVersion": "4.3.6",
   "fixCommit": "https://github.com/C2FO/fast-csv/commit/4bbd39f26a8cd7382151ab4f5fb102234b2f829e",

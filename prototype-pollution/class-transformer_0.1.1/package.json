@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-CLASSTRANSFORMER-564431",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": "https://github.com/advisories/GHSA-6gp3-h3jj-prx4"
   },
   "fixedVersion": "0.3.1",
   "fixCommit": "n/a",

@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16180",
+  "id": "CVE-2017-16180",
   "dependencies": {
     "serverabc": "1.0.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:serverabc:20170518",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:serverabc:20170518",
+    "source2": "https://github.com/advisories/GHSA-pr49-5hhf-6mm6"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

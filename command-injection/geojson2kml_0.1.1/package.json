@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2020-28429",
+  "id": "CVE-2020-28429",
   "dependencies": {
     "geojson2kml": "0.1.1"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-GEOJSON2KML-1050412",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-GEOJSON2KML-1050412",
+    "source2": "https://github.com/advisories/GHSA-w83x-fp72-p9qc"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "n/a",
-  "fixCommit": "https://github.com/tgriesser/checkit/pull/94",
+  "fixCommit": "https:\\u002F\\u002Fgithub.com\\u002Ftgriesser\\u002Fcheckit\\u002Fpull\\u002F94)\",severity:\"low\",packageName:d,packageManager:e,publicationTime:\"2018-02-26T14:05:11.654000Z\",disclosureTime:\"2018-02-26T20:39:06Z\",credit:[f],identifiers:{ALTERNATIVE:[\"SNYK-JS-CHECKIT-10983\"],CVE:[],CWE:[\"CWE-185\",\"CWE-400\"]},semver:{vulnerable:[g]},CVSSv3:\"CVSS:3.1\\u002FAV:N\\u002FAC:H\\u002FPR:N\\u002FUI:N\\u002FS:U\\u002FC:N\\u002FI:N\\u002FA:L\\u002FE:P\\u002FRL:U\\u002FRC:C\",cvssScore:3.7,language:\"js\",socialTrendAlert:h,proprietary:a,breadcrumbItems:[{url:\"\\u002Fvulns\",label:\"Snyk Vulnerability Database\"},{label:e,url:\"\\u002Fvulns?type=npm\"},{label:d,testHook:\"filter\"}],vulnDescription:{Overview:\"\\u003Cp\\u003E\\u003Ca href=\\\"https:\\u002F\\u002Fwww.npmjs.com\\u002Fpackage\\u002Fcheckit\\\"\\u003E\\u003Ccode\\u003Echeckit\\u003C\\u002Fcode\\u003E\\u003C\\u002Fa\\u003E is a DOM-independent validation library for Node.js, io.js and the browser.\\u003C\\u002Fp\\u003",
   "sink": ""
 }

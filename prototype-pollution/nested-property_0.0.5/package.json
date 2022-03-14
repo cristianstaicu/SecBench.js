@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-NESTEDPROPERTY-1022154",
-    "source2": "https://github.com/advisories/GHSA-cvxm-f295-x957"
+    "source2": ""
   },
   "fixedVersion": "3.0.0",
   "fixCommit": "https://github.com/cosmosio/nested-property/commit/881cf37eb956641fc26011ff66a436eb603c89d1",

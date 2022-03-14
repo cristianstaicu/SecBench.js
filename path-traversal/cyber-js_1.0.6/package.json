@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16093",
+  "id": "CVE-2017-16093",
   "dependencies": {
     "cyber-js": "1.0.6"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:cyber-js:20170418",
-		"source2": "https://github.com/advisories/GHSA-6w83-22gj-5pv9"
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:cyber-js:20170418",
+    "source2": "https://github.com/advisories/GHSA-6w83-22gj-5pv9"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

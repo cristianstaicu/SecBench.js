@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-PHPJS-598681",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": "https://github.com/advisories/GHSA-m428-jqc4-2p5j"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",

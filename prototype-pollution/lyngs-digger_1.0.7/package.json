@@ -1,5 +1,5 @@
 {
-  "id": "https://cwe.mitre.org/data/definitions/1321.html",
+  "id": "",
   "dependencies": {
     "@lyngs/digger": "1.0.7"
   },

@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2021-23355",
+  "id": "CVE-2021-23355",
   "dependencies": {
     "ps-kill": "1.0.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-PSKILL-1078529",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-PSKILL-1078529",
+    "source2": "https://github.com/advisories/GHSA-7qmm-q394-fmch"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

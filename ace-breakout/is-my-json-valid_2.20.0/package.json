@@ -1,14 +1,14 @@
 {
-"id": "",
+  "id": "",
   "dependencies": {
     "is-my-json-valid": "2.20.0",
     "sleep": "^6.3.0"
-	},
-	"links": {
-		"source1": "",
-		"source2": ""
-	},
-	"fixedVersion": "2.20.3",
-	"fixCommit": "https://github.com/mafintosh/is-my-json-valid/commit/3419563687df463b4ca709a2b46be8e15d6a2b3d",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-ISMYJSONVALID-597167",
+    "source2": "https://github.com/advisories/GHSA-f522-ffg8-j8r6"
+  },
+  "fixedVersion": "2.20.3",
+  "fixCommit": "https://github.com/mafintosh/is-my-json-valid/commit/3419563687df463b4ca709a2b46be8e15d6a2b3d",
+  "sink": ""
 }

@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-JOINTJS-1579578",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": "https://github.com/advisories/GHSA-f3pp-32qc-36w4"
   },
   "fixedVersion": "3.4.2",
   "fixCommit": "https://github.com/clientIO/joint/commit/e5bf89efef6d5ea572d66870ffd86560de7830a8",

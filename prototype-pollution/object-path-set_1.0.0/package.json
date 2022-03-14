@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-OBJECTPATHSET-607908",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": "https://github.com/advisories/GHSA-cwx2-736x-mf6w"
   },
   "fixedVersion": "1.0.1",
   "fixCommit": "https://github.com/skratchdot/object-path-set/commit/55f06d75abf5885f9cba3b7760acb38d7d7d06c0",

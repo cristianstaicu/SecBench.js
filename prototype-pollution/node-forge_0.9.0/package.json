@@ -1,5 +1,5 @@
 {
-  "id": "",
+  "id": "CVE-2020-7720",
   "dependencies": {
     "node-forge": "0.9.0"
   },
@@ -7,7 +7,7 @@
     "source1": "https://security.snyk.io/vuln/SNYK-JS-NODEFORGE-598677",
     "source2": "https://github.com/advisories/GHSA-92xj-mqp7-vmcj"
   },
-  "fixedVersion": "1.0.0",
+  "fixedVersion": "0.10.0",
   "fixCommit": "https://github.com/digitalbazaar/forge/commit/51228083550dde97701ac8e06c629a5184117562",
   "sink": "./set.js:36"
 }

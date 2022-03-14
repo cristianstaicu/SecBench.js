@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16160",
+  "id": "CVE-2017-16160",
   "dependencies": {
     "11xiaoli": "1.1.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:11xiaoli:20170509",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:11xiaoli:20170509",
+    "source2": "https://github.com/advisories/GHSA-x2jj-x3q2-7hph"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

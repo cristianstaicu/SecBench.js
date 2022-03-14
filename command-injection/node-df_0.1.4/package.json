@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2019-15597",
+  "id": "CVE-2019-15597",
   "dependencies": {
     "node-df": "0.1.4"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-NODEDF-536779",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-NODEDF-536779",
+    "source2": "https://github.com/advisories/GHSA-wp7m-mrvf-599c"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2021-23363",
+  "id": "CVE-2021-23363",
   "dependencies": {
     "kill-by-port": "0.0.1"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-KILLBYPORT-1078531",
-		"source2": ""
-	},
-	"fixedVersion": "0.0.2",
-	"fixCommit": "https://github.com/GuyMograbi/kill-by-port/commit/ea5b1f377e196a4492e05ff070eba8b30b7372c4",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-KILLBYPORT-1078531",
+    "source2": "https://github.com/advisories/GHSA-mm4f-47ch-f7hx"
+  },
+  "fixedVersion": "0.0.2",
+  "fixCommit": "https://github.com/GuyMograbi/kill-by-port/commit/ea5b1f377e196a4492e05ff070eba8b30b7372c4",
+  "sink": ""
 }

@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16169",
+  "id": "CVE-2017-16169",
   "dependencies": {
     "looppake": "3.0.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:looppake:20170518",
-		"source2": "https://github.com/advisories/GHSA-4vfj-c2xf-8r48"
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:looppake:20170518",
+    "source2": "https://github.com/advisories/GHSA-4vfj-c2xf-8r48"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

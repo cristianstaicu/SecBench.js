@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-THREE-1064931",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-fq6p-x6j3-cmmq"
   },
   "fixedVersion": "0.125.0",
   "fixCommit": "https://github.com/mrdoob/three.js/pull/21143/commits/4a582355216b620176a291ff319d740e619d583e",

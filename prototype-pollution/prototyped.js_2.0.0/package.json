@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-PROTOTYPEDJS-1069824",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": ""
   },
   "fixedVersion": "2.0.1",
   "fixCommit": "https://github.com/ardalanamini/prototyped.js/commit/3ab56e78250d3d5b44ac03938d3d04591b206730",

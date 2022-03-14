@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2019-15596",
+  "id": "CVE-2019-15596",
   "dependencies": {
     "statics-server": "0.0.9"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-STATICSSERVER-472065",
-		"source2": "https://github.com/advisories/GHSA-j27j-4w6m-8fc4"
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-STATICSSERVER-472065",
+    "source2": "https://github.com/advisories/GHSA-j27j-4w6m-8fc4"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

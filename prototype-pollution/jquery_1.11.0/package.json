@@ -1,13 +1,13 @@
 {
-  "id": "CVE-2021-20086",
+  "id": "CVE-2019-11358",
   "dependencies": {
     "jquery": "1.11.0"
   },
   "links": {
-    "source1": "https://security.snyk.io/vuln/SNYK-JS-JQUERYBBQ-1255644",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-JQUERY-174006",
+    "source2": "https://github.com/advisories/GHSA-6c3j-c64m-qhgq"
   },
-  "fixedVersion": "n/a",
-  "fixCommit": "n/a",
+  "fixedVersion": " 3.4.0",
+  "fixCommit": "https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b",
   "sink": "./set.js:36"
 }

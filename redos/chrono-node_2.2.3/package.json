@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-CHRONONODE-1083228",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-hpmr-g4pq-jhgp"
   },
   "fixedVersion": "2.2.4",
   "fixCommit": "https://github.com/wanasit/chrono/commit/98815b57622443b5c498a427210ebd603d705f4c",

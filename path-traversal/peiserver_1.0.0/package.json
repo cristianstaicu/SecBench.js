@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16214",
+  "id": "CVE-2017-16214",
   "dependencies": {
     "peiserver": "1.0.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:peiserver:20170518",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:peiserver:20170518",
+    "source2": "https://github.com/advisories/GHSA-74f5-4m28-gq5c"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

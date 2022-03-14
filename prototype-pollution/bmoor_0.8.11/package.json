@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-BMOOR-598664",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": "https://github.com/advisories/GHSA-h3rx-g5c9-8q4x"
   },
   "fixedVersion": "0.8.12",
   "fixCommit": "n/a",

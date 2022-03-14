@@ -4,8 +4,8 @@
     "@viking04/merge": "1.0.0"
   },
   "links": {
-    "source1": "https://github.com/viking04/merge/commit/baba40332080b38b33840d2614df6d4142dedaf6",
-    "source2": "https://security.snyk.io/vuln/SNYK-JS-VIKING04MERGE-1584118"
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-VIKING04MERGE-1584118",
+    "source2": "https://github.com/advisories/GHSA-cqqh-49mx-fq63"
   },
   "fixedVersion": "1.0.2",
   "fixCommit": "https://github.com/viking04/merge/commit/baba40332080b38b33840d2614df6d4142dedaf6",

@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-SIMPLEMARKDOWN-469242",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-qj3f-9gmq-fwv5"
   },
   "fixedVersion": "0.6.1",
   "fixCommit": "https://github.com/Khan/simple-markdown/commit/015a719bf5cdc561feea05500ecb3274ef609cd2",

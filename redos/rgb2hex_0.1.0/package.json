@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/npm:rgb2hex:20180429",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-65p8-3hm4-h9h8"
   },
   "fixedVersion": "0.1.6",
   "fixCommit": "n/a",

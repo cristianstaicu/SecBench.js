@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16195",
+  "id": "CVE-2017-16195",
   "dependencies": {
     "pytservce": "1.0.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:pytservce:20170508",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:pytservce:20170508",
+    "source2": "https://github.com/advisories/GHSA-jwjq-vp53-ph6m"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-MADLIBOBJECTUTILS-598676",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": "https://github.com/advisories/GHSA-jvf5-q4h5-2jmj"
   },
   "fixedVersion": "0.1.7",
   "fixCommit": "n/a",

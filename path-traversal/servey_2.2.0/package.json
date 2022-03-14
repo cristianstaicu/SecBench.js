@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2020-8214",
+  "id": "CVE-2020-8214",
   "dependencies": {
     "servey": "2.2.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-SERVEY-174122",
-		"source2": ""
-	},
-	"fixedVersion": "3.0.0",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-SERVEY-174122",
+    "source2": "https://github.com/advisories/GHSA-v3px-6cc8-f8j3"
+  },
+  "fixedVersion": "3.0.0",
+  "fixCommit": "n/a",
+  "sink": ""
 }

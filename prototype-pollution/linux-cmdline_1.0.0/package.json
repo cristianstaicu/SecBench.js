@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-LINUXCMDLINE-598674",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": ""
   },
   "fixedVersion": "1.0.1",
   "fixCommit": "https://github.com/piranna/linux-cmdline/commit/53c61a88bc47eb25d71832205056beaab95cf677",

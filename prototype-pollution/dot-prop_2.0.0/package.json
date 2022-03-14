@@ -1,13 +1,13 @@
 {
-  "id": "",
+  "id": "CVE-2020-8116",
   "dependencies": {
     "dot-prop": "2.0.0"
   },
   "links": {
-    "source1": "https://security.snyk.io/vuln/SNYK-JS-TSDOTPROP-1024441",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-DOTPROP-543489",
+    "source2": "https://github.com/advisories/GHSA-ff7x-qrg7-qggm"
   },
-  "fixedVersion": "1.4.1",
-  "fixCommit": "https://github.com/justinlettau/ts-dot-prop/commit/816b887a669ab959c3c2f85c6563d33928f00f14#diff-f41e9d04a45c83f3b6f6e630f10117feR183",
+  "fixedVersion": "5.1.1",
+  "fixCommit": "https://github.com/sindresorhus/dot-prop/commit/3039c8c07f6fdaa8b595ec869ae0895686a7a0f2",
   "sink": "./set.js:36"
 }

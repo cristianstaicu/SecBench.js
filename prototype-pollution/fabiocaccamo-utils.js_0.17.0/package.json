@@ -1,13 +1,13 @@
 {
-  "id": "",
+  "id": "CVE-2021-3815",
   "dependencies": {
     "@fabiocaccamo/utils.js": "0.17.0"
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-FABIOCACCAMOUTILSJS-1932614",
-    "source2": "https://github.com/advisories/GHSA-g9r4-xpmj-mj65"
+    "source2": "https://github.com/advisories/GHSA-3xph-cp8f-2229"
   },
   "fixedVersion": "n/a",
-  "fixCommit": "n/a",
+  "fixCommit": "https://github.com/fabiocaccamo/utils.js/commit/102efafb291ce1916985514440d3bf8a6826890a",
   "sink": "./set.js:36"
 }

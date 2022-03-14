@@ -4,7 +4,7 @@
     "markdown-to-jsx": "5.4.2"
   },
   "links": {
-    "source1": "",
+    "source1": "https://securitylab.github.com/advisories/GHSL-2020-300-redos-markdown-to-jsx/",
     "source2": ""
   },
   "fixedVersion": "n/a",

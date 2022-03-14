@@ -5,9 +5,9 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-POSTCSS-1255640",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-566m-qj78-rww5"
   },
-  "fixedVersion": "8.2.13",
+  "fixedVersion": "7.0.36",
   "fixCommit": "https://github.com/postcss/postcss/commit/2b1d04c867995e55124e0a165b7c6622c1735956",
   "sink": ""
 }

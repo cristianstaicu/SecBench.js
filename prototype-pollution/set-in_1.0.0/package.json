@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-SETIN-1048049",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": "https://github.com/advisories/GHSA-qr4p-c9wr-phr6"
   },
   "fixedVersion": "2.0.1",
   "fixCommit": "https://github.com/ahdinosaur/set-in/commit/e431effa00195a6f06b111e09733cd1445a91a88",

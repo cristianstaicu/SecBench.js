@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2020-7635",
+  "id": "CVE-2020-7635",
   "dependencies": {
     "compass-compile": "0.0.1"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-COMPASSCOMPILE-564429",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-COMPASSCOMPILE-564429",
+    "source2": "https://github.com/advisories/GHSA-7q9f-x6rm-qmxr"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

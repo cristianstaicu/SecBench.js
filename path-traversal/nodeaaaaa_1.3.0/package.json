@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16223",
+  "id": "CVE-2017-16223",
   "dependencies": {
     "nodeaaaaa": "1.3.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:nodeaaaaa:20170430",
-		"source2": "https://github.com/advisories/GHSA-xj3h-vc9j-j823"
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:nodeaaaaa:20170430",
+    "source2": "https://github.com/advisories/GHSA-xj3h-vc9j-j823"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

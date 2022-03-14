@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2019-10788",
+  "id": "CVE-2019-10788",
   "dependencies": {
     "strider-git": "1.0.3"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-STRIDERGIT-572913",
-		"source2": ""
-	},
-	"fixedVersion": "2.0.0",
-	"fixCommit": "https://github.com/Strider-CD/strider-git/commit/13da05fff05f7089dbb97a393be097deaadd2a9e",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-STRIDERGIT-572913",
+    "source2": "https://github.com/advisories/GHSA-qfxv-qqvg-24pg"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "https://github.com/Turistforeningen/node-im-metadata/commit/ea15dddbe0f65694bfde36b78dd488e90f246639",
+  "sink": ""
 }

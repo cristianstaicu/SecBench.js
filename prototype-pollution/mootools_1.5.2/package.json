@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-MOOTOOLS-1325536",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": "https://github.com/advisories/GHSA-x6hx-7gh3-3q98"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",

@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-HIGHLIGHTJS-1048676",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-vfrc-7r7c-w9mx"
   },
   "fixedVersion": "10.4.1",
   "fixCommit": "https://github.com/highlightjs/highlight.js/commit/373b9d862401162e832ce77305e49b859e110f9c",

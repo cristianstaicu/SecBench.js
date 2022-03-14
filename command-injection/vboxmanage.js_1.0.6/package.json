@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2019-10783",
+  "id": "CVE-2019-10783",
   "dependencies": {
     "vboxmanage.js": "1.0.6"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-VBOXMANAGEJS-607910",
-		"source2": ""
-	},
-	"fixedVersion": "1.0.9",
-	"fixCommit": "https://github.com/danielgindi/node-vboxmanage/commit/8efe421dd19c474cbdeb0908cbcc7aabfe343d5e",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-VBOXMANAGEJS-607910",
+    "source2": "https://github.com/advisories/GHSA-whq6-mj2r-mjqc"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "https://github.com/danielgindi/node-vboxmanage/commit/8efe421dd19c474cbdeb0908cbcc7aabfe343d5e",
+  "sink": ""
 }

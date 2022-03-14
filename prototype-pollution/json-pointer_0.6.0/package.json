@@ -7,7 +7,7 @@
     "source1": "https://security.snyk.io/vuln/SNYK-JS-JSONPOINTER-596925",
     "source2": "https://github.com/advisories/GHSA-v5vg-g7rq-363w"
   },
-  "fixedVersion": "0.6.1",
+  "fixedVersion": "n/a",
   "fixCommit": "https://github.com/manuelstofer/json-pointer/pull/34/files",
   "sink": "index.js:91:18"
 }

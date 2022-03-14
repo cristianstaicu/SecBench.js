@@ -3,8 +3,9 @@
   "dependencies": {
     "iniparserjs": "1.0.4"
   },
-  "link": {
-    "source1": "https://security.snyk.io/vuln/SNYK-JS-INIPARSERJS-1065989"
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-INIPARSERJS-1065989",
+    "source2": "https://github.com/advisories/GHSA-2f6g-w5gj-c93h"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",

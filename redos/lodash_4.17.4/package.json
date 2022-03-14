@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-LODASH-1018905",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-29mw-wpgm-hmr9"
   },
   "fixedVersion": "4.17.21",
   "fixCommit": "https://github.com/lodash/lodash/commit/c4847ebe7d14540bb28a8b932a9ce1b9ecbfee1a",

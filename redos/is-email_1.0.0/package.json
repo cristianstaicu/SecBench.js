@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-ISEMAIL-1279002",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-j377-2x76-558h"
   },
   "fixedVersion": "1.0.1",
   "fixCommit": "https://github.com/segmentio/is-email/commit/060ecedf345729f11ad857ccaf7a915ff6797739",

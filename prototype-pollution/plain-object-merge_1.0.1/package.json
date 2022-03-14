@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-PLAINOBJECTMERGE-1085643",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": ""
   },
   "fixedVersion": "1.0.2",
   "fixCommit": "https://github.com/fabiospampinato/plain-object-merge/commit/e2b59efa2216957815643c48797e2e2eae8ca2b2",

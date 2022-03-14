@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-DOTTY-1577292",
-    "source2": "https://github.com/advisories/GHSA-g9r4-xpmj-mj65"
+    "source2": "https://github.com/advisories/GHSA-6g47-63mv-qpgh"
   },
   "fixedVersion": "0.1.2",
   "fixCommit": "https://github.com/deoxxa/dotty/commit/88f61860dcc274a07a263c32cbe9d44c24ef02d7",

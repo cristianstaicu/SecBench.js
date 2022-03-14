@@ -5,9 +5,9 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-SEMVERREGEX-1585624",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-44c6-4v22-4mhx"
   },
   "fixedVersion": "3.1.3",
-  "fixCommit": "https://github.com/GUI/uas-parser/commit/c33b1247d02244484c78d1cb06a7103156f17109",
+  "fixCommit": "https://github.com/sindresorhus/semver-regex/commit/11c66245f4e1976dccc52977ed183696a21a3fd7",
   "sink": ""
 }

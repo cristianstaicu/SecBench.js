@@ -1,13 +1,13 @@
 {
-  "id": "",
+  "id": "CVE-2017-16117",
   "dependencies": {
     "slug": "0.9.1"
   },
   "links": {
-    "source1": "https://security.snyk.io/vuln/npm:slugify:20180805",
+    "source1": "https://security.snyk.io/vuln/npm:slug:20170907",
     "source2": "https://github.com/advisories/GHSA-jxqq-cqm6-pfq9"
   },
-  "fixedVersion": "1.3.1",
-  "fixCommit": "https://github.com/simov/slugify/commit/e8f8a694c0839c77e53e336616b1e6e3b1c7feab",
+  "fixedVersion": "0.9.2",
+  "fixCommit": "https://github.com/zhuangya/node-slug/commit/e82fccc6b3d850227560db659b17df0e242ae51b",
   "sink": ""
 }

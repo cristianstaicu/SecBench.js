@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2021-24033",
+  "id": "CVE-2021-24033",
   "dependencies": {
     "react-dev-utils": "11.0.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-REACTDEVUTILS-1083268",
-		"source2": ""
-	},
-	"fixedVersion": "11.0.4",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-REACTDEVUTILS-1083268",
+    "source2": "https://github.com/advisories/GHSA-5q6m-3h65-w53x"
+  },
+  "fixedVersion": "11.0.4",
+  "fixCommit": "n/a",
+  "sink": ""
 }

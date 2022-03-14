@@ -1,13 +1,13 @@
 {
-"id": "",
+  "id": "",
   "dependencies": {
     "js-yaml": "3.13.0"
-	},
-	"links": {
-		"source1": "",
-		"source2": ""
-	},
-	"fixedVersion": "3.13.1",
-	"fixCommit": "https://github.com/nodeca/js-yaml/pull/480/commits/e18afbf1edcafb7add2c4c7b22abc8d6ebc2fa61",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-JSYAML-174129",
+    "source2": "https://github.com/advisories/GHSA-xxvw-45rp-3mj2"
+  },
+  "fixedVersion": "3.13.1",
+  "fixCommit": "https://github.com/nodeca/js-yaml/pull/480/commits/e18afbf1edcafb7add2c4c7b22abc8d6ebc2fa61",
+  "sink": ""
 }

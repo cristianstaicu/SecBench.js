@@ -1,13 +1,13 @@
 {
-"id": "CVE-2020-7674",
+  "id": "CVE-2020-7674",
   "dependencies": {
     "access-policy": "3.1.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-ACCESSPOLICY-571490",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-ACCESSPOLICY-571490",
+    "source2": "https://github.com/advisories/GHSA-fw2f-7f87-5r6c"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

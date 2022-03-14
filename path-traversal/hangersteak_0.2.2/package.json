@@ -1,13 +1,13 @@
 {
-	"id": "",
+  "id": "",
   "dependencies": {
     "hangersteak": "0.2.2"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-HANGERSTEAK-608973",
-		"source2": ""
-	},
-	"fixedVersion": "0.2.5",
-	"fixCommit": "https://github.com/eldoy/hangersteak/commit/9e853cced065c5a98f242c7ac75438d035f63532",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-HANGERSTEAK-608973",
+    "source2": ""
+  },
+  "fixedVersion": "0.2.5",
+  "fixCommit": "https://github.com/eldoy/hangersteak/commit/9e853cced065c5a98f242c7ac75438d035f63532",
+  "sink": ""
 }

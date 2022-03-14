@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "2.0.1",
-  "fixCommit": "https://github.com/FGRibreau/node-truncate/commit/a3cea056427b2dfbbffebf24a95419b09db23b22",
+  "fixCommit": "https:\\u002F\\u002Fgithub.com\\u002FFGRibreau\\u002Fnode-truncate\\u002Fcommit\\u002Fa3cea056427b2dfbbffebf24a95419b09db23b22)\",severity:\"high\",packageName:e,packageManager:f,publicationTime:\"2018-02-25T14:35:13.194000Z\",disclosureTime:\"2018-02-25T13:55:43.248000Z\",credit:[g],identifiers:{ALTERNATIVE:[\"SNYK-JS-TRUNCATE-10920\"],CVE:[],CWE:[\"CWE-185\",\"CWE-400\"]},semver:{vulnerable:[h]},CVSSv3:\"CVSS:3.1\\u002FAV:N\\u002FAC:H\\u002FPR:N\\u002FUI:R\\u002FS:U\\u002FC:H\\u002FI:H\\u002FA:L\\u002FE:P\\u002FRL:O\\u002FRC:C\",cvssScore:7.1,language:\"js\",socialTrendAlert:b,proprietary:a,breadcrumbItems:[{url:\"\\u002Fvulns\",label:\"Snyk Vulnerability Database\"},{label:f,url:\"\\u002Fvulns?type=npm\"},{label:e,testHook:\"filter\"}],vulnDescription:{Overview:\"\\u003Cp\\u003E\\u003Ca href=\\\"https:\\u002F\\u002Fwww.npmjs.com\\u002Fpackage\\u002Ftruncate\\\"\\u003E\\u003Ccode\\u003Etruncate\\u003C\\u002Fcode\\u003E\\u003C\\u002Fa\\u003E  is a package to helps truncate text and keeps urls safe.\\u003C\\u002Fp\\u003",
   "sink": ""
 }

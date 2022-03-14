@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/npm:no-case:20170908",
-    "source2": ""
+    "source2": "https://github.com/advisories/GHSA-ff6r-5jwm-8292"
   },
   "fixedVersion": "2.3.2",
   "fixCommit": "n/a",

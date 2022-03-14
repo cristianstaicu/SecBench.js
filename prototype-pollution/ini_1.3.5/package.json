@@ -1,11 +1,11 @@
 {
-  "id": "CVE-2021-23328",
+  "id": "CVE-2020-7788",
   "dependencies": {
     "ini": "1.3.5"
   },
   "links": {
-    "source1": "https://security.snyk.io/vuln/SNYK-JS-INIPARSERJS-1065989",
-    "source2": "https://github.com/advisories/GHSA-67mq-h2r9-rh2m"
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-INI-1048974",
+    "source2": "https://github.com/advisories/GHSA-qqgx-2p2h-9c37"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",

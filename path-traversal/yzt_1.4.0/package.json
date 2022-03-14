@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16123",
+  "id": "CVE-2017-16221",
   "dependencies": {
     "yzt": "1.4.0"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:welcomyzt:20170617",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:yzt:20170509",
+    "source2": "https://github.com/advisories/GHSA-q48g-p5cx-c7c7"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

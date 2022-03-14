@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2021-23375",
+  "id": "CVE-2021-23375",
   "dependencies": {
     "psnode": "0.0.1"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-PSNODE-1078543",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-PSNODE-1078543",
+    "source2": "https://github.com/advisories/GHSA-m8fm-mv5w-33pv"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

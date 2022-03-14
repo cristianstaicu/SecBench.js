@@ -4,7 +4,7 @@
     "revalidator": "0.3.1"
   },
   "links": {
-    "source1": "",
+    "source1": "https://securitylab.github.com/advisories/GHSL-2020-352-redos-revalidator/",
     "source2": ""
   },
   "fixedVersion": "n/a",

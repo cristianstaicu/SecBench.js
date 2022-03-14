@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-CONNIELANG-598853",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": "https://github.com/advisories/GHSA-8vv3-jxm8-f4vf"
   },
   "fixedVersion": "0.1.1",
   "fixCommit": "https://github.com/mattinsler/connie-lang/commit/ef376d404c712dd28309ba07f28a8f87f24a015a",

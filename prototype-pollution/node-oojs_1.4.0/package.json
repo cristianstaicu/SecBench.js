@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-NODEOOJS-598678",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": "https://github.com/advisories/GHSA-j4rw-x3vg-c8r7"
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",

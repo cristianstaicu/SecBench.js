@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2017-16155",
+  "id": "CVE-2017-16155",
   "dependencies": {
     "fast-http-cli": "0.0.8"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/npm:fast-http-cli:20170418",
-		"source2": "https://github.com/advisories/GHSA-9frq-f867-hgqc"
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:fast-http-cli:20170418",
+    "source2": "https://github.com/advisories/GHSA-9frq-f867-hgqc"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

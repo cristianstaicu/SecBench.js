@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2020-7686",
+  "id": "CVE-2020-7686",
   "dependencies": {
     "rollup-plugin-dev-server": "0.4.3"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-ROLLUPPLUGINDEVSERVER-590124",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-ROLLUPPLUGINDEVSERVER-590124",
+    "source2": "https://github.com/advisories/GHSA-vr98-27qj-3c8q"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }

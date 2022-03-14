@@ -4,10 +4,10 @@
     "objection": "2.0.0"
   },
   "links": {
-    "source1": "https://security.snyk.io/vuln/SNYK-JS-XASSIGN-1759314",
-    "source2": "https://runkit.com/embed/sq8qjwemyn8t"
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-OBJECTION-1582910",
+    "source2": "https://github.com/advisories/GHSA-r659-8xfp-j327"
   },
-  "fixedVersion": "3.0.0",
+  "fixedVersion": "3.0.0-alpha.5",
   "fixCommit": "https://github.com/vincit/objection.js/commit/b41aab8dcd78f426f7468dcda541a7aca18a66a6",
   "sink": "lib/utils/objectUtils.js:246:32"
 }

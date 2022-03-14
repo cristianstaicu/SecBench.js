@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2019-10787",
+  "id": "CVE-2019-10787",
   "dependencies": {
     "im-resize": "2.3.2"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-IMRESIZE-544183",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "https://github.com/Turistforeningen/node-im-resize/commit/de624dacf6a50e39fe3472af1414d44937ce1f03",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-IMRESIZE-544183",
+    "source2": "https://github.com/advisories/GHSA-r9vm-rhmf-7hxx"
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "https://github.com/Turistforeningen/node-im-resize/commit/de624dacf6a50e39fe3472af1414d44937ce1f03",
+  "sink": ""
 }

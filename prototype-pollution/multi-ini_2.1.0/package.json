@@ -5,7 +5,7 @@
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-MULTIINI-1048969",
-    "source2": "https://github.com/advisories/GHSA-779f-wgxg-qr8f"
+    "source2": "https://github.com/advisories/GHSA-g78f-549w-c354"
   },
   "fixedVersion": "2.1.1",
   "fixCommit": "n/a",

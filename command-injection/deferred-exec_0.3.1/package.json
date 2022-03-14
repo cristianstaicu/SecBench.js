@@ -1,13 +1,13 @@
 {
-	"id": "CVE-2020-28438",
+  "id": "CVE-2020-28438",
   "dependencies": {
     "deferred-exec": "0.3.1"
-	},
-	"links": {
-		"source1": "https://security.snyk.io/vuln/SNYK-JS-DEFERREDEXEC-1050433",
-		"source2": ""
-	},
-	"fixedVersion": "n/a",
-	"fixCommit": "n/a",
-	"sink": ""
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/SNYK-JS-DEFERREDEXEC-1050433",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": ""
 }
