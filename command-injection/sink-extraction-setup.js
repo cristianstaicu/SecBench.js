@@ -25,8 +25,13 @@ require("child_process").exec = function () {
     }
   }
   console.log(stack[index]);
+  let line = stack[index];
+  last_index = line.lastIndexOf("/");
+  // console.log(last_index);
+  sink = line.substring(last_index + 1, line.length - 1);
+  console.log(sink);
   // // extract first location from the package => output as sink
-  console.log(stack);
+  // console.log(stack);
   return oldExec.apply(this, arguments);
 };
 // similar for execSync
