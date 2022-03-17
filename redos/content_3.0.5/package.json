@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-x6wp-rfwh-hcx7"
   },
   "fixedVersion": "4.0.4",
-  "fixCommit": "https:\\u002F\\u002Fgithub.com\\u002Fhapijs\\u002Fcontent\\u002Fcommit\\u002F96beb34f7c38a08d024dbf9cd63865c56e2955d9)\",severity:\"high\",packageName:e,packageManager:f,publicationTime:\"2018-03-05T17:32:59.439000Z\",disclosureTime:\"2018-03-05T16:44:46.717000Z\",credit:[g],identifiers:{ALTERNATIVE:[\"SNYK-JS-CONTENT-11014\"],CVE:[],CWE:[\"CWE-185\",\"CWE-400\"]},semver:{vulnerable:[\"\\u003C3.0.7\",\"\\u003E=4.0.0 \\u003C4.0.4\"]},CVSSv3:\"CVSS:3.1\\u002FAV:N\\u002FAC:L\\u002FPR:N\\u002FUI:N\\u002FS:U\\u002FC:N\\u002FI:N\\u002FA:H\\u002FE:P\\u002FRL:O\\u002FRC:C\",cvssScore:7.5,language:\"js\",socialTrendAlert:c,proprietary:a,breadcrumbItems:[{url:\"\\u002Fvulns\",label:\"Snyk Vulnerability Database\"},{label:f,url:\"\\u002Fvulns?type=npm\"},{label:e,testHook:\"filter\"}],vulnDescription:{Overview:\"\\u003Cp\\u003E\\u003Ca href=\\\"https:\\u002F\\u002Fwww.npmjs.com\\u002Fpackage\\u002Fcontent\\\"\\u003E\\u003Ccode\\u003Econtent\\u003C\\u002Fcode\\u003E\\u003C\\u002Fa\\u003E is a HTTP Content-* headers parsing\\u003C\\u002Fp\\u003",
+  "fixCommit": "https://github.com/hapijs/content/commit/96beb34f7c38a08d024dbf9cd63865c56e2955d9",
   "sink": ""
 }

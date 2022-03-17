@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-wjr4-2jgw-hmv8"
   },
   "fixedVersion": "0.4.1",
-  "fixCommit": "https:\\u002F\\u002Fgithub.com\\u002Fvvo\\u002Fnode-whereis\\u002Fcommit\\u002F0f64e3780235004fb6e43bfd153ea3e0e210ee2b)\",severity:\"critical\",packageName:e,packageManager:f,publicationTime:\"2018-04-02T06:53:40Z\",disclosureTime:\"2018-04-01T19:43:25Z\",credit:[g],identifiers:{ALTERNATIVE:[\"SNYK-JS-WHEREIS-12108\"],CVE:[\"CVE-2018-3772\"],CWE:[\"CWE-78\"],GHSA:[\"GHSA-wjr4-2jgw-hmv8\"],NSP:[604]},semver:{vulnerable:[h]},CVSSv3:\"CVSS:3.1\\u002FAV:N\\u002FAC:L\\u002FPR:L\\u002FUI:N\\u002FS:C\\u002FC:H\\u002FI:H\\u002FA:H\\u002FE:P\\u002FRL:O\\u002FRC:C\",cvssScore:9.9,language:\"js\",socialTrendAlert:a,proprietary:a,breadcrumbItems:[{url:\"\\u002Fvulns\",label:\"Snyk Vulnerability Database\"},{label:f,url:\"\\u002Fvulns?type=npm\"},{label:e,testHook:\"filter\"}],vulnDescription:{\"Overview\\r\":\"\\u003Cp\\u003E\\u003Ca href=\\\"https:\\u002F\\u002Fwww.npmjs.com\\u002Fpackage\\u002Fwhereis\\\"\\u003E\\u003Ccode\\u003Ewhereis\\u003C\\u002Fcode\\u003E\\u003C\\u002Fa\\u003E is a tool to get the first path to a bin on any system.\\u003C\\u002Fp\\u003",
-  "sink": ""
+  "fixCommit": "https://github.com/vvo/node-whereis/commit/0f64e3780235004fb6e43bfd153ea3e0e210ee2b",
+  "sink": "index.js:4:6"
 }

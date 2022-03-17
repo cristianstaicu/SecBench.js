@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.4.0",
   "fixCommit": "https://github.com/thi-ng/umbrella/commit/88f61656e5f5cfba960013b8133186389efaf243",
-  "sink": ""
+  "sink": "lib/index.js:157:29"
 }

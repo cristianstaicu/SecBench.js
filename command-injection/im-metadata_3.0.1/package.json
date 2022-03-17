@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "https://github.com/Turistforeningen/node-im-metadata/commit/ea15dddbe0f65694bfde36b78dd488e90f246639",
-  "sink": ""
+  "sink": "index.js:15:3"
 }

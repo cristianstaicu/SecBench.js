@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-4rvg-955w-h68q"
   },
   "fixedVersion": "1.4.4",
-  "fixCommit": "https:\\u002F\\u002Fgithub.com\\u002Fsimonh1000\\u002Fangular-http-server\\u002Fcommit\\u002F8bafc9577161469f5dea01e0b98ea9c525d063e9)\",severity:\"high\",packageName:e,packageManager:f,publicationTime:\"2018-05-13T14:26:26Z\",disclosureTime:\"2018-04-26T08:54:39Z\",credit:[g],identifiers:{ALTERNATIVE:[\"SNYK-JS-ANGULARHTTPSERVER-12152\"],CVE:[],CWE:[\"CWE-22\"],GHSA:[\"GHSA-vmhw-fhj6-m3g5\"],NSP:[656]},semver:{vulnerable:[h]},CVSSv3:\"CVSS:3.1\\u002FAV:N\\u002FAC:L\\u002FPR:N\\u002FUI:N\\u002FS:C\\u002FC:H\\u002FI:N\\u002FA:N\\u002FE:F\\u002FRL:O\\u002FRC:C\",cvssScore:8.6,language:\"js\",socialTrendAlert:b,proprietary:b,breadcrumbItems:[{url:\"\\u002Fvulns\",label:\"Snyk Vulnerability Database\"},{label:f,url:\"\\u002Fvulns?type=npm\"},{label:e,testHook:\"filter\"}],vulnDescription:{\"Overview\\r\":\"\\u003Cp\\u003E\\u003Ca href=\\\"https:\\u002F\\u002Fwww.npmjs.com\\u002Fpackage\\u002Fangular-http-server\\\"\\u003Eangular-http-server\\u003C\\u002Fa\\u003E is  an application server designed for Single Page App (SPA) developers.\\u003C\\u002Fp\\u003",
+  "fixCommit": "https://github.com/simonh1000/angular-http-server/commit/8bafc9577161469f5dea01e0b98ea9c525d063e9",
   "sink": ""
 }

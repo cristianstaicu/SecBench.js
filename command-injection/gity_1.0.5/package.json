@@ -10,5 +10,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
-  "sink": ""
+  "sink": "lib/index.js:90:7"
 }

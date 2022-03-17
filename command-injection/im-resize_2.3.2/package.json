@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "https://github.com/Turistforeningen/node-im-resize/commit/de624dacf6a50e39fe3472af1414d44937ce1f03",
-  "sink": ""
+  "sink": "index.js:11:3"
 }

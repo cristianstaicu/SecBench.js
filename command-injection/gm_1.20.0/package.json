@@ -9,5 +9,5 @@
   },
   "fixedVersion": "=1.20.0",
   "fixCommit": "n/a",
-  "sink": ""
+  "sink": "lib/compare.js:72:5"
 }

@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-vfp9-gwrh-wq9g"
   },
   "fixedVersion": "0.9.0",
-  "fixCommit": "https:\\u002F\\u002Fgithub.com\\u002Fomphalos\\u002Fcrud-file-server\\u002Fcommit\\u002F4fc3b404f718abb789f4ce4272c39c7a138c7a82)\",severity:\"high\",packageName:e,packageManager:f,publicationTime:g,disclosureTime:g,credit:[\"Rafal Janicki (bl4de)\",\"Liang Gong\"],identifiers:{ALTERNATIVE:[\"SNYK-JS-CRUDFILESERVER-10964\"],CVE:[\"CVE-2018-3733\"],CWE:[\"CWE-22\"],GHSA:[\"GHSA-vfp9-gwrh-wq9g\"],NSP:[1003]},semver:{vulnerable:[h]},CVSSv3:\"CVSS:3.1\\u002FAV:N\\u002FAC:L\\u002FPR:N\\u002FUI:N\\u002FS:U\\u002FC:H\\u002FI:N\\u002FA:N\\u002FE:F\\u002FRL:O\\u002FRC:C\",cvssScore:7.5,language:\"js\",socialTrendAlert:c,proprietary:a,breadcrumbItems:[{url:\"\\u002Fvulns\",label:\"Snyk Vulnerability Database\"},{label:f,url:\"\\u002Fvulns?type=npm\"},{label:e,testHook:\"filter\"}],vulnDescription:{\"Overview\\r\":\"\\u003Cp\\u003E\\u003Ca href=\\\"https:\\u002F\\u002Fwww.npmjs.com\\u002Fpackage\\u002Fcrud-file-server\\\"\\u003E\\u003Ccode\\u003Ecrud-file-server\\u003C\\u002Fcode\\u003E\\u003C\\u002Fa\\u003E is a file server supporting basic create, read, update, &amp; delete for any kind of file.\\u003C\\u002Fp\\u003",
+  "fixCommit": "https://github.com/omphalos/crud-file-server/commit/4fc3b404f718abb789f4ce4272c39c7a138c7a82",
   "sink": ""
 }

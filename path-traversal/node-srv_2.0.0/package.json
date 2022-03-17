@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-52r9-g5g6-2hjp"
   },
   "fixedVersion": "2.1.1",
-  "fixCommit": "https:\\u002F\\u002Fgithub.com\\u002Fnim579\\u002Fnode-srv\\u002Fcommit\\u002F15be996c0520ac6e4dee0cf0808fc7e72effd2a2)\",severity:\"high\",packageName:e,packageManager:f,publicationTime:\"2018-03-08T15:41:11.637000Z\",disclosureTime:\"2018-01-25T11:58:19.292000Z\",credit:[g],identifiers:{ALTERNATIVE:[\"SNYK-JS-NODESRV-12089\"],CVE:[\"CVE-2018-3714\"],CWE:[\"CWE-22\"],GHSA:[\"GHSA-52r9-g5g6-2hjp\"],NSP:[588]},semver:{vulnerable:[h]},CVSSv3:\"CVSS:3.1\\u002FAV:N\\u002FAC:L\\u002FPR:L\\u002FUI:N\\u002FS:C\\u002FC:H\\u002FI:N\\u002FA:N\\u002FE:F\\u002FRL:O\\u002FRC:C\",cvssScore:7.7,language:\"js\",socialTrendAlert:b,proprietary:b,breadcrumbItems:[{url:\"\\u002Fvulns\",label:\"Snyk Vulnerability Database\"},{label:f,url:\"\\u002Fvulns?type=npm\"},{label:e,testHook:\"filter\"}],vulnDescription:{Overview:\"\\u003Cp\\u003E\\u003Ca href=\\\"https:\\u002F\\u002Fwww.npmjs.com\\u002Fpackage\\u002Fnode-srv\\\"\\u003Enode-srv\\u003C\\u002Fa\\u003E is a simple static node.js server. Supports Heroku and Grunt.js.\\u003C\\u002Fp\\u003",
+  "fixCommit": "https://github.com/nim579/node-srv/commit/15be996c0520ac6e4dee0cf0808fc7e72effd2a2",
   "sink": ""
 }

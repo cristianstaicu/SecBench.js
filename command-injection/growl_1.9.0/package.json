@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.10.0",
   "fixCommit": "https://github.com/tj/node-growl/commit/d71177d5331c9de4658aca62e0ac921f178b0669",
-  "sink": ""
+  "sink": "lib/growl.js:289:3"
 }

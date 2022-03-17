@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.23",
   "fixCommit": "https://github.com/nodef/extra-asciinema/commit/fd1a8a38d6c72e1eb573b2ab03d5e86de8047480",
-  "sink": ""
+  "sink": "index.js:208:20"
 }

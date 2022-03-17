@@ -9,5 +9,5 @@
   },
   "fixedVersion": "2.1.7",
   "fixCommit": "https://github.com/nfriedly/node-bestzip/commit/45d4a901478c6a8f396c8b959dd6cf8fd3f955b6",
-  "sink": ""
+  "sink": "lib/bestzip.js:27:27"
 }

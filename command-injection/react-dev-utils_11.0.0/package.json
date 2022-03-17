@@ -9,5 +9,5 @@
   },
   "fixedVersion": "11.0.4",
   "fixCommit": "n/a",
-  "sink": ""
+  "sink": "getProcessForPort.js:28:10"
 }

@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.4.16",
   "fixCommit": "https://github.com/jas-/node-libnmap/commit/c235b24b0342e12a5dbf502f89daabe95883b6c8",
-  "sink": ""
+  "sink": "lib/classes/tools.js:114:25"
 }

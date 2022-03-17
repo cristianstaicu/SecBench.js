@@ -8,6 +8,6 @@
     "source2": "https://github.com/advisories/GHSA-pp57-mqmh-44h7"
   },
   "fixedVersion": "0.2.9",
-  "fixCommit": "https:\\u002F\\u002Fgithub.com\\u002Fscravy\\u002Fnode-macaddress\\u002Fcommit\\u002F358fd594adb196a86b94ac9c691f69fe5dad2332)\",severity:\"critical\",packageName:e,packageManager:f,publicationTime:\"2018-05-13T14:26:27Z\",disclosureTime:\"2018-05-11T08:54:39Z\",credit:[g],identifiers:{ALTERNATIVE:[\"SNYK-JS-MACADDRESS-12141\"],CVE:[\"CVE-2018-13797\"],CWE:[\"CWE-264\"],GHSA:[\"GHSA-pp57-mqmh-44h7\",\"GHSA-q9r2-f3vc-rjg8\"],NSP:[654]},semver:{vulnerable:[h]},CVSSv3:\"CVSS:3.1\\u002FAV:N\\u002FAC:L\\u002FPR:N\\u002FUI:N\\u002FS:U\\u002FC:H\\u002FI:H\\u002FA:H\",cvssScore:9.8,language:\"js\",socialTrendAlert:a,proprietary:a,breadcrumbItems:[{url:\"\\u002Fvulns\",label:\"Snyk Vulnerability Database\"},{label:f,url:\"\\u002Fvulns?type=npm\"},{label:e,testHook:\"filter\"}],vulnDescription:{\"Overview\\r\":\"\\u003Cp\\u003E\\u003Ca href=\\\"https:\\u002F\\u002Fwww.npmjs.com\\u002Fpackage\\u002Fmacaddress\\\"\\u003Emacaddress\\u003C\\u002Fa\\u003E Retrieve MAC addresses in Linux, OS X, and Windows.\\u003C\\u002Fp\\u003",
-  "sink": ""
+  "fixCommit": "https://github.com/scravy/node-macaddress/commit/358fd594adb196a86b94ac9c691f69fe5dad2332",
+  "sink": "lib/unix.js:4:5"
 }

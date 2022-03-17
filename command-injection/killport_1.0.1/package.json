@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.2",
   "fixCommit": "https://github.com/ssnau/killport/commit/bec8e371f170a12e11cd222ffc7a6e1ae9942638",
-  "sink": ""
+  "sink": "index.js:9:8"
 }

@@ -9,5 +9,5 @@
   },
   "fixedVersion": "3.7.1",
   "fixCommit": "https://github.com/codecov/codecov-node/commit/c0711c656686e902af2cd92d6aecc8074de4d83d",
-  "sink": ""
+  "sink": "lib/codecov.js:419:7"
 }

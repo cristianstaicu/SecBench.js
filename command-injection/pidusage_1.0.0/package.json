@@ -8,6 +8,6 @@
     "source2": "https://github.com//advisories/GHSA-hfq9-rfpv-j8r8"
   },
   "fixedVersion": "1.1.5",
-  "fixCommit": "https://github.com/soyuka/pidusage/commit/b70eca15f7ca7f1b82a15f8a5d4bb48737f5a89d)\",severity:\"high\",packageName:e,packageManager:f,publicationTime:\"2017-06-07T12:36:55Z\",disclosureTime:\"2017-06-05T21:00:00Z\",credit:[g],identifiers:{ALTERNATIVE:[\"SNYK-JS-PIDUSAGE-10633\"],CVE:[\"CVE-2017-1000220\",\"CVE-2017-16034\"],CWE:[\"CWE-77\"],GHSA:[\"GHSA-hfq9-rfpv-j8r8\"],NSP:[356]},semver:{vulnerable:[h]},CVSSv3:\"CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C\",cvssScore:8.4,language:\"js\",socialTrendAlert:a,proprietary:a,breadcrumbItems:[{url:\"/vulns\",label:\"Snyk Vulnerability Database\"},{label:f,url:\"/vulns?type=npm\"},{label:e,testHook:\"filter\"}],vulnDescription:{\"Overview\r\":\"<p><a href=\"https://www.npmjs.com/package/pidusage\"><code>pidusage</code></a> is a package for Cross-platform process cpu % and memory usage of a PID",
-  "sink": ""
+  "fixCommit": "https://github.com/soyuka/pidusage/commit/b70eca15f7ca7f1b82a15f8a5d4bb48737f5a89d",
+  "sink": "lib/stats.js:108:5"
 }

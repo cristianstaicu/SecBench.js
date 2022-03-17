@@ -9,5 +9,5 @@
   },
   "fixedVersion": "2.0.1",
   "fixCommit": "https://github.com/vincentmorneau/apex-publish-static-files/commit/2209af8f2b65c24aa55ab757e0e05b958c16f063",
-  "sink": ""
+  "sink": "lib/stat.js:44:22"
 }

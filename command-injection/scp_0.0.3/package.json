@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.22.2",
   "fixCommit": "https://github.com/kellyselden/git-diff-apply/commit/106d61d3ae723b4257c2a13e67b95eb40a27e0b5",
-  "sink": ""
+  "sink": "scp.js:21:3"
 }

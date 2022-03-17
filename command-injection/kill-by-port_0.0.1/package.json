@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.0.2",
   "fixCommit": "https://github.com/GuyMograbi/kill-by-port/commit/ea5b1f377e196a4492e05ff070eba8b30b7372c4",
-  "sink": ""
+  "sink": "index.js:8:17"
 }

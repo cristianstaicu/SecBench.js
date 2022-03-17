@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.7",
   "fixCommit": "https://github.com/hoperyy/get-npm-package-version/commit/40b1cf31a0607ea66f9e30a0c3af1383b52b2dec",
-  "sink": ""
+  "sink": "index.js:16:48"
 }

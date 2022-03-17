@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixedVersion": "1.2.1",
-  "fixCommit": "https:\\u002F\\u002Fgithub.com\\u002Fjosdejong\\u002Fducktype\\u002Fcommit\\u002Fd8b4c902598c9104d5c56225c3fffcbe1368eff6)\",severity:\"high\",packageName:e,packageManager:f,publicationTime:g,disclosureTime:g,credit:[h],identifiers:{ALTERNATIVE:[\"SNYK-JS-DUCKTYPE-11085\"],CVE:[],CWE:[\"CWE-185\",\"CWE-400\"]},semver:{vulnerable:[i]},CVSSv3:\"CVSS:3.1\\u002FAV:N\\u002FAC:H\\u002FPR:N\\u002FUI:R\\u002FS:U\\u002FC:H\\u002FI:H\\u002FA:L\\u002FE:P\\u002FRL:O\\u002FRC:C\",cvssScore:7.1,language:\"js\",socialTrendAlert:b,proprietary:a,breadcrumbItems:[{url:\"\\u002Fvulns\",label:\"Snyk Vulnerability Database\"},{label:f,url:\"\\u002Fvulns?type=npm\"},{label:e,testHook:\"filter\"}],vulnDescription:{Overview:\"\\u003Cp\\u003E\\u003Ca href=\\\"https:\\u002F\\u002Fwww.npmjs.com\\u002Fpackage\\u002Fducktype\\\"\\u003E\\u003Ccode\\u003Educktype\\u003C\\u002Fcode\\u003E\\u003C\\u002Fa\\u003E is a Flexible data validation using a duck type interface\\u003C\\u002Fp\\u003",
+  "fixCommit": "https://github.com/josdejong/ducktype/commit/d8b4c902598c9104d5c56225c3fffcbe1368eff6",
   "sink": ""
 }

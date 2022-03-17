@@ -1,0 +1,1243 @@
+command-injection/pdfinfojs_0.3.6/pdfinfojs.test.js
+PASS pdfinfojs_0.3.6/pdfinfojs.test.js
+  ✓ Command Injection in pdfinfojs (114 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.766 s, estimated 1 s
+Ran all test suites matching /command-injection\/pdfinfojs_0.3.6\/pdfinfojs.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/pdfinfo.js:47:23\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/find-process_1.4.4/find-process.test.js
+PASS find-process_1.4.4/find-process.test.js
+  ✓ Command Injection in find-process (48 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.69 s, estimated 1 s
+Ran all test suites matching /command-injection\/find-process_1.4.4\/find-process.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/utils.js:19:8\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/ps-visitor_0.0.2/ps-visitor.test.js
+PASS ps-visitor_0.0.2/ps-visitor.test.js
+  ✓ Command Injection in ps-visitor (39 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.676 s, estimated 1 s
+Ran all test suites matching /command-injection\/ps-visitor_0.0.2\/ps-visitor.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:404:10\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/thi.ng-egf_0.3.0/egf.test.js
+/bin/sh: gpg: command not found
+PASS thi.ng-egf_0.3.0/egf.test.js
+  ✓ Command Injection in @thi.ng/egf (138 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.785 s, estimated 1 s
+Ran all test suites matching /command-injection\/thi.ng-egf_0.3.0\/egf.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/index.js:157:29\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/total.js_3.4.6/total-js.test.js
+PASS total.js_3.4.6/total-js.test.js
+  ✓ Command Injection in total.js (1099 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.765 s, estimated 2 s
+Ran all test suites matching /command-injection\/total.js_3.4.6\/total-js.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.time\n    Time taken by addCount function: 6 ms\n\n      at Object.<anonymous> (total.js_3.4.6/total-js.test.js:23:11)\n\n'
+command-injection/clamscan_1.2.0/clamscan.test.js
+PASS clamscan_1.2.0/clamscan.test.js
+  ✓ Command Injection in clamscan (45 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.72 s, estimated 1 s
+Ran all test suites matching /command-injection\/clamscan_1.2.0\/clamscan.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:495:36\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/compass-compile_0.0.1/compass-compile.test.js
+PASS compass-compile_0.0.1/compass-compile.test.js
+  ✓ Command Injection in compass-compile (100 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.807 s, estimated 1 s
+Ran all test suites matching /command-injection\/compass-compile_0.0.1\/compass-compile.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/compass.js:25:5\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/diskstats_0.0.2/diskstats.test.js
+PASS diskstats_0.0.2/diskstats.test.js
+  ✓ Command Injection in diskstats (53 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.687 s, estimated 1 s
+Ran all test suites matching /command-injection\/diskstats_0.0.2\/diskstats.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/stat.js:44:22\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    sink ==> lib/stat.js:56:22\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/curling_0.2.0/curling.test.js
+PASS curling_0.2.0/curling.test.js
+  ✓ Command Injection in curling (68 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.725 s, estimated 1 s
+Ran all test suites matching /command-injection\/curling_0.2.0\/curling.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/curl-transport.js:56:3\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/apiconnect-cli-plugins_6.0.2/apiconnect-cli-plugins.test.js
+/bin/sh: line 14: [String: '/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/bin/npm'] {
+  stdout: '/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/bin/npm',
+  stderr: null,
+  code: 0,
+  cat: [Function: bound ],
+  exec: [Function: bound ],
+  grep: [Function: bound ],
+  head: [Function: bound ],
+  sed: [Function: bound ],
+  sort: [Function: bound ],
+  tail: [Function: bound ],
+  to: [Function: bound ],
+  toEnd: [Function: bound ],
+  uniq: [Function: bound ]
+}: No such file or directory
+/bin/sh: line 14: -g: command not found
+PASS apiconnect-cli-plugins_6.0.2/apiconnect-cli-plugins.test.js
+  ✓ Command Injection in apiconnect-cli-plugins (2157 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.792 s, estimated 3 s
+Ran all test suites matching /command-injection\/apiconnect-cli-plugins_6.0.2\/apiconnect-cli-plugins.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/plugin-loader.js:181:18\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/curljs_0.1.2/curljs.test.js
+PASS curljs_0.1.2/curljs.test.js
+  ✓ Command Injection in curljs (42 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.68 s, estimated 1 s
+Ran all test suites matching /command-injection\/curljs_0.1.2\/curljs.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:37:12\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/gity_1.0.5/gity.test.js
+PASS gity_1.0.5/gity.test.js
+  ✓ Remote code execution in gity (124 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.766 s, estimated 1 s
+Ran all test suites matching /command-injection\/gity_1.0.5\/gity.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> Error:\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    sink ==> lib/index.js:90:7\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/pdf-image_2.0.0/pdf-image.test.js
+PASS pdf-image_2.0.0/pdf-image.test.js
+  ✓ Remote code execution in pdf-image (84 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.721 s, estimated 1 s
+Ran all test suites matching /command-injection\/pdf-image_2.0.0\/pdf-image.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:44:7\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/react-dev-utils_11.0.0/react-dev-utils.test.js
+PASS react-dev-utils_11.0.0/react-dev-utils.test.js
+  ✓ Command Injection in react-dev-utils (135 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.786 s, estimated 1 s
+Ran all test suites matching /command-injection\/react-dev-utils_11.0.0\/react-dev-utils.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> getProcessForPort.js:28:10\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/git-parse_1.0.4/git-parse.test.js
+PASS git-parse_1.0.4/git-parse.test.js
+  ✓ Command Injection in git-parse (114 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.763 s, estimated 1 s
+Ran all test suites matching /command-injection\/git-parse_1.0.4\/git-parse.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> src/git_diff.js:13:3\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/psnode_0.0.1/psnode.test.js
+PASS psnode_0.0.1/psnode.test.js
+  ✓ Command Injection in psnode (53 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.701 s, estimated 1 s
+Ran all test suites matching /command-injection\/psnode_0.0.1\/psnode.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/index.js:59:16\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/blamer_0.1.13/blamer.test.js
+PASS blamer_0.1.13/blamer.test.js
+  ✓ Command Injection in blamer (120 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.761 s, estimated 1 s
+Ran all test suites matching /command-injection\/blamer_0.1.13\/blamer.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> src/vcs/git.js:24:5\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/macfromip_1.1.1/macfromip.test.js
+PASS macfromip_1.1.1/macfromip.test.js
+  ✓ Command Injection in macfromip (41 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.688 s, estimated 1 s
+Ran all test suites matching /command-injection\/macfromip_1.1.1\/macfromip.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> macfromip.js:66:15\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/freespace_1.0.4/freespace.test.js
+PASS freespace_1.0.4/freespace.test.js
+  ✓ Command Injection in freespace (41 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.692 s, estimated 1 s
+Ran all test suites matching /command-injection\/freespace_1.0.4\/freespace.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:51:16\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n\n\n      at cb (node_modules/freespace/index.js:28:21)\n\n'
+command-injection/gitblame_0.1.1/gitblame.test.js
+PASS gitblame_0.1.1/gitblame.test.js
+  ✓ Command Injection in gitblame (47 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.711 s, estimated 1 s
+Ran all test suites matching /command-injection\/gitblame_0.1.1\/gitblame.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/gitblame.js:15:3\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/giting_0.0.7/giting.test.js
+PASS giting_0.0.7/giting.test.js
+  ✓ Command Injection in giting (102 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.733 s, estimated 1 s
+Ran all test suites matching /command-injection\/giting_0.0.7\/giting.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/git.js:223:8\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/npm-help_1.0.0/npm-help.test.js
+/bin/sh: tnpm: command not found
+PASS npm-help_1.0.0/npm-help.test.js
+  ✓ Command Injection in npm-help (35 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.677 s, estimated 1 s
+Ran all test suites matching /command-injection\/npm-help_1.0.0\/npm-help.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:13:22\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/dns-sync_0.1.0/dns-sync.test.js
+PASS dns-sync_0.1.0/dns-sync.test.js
+  ✓ Command Injection in dns-sync (159 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.828 s, estimated 1 s
+Ran all test suites matching /command-injection\/dns-sync_0.1.0\/dns-sync.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/dns-sync.js:21:26\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/arpping_2.0.0/arpping.test.js
+PASS arpping_2.0.0/arpping.test.js
+  ✓ Remote code execution in arpping (39 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.689 s, estimated 1 s
+Ran all test suites matching /command-injection\/arpping_2.0.0\/arpping.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:120:13\n\n      at getSink (sink-extraction-setup.js:93:11)\n          at Array.forEach (<anonymous>)\n\n'
+command-injection/ts-process-promises_1.0.2/ts-process-promises.test.js
+PASS ts-process-promises_1.0.2/ts-process-promises.test.js
+  ✓ Command Injection in ts-process-promises (102 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.753 s, estimated 1 s
+Ran all test suites matching /command-injection\/ts-process-promises_1.0.2\/ts-process-promises.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/process-promises.js:45:31\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/git-add-remote_1.0.0/git-add-remote.test.js
+PASS git-add-remote_1.0.0/git-add-remote.test.js
+  ✓ Command Injection in git-add-remote (44 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.689 s, estimated 1 s
+Ran all test suites matching /command-injection\/git-add-remote_1.0.0\/git-add-remote.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:21:8\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/diskusage-ng_0.2.6/diskusage-ng.test.js
+PASS diskusage-ng_0.2.6/diskusage-ng.test.js
+  ✓ Command Injection in diskusage-ng (42 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.668 s, estimated 1 s
+Ran all test suites matching /command-injection\/diskusage-ng_0.2.6\/diskusage-ng.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/posix.js:11:5\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/connection-tester_0.2.0/connection-tester.test.js
+node:internal/timers:386
+    throw new ERR_OUT_OF_RANGE(name, 'a non-negative finite number', msecs);
+    ^
+
+RangeError [ERR_OUT_OF_RANGE]: The value of "msecs" is out of range. It must be a non-negative finite number. Received NaN
+    at new NodeError (node:internal/errors:371:5)
+    at getTimerDuration (node:internal/timers:386:11)
+    at Socket.setStreamTimeout [as setTimeout] (node:internal/stream_base_commons:261:11)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/command-injection/node_modules/connection-tester/scripts/connection-tester.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'ERR_OUT_OF_RANGE'
+}
+PASS connection-tester_0.2.0/connection-tester.test.js
+  ✓ Command Injection in connection-tester (77 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.719 s, estimated 1 s
+Ran all test suites matching /command-injection\/connection-tester_0.2.0\/connection-tester.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:15:28\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/hot-formula-parser_3.0.0/hot-formula-parser.test.js
+PASS hot-formula-parser_3.0.0/hot-formula-parser.test.js
+  ✓ Command Injection in hot-formula-parser (87 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.731 s, estimated 1 s
+Ran all test suites matching /command-injection\/hot-formula-parser_3.0.0\/hot-formula-parser.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/grammar-parser/grammar-parser.js:258:31, <anonymous>:1:40)\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/roar-pidusage_1.1.6/roar-pidusage.test.js
+PASS roar-pidusage_1.1.6/roar-pidusage.test.js
+  ✓ Command Injection in roar-pidusage (44 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.681 s, estimated 1 s
+Ran all test suites matching /command-injection\/roar-pidusage_1.1.6\/roar-pidusage.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/stats.js:103:5\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/libnmap_0.4.11/libnmap.test.js
+PASS libnmap_0.4.11/libnmap.test.js
+  ✓ Command Injection in libnmap (150 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.788 s, estimated 1 s
+Ran all test suites matching /command-injection\/libnmap_0.4.11\/libnmap.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> Error:\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    sink ==> lib/classes/tools.js:114:25\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/git-tags-remote_1.0.2/git-tags-remote.test.js
+PASS git-tags-remote_1.0.2/git-tags-remote.test.js
+  ✓ Command Injection in git-tags-remote (386 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.023 s
+Ran all test suites matching /command-injection\/git-tags-remote_1.0.2\/git-tags-remote.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:5:2\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/open_0.0.5/open.test.js
+PASS open_0.0.5/open.test.js
+  ✓ Command Injection in open (530 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.177 s
+Ran all test suites matching /command-injection\/open_0.0.5\/open.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/open.js:58:10\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/killing_1.0.6/killing.test.js
+Password:PASS killing_1.0.6/killing.test.js
+  ✓ Command Injection in killing (530 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.164 s
+Ran all test suites matching /command-injection\/killing_1.0.6\/killing.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/killing.js:35:7\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    sink ==> Error:\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/apex-publish-static-files_2.0.0/apex-publish-static-files.test.js
+/bin/sh: sql: command not found
+/bin/sh: @/Users/masudulhasanmasudbhuiyan/Music/vulns4js/command-injection/node_modules/apex-publish-static-files/lib/script: No such file or directory
+PASS apex-publish-static-files_2.0.0/apex-publish-static-files.test.js
+  ✓ Command Injection in apex-publish-static-files (42 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.705 s, estimated 1 s
+Ran all test suites matching /command-injection\/apex-publish-static-files_2.0.0\/apex-publish-static-files.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    Uploading to 111 - Application Static Files...\n\n      at Object.publish (node_modules/apex-publish-static-files/index.js:51:14)\n\n  console.log\n    sink ==> index.js:54:25\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.error\n    Error: Command failed: "sql" ;touch apex-publish-static-files; @"/Users/masudulhasanmasudbhuiyan/Music/vulns4js/command-injection/node_modules/apex-publish-static-files/lib/script" "/Users/masudulhasanmasudbhuiyan/Music/vulns4js/command-injection/node_modules/apex-publish-static-files/lib/distUpload.js" "/Users/masudulhasanmasudbhuiyan/Music/vulns4js/command-injection" 111 "application" "undefined"\n    /bin/sh: sql: command not found\n    /bin/sh: @/Users/masudulhasanmasudbhuiyan/Music/vulns4js/command-injection/node_modules/apex-publish-static-files/lib/script: No such file or directory\n    \n        at checkExecSyncError (node:child_process:826:11)\n        at apply (node:child_process:900:15)\n        at Object.<anonymous>.require.execSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/command-injection/sink-extraction-setup.js:111:22)\n        at Object.publish (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/command-injection/node_modules/apex-publish-static-files/index.js:54:25)\n        at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/command-injection/apex-publish-static-files_2.0.0/apex-publish-static-files.test.js:19:15)\n        at Object.asyncJestTest (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n        at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n        at new Promise (<anonymous>)\n        at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n        at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41 {\n      status: 127,\n      signal: null,\n      output: [\n        null,\n        \'\',\n        \'/bin/sh: sql: command not found\\n\' +\n          \'/bin/sh: @/Users/masudulhasanmasudbhuiyan/Music/vulns4js/command-injection/node_modules/apex-publish-static-files/lib/script: No such file or directory\\n\'\n      ],\n      pid: 6974,\n      stdout: \'\',\n      stderr: \'/bin/sh: sql: command not found\\n\' +\n        \'/bin/sh: @/Users/masudulhasanmasudbhuiyan/Music/vulns4js/command-injection/node_modules/apex-publish-static-files/lib/script: No such file or directory\\n\'\n    }\n\n      17 |   expect(file_exist).toBe(false);\n      18 |   try {\n    > 19 |     publisher.publish({\n         |               ^\n      20 |       connectString: ";touch apex-publish-static-files;",\n      21 |       directory: "./",\n      22 |       appID: 111,\n\n      at Object.publish (node_modules/apex-publish-static-files/index.js:74:12)\n      at Object.<anonymous> (apex-publish-static-files_2.0.0/apex-publish-static-files.test.js:19:15)\n\n'
+command-injection/command-exists_1.2.2/command-exists.test.js
+PASS command-exists_1.2.2/command-exists.test.js
+  ✓ Command Injection in command-exists (33 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.697 s, estimated 1 s
+Ran all test suites matching /command-injection\/command-exists_1.2.2\/command-exists.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/command-exists.js:78:22\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/scp_0.0.3/scp.test.js
+PASS scp_0.0.3/scp.test.js
+  ✓ Command Injection in scp (42 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.683 s, estimated 1 s
+Ran all test suites matching /command-injection\/scp_0.0.3\/scp.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> scp.js:21:3\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/corenlp-js-interface_1.0.3/corenlp-js-interface.test.js
+wget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+PASS corenlp-js-interface_1.0.3/corenlp-js-interface.test.js
+  ✓ Command Injection in corenlp-js-interface (64 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.709 s, estimated 1 s
+Ran all test suites matching /command-injection\/corenlp-js-interface_1.0.3\/corenlp-js-interface.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:5:20\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/pidusage_1.0.0/pidusage.test.js
+PASS pidusage_1.0.0/pidusage.test.js
+  ✓ Command Injection in pidusage (42 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.682 s, estimated 1 s
+Ran all test suites matching /command-injection\/pidusage_1.0.0\/pidusage.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/stats.js:108:5\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/xopen_1.0.0/xopen.test.js
+PASS xopen_1.0.0/xopen.test.js
+  ✓ Command Injection in xopen (37 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.677 s, estimated 1 s
+Ran all test suites matching /command-injection\/xopen_1.0.0\/xopen.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:13:5\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/ffmpeg-sdk_0.0.5/ffmpeg-sdk.test.js
+PASS ffmpeg-sdk_0.0.5/ffmpeg-sdk.test.js
+  ✓ Command Injection in ffmpeg-sdk (39 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.682 s, estimated 1 s
+Ran all test suites matching /command-injection\/ffmpeg-sdk_0.0.5\/ffmpeg-sdk.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:9:5\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/adb-driver_0.1.8/adb-driver.test.js
+PASS adb-driver_0.1.8/adb-driver.test.js
+  ✓ Command Injection in adb-driver (53 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.694 s, estimated 1 s
+Ran all test suites matching /command-injection\/adb-driver_0.1.8\/adb-driver.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> build/AdbDriver.js:26:25\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/kill-by-port_0.0.1/kill-by-port.test.js
+lsof: unacceptable port specification in: -i :
+lsof 4.91
+ latest revision: ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/
+ latest FAQ: ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/FAQ
+ latest man page: ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/lsof_man
+ usage: [-?abhlnNoOPRtUvVX] [+|-c c] [+|-d s] [+D D] [+|-f[cgG]]
+ [-F [f]] [-g [s]] [-i [i]] [+|-L [l]] [+|-M] [-o [o]] [-p s]
+ [+|-r [t]] [-s [p:s]] [-S [t]] [-T [t]] [-u s] [+|-w] [-x [fl]] [--] [names]
+Use the ``-h'' option to get more help information.
+PASS kill-by-port_0.0.1/kill-by-port.test.js
+  ✓ Command Injection in kill-by-port (52 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.693 s, estimated 1 s
+Ran all test suites matching /command-injection\/kill-by-port_0.0.1\/kill-by-port.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:8:17\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/codecov_3.6.4/codecov.test.js
+/bin/sh: -type: command not found
+usage: find [-H | -L | -P] [-EXdsx] [-f path] path ... [expression]
+       find [-H | -L | -P] [-EXdsx] -f path [path ...] [expression]
+PASS codecov_3.6.4/codecov.test.js
+  ✓ Command Injection in codecov (838 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.487 s, estimated 2 s
+Ran all test suites matching /command-injection\/codecov_3.6.4\/codecov.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b"  console.log\n      _____          _  \n     / ____|        | |  \n    | |     ___   __| | ___  ___ _____   __  \n    | |    / _ \\ / _` |/ _ \\/ __/ _ \\ \\ / /  \n    | |___| (_) | (_| |  __/ (_| (_) \\ V /  \n     \\_____\\___/ \\__,_|\\___|\\___\\___/ \\_/  \n                                    v3.6.4\n\n      at Object.upload (node_modules/codecov/lib/codecov.js:254:11)\n\n  console.log\n    ==> Detecting CI Provider\n\n      at Object.upload (node_modules/codecov/lib/codecov.js:267:13)\n\n  console.log\n        No CI Detected. Using git/mercurial\n\n      at Object.configuration (node_modules/codecov/lib/services/localGit.js:5:13)\n\n  console.log\n    sink ==> Error:\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    sink ==> Error:\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    ==> Configuration:\n\n      at Object.upload (node_modules/codecov/lib/codecov.js:323:11)\n\n  console.log\n        Endpoint: https://codecov.io\n\n      at Object.upload (node_modules/codecov/lib/codecov.js:324:11)\n\n  console.log\n    {\n      commit: 'cb68550b167b4b4fb672d53b00726d55e0b3f147',\n      branch: 'main',\n      package: 'node-v3.6.4'\n    }\n\n      at Object.upload (node_modules/codecov/lib/codecov.js:326:11)\n\n  console.log\n    ==> Building file structure\n\n      at Object.upload (node_modules/codecov/lib/codecov.js:357:11)\n\n  console.log\n    sink ==> Error:\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    ==> Generating gcov reports (skip via --disable=gcov)\n\n      at Object.upload (node_modules/codecov/lib/codecov.js:374:15)\n\n  console.log\n        $ find & touch codecov & -type f -name '*.gcno'  -exec     {} +\n\n      at Object.upload (node_modules/codecov/lib/codecov.js:418:15)\n\n  console.log\n    sink ==> lib/codecov.js:419:7\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n        Failed to run gcov command.\n\n      at Object.upload (node_modules/codecov/lib/codecov.js:421:15)\n\n  console.log\n    sink ==> Error:\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    ==> Scanning for reports\n\n      at Object.upload (node_modules/codecov/lib/codecov.js:477:13)\n\n  console.log\n    sink ==> Error:\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n        X Failed to read file at\n\n      at Object.upload (node_modules/codecov/lib/codecov.js:506:19)\n\n  console.log\n    ==> Uploading reports\n\n      at Object.upload (node_modules/codecov/lib/codecov.js:521:15)\n\n"
+command-injection/buns_1.1.6/buns.test.js
+PASS buns_1.1.6/buns.test.js (17.918 s)
+  ✓ Command Injection in buns (17656 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        18.311 s, estimated 19 s
+Ran all test suites matching /command-injection\/buns_1.1.6\/buns.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/index.js:678:9\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/port-killer_1.0.1/port-killer.test.js
+lsof: unacceptable port specification in: -i :
+lsof 4.91
+ latest revision: ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/
+ latest FAQ: ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/FAQ
+ latest man page: ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/lsof_man
+ usage: [-?abhlnNoOPRtUvVX] [+|-c c] [+|-d s] [+D D] [+|-f[cgG]]
+ [-F [f]] [-g [s]] [-i [i]] [+|-L [l]] [+|-M] [-o [o]] [-p s]
+ [+|-r [t]] [-s [p:s]] [-S [t]] [-T [t]] [-u s] [+|-w] [-x [fl]] [--] [names]
+Use the ``-h'' option to get more help information.
+PASS port-killer_1.0.1/port-killer.test.js
+  ✓ Command Injection in port-killer (56 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.72 s, estimated 1 s
+Ran all test suites matching /command-injection\/port-killer_1.0.1\/port-killer.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:19:9\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/wc-cmd_1.0.9/wc-cmd.test.js
+PASS wc-cmd_1.0.9/wc-cmd.test.js
+  ✓ Command Injection in wc-cmd (39 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.671 s, estimated 1 s
+Ran all test suites matching /command-injection\/wc-cmd_1.0.9\/wc-cmd.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:49:19\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/gm_1.20.0/gm.test.js
+PASS gm_1.20.0/gm.test.js
+  ✓ Command Injection in gm (58 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.703 s, estimated 1 s
+Ran all test suites matching /command-injection\/gm_1.20.0\/gm.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/compare.js:72:5\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/ps-kill_1.0.0/ps-kill.test.js
+PASS ps-kill_1.0.0/ps-kill.test.js
+  ✓ Command Injection in ps-kill (39 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.677 s, estimated 1 s
+Ran all test suites matching /command-injection\/ps-kill_1.0.0\/ps-kill.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:8:3\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/aaptjs_1.3.1/aaptjs.test.js
+ERROR: specify zip file name (only)
+PASS aaptjs_1.3.1/aaptjs.test.js
+  ✓ Remote code execution in aaptjs (98 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.793 s, estimated 1 s
+Ran all test suites matching /command-injection\/aaptjs_1.3.1\/aaptjs.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:18:3\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/corenlp-js-prefab_1.0.1/corenlp-js-prefab.test.js
+wget: missing URL
+Usage: wget [OPTION]... [URL]...
+
+Try `wget --help' for more options.
+PASS corenlp-js-prefab_1.0.1/corenlp-js-prefab.test.js
+  ✓ Command Injection in corenlp-js-prefab (63 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.712 s, estimated 1 s
+Ran all test suites matching /command-injection\/corenlp-js-prefab_1.0.1\/corenlp-js-prefab.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:10:16\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/google-cloudstorage-commands_0.0.1/google-cloudstorage-commands.test.js
+PASS google-cloudstorage-commands_0.0.1/google-cloudstorage-commands.test.js
+  ✓ Command Injection in google-cloudstorage-commands (37 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.675 s, estimated 1 s
+Ran all test suites matching /command-injection\/google-cloudstorage-commands_0.0.1\/google-cloudstorage-commands.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:11:24\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/lsof_0.1.0/lsof.test.js
+PASS lsof_0.1.0/lsof.test.js
+  ✓ Command Injection in lsof (51 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.692 s, estimated 1 s
+Ran all test suites matching /command-injection\/lsof_0.1.0\/lsof.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/lsof.js:37:8\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/macaddress_0.2.8/macaddress.test.js
+PASS macaddress_0.2.8/macaddress.test.js
+  ✓ Command Injection in macaddress (41 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.67 s, estimated 1 s
+Ran all test suites matching /command-injection\/macaddress_0.2.8\/macaddress.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/unix.js:4:5\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/effect_1.0.4/effect.test.js
+PASS effect_1.0.4/effect.test.js
+  ✓ Command Injection in effect (85 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.714 s, estimated 1 s
+Ran all test suites matching /command-injection\/effect_1.0.4\/effect.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> helper.js:24:5\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/node-df_0.1.4/node-df.test.js
+PASS node-df_0.1.4/node-df.test.js
+  ✓ Command Injection in node-df (44 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.669 s, estimated 1 s
+Ran all test suites matching /command-injection\/node-df_0.1.4\/node-df.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/index.js:41:5\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/extra-asciinema_1.0.0/extra-asciinema.test.js
+/bin/sh: asciinema: command not found
+PASS extra-asciinema_1.0.0/extra-asciinema.test.js
+  ✓ Command Injection in extra-asciinema (43 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.678 s, estimated 1 s
+Ran all test suites matching /command-injection\/extra-asciinema_1.0.0\/extra-asciinema.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:208:20\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/jison_0.4.17/jison.test.js
+PASS jison_0.4.17/jison.test.js
+  ✓ Command Injection in jison (39 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.673 s, estimated 1 s
+Ran all test suites matching /command-injection\/jison_0.4.17\/jison.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> build/queueRunner.js:45:12\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/lycwed-spritesheetjs_1.2.5/lycwed-spritesheetjs.test.js
+PASS lycwed-spritesheetjs_1.2.5/lycwed-spritesheetjs.test.js
+  ✓ Command Injection in lycwed-spritesheetjs (221 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.856 s, estimated 1 s
+Ran all test suites matching /command-injection\/lycwed-spritesheetjs_1.2.5\/lycwed-spritesheetjs.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/generator.js:85:7\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    sink ==> lib/generator.js:85:7\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    sink ==> lib/generator.js:85:7\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    sink ==> Error:\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/ps_0.0.2/ps.test.js
+PASS ps_0.0.2/ps.test.js
+  ✓ Command Injection in ps (40 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.676 s, estimated 1 s
+Ran all test suites matching /command-injection\/ps_0.0.2\/ps.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/index.js:8:5\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/get-npm-package-version_1.0.6/get-npm-package-version.test.js
+PASS get-npm-package-version_1.0.6/get-npm-package-version.test.js
+  ✓ Command Injection in get-npm-package-version (1148 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.79 s, estimated 2 s
+Ran all test suites matching /command-injection\/get-npm-package-version_1.0.6\/get-npm-package-version.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:16:48\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/xps_1.0.2/xps.test.js
+PASS xps_1.0.2/xps.test.js
+  ✓ Command Injection in xps (49 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.713 s, estimated 1 s
+Ran all test suites matching /command-injection\/xps_1.0.2\/xps.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/utils.js:28:5\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/pdf-image_1.0.5/pdf-image.test.js
+PASS pdf-image_1.0.5/pdf-image.test.js
+  ✓ Command Injection in pdf-image (41 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.68 s, estimated 1 s
+Ran all test suites matching /command-injection\/pdf-image_1.0.5\/pdf-image.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:43:7\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/bestzip_2.1.6/bestzip.test.js
+PASS bestzip_2.1.6/bestzip.test.js
+  ✓ Command Injection in bestzip (248 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.912 s, estimated 1 s
+Ran all test suites matching /command-injection\/bestzip_2.1.6\/bestzip.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/bestzip.js:27:27\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/git-lib_1.6.0/git-lib.test.js
+PASS git-lib_1.6.0/git-lib.test.js
+  ✓ Remote code execution in git-lib (83 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.72 s, estimated 1 s
+Ran all test suites matching /command-injection\/git-lib_1.6.0\/git-lib.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> git.js:13:9\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/onion-oled-js_0.0.2/onion-old-js.test.js
+PASS onion-oled-js_0.0.2/onion-old-js.test.js
+  ✓ Command Injection in onion-oled-js (46 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.686 s, estimated 1 s
+Ran all test suites matching /command-injection\/onion-oled-js_0.0.2\/onion-old-js.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> src/oled-exp.js:91:16\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/gry_5.0.8/gry.test.js
+PASS gry_5.0.8/gry.test.js
+  ✓ Command Injection in gry (72 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.704 s, estimated 1 s
+Ran all test suites matching /command-injection\/gry_5.0.8\/gry.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/index.js:88:20\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/whereis_0.4.0/whereis.test.js
+PASS whereis_0.4.0/whereis.test.js
+  ✓ Command Injection in whereis (75 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.772 s, estimated 1 s
+Ran all test suites matching /command-injection\/whereis_0.4.0\/whereis.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:4:6\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    sink ==> index.js:8:10\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    sink ==> index.js:10:14\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    sink ==> index.js:12:18\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/node-unrar_0.1.0/node-unrar.test.js
+PASS node-unrar_0.1.0/node-unrar.test.js
+  ✓ Remote code execution in node-unrar (40 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.67 s, estimated 1 s
+Ran all test suites matching /command-injection\/node-unrar_0.1.0\/node-unrar.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/index.js:23:3\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/kill-port-process_0.0.1/kill-port-process.test.js
+PASS kill-port-process_0.0.1/kill-port-process.test.js
+  ✓ Command Injection in kill-port-process (75 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.713 s, estimated 1 s
+Ran all test suites matching /command-injection\/kill-port-process_0.0.1\/kill-port-process.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> src/index.js:44:4\n\n      at getSink (sink-extraction-setup.js:93:11)\n          at Array.map (<anonymous>)\n\n  console.log\n    here!\n\n      at kill-port-process_0.0.1/kill-port-process.test.js:21:15\n\n  console.log\n    here!!!!\n\n      at kill-port-process_0.0.1/kill-port-process.test.js:27:15\n\n  console.log\n    File removed!: ./kill-port-process\n\n      at kill-port-process_0.0.1/kill-port-process.test.js:30:17\n\n'
+command-injection/node-mpv_0.12.2/node-mpv.test.js
+/bin/sh:   : command not found
+PASS node-mpv_0.12.2/node-mpv.test.js
+  ✓ Command Injection in node-mpv (58 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.705 s, estimated 1 s
+Ran all test suites matching /command-injection\/node-mpv_0.12.2\/node-mpv.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/mpv/mpv.js:45:16\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/killport_1.0.1/killport.test.js
+PASS killport_1.0.1/killport.test.js
+  ✓ Command Injection in killport (55 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.686 s, estimated 1 s
+Ran all test suites matching /command-injection\/killport_1.0.1\/killport.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:9:8\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/kill-process-by-name_1.0.5/kill-process-by-name.test.js
+PASS kill-process-by-name_1.0.5/kill-process-by-name.test.js
+  ✓ Command Injection in kill-process-by-name (530 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.171 s
+Ran all test suites matching /command-injection\/kill-process-by-name_1.0.5\/kill-process-by-name.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:12:18\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/ffmpegdotjs_0.0.4/ffmpegdotjs.test.js
+PASS ffmpegdotjs_0.0.4/ffmpegdotjs.test.js
+  ✓ Command Injection in ffmpegdotjs (324 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.957 s, estimated 1 s
+Ran all test suites matching /command-injection\/ffmpegdotjs_0.0.4\/ffmpegdotjs.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:191:9\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/npm-git-publish_0.2.4-beta/npm-git-publish.test.js
+warning: You appear to have cloned an empty repository.
+PASS npm-git-publish_0.2.4-beta/npm-git-publish.test.js
+  ✓ Command Injection in npm-git-publish (1149 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.786 s, estimated 2 s
+Ran all test suites matching /command-injection\/npm-git-publish_0.2.4-beta\/npm-git-publish.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/publish.js:92:29\n\n      at getSink (sink-extraction-setup.js:93:11)\n          at async Promise.all (index 1)\n\n  console.log\n    sink ==> Error:\n\n      at getSink (sink-extraction-setup.js:93:11)\n          at async Promise.all (index 0)\n\n'
+command-injection/vboxmanage.js_1.0.6/vboxmanage-js.test.js
+PASS vboxmanage.js_1.0.6/vboxmanage-js.test.js
+  ✓ Command Injection in vboxmanage.js (39 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.684 s, estimated 1 s
+Ran all test suites matching /command-injection\/vboxmanage.js_1.0.6\/vboxmanage-js.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:76:23\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/enpeem_2.2.0/enpeem.test.js
+PASS enpeem_2.2.0/enpeem.test.js
+  ✓ Command Injection in enpeem (332 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.099 s
+Ran all test suites matching /command-injection\/enpeem_2.2.0\/enpeem.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:71:22\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/node-latex-pdf_0.0.2/node-latex-pdf.test.js
+PASS node-latex-pdf_0.0.2/node-latex-pdf.test.js
+  ✓ Command Injection in node-latex-pdf (53 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.782 s, estimated 1 s
+Ran all test suites matching /command-injection\/node-latex-pdf_0.0.2\/node-latex-pdf.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> node-latex-pdf.js:10:5\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    sink ==> node-latex-pdf.js:15:13\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/geojson2kml_0.1.1/geojson2kml.test.js
+PASS geojson2kml_0.1.1/geojson2kml.test.js
+  ✓ Command Injection in geojson2kml (46 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.746 s, estimated 1 s
+Ran all test suites matching /command-injection\/geojson2kml_0.1.1\/geojson2kml.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:6:3\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/node-ps_0.0.2/node-ps.test.js
+PASS node-ps_0.0.2/node-ps.test.js
+  ✓ Command Injection in node-ps (60 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.691 s, estimated 1 s
+Ran all test suites matching /command-injection\/node-ps_0.0.2\/node-ps.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/index.js:72:18\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/alfred-workflow-nodejs_2.0.1/alfred-workflow-nodejs.test.js
+PASS alfred-workflow-nodejs_2.0.1/alfred-workflow-nodejs.test.js
+  ✓ Command Injection in killing (62 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.69 s, estimated 1 s
+Ran all test suites matching /command-injection\/alfred-workflow-nodejs_2.0.1\/alfred-workflow-nodejs.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> alfredNode.js:445:17\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/heroku-env_0.2.0/heroku-env.test.js
+PASS heroku-env_0.2.0/heroku-env.test.js
+  ✓ Command Injection in heroku-env (959 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.594 s, estimated 2 s
+Ran all test suites matching /command-injection\/heroku-env_0.2.0\/heroku-env.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/get.js:3:3\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/eslint-fixer_0.1.5/eslint-fixer.test.js
+PASS eslint-fixer_0.1.5/eslint-fixer.test.js
+  ✓ Command Injection in eslint-fixer (600 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.243 s, estimated 2 s
+Ran all test suites matching /command-injection\/eslint-fixer_0.1.5\/eslint-fixer.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:24:18\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/growl_1.9.0/growl.test.js
+PASS growl_1.9.0/growl.test.js
+  ✓ Command Injection in growl (42 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.684 s, estimated 1 s
+Ran all test suites matching /command-injection\/growl_1.9.0\/growl.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/growl.js:289:3\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/umount_1.1.6/umount.test.js
+PASS umount_1.1.6/umount.test.js
+  ✓ Command Injection in umount (95 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.789 s, estimated 1 s
+Ran all test suites matching /command-injection\/umount_1.1.6\/umount.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> build/umount.js:52:24\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/node-key-sender_1.0.11/node-key-sender.test.js
+PASS node-key-sender_1.0.11/node-key-sender.test.js
+  ✓ Command Injection in node-key-sender (227 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.86 s, estimated 1 s
+Ran all test suites matching /command-injection\/node-key-sender_1.0.11\/node-key-sender.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> key-sender.js:117:20\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/async-git_1.13.1/async-git.test.js
+PASS async-git_1.13.1/async-git.test.js
+  ✓ Command Injection in async-git (60 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.7 s, estimated 1 s
+Ran all test suites matching /command-injection\/async-git_1.13.1\/async-git.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/reset/index.js:11:16\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/git-dummy-commit_1.3.0/git-dummy-commit.test.js
+PASS git-dummy-commit_1.3.0/git-dummy-commit.test.js
+  ✓ Command Injection in git-dummy-commit (139 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.778 s, estimated 1 s
+Ran all test suites matching /command-injection\/git-dummy-commit_1.3.0\/git-dummy-commit.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:37:8\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/strider-git_1.0.3/strider-git.test.js
+PASS strider-git_1.0.3/strider-git.test.js
+  ✓ Command Injection in strider-git (60 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.694 s, estimated 1 s
+Ran all test suites matching /command-injection\/strider-git_1.0.3\/strider-git.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/index.js:151:5\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/git_0.1.5/git.test.js
+PASS git_0.1.5/git.test.js
+  ✓ Remote code execution in git (106 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.75 s, estimated 1 s
+Ran all test suites matching /command-injection\/git_0.1.5\/git.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/git/git.js:232:3\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/monorepo-build_0.1.9/monorepo-build.test.js
+fatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    --recursive ...       alias of --recurse-submodules
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    --server-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --filter <args>       object filtering
+    --remote-submodules   any cloned submodules will use their remote-tracking branch
+    --sparse              initialize sparse-checkout file to include only files at root
+
+fatal: ambiguous argument 'undefined': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+PASS monorepo-build_0.1.9/monorepo-build.test.js
+  ✓ Command Injection in monorepo-build (784 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.417 s, estimated 2 s
+Ran all test suites matching /command-injection\/monorepo-build_0.1.9\/monorepo-build.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> Error:\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    sink ==> Error:\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    sink ==> lib/util/exec.js:4:54\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    sink ==> Error:\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    sink ==> Error:\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    sink ==> Error:\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    syntax-error\n\n      at Object.<anonymous> (monorepo-build_0.1.9/monorepo-build.test.js:32:13)\n\n'
+command-injection/wincred_1.0.2/wincred.test.js
+FAIL wincred_1.0.2/wincred.test.js
+  ✕ Command Injection in wincred (167 ms)
+
+  ● Command Injection in wincred
+
+    TypeError: Cannot read properties of undefined (reading 'trim')
+
+      at node_modules/wincred/index.js:17:39
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.799 s, estimated 1 s
+Ran all test suites matching /command-injection\/wincred_1.0.2\/wincred.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+Traceback (most recent call last):
+  File "/Users/masudulhasanmasudbhuiyan/Music/vulns4js/command-injection/test_modules_in_serial.py", line 20, in <module>
+    ping = subprocess.run(['jest', '--forceExit', test_file_name], stdout=subprocess.PIPE, check=True)
+  File "/usr/local/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/lib/python3.9/subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['jest', '--forceExit', 'command-injection/wincred_1.0.2/wincred.test.js']' returned non-zero exit status 1.
+command-injection/portprocesses_1.0.4/portprocesses.test.js
+PASS portprocesses_1.0.4/portprocesses.test.js
+  ✓ Command Injection in portprocesses (40 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.672 s, estimated 1 s
+Ran all test suites matching /command-injection\/portprocesses_1.0.4\/portprocesses.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> exec.js:5:3\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/portkiller_1.0.2/portkiller.test.js
+PASS portkiller_1.0.2/portkiller.test.js
+  ✓ Command Injection in portkiller (537 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.201 s
+Ran all test suites matching /command-injection\/portkiller_1.0.2\/portkiller.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> Error:\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    sink ==> index.js:10:5\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    port --forceExit is not open.\n\n      at node_modules/portkiller/index.js:16:17\n\n  console.log\n    port $(touch portkiller) is not open.\n\n      at node_modules/portkiller/index.js:16:17\n\n'
+command-injection/local-devices_2.0.0/local-devices.test.js
+PASS local-devices_2.0.0/local-devices.test.js
+  ✓ Command Injection in local-devices (73 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.706 s, estimated 1 s
+Ran all test suites matching /command-injection\/local-devices_2.0.0\/local-devices.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> src/index.js:114:13\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/imagickal_5.0.1/imagickal.test.js
+PASS imagickal_5.0.1/imagickal.test.js
+  ✓ Remote code execution in imagickal (116 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.761 s, estimated 1 s
+Ran all test suites matching /command-injection\/imagickal_5.0.1\/imagickal.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/imagickal.js:127:17\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n  console.log\n    finally!\n\n      at imagickal_5.0.1/imagickal.test.js:25:15\n\n'
+command-injection/samsung-remote_1.2.5/samsung-remote.test.js
+PASS samsung-remote_1.2.5/samsung-remote.test.js
+  ✓ Command Injection in samsung-remote (41 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.681 s, estimated 1 s
+Ran all test suites matching /command-injection\/samsung-remote_1.2.5\/samsung-remote.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/samsung-remote.js:103:16\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/im-resize_2.3.2/im-resize.test.js
+PASS im-resize_2.3.2/im-resize.test.js
+  ✓ Command Injection in im-resize (45 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.714 s, estimated 1 s
+Ran all test suites matching /command-injection\/im-resize_2.3.2\/im-resize.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:11:3\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/theme-core_0.2.5/theme-core.test.js
+PASS theme-core_0.2.5/theme-core.test.js
+  ✓ Command Injection in theme-core (106 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.761 s, estimated 1 s
+Ran all test suites matching /command-injection\/theme-core_0.2.5\/theme-core.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/utils.js:16:17\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/im-metadata_3.0.1/im-metadata.test.js
+PASS im-metadata_3.0.1/im-metadata.test.js
+  ✓ Command Injection in im-metadata (56 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.703 s, estimated 1 s
+Ran all test suites matching /command-injection\/im-metadata_3.0.1\/im-metadata.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:15:3\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'
+command-injection/deferred-exec_0.3.1/deferred-exec.test.js
+PASS deferred-exec_0.3.1/deferred-exec.test.js
+  ✓ Command Injection in deferred-exec (107 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.767 s, estimated 1 s
+Ran all test suites matching /command-injection\/deferred-exec_0.3.1\/deferred-exec.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lib/deferred-exec.js:42:19\n\n      at getSink (sink-extraction-setup.js:93:11)\n\n'

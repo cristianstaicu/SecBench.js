@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "https://github.com/sorellabs/xps/commit/768481146b8ead3811310eecc0f56e2d107cb740",
-  "sink": ""
+  "sink": "lib/utils.js:28:5"
 }

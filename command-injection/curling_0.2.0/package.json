@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.1.0",
   "fixCommit": "n/a",
-  "sink": ""
+  "sink": "lib/curl-transport.js:56:3"
 }

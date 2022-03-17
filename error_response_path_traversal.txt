@@ -1,0 +1,2114 @@
+prototype-pollution/promisehelpers_0.0.5/promisehelpers.test.js
+PASS promisehelpers_0.0.5/promisehelpers.test.js
+  ✓ prototype pollution in promisehelpers (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.337 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/promisehelpers_0.0.5\/promisehelpers.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/jsonpointer_4.0.0/jsonpointer.test.js
+PASS jsonpointer_4.0.0/jsonpointer.test.js
+  ✓ prototype pollution in jsonpointer (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.344 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/jsonpointer_4.0.0\/jsonpointer.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/lodash_4.17.15/lodash.test.js
+PASS lodash_4.17.15/lodash.test.js
+  ✓ prototype pollution in lodash (28 ms)
+  ✓ prototype pollution in lodash (1 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        0.369 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/lodash_4.17.15\/lodash.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/ini-parser_0.0.2/ini-parser.test.js
+PASS ini-parser_0.0.2/ini-parser.test.js
+  ✓ prototype pollution in ini-parser (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.346 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/ini-parser_0.0.2\/ini-parser.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/lutils-merge_0.2.6/lutils-merge.test.js
+PASS lutils-merge_0.2.6/lutils-merge.test.js
+  ✓ prototype pollution in lutils-merge (8 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.345 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/lutils-merge_0.2.6\/lutils-merge.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/worksmith_1.0.0/worksmith.test.js
+PASS worksmith_1.0.0/worksmith.test.js
+  ✓ prototype pollution in worksmith (85 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.422 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/worksmith_1.0.0\/worksmith.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/nconf-toml_0.0.1/nconf-toml.test.js
+PASS nconf-toml_0.0.1/nconf-toml.test.js
+  ✓ prototype pollution in nconf-toml (18 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.358 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/nconf-toml_0.0.1\/nconf-toml.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/supermixer_1.0.3/supermixer.test.js
+PASS supermixer_1.0.3/supermixer.test.js
+  ✓ prototype pollution in supermixer (28 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.38 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/supermixer_1.0.3\/supermixer.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/json-pointer_0.6.1/json-pointer.test.js
+PASS json-pointer_0.6.1/json-pointer.test.js
+  ✓ prototype pollution in json-pointer (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.342 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/json-pointer_0.6.1\/json-pointer.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/madlib-object-utils_0.1.6/madlib-object-utils.test.js
+PASS madlib-object-utils_0.1.6/madlib-object-utils.test.js
+  ✓ prototype pollution in madlib-object-utils (8 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.35 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/madlib-object-utils_0.1.6\/madlib-object-utils.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/object-path-set_1.0.0/object-path-set.test.js
+PASS object-path-set_1.0.0/object-path-set.test.js
+  ✓ prototype pollution in object-path-set  (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.329 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/object-path-set_1.0.0\/object-path-set.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/patchmerge_1.0.0/patchmerge.test.js
+PASS patchmerge_1.0.0/patchmerge.test.js
+  ✓ prototype pollution in patchmerge (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.344 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/patchmerge_1.0.0\/patchmerge.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/just-safe-set_1.0.0/just-safe-set.test.js
+PASS just-safe-set_1.0.0/just-safe-set.test.js
+  ✓ prototype pollution in just-safe-set (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.348 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/just-safe-set_1.0.0\/just-safe-set.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/deepref_1.1.1/deepref.test.js
+PASS deepref_1.1.1/deepref.test.js
+  ✓ prototype pollution in deepref (14 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.346 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/deepref_1.1.1\/deepref.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/inireader_1.0.0/inireader.test.js
+PASS inireader_1.0.0/inireader.test.js
+  ✓ prototype pollution in inireader (14 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.348 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/inireader_1.0.0\/inireader.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/sds_3.2.0/sds.test.js
+PASS sds_3.2.0/sds.test.js
+  ✓ prototype pollution in sds (21 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.356 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/sds_3.2.0\/sds.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/aurelia-path_1.1.7/aurelia-path.test.js
+PASS aurelia-path_1.1.7/aurelia-path.test.js
+  ✓ prototype pollution in aurelia-path (12 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.342 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/aurelia-path_1.1.7\/aurelia-path.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/object-collider_1.0.3/object-collider.test.js
+PASS object-collider_1.0.3/object-collider.test.js
+  ✓ prototype pollution in object-collider (9 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.355 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/object-collider_1.0.3\/object-collider.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/ion-parser_0.5.2/ion-parser.test.js
+PASS ion-parser_0.5.2/ion-parser.test.js
+  ✓ prototype pollution in ion-parser (8 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.34 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/ion-parser_0.5.2\/ion-parser.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/controlled-merge_1.0.0/controlled-merge.test.js
+PASS controlled-merge_1.0.0/controlled-merge.test.js
+  ✓ prototype pollution in controlled-merge  (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.341 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/controlled-merge_1.0.0\/controlled-merge.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/eivindfjeldstad-dot_0.0.1/eivindfjeldstad-dot.test.js
+PASS eivindfjeldstad-dot_0.0.1/eivindfjeldstad-dot.test.js
+  ✓ prototype pollution in eivindfjeldstad-dot (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.336 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/eivindfjeldstad-dot_0.0.1\/eivindfjeldstad-dot.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/objnest_5.0.0/objnest.test.js
+PASS objnest_5.0.0/objnest.test.js
+  ✓ prototype pollution in objnest (13 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.356 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/objnest_5.0.0\/objnest.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/ianwalter-merge_9.0.1/@ianwalter-merge.test.js
+PASS ianwalter-merge_9.0.1/@ianwalter-merge.test.js
+  ✓ prototype pollution in @ianwalter/merge (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.336 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/ianwalter-merge_9.0.1\/@ianwalter-merge.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/node-forge_0.9.0/node-forge.test.js
+PASS node-forge_0.9.0/node-forge.test.js
+  ✓ prototype pollution in node-forge (52 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.393 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/node-forge_0.9.0\/node-forge.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/patchmerge_1.0.1/patchmerge.test.js
+PASS patchmerge_1.0.1/patchmerge.test.js
+  ✓ prototype pollution in patchMerge (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.341 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/patchmerge_1.0.1\/patchmerge.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/grunt-util-property_0.0.2/grunt-util-property.test.js
+PASS grunt-util-property_0.0.2/grunt-util-property.test.js
+  ✓ prototype pollution in grunt-util-property (277 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.608 s, estimated 2 s
+Ran all test suites matching /prototype-pollution\/grunt-util-property_0.0.2\/grunt-util-property.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/getsetdeep_4.15.0/getsetdeep.test.js
+PASS getsetdeep_4.15.0/getsetdeep.test.js
+  ✓ prototype pollution in getsetdeep (8 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.347 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/getsetdeep_4.15.0\/getsetdeep.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/tsed-core_5.62.3/tsed-core.test.js
+PASS tsed-core_5.62.3/tsed-core.test.js
+  ✓ prototype pollution in @tsed/core (41 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.376 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/tsed-core_5.62.3\/tsed-core.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/mootools_1.5.2/mootools.test.js
+PASS mootools_1.5.2/mootools.test.js
+  ✓ prototype pollution in mootools (12 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.341 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/mootools_1.5.2\/mootools.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/dotty_0.0.1/dotty.test.js
+PASS dotty_0.0.1/dotty.test.js
+  ✓ prototype pollution in dotty (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.364 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/dotty_0.0.1\/dotty.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/i18next_19.7.0/i18next.test.js
+PASS i18next_19.7.0/i18next.test.js
+  ✓ prototype pollution in i18next  (11 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.552 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/i18next_19.7.0\/i18next.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/swiper_6.5.0/swiper.test.js
+PASS swiper_6.5.0/swiper.test.js
+  ✓ prototype pollution in swiper (81 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.407 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/swiper_6.5.0\/swiper.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/set-object-value_0.0.5/set-object-value.test.js
+PASS set-object-value_0.0.5/set-object-value.test.js
+  ✓ prototype pollution in setObjectValue (5 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.336 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/set-object-value_0.0.5\/set-object-value.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/mergify_1.0.2/mergify.test.js
+PASS mergify_1.0.2/mergify.test.js
+  ✓ prototype pollution in mergify (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.34 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/mergify_1.0.2\/mergify.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/mpath_0.4.1/mpath.test.js
+PASS mpath_0.4.1/mpath.test.js
+  ✓ prototype pollution in mpath  (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.344 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/mpath_0.4.1\/mpath.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/getobject_0.1.0/getobject.test.js
+PASS getobject_0.1.0/getobject.test.js
+  ✓ prototype pollution in getobject (35 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.368 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/getobject_0.1.0\/getobject.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    Before  : undefined\n\n      at Object.<anonymous> (getobject_0.1.0/getobject.test.js:7:11)\n\n'
+prototype-pollution/property-expr_2.0.2/property-expr.test.js
+PASS property-expr_2.0.2/property-expr.test.js
+  ✓ prototype pollution in property-expr (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.338 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/property-expr_2.0.2\/property-expr.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/algoliasearch-helper_3.6.0/algoliasearch-helper.test.js
+PASS algoliasearch-helper_3.6.0/algoliasearch-helper.test.js
+  ✓ prototype pollution in algoliasearch-helper (23 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.355 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/algoliasearch-helper_3.6.0\/algoliasearch-helper.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/lodash_4.17.10/lodash.test.js
+PASS lodash_4.17.10/lodash.test.js
+  ✓ prototype pollution in lodash (35 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.371 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/lodash_4.17.10\/lodash.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/flattenizer_0.0.5/flattenizer.test.js
+PASS flattenizer_0.0.5/flattenizer.test.js
+  ✓ prototype pollution in flattenizer (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.346 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/flattenizer_0.0.5\/flattenizer.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/utils-extend_1.0.8/utils-extend.test.js
+PASS utils-extend_1.0.8/utils-extend.test.js
+  ✓ prototype pollution in utils-extend (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.347 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/utils-extend_1.0.8\/utils-extend.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/undefsafe_2.0.2/undefsafe.test.js
+PASS undefsafe_2.0.2/undefsafe.test.js
+  ✓ prototype pollution in undefsafe  (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.342 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/undefsafe_2.0.2\/undefsafe.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/component-flatten_1.0.1/component-flatten.test.js
+PASS component-flatten_1.0.1/component-flatten.test.js
+  ✓ prototype pollution in component-flatten (8 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.349 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/component-flatten_1.0.1\/component-flatten.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/extend_3.0.1/extend.test.js
+PASS extend_3.0.1/extend.test.js
+  ✓ prototype pollution in extend  (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.345 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/extend_3.0.1\/extend.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/json-schema_0.3.0/json-schema.test.js
+PASS json-schema_0.3.0/json-schema.test.js
+  ✓ prototype pollution in json-schema (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.335 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/json-schema_0.3.0\/json-schema.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/eivifj-dot_1.0.2/eivifj-dot.test.js
+PASS eivifj-dot_1.0.2/eivifj-dot.test.js
+  ✓ prototype pollution in @eivifj/dot (12 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.345 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/eivifj-dot_1.0.2\/eivifj-dot.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/lodash_4.17.11/lodash.test.js
+PASS lodash_4.17.11/lodash.test.js
+  ✓ prototype pollution in lodash (28 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.37 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/lodash_4.17.11\/lodash.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/set-value_3.0.0/set-value.test.js
+PASS set-value_3.0.0/set-value.test.js
+  ✓ prototype pollution in set-value  (15 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.341 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/set-value_3.0.0\/set-value.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/pathval_1.1.0/pathval.test.js
+PASS pathval_1.1.0/pathval.test.js
+  ✓ prototype pollution in pathval (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.349 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/pathval_1.1.0\/pathval.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/rdf-graph-array_0.3.0/rdf-graph-array.test.js
+PASS rdf-graph-array_0.3.0/rdf-graph-array.test.js
+  ✓ prototype pollution in rdf-graph-array (9 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.349 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/rdf-graph-array_0.3.0\/rdf-graph-array.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/brikcss-merge_1.3.0/@brikcss-merge.test.js
+PASS brikcss-merge_1.3.0/@brikcss-merge.test.js
+  ✓ prototype pollution in @brikcss/merge (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.344 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/brikcss-merge_1.3.0\/@brikcss-merge.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/bodymen_1.0.0/bodymen.test.js
+PASS bodymen_1.0.0/bodymen.test.js
+  ✓ prototype pollution in bodymen  (35 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.366 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/bodymen_1.0.0\/bodymen.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/phpjs_1.3.2/phpjs.test.js
+PASS phpjs_1.3.2/phpjs.test.js
+  ✓ prototype pollution in phpjs (15 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.343 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/phpjs_1.3.2\/phpjs.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/nestie_1.0.0/nestie.test.js
+PASS nestie_1.0.0/nestie.test.js
+  ✓ prototype pollution in nestie (5 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.342 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/nestie_1.0.0\/nestie.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/objtools_3.0.0/objtools.test.js
+PASS objtools_3.0.0/objtools.test.js
+  ✓ prototype pollution in objtools (39 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.374 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/objtools_3.0.0\/objtools.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/mout_1.0.0/mout.test.js
+PASS mout_1.0.0/mout.test.js
+  ✓ prototype pollution in mout  (151 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.488 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/mout_1.0.0\/mout.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/jointjs_2.2.1/jointjs.test.js
+PASS jointjs_2.2.1/jointjs.test.js
+  ✓ prototype pollution in jointjs (132 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.471 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/jointjs_2.2.1\/jointjs.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/upmerge_0.1.7/upmerge.test.js
+PASS upmerge_0.1.7/upmerge.test.js
+  ✓ prototype pollution in upmerge (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.343 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/upmerge_0.1.7\/upmerge.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/firebase-util_0.3.3-canary.c47ba31d0/firebase-util.test.js
+PASS firebase-util_0.3.3-canary.c47ba31d0/firebase-util.test.js
+  ✓ prototype pollution in @firebase/util (10 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.348 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/firebase-util_0.3.3-canary.c47ba31d0\/firebase-util.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/gedi_1.6.3/gedi.test.js
+PASS gedi_1.6.3/gedi.test.js
+  ✓ prototype pollution in gedi (28 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.362 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/gedi_1.6.3\/gedi.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/just-extend_3.0.0/just-extend.test.js
+PASS just-extend_3.0.0/just-extend.test.js
+  ✓ prototype pollution in just-extend  (5 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.342 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/just-extend_3.0.0\/just-extend.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/connie_0.1.0/connie.test.js
+PASS connie_0.1.0/connie.test.js
+  ✓ prototype pollution in connie (114 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.452 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/connie_0.1.0\/connie.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/objutil_2.17.3/objutil.test.js
+PASS objutil_2.17.3/objutil.test.js
+  ✓ prototype pollution in objutil (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.354 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/objutil_2.17.3\/objutil.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/cached-path-relative_1.0.1/cached-path-relative.test.js
+PASS cached-path-relative_1.0.1/cached-path-relative.test.js
+  ✓ prototype pollution in cached-path-relative (5 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.339 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/cached-path-relative_1.0.1\/cached-path-relative.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/lodash_4.17.9/lodash.test.js
+PASS lodash_4.17.9/lodash.test.js
+  ✓ prototype pollution in lodash (29 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.365 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/lodash_4.17.9\/lodash.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/decal_2.1.3/decal.test.js
+PASS decal_2.1.3/decal.test.js
+  ✓ prototype pollution in decal
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.34 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/decal_2.1.3\/decal.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/flat_5.0.0/flat.test.js
+PASS flat_5.0.0/flat.test.js
+  ✓ prototype pollution in flat (8 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.364 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/flat_5.0.0\/flat.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/safetydance_2.0.1/safetydance.test.js
+PASS safetydance_2.0.1/safetydance.test.js
+  ✓ prototype pollution in safetydance (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.34 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/safetydance_2.0.1\/safetydance.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/changeset_0.1.0/changeset.test.js
+PASS changeset_0.1.0/changeset.test.js
+  ✓ prototype pollution in changeset (17 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.438 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/changeset_0.1.0\/changeset.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/node-oojs_1.4.0/node-oojs.test.js
+PASS node-oojs_1.4.0/node-oojs.test.js
+  ✓ prototype pollution in node-oojs (16 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.373 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/node-oojs_1.4.0\/node-oojs.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/deap_1.0.0/deap.test.js
+PASS deap_1.0.0/deap.test.js
+  ✓ prototype pollution in deap (8 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.339 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/deap_1.0.0\/deap.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/mathjs_7.4.0/mathjs.test.js
+PASS mathjs_7.4.0/mathjs.test.js
+  ✓ prototype pollution in mathjs  (1241 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.599 s, estimated 3 s
+Ran all test suites matching /prototype-pollution\/mathjs_7.4.0\/mathjs.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/object-path_0.11.0/object-path.test.js
+PASS object-path_0.11.0/object-path.test.js
+  ✓ prototype pollution in object-path (5 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.338 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/object-path_0.11.0\/object-path.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/deephas_1.0.5/deephas.test.js
+PASS deephas_1.0.5/deephas.test.js
+  ✓ prototype pollution in deephas  (12 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.343 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/deephas_1.0.5\/deephas.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/nested-object-assign_1.0.3/nested-object-assign.test.js
+PASS nested-object-assign_1.0.3/nested-object-assign.test.js
+  ✓ prototype pollution in nested-object-assign (8 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.335 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/nested-object-assign_1.0.3\/nested-object-assign.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/class-transformer_0.1.1/class-transformer.test.js
+PASS class-transformer_0.1.1/class-transformer.test.js
+  ✓ prototype pollution in class-transformer (13 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.346 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/class-transformer_0.1.1\/class-transformer.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/merge-deep2_3.0.5/merge-deep2.test.js
+PASS merge-deep2_3.0.5/merge-deep2.test.js
+  ✓ prototype pollution in merge-deep2 (31 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.365 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/merge-deep2_3.0.5\/merge-deep2.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/deep-defaults_1.0.5/deep-defaults.test.js
+PASS deep-defaults_1.0.5/deep-defaults.test.js
+  ✓ prototype pollution in dot-object  (28 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.355 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/deep-defaults_1.0.5\/deep-defaults.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/node-extend_1.0.0/node-extend.test.js
+PASS node-extend_1.0.0/node-extend.test.js
+  ✓ prototype pollution in node.extend  (13 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.348 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/node-extend_1.0.0\/node-extend.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/viking04-merge_1.0.0/@viking04-merge.test.js
+PASS viking04-merge_1.0.0/@viking04-merge.test.js
+  ✓ prototype pollution in config-handler (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.339 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/viking04-merge_1.0.0\/@viking04-merge.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/jquery_1.11.0/jquery.test.js
+PASS jquery_1.11.0/jquery.test.js
+  ✓ prototype pollution in jquery (1178 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.52 s, estimated 3 s
+Ran all test suites matching /prototype-pollution\/jquery_1.11.0\/jquery.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/assign-deep_1.0.0/assign-deep.test.js
+PASS assign-deep_1.0.0/assign-deep.test.js
+  ✓ prototype pollution in assign-deep  (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.345 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/assign-deep_1.0.0\/assign-deep.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/set-or-get_1.2.10/set-or-get.test.js
+PASS set-or-get_1.2.10/set-or-get.test.js
+  ✓ prototype pollution in set-or-get (16 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.339 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/set-or-get_1.2.10\/set-or-get.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/deepmergefn_1.1.0/deepmergefn.test.js
+PASS deepmergefn_1.1.0/deepmergefn.test.js
+  ✓ prototype pollution in deepmergefn (5 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.349 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/deepmergefn_1.1.0\/deepmergefn.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/dset_1.0.0/dset.test.js
+PASS dset_1.0.0/dset.test.js
+  ✓ prototype pollution in dset (11 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.342 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/dset_1.0.0\/dset.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/safe-obj_1.0.0/safe-obj.test.js
+PASS safe-obj_1.0.0/safe-obj.test.js
+  ✓ prototype pollution in safeObj (5 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.344 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/safe-obj_1.0.0\/safe-obj.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/deeps_1.4.5/deeps.test.js
+PASS deeps_1.4.5/deeps.test.js
+  ✓ prototype pollution in deeps (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.333 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/deeps_1.4.5\/deeps.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/deep-override_1.0.0/deep-override.test.js
+PASS deep-override_1.0.0/deep-override.test.js
+  ✓ prototype pollution in deep-override (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.357 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/deep-override_1.0.0\/deep-override.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/tiny-conf_1.1.0/tiny-conf.test.js
+PASS tiny-conf_1.1.0/tiny-conf.test.js
+  ✓ prototype pollution in tinyConf (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.354 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/tiny-conf_1.1.0\/tiny-conf.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/merge-options_1.0.0/merge-options.test.js
+PASS merge-options_1.0.0/merge-options.test.js
+  ✓ prototype pollution in merge-options (8 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.337 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/merge-options_1.0.0\/merge-options.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/yargs-parser_6.0.0/yargs-parser.test.js
+PASS yargs-parser_6.0.0/yargs-parser.test.js
+  ✓ prototype pollution in yargs-parser (11 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.354 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/yargs-parser_6.0.0\/yargs-parser.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/nedb_1.8.0/nedb.test.js
+PASS nedb_1.8.0/nedb.test.js
+  ✓ prototype pollution in nedb (30 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.515 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/nedb_1.8.0\/nedb.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/dot-object_2.1.2/dot-object.test.js
+PASS dot-object_2.1.2/dot-object.test.js
+  ✓ prototype pollution in dot-object  (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.331 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/dot-object_2.1.2\/dot-object.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/nested-property_0.0.5/nested-property.test.js
+PASS nested-property_0.0.5/nested-property.test.js
+  ✓ prototype pollution in nested-property (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.34 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/nested-property_0.0.5\/nested-property.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/merge-deep_3.0.0/merge-deep.test.js
+PASS merge-deep_3.0.0/merge-deep.test.js
+  ✓ prototype pollution in merge-deep (20 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.349 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/merge-deep_3.0.0\/merge-deep.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/fast-json-patch_2.0.4/fast-json-patch.test.js
+PASS fast-json-patch_2.0.4/fast-json-patch.test.js
+  ✓ prototype pollution in fast-json-patch (34 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.447 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/fast-json-patch_2.0.4\/fast-json-patch.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/shvl_2.0.1/shvl.test.js
+PASS shvl_2.0.1/shvl.test.js
+  ✓ prototype pollution in shvl (12 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.345 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/shvl_2.0.1\/shvl.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/expand-hash_1.0.1/expand-hash.test.js
+PASS expand-hash_1.0.1/expand-hash.test.js
+  ✓ prototype pollution in expand-hash  (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.346 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/expand-hash_1.0.1\/expand-hash.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/merge-recursive_0.0.3/merge-recursive.test.js
+PASS merge-recursive_0.0.3/merge-recursive.test.js
+  ✓ prototype pollution in merge-recursive (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.338 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/merge-recursive_0.0.3\/merge-recursive.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/gammautils_0.0.81/gammautils.test.js
+PASS gammautils_0.0.81/gammautils.test.js
+  ✓ prototype pollution in gammautils (33 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.366 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/gammautils_0.0.81\/gammautils.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/deep-extend_0.5.0/deep-extend.test.js
+PASS deep-extend_0.5.0/deep-extend.test.js
+  ✓ prototype pollution in merge-objects (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.337 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/deep-extend_0.5.0\/deep-extend.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/doc-path_2.0.0/doc-path.test.js
+PASS doc-path_2.0.0/doc-path.test.js
+  ✓ prototype pollution in doc-path (11 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.338 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/doc-path_2.0.0\/doc-path.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/deep-set_1.0.0/deep-set.test.js
+PASS deep-set_1.0.0/deep-set.test.js
+  ✓ prototype pollution in deep-set (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.352 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/deep-set_1.0.0\/deep-set.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/objection_2.0.0/objection.test.js
+PASS objection_2.0.0/objection.test.js
+  ✓ prototype pollution in objection (10 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.344 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/objection_2.0.0\/objection.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/paypal-adaptive_0.4.1/paypal-adaptive.test.js
+PASS paypal-adaptive_0.4.1/paypal-adaptive.test.js
+  ✓ prototype pollution in paypal-adaptive (11 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.349 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/paypal-adaptive_0.4.1\/paypal-adaptive.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/arr-flatten-unflatten_1.1.4/arr-flatten-unflatten.test.js
+PASS arr-flatten-unflatten_1.1.4/arr-flatten-unflatten.test.js
+  ✓ prototype pollution in arr-flatten-unflatten (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.347 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/arr-flatten-unflatten_1.1.4\/arr-flatten-unflatten.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/smart-extend_1.7.3/smart-extend.test.js
+PASS smart-extend_1.7.3/smart-extend.test.js
+  ✓ prototype pollution in smart-extend (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.338 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/smart-extend_1.7.3\/smart-extend.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/uifabric-utilities_7.20.2/uifabric-utilities.test.js
+PASS uifabric-utilities_7.20.2/uifabric-utilities.test.js
+  ✓ prototype pollution in @uifabric/utilities  (96 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.433 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/uifabric-utilities_7.20.2\/uifabric-utilities.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/think-helper_1.1.0/think-helper.test.js
+PASS think-helper_1.1.0/think-helper.test.js
+  ✓ prototype pollution in think-helper (12 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.344 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/think-helper_1.1.0\/think-helper.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/defaults-deep_0.2.0/defaults-deep.test.js
+PASS defaults-deep_0.2.0/defaults-deep.test.js
+  ✓ prototype pollution in defaults-deep  (9 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.352 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/defaults-deep_0.2.0\/defaults-deep.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/json-ptr_1.1.0/json-ptr.test.js
+PASS json-ptr_1.1.0/json-ptr.test.js
+  ✓ prototype pollution in json-ptr (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.342 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/json-ptr_1.1.0\/json-ptr.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/deep-get-set_1.1.0/deep-get-set.test.js
+PASS deep-get-set_1.1.0/deep-get-set.test.js
+  ✓ prototype pollution in deep-get-set (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.352 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/deep-get-set_1.1.0\/deep-get-set.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/keyget_2.2.0/keyget.test.js
+PASS keyget_2.2.0/keyget.test.js
+  ✓ prototype pollution in keyget (12 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.351 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/keyget_2.2.0\/keyget.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/jointjs_3.4.0/jointjs.test.js
+PASS jointjs_3.4.0/jointjs.test.js
+  ✓ prototype pollution in jointjs (110 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.45 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/jointjs_3.4.0\/jointjs.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/js-ini_1.2.0/js-ini.test.js
+PASS js-ini_1.2.0/js-ini.test.js
+  ✓ prototype pollution in js-ini (8 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.346 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/js-ini_1.2.0\/js-ini.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/safe-flat_2.0.0/safe-flat.test.js
+PASS safe-flat_2.0.0/safe-flat.test.js
+  ✓ prototype pollution in safeFlat (11 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.348 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/safe-flat_2.0.0\/safe-flat.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/ini_1.3.5/ini.test.js
+PASS ini_1.3.5/ini.test.js
+  ✓ prototype pollution in ini (8 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.341 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/ini_1.3.5\/ini.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/sahmat_1.0.0/sahmat.test.js
+PASS sahmat_1.0.0/sahmat.test.js
+  ✓ prototype pollution in sahmat (12 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.345 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/sahmat_1.0.0\/sahmat.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/keyd_1.3.4/keyd.test.js
+PASS keyd_1.3.4/keyd.test.js
+  ✓ prototype pollution in keyd (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.339 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/keyd_1.3.4\/keyd.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/confinit_0.3.0/confinit.test.js
+PASS confinit_0.3.0/confinit.test.js
+  ✓ prototype pollution in confinit (23 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.356 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/confinit_0.3.0\/confinit.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/merge-objects_1.0.3/merge-objects.test.js
+PASS merge-objects_1.0.3/merge-objects.test.js
+  ✓ prototype pollution in merge-objects (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.339 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/merge-objects_1.0.3\/merge-objects.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/defaults-deep_0.2.4/defaults-deep.test.js
+PASS defaults-deep_0.2.4/defaults-deep.test.js
+  ✓ prototype pollution in defaults-deep  (10 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.344 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/defaults-deep_0.2.4\/defaults-deep.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/hoek_5.0.0/hoek.test.js
+PASS hoek_5.0.0/hoek.test.js
+  ✓ prototype pollution in hoek (12 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.349 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/hoek_5.0.0\/hoek.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/object-path_0.11.4/object-path.test.js
+PASS object-path_0.11.4/object-path.test.js
+  ✓ prototype pollution in object-path (12 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.343 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/object-path_0.11.4\/object-path.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/json-pointer_0.6.0/json-pointer.test.js
+PASS json-pointer_0.6.0/json-pointer.test.js
+  ✓ prototype pollution in json-pointer (9 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.372 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/json-pointer_0.6.0\/json-pointer.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/node-dig_1.0.1/node-dig.test.js
+PASS node-dig_1.0.1/node-dig.test.js
+  ✓ prototype pollution in node-dig (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.352 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/node-dig_1.0.1\/node-dig.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/node-ini_1.0.0/node-ini.test.js
+PASS node-ini_1.0.0/node-ini.test.js
+  ✓ prototype pollution in node-ini (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.364 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/node-ini_1.0.0\/node-ini.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/js-data_3.0.9/js-data.test.js
+PASS js-data_3.0.9/js-data.test.js
+  ✓ prototype pollution in js-data (14 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.358 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/js-data_3.0.9\/js-data.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/cookiex-deep_0.0.6/cookiex-deep.test.js
+PASS cookiex-deep_0.0.6/cookiex-deep.test.js
+  ✓ prototype pollution in @cookiex/deep (11 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.34 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/cookiex-deep_0.0.6\/cookiex-deep.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/mithril_1.0.0/mithril.test.js
+PASS mithril_1.0.0/mithril.test.js
+  ✓ prototype pollution in mithril (21 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.351 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/mithril_1.0.0\/mithril.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/lyngs-merge_1.0.9/lyngs-merge.test.js
+PASS lyngs-merge_1.0.9/lyngs-merge.test.js
+  ✓ prototype pollution in @lyngs/merge (22 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.358 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/lyngs-merge_1.0.9\/lyngs-merge.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/set-in_1.0.0/set-in.test.js
+PASS set-in_1.0.0/set-in.test.js
+  ✓ prototype pollution in set-in (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.347 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/set-in_1.0.0\/set-in.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/nodee-utils_1.2.2/nodee-utils.test.js
+PASS nodee-utils_1.2.2/nodee-utils.test.js
+  ✓ prototype pollution in nodee-utils (218 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.564 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/nodee-utils_1.2.2\/nodee-utils.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/minimist_1.0.0/minimist.test.js
+PASS minimist_1.0.0/minimist.test.js
+  ✓ prototype pollution in minimist (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.336 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/minimist_1.0.0\/minimist.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/querymen_2.1.3/querymen.test.js
+PASS querymen_2.1.3/querymen.test.js
+  ✓ prototype pollution in querymen (36 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.374 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/querymen_2.1.3\/querymen.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/mquery_3.2.1/mquery.test.js
+PASS mquery_3.2.1/mquery.test.js
+  ✓ prototype pollution in mquery (74 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.406 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/mquery_3.2.1\/mquery.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/copy-props_2.0.4/copy-props.test.js
+PASS copy-props_2.0.4/copy-props.test.js
+  ✓ prototype pollution in copy-props (16 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.342 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/copy-props_2.0.4\/copy-props.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/nis-utils_0.6.10/nis-utils.test.js
+PASS nis-utils_0.6.10/nis-utils.test.js
+  ✓ prototype pollution in nis-utils (258 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.591 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/nis-utils_0.6.10\/nis-utils.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/firebase-util_0.3.2/firebase-util.test.js
+PASS firebase-util_0.3.2/firebase-util.test.js
+  ✓ prototype pollution in @firebase/util (9 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.356 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/firebase-util_0.3.2\/firebase-util.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/Templ8_0.7.0/Templ8.test.js
+PASS Templ8_0.7.0/Templ8.test.js
+  ✓ prototype pollution in Templ8 (20 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.348 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/Templ8_0.7.0\/Templ8.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/extend-merge_1.0.5/extend-merge.test.js
+PASS extend-merge_1.0.5/extend-merge.test.js
+  ✓ prototype pollution in extend-merge (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.352 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/extend-merge_1.0.5\/extend-merge.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/decal_2.0.0/decal.test.js
+PASS decal_2.0.0/decal.test.js
+  ✓ prototype pollution in decal (31 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.369 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/decal_2.0.0\/decal.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/libnested_1.5.0/libnested.test.js
+PASS libnested_1.5.0/libnested.test.js
+  ✓ prototype pollution in libnested (14 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.351 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/libnested_1.5.0\/libnested.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/predefine_0.1.2/predefine.test.js
+PASS predefine_0.1.2/predefine.test.js
+  ✓ prototype pollution in predefine (12 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.343 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/predefine_0.1.2\/predefine.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/think-config_1.0.0/poc.test.js
+PASS think-config_1.0.0/poc.test.js
+  ✓ prototype pollution in x-assign (14 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.343 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/think-config_1.0.0\/poc.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/total.js_3.4.6/total-js.test.js
+PASS total.js_3.4.6/total-js.test.js
+  ✓ prototype pollution in total.js (75 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.414 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/total.js_3.4.6\/total-js.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/merge_2.1.0/merge.test.js
+PASS merge_2.1.0/merge.test.js
+  ✓ prototype pollution in merge (8 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.341 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/merge_2.1.0\/merge.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/confucious_0.0.12/confucious.test.js
+PASS confucious_0.0.12/confucious.test.js
+  ✓ prototype pollution in confucious (34 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.372 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/confucious_0.0.12\/confucious.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/aws-sdk-shared-ini-file-loader_1.0.0-rc.8/aws-sdk-shared-ini-file-loader.test.js
+PASS aws-sdk-shared-ini-file-loader_1.0.0-rc.8/aws-sdk-shared-ini-file-loader.test.js
+  ✓ prototype pollution in @aws-sdk/shared-ini-file-loader (13 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.342 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/aws-sdk-shared-ini-file-loader_1.0.0-rc.8\/aws-sdk-shared-ini-file-loader.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/typeorm_0.2.24/TypeORM.test.js
+PASS typeorm_0.2.24/TypeORM.test.js
+  ✓ prototype pollution in typeORM (4 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.339 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/typeorm_0.2.24\/TypeORM.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/ts-nodash_1.2.1/ts-nodash.test.js
+PASS ts-nodash_1.2.1/ts-nodash.test.js
+  ✓ prototype pollution in ts-nodash (18 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.356 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/ts-nodash_1.2.1\/ts-nodash.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/asciitable.js_1.0.2/asciitable.test.js
+PASS asciitable.js_1.0.2/asciitable.test.js
+  ✓ Prototype pollution in asciitable.js (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.351 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/asciitable.js_1.0.2\/asciitable.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/fabiocaccamo-utils.js_0.17.0/fabiocaccamo-utils.test.js
+PASS fabiocaccamo-utils.js_0.17.0/fabiocaccamo-utils.test.js
+  ✓ prototype pollution in @fabiocaccamo/utils.js (11 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.357 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/fabiocaccamo-utils.js_0.17.0\/fabiocaccamo-utils.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/Proto_1.1.4/Proto.test.js
+PASS Proto_1.1.4/Proto.test.js
+  ✓ prototype pollution in Proto (9 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.333 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/Proto_1.1.4\/Proto.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/utilitify_1.0.2/utilitify.test.js
+PASS utilitify_1.0.2/utilitify.test.js
+  ✓ prototype pollution in utilitify (36 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.358 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/utilitify_1.0.2\/utilitify.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/deeply_3.0.0/deeply.test.js
+PASS deeply_3.0.0/deeply.test.js
+  ✓ prototype pollution in deeply  (15 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.38 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/deeply_3.0.0\/deeply.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/dot-notes_3.2.0/dot-notes.test.js
+PASS dot-notes_3.2.0/dot-notes.test.js
+  ✓ prototype pollution in dot-notes (11 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.341 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/dot-notes_3.2.0\/dot-notes.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/merge-change_1.0.1/merge-change.test.js
+PASS merge-change_1.0.1/merge-change.test.js
+  ✓ prototype pollution in merge-change (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.334 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/merge-change_1.0.1\/merge-change.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/field_1.0.1/field.test.js
+PASS field_1.0.1/field.test.js
+  ✓ prototype pollution in field  (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.341 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/field_1.0.1\/field.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/set-getter_0.1.0/set-getter.test.js
+PASS set-getter_0.1.0/set-getter.test.js
+  ✓ prototype pollution in set-getter  (10 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.342 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/set-getter_0.1.0\/set-getter.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/mixin-deep_2.0.0/mixin-deep.test.js
+PASS mixin-deep_2.0.0/mixin-deep.test.js
+  ✓ prototype pollution in mixin-deep  (12 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.343 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/mixin-deep_2.0.0\/mixin-deep.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/immer_8.0.0/immer.test.js
+PASS immer_8.0.0/immer.test.js
+  ✓ prototype pollution in immer (11 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.348 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/immer_8.0.0\/immer.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/multi-ini_2.1.0/multi-ini.test.js
+PASS multi-ini_2.1.0/multi-ini.test.js
+  ✓ prototype pollution in multi-ini (42 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.365 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/multi-ini_2.1.0\/multi-ini.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/simpl-schema_1.10.0/simpl-schema.test.js
+PASS simpl-schema_1.10.0/simpl-schema.test.js
+  ✓ prototype pollution in simpl-schema (42 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.375 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/simpl-schema_1.10.0\/simpl-schema.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/js-extend_0.0.1/js-extend.test.js
+PASS js-extend_0.0.1/js-extend.test.js
+  ✓ prototype pollution in js-extend (5 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.343 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/js-extend_0.0.1\/js-extend.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/rfc6902_4.0.2/rfc6902.test.js
+PASS rfc6902_4.0.2/rfc6902.test.js
+  ✓ prototype pollution in rfc6902 (10 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.341 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/rfc6902_4.0.2\/rfc6902.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/x-assign_0.1.4/x-assign.test.js
+PASS x-assign_0.1.4/x-assign.test.js
+  ✓ prototype pollution in x-assign (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.346 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/x-assign_0.1.4\/x-assign.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/putil-merge_3.0.0/putil-merge.test.js
+PASS putil-merge_3.0.0/putil-merge.test.js
+  ✓ prototype pollution in putil-merge (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.346 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/putil-merge_3.0.0\/putil-merge.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/iniparserjs_1.0.4/iniparserjs.test.js
+PASS iniparserjs_1.0.4/iniparserjs.test.js
+  ✓ prototype pollution in iniparserjs (35 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.382 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/iniparserjs_1.0.4\/iniparserjs.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    After: yes\n\n      at Object.<anonymous> (iniparserjs_1.0.4/iniparserjs.test.js:11:11)\n\n'
+prototype-pollution/properties-reader_2.0.0/properties-reader.test.js
+PASS properties-reader_2.0.0/properties-reader.test.js
+  ✓ prototype pollution in properties-reader (8 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.36 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/properties-reader_2.0.0\/properties-reader.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/linux-cmdline_1.0.0/linux-cmdline.test.js
+PASS linux-cmdline_1.0.0/linux-cmdline.test.js
+  ✓ prototype pollution in linux-cmdline (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.464 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/linux-cmdline_1.0.0\/linux-cmdline.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/prototyped.js_2.0.0/prototyped.test.js
+PASS prototyped.js_2.0.0/prototyped.test.js
+  ✓ prototype pollution in merge-recursive (7 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.369 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/prototyped.js_2.0.0\/prototyped.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/flat-wrap_1.0.2/flat-wrap.test.js
+PASS flat-wrap_1.0.2/flat-wrap.test.js
+  ✓ prototype pollution in flat-wrap (6 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.297 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/flat-wrap_1.0.2\/flat-wrap.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/vega-util_1.13.0/vega-util.test.js
+PASS vega-util_1.13.0/vega-util.test.js
+  ✓ prototype pollution in vega-util (12 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.291 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/vega-util_1.13.0\/vega-util.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/json8-merge-patch_1.0.1/json8-merge-patch.test.js
+PASS json8-merge-patch_1.0.1/json8-merge-patch.test.js
+  ✓ prototype pollution in json8-merge-patch (16 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.294 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/json8-merge-patch_1.0.1\/json8-merge-patch.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/ts-dot-prop_1.4.0/ts-dot-prop.test.js
+PASS ts-dot-prop_1.4.0/ts-dot-prop.test.js
+  ✓ prototype pollution in ts-dot-prop (15 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.304 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/ts-dot-prop_1.4.0\/ts-dot-prop.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/bmoor_0.8.11/bmoor.test.js
+PASS bmoor_0.8.11/bmoor.test.js
+  ✓ prototype pollution in bmoor (29 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.416 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/bmoor_0.8.11\/bmoor.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/fluentui-styles_0.47.15/fluentui-styles.test.js
+PASS fluentui-styles_0.47.15/fluentui-styles.test.js
+  ✓ prototype pollution in @fluentui/style  (106 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.916 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/fluentui-styles_0.47.15\/fluentui-styles.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/style-dictionary_2.10.2/style-dictionary.test.js
+PASS style-dictionary_2.10.2/style-dictionary.test.js
+  ✓ prototype pollution in style-dictionary (145 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.454 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/style-dictionary_2.10.2\/style-dictionary.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/y18n_3.2.1/y18n.test.js
+PASS y18n_3.2.1/y18n.test.js
+  ✓ prototype pollution in y18n (11 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.306 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/y18n_3.2.1\/y18n.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/101_1.0.0/101.test.js
+PASS 101_1.0.0/101.test.js
+  ✓ prototype pollution in 101/set (13 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.3 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/101_1.0.0\/101.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/record-like-deep-assign_1.0.1/record-like-deep-assign.test.js
+PASS record-like-deep-assign_1.0.1/record-like-deep-assign.test.js
+  ✓ prototype pollution in x-assign (5 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.294 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/record-like-deep-assign_1.0.1\/record-like-deep-assign.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/convict_6.0.0/convict.test.js
+PASS convict_6.0.0/convict.test.js
+  ✓ prototype pollution in node-dig (17 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.304 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/convict_6.0.0\/convict.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/strikeentco-set_1.0.0/strikeentco.test.js
+PASS strikeentco-set_1.0.0/strikeentco.test.js
+  ✓ prototype pollution in strikeentco/set  (5 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.301 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/strikeentco-set_1.0.0\/strikeentco.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/set-deep-prop_1.0.0/set-deep-prop.test.js
+PASS set-deep-prop_1.0.0/set-deep-prop.test.js
+  ✓ prototype pollution in safe-object2 (5 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.295 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/set-deep-prop_1.0.0\/set-deep-prop.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/mixin-deep_1.3.0/mixin-deep.test.js
+PASS mixin-deep_1.3.0/mixin-deep.test.js
+  ✓ prototype pollution in mixin-deep  (8 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.295 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/mixin-deep_1.3.0\/mixin-deep.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/locutus_2.0.11/locutus.test.js
+PASS locutus_2.0.11/locutus.test.js
+  ✓ prototype pollution in locutus (215 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.554 s, estimated 2 s
+Ran all test suites matching /prototype-pollution\/locutus_2.0.11\/locutus.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/dot-prop_2.0.0/dot-prop.test.js
+PASS dot-prop_2.0.0/dot-prop.test.js
+  ✓ prototype pollution in dot-prop (11 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.298 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/dot-prop_2.0.0\/dot-prop.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/plain-object-merge_1.0.1/plain-object-merge.test.js
+PASS plain-object-merge_1.0.1/plain-object-merge.test.js
+  ✓ prototype pollution in plain-object-merge (8 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.303 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/plain-object-merge_1.0.1\/plain-object-merge.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/lutils_2.4.0/lutils.test.js
+PASS lutils_2.4.0/lutils.test.js
+  ✓ prototype pollution in lutils (20 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.303 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/lutils_2.4.0\/lutils.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+prototype-pollution/safe-object2_1.0.3/safe-object2.test.js
+PASS safe-object2_1.0.3/safe-object2.test.js
+  ✓ prototype pollution in safe-object2 (31 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.329 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/safe-object2_1.0.3\/safe-object2.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    undefined\n\n      at node_modules/safe-object2/lib/index.js:1:1761\n          at Array.reduce (<anonymous>)\n\n'
+prototype-pollution/lyngs-digger_1.0.7/lyngs-digger.test.js
+PASS lyngs-digger_1.0.7/lyngs-digger.test.js
+  ✓ prototype pollution in @lyngs/digge (16 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.321 s, estimated 1 s
+Ran all test suites matching /prototype-pollution\/lyngs-digger_1.0.7\/lyngs-digger.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+root@f5f1a2f99d8d:/home/vulns4js/prototype-pollution# 
