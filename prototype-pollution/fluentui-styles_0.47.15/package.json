@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.50.0",
   "fixCommit": "n/a",
-  "sink": "./set.js:36"
+  "sink": "styles/dist/commonjs/deepmerge.ts:16:9"
 }

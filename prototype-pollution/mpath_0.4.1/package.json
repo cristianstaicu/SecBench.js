@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.8.4",
   "fixCommit": "https://github.com/aheckmann/mpath/commit/89402d2880d4ea3518480a8c9847c541f2d824fc",
-  "sink": "./set.js:36"
+  "sink": "lib/index.js:269:17"
 }

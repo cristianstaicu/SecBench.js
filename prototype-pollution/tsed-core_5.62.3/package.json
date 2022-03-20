@@ -9,5 +9,5 @@
   },
   "fixedVersion": "5.65.7",
   "fixCommit": "https://github.com/TypedProject/tsed/commit/1395773ddac35926cf058fc6da9fb8e82266761b",
-  "sink": "./set.js:36"
+  "sink": "core/src/utils/deepExtends.ts:36:15"
 }

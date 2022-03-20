@@ -1,0 +1,4602 @@
+FAIL  jquery_1.11.0/jquery.test.js
+● Console
+
+  console.log
+    sink ==> dist/jquery.js:230:21
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in jquery
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    10 |
+    11 |   $.extend(true, {}, JSON.parse('{"__proto__": {"polluted": "yes"}}'));
+  > 12 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    13 | });
+    14 |
+
+    at Object.<anonymous> (jquery_1.11.0/jquery.test.js:12:23)
+
+FAIL  mathjs_7.4.0/mathjs.test.js
+● Console
+
+  console.log
+    sink ==> lib/utils/object.js:131:17
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+  console.log
+    sink ==> lib/utils/object.js:79:18
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in mathjs 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |   mathjs.config(newConfig);
+    10 |
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (mathjs_7.4.0/mathjs.test.js:11:23)
+
+FAIL  set-or-get_1.2.10/set-or-get.test.js
+● Console
+
+  console.log
+    sink ==> build/utils.js:391:28
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in set-or-get
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   SetOrGet(obj, "__proto__", {}).polluted = "yes";
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (set-or-get_1.2.10/set-or-get.test.js:10:23)
+
+FAIL  i18next_19.7.0/i18next.test.js
+● prototype pollution in i18next 
+
+  TypeError: i18next.deepExtend is not a function
+
+    35 |   expect({}.polluted).toBe(undefined);
+    36 |
+  > 37 |   i18next.deepExtend(existingData, JSON.parse(translations), true);
+       |           ^
+    38 |
+    39 |   expect({}.polluted).toBe("yes");
+    40 | });
+
+    at Object.<anonymous> (i18next_19.7.0/i18next.test.js:37:11)
+
+FAIL  grunt-util-property_0.0.2/grunt-util-property.test.js
+● Console
+
+  console.log
+    sink ==> main.js:41:21
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in grunt-util-property
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |   b.call({}, "__proto__.polluted", "yes");
+    10 |
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (grunt-util-property_0.0.2/grunt-util-property.test.js:11:23)
+
+FAIL  nis-utils_0.6.10/nis-utils.test.js
+● Console
+
+  console.log
+    sink ==> lib/object.js:166:40
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in nis-utils
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   nisUtils.object.setValue({}, "__proto__.polluted", "yes");
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (nis-utils_0.6.10/nis-utils.test.js:10:23)
+
+FAIL  merge-change_1.0.1/merge-change.test.js
+● Console
+
+  console.log
+    sink ==> utils.js:63:26
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in merge-change
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   utils.set(obj, ["__proto__", "polluted"], "yes");
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (merge-change_1.0.1/merge-change.test.js:10:23)
+
+FAIL  mout_1.0.0/mout.test.js
+● Console
+
+  console.log
+    sink ==> object/set.js:9:48
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in mout 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   mout.object.set(obj, "__proto__.polluted", "yes");
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (mout_1.0.0/mout.test.js:10:23)
+
+FAIL  ianwalter-merge_9.0.1/@ianwalter-merge.test.js
+● prototype pollution in @ianwalter/merge
+
+  TypeError: Cannot redefine property: polluted
+      at Function.defineProperty (<anonymous>)
+
+     6 |
+     7 |   let EVIL_JSON = JSON.parse('{"__proto__":{"polluted":"yes"}}');
+  >  8 |   merge({}, EVIL_JSON);
+       |   ^
+     9 |   expect({}.polluted).toBe("yes");
+    10 | });
+    11 |
+
+    at Object.merge (node_modules/@ianwalter/merge/dist/merge.js:29:18)
+    at merge (node_modules/@ianwalter/merge/dist/merge.js:24:36)
+    at Object.<anonymous> (ianwalter-merge_9.0.1/@ianwalter-merge.test.js:8:3)
+
+FAIL  Proto_1.1.4/Proto.test.js
+● prototype pollution in Proto
+
+  TypeError: Cannot redefine property: polluted
+      at Function.defineProperty (<anonymous>)
+
+    at String.<anonymous> (node_modules/Proto/dist/Proto.cjs.js:598:13)
+    at apply (node_modules/Proto/dist/Proto.cjs.js:107:23)
+    at resolveProperty (node_modules/Proto/dist/Proto.cjs.js:351:10)
+    at eachProperty (node_modules/Proto/dist/Proto.cjs.js:371:19)
+    at each (node_modules/Proto/dist/Proto.cjs.js:414:9)
+    at Object.<anonymous> (node_modules/Proto/dist/Proto.cjs.js:593:3)
+    at eachValue (node_modules/Proto/dist/Proto.cjs.js:394:21)
+    at each (node_modules/Proto/dist/Proto.cjs.js:413:33)
+    at merge (node_modules/Proto/dist/Proto.cjs.js:592:2)
+
+FAIL  mootools_1.5.2/mootools.test.js
+● Console
+
+  console.log
+    sink ==> lib/mootools-core-1.5.2-server.js:355:24
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in mootools
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   Object.merge({}, JSON.parse('{"__proto__": {"polluted": "yes"}}'));
+     8 |
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (mootools_1.5.2/mootools.test.js:9:23)
+
+FAIL  typeorm_0.2.24/TypeORM.test.js
+● Console
+
+  console.log
+    sink ==> build/utils.js:391:28
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in typeORM
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    46 |
+    47 |   util.OrmUtils.mergeDeep(a, b);
+  > 48 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    49 | });
+    50 |
+
+    at Object.<anonymous> (typeorm_0.2.24/TypeORM.test.js:48:23)
+
+FAIL  style-dictionary_2.10.2/style-dictionary.test.js
+● Console
+
+  console.log
+    sink ==> lib/utils/deepExtend.js:76:26
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+  console.log
+    sink ==> lib/utils/deepExtend.js:76:26
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in style-dictionary
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   StyleDictionary.extend(opts);
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (style-dictionary_2.10.2/style-dictionary.test.js:10:23)
+
+FAIL  immer_8.0.0/immer.test.js
+● Console
+
+  console.log
+    sink ==> src/plugins/patches.ts:245:16
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in immer
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |   ]);
+    10 |
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (immer_8.0.0/immer.test.js:11:23)
+
+FAIL  fluentui-styles_0.47.15/fluentui-styles.test.js
+● Console
+
+  console.log
+    sink ==> styles/dist/commonjs/deepmerge.ts:16:9
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in @fluentui/style 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    12 |   let x = styles.deepmerge(source2, JSON.parse(malicious_payload));
+    13 |
+  > 14 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    15 | });
+    16 |
+
+    at Object.<anonymous> (fluentui-styles_0.47.15/fluentui-styles.test.js:14:23)
+
+FAIL  ts-nodash_1.2.1/ts-nodash.test.js
+● Console
+
+  console.log
+    sink ==> lib/Merge.js:43:31
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in ts-nodash
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |   nodash.Merge({}, EVIL_JSON);
+    10 |
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (ts-nodash_1.2.1/ts-nodash.test.js:11:23)
+
+FAIL  worksmith_1.0.0/worksmith.test.js
+● Console
+
+  console.log
+    sink ==> index.js:300:30
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in worksmith
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   worksmith.setValue({}, "__proto__.polluted", "yes");
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (worksmith_1.0.0/worksmith.test.js:10:23)
+
+FAIL  js-data_3.0.9/js-data.test.js
+● Console
+
+  console.log
+    sink ==> src/utils.js:487:18
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in js-data
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   utils.deepMixIn({}, source);
+     8 |
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (js-data_3.0.9/js-data.test.js:9:23)
+
+FAIL  jointjs_2.2.1/jointjs.test.js
+● Console
+
+  console.log
+    sink ==> dist/joint.min.js:49:1313
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in jointjs
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   jointjs.util.setByPath({}, "__proto__/polluted", "yes", "/");
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (jointjs_2.2.1/jointjs.test.js:8:23)
+
+FAIL  sahmat_1.0.0/sahmat.test.js
+● Console
+
+  console.log
+    sink ==> build/utils.js:391:28
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in sahmat
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   sahmat(obj, "tmp", (obj.__proto__.polluted = "yes"));
+     9 |
+  > 10 |   expect(obj.tmp.polluted).toBe("yes");
+       |                            ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (sahmat_1.0.0/sahmat.test.js:10:28)
+
+FAIL  algoliasearch-helper_3.6.0/algoliasearch-helper.test.js
+● Console
+
+  console.log
+    sink ==> src/functions/merge.js:38:19
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in algoliasearch-helper
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   algohelp.SearchParameters._parseNumbers(payload); // {}
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (algoliasearch-helper_3.6.0/algoliasearch-helper.test.js:10:23)
+
+FAIL  uifabric-utilities_7.20.2/uifabric-utilities.test.js
+● Console
+
+  console.log
+    sink ==> utilities/src/merge.ts:33:21
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in @uifabric/utilities 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    11 |   y = util.merge(source2, JSON.parse(malicious_payload));
+    12 |
+  > 13 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    14 | });
+    15 |
+
+    at Object.<anonymous> (uifabric-utilities_7.20.2/uifabric-utilities.test.js:13:23)
+
+FAIL  object-collider_1.0.3/object-collider.test.js
+● Console
+
+  console.log
+    sink ==> src/utils/CollideUtil.ts:83:22
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in object-collider
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |
+    10 |   collide(obj, payload);
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (object-collider_1.0.3/object-collider.test.js:11:23)
+
+FAIL  swiper_6.5.0/swiper.test.js
+● Console
+
+  console.log
+    sink ==> cjs/utils/utils.js:110:25
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in swiper
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   swiper.default.extendDefaults(JSON.parse(malicious_payload));
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (swiper_6.5.0/swiper.test.js:10:23)
+
+FAIL  nodee-utils_1.2.2/nodee-utils.test.js
+● Console
+
+  console.log
+    sink ==> lib/object.js:210:40
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in nodee-utils
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   object.deepSet({}, "__proto__.polluted", "yes");
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (nodee-utils_1.2.2/nodee-utils.test.js:10:23)
+
+FAIL  tsed-core_5.62.3/tsed-core.test.js
+● Console
+
+  console.log
+    sink ==> core/src/utils/deepExtends.ts:36:15
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in @tsed/core
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    10 |
+    11 |   let result = deepExtends({ security: [{ 1: "o" }] }, payload);
+  > 12 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    13 | });
+    14 |
+
+    at Object.<anonymous> (tsed-core_5.62.3/tsed-core.test.js:12:23)
+
+FAIL  jointjs_3.4.0/jointjs.test.js
+● Console
+
+  console.log
+    sink ==> dist/joint.min.js:8:103865
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in jointjs
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   jointjs.util.setByPath({}, [["__proto__"], "polluted"], "yes");
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+    11 | // jointjs.util.setByPath({}, 'proto/polluted', 'yes');
+
+    at Object.<anonymous> (jointjs_3.4.0/jointjs.test.js:8:23)
+
+FAIL  mquery_3.2.1/mquery.test.js
+● Console
+
+  console.log
+    sink ==> lib/utils.js:137:15
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in mquery
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   var m = mquery(payload);
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (mquery_3.2.1/mquery.test.js:10:23)
+
+FAIL  total.js_3.4.6/total-js.test.js
+● Console
+
+  console.log
+    sink ==> utils.js:6624:11, <anonymous>:3:133
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in total.js
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   U.set({}, "__proto__.polluted", "yes");
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (total.js_3.4.6/total-js.test.js:9:23)
+
+FAIL  changeset_0.1.0/changeset.test.js
+● Console
+
+  console.log
+    sink ==> index.js:81:25
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in changeset
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   changeset.apply(patch, {}, true);
+     8 |
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (changeset_0.1.0/changeset.test.js:9:23)
+
+FAIL  class-transformer_0.1.1/class-transformer.test.js
+● Console
+
+  console.log
+    sink ==> TransformOperationExecutor.ts:163:46
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in class-transformer
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   root.classToPlainFromExist(payload, {});
+     8 |
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (class-transformer_0.1.1/class-transformer.test.js:9:23)
+
+FAIL  utilitify_1.0.2/utilitify.test.js
+● Console
+
+  console.log
+    sink ==> utils/utils/mergeDeep.ts:17:18
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in utilitify
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    11 |   );
+    12 |
+  > 13 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    14 | });
+    15 |
+
+    at Object.<anonymous> (utilitify_1.0.2/utilitify.test.js:13:23)
+
+FAIL  deep-override_1.0.0/deep-override.test.js
+● Console
+
+  console.log
+    sink ==> src/index.js:53:23
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in deep-override
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   deepOverride({}, JSON.parse('{ "__proto__": { "polluted": "yes" }}'));
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (deep-override_1.0.0/deep-override.test.js:8:23)
+
+FAIL  node-forge_0.9.0/node-forge.test.js
+● Console
+
+  console.log
+    sink ==> lib/util.js:2536:22
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in node-forge
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   nodeforge.util.setPath(obj, ["__proto__", "polluted"], "yes");
+     8 |
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (node-forge_0.9.0/node-forge.test.js:9:23)
+
+FAIL  firebase-util_0.3.3-canary.c47ba31d0/firebase-util.test.js
+● Console
+
+  console.log
+    sink ==> util/src/deepCopy.ts:68:49
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in @firebase/util
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    19 |
+    20 |   var result = util.deepExtend(a, payload);
+  > 21 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    22 | });
+    23 |
+
+    at Object.<anonymous> (firebase-util_0.3.3-canary.c47ba31d0/firebase-util.test.js:21:23)
+
+FAIL  paypal-adaptive_0.4.1/paypal-adaptive.test.js
+● Console
+
+  console.log
+    sink ==> lib/paypal-adaptive.js:31:22
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in paypal-adaptive
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    11 |   );
+    12 |
+  > 13 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    14 | });
+    15 |
+
+    at Object.<anonymous> (paypal-adaptive_0.4.1/paypal-adaptive.test.js:13:23)
+
+FAIL  confucious_0.0.12/confucious.test.js
+● Console
+
+  console.log
+    sink ==> confucious.js:48:21
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in confucious
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   confucious.set("__proto__:polluted", "yes");
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (confucious_0.0.12/confucious.test.js:8:23)
+
+FAIL  multi-ini_2.1.0/multi-ini.test.js
+● Console
+
+  console.log
+    sink ==> lib/parser.js:193:38
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+  console.log
+    sink ==> lib/parser.js:217:31
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in multi-ini
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   ini.read(path.resolve(__dirname, "./payload.toml"), { encoding: "utf8" });
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (multi-ini_2.1.0/multi-ini.test.js:9:23)
+
+FAIL  simpl-schema_1.10.0/simpl-schema.test.js
+● Console
+
+  console.log
+    sink ==> dist/utility/merge.js:31:27
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in simpl-schema
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |     JSON.parse('{"__proto__":{"polluted":"yes"}}')
+    10 |   );
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (simpl-schema_1.10.0/simpl-schema.test.js:11:23)
+
+FAIL  decal_2.1.3/decal.test.js
+● Console
+
+  console.log
+    sink ==> src/utils/extend.js:50:62
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in decal
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   decal.extend({}, true, o);
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (decal_2.1.3/decal.test.js:10:23)
+
+FAIL  supermixer_1.0.3/supermixer.test.js
+● Console
+
+  console.log
+    sink ==> dist/mixer.js:86:19
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in supermixer
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |
+    10 |   mixer.merge({}, JSON.parse(payload));
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (supermixer_1.0.3/supermixer.test.js:11:23)
+
+FAIL  field_1.0.1/field.test.js
+● Console
+
+  console.log
+    sink ==> lib/field.js:50:20
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in field 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   field.set(obj, "__proto__.polluted", "yes");
+     8 |
+  >  9 |   expect(obj.polluted).toBe("yes");
+       |                        ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (field_1.0.1/field.test.js:9:24)
+
+FAIL  bodymen_1.0.0/bodymen.test.js
+● Console
+
+  console.log
+    sink ==> dist/index.js:44:26
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in bodymen 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   x.handler("__proto__", "polluted", "yes");
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (bodymen_1.0.0/bodymen.test.js:9:23)
+
+FAIL  decal_2.0.0/decal.test.js
+● Console
+
+  console.log
+    sink ==> src/utils/set.js:62:21
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in decal
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    5 |   expect({}.polluted).toBe(undefined);
+    6 |   decal.set({}, "__proto__.polluted", "yes");
+  > 7 |   expect({}.polluted).toBe("yes");
+      |                       ^
+    8 | });
+    9 |
+
+    at Object.<anonymous> (decal_2.0.0/decal.test.js:7:23)
+
+FAIL  firebase-util_0.3.2/firebase-util.test.js
+● Console
+
+  console.log
+    sink ==> util/src/deepCopy.ts:68:49
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in @firebase/util
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   utils.deepExtend({}, source);
+     8 |
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (firebase-util_0.3.2/firebase-util.test.js:9:23)
+
+FAIL  safe-obj_1.0.0/safe-obj.test.js
+● Console
+
+  console.log
+    sink ==> lib/index.js:122:28
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in safeObj
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   safeObj.expand(obj, "__proto__.polluted", "yes");
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (safe-obj_1.0.0/safe-obj.test.js:10:23)
+
+FAIL  fast-json-patch_2.0.4/fast-json-patch.test.js
+● Console
+
+  console.log
+    sink ==> lib/core.js:28:18
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in fast-json-patch
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   fp.applyPatch({}, patch);
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (fast-json-patch_2.0.4/fast-json-patch.test.js:9:23)
+
+FAIL  lodash_4.17.15/lodash.test.js
+● Console
+
+  console.log
+    sink ==> lodash.js:2559:21
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+  console.log
+    sink ==> lodash.js:2559:21
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in lodash
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     5 |   expect({}.polluted).toBe(undefined);
+     6 |   lod.set(obj, "__proto__[polluted]", "yes");
+  >  7 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     8 |   delete obj.__proto__.polluted; // deletes the property set by this pollution
+     9 | });
+    10 |
+
+    at Object.<anonymous> (lodash_4.17.15/lodash.test.js:7:23)
+
+● prototype pollution in lodash
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    13 |   expect({}.polluted).toBe(undefined);
+    14 |   lod.setWith({}, "__proto__[polluted]", "yes");
+  > 15 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    16 | });
+    17 |
+
+    at Object.<anonymous> (lodash_4.17.15/lodash.test.js:15:23)
+
+FAIL  deep-defaults_1.0.5/deep-defaults.test.js
+● Console
+
+  console.log
+    sink ==> lib/index.js:16:21
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in dot-object 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |   deepDefaults(obj, JSON.parse(malicious_payload));
+    10 |
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (deep-defaults_1.0.5/deep-defaults.test.js:11:23)
+
+FAIL  record-like-deep-assign_1.0.1/record-like-deep-assign.test.js
+● Console
+
+  console.log
+    sink ==> src/mod.ts:34:9
+
+    at Object.to (sink-extraction-setup.js:21:17)
+
+● prototype pollution in x-assign
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |   deepAssign({}, EVIL_JSON);
+    10 |
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (record-like-deep-assign_1.0.1/record-like-deep-assign.test.js:11:23)
+
+FAIL  merge-deep2_3.0.5/merge-deep2.test.js
+● Console
+
+  console.log
+    sink ==> index.js:45:19
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in merge-deep2
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   mergeDeep2({}, JSON.parse(malicious_payload), true);
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (merge-deep2_3.0.5/merge-deep2.test.js:10:23)
+
+FAIL  safe-flat_2.0.0/safe-flat.test.js
+● Console
+
+  console.log
+    sink ==> src/index.js:48:30
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.reduce (<anonymous>)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in safeFlat
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   safeFlat.unflatten({ "__proto__.polluted": "yes" }, "."); //payload
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (safe-flat_2.0.0/safe-flat.test.js:9:23)
+
+FAIL  utils-extend_1.0.8/utils-extend.test.js
+● Console
+
+  console.log
+    sink ==> index.js:46:19
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in utils-extend
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    11 |   extend({}, pollutionObject);
+    12 |
+  > 13 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    14 | });
+    15 |
+
+    at Object.<anonymous> (utils-extend_1.0.8/utils-extend.test.js:13:23)
+
+FAIL  querymen_2.1.3/querymen.test.js
+● Console
+
+  console.log
+    sink ==> dist/index.js:46:26
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in querymen
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   a.handler("__proto__", "polluted", "yes");
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (querymen_2.1.3/querymen.test.js:9:23)
+
+FAIL  sds_3.2.0/sds.test.js
+● Console
+
+  console.log
+    sink ==> js:34:13
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in sds
+
+  thrown: "couldn't set value true for keypath __proto__.polluted in {}"
+
+    1 | //https://snyk.io/vuln/SNYK-JS-SDS-564123
+  > 2 | test("prototype pollution in sds", () => {
+      | ^
+    3 |   const root = require("sds");
+    4 |
+    5 |   obj = {};
+
+    at Object.<anonymous> (sds_3.2.0/sds.test.js:2:1)
+
+FAIL  gammautils_0.0.81/gammautils.test.js
+● Console
+
+  console.log
+    sink ==> lib/objectUtils.js:146:34
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in gammautils
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   gammautils.object.deepMerge({}, payload);
+     8 |
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (gammautils_0.0.81/gammautils.test.js:9:23)
+
+FAIL  deeply_3.0.0/deeply.test.js
+● Console
+
+  console.log
+    sink ==> lib/reduce_object.js:19:14
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.reduce (<anonymous>)
+        at Array.reduce (<anonymous>)
+
+● prototype pollution in deeply 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   mergeFn({}, JSON.parse(payload));
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (deeply_3.0.0/deeply.test.js:10:23)
+
+FAIL  merge-deep_3.0.0/merge-deep.test.js
+● Console
+
+  console.log
+    sink ==> index.js:45:19
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in merge-deep
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   merge({}, JSON.parse(malicious_payload));
+     8 |
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (merge-deep_3.0.0/merge-deep.test.js:9:23)
+
+FAIL  ts-dot-prop_1.4.0/ts-dot-prop.test.js
+● Console
+
+  console.log
+    sink ==> src/index.ts:72:21
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in ts-dot-prop
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   tsDot.set(obj, "__proto__.polluted", "yes");
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (ts-dot-prop_1.4.0/ts-dot-prop.test.js:9:23)
+
+FAIL  bmoor_0.8.11/bmoor.test.js
+● Console
+
+  console.log
+    sink ==> src/core.js:194:18
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in bmoor
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   bmoor.set({}, "__proto__.polluted", "yes");
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (bmoor_0.8.11/bmoor.test.js:8:23)
+
+FAIL  objtools_3.0.0/objtools.test.js
+● Console
+
+  console.log
+    sink ==> lib/index.js:440:18
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in objtools
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |
+    10 |   objtools.merge({}, payload);
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (objtools_3.0.0/objtools.test.js:11:23)
+
+FAIL  inireader_1.0.0/inireader.test.js
+● Console
+
+  console.log
+    sink ==> lib/inireadercore.js:310:60
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in inireader
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |
+    10 |   parser.load(path.resolve(__dirname, "./payload.ini"));
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (inireader_1.0.0/inireader.test.js:11:23)
+
+FAIL  mithril_1.0.0/mithril.test.js
+● Console
+
+  console.log
+    sink ==> mithril.js:982:19
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in mithril
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   m.parseQueryString("__proto__%5Bpolluted%5D=yes");
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (mithril_1.0.0/mithril.test.js:10:23)
+
+FAIL  iniparserjs_1.0.4/iniparserjs.test.js
+● Console
+
+  console.log
+    sink ==> ini_parser.js:63:50
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+  console.log
+    After: undefined
+
+    at Object.<anonymous> (iniparserjs_1.0.4/iniparserjs.test.js:11:11)
+
+● prototype pollution in iniparserjs
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    11 |   console.log("After:", {}.polluted);
+    12 |
+  > 13 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    14 | });
+    15 |
+
+    at Object.<anonymous> (iniparserjs_1.0.4/iniparserjs.test.js:13:23)
+
+FAIL  gedi_1.6.3/gedi.test.js
+● Console
+
+  console.log
+    sink ==> gedi.js:393:32
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in gedi
+
+  TypeError: Cannot set properties of undefined (setting '_isDirty_')
+
+    4 |
+    5 |   const gedi = require("gedi");
+  > 6 |   gedi().set("[__proto__/polluted]", "yes");
+      |          ^
+    7 |
+    8 |   expect({}.polluted).toBe("yes");
+    9 | });
+
+    at setPathDirtyState (node_modules/gedi/gedi.js:394:45)
+    at node_modules/gedi/gedi.js:408:13
+    at getSourcePathInfo (node_modules/gedi/gedi.js:265:13)
+    at setDirtyState (node_modules/gedi/gedi.js:407:9)
+    at modelSetPath (node_modules/gedi/gedi.js:275:9)
+    at node_modules/gedi/gedi.js:302:13
+    at getSourcePathInfo (node_modules/gedi/gedi.js:265:13)
+    at Gedi.set (node_modules/gedi/gedi.js:301:9)
+    at Object.<anonymous> (gedi_1.6.3/gedi.test.js:6:10)
+
+FAIL  lodash_4.17.11/lodash.test.js
+● Console
+
+  console.log
+    sink ==> lodash.js:2559:21
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in lodash
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   _.zipObjectDeep(["__proto__.polluted"], ["yes"]);
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (lodash_4.17.11/lodash.test.js:8:23)
+
+FAIL  lodash_4.17.10/lodash.test.js
+● Console
+
+  console.log
+    sink ==> lodash.js:2573:21
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in lodash
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   mergeFn({}, JSON.parse(payload));
+     8 |
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (lodash_4.17.10/lodash.test.js:9:23)
+
+FAIL  lodash_4.17.9/lodash.test.js
+● Console
+
+  console.log
+    sink ==> lodash.js:2573:21
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in lodash
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   expect({}.polluted).toBe(undefined);
+     8 |   _.merge({}, payload);
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (lodash_4.17.9/lodash.test.js:9:23)
+
+FAIL  nconf-toml_0.0.1/nconf-toml.test.js
+● Console
+
+  console.log
+    sink ==> lib/compiler.js:55:18
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in nconf-toml
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    10 |   nt.parse(fs.readFileSync(path.resolve(__dirname, "./payload.toml"), "utf-8"));
+    11 |
+  > 12 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    13 | });
+    14 |
+
+    at Object.<anonymous> (nconf-toml_0.0.1/nconf-toml.test.js:12:23)
+
+FAIL  defaults-deep_0.2.4/defaults-deep.test.js
+● Console
+
+  console.log
+    sink ==> index.js:26:21
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in defaults-deep 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    11 |   );
+    12 |   defaultsDeep({}, payload);
+  > 13 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    14 | });
+    15 |
+
+    at Object.<anonymous> (defaults-deep_0.2.4/defaults-deep.test.js:13:23)
+
+FAIL  prototyped.js_2.0.0/prototyped.test.js
+● Console
+
+  console.log
+    sink ==> lib/index.js:66:14
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in merge-recursive
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |   merge({}, JSON.parse(malicious_payload));
+    10 |
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (prototyped.js_2.0.0/prototyped.test.js:11:23)
+
+FAIL  convict_6.0.0/convict.test.js
+● Console
+
+  console.log
+    sink ==> src/main.js:565:24
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in node-dig
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   config.set("__proto__.polluted", "yes");
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (convict_6.0.0/convict.test.js:10:23)
+
+FAIL  confinit_0.3.0/confinit.test.js
+● Console
+
+  console.log
+    sink ==> index.ts:112:15
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in confinit
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   root.setDeepProperty({}, payload, "yes");
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (confinit_0.3.0/confinit.test.js:10:23)
+
+FAIL  phpjs_1.3.2/phpjs.test.js
+● Console
+
+  console.log
+    sink ==> build/npm.js:6406:24
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+  console.log
+    sink ==> build/npm.js:6421:22
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in phpjs
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   p.parse_str("__proto__[polluted]=yes", {});
+     8 |
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (phpjs_1.3.2/phpjs.test.js:9:23)
+
+FAIL  101_1.0.0/101.test.js
+● Console
+
+  console.log
+    sink ==> index.js:32:16
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in 101/set
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    5 |   _101({}, "__proto__.polluted", "yes");
+    6 |
+  > 7 |   expect({}.polluted).toBe("yes");
+      |                       ^
+    8 | });
+    9 |
+
+    at Object.<anonymous> (101_1.0.0/101.test.js:7:23)
+
+FAIL  cached-path-relative_1.0.1/cached-path-relative.test.js
+● Console
+
+  console.log
+    sink ==> lib/index.js:39:19
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in cached-path-relative
+
+  expect(received).not.toBe(expected) // Object.is equality
+
+  Expected: not undefined
+
+     6 |   relative("__proto__", "polluted");
+     7 |
+  >  8 |   expect({}.polluted).not.toBe(undefined);
+       |                           ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (cached-path-relative_1.0.1/cached-path-relative.test.js:8:27)
+
+FAIL  node-dig_1.0.1/node-dig.test.js
+● Console
+
+  console.log
+    sink ==> lib/dig/index.js:4:33
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in node-dig
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    5 |
+    6 |   nodeDig({}, ["__proto__", "polluted"], "yes");
+  > 7 |   expect({}.polluted).toBe("yes");
+      |                       ^
+    8 | });
+    9 |
+
+    at Object.<anonymous> (node-dig_1.0.1/node-dig.test.js:7:23)
+
+FAIL  cookiex-deep_0.0.6/cookiex-deep.test.js
+● Console
+
+  console.log
+    sink ==> deep/dist/assigner.js:13:31
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+        at Array.reduce (<anonymous>)
+
+● prototype pollution in @cookiex/deep
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   deep.default(target, JSON.parse('{"__proto__":{"polluted":"yes"}}'));
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (cookiex-deep_0.0.6/cookiex-deep.test.js:8:23)
+
+FAIL  dot-notes_3.2.0/dot-notes.test.js
+● Console
+
+  console.log
+    sink ==> lib/create.js:43:19
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in dot-notes
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   dots.create({}, "__proto__.polluted", "yes");
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (dot-notes_3.2.0/dot-notes.test.js:8:23)
+
+FAIL  libnested_1.5.0/libnested.test.js
+● Console
+
+  console.log
+    sink ==> index.js:27:20
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in libnested
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   libnested.set({}, ["__proto__", "polluted"], "yes");
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (libnested_1.5.0/libnested.test.js:8:23)
+
+FAIL  json8-merge-patch_1.0.1/json8-merge-patch.test.js
+● Console
+
+  console.log
+    sink ==> lib/apply.js:25:12
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in json8-merge-patch
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |   );
+    10 |
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (json8-merge-patch_1.0.1/json8-merge-patch.test.js:11:23)
+
+FAIL  objnest_5.0.0/objnest.test.js
+● Console
+
+  console.log
+    sink ==> lib/objnest.js:44:35
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in objnest
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   objnest.expand({ "__proto__.polluted": "yes" });
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (objnest_5.0.0/objnest.test.js:9:23)
+
+FAIL  merge-recursive_0.0.3/merge-recursive.test.js
+● Console
+
+  console.log
+    sink ==> lib/index.js:66:14
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in merge-recursive
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |   merge({}, JSON.parse(malicious_payload));
+    10 |
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (merge-recursive_0.0.3/merge-recursive.test.js:11:23)
+
+FAIL  think-helper_1.1.0/think-helper.test.js
+● Console
+
+  console.log
+    sink ==> index.js:122:22
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in think-helper
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   a.extend(obj, JSON.parse('{"__proto__":{"polluted":"yes"}}'));
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (think-helper_1.1.0/think-helper.test.js:10:23)
+
+FAIL  copy-props_2.0.4/copy-props.test.js
+● Console
+
+  console.log
+    sink ==> index.js:197:14
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in copy-props
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   copyProps(JSON.parse(malicious_payload), {});
+     8 |
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (copy-props_2.0.4/copy-props.test.js:9:23)
+
+FAIL  madlib-object-utils_0.1.6/madlib-object-utils.test.js
+● Console
+
+  console.log
+    sink ==> lib/utils.js:56:22
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+  console.log
+    sink ==> lib/utils.js:60:24
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in madlib-object-utils
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   objectUtils.setValue("__proto__.polluted", {}, "yes");
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (madlib-object-utils_0.1.6/madlib-object-utils.test.js:8:23)
+
+FAIL  lyngs-digger_1.0.7/lyngs-digger.test.js
+● Console
+
+  console.log
+    sink ==> digger/dist/index.js:2120:23
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in @lyngs/digge
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    4 |   expect({}.polluted).toBe(undefined);
+    5 |   digger({}, "__proto__.polluted", "yes", { extend: true });
+  > 6 |   expect({}.polluted).toBe("yes");
+      |                       ^
+    7 | });
+    8 |
+
+    at Object.<anonymous> (lyngs-digger_1.0.7/lyngs-digger.test.js:6:23)
+
+FAIL  node-extend_1.0.0/node-extend.test.js
+● Console
+
+  console.log
+    sink ==> lib/extend.js:86:26
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in node.extend 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   extend(true, {}, JSON.parse('{"__proto__": {"polluted": "yes"}}'));
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (node-extend_1.0.0/node-extend.test.js:9:23)
+
+FAIL  lutils_2.4.0/lutils.test.js
+● Console
+
+  console.log
+    sink ==> merge/merge.ts:114:18
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in lutils
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   lt.merge({}, EVIL_JSON);
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (lutils_2.4.0/lutils.test.js:10:23)
+
+FAIL  rdf-graph-array_0.3.0/rdf-graph-array.test.js
+● Console
+
+  console.log
+    sink ==> index.js:208:29
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in rdf-graph-array
+
+  TypeError: Cannot read properties of undefined (reading 'JHU')
+
+     6 |   expect({}.polluted).toBe(undefined);
+     7 |
+  >  8 |   g.add({
+       |     ^
+     9 |     graph: "foo",
+    10 |     subject: "__proto__",
+    11 |     predicate: "polluted",
+
+    at Object.<anonymous>.rdf.Graph.add (node_modules/rdf-graph-array/index.js:210:33)
+    at Object.<anonymous> (rdf-graph-array_0.3.0/rdf-graph-array.test.js:8:5)
+
+FAIL  getobject_0.1.0/getobject.test.js
+● Console
+
+  console.log
+    Before  : undefined
+
+    at Object.<anonymous> (getobject_0.1.0/getobject.test.js:7:11)
+
+  console.log
+    sink ==> lib/getobject.js:48:23
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in getobject
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   getObject.set(obj, "__proto__.polluted", "yes");
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (getobject_0.1.0/getobject.test.js:10:23)
+
+FAIL  linux-cmdline_1.0.0/linux-cmdline.test.js
+● Console
+
+  console.log
+    sink ==> index.js:48:15
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in linux-cmdline
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   linuxCmdline("__proto__.polluted=yes");
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (linux-cmdline_1.0.0/linux-cmdline.test.js:8:23)
+
+FAIL  patchmerge_1.0.1/patchmerge.test.js
+● Console
+
+  console.log
+    sink ==> index.js:93:24
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in patchMerge
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    5 |   expect({}.polluted).toBe(undefined);
+    6 |   patchMerge(obj, JSON.parse('{"__proto__": { "polluted": "yes" }}'));
+  > 7 |   expect({}.polluted).toBe("yes");
+      |                       ^
+    8 | });
+    9 |
+
+    at Object.<anonymous> (patchmerge_1.0.1/patchmerge.test.js:7:23)
+
+FAIL  json-ptr_1.1.0/json-ptr.test.js
+● Console
+
+  console.log
+    sink ==> index.js:277:26
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in json-ptr
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   JsonPointer.set({}, "/constructor/prototype/polluted", "yes", true);
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (json-ptr_1.1.0/json-ptr.test.js:8:23)
+
+FAIL  lyngs-merge_1.0.9/lyngs-merge.test.js
+● Console
+
+  console.log
+    sink ==> merge/dist/index.js:2684:20
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.reduce (<anonymous>)
+        at Array.reduce (<anonymous>)
+
+● prototype pollution in @lyngs/merge
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    4 |   expect({}.polluted).toBe(undefined);
+    5 |   merge({ dummy: 1 }, JSON.parse(`{"__proto__":{"polluted":"yes"}}`));
+  > 6 |   expect({}.polluted).toBe("yes");
+      |                       ^
+    7 | });
+    8 |
+
+    at Object.<anonymous> (lyngs-merge_1.0.9/lyngs-merge.test.js:6:23)
+
+FAIL  shvl_2.0.1/shvl.test.js
+● Console
+
+  console.log
+    sink ==> index.js:10:40
+
+    at Object.object (sink-extraction-setup.js:21:17)
+
+● prototype pollution in shvl
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   shvl.set(obj, "constructor.prototype.polluted", "yes");
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (shvl_2.0.1/shvl.test.js:10:23)
+
+FAIL  viking04-merge_1.0.0/@viking04-merge.test.js
+● Console
+
+  console.log
+    sink ==> merge/index.js:9:18
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in config-handler
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   merge(a, prototype_pollution_test);
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (viking04-merge_1.0.0/@viking04-merge.test.js:10:23)
+
+FAIL  set-value_3.0.0/set-value.test.js
+● Console
+
+  console.log
+    sink ==> index.js:41:20
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+  console.log
+    sink ==> index.js:59:18
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in set-value 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |
+    10 |   setFn({}, paths[0], "yes");
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (set-value_3.0.0/set-value.test.js:11:23)
+
+FAIL  merge-options_1.0.0/merge-options.test.js
+● Console
+
+  console.log
+    sink ==> index.js:73:16
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in merge-options
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   merge({}, JSON.parse(malicious_payload));
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (merge-options_1.0.0/merge-options.test.js:10:23)
+
+FAIL  nested-property_0.0.5/nested-property.test.js
+● Console
+
+  console.log
+    sink ==> index.js:95:27
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.reduce (<anonymous>)
+
+  console.log
+    sink ==> index.js:97:31
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.reduce (<anonymous>)
+
+● prototype pollution in nested-property
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   nestedProperty.set(object1, "__proto__.polluted", "yes");
+     8 |
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (nested-property_0.0.5/nested-property.test.js:9:23)
+
+FAIL  node-oojs_1.4.0/node-oojs.test.js
+● Console
+
+  console.log
+    sink ==> bin/format/oojs.js:65:39
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in node-oojs
+
+  TypeError: Cannot set properties of undefined (setting 'pathValue')
+
+    4 |
+    5 |   require("node-oojs");
+  > 6 |   oojs.setPath({ "__proto__.polluted": "yes" });
+      |        ^
+    7 |
+    8 |   expect({}.polluted).not.toBe(undefined);
+    9 | });
+
+    at Object.setPath (node_modules/node-oojs/bin/format/oojs.js:71:28)
+    at Object.setPath (node_modules/node-oojs/bin/format/oojs.js:54:30)
+    at Object.<anonymous> (node-oojs_1.4.0/node-oojs.test.js:6:8)
+
+FAIL  just-safe-set_1.0.0/just-safe-set.test.js
+● Console
+
+  console.log
+    sink ==> index.js:36:17
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in just-safe-set
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   justSafeSet(obj, "__proto__.polluted", "yes");
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (just-safe-set_1.0.0/just-safe-set.test.js:10:23)
+
+FAIL  safetydance_2.0.1/safetydance.test.js
+● Console
+
+  console.log
+    sink ==> index.js:215:25
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in safetydance
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   safetydance.set({}, "__proto__.polluted", "yes");
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (safetydance_2.0.1/safetydance.test.js:10:23)
+
+FAIL  mixin-deep_1.3.0/mixin-deep.test.js
+● Console
+
+  console.log
+    sink ==> index.js:30:15
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in mixin-deep 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |
+    10 |   mixin({}, JSON.parse(malicious_payload));
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (mixin-deep_1.3.0/mixin-deep.test.js:11:23)
+
+FAIL  yargs-parser_6.0.0/yargs-parser.test.js
+● Console
+
+  console.log
+    sink ==> index.js:587:14
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in yargs-parser
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   parser("--foo.__proto__.polluted yes");
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (yargs-parser_6.0.0/yargs-parser.test.js:10:23)
+
+FAIL  deep-extend_0.5.0/deep-extend.test.js
+● Console
+
+  console.log
+    sink ==> lib/deep-extend.js:117:17
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in merge-objects
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   merge({}, JSON.parse(malicious_payload));
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (deep-extend_0.5.0/deep-extend.test.js:10:23)
+
+FAIL  js-ini_1.2.0/js-ini.test.js
+● Console
+
+  console.log
+    sink ==> src/parse.ts:68:58
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in js-ini
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    10 |   ini.parse(fs.readFileSync(path.resolve(__dirname, "./payload.ini"), "utf-8"));
+    11 |
+  > 12 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    13 | });
+    14 |
+
+    at Object.<anonymous> (js-ini_1.2.0/js-ini.test.js:12:23)
+
+FAIL  y18n_3.2.1/y18n.test.js
+● Console
+
+  console.log
+    sink ==> index.js:156:34
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in y18n
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    10 |   y18n.updateLocale({ polluted: "yes" }); //payload
+    11 |
+  > 12 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    13 | });
+    14 |
+
+    at Object.<anonymous> (y18n_3.2.1/y18n.test.js:12:23)
+
+FAIL  object-path-set_1.0.0/object-path-set.test.js
+● Console
+
+  console.log
+    sink ==> index.js:19:13
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in object-path-set 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   setPath({}, "__proto__.polluted", "yes");
+  >  9 |   expect(obj.polluted).toBe("yes");
+       |                        ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (object-path-set_1.0.0/object-path-set.test.js:9:24)
+
+FAIL  fabiocaccamo-utils.js_0.17.0/fabiocaccamo-utils.test.js
+● Console
+
+  console.log
+    sink ==> utils.js/dist/utils.js:2365:33
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+  console.log
+    sink ==> utils.js/dist/utils.js:2370:33
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in @fabiocaccamo/utils.js
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   utils.object.keypath.set(obj, "__proto__.polluted", "yes");
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (fabiocaccamo-utils.js_0.17.0/fabiocaccamo-utils.test.js:9:23)
+
+FAIL  aurelia-path_1.1.7/aurelia-path.test.js
+● Console
+
+  console.log
+    sink ==> dist/commonjs/aurelia-path.js:163:42
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in aurelia-path
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   ap.parseQueryString("__proto__[polluted]=yes");
+     8 |
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (aurelia-path_1.1.7/aurelia-path.test.js:9:23)
+
+FAIL  getsetdeep_4.15.0/getsetdeep.test.js
+● Console
+
+  console.log
+    sink ==> edition-esnext/index.js:74:17
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in getsetdeep
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   pkg.setDeep(obj, "__proto__.polluted", "yes");
+     8 |
+  >  9 |   expect(obj.polluted).toBe("yes");
+       |                        ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (getsetdeep_4.15.0/getsetdeep.test.js:9:24)
+
+FAIL  upmerge_0.1.7/upmerge.test.js
+● Console
+
+  console.log
+    sink ==> build/upmerge.js:1:1247
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in upmerge
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   upmerge.merge({}, JSON.parse(payload));
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (upmerge_0.1.7/upmerge.test.js:10:23)
+
+FAIL  merge_2.1.0/merge.test.js
+● Console
+
+  console.log
+    sink ==> lib/src/index.js:59:19
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in merge
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |   merge.recursive(obj1, payload2);
+    10 |
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (merge_2.1.0/merge.test.js:11:23)
+
+FAIL  plain-object-merge_1.0.1/plain-object-merge.test.js
+● Console
+
+  console.log
+    sink ==> dist/index.js:18:29
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in plain-object-merge
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |
+    10 |   merge([{}, payload]);
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (plain-object-merge_1.0.1/plain-object-merge.test.js:11:23)
+
+FAIL  brikcss-merge_1.3.0/@brikcss-merge.test.js
+● Console
+
+  console.log
+    sink ==> merge/dist/lib/merge.js:2:1599
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in @brikcss/merge
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   merge({}, JSON.parse(malicious_payload));
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (brikcss-merge_1.3.0/@brikcss-merge.test.js:10:23)
+
+FAIL  think-config_1.0.0/poc.test.js
+● Console
+
+  console.log
+    sink ==> index.js:50:22
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in x-assign
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |   config.set("name.__proto__.polluted", "yes");
+    10 |
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (think-config_1.0.0/poc.test.js:11:23)
+
+FAIL  vega-util_1.13.0/vega-util.test.js
+● Console
+
+  console.log
+    sink ==> build/vega-util.js:203:16
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.reduce (<anonymous>)
+
+● prototype pollution in vega-util
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    10 |   util.mergeConfig(config, JSON.parse(malicious_payload));
+    11 |
+  > 12 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    13 | });
+    14 |
+
+    at Object.<anonymous> (vega-util_1.13.0/vega-util.test.js:12:23)
+
+FAIL  properties-reader_2.0.0/properties-reader.test.js
+● Console
+
+  console.log
+    sink ==> src/properties-reader.js:200:27
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in properties-reader
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   propertiesReader(path.resolve(__dirname, "./payload.ini"));
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (properties-reader_2.0.0/properties-reader.test.js:9:23)
+
+FAIL  dotty_0.0.1/dotty.test.js
+● Console
+
+  console.log
+    sink ==> lib/index.js:147:17
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in dotty
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   dotty.put({}, "__proto__.polluted", "yes");
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (dotty_0.0.1/dotty.test.js:8:23)
+
+FAIL  defaults-deep_0.2.0/defaults-deep.test.js
+● Console
+
+  console.log
+    sink ==> index.js:20:16
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in defaults-deep 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   defaultsDeep({}, JSON.parse(malicious_payload));
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (defaults-deep_0.2.0/defaults-deep.test.js:9:23)
+
+FAIL  dset_1.0.0/dset.test.js
+● Console
+
+  console.log
+    sink ==> dist/dset.js:6:18
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in dset
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   dset({}, "__proto__.polluted", "yes");
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (dset_1.0.0/dset.test.js:8:23)
+
+FAIL  expand-hash_1.0.1/expand-hash.test.js
+● Console
+
+  console.log
+    sink ==> index.js:19:13
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in expand-hash 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   expandHash({ "__proto__.polluted": "yes" });
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (expand-hash_1.0.1/expand-hash.test.js:10:23)
+
+FAIL  deep-get-set_1.1.0/deep-get-set.test.js
+● Console
+
+  console.log
+    sink ==> index.js:30:16
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in deep-get-set
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    5 |
+    6 |   deep({}, [new String("__proto__"), "polluted"], "yes");
+  > 7 |   expect({}.polluted).toBe("yes");
+      |                       ^
+    8 | });
+    9 |
+
+    at Object.<anonymous> (deep-get-set_1.1.0/deep-get-set.test.js:7:23)
+
+FAIL  patchmerge_1.0.0/patchmerge.test.js
+● Console
+
+  console.log
+    sink ==> index.js:93:24
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in patchmerge
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   patchMerge(obj, JSON.parse('{ "__proto__": { "polluted": "yes" }}'));
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (patchmerge_1.0.0/patchmerge.test.js:10:23)
+
+FAIL  component-flatten_1.0.1/component-flatten.test.js
+● Console
+
+  console.log
+    sink ==> index.js:56:26
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in component-flatten
+
+  expect(received).not.toBe(expected) // Object.is equality
+
+  Expected: not undefined
+
+     7 |   cf(tree);
+     8 |
+  >  9 |   expect({}.polluted).not.toBe(undefined);
+       |                           ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (component-flatten_1.0.1/component-flatten.test.js:9:27)
+
+FAIL  hoek_5.0.0/hoek.test.js
+● Console
+
+  console.log
+    sink ==> lib/index.js:137:29
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in hoek
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |   Hoek.merge({}, JSON.parse(malicious_payload));
+    10 |
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (hoek_5.0.0/hoek.test.js:11:23)
+
+FAIL  json-pointer_0.6.1/json-pointer.test.js
+● Console
+
+  console.log
+    sink ==> index.js:98:18
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in json-pointer
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   pointer.set({}, [["__proto__"], "polluted"], "yes");
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (json-pointer_0.6.1/json-pointer.test.js:9:23)
+
+FAIL  keyget_2.2.0/keyget.test.js
+● Console
+
+  console.log
+    sink ==> index.js:111:17
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in keyget
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   keyget.set({}, "__proto__.polluted", "yes");
+  >  9 |   expect(obj.polluted).toBe("yes");
+       |                        ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (keyget_2.2.0/keyget.test.js:9:24)
+
+FAIL  minimist_1.0.0/minimist.test.js
+● Console
+
+  console.log
+    sink ==> index.js:189:16
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in minimist
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    5 |   require("minimist")("--__proto__.polluted yes".split(" "));
+    6 |
+  > 7 |   expect({}.polluted).toBe("yes");
+      |                       ^
+    8 | });
+    9 |
+
+    at Object.<anonymous> (minimist_1.0.0/minimist.test.js:7:23)
+
+FAIL  pathval_1.1.0/pathval.test.js
+● Console
+
+  console.log
+    sink ==> index.js:158:25
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in pathval
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   pathval.setPathValue(obj, "__proto__.polluted", "yes");
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (pathval_1.1.0/pathval.test.js:9:23)
+
+FAIL  asciitable.js_1.0.2/asciitable.test.js
+● Console
+
+  console.log
+    sink ==> asciitable.umd.js:50:104
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● Prototype pollution in asciitable.js
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   req({}, b);
+     8 |
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (asciitable.js_1.0.2/asciitable.test.js:9:23)
+
+FAIL  flattenizer_0.0.5/flattenizer.test.js
+● Console
+
+  console.log
+    sink ==> lib/flattenizer.min.js:1:1550
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in flattenizer
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   flattenizer.unflatten({ "__proto__.polluted": "yes" });
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (flattenizer_0.0.5/flattenizer.test.js:8:23)
+
+FAIL  property-expr_2.0.2/property-expr.test.js
+● Console
+
+  console.log
+    sink ==> index.js:55:28
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in property-expr
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   expr.setter("constructor.prototype.polluted")(obj, "yes");
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (property-expr_2.0.2/property-expr.test.js:9:23)
+
+FAIL  json-schema_0.3.0/json-schema.test.js
+● Console
+
+  console.log
+    sink ==> lib/validate.js:217:27
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in json-schema
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    26 |   validate(instance);
+    27 |
+  > 28 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    29 | });
+    30 |
+
+    at Object.<anonymous> (json-schema_0.3.0/json-schema.test.js:28:23)
+
+FAIL  object-path_0.11.0/object-path.test.js
+● Console
+
+  console.log
+    sink ==> index.js:19:13
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in object-path
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    5 |   expect({}.polluted).toBe(undefined);
+    6 |   setPath({}, "__proto__.polluted", "yes");
+  > 7 |   expect({}.polluted).toBe("yes");
+      |                       ^
+    8 | });
+    9 |
+
+    at Object.<anonymous> (object-path_0.11.0/object-path.test.js:7:23)
+
+FAIL  smart-extend_1.7.3/smart-extend.test.js
+● Console
+
+  console.log
+    sink ==> dist/smart-extend.js:1:2739
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in smart-extend
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |
+    10 |   extend.deep({}, JSON.parse(payload));
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (smart-extend_1.7.3/smart-extend.test.js:11:23)
+
+FAIL  objection_2.0.0/objection.test.js
+● Console
+
+  console.log
+    sink ==> lib/utils/objectUtils.js:246:32
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in objection
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   objectUtils.set(obj, ["__proto__", "polluted"], "yes");
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (objection_2.0.0/objection.test.js:10:23)
+
+FAIL  strikeentco-set_1.0.0/strikeentco.test.js
+● Console
+
+  console.log
+    sink ==> set/main.js:11:17
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in strikeentco/set 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   sset(obj, "__proto__.polluted", "yes");
+  >  9 |   expect(obj.polluted).toBe("yes");
+       |                        ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (strikeentco-set_1.0.0/strikeentco.test.js:9:24)
+
+FAIL  arr-flatten-unflatten_1.1.4/arr-flatten-unflatten.test.js
+● Console
+
+  console.log
+    sink ==> unflatten.js:17:16
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in arr-flatten-unflatten
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   unflatten({ "__proto__.polluted": "yes" });
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (arr-flatten-unflatten_1.1.4/arr-flatten-unflatten.test.js:8:23)
+
+FAIL  lutils-merge_0.2.6/lutils-merge.test.js
+● Console
+
+  console.log
+    sink ==> merge.js:156:23
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in lutils-merge
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   merge({}, JSON.parse(payload));
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (lutils-merge_0.2.6/lutils-merge.test.js:10:23)
+
+FAIL  predefine_0.1.2/predefine.test.js
+● Console
+
+  console.log
+    sink ==> index.js:284:21
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in predefine
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   predefine.merge({}, payload);
+     8 |
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (predefine_0.1.2/predefine.test.js:9:23)
+
+FAIL  set-in_1.0.0/set-in.test.js
+● Console
+
+  console.log
+    sink ==> index.js:41:17
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in set-in
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   si(obj, ["__proto__", "polluted"], "yes");
+  >  9 |   expect(obj.polluted).toBe("yes");
+       |                        ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (set-in_1.0.0/set-in.test.js:9:24)
+
+FAIL  ion-parser_0.5.2/ion-parser.test.js
+● Console
+
+  console.log
+    sink ==> parser.js:359:13
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in ion-parser
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    11 |     fs.readFileSync(path.resolve(__dirname, "./payload.toml"), "utf-8")
+    12 |   );
+  > 13 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    14 | });
+    15 |
+
+    at Object.<anonymous> (ion-parser_0.5.2/ion-parser.test.js:13:23)
+
+FAIL  mixin-deep_2.0.0/mixin-deep.test.js
+● Console
+
+  console.log
+    sink ==> index.js:21:17
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in mixin-deep 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |
+    10 |   mixin({}, JSON.parse(payload));
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (mixin-deep_2.0.0/mixin-deep.test.js:11:23)
+
+FAIL  eivifj-dot_1.0.2/eivifj-dot.test.js
+● Console
+
+  console.log
+    sink ==> dot/index.js:22:13
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in @eivifj/dot
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   a.set({}, path, "yes");
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (eivifj-dot_1.0.2/eivifj-dot.test.js:10:23)
+
+FAIL  nested-object-assign_1.0.3/nested-object-assign.test.js
+● Console
+
+  console.log
+    sink ==> lib/nestedObjectAssign.js:1:787
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Function.assign (<anonymous>)
+
+● prototype pollution in nested-object-assign
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   assign({}, JSON.parse('{"__proto__": {"polluted": "yes"}}'));
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (nested-object-assign_1.0.3/nested-object-assign.test.js:8:23)
+
+FAIL  deeps_1.4.5/deeps.test.js
+● Console
+
+  console.log
+    sink ==> index.js:226:94
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in deeps
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   deeps.set({}, "__proto__.polluted", "yes");
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (deeps_1.4.5/deeps.test.js:8:23)
+
+FAIL  safe-object2_1.0.3/safe-object2.test.js
+● Console
+
+  console.log
+    undefined
+
+    at node_modules/safe-object2/lib/index.js:1:1761
+        at Array.reduce (<anonymous>)
+
+  console.log
+    sink ==> lib/index.js:1:1869
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.reduce (<anonymous>)
+
+● prototype pollution in safe-object2
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   obj.setter(["__proto__", "polluted"], "yes");
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (safe-object2_1.0.3/safe-object2.test.js:9:23)
+
+FAIL  undefsafe_2.0.2/undefsafe.test.js
+● Console
+
+  console.log
+    sink ==> lib/undefsafe.js:106:17
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in undefsafe 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   a({}, payload, "yes");
+     9 |
+  > 10 |   expect(obj.polluted).toBe("yes");
+       |                        ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (undefsafe_2.0.2/undefsafe.test.js:10:24)
+
+FAIL  json-pointer_0.6.0/json-pointer.test.js
+● Console
+
+  console.log
+    sink ==> index.js:91:18
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in json-pointer
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   pointer.set(obj, "/__proto__/polluted", "yes");
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (json-pointer_0.6.0/json-pointer.test.js:9:23)
+
+FAIL  flat_5.0.0/flat.test.js
+● Console
+
+  console.log
+    sink ==> index.js:145:21
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in flat
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |   });
+    10 |
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (flat_5.0.0/flat.test.js:11:23)
+
+FAIL  x-assign_0.1.4/x-assign.test.js
+● Console
+
+  console.log
+    sink ==> index.js:34:20
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in x-assign
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |   const c = XAssign.assign(a, b);
+    10 |
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (x-assign_0.1.4/x-assign.test.js:11:23)
+
+FAIL  doc-path_2.0.0/doc-path.test.js
+● Console
+
+  console.log
+    sink ==> src/path.js:54:27
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in doc-path
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   path.setPath({}, "__proto__.polluted", "yes");
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (doc-path_2.0.0/doc-path.test.js:9:23)
+
+FAIL  objutil_2.17.3/objutil.test.js
+● Console
+
+  console.log
+    sink ==> dist/objutil.cjs.js:192:59
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in objutil
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    11 |   result = merge(a, JSON.parse(malicious_payload));
+    12 |
+  > 13 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    14 | });
+    15 |
+
+    at Object.<anonymous> (objutil_2.17.3/objutil.test.js:13:23)
+
+FAIL  keyd_1.3.4/keyd.test.js
+● Console
+
+  console.log
+    sink ==> index.js:76:60
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in keyd
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   keyd({}).set("__proto__.polluted", "yes"); //payload
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (keyd_1.3.4/keyd.test.js:8:23)
+
+FAIL  mpath_0.4.1/mpath.test.js
+● Console
+
+  console.log
+    sink ==> lib/index.js:269:17
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in mpath 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   mpath.set("__proto__.polluted", "yes", obj);
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (mpath_0.4.1/mpath.test.js:10:23)
+
+FAIL  deephas_1.0.5/deephas.test.js
+● Console
+
+  console.log
+    sink ==> deepHas.js:65:20
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in deephas 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   dh.set(obj, "__proto__.polluted", "yes");
+     8 |
+  >  9 |   expect(obj.polluted).toBe("yes");
+       |                        ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (deephas_1.0.5/deephas.test.js:9:24)
+
+FAIL  just-extend_3.0.0/just-extend.test.js
+● Console
+
+  console.log
+    sink ==> index.js:52:23
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in just-extend 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |   let payload2 = JSON.parse('{"__proto__": {"polluted": "yes"}}');
+    10 |   extend(true, {}, payload2);
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (just-extend_3.0.0/just-extend.test.js:11:23)
+
+FAIL  deep-set_1.0.0/deep-set.test.js
+● Console
+
+  console.log
+    sink ==> index.js:33:31
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+  console.log
+    sink ==> index.js:37:31
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in deep-set
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   deepSet(obj, "__proto__.polluted", "yes");
+     8 |
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (deep-set_1.0.0/deep-set.test.js:9:23)
+
+FAIL  extend-merge_1.0.5/extend-merge.test.js
+● Console
+
+  console.log
+    sink ==> base-extend.js:41:21
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in extend-merge
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |
+     9 |   extend_merge.merge({}, payload);
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (extend-merge_1.0.5/extend-merge.test.js:10:23)
+
+FAIL  assign-deep_1.0.0/assign-deep.test.js
+● Console
+
+  console.log
+    sink ==> index.js:22:23
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in assign-deep 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |
+    10 |   assign({}, JSON.parse(payloads[0]));
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (assign-deep_1.0.0/assign-deep.test.js:11:23)
+
+FAIL  mergify_1.0.2/mergify.test.js
+● Console
+
+  console.log
+    sink ==> index.js:15:11
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in mergify
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   mergify({}, JSON.parse(payload));
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (mergify_1.0.2/mergify.test.js:10:23)
+
+FAIL  ini_1.3.5/ini.test.js
+● Console
+
+  console.log
+    sink ==> ini.js:109:14
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in ini
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    10 |   ini.parse(fs.readFileSync(path.resolve(__dirname, "./payload.ini"), "utf-8"));
+    11 |
+  > 12 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    13 | });
+    14 |
+
+    at Object.<anonymous> (ini_1.3.5/ini.test.js:12:23)
+
+FAIL  promisehelpers_0.0.5/promisehelpers.test.js
+● Console
+
+  console.log
+    sink ==> src/index.js:16:25
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+  console.log
+    sink ==> src/index.js:20:25
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in promisehelpers
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   promisehelpers.insert(["__proto__", "polluted"], "yes")(obj);
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (promisehelpers_0.0.5/promisehelpers.test.js:9:23)
+
+FAIL  dot-object_2.1.2/dot-object.test.js
+● Console
+
+  console.log
+    sink ==> index.js:415:25
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in dot-object 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |   var val = { polluted: "yes" };
+    10 |   a.set(path, val, {}, true);
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (dot-object_2.1.2/dot-object.test.js:11:23)
+
+FAIL  putil-merge_3.0.0/putil-merge.test.js
+● Console
+
+  console.log
+    sink ==> lib/merge.js:72:19
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in putil-merge
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |   putil_merge(obj, payload, { deep: true });
+    10 |
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (putil-merge_3.0.0/putil-merge.test.js:11:23)
+
+FAIL  tiny-conf_1.1.0/tiny-conf.test.js
+● Console
+
+  console.log
+    sink ==> tiny-conf.js:73:17
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in tinyConf
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   tinyConf.set("__proto__.polluted", "yes");
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (tiny-conf_1.1.0/tiny-conf.test.js:9:23)
+
+FAIL  nestie_1.0.0/nestie.test.js
+● Console
+
+  console.log
+    sink ==> dist/index.js:29:14
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in nestie
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   nestie({ "__proto__.polluted": "yes" });
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (nestie_1.0.0/nestie.test.js:10:23)
+
+FAIL  rfc6902_4.0.2/rfc6902.test.js
+● Console
+
+  console.log
+    sink ==> patch.js:57:21
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.map (<anonymous>)
+
+● prototype pollution in rfc6902
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |     { op: "add", path: "/__proto__/polluted", value: "yes" },
+     8 |   ]);
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (rfc6902_4.0.2/rfc6902.test.js:9:23)
+
+FAIL  set-deep-prop_1.0.0/set-deep-prop.test.js
+● Console
+
+  console.log
+    sink ==> set-deep-prop.js:20:34
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in safe-object2
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   setDeepProp({}, ["__proto__", "polluted"], "yes");
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (set-deep-prop_1.0.0/set-deep-prop.test.js:9:23)
+
+FAIL  deepmergefn_1.1.0/deepmergefn.test.js
+● Console
+
+  console.log
+    sink ==> index.js:12:30
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in deepmergefn
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   deepMerge({}, EVIL_DATA);
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (deepmergefn_1.1.0/deepmergefn.test.js:10:23)
+
+FAIL  dot-prop_2.0.0/dot-prop.test.js
+● Console
+
+  console.log
+    sink ==> index.js:32:14
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+
+  console.log
+    sink ==> index.js:36:14
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in dot-prop
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   dotProp.set({}, "__proto__.polluted", "yes");
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (dot-prop_2.0.0/dot-prop.test.js:8:23)
+
+FAIL  object-path_0.11.4/object-path.test.js
+● Console
+
+  console.log
+    sink ==> index.js:110:28
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in object-path
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    5 |   expect({}.polluted).toBe(undefined);
+    6 |   objectPath.withInheritedProps.set({}, [["__proto__"], "polluted"], "yes");
+  > 7 |   expect({}.polluted).toBe("yes");
+      |                       ^
+    8 | });
+    9 |
+
+    at Object.<anonymous> (object-path_0.11.4/object-path.test.js:7:23)
+
+FAIL  js-extend_0.0.1/js-extend.test.js
+● Console
+
+  console.log
+    sink ==> extend.js:17:23
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.forEach (<anonymous>)
+        at Array.forEach (<anonymous>)
+
+● prototype pollution in js-extend
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |   jsExtend.extend({}, JSON.parse(malicious_payload));
+     8 |
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (js-extend_0.0.1/js-extend.test.js:9:23)
+
+FAIL  extend_3.0.1/extend.test.js
+● Console
+
+  console.log
+    sink ==> index.js:77:20
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in extend 
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |
+    10 |   extend(true, {}, payload);
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (extend_3.0.1/extend.test.js:11:23)
+
+FAIL  set-getter_0.1.0/set-getter.test.js
+● prototype pollution in set-getter 
+
+  TypeError: Cannot redefine property: polluted
+      at Function.defineProperty (<anonymous>)
+
+     6 |   expect({}.polluted).toBe(undefined);
+     7 |
+  >  8 |   setGetter(obj, "__proto__.polluted", function (polluted) {
+       |   ^
+     9 |     return "yes";
+    10 |   });
+    11 |   expect({}.polluted).toBe("yes");
+
+    at defineProperty (node_modules/set-getter/index.js:72:10)
+    at define (node_modules/set-getter/index.js:59:3)
+    at setGetter (node_modules/set-getter/index.js:29:10)
+    at Object.<anonymous> (set-getter_0.1.0/set-getter.test.js:8:3)
+
+FAIL  ini-parser_0.0.2/ini-parser.test.js
+● Console
+
+  console.log
+    sink ==> index.js:14:20
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in ini-parser
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   a.parse("[__proto__]\npolluted=yes");
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (ini-parser_0.0.2/ini-parser.test.js:8:23)
+
+FAIL  flat-wrap_1.0.2/flat-wrap.test.js
+● Console
+
+  console.log
+    sink ==> index.js:193:43
+
+    at Object.set (sink-extraction-setup.js:21:17)
+        at Array.reduce (<anonymous>)
+
+● prototype pollution in flat-wrap
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   });
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (flat-wrap_1.0.2/flat-wrap.test.js:10:23)
+
+FAIL  merge-objects_1.0.3/merge-objects.test.js
+● Console
+
+  console.log
+    sink ==> merge-objects.js:20:20
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in merge-objects
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |
+    10 |   merge({}, JSON.parse(malicious_payload));
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (merge-objects_1.0.3/merge-objects.test.js:11:23)
+
+FAIL  jsonpointer_4.0.0/jsonpointer.test.js
+● Console
+
+  console.log
+    sink ==> jsonpointer.js:43:18
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in jsonpointer
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     6 |   jsonpointer.set({}, [["proto"], ["__proto__"], "polluted"], "yes");
+     7 |
+  >  8 |   expect({}.polluted).toBe("yes");
+       |                       ^
+     9 | });
+    10 |
+
+    at Object.<anonymous> (jsonpointer_4.0.0/jsonpointer.test.js:8:23)
+
+FAIL  deepref_1.1.1/deepref.test.js
+● Console
+
+  console.log
+    sink ==> index.js:29:28
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in deepref
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+    5 |   const deepref = require("deepref");
+    6 |   deepref.set({}, "__proto__.polluted", "yes");
+  > 7 |   expect({}.polluted).toBe("yes");
+      |                       ^
+    8 | });
+    9 |
+
+    at Object.<anonymous> (deepref_1.1.1/deepref.test.js:7:23)
+
+FAIL  set-object-value_0.0.5/set-object-value.test.js
+● Console
+
+  console.log
+    sink ==> build/cjs/src/index.js:24:15
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in setObjectValue
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     7 |
+     8 |   setObjectValue(obj, ["__proto__", "polluted"], "yes");
+  >  9 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    10 | });
+    11 |
+
+    at Object.<anonymous> (set-object-value_0.0.5/set-object-value.test.js:9:23)
+
+FAIL  eivindfjeldstad-dot_0.0.1/eivindfjeldstad-dot.test.js
+● Console
+
+  console.log
+    sink ==> index.js:20:13
+
+    at Object.set (sink-extraction-setup.js:21:17)
+
+● prototype pollution in eivindfjeldstad-dot
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     8 |   a.set({}, path, "yes");
+     9 |
+  > 10 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    11 | });
+    12 |
+
+    at Object.<anonymous> (eivindfjeldstad-dot_0.0.1/eivindfjeldstad-dot.test.js:10:23)
+
+FAIL  deap_1.0.0/deap.test.js
+● prototype pollution in deap
+
+  expect(received).toBe(expected) // Object.is equality
+
+  Expected: "yes"
+  Received: undefined
+
+     9 |   deap.merge({}, JSON.parse(malicious_payload));
+    10 |
+  > 11 |   expect({}.polluted).toBe("yes");
+       |                       ^
+    12 | });
+    13 |
+
+    at Object.<anonymous> (deap_1.0.0/deap.test.js:11:23)
+
+PASS  connie_0.1.0/connie.test.js
+PASS  locutus_2.0.11/locutus.test.js
+PASS  nedb_1.8.0/nedb.test.js
+PASS  Templ8_0.7.0/Templ8.test.js
+
+●  Cannot log after tests are done. Did you forget to wait for something async in your test?
+  Attempted to log "sink ==> lib/connie-lang.js:35:28".
+
+    19 |         // console.log("l1==>",l1);
+    20 |         l2 = l1.split(/\/(.+)/)[1].trim();
+  > 21 |         console.log("sink ==>", l2);
+       |                 ^
+    22 |         break;
+    23 |       }
+    24 |     }
+
+    at console.log (../../../.nvm/versions/node/v16.13.1/lib/node_modules/jest/node_modules/@jest/console/build/BufferedConsole.js:199:10)
+    at Object.set (sink-extraction-setup.js:21:17)
+    at setValue (node_modules/connie-lang/lib/connie-lang.js:35:28)
+    at node_modules/connie-lang/lib/connie-lang.js:154:7
+        at Array.forEach (<anonymous>)
+    at Object.parse (node_modules/connie-lang/lib/connie-lang.js:153:13)
+    at node_modules/connie/lib/config.js:19:23
+    at tryCatcher (node_modules/bluebird/js/main/util.js:26:23)
+    at Promise._settlePromiseFromHandler (node_modules/bluebird/js/main/promise.js:503:31)
+    at Promise._settlePromiseAt (node_modules/bluebird/js/main/promise.js:577:18)
+
+Unhandled rejection Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: "yes"
+Received: undefined
+  at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/connie_0.1.0/connie.test.js:13:25
+  at tryCatcher (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/bluebird/js/main/util.js:26:23)
+  at Promise._settlePromiseFromHandler (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/bluebird/js/main/promise.js:503:31)
+  at Promise._settlePromiseAt (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/bluebird/js/main/promise.js:577:18)
+  at Promise._settlePromises (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/bluebird/js/main/promise.js:693:14)
+  at Async.Object.<anonymous>.Async._drainQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/bluebird/js/main/async.js:123:16)
+  at Async.Object.<anonymous>.Async._drainQueues (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/bluebird/js/main/async.js:133:10)
+  at Immediate.Async.drainQueues [as _onImmediate] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/bluebird/js/main/async.js:15:14)
+  at processImmediate (node:internal/timers:464:21)
+PASS  aws-sdk-shared-ini-file-loader_1.0.0-rc.8/aws-sdk-shared-ini-file-loader.test.js
+PASS  node-ini_1.0.0/node-ini.test.js
+PASS  controlled-merge_1.0.0/controlled-merge.test.js

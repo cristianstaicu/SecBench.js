@@ -9,5 +9,5 @@
   },
   "fixedVersion": "7.5.1",
   "fixCommit": "https://github.com/josdejong/mathjs/commit/ecb80514e80bce4e6ec7e71db8ff79954f07c57e",
-  "sink": "./set.js:36"
+  "sink": "lib/utils/object.js:131:17"
 }

@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
-  "sink": "./set.js:36"
+  "sink": "lib/create.js:43:19"
 }

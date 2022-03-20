@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.13.1",
   "fixCommit": "n/a",
-  "sink": "./set.js:36"
+  "sink": "build/vega-util.js:203:16"
 }

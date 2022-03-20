@@ -9,5 +9,5 @@
   },
   "fixedVersion": "3.0.3",
   "fixCommit": "https://github.com/jonschlinkert/merge-deep/commit/e370968581413a2e5ffdbbf7c2f5094e0e0b3861",
-  "sink": "./set.js:36"
+  "sink": "index.js:45:19"
 }

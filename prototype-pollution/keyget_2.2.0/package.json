@@ -9,5 +9,5 @@
   },
   "fixedVersion": "2.3.0",
   "fixCommit": "https://github.com/rumkin/keyget/commit/17d15b6c75036eb429075a8cfeccfc18094dd2e2",
-  "sink": "./set.js:36"
+  "sink": "index.js:111:17"
 }

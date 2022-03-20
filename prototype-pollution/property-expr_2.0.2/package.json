@@ -9,5 +9,5 @@
   },
   "fixedVersion": "2.0.3",
   "fixCommit": "https://github.com/jquense/expr/commit/df846910915d59f711ce63c1f817815bceab5ff7",
-  "sink": "./set.js:36"
+  "sink": "index.js:55:28"
 }

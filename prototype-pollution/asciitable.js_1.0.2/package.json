@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.3",
   "fixCommit": "n/a",
-  "sink": "./set.js:36"
+  "sink": "asciitable.umd.js:50:104"
 }

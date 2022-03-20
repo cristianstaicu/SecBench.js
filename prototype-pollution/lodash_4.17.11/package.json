@@ -9,5 +9,5 @@
   },
   "fixedVersion": "4.17.16",
   "fixCommit": "n/a",
-  "sink": "./set.js:36"
+  "sink": "lodash.js:2559:21"
 }

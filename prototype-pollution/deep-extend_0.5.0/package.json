@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.5.1",
   "fixCommit": "https://github.com/unclechu/node-deep-extend/commit/433ee51ed606f4e1867ece57b6ff5a47bebb492f",
-  "sink": "./set.js:36"
+  "sink": "lib/deep-extend.js:117:17"
 }

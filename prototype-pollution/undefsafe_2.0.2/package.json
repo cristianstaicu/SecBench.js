@@ -9,5 +9,5 @@
   },
   "fixedVersion": "2.0.3",
   "fixCommit": "https://github.com/remy/undefsafe/commit/f272681b3a50e2c4cbb6a8533795e1453382c822",
-  "sink": "./set.js:36"
+  "sink": "lib/undefsafe.js:106:17"
 }

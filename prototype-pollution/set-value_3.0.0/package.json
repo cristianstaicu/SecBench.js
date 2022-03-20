@@ -9,5 +9,5 @@
   },
   "fixedVersion": "4.0.1",
   "fixCommit": "https://github.com/jonschlinkert/set-value/commit/7cf8073bb06bf0c15e08475f9f952823b4576452",
-  "sink": "./set.js:36"
+  "sink": "index.js:41:20"
 }

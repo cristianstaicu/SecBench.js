@@ -9,5 +9,5 @@
   },
   "fixedVersion": " 3.4.0",
   "fixCommit": "https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b",
-  "sink": "./set.js:36"
+  "sink": "dist/jquery.js:230:21"
 }

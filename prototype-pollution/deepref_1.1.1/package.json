@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.2.1",
   "fixCommit": "https://github.com/isaymatato/deepref/commit/24935e6a1060cb09c641d3075982f0b44cfca4c2",
-  "sink": "./set.js:36"
+  "sink": "index.js:29:28"
 }

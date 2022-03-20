@@ -9,5 +9,5 @@
   },
   "fixedVersion": "2.0.1",
   "fixCommit": "https://github.com/ardalanamini/prototyped.js/commit/3ab56e78250d3d5b44ac03938d3d04591b206730",
-  "sink": "./set.js:36"
+  "sink": "lib/index.js:66:14"
 }

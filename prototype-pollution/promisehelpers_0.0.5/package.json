@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
-  "sink": "./set.js:36"
+  "sink": "src/index.js:16:25"
 }

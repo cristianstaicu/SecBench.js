@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.10.2",
   "fixCommit": "n/a",
-  "sink": "./set.js:36"
+  "sink": "dist/utility/merge.js:31:27"
 }

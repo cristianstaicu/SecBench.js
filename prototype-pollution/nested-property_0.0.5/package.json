@@ -9,5 +9,5 @@
   },
   "fixedVersion": "3.0.0",
   "fixCommit": "https://github.com/cosmosio/nested-property/commit/881cf37eb956641fc26011ff66a436eb603c89d1",
-  "sink": "./set.js:36"
+  "sink": "index.js:95:27"
 }

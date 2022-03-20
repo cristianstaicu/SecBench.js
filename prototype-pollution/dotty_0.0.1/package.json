@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.1.2",
   "fixCommit": "https://github.com/deoxxa/dotty/commit/88f61860dcc274a07a263c32cbe9d44c24ef02d7",
-  "sink": "./set.js:36"
+  "sink": "lib/index.js:147:17"
 }

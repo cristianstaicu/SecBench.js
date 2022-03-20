@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.3.1",
   "fixCommit": "n/a",
-  "sink": "./set.js:36"
+  "sink": "TransformOperationExecutor.ts:163:46"
 }

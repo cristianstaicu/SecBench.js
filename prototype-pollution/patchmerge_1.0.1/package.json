@@ -10,5 +10,5 @@
   },
   "fixedVersion": "1.0.2",
   "fixCommit": "https://github.com/pjshumphreys/patchmerge/commit/5b383c537eae7a00ebd26d3f7211dac99ddecb12",
-  "sink": "index.js:105:24"
+  "sink": "index.js:93:24"
 }

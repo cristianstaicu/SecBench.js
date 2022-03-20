@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.1.3",
   "fixCommit": "https://github.com/thinkjs/think-config/commit/31b82468d72f2e1456a27a4827cea378196db6db",
-  "sink": ""
+  "sink": "index.js:50:22"
 }

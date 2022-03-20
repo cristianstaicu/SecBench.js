@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.3.4",
   "fixCommit": "n/a",
-  "sink": "./set.js:36"
+  "sink": "util/src/deepCopy.ts:68:49"
 }

@@ -9,5 +9,5 @@
   },
   "fixedVersion": "3.0.0",
   "fixCommit": "https://github.com/flitbit/json-ptr/commit/5dc458fbad1c382a2e3ca6d62e66ede3d92849ca",
-  "sink": "./set.js:36"
+  "sink": "index.js:277:26"
 }

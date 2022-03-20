@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.4",
   "fixCommit": "n/a",
-  "sink": "./set.js:36"
+  "sink": "lib/nestedObjectAssign.js:1:787"
 }

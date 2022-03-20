@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
-  "sink": "./set.js:36"
+  "sink": "merge.js:156:23"
 }

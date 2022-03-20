@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.4.0",
   "fixCommit": "https://github.com/davideicardi/confinit/commit/a34e06ca5c1c8b047ef112ef188b2fe30d2a1eab",
-  "sink": "./set.js:36"
+  "sink": "index.ts:112:15"
 }

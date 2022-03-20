@@ -9,5 +9,5 @@
   },
   "fixedVersion": "9.0.6",
   "fixCommit": "https://github.com/immerjs/immer/commit/fa671e55ee9bd42ae08cc239102b665a23958237",
-  "sink": "./set.js:36"
+  "sink": "src/plugins/patches.ts:245:16"
 }

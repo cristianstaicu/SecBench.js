@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.1",
   "fixCommit": "https://github.com/skratchdot/object-path-set/commit/55f06d75abf5885f9cba3b7760acb38d7d7d06c0",
-  "sink": "./set.js:36"
+  "sink": "index.js:19:13"
 }

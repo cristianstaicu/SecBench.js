@@ -9,5 +9,5 @@
   },
   "fixedVersion": " 0.0.6",
   "fixCommit": "https://github.com/react-atomic/react-atomic-organism/commit/c8ec63388f7785078cb27275b56ed955ffd3db6c",
-  "sink": "./set.js:36"
+  "sink": "build/cjs/src/index.js:24:15"
 }

@@ -9,5 +9,5 @@
   },
   "fixedVersion": "5.1.0",
   "fixCommit": "https://github.com/okunishinishi/node-objnest/commit/c541e1a775b562d63402a14dac9f8cbc52b116d7",
-  "sink": "./set.js:36"
+  "sink": "lib/objnest.js:44:35"
 }

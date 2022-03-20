@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.1.1",
   "fixCommit": "https://github.com/chaijs/pathval/commit/7859e0e1ce4c2c67de897edce097ed31f80661d0",
-  "sink": "./set.js:36"
+  "sink": "index.js:158:25"
 }

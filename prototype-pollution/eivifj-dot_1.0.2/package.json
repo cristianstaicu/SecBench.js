@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.3",
   "fixCommit": "https://github.com/eivindfjeldstad/dot/commit/774e4b0c97ca35d2ae40df2cd14428d37dd07a0b",
-  "sink": "./set.js:36"
+  "sink": "dot/index.js:22:13"
 }

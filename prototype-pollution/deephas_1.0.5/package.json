@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.7",
   "fixCommit": "https://github.com/sharpred/deepHas/commit/2fe011713a6178c50f7deb6f039a8e5435981e20",
-  "sink": "./set.js:36"
+  "sink": "deepHas.js:65:20"
 }

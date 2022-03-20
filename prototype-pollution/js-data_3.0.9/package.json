@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "https://github.com/js-data/js-data/pull/579/commits/44d69656ce22a0a0300f1e94eb6dcfefd9dcffa4",
-  "sink": "./set.js:36"
+  "sink": "src/utils.js:487:18"
 }

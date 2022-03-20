@@ -9,5 +9,5 @@
   },
   "fixedVersion": "2.0.1",
   "fixCommit": "n/a",
-  "sink": "./set.js:36"
+  "sink": "lib/extend.js:86:26"
 }

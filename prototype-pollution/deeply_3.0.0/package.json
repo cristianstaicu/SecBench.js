@@ -9,5 +9,5 @@
   },
   "fixedVersion": "3.1.0",
   "fixCommit": "https://github.com/alexindigo/deeply/commit/6eccb2f03ec8d3eefc6805053c4cc2a36aab1505",
-  "sink": "./set.js:36"
+  "sink": "lib/reduce_object.js:19:14"
 }

@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.2.3",
   "fixCommit": "https://github.com/nodee-apps/utils/commit/52460d936c52f03c9907bc99ac5e890970cef83c",
-  "sink": "./set.js:36"
+  "sink": "lib/object.js:210:40"
 }

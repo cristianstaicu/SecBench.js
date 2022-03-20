@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.1.8",
   "fixCommit": "n/a",
-  "sink": "./set.js:36"
+  "sink": "build/upmerge.js:1:1247"
 }

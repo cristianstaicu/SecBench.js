@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.10.0",
   "fixCommit": "https://github.com/digitalbazaar/forge/commit/51228083550dde97701ac8e06c629a5184117562",
-  "sink": "./set.js:36"
+  "sink": "lib/util.js:2536:22"
 }

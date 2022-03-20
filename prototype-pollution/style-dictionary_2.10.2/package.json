@@ -9,5 +9,5 @@
   },
   "fixedVersion": "2.10.3",
   "fixCommit": "n/a",
-  "sink": "./set.js:36"
+  "sink": "lib/utils/deepExtend.js:76:26"
 }

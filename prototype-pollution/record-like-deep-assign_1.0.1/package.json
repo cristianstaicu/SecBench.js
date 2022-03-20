@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
-  "sink": "dist/cjs/bundle.min.js:1:233"
+  "sink": "src/mod.ts:34:9"
 }

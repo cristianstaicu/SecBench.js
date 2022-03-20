@@ -9,5 +9,5 @@
   },
   "fixedVersion": "5.0.3",
   "fixCommit": "https://github.com/hapijs/hoek/commit/32ed5c9413321fbc37da5ca81a7cbab693786dee",
-  "sink": "./set.js:36"
+  "sink": "lib/index.js:137:29"
 }

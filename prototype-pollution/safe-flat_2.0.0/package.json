@@ -9,5 +9,5 @@
   },
   "fixedVersion": "2.0.2",
   "fixCommit": "https://github.com/jessie-codes/safe-flat/commit/4b9b7db976bba8c968354f4315f5f9c219b7cbf3",
-  "sink": "./set.js:36"
+  "sink": "src/index.js:48:30"
 }

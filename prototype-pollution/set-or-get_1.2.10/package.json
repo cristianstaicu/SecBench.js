@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.2.11",
   "fixCommit": "https://github.com/IonicaBizau/set-or-get.js/commit/82ede5cccb2e8d13e4f62599203a4389f6d8e936",
-  "sink": "./set.js:36"
+  "sink": "build/utils.js:391:28"
 }

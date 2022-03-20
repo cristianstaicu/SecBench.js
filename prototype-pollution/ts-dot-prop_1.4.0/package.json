@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.4.1",
   "fixCommit": "https://github.com/justinlettau/ts-dot-prop/commit/816b887a669ab959c3c2f85c6563d33928f00f14#diff-f41e9d04a45c83f3b6f6e630f10117feR183",
-  "sink": "./set.js:36"
+  "sink": "src/index.ts:72:21"
 }

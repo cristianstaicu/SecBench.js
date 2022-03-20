@@ -9,5 +9,5 @@
   },
   "fixedVersion": "2.3.0",
   "fixCommit": "https://github.com/mrodrig/doc-path/commit/3e2bb168cf303bffcd7fae5f8d05e5300c1541c7",
-  "sink": "./set.js:36"
+  "sink": "src/path.js:54:27"
 }

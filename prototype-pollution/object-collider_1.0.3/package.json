@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.4",
   "fixCommit": "https://github.com/FireBlinkLTD/object-collider/commit/321f75a7f8e7b3393e5b7dd6dd9ab26ede5906e5",
-  "sink": "./set.js:36"
+  "sink": "src/utils/CollideUtil.ts:83:22"
 }

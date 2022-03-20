@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.1",
   "fixCommit": "n/a",
-  "sink": "./set.js:36"
+  "sink": "lib/connie-lang.js:35:28\"."
 }

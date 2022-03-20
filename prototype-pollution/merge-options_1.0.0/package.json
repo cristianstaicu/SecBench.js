@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.1",
   "fixCommit": "https://github.com/schnittstabil/merge-options/commit/d4a93bc2890455e0931ac0779667023e6cb101d4",
-  "sink": "./set.js:36"
+  "sink": "index.js:73:16"
 }

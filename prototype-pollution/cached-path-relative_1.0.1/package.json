@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.2",
   "fixCommit": "https://github.com/ashaffer/cached-path-relative/commit/a43cffec84ed0e9eceecb43b534b6937a8028fc0",
-  "sink": "./set.js:36"
+  "sink": "lib/index.js:39:19"
 }

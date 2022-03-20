@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.1",
   "fixCommit": "https://github.com/justmoon/node-extend/commit/0e68e71d93507fcc391e398bc84abd0666b28190",
-  "sink": "./set.js:36"
+  "sink": "index.js:77:20"
 }

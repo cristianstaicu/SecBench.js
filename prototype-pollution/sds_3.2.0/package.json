@@ -9,5 +9,5 @@
   },
   "fixedVersion": "4.0.0",
   "fixCommit": "https://github.com/monsterkodi/sds/commit/a228f025fd1be033088b7abbc0f77118d573f216",
-  "sink": "./set.js:36"
+  "sink": "js:34:13"
 }

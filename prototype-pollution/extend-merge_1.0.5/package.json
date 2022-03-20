@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.6",
   "fixCommit": "https://github.com/crysalead-js/extend-merge/commit/6c8dc4e4b5983fa3e85544716f8e347dea2ba3b0",
-  "sink": "./set.js:36"
+  "sink": "base-extend.js:41:21"
 }
