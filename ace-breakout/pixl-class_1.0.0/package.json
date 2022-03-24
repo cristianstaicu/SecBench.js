@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.3",
   "fixCommit": "https://github.com/jhuckaby/pixl-class/commit/47677a3638e3583e42f3a05cc7f0b30293d2acc8",
-  "sink": ""
+  "sink": "class.js:26:4"
 }

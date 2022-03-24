@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "https://github.com/m-prj/m-log/pull/1/commits/ee1a08f25555201001dee497addeae9d1705226a",
-  "sink": ""
+  "sink": "libs/log.js:24:11"
 }

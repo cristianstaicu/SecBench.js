@@ -9,5 +9,5 @@
   },
   "fixedVersion": "2.0.2",
   "fixCommit": "https://github.com/browserify/static-eval/commit/32f8efd072625e267aa7237d2daff35738c50d2a",
-  "sink": ""
+  "sink": "index.js:118:20"
 }

@@ -10,5 +10,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
-  "sink": ""
+  "sink": "scanners/wifiscanner.js:12:22"
 }

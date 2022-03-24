@@ -1,0 +1,936 @@
+ FAIL  js-yaml_3.13.0/js-yaml.test.js
+  ✕ Arbitrary code execution in js-yaml (90 ms)
+
+  ● Arbitrary code execution in js-yaml
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "yes"
+    Received: undefined
+
+       8 |     jsyaml.load(payload);
+       9 |   } catch (error) {}
+    > 10 |   expect({}.polluted).toBe("yes");
+         |                       ^
+      11 | });
+      12 | 
+
+      at Object.<anonymous> (js-yaml_3.13.0/js-yaml.test.js:10:23)
+
+  console.log
+    sink ==> lib/js-yaml/type/js/function.js:70:12
+
+      at Object.set (sink-extraction-setup.js:179:17)
+          at String (<anonymous>)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.275 s
+Ran all test suites matching /ace-breakout\/js-yaml_3.13.0\/js-yaml.test.js/i.
+ PASS  mathjs_3.9.0/mathjs.test.js
+  ✓ Arbitrary code execution in mathjs (411 ms)
+
+  console.log
+    {
+      file: 'touch',
+      args: [ 'touch', 'mathjs' ],
+      envPairs: [
+        'NVM_INC=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/include/node',
+        'TERM_PROGRAM=Apple_Terminal',
+        'NVM_CD_FLAGS=-q',
+        'TERM=xterm-256color',
+        'SHELL=/bin/zsh',
+        'TMPDIR=/var/folders/yc/kzy28h7s0wd8qmzy44zjcn640000gn/T/',
+        'TERM_PROGRAM_VERSION=443',
+        'JAVA_11_HOME=/Users/masudulhasanmasudbhuiyan/Library/Java/JavaVirtualMachines/corretto-11.0.10/Contents/Home',
+        'TERM_SESSION_ID=2E215695-1458-45BA-99CB-37220B0F6F4F',
+        'NVM_DIR=/Users/masudulhasanmasudbhuiyan/.nvm',
+        'USER=masudulhasanmasudbhuiyan',
+        'SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.uNfgXPj8hp/Listeners',
+        'PATH=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/bin:/opt/local/bin:/opt/local/sbin:/Applications/xampp/xamppfiles/bin:/Users/masudulhasanmasudbhuiyan/.config/composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/masudulhasanmasudbhuiyan/.composer/vendor/bin:/Users/masudulhasanmasudbhuiyan/Downloads/apache-maven-3.8.2//bin/',
+        '__CFBundleIdentifier=com.apple.Terminal',
+        'PWD=/Users/masudulhasanmasudbhuiyan/Music/vulns4js/ace-breakout',
+        'JAVA_HOME=/Users/masudulhasanmasudbhuiyan/Library/Java/JavaVirtualMachines/corretto-11.0.10/Contents/Home',
+        'XPC_FLAGS=0x0',
+        'XPC_SERVICE_NAME=0',
+        'M2_HOME=/Users/masudulhasanmasudbhuiyan/Downloads/apache-maven-3.8.2/',
+        'HOME=/Users/masudulhasanmasudbhuiyan',
+        'SHLVL=2',
+        'LOGNAME=masudulhasanmasudbhuiyan',
+        'LC_CTYPE=UTF-8',
+        'NVM_BIN=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/bin',
+        'JAVA_8_HOME=/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home',
+        '_=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/bin/jest',
+        '__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0',
+        'NODE_ENV=test',
+        'JEST_WORKER_ID=1'
+      ],
+      stdio: [
+        { type: 'pipe', readable: true, writable: false },
+        { type: 'pipe', readable: false, writable: true },
+        { type: 'pipe', readable: false, writable: true }
+      ]
+    }
+
+      at spawnSync (eval at <anonymous> (eval at Node.compile (mathjs_3.9.0/node_modules/mathjs/lib/expression/node/Node.js:71:19)), <anonymous>:3:984)
+
+  console.log
+    {
+      status: 0,
+      signal: null,
+      output: [ null, <Buffer >, <Buffer > ],
+      pid: 54530,
+      stdout: <Buffer >,
+      stderr: <Buffer >
+    }
+
+      at eval (eval at <anonymous> (eval at Node.compile (mathjs_3.9.0/node_modules/mathjs/lib/expression/node/Node.js:71:19)), <anonymous>:3:1351)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.115 s
+Ran all test suites matching /ace-breakout\/mathjs_3.9.0\/mathjs.test.js/i.
+ FAIL  zhaoyao91-eval-in-vm_0.0.0/zhaoyao91_eval-in-vm.test.js
+  ✕ Arbitrary code execution in @zhaoyao91/eval-in-vm (37 ms)
+
+  ● Arbitrary code execution in @zhaoyao91/eval-in-vm
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "yes"
+    Received: undefined
+
+       7 |     const result = eval1("1 + (this.constructor.prototype.polluted = `yes`);");
+       8 |   } catch (error) {}
+    >  9 |   expect({}.polluted).toBe("yes");
+         |                       ^
+      10 | });
+      11 | 
+
+      at Object.<anonymous> (zhaoyao91-eval-in-vm_0.0.0/zhaoyao91_eval-in-vm.test.js:9:23)
+
+  console.log
+    sink ==> eval-in-vm/index.js:11:6
+
+      at Object.set (sink-extraction-setup.js:179:17)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.827 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/zhaoyao91-eval-in-vm_0.0.0\/zhaoyao91_eval-in-vm.test.js/i.
+ PASS  pixl-class_1.0.0/pixl-class.test.js
+  ✓ Arbitrary code execution in pixl-class (28 ms)
+
+  console.log
+    File removed: ./pixl-class
+
+      at Object.<anonymous> (pixl-class_1.0.0/pixl-class.test.js:8:13)
+
+  console.log
+    sink ==> class.js:26:4
+
+      at getSink (sink-extraction-setup.js:50:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.756 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/pixl-class_1.0.0\/pixl-class.test.js/i.
+ PASS  wifiscanner_1.0.1/wifiscanner.test.js
+  ✓ Arbitrary code execution in wifiscanner (2068 ms)
+
+  console.log
+    sink ==> scanners/wifiscanner.js:12:22
+
+      at getSink_touch (sink-extraction-setup.js:115:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.83 s, estimated 3 s
+Ran all test suites matching /ace-breakout\/wifiscanner_1.0.1\/wifiscanner.test.js/i.
+ PASS  serialize-to-js_0.5.0/serialize-to-js.test.js
+  ✓ Arbitrary code execution in serialize-to-js (31 ms)
+
+  console.log
+    {
+      file: 'touch',
+      args: [ 'touch', 'serialize-to-js' ],
+      envPairs: [
+        'NVM_INC=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/include/node',
+        'TERM_PROGRAM=Apple_Terminal',
+        'NVM_CD_FLAGS=-q',
+        'TERM=xterm-256color',
+        'SHELL=/bin/zsh',
+        'TMPDIR=/var/folders/yc/kzy28h7s0wd8qmzy44zjcn640000gn/T/',
+        'TERM_PROGRAM_VERSION=443',
+        'JAVA_11_HOME=/Users/masudulhasanmasudbhuiyan/Library/Java/JavaVirtualMachines/corretto-11.0.10/Contents/Home',
+        'TERM_SESSION_ID=2E215695-1458-45BA-99CB-37220B0F6F4F',
+        'NVM_DIR=/Users/masudulhasanmasudbhuiyan/.nvm',
+        'USER=masudulhasanmasudbhuiyan',
+        'SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.uNfgXPj8hp/Listeners',
+        'PATH=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/bin:/opt/local/bin:/opt/local/sbin:/Applications/xampp/xamppfiles/bin:/Users/masudulhasanmasudbhuiyan/.config/composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/masudulhasanmasudbhuiyan/.composer/vendor/bin:/Users/masudulhasanmasudbhuiyan/Downloads/apache-maven-3.8.2//bin/',
+        '__CFBundleIdentifier=com.apple.Terminal',
+        'PWD=/Users/masudulhasanmasudbhuiyan/Music/vulns4js/ace-breakout',
+        'JAVA_HOME=/Users/masudulhasanmasudbhuiyan/Library/Java/JavaVirtualMachines/corretto-11.0.10/Contents/Home',
+        'XPC_FLAGS=0x0',
+        'XPC_SERVICE_NAME=0',
+        'M2_HOME=/Users/masudulhasanmasudbhuiyan/Downloads/apache-maven-3.8.2/',
+        'HOME=/Users/masudulhasanmasudbhuiyan',
+        'SHLVL=2',
+        'LOGNAME=masudulhasanmasudbhuiyan',
+        'LC_CTYPE=UTF-8',
+        'NVM_BIN=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/bin',
+        'JAVA_8_HOME=/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home',
+        '_=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/bin/jest',
+        '__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0',
+        'NODE_ENV=test',
+        'JEST_WORKER_ID=1'
+      ],
+      stdio: [
+        { type: 'pipe', readable: true, writable: false },
+        { type: 'pipe', readable: false, writable: true },
+        { type: 'pipe', readable: false, writable: true }
+      ]
+    }
+
+      at spawnSync (eval at deserialize (node_modules/serialize-to-js/lib/deserialize.js:28:11), <anonymous>:3:1008)
+
+  console.log
+    {
+      status: 0,
+      signal: null,
+      output: [ null, <Buffer >, <Buffer > ],
+      pid: 54557,
+      stdout: <Buffer >,
+      stderr: <Buffer >
+    }
+
+      at eval (eval at deserialize (node_modules/serialize-to-js/lib/deserialize.js:28:11), <anonymous>:3:1375)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.822 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/serialize-to-js_0.5.0\/serialize-to-js.test.js/i.
+ PASS  mol-proto_0.1.3/mol-proto.test.js
+  ✓ Arbitrary code execution in mol-proto (36 ms)
+
+  console.log
+    sink ==> lib/proto_function.js:70:5
+
+      at getSink (sink-extraction-setup.js:50:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.83 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/mol-proto_0.1.3\/mol-proto.test.js/i.
+ PASS  m-log_0.0.1/m-log.test.js
+  ✓ Arbitrary code execution in m-log (43 ms)
+
+  console.log
+    sink ==> libs/log.js:24:11
+
+      at getSink (sink-extraction-setup.js:50:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.801 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/m-log_0.0.1\/m-log.test.js/i.
+ FAIL  realms-shim_1.1.0/realms-shim.test.js
+  ✕ Arbitrary code execution in realms-shim (102 ms)
+
+  ● Arbitrary code execution in realms-shim
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "yes"
+    Received: undefined
+
+      15 |           `);
+      16 |   } catch (error) {}
+    > 17 |   expect({}.polluted).toBe("yes");
+         |                       ^
+      18 | });
+      19 | 
+
+      at Object.<anonymous> (realms-shim_1.1.0/realms-shim.test.js:17:23)
+
+  console.log
+    sink ==> src/evaluators.js:60:26
+
+      at Object.apply (sink-extraction-setup.js:179:17)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.864 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/realms-shim_1.1.0\/realms-shim.test.js/i.
+ FAIL  marsdb_0.6.11/marsdb.test.js
+  ✕ Arbitrary code execution in marsdb (107 ms)
+
+  ● Arbitrary code execution in marsdb
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "yes"
+    Received: undefined
+
+      19 |       .find({ $where: "(Object.prototype.polluted=`yes`)" })
+      20 |       .then((docs) => {
+    > 21 |         expect({}.polluted).toBe("yes");
+         |                             ^
+      22 |       });
+      23 |   });
+      24 | });
+
+      at marsdb_0.6.11/marsdb.test.js:21:29
+
+  console.log
+    sink ==> dist/DocumentMatcher.js:419:23
+
+      at Object.set (sink-extraction-setup.js:179:17)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.787 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/marsdb_0.6.11\/marsdb.test.js/i.
+ FAIL  djv_2.0.0/djv.test.js
+  ✕ Arbitrary code execution in  djv (60 ms)
+
+  ● Arbitrary code execution in  djv
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "yes"
+    Received: undefined
+
+      11 |     env.validate("test#/common", { type: "custom" });
+      12 |   } catch (error) {}
+    > 13 |   expect({}.polluted).toBe("yes");
+         |                       ^
+      14 | });
+      15 | 
+
+      at Object.<anonymous> (djv_2.0.0/djv.test.js:13:23)
+
+  console.log
+    sink ==> lib/utils/template.js:110:15
+
+      at Object.set (sink-extraction-setup.js:179:17)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.727 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/djv_2.0.0\/djv.test.js/i.
+ FAIL  json-ptr_2.0.0/json-ptr.test.js
+  ✕ Arbitrary code execution in json-ptr (48 ms)
+
+  ● Arbitrary code execution in json-ptr
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "yes"
+    Received: undefined
+
+      13 |     );
+      14 |   } catch (error) {}
+    > 15 |   expect({}.polluted).toBe("yes");
+         |                       ^
+      16 | });
+      17 | 
+
+      at Object.<anonymous> (json-ptr_2.0.0/json-ptr.test.js:15:23)
+
+  console.log
+    sink ==> src/util.ts:155:10
+
+      at Object.set (sink-extraction-setup.js:179:17)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.874 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/json-ptr_2.0.0\/json-ptr.test.js/i.
+ PASS  hot-formula-parser_3.0.0/hot-formula-parser.test.js
+  ✓ Arbitrary code execution in hot-formula-parser (100 ms)
+
+  console.log
+    sink ==> lib/grammar-parser/grammar-parser.js:258:31
+
+      at getSink_touch (sink-extraction-setup.js:115:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.814 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/hot-formula-parser_3.0.0\/hot-formula-parser.test.js/i.
+ PASS  open_0.0.5/open.test.js
+  ✓ Arbitrary code execution in open (52 ms)
+
+  console.log
+    File removed: ./open
+
+      at Object.<anonymous> (open_0.0.5/open.test.js:7:13)
+
+  console.log
+    sink ==> lib/open.js:58:10
+
+      at getSink_touch (sink-extraction-setup.js:115:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.845 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/open_0.0.5\/open.test.js/i.
+ PASS  serialize-javascript_2.0.0/serialize-javascript.test.js
+  ✓ Arbitrary code execution in serialize-javascript (25 ms)
+
+  console.log
+    sink ==> Error:
+
+      at getSink (sink-extraction-setup.js:50:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.719 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/serialize-javascript_2.0.0\/serialize-javascript.test.js/i.
+ FAIL  is-my-json-valid_2.20.0/is-my-json-valid.test.js
+  ✕ Arbitrary code execution in is-my-json-valid (46 ms)
+
+  ● Arbitrary code execution in is-my-json-valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "yes"
+    Received: undefined
+
+      21 |   } catch (e) {}
+      22 |   file_exist = fs.existsSync(path);
+    > 23 |   expect({}.polluted).toBe("yes");
+         |                       ^
+      24 |   fs.unlink(path, function (err) {});
+      25 | });
+      26 | 
+
+      at Object.<anonymous> (is-my-json-valid_2.20.0/is-my-json-valid.test.js:23:23)
+
+  console.log
+    sink ==> index.js:172:21
+
+      at Object.validate (sink-extraction-setup.js:179:17)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.831 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/is-my-json-valid_2.20.0\/is-my-json-valid.test.js/i.
+ FAIL  safe-eval_0.2.0/safe-eval.test.js
+  ✕ Arbitrary code execution in safe-eval (28 ms)
+
+  ● Arbitrary code execution in safe-eval
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "yes"
+    Received: undefined
+
+       6 |     safeEval("this.constructor.prototype.polluted=`yes`");
+       7 |   } catch (error) {}
+    >  8 |   expect({}.polluted).toBe("yes");
+         |                       ^
+       9 | });
+      10 | 
+
+      at Object.<anonymous> (safe-eval_0.2.0/safe-eval.test.js:8:23)
+
+  console.log
+    sink ==> index.js:13:6
+
+      at Object.set (sink-extraction-setup.js:179:17)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.711 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/safe-eval_0.2.0\/safe-eval.test.js/i.
+ FAIL  static-eval_1.1.1/static-eval.test.js
+  ✕ Arbitrary code execution in static-eval (50 ms)
+
+  ● Arbitrary code execution in static-eval
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "yes"
+    Received: undefined
+
+       9 |     let res = evaluate(ast, {});
+      10 |   } catch (error) {}
+    > 11 |   expect({}.polluted).toBe("yes");
+         |                       ^
+      12 | });
+      13 | 
+
+      at Object.<anonymous> (static-eval_1.1.1/static-eval.test.js:11:23)
+
+  console.log
+    sink ==> index.js:118:20
+
+      at Object.set (sink-extraction-setup.js:179:17)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.723 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/static-eval_1.1.1\/static-eval.test.js/i.
+ PASS  mongoosemask_0.0.6/mongoosemask.test.js
+  ✓ Arbitrary code execution in mongoosemask (31 ms)
+
+  console.log
+    sink ==> index.js:181:5
+
+      at getSink (sink-extraction-setup.js:50:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.701 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/mongoosemask_0.0.6\/mongoosemask.test.js/i.
+ PASS  node-serialize_0.0.3/node-serialize.test.js
+  ✓ Arbitrary code execution in node-serialize (33 ms)
+
+  console.log
+    sink ==> lib/serialize.js:75:22
+
+      at getSink (sink-extraction-setup.js:50:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.87 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/node-serialize_0.0.3\/node-serialize.test.js/i.
+ FAIL  veval_1.0.0/veval.test.js
+  ✕ Arbitrary code execution in veval (33 ms)
+
+  ● Arbitrary code execution in veval
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "yes"
+    Received: undefined
+
+       6 |     ve({ hi: 0 }, "1 + (this.constructor.prototype.polluted = `yes`);");
+       7 |   } catch (error) {}
+    >  8 |   expect({}.polluted).toBe("yes");
+         |                       ^
+       9 | });
+      10 | 
+
+      at Object.<anonymous> (veval_1.0.0/veval.test.js:8:23)
+
+  console.log
+    sink ==> index.js:13:21
+
+      at Object.set (sink-extraction-setup.js:179:17)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.902 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/veval_1.0.0\/veval.test.js/i.
+ PASS  mathjs_3.10.3/mathjs.test.js
+  ✓ Arbitrary code execution in mathjs (444 ms)
+
+  console.log
+    {
+      file: 'touch',
+      args: [ 'touch', 'mathjs' ],
+      envPairs: [
+        'NVM_INC=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/include/node',
+        'TERM_PROGRAM=Apple_Terminal',
+        'NVM_CD_FLAGS=-q',
+        'TERM=xterm-256color',
+        'SHELL=/bin/zsh',
+        'TMPDIR=/var/folders/yc/kzy28h7s0wd8qmzy44zjcn640000gn/T/',
+        'TERM_PROGRAM_VERSION=443',
+        'JAVA_11_HOME=/Users/masudulhasanmasudbhuiyan/Library/Java/JavaVirtualMachines/corretto-11.0.10/Contents/Home',
+        'TERM_SESSION_ID=2E215695-1458-45BA-99CB-37220B0F6F4F',
+        'NVM_DIR=/Users/masudulhasanmasudbhuiyan/.nvm',
+        'USER=masudulhasanmasudbhuiyan',
+        'SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.uNfgXPj8hp/Listeners',
+        'PATH=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/bin:/opt/local/bin:/opt/local/sbin:/Applications/xampp/xamppfiles/bin:/Users/masudulhasanmasudbhuiyan/.config/composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/masudulhasanmasudbhuiyan/.composer/vendor/bin:/Users/masudulhasanmasudbhuiyan/Downloads/apache-maven-3.8.2//bin/',
+        '__CFBundleIdentifier=com.apple.Terminal',
+        'PWD=/Users/masudulhasanmasudbhuiyan/Music/vulns4js/ace-breakout',
+        'JAVA_HOME=/Users/masudulhasanmasudbhuiyan/Library/Java/JavaVirtualMachines/corretto-11.0.10/Contents/Home',
+        'XPC_FLAGS=0x0',
+        'XPC_SERVICE_NAME=0',
+        'M2_HOME=/Users/masudulhasanmasudbhuiyan/Downloads/apache-maven-3.8.2/',
+        'HOME=/Users/masudulhasanmasudbhuiyan',
+        'SHLVL=2',
+        'LOGNAME=masudulhasanmasudbhuiyan',
+        'LC_CTYPE=UTF-8',
+        'NVM_BIN=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/bin',
+        'JAVA_8_HOME=/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home',
+        '_=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/bin/jest',
+        '__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0',
+        'NODE_ENV=test',
+        'JEST_WORKER_ID=1'
+      ],
+      stdio: [
+        { type: 'pipe', readable: true, writable: false },
+        { type: 'pipe', readable: false, writable: true },
+        { type: 'pipe', readable: false, writable: true }
+      ]
+    }
+
+      at spawnSync (eval at <anonymous> (eval at Node.compile (mathjs_3.10.3/node_modules/mathjs/lib/expression/node/Node.js:71:19)), <anonymous>:3:984)
+
+  console.log
+    {
+      status: 0,
+      signal: null,
+      output: [ null, <Buffer >, <Buffer > ],
+      pid: 54642,
+      stdout: <Buffer >,
+      stderr: <Buffer >
+    }
+
+      at eval (eval at <anonymous> (eval at Node.compile (mathjs_3.10.3/node_modules/mathjs/lib/expression/node/Node.js:71:19)), <anonymous>:3:1351)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.289 s
+Ran all test suites matching /ace-breakout\/mathjs_3.10.3\/mathjs.test.js/i.
+ PASS  access-policy_3.1.0/access-policy.test.js
+  ✓ Arbitrary code execution in access-policy (37 ms)
+
+  console.log
+    sink ==> lib/encode.js:6:10
+
+      at getSink (sink-extraction-setup.js:50:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.867 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/access-policy_3.1.0\/access-policy.test.js/i.
+ PASS  node-extend_0.2.0/node-extend.test.js
+  ✓ Arbitrary code execution in node-extend (34 ms)
+
+  console.log
+
+
+      at extend (node_modules/node-extend/lib/extend.js:30:10)
+
+  console.log
+    sink ==> Error:
+
+      at getSink (sink-extraction-setup.js:50:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.911 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/node-extend_0.2.0\/node-extend.test.js/i.
+ PASS  reduce-css-calc_1.2.0/reduce-css-calc.test.js
+  ✓ Arbitrary code execution in reduce-css-calc (36 ms)
+
+  console.log
+    NaN
+
+      at Object.<anonymous> (reduce-css-calc_1.2.0/reduce-css-calc.test.js:9:13)
+
+  console.log
+    NaN
+
+      at Object.<anonymous> (reduce-css-calc_1.2.0/reduce-css-calc.test.js:10:13)
+
+  console.log
+    sink ==> Error:
+
+      at getSink (sink-extraction-setup.js:50:11)
+
+  console.log
+    NaN
+
+      at Object.<anonymous> (reduce-css-calc_1.2.0/reduce-css-calc.test.js:15:13)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.815 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/reduce-css-calc_1.2.0\/reduce-css-calc.test.js/i.
+ FAIL  value-censorship_1.1.0/value-censorship.test.js
+  ✕ Arbitrary code execution in  value-censorship (119 ms)
+
+  ● Arbitrary code execution in  value-censorship
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "yes"
+    Received: undefined
+
+       8 |         `);
+       9 |   } catch (error) {}
+    > 10 |   expect({}.polluted).toBe("yes");
+         |                       ^
+      11 | });
+      12 | 
+
+      at Object.<anonymous> (value-censorship_1.1.0/value-censorship.test.js:10:23)
+
+  console.log
+    sink ==> index.js:22:19
+
+      at Object.set (sink-extraction-setup.js:179:17)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.904 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/value-censorship_1.1.0\/value-censorship.test.js/i.
+ FAIL  mosc_1.0.0/mosc.test.js
+  ✕ Arbitrary code execution in mosc (27 ms)
+
+  ● Arbitrary code execution in mosc
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "yes"
+    Received: undefined
+
+      12 |     a.parse_properties(key, properties, {}, {});
+      13 |   } catch (error) {}
+    > 14 |   expect({}.polluted).toBe("yes");
+         |                       ^
+      15 | });
+      16 | 
+
+      at Object.<anonymous> (mosc_1.0.0/mosc.test.js:14:23)
+
+  console.log
+    sink ==> mosc.js:50:43
+
+      at Object.set (sink-extraction-setup.js:179:17)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.705 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/mosc_1.0.0\/mosc.test.js/i.
+ PASS  mixin-pro_0.6.0/mixin-pro.test.js
+  ✓ Arbitrary code execution in mixin-pro (25 ms)
+
+  console.log
+    sink ==> Error:
+
+      at getSink (sink-extraction-setup.js:50:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.684 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/mixin-pro_0.6.0\/mixin-pro.test.js/i.
+ PASS  thenify_3.3.0/thenify.test.js
+  ✓ Arbitrary code execution in thenify (30 ms)
+
+  console.log
+    sink ==> index.js:17:10
+
+      at getSink (sink-extraction-setup.js:50:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.772 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/thenify_3.3.0\/thenify.test.js/i.
+ PASS  node-rules_3.0.0/node-rules.test.js
+  ✓ Arbitrary code execution in node-rules (32 ms)
+
+  console.log
+    sink ==> lib/node-rules.js:245:33
+
+      at getSink (sink-extraction-setup.js:50:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.803 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/node-rules_3.0.0\/node-rules.test.js/i.
+ PASS  jsen_0.6.6/jsen.test.js
+  ✓ Arbitrary code execution in jsen (34 ms)
+
+  console.log
+    sink ==> Error:
+
+      at getSink (sink-extraction-setup.js:50:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.766 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/jsen_0.6.6\/jsen.test.js/i.
+ PASS  modjs_0.4.0/modjs.test.js
+  ✓ Arbitrary code execution in modjs (261 ms)
+
+  console.warn
+    [SECURITY] node-uuid: crypto not usable, falling back to insecure Math.random()
+
+      at setupBrowser (node_modules/node-uuid/uuid.js:48:17)
+      at node_modules/node-uuid/uuid.js:67:5
+      at Object.<anonymous> (node_modules/node-uuid/uuid.js:272:3)
+
+  console.log
+    sink ==> lib/utils/sea.js:284:22
+
+      at getSink (sink-extraction-setup.js:50:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.132 s
+Ran all test suites matching /ace-breakout\/modjs_0.4.0\/modjs.test.js/i.
+ PASS  underscore_1.13.0-0/underscore.test.js
+  ✓ Arbitrary code execution in underscore (92 ms)
+
+  console.log
+    sink ==> modules/template.js:71:14
+
+      at getSink (sink-extraction-setup.js:50:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.849 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/underscore_1.13.0-0\/underscore.test.js/i.
+ PASS  mobile-icon-resizer_0.4.0/mobile-icon-resizer.test.js
+  ✓ Arbitrary code execution in mobile-icon-resizer (39 ms)
+
+  console.log
+    sink ==> Error:
+
+      at getSink (sink-extraction-setup.js:50:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.785 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/mobile-icon-resizer_0.4.0\/mobile-icon-resizer.test.js/i.
+ FAIL  safer-eval_1.3.1/safer-eval.test.js
+  ✕ Arbitrary code execution in safer-eval (44 ms)
+
+  ● Arbitrary code execution in safer-eval
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "yes"
+    Received: undefined
+
+       8 |     );
+       9 |   } catch (error) {}
+    > 10 |   expect({}.polluted).toBe("yes");
+         |                       ^
+      11 | });
+      12 | 
+
+      at Object.<anonymous> (safer-eval_1.3.1/safer-eval.test.js:10:23)
+
+  console.log
+    sink ==> lib/index.js:60:17
+
+      at Object.set (sink-extraction-setup.js:179:17)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.818 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/safer-eval_1.3.1\/safer-eval.test.js/i.
+ PASS  kmc_1.2.2/kmc.test.js
+  ✓ Arbitrary code execution in kmc (41 ms)
+
+  console.log
+    sink ==>
+
+      at getSink (sink-extraction-setup.js:50:11)
+
+  console.log
+    sink ==> lib/index.js:164:43
+
+      at getSink (sink-extraction-setup.js:50:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.726 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/kmc_1.2.2\/kmc.test.js/i.
+ PASS  cd-messenger_2.7.24/poc.test.js
+  ✓ Arbitrary code execution in cd-messenger (52 ms)
+
+  console.log
+    ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
+      at Chalkline.builder (node_modules/chalkline/index.js:103:20)
+
+  console.log
+    sink ==> src/messenger-node.js:70:9
+
+      at getSink (sink-extraction-setup.js:50:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.824 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/cd-messenger_2.7.24\/poc.test.js/i.
+  console.log
+    File removed: ./mongo-parse
+
+      at Object.<anonymous> (mongo-parse_2.1.0/mongo-parse.test.js:9:13)
+
+  console.log
+    sink ==>
+
+      at getSink_touch (sink-extraction-setup.js:115:11)
+
+ PASS  mongo-parse_2.1.0/mongo-parse.test.js
+  ✓ Arbitrary code execution in mongo-parse (538 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.292 s
+Ran all test suites matching /ace-breakout\/mongo-parse_2.1.0\/mongo-parse.test.js/i.
+ PASS  local-devices_2.0.0/local-devices.test.js
+  ✓ Arbitrary code execution in local-devices (74 ms)
+
+  console.log
+    sink ==> src/index.js:114:13
+
+      at getSink_touch (sink-extraction-setup.js:115:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.829 s, estimated 1 s
+Ran all test suites matching /ace-breakout\/local-devices_2.0.0\/local-devices.test.js/i.
+ PASS  modulify_0.1.0/modulify.test.js
+  ✓ Arbitrary code execution in modulify (30 ms)
+
+  console.log
+    sink ==> src/modulify.js:74:5
+
+      at getSink (sink-extraction-setup.js:54:11)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.371 s
+Ran all test suites matching /modulify_0.1.0\/modulify.test.js/i.

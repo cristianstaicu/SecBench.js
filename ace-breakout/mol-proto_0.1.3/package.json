@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.6",
   "fixCommit": "https://github.com/milojs/proto/pull/2/commits/10adbec293e7dfdb2e9e565bfd77187cf0373cbe",
-  "sink": ""
+  "sink": "lib/proto_function.js:70:5"
 }

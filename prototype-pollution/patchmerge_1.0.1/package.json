@@ -1,7 +1,6 @@
 {
   "id": "CVE-2021-25916",
   "dependencies": {
-    "jest": "^27.4.5",
     "patchmerge": "1.0.1"
   },
   "links": {

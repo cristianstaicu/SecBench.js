@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.12.1",
   "fixCommit": "https://github.com/jashkenas/underscore/commit/4c73526d43838ad6ab43a6134728776632adeb66",
-  "sink": ""
+  "sink": "modules/template.js:71:14"
 }

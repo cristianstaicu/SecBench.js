@@ -9,5 +9,5 @@
   },
   "fixedVersion": "5.0.0",
   "fixCommit": "n/a",
-  "sink": ""
+  "sink": "lib/node-rules.js:245:33"
 }

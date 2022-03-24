@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.3.4",
   "fixCommit": "n/a",
-  "sink": ""
+  "sink": "lib/index.js:60:17"
 }

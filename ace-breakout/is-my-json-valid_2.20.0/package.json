@@ -10,5 +10,5 @@
   },
   "fixedVersion": "2.20.3",
   "fixCommit": "https://github.com/mafintosh/is-my-json-valid/commit/3419563687df463b4ca709a2b46be8e15d6a2b3d",
-  "sink": ""
+  "sink": "index.js:172:21"
 }

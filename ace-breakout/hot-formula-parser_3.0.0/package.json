@@ -9,5 +9,5 @@
   },
   "fixedVersion": "3.0.1",
   "fixCommit": "https://github.com/handsontable/formula-parser/commit/396b089738d4bf30eb570a4fe6a188affa95cd5e",
-  "sink": ""
+  "sink": "lib/grammar-parser/grammar-parser.js:258:31"
 }
