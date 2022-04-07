@@ -1,10 +1,8 @@
-//https://hackerone.com/reports/863956
 test("Command Injection in extra-asciinema", (done) => {
   expect.assertions(2);
   const asciinema = require("extra-asciinema");
   const fs = require("fs");
   const path = "./extra-asciinema";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

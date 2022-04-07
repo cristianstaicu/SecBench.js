@@ -1,10 +1,8 @@
-//https://github.com/tj/node-growl/issues/60
 test("Command Injection in growl", (done) => {
   expect.assertions(2);
   const growl = require("growl");
   const fs = require("fs");
   const path = "./growl";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

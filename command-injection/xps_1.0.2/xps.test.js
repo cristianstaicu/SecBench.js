@@ -1,14 +1,11 @@
-//https://snyk.io/vuln/SNYK-JS-XPS-590098
 test("Command Injection in xps", (done) => {
   expect.assertions(2);
   const ps = require("xps");
   const fs = require("fs");
   const path = "./xps";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);
-      // console.log("File removed:", path);
     }
   } catch (err) {
     console.error(err);

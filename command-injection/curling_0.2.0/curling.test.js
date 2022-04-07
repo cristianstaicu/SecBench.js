@@ -1,10 +1,8 @@
-//https://meet.google.com/wjg-fngp-nco
 test("Command Injection in curling", (done) => {
   expect.assertions(2);
   const root = require("curling");
   const fs = require("fs");
   const path = "./curling";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

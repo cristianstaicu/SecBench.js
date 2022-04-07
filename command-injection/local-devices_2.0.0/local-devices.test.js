@@ -1,10 +1,8 @@
-//https://github.com/DylanPiercey/local-devices/pull/16
 test("Command Injection in local-devices", () => {
   expect.assertions(2);
   const find = require("local-devices");
   const fs = require("fs");
   const path = "./local-devices";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

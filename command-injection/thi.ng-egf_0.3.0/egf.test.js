@@ -1,10 +1,8 @@
-//https://securitylab.github.com/advisories/GHSL-2021-062-thi-ng-egf-cmd-injection/
 test("Command Injection in @thi.ng/egf", () => {
   expect.assertions(2);
   const egf = require("@thi.ng/egf");
   const fs = require("fs");
   const path = "./egf";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

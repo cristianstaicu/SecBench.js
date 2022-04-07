@@ -1,14 +1,11 @@
-//https://github.com/advisories/GHSA-gm9x-q798-hmr4
 test("Command Injection in git-tags-remote", () => {
   expect.assertions(2);
   const gitTagsRemote = require("git-tags-remote");
   const fs = require("fs");
   const path = "./git-tags-remote";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);
-      // console.log('File removed:', path);
     }
   } catch (err) {
     console.error(err);

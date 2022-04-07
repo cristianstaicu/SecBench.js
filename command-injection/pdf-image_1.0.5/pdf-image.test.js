@@ -1,10 +1,8 @@
-//https://hackerone.com/reports/340208
 test("Command Injection in pdf-image", () => {
   expect.assertions(2);
   const PDFImage = require("pdf-image").PDFImage;
   const fs = require("fs");
   const path = "./pdf-image";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

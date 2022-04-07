@@ -1,10 +1,8 @@
-//https://hackerone.com/reports/661959
 test("Command Injection in kill-port-process", () => {
   expect.assertions(2);
   const killPortProcess = require("kill-port-process");
   const fs = require("fs");
   const path = "./kill-port-process";
-  const sleep = require("sleep");
   const PORT = "$(touch kill-port-process)";
   try {
     if (fs.existsSync(path)) {

@@ -1,4 +1,3 @@
-//https://hackerone.com/reports/718241
 test("Remote code execution in git-lib", () => {
   expect.assertions(2);
   const git = require("git-lib");
@@ -7,7 +6,6 @@ test("Remote code execution in git-lib", () => {
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);
-      // console.log('File removed:', path);
     }
   } catch (err) {
     console.error(err);

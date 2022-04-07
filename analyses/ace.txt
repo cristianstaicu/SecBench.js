@@ -1,0 +1,443 @@
+Loaded babel plugin
+0/49 0
+1/49 0
+2/49 0
+encode - encode,resource,restriction
+Log.......>>>  3 3
+3/49 1
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/ace-breakout/node_modules/cd-messenger/src/messenger-node.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+4/49 1
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/ace-breakout/node_modules/djv/lib/djv.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+5/49 1
+TypeError: pushFct(...) is not a function
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/ace-breakout/node_modules/jstat/dist/jstat.js:1772:1
+    at factory (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/ace-breakout/node_modules/jstat/dist/jstat.js:1769:2)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/ace-breakout/node_modules/jstat/dist/jstat.js:3:26
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/ace-breakout/node_modules/jstat/dist/jstat.js:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+6/49 1
+main - filter,main
+Log.......>>>  5 9
+7/49 2
+8/49 2
+load - Type,Schema,FAILSAFE_SCHEMA,JSON_SCHEMA,CORE_SCHEMA,DEFAULT_SAFE_SCHEMA,DEFAULT_FULL_SCHEMA,load,loadAll,safeLoad,safeLoadAll,dump,safeDump,YAMLException,MINIMAL_SCHEMA,SAFE_SCHEMA,DEFAULT_SCHEMA,scan,parse,compose,addConstructor
+Log.......>>>  0 9
+9/49 3
+main - browser,clone,equal,unique,ucs2length,SchemaResolver,resolve,main
+Log.......>>>  1 9
+10/49 4
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/ace-breakout/node_modules/json-ptr/dist/util.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+11/49 4
+main - browser,clone,equal,unique,ucs2length,SchemaResolver,resolve,main
+Log.......>>>  1 4
+12/49 5
+main - main
+Log.......>>>  9 6
+13/49 6
+setColorTheme - setColorTheme,getColorTheme,setDateTimeformat,getDateTimeformat,getTime,setDebuggable,out,silly,info,input,verbose,prompt,data,help,warn,debug,error
+Log.......>>>  0 7
+14/49 7
+TypeError: pushFct(...) is not a function
+    at IndexManager.ensureIndex (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/ace-breakout/node_modules/marsdb/dist/IndexManager.js:88:7)
+    at new IndexManager (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/ace-breakout/node_modules/marsdb/dist/IndexManager.js:65:10)
+    at Collection._lazyInitCollection (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/ace-breakout/node_modules/marsdb/dist/Collection.js:348:29)
+    at Collection.insert (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/ace-breakout/node_modules/marsdb/dist/Collection.js:163:12)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/ace-breakout/marsdb_0.6.11/marsdb.test.js:17:16
+    at test (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:75:3)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/ace-breakout/marsdb_0.6.11/marsdb.test.js:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+15/49 7
+{
+  file: 'touch',
+  args: [ 'touch', 'mathjs' ],
+  envPairs: [
+    'TERM_PROGRAM=Apple_Terminal',
+    'SHELL=/bin/zsh',
+    'TERM=xterm-256color',
+    'TMPDIR=/var/folders/yc/kzy28h7s0wd8qmzy44zjcn640000gn/T/',
+    'TERM_PROGRAM_VERSION=443',
+    'TERM_SESSION_ID=F37C94E4-C047-4133-A36D-3E30D623B2BB',
+    'USER=masudulhasanmasudbhuiyan',
+    'SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.X1uZF2W4l5/Listeners',
+    'PATH=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/bin:/opt/local/bin:/opt/local/sbin:/Applications/xampp/xamppfiles/bin:/Users/masudulhasanmasudbhuiyan/.config/composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/masudulhasanmasudbhuiyan/.composer/vendor/bin:/Users/masudulhasanmasudbhuiyan/Downloads/apache-maven-3.8.2//bin/',
+    '__CFBundleIdentifier=com.apple.Terminal',
+    'PWD=/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses',
+    'XPC_FLAGS=0x0',
+    'XPC_SERVICE_NAME=0',
+    'SHLVL=1',
+    'HOME=/Users/masudulhasanmasudbhuiyan',
+    'LOGNAME=masudulhasanmasudbhuiyan',
+    'OLDPWD=/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses',
+    'JAVA_8_HOME=/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home',
+    'JAVA_11_HOME=/Users/masudulhasanmasudbhuiyan/Library/Java/JavaVirtualMachines/corretto-11.0.10/Contents/Home',
+    'JAVA_HOME=/Users/masudulhasanmasudbhuiyan/Library/Java/JavaVirtualMachines/corretto-11.0.10/Contents/Home',
+    'M2_HOME=/Users/masudulhasanmasudbhuiyan/Downloads/apache-maven-3.8.2/',
+    'NVM_DIR=/Users/masudulhasanmasudbhuiyan/.nvm',
+    'NVM_CD_FLAGS=-q',
+    'NVM_BIN=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/bin',
+    'NVM_INC=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/include/node',
+    'LC_CTYPE=UTF-8',
+    '_=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/bin/node',
+    '__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0'
+  ],
+  stdio: [
+    { type: 'pipe', readable: true, writable: false },
+    { type: 'pipe', readable: false, writable: true },
+    { type: 'pipe', readable: false, writable: true }
+  ]
+}
+{
+  status: 0,
+  signal: null,
+  output: [ null, <Buffer >, <Buffer > ],
+  pid: 42068,
+  stdout: <Buffer >,
+  stderr: <Buffer >
+}
+eval - on,off,once,emit,type,expression,algebra,typed,import,config,create,bignumber,boolean,chain,complex,fraction,index,matrix,sparse,number,string,unit,createUnit,splitUnit,speedOfLight,gravitationConstant,planckConstant,reducedPlanckConstant,magneticConstant,electricConstant,vacuumImpedance,coulomb,elementaryCharge,bohrMagneton,conductanceQuantum,inverseConductanceQuantum,magneticFluxQuantum,nuclearMagneton,klitzing,bohrRadius,classicalElectronRadius,electronMass,fermiCoupling,fineStructure,hartreeEnergy,protonMass,deuteronMass,neutronMass,quantumOfCirculation,rydberg,thomsonCrossSection,weakMixingAngle,efimovFactor,atomicMass,avogadro,boltzmann,faraday,firstRadiation,loschmidt,gasConstant,molarPlanckConstant,molarVolume,sackurTetrode,secondRadiation,stefanBoltzmann,wienDisplacement,molarMass,molarMassC12,gravity,planckLength,planckMass,planckTime,planckCharge,planckTemperature,true,false,null,uninitialized,Infinity,NaN,pi,tau,e,phi,E,LN2,LN10,LOG2E,LOG10E,PI,SQRT1_2,SQRT2,i,version,compile,eval,help,parse,parser,derivative,simplify,lup,slu,lsolve,lusolve,usolve,abs,add,cbrt,ceil,cube,divide,dotDivide,dotMultiply,dotPow,exp,fix,floor,gcd,hypot,lcm,log,log10,mod,multiply,norm,nthRoot,pow,round,sign,sqrt,square,subtract,unaryMinus,unaryPlus,xgcd,bitAnd,bitNot,bitOr,bitXor,leftShift,rightArithShift,rightLogShift,bellNumbers,composition,stirlingS2,catalan,arg,conj,im,re,intersect,distance,and,not,or,xor,concat,cross,det,diag,dot,eye,filter,flatten,forEach,inv,kron,map,ones,partitionSelect,range,reshape,resize,size,sort,squeeze,subset,trace,transpose,zeros,combinations,factorial,gamma,kldivergence,multinomial,permutations,pickRandom,random,randomInt,compare,deepEqual,equal,larger,largerEq,smaller,smallerEq,unequal,erf,mad,max,mean,median,min,mode,prod,quantileSeq,std,sum,var,format,print,acos,acosh,acot,acoth,acsc,acsch,asec,asech,asin,asinh,atan,atan2,atanh,cos,cosh,cot,coth,csc,csch,sec,sech,sin,sinh,tan,tanh,to,clone,isInteger,isNegative,isNumeric,isPositive,isPrime,isZero,isNaN,typeof,json,error
+Log.......>>>  0 9
+16/49 8
+{
+  file: 'touch',
+  args: [ 'touch', 'mathjs' ],
+  envPairs: [
+    'TERM_PROGRAM=Apple_Terminal',
+    'SHELL=/bin/zsh',
+    'TERM=xterm-256color',
+    'TMPDIR=/var/folders/yc/kzy28h7s0wd8qmzy44zjcn640000gn/T/',
+    'TERM_PROGRAM_VERSION=443',
+    'TERM_SESSION_ID=F37C94E4-C047-4133-A36D-3E30D623B2BB',
+    'USER=masudulhasanmasudbhuiyan',
+    'SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.X1uZF2W4l5/Listeners',
+    'PATH=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/bin:/opt/local/bin:/opt/local/sbin:/Applications/xampp/xamppfiles/bin:/Users/masudulhasanmasudbhuiyan/.config/composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/masudulhasanmasudbhuiyan/.composer/vendor/bin:/Users/masudulhasanmasudbhuiyan/Downloads/apache-maven-3.8.2//bin/',
+    '__CFBundleIdentifier=com.apple.Terminal',
+    'PWD=/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses',
+    'XPC_FLAGS=0x0',
+    'XPC_SERVICE_NAME=0',
+    'SHLVL=1',
+    'HOME=/Users/masudulhasanmasudbhuiyan',
+    'LOGNAME=masudulhasanmasudbhuiyan',
+    'OLDPWD=/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses',
+    'JAVA_8_HOME=/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home',
+    'JAVA_11_HOME=/Users/masudulhasanmasudbhuiyan/Library/Java/JavaVirtualMachines/corretto-11.0.10/Contents/Home',
+    'JAVA_HOME=/Users/masudulhasanmasudbhuiyan/Library/Java/JavaVirtualMachines/corretto-11.0.10/Contents/Home',
+    'M2_HOME=/Users/masudulhasanmasudbhuiyan/Downloads/apache-maven-3.8.2/',
+    'NVM_DIR=/Users/masudulhasanmasudbhuiyan/.nvm',
+    'NVM_CD_FLAGS=-q',
+    'NVM_BIN=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/bin',
+    'NVM_INC=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/include/node',
+    'LC_CTYPE=UTF-8',
+    '_=/Users/masudulhasanmasudbhuiyan/.nvm/versions/node/v16.13.1/bin/node',
+    '__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0'
+  ],
+  stdio: [
+    { type: 'pipe', readable: true, writable: false },
+    { type: 'pipe', readable: false, writable: true },
+    { type: 'pipe', readable: false, writable: true }
+  ]
+}
+{
+  status: 0,
+  signal: null,
+  output: [ null, <Buffer >, <Buffer > ],
+  pid: 42070,
+  stdout: <Buffer >,
+  stderr: <Buffer >
+}
+eval - on,off,once,emit,type,expression,algebra,typed,import,config,create,bignumber,boolean,chain,complex,fraction,index,matrix,sparse,number,string,unit,createUnit,splitUnit,speedOfLight,gravitationConstant,planckConstant,reducedPlanckConstant,magneticConstant,electricConstant,vacuumImpedance,coulomb,elementaryCharge,bohrMagneton,conductanceQuantum,inverseConductanceQuantum,magneticFluxQuantum,nuclearMagneton,klitzing,bohrRadius,classicalElectronRadius,electronMass,fermiCoupling,fineStructure,hartreeEnergy,protonMass,deuteronMass,neutronMass,quantumOfCirculation,rydberg,thomsonCrossSection,weakMixingAngle,efimovFactor,atomicMass,avogadro,boltzmann,faraday,firstRadiation,loschmidt,gasConstant,molarPlanckConstant,molarVolume,sackurTetrode,secondRadiation,stefanBoltzmann,wienDisplacement,molarMass,molarMassC12,gravity,planckLength,planckMass,planckTime,planckCharge,planckTemperature,true,false,null,uninitialized,Infinity,NaN,pi,tau,e,phi,E,LN2,LN10,LOG2E,LOG10E,PI,SQRT1_2,SQRT2,i,version,compile,eval,help,parse,parser,derivative,simplify,lup,slu,lsolve,lusolve,usolve,abs,add,cbrt,ceil,cube,divide,dotDivide,dotMultiply,dotPow,exp,fix,floor,gcd,hypot,lcm,log,log10,mod,multiply,norm,nthRoot,pow,round,sign,sqrt,square,subtract,unaryMinus,unaryPlus,xgcd,bitAnd,bitNot,bitOr,bitXor,leftShift,rightArithShift,rightLogShift,bellNumbers,composition,stirlingS2,catalan,arg,conj,im,re,intersect,distance,and,not,or,xor,concat,cross,det,diag,dot,eye,filter,flatten,forEach,inv,kron,map,ones,partitionSelect,range,resize,size,sort,squeeze,subset,trace,transpose,zeros,combinations,factorial,gamma,kldivergence,multinomial,permutations,pickRandom,random,randomInt,compare,deepEqual,equal,larger,largerEq,smaller,smallerEq,unequal,erf,mad,max,mean,median,min,mode,prod,quantileSeq,std,sum,var,format,print,acos,acosh,acot,acoth,acsc,acsch,asec,asech,asin,asinh,atan,atan2,atanh,cos,cosh,cot,coth,csc,csch,sec,sech,sin,sinh,tan,tanh,to,clone,isInteger,isNegative,isNumeric,isPositive,isPrime,isZero,isNaN,typeof,json,error
+Log.......>>>  0 9
+17/49 9
+main,createClass - copyInto,alias,createClass,inherit,main
+Log.......>>>  4 2
+18/49 10
+main - defaults,main
+Log.......>>>  5 4
+19/49 11
+main - defaults,main
+Log.......>>>  5 9
+20/49 12
+utils - utils,string,file
+Log.......>>>  3 3
+21/49 13
+main,makeFunction - ENUMERABLE,ENUM,CONFIGURABLE,CONF,WRITABLE,WRIT,extend,clone,defineProperty,defineProperties,deepExtend,deepClone,keys,allKeys,values,keyOf,allKeysOf,eachKey,mapKeys,reduceKeys,filterKeys,someKey,everyKey,pickKeys,omitKeys,isEqual,isNot,findValue,findKey,makeFunction,partial,partialRight,memoize,delay,defer,delayed,deferred,deferTicks,delayMethod,deferMethod,debounce,throttle,once,waitFor,not,extendProto,createSubclass,makeSubclass,newApply,appendArray,prependArray,toArray,object,mapToObject,unique,deepForEach,spliceItem,join,pop,push,concat,reverse,shift,unshift,slice,splice,sort,filter,forEach,some,every,map,indexOf,lastIndexOf,reduce,reduceRight,find,findIndex,firstUpperCase,firstLowerCase,toRegExp,toFunction,toDate,toQueryString,fromQueryString,jsonParse,hashCode,unPrefix,format,isNumeric,times,repeat,tap,result,identity,property,compareProperty,noop,main
+Log.......>>>  0 7
+22/49 14
+File removed: ./mongo-parse
+parse - DotNotationPointers,parse,inclusive,search,compressQuery
+Log.......>>>  2 4
+23/49 15
+main,mask - mask,expose,main
+Log.......>>>  6 9
+24/49 16
+main,prototype - main
+Log.......>>>  20 3
+TypeError: Cannot read properties of undefined (reading '3')
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:119:29)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+25/49 16
+
+main - main
+Log.......>>>  9 2
+26/49 17
+main,prototype - main
+Log.......>>>  20 7
+TypeError: Cannot read properties of undefined (reading '7')
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:119:29)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+27/49 17
+TypeError: Object.prototype.toString.call is not a function
+    at isObjectObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:14:34)
+    at isPlainObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:20:7)
+    at cloneObjectDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:27:24)
+    at cloneDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:14:14)
+    at exports.transformSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/transform.js:82:8)
+    at Function.handleMessage (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/handle-message.js:23:16)
+    at LocalClient.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:134:86)
+    at LocalClient.transform (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:64:47)
+    at compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:58:25)
+    at compileBabel7 (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:49:14)
+28/49 17
+29/49 17
+TypeError: Object.prototype.toString.call is not a function
+    at isObjectObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:14:34)
+    at isPlainObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:20:7)
+    at cloneObjectDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:27:24)
+    at cloneDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:14:14)
+    at exports.transformSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/transform.js:82:8)
+    at Function.handleMessage (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/handle-message.js:23:16)
+    at LocalClient.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:134:86)
+    at LocalClient.transform (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:64:47)
+    at compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:58:25)
+    at compileBabel7 (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:49:14)
+30/49 17
+31/49 17
+32/49 17
+TypeError: Object.prototype.toString.call is not a function
+    at isObjectObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:14:34)
+    at isPlainObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:20:7)
+    at cloneObjectDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:27:24)
+    at cloneDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:14:14)
+    at exports.transformSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/transform.js:82:8)
+    at Function.handleMessage (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/handle-message.js:23:16)
+    at LocalClient.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:134:86)
+    at LocalClient.transform (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:64:47)
+    at compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:58:25)
+    at compileBabel7 (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:49:14)
+33/49 17
+TypeError: Object.prototype.toString.call is not a function
+    at isObjectObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:14:34)
+    at isPlainObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:20:7)
+    at cloneObjectDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:27:24)
+    at cloneDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:14:14)
+    at exports.transformSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/transform.js:82:8)
+    at Function.handleMessage (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/handle-message.js:23:16)
+    at LocalClient.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:134:86)
+    at LocalClient.transform (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:64:47)
+    at compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:58:25)
+    at compileBabel7 (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:49:14)
+34/49 17
+TypeError: Object.prototype.toString.call is not a function
+    at isObjectObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:14:34)
+    at isPlainObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:20:7)
+    at cloneObjectDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:27:24)
+    at cloneDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:14:14)
+    at exports.transformSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/transform.js:82:8)
+    at Function.handleMessage (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/handle-message.js:23:16)
+    at LocalClient.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:134:86)
+    at LocalClient.transform (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:64:47)
+    at compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:58:25)
+    at compileBabel7 (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:49:14)
+35/49 17
+TypeError: Object.prototype.toString.call is not a function
+    at isObjectObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:14:34)
+    at isPlainObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:20:7)
+    at cloneObjectDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:27:24)
+    at cloneDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:14:14)
+    at exports.transformSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/transform.js:82:8)
+    at Function.handleMessage (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/handle-message.js:23:16)
+    at LocalClient.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:134:86)
+    at LocalClient.transform (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:64:47)
+    at compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:58:25)
+    at compileBabel7 (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:49:14)
+36/49 17
+TypeError: Object.prototype.toString.call is not a function
+    at isObjectObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:14:34)
+    at isPlainObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:20:7)
+    at cloneObjectDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:27:24)
+    at cloneDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:14:14)
+    at exports.transformSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/transform.js:82:8)
+    at Function.handleMessage (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/handle-message.js:23:16)
+    at LocalClient.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:134:86)
+    at LocalClient.transform (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:64:47)
+    at compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:58:25)
+    at compileBabel7 (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:49:14)
+37/49 17
+TypeError: Object.prototype.toString.call is not a function
+    at isObjectObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:14:34)
+    at isPlainObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:20:7)
+    at cloneObjectDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:27:24)
+    at cloneDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:14:14)
+    at exports.transformSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/transform.js:82:8)
+    at Function.handleMessage (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/handle-message.js:23:16)
+    at LocalClient.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:134:86)
+    at LocalClient.transform (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:64:47)
+    at compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:58:25)
+    at compileBabel7 (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:49:14)
+38/49 17
+TypeError: Object.prototype.toString.call is not a function
+    at isObjectObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:14:34)
+    at isPlainObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:20:7)
+    at cloneObjectDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:27:24)
+    at cloneDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:14:14)
+    at exports.transformSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/transform.js:82:8)
+    at Function.handleMessage (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/handle-message.js:23:16)
+    at LocalClient.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:134:86)
+    at LocalClient.transform (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:64:47)
+    at compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:58:25)
+    at compileBabel7 (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:49:14)
+39/49 17
+40/49 17
+TypeError: Object.prototype.toString.call is not a function
+    at isObjectObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:14:34)
+    at isPlainObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:20:7)
+    at cloneObjectDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:27:24)
+    at cloneDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:14:14)
+    at exports.transformSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/transform.js:82:8)
+    at Function.handleMessage (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/handle-message.js:23:16)
+    at LocalClient.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:134:86)
+    at LocalClient.transform (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:64:47)
+    at compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:58:25)
+    at compileBabel7 (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:49:14)
+41/49 17
+42/49 17
+43/49 17
+TypeError: Object.prototype.toString.call is not a function
+    at isObjectObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:14:34)
+    at isPlainObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:20:7)
+    at cloneObjectDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:27:24)
+    at cloneDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:14:14)
+    at exports.transformSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/transform.js:82:8)
+    at Function.handleMessage (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/handle-message.js:23:16)
+    at LocalClient.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:134:86)
+    at LocalClient.transform (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:64:47)
+    at compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:58:25)
+    at compileBabel7 (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:49:14)
+44/49 17
+TypeError: Object.prototype.toString.call is not a function
+    at isObjectObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:14:34)
+    at isPlainObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:20:7)
+    at cloneObjectDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:27:24)
+    at cloneDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:14:14)
+    at exports.transformSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/transform.js:82:8)
+    at Function.handleMessage (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/handle-message.js:23:16)
+    at LocalClient.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:134:86)
+    at LocalClient.transform (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:64:47)
+    at compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:58:25)
+    at compileBabel7 (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:49:14)
+45/49 17
+TypeError: Object.prototype.toString.call is not a function
+    at isObjectObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:14:34)
+    at isPlainObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:20:7)
+    at cloneObjectDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:27:24)
+    at cloneDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:14:14)
+    at exports.transformSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/transform.js:82:8)
+    at Function.handleMessage (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/handle-message.js:23:16)
+    at LocalClient.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:134:86)
+    at LocalClient.transform (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:64:47)
+    at compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:58:25)
+    at compileBabel7 (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:49:14)
+46/49 17
+TypeError: Object.prototype.toString.call is not a function
+    at isObjectObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:14:34)
+    at isPlainObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:20:7)
+    at cloneObjectDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:27:24)
+    at cloneDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:14:14)
+    at exports.transformSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/transform.js:82:8)
+    at Function.handleMessage (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/handle-message.js:23:16)
+    at LocalClient.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:134:86)
+    at LocalClient.transform (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:64:47)
+    at compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:58:25)
+    at compileBabel7 (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:49:14)
+47/49 17
+TypeError: Object.prototype.toString.call is not a function
+    at isObjectObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:14:34)
+    at isPlainObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:20:7)
+    at cloneObjectDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:27:24)
+    at cloneDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:14:14)
+    at exports.transformSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/transform.js:82:8)
+    at Function.handleMessage (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/handle-message.js:23:16)
+    at LocalClient.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:134:86)
+    at LocalClient.transform (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:64:47)
+    at compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:58:25)
+    at compileBabel7 (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:49:14)
+48/49 17
+TypeError: Object.prototype.toString.call is not a function
+    at isObjectObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:14:34)
+    at isPlainObject (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/is-plain-object/index.js:20:7)
+    at cloneObjectDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:27:24)
+    at cloneDeep (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/clone-deep/index.js:14:14)
+    at exports.transformSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/transform.js:82:8)
+    at Function.handleMessage (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker/handle-message.js:23:16)
+    at LocalClient.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:134:86)
+    at LocalClient.transform (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/worker-client.js:64:47)
+    at compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:58:25)
+    at compileBabel7 (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/register/lib/hook.js:49:14)
+[[0,0,0,0,0,0,0,2,0,3],[0,0,0,0,1,0,0,0,0,1],[0,0,0,0,1,0,0,0,0,0],[0,0,0,2,0,0,0,0,0,0],[0,0,1,0,0,0,0,0,0,0],[0,0,0,0,1,0,0,0,0,2],[0,0,0,0,0,0,0,0,0,1],[0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0],[0,0,1,0,0,0,1,0,0,0]]
+[31m[39m [31mTypeError: done is not a function
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/ace-breakout/mongo-parse_2.1.0/mongo-parse.test.js:26:7
+    at FSReqCallback.oncomplete (node:fs:188:23)[39m
+
+[31m[1m✖ Failed[22m[39m

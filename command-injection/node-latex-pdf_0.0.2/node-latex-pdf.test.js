@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-NODELATEXPDF-1050426
 test("Command Injection in node-latex-pdf", (done) => {
   expect.assertions(2);
   const a = require("node-latex-pdf");
   const fs = require("fs");
   const path = "./node-latex-pdf";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

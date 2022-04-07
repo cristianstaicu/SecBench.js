@@ -1,10 +1,8 @@
-//https://hackerone.com/reports/730111
 test("Remote code execution in gity", (done) => {
   expect.assertions(2);
   const Git = require("gity");
   const fs = require("fs");
   const path = "./gity";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

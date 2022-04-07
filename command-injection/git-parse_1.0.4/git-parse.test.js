@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-GITPARSE-1290380
 test("Command Injection in git-parse", () => {
   expect.assertions(2);
   const x = require("git-parse");
   const fs = require("fs");
   const path = "./git-parse";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

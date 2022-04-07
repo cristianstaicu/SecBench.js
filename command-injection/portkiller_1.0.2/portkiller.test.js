@@ -1,4 +1,3 @@
-//https://snyk.io/vuln/SNYK-JS-PORTKILLER-1078537
 test("Command Injection in portkiller", (done) => {
   expect.assertions(2);
   const portkiller = require("portkiller");

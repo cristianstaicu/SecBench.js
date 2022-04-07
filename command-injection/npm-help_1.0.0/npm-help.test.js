@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-NPMHELP-1050983
 test("Command Injection in npm-help", () => {
   expect.assertions(2);
   const root = require("npm-help");
   const fs = require("fs");
   const path = "./npm-help";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

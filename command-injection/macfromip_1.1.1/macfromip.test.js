@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-MACFROMIP-1048336
 test("Command Injection in macfromip", (done) => {
   expect.assertions(2);
   const a = require("macfromip");
   const fs = require("fs");
   const path = "./macfromip";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

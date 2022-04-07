@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-GITING-559008
 test("Command Injection in giting", (done) => {
   expect.assertions(2);
   const Test = require("giting");
   const fs = require("fs");
   const path = "./giting";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

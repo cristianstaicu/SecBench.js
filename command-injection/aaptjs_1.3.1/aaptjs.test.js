@@ -1,4 +1,3 @@
-//https://github.com/advisories/GHSA-4g7x-7vgq-3j28
 test("Remote code execution in aaptjs", (done) => {
   const aaptjs = require("aaptjs");
   const fs = require("fs");

@@ -1,7 +1,4 @@
-process.on("unhandledRejection", () => {
-  /* ignore the unhandled promise */
-});
-//https://snyk.io/vuln/SNYK-JS-CODECOV-548879
+process.on("unhandledRejection", () => {});
 test("Command Injection in codecov", async () => {
   expect.assertions(2);
   const root = require("codecov");
@@ -34,22 +31,8 @@ test("Command Injection in codecov", async () => {
         console.log("Fail!");
       }
     );
-  } catch (error) {
-    // console.log(error);
-  }
-  // console.log('HEREEEEEE');
+  } catch (error) {}
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {});
-
-  // return root.handleInput.upload(args, function () {}, function () {})
-  //     .then(()=>{})
-  //     .catch(err=>{
-  //         console.log("here!");
-  //         console.log(err);
-  //     })
-  //     .finally(()=>{
-  //         file_exist = fs.existsSync(path);
-  //         expect(file_exist).toBe(true);
-  //     })
 });

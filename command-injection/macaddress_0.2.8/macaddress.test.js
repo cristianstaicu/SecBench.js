@@ -1,9 +1,7 @@
-//https://hackerone.com/reports/319467
 test("Command Injection in macaddress", (done) => {
   expect.assertions(2);
   const fs = require("fs");
   const path = "./macaddress";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

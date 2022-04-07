@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-KILLBYPORT-1078531
 test("Command Injection in kill-by-port", () => {
   expect.assertions(2);
   const kill_by_port = require("kill-by-port");
   const fs = require("fs");
   const path = "./kill-by-port";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

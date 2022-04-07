@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-NODEDF-536779
 test("Command Injection in node-df", (done) => {
   expect.assertions(2);
   const df = require("node-df");
   const fs = require("fs");
   const path = "./node-df";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

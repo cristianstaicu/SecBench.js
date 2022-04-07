@@ -1,10 +1,8 @@
-//https://hackerone.com/reports/405694
 test("Command Injection in apex-publish-static-files", () => {
   expect.assertions(2);
   const publisher = require("apex-publish-static-files");
   const fs = require("fs");
   const path = "./apex-publish-static-files";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

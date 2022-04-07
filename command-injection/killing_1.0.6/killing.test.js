@@ -1,9 +1,7 @@
-//https://security.snyk.io/vuln/SNYK-JS-KILLING-1078532
 test("Command Injection in killing", (done) => {
   const killing = require("killing");
   const fs = require("fs");
   const path = "./killing";
-
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);
@@ -15,7 +13,6 @@ test("Command Injection in killing", (done) => {
   let file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
   killing("$(touch killing & exit 1)");
-
   setTimeout(() => {
     file_exist = fs.existsSync(path);
     expect(file_exist).toBe(true);

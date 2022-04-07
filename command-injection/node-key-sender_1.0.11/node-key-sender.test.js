@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-NODEKEYSENDER-564261
 test("Command Injection in node-key-sender", () => {
   expect.assertions(2);
   const root = require("node-key-sender");
   const fs = require("fs");
   const path = "./node-key-sender";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

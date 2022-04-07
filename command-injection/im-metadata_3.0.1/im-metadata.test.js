@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-IMMETADATA-544184
 test("Command Injection in im-metadata", (done) => {
   expect.assertions(2);
   const metadata = require("im-metadata");
   const fs = require("fs");
   const path = "./im-metadata";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

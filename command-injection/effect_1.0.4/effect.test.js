@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-EFFECT-564256
 test("Command Injection in effect", (done) => {
   expect.assertions(2);
   const Root = require("effect");
   const fs = require("fs");
   const path = "./effect";
-  const sleep = require("sleep");
   var options = { image: "& touch effect" };
   try {
     if (fs.existsSync(path)) {

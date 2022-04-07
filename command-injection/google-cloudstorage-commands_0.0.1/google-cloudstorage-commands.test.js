@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-GOOGLECLOUDSTORAGECOMMANDS-1050431
 test("Command Injection in google-cloudstorage-commands", () => {
   expect.assertions(2);
   var root = require("google-cloudstorage-commands");
   const fs = require("fs");
   const path = "./google-cloudstorage-commands";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

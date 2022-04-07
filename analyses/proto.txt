@@ -1,0 +1,1702 @@
+Loaded babel plugin
+0/205 0
+1/205 0
+main - main
+Log.......>>>  9 7
+2/205 1
+main,merge - VERSION,size,create,each,implements,unproxyAll,proxyAll,unproxy,proxy,overload,copyShallowObjects,shallowMerge,flush,keys,copy,is,of,merge,ape,invoke,extends,main
+Log.......>>>  0 9
+3/205 2
+4/205 2
+main,prototype - copy,escapeRE,format,get,gsub,stringify,tostr,type,Assert,Filter,Statement,Tag,main
+Log.......>>>  1 8
+5/205 3
+main,SearchParameters - version,AlgoliaSearchHelper,SearchParameters,SearchResults,main
+Log.......>>>  4 5
+6/205 4
+unflatten - flatten,unflatten
+Log.......>>>  5 2
+7/205 5
+main - main
+Log.......>>>  9 4
+8/205 6
+main - main
+Log.......>>>  9 5
+9/205 7
+parseQueryString - relativeToFile,join,buildQueryString,parseQueryString
+Log.......>>>  2 4
+10/205 8
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/aws-sdk-shared-ini-file-loader_1.0.0-rc.8/node_modules/@aws-sdk/shared-ini-file-loader/dist/cjs/index.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+11/205 8
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/bmoor/src/eventing/broadcast.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+12/205 8
+/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/lodash/lodash.js:8
+ */;(function(){pushFct("anon:9")/** Used as a safe reference for `undefined` in pre-ES5 environments. */var undefined;/** Used as the semantic version number. */var VERSION='4.17.11';/** Used as the size to enable large array optimizations. */var LARGE_ARRAY_SIZE=200;/** Error message constants. */var CORE_ERROR_TEXT='Unsupported core-js use. Try https://npms.io/search?q=ponyfill.',FUNC_ERROR_TEXT='Expected a function';/** Used to stand-in for `undefined` hash values. */var HASH_UNDEFINED='__lodash_hash_undefined__';/** Used as the maximum memoize cache size. */var MAX_MEMOIZE_SIZE=500;/** Used as the internal argument placeholder. */var PLACEHOLDER='__lodash_placeholder__';/** Used to compose bitmasks for cloning. */var CLONE_DEEP_FLAG=1,CLONE_FLAT_FLAG=2,CLONE_SYMBOLS_FLAG=4;/** Used to compose bitmasks for value comparisons. */var COMPARE_PARTIAL_FLAG=1,COMPARE_UNORDERED_FLAG=2;/** Used to compose bitmasks for function metadata. */var WRAP_BIND_FLAG=1,WRAP_BIND_KEY_FLAG=2,WRAP_CURRY_BOUND_FLAG=4,WRAP_CURRY_FLAG=8,WRAP_CURRY_RIGHT_FLAG=16,WRAP_PARTIAL_FLAG=32,WRAP_PARTIAL_RIGHT_FLAG=64,WRAP_ARY_FLAG=128,WRAP_REARG_FLAG=256,WRAP_FLIP_FLAG=512;/** Used as default options for `_.truncate`. */var DEFAULT_TRUNC_LENGTH=30,DEFAULT_TRUNC_OMISSION='...';/** Used to detect hot functions by number of calls within a span of milliseconds. */var HOT_COUNT=800,HOT_SPAN=16;/** Used to indicate the type of lazy iteratees. */var LAZY_FILTER_FLAG=1,LAZY_MAP_FLAG=2,LAZY_WHILE_FLAG=3;/** Used as references for various `Number` constants. */var INFINITY=1/0,MAX_SAFE_INTEGER=9007199254740991,MAX_INTEGER=1.7976931348623157e+308,NAN=0/0;/** Used as references for the maximum length and index of an array. */var MAX_ARRAY_LENGTH=4294967295,MAX_ARRAY_INDEX=MAX_ARRAY_LENGTH-1,HALF_MAX_ARRAY_LENGTH=MAX_ARRAY_LENGTH>>>1;/** Used to associate wrap methods with their bit flags. */var wrapFlags=[['ary',WRAP_ARY_FLAG],['bind',WRAP_BIND_FLAG],['bindKey',WRAP_BIND_KEY_FLAG],['curry',WRAP_CURRY_FLAG],['curryRight',WRAP_CURRY_RIGHT_FLAG],['flip',WRAP_FLIP_FLAG],['partial',WRAP_PARTIAL_FLAG],['partialRight',WRAP_PARTIAL_RIGHT_FLAG],['rearg',WRAP_REARG_FLAG]];/** `Object#toString` result references. */var argsTag='[object Arguments]',arrayTag='[object Array]',asyncTag='[object AsyncFunction]',boolTag='[object Boolean]',dateTag='[object Date]',domExcTag='[object DOMException]',errorTag='[object Error]',funcTag='[object Function]',genTag='[object GeneratorFunction]',mapTag='[object Map]',numberTag='[object Number]',nullTag='[object Null]',objectTag='[object Object]',promiseTag='[object Promise]',proxyTag='[object Proxy]',regexpTag='[object RegExp]',setTag='[object Set]',stringTag='[object String]',symbolTag='[object Symbol]',undefinedTag='[object Undefined]',weakMapTag='[object WeakMap]',weakSetTag='[object WeakSet]';var arrayBufferTag='[object ArrayBuffer]',dataViewTag='[object DataView]',float32Tag='[object Float32Array]',float64Tag='[object Float64Array]',int8Tag='[object Int8Array]',int16Tag='[object Int16Array]',int32Tag='[object Int32Array]',uint8Tag='[object Uint8Array]',uint8ClampedTag='[object Uint8ClampedArray]',uint16Tag='[object Uint16Array]',uint32Tag='[object Uint32Array]';/** Used to match empty string literals in compiled template source. */var reEmptyStringLeading=/\b__p \+= '';/g,reEmptyStringMiddle=/\b(__p \+=) '' \+/g,reEmptyStringTrailing=/(__e\(.*?\)|\b__t\)) \+\n'';/g;/** Used to match HTML entities and HTML characters. */var reEscapedHtml=/&(?:amp|lt|gt|quot|#39);/g,reUnescapedHtml=/[&<>"']/g,reHasEscapedHtml=RegExp(reEscapedHtml.source),reHasUnescapedHtml=RegExp(reUnescapedHtml.source);/** Used to match template delimiters. */var reEscape=/<%-([\s\S]+?)%>/g,reEvaluate=/<%([\s\S]+?)%>/g,reInterpolate=/<%=([\s\S]+?)%>/g;/** Used to match property names within property paths. */var reIsDeepProp=/\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,reIsPlainProp=/^\w*$/,rePropName=/[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;/**
+                                                                                                         ^^^
+
+SyntaxError: Unexpected token 'var'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+13/205 8
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/@brikcss/merge/dist/lib/merge.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+14/205 8
+TypeError: Cannot read properties of undefined (reading 'toBe')
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/cached-path-relative_1.0.1/cached-path-relative.test.js:8:3
+    at test (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:73:3)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/cached-path-relative_1.0.1/cached-path-relative.test.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+15/205 8
+main,apply - apply,main
+Log.......>>>  9 5
+16/205 9
+classToPlainFromExist - ClassTransformer,Transform,Type,Expose,Exclude,classToPlain,classToPlainFromExist,plainToClass,plainToClassFromExist,classToClass,classToClassFromExist,serialize,deserialize,deserializeArray,defaultMetadataStorage
+Log.......>>>  0 7
+17/205 10
+TypeError: Cannot read properties of undefined (reading 'toBe')
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/component-flatten_1.0.1/component-flatten.test.js:9:3
+    at test (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:73:3)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/component-flatten_1.0.1/component-flatten.test.js:2:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+18/205 10
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/debug/src/common.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+19/205 10
+/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/yargs/lib/parser.js:539
+    [].concat(aliases[key] || [], key).forEach(function (k) {
+     ^
+
+SyntaxError: Unexpected token ']'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+20/205 10
+main - combine,Config,CombineConfig,storage,main
+Log.......>>>  2 5
+21/205 11
+main - combine,Config,CombineConfig,storage,main
+Log.......>>>  2 4
+22/205 12
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/convict/node_modules/yargs-parser/index.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+23/205 12
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/@cookiex/deep/dist/assigner.js: path.node.body.body.unshift is not a function
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+24/205 12
+main - main
+Log.......>>>  9 9
+25/205 13
+main,merge - clone,extend,update,merge,cloneShallow,extendShallow,updateShallow,mergeShallow,main
+Log.......>>>  2 9
+26/205 14
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/decal_2.0.0/node_modules/decal/src/core/Array.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+27/205 14
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/decal/src/core/Array.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+28/205 14
+/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/lodash/lodash.js:8
+ */;(function(){pushFct("anon:9")/** Used as a safe reference for `undefined` in pre-ES5 environments. */var undefined;/** Used as the semantic version number. */var VERSION='4.17.11';/** Used as the size to enable large array optimizations. */var LARGE_ARRAY_SIZE=200;/** Error message constants. */var CORE_ERROR_TEXT='Unsupported core-js use. Try https://npms.io/search?q=ponyfill.',FUNC_ERROR_TEXT='Expected a function';/** Used to stand-in for `undefined` hash values. */var HASH_UNDEFINED='__lodash_hash_undefined__';/** Used as the maximum memoize cache size. */var MAX_MEMOIZE_SIZE=500;/** Used as the internal argument placeholder. */var PLACEHOLDER='__lodash_placeholder__';/** Used to compose bitmasks for cloning. */var CLONE_DEEP_FLAG=1,CLONE_FLAT_FLAG=2,CLONE_SYMBOLS_FLAG=4;/** Used to compose bitmasks for value comparisons. */var COMPARE_PARTIAL_FLAG=1,COMPARE_UNORDERED_FLAG=2;/** Used to compose bitmasks for function metadata. */var WRAP_BIND_FLAG=1,WRAP_BIND_KEY_FLAG=2,WRAP_CURRY_BOUND_FLAG=4,WRAP_CURRY_FLAG=8,WRAP_CURRY_RIGHT_FLAG=16,WRAP_PARTIAL_FLAG=32,WRAP_PARTIAL_RIGHT_FLAG=64,WRAP_ARY_FLAG=128,WRAP_REARG_FLAG=256,WRAP_FLIP_FLAG=512;/** Used as default options for `_.truncate`. */var DEFAULT_TRUNC_LENGTH=30,DEFAULT_TRUNC_OMISSION='...';/** Used to detect hot functions by number of calls within a span of milliseconds. */var HOT_COUNT=800,HOT_SPAN=16;/** Used to indicate the type of lazy iteratees. */var LAZY_FILTER_FLAG=1,LAZY_MAP_FLAG=2,LAZY_WHILE_FLAG=3;/** Used as references for various `Number` constants. */var INFINITY=1/0,MAX_SAFE_INTEGER=9007199254740991,MAX_INTEGER=1.7976931348623157e+308,NAN=0/0;/** Used as references for the maximum length and index of an array. */var MAX_ARRAY_LENGTH=4294967295,MAX_ARRAY_INDEX=MAX_ARRAY_LENGTH-1,HALF_MAX_ARRAY_LENGTH=MAX_ARRAY_LENGTH>>>1;/** Used to associate wrap methods with their bit flags. */var wrapFlags=[['ary',WRAP_ARY_FLAG],['bind',WRAP_BIND_FLAG],['bindKey',WRAP_BIND_KEY_FLAG],['curry',WRAP_CURRY_FLAG],['curryRight',WRAP_CURRY_RIGHT_FLAG],['flip',WRAP_FLIP_FLAG],['partial',WRAP_PARTIAL_FLAG],['partialRight',WRAP_PARTIAL_RIGHT_FLAG],['rearg',WRAP_REARG_FLAG]];/** `Object#toString` result references. */var argsTag='[object Arguments]',arrayTag='[object Array]',asyncTag='[object AsyncFunction]',boolTag='[object Boolean]',dateTag='[object Date]',domExcTag='[object DOMException]',errorTag='[object Error]',funcTag='[object Function]',genTag='[object GeneratorFunction]',mapTag='[object Map]',numberTag='[object Number]',nullTag='[object Null]',objectTag='[object Object]',promiseTag='[object Promise]',proxyTag='[object Proxy]',regexpTag='[object RegExp]',setTag='[object Set]',stringTag='[object String]',symbolTag='[object Symbol]',undefinedTag='[object Undefined]',weakMapTag='[object WeakMap]',weakSetTag='[object WeakSet]';var arrayBufferTag='[object ArrayBuffer]',dataViewTag='[object DataView]',float32Tag='[object Float32Array]',float64Tag='[object Float64Array]',int8Tag='[object Int8Array]',int16Tag='[object Int16Array]',int32Tag='[object Int32Array]',uint8Tag='[object Uint8Array]',uint8ClampedTag='[object Uint8ClampedArray]',uint16Tag='[object Uint16Array]',uint32Tag='[object Uint32Array]';/** Used to match empty string literals in compiled template source. */var reEmptyStringLeading=/\b__p \+= '';/g,reEmptyStringMiddle=/\b(__p \+=) '' \+/g,reEmptyStringTrailing=/(__e\(.*?\)|\b__t\)) \+\n'';/g;/** Used to match HTML entities and HTML characters. */var reEscapedHtml=/&(?:amp|lt|gt|quot|#39);/g,reUnescapedHtml=/[&<>"']/g,reHasEscapedHtml=RegExp(reEscapedHtml.source),reHasUnescapedHtml=RegExp(reUnescapedHtml.source);/** Used to match template delimiters. */var reEscape=/<%-([\s\S]+?)%>/g,reEvaluate=/<%([\s\S]+?)%>/g,reInterpolate=/<%=([\s\S]+?)%>/g;/** Used to match property names within property paths. */var reIsDeepProp=/\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,reIsPlainProp=/^\w*$/,rePropName=/[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;/**
+                                                                                                         ^^^
+
+SyntaxError: Unexpected token 'var'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/deep-defaults/lib/index.js:3:9)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+29/205 14
+main,merge - clone,extend,update,merge,cloneShallow,extendShallow,updateShallow,mergeShallow,main
+Log.......>>>  2 7
+30/205 15
+main - main
+Log.......>>>  9 2
+31/205 16
+main - main
+Log.......>>>  9 7
+32/205 17
+main - main
+Log.......>>>  9 5
+33/205 18
+main - main
+Log.......>>>  9 3
+34/205 19
+main - main
+Log.......>>>  9 9
+35/205 20
+main - main
+Log.......>>>  9 3
+36/205 21
+set - set
+Log.......>>>  9 7
+37/205 22
+set - get,set,diff,keys,merge,values,flatten,expand,collapse,isObject,unflatten,mapToProps
+Log.......>>>  0 3
+38/205 23
+set - get,set,diff,keys,merge,values,flatten,expand,collapse,isObject,unflatten,mapToProps
+Log.......>>>  0 9
+39/205 24
+set - get,set,diff,keys,merge,values,flatten,expand,collapse,isObject,unflatten,mapToProps
+Log.......>>>  0 9
+40/205 25
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/doc-path/src/path.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+41/205 25
+create - create,escape,isEscaped,get,join,keys,recurse,ParseException
+Log.......>>>  1 3
+42/205 26
+create - create,escape,isEscaped,get,join,keys,recurse,ParseException
+Log.......>>>  1 3
+43/205 27
+set - get,set
+Log.......>>>  5 4
+44/205 28
+put - exists,get,search,put
+Log.......>>>  2 2
+45/205 29
+main - main
+Log.......>>>  9 2
+46/205 30
+set - set,get,delete
+Log.......>>>  3 2
+47/205 31
+set - set,get
+Log.......>>>  5 2
+48/205 32
+set - set,get
+Log.......>>>  5 4
+49/205 33
+merge - extend,merge
+Log.......>>>  5 4
+50/205 34
+merge - extend,merge
+Log.......>>>  5 4
+51/205 35
+object - array,base64,color,date,ease,func,geom,hex,json,math,number,object,random,string,test,trigo,type,xml,url,utf8
+Log.......>>>  0 3
+52/205 36
+applyPatch - applyOperation,applyPatch,applyReducer,getValueByPointer,validate,validator,JsonPatchError,deepClone,escapePathComponent,unescapePathComponent,unobserve,observe,generate,compare
+Log.......>>>  0 5
+53/205 37
+applyPatch - applyOperation,applyPatch,applyReducer,getValueByPointer,validate,validator,JsonPatchError,deepClone,escapePathComponent,unescapePathComponent,unobserve,observe,generate,compare
+Log.......>>>  0 3
+54/205 38
+deepExtend - CONSTANTS,Deferred,ErrorFactory,FirebaseError,MAX_VALUE_MILLIS,RANDOM_FACTOR,Sha1,areCookiesEnabled,assert,assertionError,async,base64,base64Decode,base64Encode,calculateBackoffMillis,contains,createSubscribe,decode,deepCopy,deepExtend,errorPrefix,getUA,isAdmin,isBrowser,isBrowserExtension,isElectron,isEmpty,isIE,isIndexedDBAvailable,isMobileCordova,isNode,isNodeSdk,isReactNative,isSafari,isUWP,isValidFormat,isValidTimestamp,issuedAtTime,jsonEval,map,querystring,querystringDecode,safeGet,stringLength,stringToByteArray,stringify,validateArgCount,validateCallback,validateContextObject,validateIndexedDBOpenable,validateNamespace
+Log.......>>>  0 4
+55/205 39
+deepExtend - CONSTANTS,Deferred,ErrorFactory,FirebaseError,MAX_VALUE_MILLIS,RANDOM_FACTOR,Sha1,areCookiesEnabled,assert,assertionError,async,base64,base64Decode,base64Encode,calculateBackoffMillis,contains,createSubscribe,decode,deepCopy,deepExtend,errorPrefix,getUA,isAdmin,isBrowser,isBrowserExtension,isElectron,isEmpty,isIE,isIndexedDBAvailable,isMobileCordova,isNode,isNodeSdk,isReactNative,isSafari,isUWP,isValidFormat,isValidTimestamp,issuedAtTime,jsonEval,map,ordinal,querystring,querystringDecode,safeGet,stringLength,stringToByteArray,stringify,validateArgCount,validateCallback,validateContextObject,validateIndexedDBOpenable,validateNamespace
+Log.......>>>  0 4
+56/205 40
+57/205 40
+58/205 40
+unflatten - flatten,unflatten
+Log.......>>>  5 4
+59/205 41
+main,unflatten - flatten,unflatten,main
+Log.......>>>  6 5
+60/205 42
+unflatten - flatten,unflatten,default
+Log.......>>>  3 3
+61/205 43
+unflatten - flatten,unflatten,default
+Log.......>>>  3 7
+62/205 44
+object - array,console,crypto,controller,date,error,env,timezone,fs,math,number,object,string,http,boolean,recomendation,url,validation,barcode,regExp
+Log.......>>>  0 8
+63/205 45
+main - main
+Log.......>>>  9 9
+64/205 46
+Before  : undefined
+set - get,set,exists
+Log.......>>>  3 3
+65/205 47
+setDeep - getDeep,setDeep
+Log.......>>>  5 4
+66/205 48
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/async/dist/async.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+67/205 48
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/hoek/lib/index.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+68/205 48
+setDeep - getDeep,setDeep
+Log.......>>>  5 4
+69/205 49
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/@ianwalter/merge/dist/merge.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+70/205 49
+71/205 49
+applyPatches,enablePatches - Immer,applyPatches,castDraft,castImmutable,createDraft,current,default,enableAllPlugins,enableES5,enableMapSet,enablePatches,finishDraft,freeze,immerable,isDraft,isDraftable,nothing,original,produce,produceWithPatches,setAutoFreeze,setUseProxies
+Log.......>>>  0 7
+72/205 50
+parse - parse,parseFile,parseFileSync
+Log.......>>>  3 2
+73/205 51
+parse - decode,parse,encode,stringify,safe,unsafe
+Log.......>>>  1 5
+74/205 52
+After: yes
+main,prototype - main
+Log.......>>>  20 3
+TypeError: Cannot read properties of undefined (reading '3')
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:117:29)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+75/205 52
+IniReader - IniReader
+Log.......>>>  9 4
+76/205 53
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/ion-parser/parser.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+77/205 53
+78/205 53
+/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/lodash/lodash.js:8
+ */;(function(){pushFct("anon:9")/** Used as a safe reference for `undefined` in pre-ES5 environments. */var undefined;/** Used as the semantic version number. */var VERSION='4.17.11';/** Used as the size to enable large array optimizations. */var LARGE_ARRAY_SIZE=200;/** Error message constants. */var CORE_ERROR_TEXT='Unsupported core-js use. Try https://npms.io/search?q=ponyfill.',FUNC_ERROR_TEXT='Expected a function';/** Used to stand-in for `undefined` hash values. */var HASH_UNDEFINED='__lodash_hash_undefined__';/** Used as the maximum memoize cache size. */var MAX_MEMOIZE_SIZE=500;/** Used as the internal argument placeholder. */var PLACEHOLDER='__lodash_placeholder__';/** Used to compose bitmasks for cloning. */var CLONE_DEEP_FLAG=1,CLONE_FLAT_FLAG=2,CLONE_SYMBOLS_FLAG=4;/** Used to compose bitmasks for value comparisons. */var COMPARE_PARTIAL_FLAG=1,COMPARE_UNORDERED_FLAG=2;/** Used to compose bitmasks for function metadata. */var WRAP_BIND_FLAG=1,WRAP_BIND_KEY_FLAG=2,WRAP_CURRY_BOUND_FLAG=4,WRAP_CURRY_FLAG=8,WRAP_CURRY_RIGHT_FLAG=16,WRAP_PARTIAL_FLAG=32,WRAP_PARTIAL_RIGHT_FLAG=64,WRAP_ARY_FLAG=128,WRAP_REARG_FLAG=256,WRAP_FLIP_FLAG=512;/** Used as default options for `_.truncate`. */var DEFAULT_TRUNC_LENGTH=30,DEFAULT_TRUNC_OMISSION='...';/** Used to detect hot functions by number of calls within a span of milliseconds. */var HOT_COUNT=800,HOT_SPAN=16;/** Used to indicate the type of lazy iteratees. */var LAZY_FILTER_FLAG=1,LAZY_MAP_FLAG=2,LAZY_WHILE_FLAG=3;/** Used as references for various `Number` constants. */var INFINITY=1/0,MAX_SAFE_INTEGER=9007199254740991,MAX_INTEGER=1.7976931348623157e+308,NAN=0/0;/** Used as references for the maximum length and index of an array. */var MAX_ARRAY_LENGTH=4294967295,MAX_ARRAY_INDEX=MAX_ARRAY_LENGTH-1,HALF_MAX_ARRAY_LENGTH=MAX_ARRAY_LENGTH>>>1;/** Used to associate wrap methods with their bit flags. */var wrapFlags=[['ary',WRAP_ARY_FLAG],['bind',WRAP_BIND_FLAG],['bindKey',WRAP_BIND_KEY_FLAG],['curry',WRAP_CURRY_FLAG],['curryRight',WRAP_CURRY_RIGHT_FLAG],['flip',WRAP_FLIP_FLAG],['partial',WRAP_PARTIAL_FLAG],['partialRight',WRAP_PARTIAL_RIGHT_FLAG],['rearg',WRAP_REARG_FLAG]];/** `Object#toString` result references. */var argsTag='[object Arguments]',arrayTag='[object Array]',asyncTag='[object AsyncFunction]',boolTag='[object Boolean]',dateTag='[object Date]',domExcTag='[object DOMException]',errorTag='[object Error]',funcTag='[object Function]',genTag='[object GeneratorFunction]',mapTag='[object Map]',numberTag='[object Number]',nullTag='[object Null]',objectTag='[object Object]',promiseTag='[object Promise]',proxyTag='[object Proxy]',regexpTag='[object RegExp]',setTag='[object Set]',stringTag='[object String]',symbolTag='[object Symbol]',undefinedTag='[object Undefined]',weakMapTag='[object WeakMap]',weakSetTag='[object WeakSet]';var arrayBufferTag='[object ArrayBuffer]',dataViewTag='[object DataView]',float32Tag='[object Float32Array]',float64Tag='[object Float64Array]',int8Tag='[object Int8Array]',int16Tag='[object Int16Array]',int32Tag='[object Int32Array]',uint8Tag='[object Uint8Array]',uint8ClampedTag='[object Uint8ClampedArray]',uint16Tag='[object Uint16Array]',uint32Tag='[object Uint32Array]';/** Used to match empty string literals in compiled template source. */var reEmptyStringLeading=/\b__p \+= '';/g,reEmptyStringMiddle=/\b(__p \+=) '' \+/g,reEmptyStringTrailing=/(__e\(.*?\)|\b__t\)) \+\n'';/g;/** Used to match HTML entities and HTML characters. */var reEscapedHtml=/&(?:amp|lt|gt|quot|#39);/g,reUnescapedHtml=/[&<>"']/g,reHasEscapedHtml=RegExp(reEscapedHtml.source),reHasUnescapedHtml=RegExp(reUnescapedHtml.source);/** Used to match template delimiters. */var reEscape=/<%-([\s\S]+?)%>/g,reEvaluate=/<%([\s\S]+?)%>/g,reInterpolate=/<%=([\s\S]+?)%>/g;/** Used to match property names within property paths. */var reIsDeepProp=/\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,reIsPlainProp=/^\w*$/,rePropName=/[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;/**
+                                                                                                         ^^^
+
+SyntaxError: Unexpected token 'var'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/jointjs/dist/joint.min.js:26:17
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/jointjs/dist/joint.min.js:8:2)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+79/205 53
+/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/jointjs_3.4.0/node_modules/lodash/lodash.js:8
+ */;(function(){pushFct("anon:9")/** Used as a safe reference for `undefined` in pre-ES5 environments. */var undefined;/** Used as the semantic version number. */var VERSION='4.17.21';/** Used as the size to enable large array optimizations. */var LARGE_ARRAY_SIZE=200;/** Error message constants. */var CORE_ERROR_TEXT='Unsupported core-js use. Try https://npms.io/search?q=ponyfill.',FUNC_ERROR_TEXT='Expected a function',INVALID_TEMPL_VAR_ERROR_TEXT='Invalid `variable` option passed into `_.template`';/** Used to stand-in for `undefined` hash values. */var HASH_UNDEFINED='__lodash_hash_undefined__';/** Used as the maximum memoize cache size. */var MAX_MEMOIZE_SIZE=500;/** Used as the internal argument placeholder. */var PLACEHOLDER='__lodash_placeholder__';/** Used to compose bitmasks for cloning. */var CLONE_DEEP_FLAG=1,CLONE_FLAT_FLAG=2,CLONE_SYMBOLS_FLAG=4;/** Used to compose bitmasks for value comparisons. */var COMPARE_PARTIAL_FLAG=1,COMPARE_UNORDERED_FLAG=2;/** Used to compose bitmasks for function metadata. */var WRAP_BIND_FLAG=1,WRAP_BIND_KEY_FLAG=2,WRAP_CURRY_BOUND_FLAG=4,WRAP_CURRY_FLAG=8,WRAP_CURRY_RIGHT_FLAG=16,WRAP_PARTIAL_FLAG=32,WRAP_PARTIAL_RIGHT_FLAG=64,WRAP_ARY_FLAG=128,WRAP_REARG_FLAG=256,WRAP_FLIP_FLAG=512;/** Used as default options for `_.truncate`. */var DEFAULT_TRUNC_LENGTH=30,DEFAULT_TRUNC_OMISSION='...';/** Used to detect hot functions by number of calls within a span of milliseconds. */var HOT_COUNT=800,HOT_SPAN=16;/** Used to indicate the type of lazy iteratees. */var LAZY_FILTER_FLAG=1,LAZY_MAP_FLAG=2,LAZY_WHILE_FLAG=3;/** Used as references for various `Number` constants. */var INFINITY=1/0,MAX_SAFE_INTEGER=9007199254740991,MAX_INTEGER=1.7976931348623157e+308,NAN=0/0;/** Used as references for the maximum length and index of an array. */var MAX_ARRAY_LENGTH=4294967295,MAX_ARRAY_INDEX=MAX_ARRAY_LENGTH-1,HALF_MAX_ARRAY_LENGTH=MAX_ARRAY_LENGTH>>>1;/** Used to associate wrap methods with their bit flags. */var wrapFlags=[['ary',WRAP_ARY_FLAG],['bind',WRAP_BIND_FLAG],['bindKey',WRAP_BIND_KEY_FLAG],['curry',WRAP_CURRY_FLAG],['curryRight',WRAP_CURRY_RIGHT_FLAG],['flip',WRAP_FLIP_FLAG],['partial',WRAP_PARTIAL_FLAG],['partialRight',WRAP_PARTIAL_RIGHT_FLAG],['rearg',WRAP_REARG_FLAG]];/** `Object#toString` result references. */var argsTag='[object Arguments]',arrayTag='[object Array]',asyncTag='[object AsyncFunction]',boolTag='[object Boolean]',dateTag='[object Date]',domExcTag='[object DOMException]',errorTag='[object Error]',funcTag='[object Function]',genTag='[object GeneratorFunction]',mapTag='[object Map]',numberTag='[object Number]',nullTag='[object Null]',objectTag='[object Object]',promiseTag='[object Promise]',proxyTag='[object Proxy]',regexpTag='[object RegExp]',setTag='[object Set]',stringTag='[object String]',symbolTag='[object Symbol]',undefinedTag='[object Undefined]',weakMapTag='[object WeakMap]',weakSetTag='[object WeakSet]';var arrayBufferTag='[object ArrayBuffer]',dataViewTag='[object DataView]',float32Tag='[object Float32Array]',float64Tag='[object Float64Array]',int8Tag='[object Int8Array]',int16Tag='[object Int16Array]',int32Tag='[object Int32Array]',uint8Tag='[object Uint8Array]',uint8ClampedTag='[object Uint8ClampedArray]',uint16Tag='[object Uint16Array]',uint32Tag='[object Uint32Array]';/** Used to match empty string literals in compiled template source. */var reEmptyStringLeading=/\b__p \+= '';/g,reEmptyStringMiddle=/\b(__p \+=) '' \+/g,reEmptyStringTrailing=/(__e\(.*?\)|\b__t\)) \+\n'';/g;/** Used to match HTML entities and HTML characters. */var reEscapedHtml=/&(?:amp|lt|gt|quot|#39);/g,reUnescapedHtml=/[&<>"']/g,reHasEscapedHtml=RegExp(reEscapedHtml.source),reHasUnescapedHtml=RegExp(reUnescapedHtml.source);/** Used to match template delimiters. */var reEscape=/<%-([\s\S]+?)%>/g,reEvaluate=/<%([\s\S]+?)%>/g,reInterpolate=/<%=([\s\S]+?)%>/g;/** Used to match property names within property paths. */var reIsDeepProp=/\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,reIsPlainProp=/^\w*$/,rePropName=/[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;/**
+                                                                                                         ^^^
+
+SyntaxError: Unexpected token 'var'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at g (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/jointjs_3.4.0/node_modules/jointjs/dist/joint.min.js:8:101)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/jointjs_3.4.0/node_modules/jointjs/dist/joint.min.js:8:4)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+80/205 53
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/tough-cookie/lib/cookie.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+81/205 53
+utils - Collection,Component,Container,DataStore,Index,LinkedCollection,Mapper,Query,Record,Schema,Settable,SimpleStore,belongsTo,belongsToType,hasMany,hasManyType,hasOne,hasOneType,utils,version
+Log.......>>>  0 7
+82/205 54
+extend - extend
+Log.......>>>  9 5
+83/205 55
+parse - $Errors,ParsingError,parse,decode,stringify,encode
+Log.......>>>  1 3
+84/205 56
+main,set - get,set,remove,dict,walk,has,escape,unescape,parse,compile,main
+Log.......>>>  1 3
+85/205 57
+main,set - get,set,remove,dict,walk,has,escape,unescape,parse,compile,main
+Log.......>>>  1 2
+86/205 58
+main,JsonPointer - create,has,get,set,list,flatten,map,visit,decode,decodePointer,encodePointer,decodeUriFragmentIdentifier,encodeUriFragmentIdentifier,JsonPointer,JsonReference,isReference,noConflict,main
+Log.......>>>  1 3
+87/205 59
+main,validate - Integer,validate,checkPropertyChange,_validate,mustBeValid,main
+Log.......>>>  3 8
+88/205 60
+apply - apply,patch,diff,MEDIATYPE
+Log.......>>>  2 4
+89/205 61
+set - get,set,compile
+Log.......>>>  3 3
+90/205 62
+set - get,set,compile
+Log.......>>>  3 4
+91/205 63
+main - main
+Log.......>>>  9 2
+92/205 64
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/keyd/index.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+93/205 64
+set - get,set,has,push,method,call,breadcrumbs,select,at,structure
+Log.......>>>  1 4
+94/205 65
+set - get,set,each,map,paths,clone,copy
+Log.......>>>  1 3
+95/205 66
+main - main
+Log.......>>>  9 3
+96/205 67
+php - c,golang,php,python,ruby
+Log.......>>>  2 3
+97/205 68
+/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/lodash_4.17.10/node_modules/lodash/lodash.js:8
+ */;(function(){pushFct("anon:9")/** Used as a safe reference for `undefined` in pre-ES5 environments. */var undefined;/** Used as the semantic version number. */var VERSION='4.17.10';/** Used as the size to enable large array optimizations. */var LARGE_ARRAY_SIZE=200;/** Error message constants. */var CORE_ERROR_TEXT='Unsupported core-js use. Try https://npms.io/search?q=ponyfill.',FUNC_ERROR_TEXT='Expected a function';/** Used to stand-in for `undefined` hash values. */var HASH_UNDEFINED='__lodash_hash_undefined__';/** Used as the maximum memoize cache size. */var MAX_MEMOIZE_SIZE=500;/** Used as the internal argument placeholder. */var PLACEHOLDER='__lodash_placeholder__';/** Used to compose bitmasks for cloning. */var CLONE_DEEP_FLAG=1,CLONE_FLAT_FLAG=2,CLONE_SYMBOLS_FLAG=4;/** Used to compose bitmasks for value comparisons. */var COMPARE_PARTIAL_FLAG=1,COMPARE_UNORDERED_FLAG=2;/** Used to compose bitmasks for function metadata. */var WRAP_BIND_FLAG=1,WRAP_BIND_KEY_FLAG=2,WRAP_CURRY_BOUND_FLAG=4,WRAP_CURRY_FLAG=8,WRAP_CURRY_RIGHT_FLAG=16,WRAP_PARTIAL_FLAG=32,WRAP_PARTIAL_RIGHT_FLAG=64,WRAP_ARY_FLAG=128,WRAP_REARG_FLAG=256,WRAP_FLIP_FLAG=512;/** Used as default options for `_.truncate`. */var DEFAULT_TRUNC_LENGTH=30,DEFAULT_TRUNC_OMISSION='...';/** Used to detect hot functions by number of calls within a span of milliseconds. */var HOT_COUNT=800,HOT_SPAN=16;/** Used to indicate the type of lazy iteratees. */var LAZY_FILTER_FLAG=1,LAZY_MAP_FLAG=2,LAZY_WHILE_FLAG=3;/** Used as references for various `Number` constants. */var INFINITY=1/0,MAX_SAFE_INTEGER=9007199254740991,MAX_INTEGER=1.7976931348623157e+308,NAN=0/0;/** Used as references for the maximum length and index of an array. */var MAX_ARRAY_LENGTH=4294967295,MAX_ARRAY_INDEX=MAX_ARRAY_LENGTH-1,HALF_MAX_ARRAY_LENGTH=MAX_ARRAY_LENGTH>>>1;/** Used to associate wrap methods with their bit flags. */var wrapFlags=[['ary',WRAP_ARY_FLAG],['bind',WRAP_BIND_FLAG],['bindKey',WRAP_BIND_KEY_FLAG],['curry',WRAP_CURRY_FLAG],['curryRight',WRAP_CURRY_RIGHT_FLAG],['flip',WRAP_FLIP_FLAG],['partial',WRAP_PARTIAL_FLAG],['partialRight',WRAP_PARTIAL_RIGHT_FLAG],['rearg',WRAP_REARG_FLAG]];/** `Object#toString` result references. */var argsTag='[object Arguments]',arrayTag='[object Array]',asyncTag='[object AsyncFunction]',boolTag='[object Boolean]',dateTag='[object Date]',domExcTag='[object DOMException]',errorTag='[object Error]',funcTag='[object Function]',genTag='[object GeneratorFunction]',mapTag='[object Map]',numberTag='[object Number]',nullTag='[object Null]',objectTag='[object Object]',promiseTag='[object Promise]',proxyTag='[object Proxy]',regexpTag='[object RegExp]',setTag='[object Set]',stringTag='[object String]',symbolTag='[object Symbol]',undefinedTag='[object Undefined]',weakMapTag='[object WeakMap]',weakSetTag='[object WeakSet]';var arrayBufferTag='[object ArrayBuffer]',dataViewTag='[object DataView]',float32Tag='[object Float32Array]',float64Tag='[object Float64Array]',int8Tag='[object Int8Array]',int16Tag='[object Int16Array]',int32Tag='[object Int32Array]',uint8Tag='[object Uint8Array]',uint8ClampedTag='[object Uint8ClampedArray]',uint16Tag='[object Uint16Array]',uint32Tag='[object Uint32Array]';/** Used to match empty string literals in compiled template source. */var reEmptyStringLeading=/\b__p \+= '';/g,reEmptyStringMiddle=/\b(__p \+=) '' \+/g,reEmptyStringTrailing=/(__e\(.*?\)|\b__t\)) \+\n'';/g;/** Used to match HTML entities and HTML characters. */var reEscapedHtml=/&(?:amp|lt|gt|quot|#39);/g,reUnescapedHtml=/[&<>"']/g,reHasEscapedHtml=RegExp(reEscapedHtml.source),reHasUnescapedHtml=RegExp(reUnescapedHtml.source);/** Used to match template delimiters. */var reEscape=/<%-([\s\S]+?)%>/g,reEvaluate=/<%([\s\S]+?)%>/g,reInterpolate=/<%=([\s\S]+?)%>/g;/** Used to match property names within property paths. */var reIsDeepProp=/\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,reIsPlainProp=/^\w*$/,rePropName=/[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;/**
+                                                                                                         ^^^
+
+SyntaxError: Unexpected token 'var'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/lodash_4.17.10/lodash.test.js:3:19
+    at test (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:73:3)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/lodash_4.17.10/lodash.test.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+98/205 68
+/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/lodash/lodash.js:8
+ */;(function(){pushFct("anon:9")/** Used as a safe reference for `undefined` in pre-ES5 environments. */var undefined;/** Used as the semantic version number. */var VERSION='4.17.11';/** Used as the size to enable large array optimizations. */var LARGE_ARRAY_SIZE=200;/** Error message constants. */var CORE_ERROR_TEXT='Unsupported core-js use. Try https://npms.io/search?q=ponyfill.',FUNC_ERROR_TEXT='Expected a function';/** Used to stand-in for `undefined` hash values. */var HASH_UNDEFINED='__lodash_hash_undefined__';/** Used as the maximum memoize cache size. */var MAX_MEMOIZE_SIZE=500;/** Used as the internal argument placeholder. */var PLACEHOLDER='__lodash_placeholder__';/** Used to compose bitmasks for cloning. */var CLONE_DEEP_FLAG=1,CLONE_FLAT_FLAG=2,CLONE_SYMBOLS_FLAG=4;/** Used to compose bitmasks for value comparisons. */var COMPARE_PARTIAL_FLAG=1,COMPARE_UNORDERED_FLAG=2;/** Used to compose bitmasks for function metadata. */var WRAP_BIND_FLAG=1,WRAP_BIND_KEY_FLAG=2,WRAP_CURRY_BOUND_FLAG=4,WRAP_CURRY_FLAG=8,WRAP_CURRY_RIGHT_FLAG=16,WRAP_PARTIAL_FLAG=32,WRAP_PARTIAL_RIGHT_FLAG=64,WRAP_ARY_FLAG=128,WRAP_REARG_FLAG=256,WRAP_FLIP_FLAG=512;/** Used as default options for `_.truncate`. */var DEFAULT_TRUNC_LENGTH=30,DEFAULT_TRUNC_OMISSION='...';/** Used to detect hot functions by number of calls within a span of milliseconds. */var HOT_COUNT=800,HOT_SPAN=16;/** Used to indicate the type of lazy iteratees. */var LAZY_FILTER_FLAG=1,LAZY_MAP_FLAG=2,LAZY_WHILE_FLAG=3;/** Used as references for various `Number` constants. */var INFINITY=1/0,MAX_SAFE_INTEGER=9007199254740991,MAX_INTEGER=1.7976931348623157e+308,NAN=0/0;/** Used as references for the maximum length and index of an array. */var MAX_ARRAY_LENGTH=4294967295,MAX_ARRAY_INDEX=MAX_ARRAY_LENGTH-1,HALF_MAX_ARRAY_LENGTH=MAX_ARRAY_LENGTH>>>1;/** Used to associate wrap methods with their bit flags. */var wrapFlags=[['ary',WRAP_ARY_FLAG],['bind',WRAP_BIND_FLAG],['bindKey',WRAP_BIND_KEY_FLAG],['curry',WRAP_CURRY_FLAG],['curryRight',WRAP_CURRY_RIGHT_FLAG],['flip',WRAP_FLIP_FLAG],['partial',WRAP_PARTIAL_FLAG],['partialRight',WRAP_PARTIAL_RIGHT_FLAG],['rearg',WRAP_REARG_FLAG]];/** `Object#toString` result references. */var argsTag='[object Arguments]',arrayTag='[object Array]',asyncTag='[object AsyncFunction]',boolTag='[object Boolean]',dateTag='[object Date]',domExcTag='[object DOMException]',errorTag='[object Error]',funcTag='[object Function]',genTag='[object GeneratorFunction]',mapTag='[object Map]',numberTag='[object Number]',nullTag='[object Null]',objectTag='[object Object]',promiseTag='[object Promise]',proxyTag='[object Proxy]',regexpTag='[object RegExp]',setTag='[object Set]',stringTag='[object String]',symbolTag='[object Symbol]',undefinedTag='[object Undefined]',weakMapTag='[object WeakMap]',weakSetTag='[object WeakSet]';var arrayBufferTag='[object ArrayBuffer]',dataViewTag='[object DataView]',float32Tag='[object Float32Array]',float64Tag='[object Float64Array]',int8Tag='[object Int8Array]',int16Tag='[object Int16Array]',int32Tag='[object Int32Array]',uint8Tag='[object Uint8Array]',uint8ClampedTag='[object Uint8ClampedArray]',uint16Tag='[object Uint16Array]',uint32Tag='[object Uint32Array]';/** Used to match empty string literals in compiled template source. */var reEmptyStringLeading=/\b__p \+= '';/g,reEmptyStringMiddle=/\b(__p \+=) '' \+/g,reEmptyStringTrailing=/(__e\(.*?\)|\b__t\)) \+\n'';/g;/** Used to match HTML entities and HTML characters. */var reEscapedHtml=/&(?:amp|lt|gt|quot|#39);/g,reUnescapedHtml=/[&<>"']/g,reHasEscapedHtml=RegExp(reEscapedHtml.source),reHasUnescapedHtml=RegExp(reUnescapedHtml.source);/** Used to match template delimiters. */var reEscape=/<%-([\s\S]+?)%>/g,reEvaluate=/<%([\s\S]+?)%>/g,reInterpolate=/<%=([\s\S]+?)%>/g;/** Used to match property names within property paths. */var reIsDeepProp=/\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,reIsPlainProp=/^\w*$/,rePropName=/[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;/**
+                                                                                                         ^^^
+
+SyntaxError: Unexpected token 'var'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/lodash_4.17.11/lodash.test.js:5:13
+    at test (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:73:3)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/lodash_4.17.11/lodash.test.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+99/205 68
+/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/lodash_4.17.15/node_modules/lodash/lodash.js:8
+ */;(function(){pushFct("anon:9")/** Used as a safe reference for `undefined` in pre-ES5 environments. */var undefined;/** Used as the semantic version number. */var VERSION='4.17.15';/** Used as the size to enable large array optimizations. */var LARGE_ARRAY_SIZE=200;/** Error message constants. */var CORE_ERROR_TEXT='Unsupported core-js use. Try https://npms.io/search?q=ponyfill.',FUNC_ERROR_TEXT='Expected a function';/** Used to stand-in for `undefined` hash values. */var HASH_UNDEFINED='__lodash_hash_undefined__';/** Used as the maximum memoize cache size. */var MAX_MEMOIZE_SIZE=500;/** Used as the internal argument placeholder. */var PLACEHOLDER='__lodash_placeholder__';/** Used to compose bitmasks for cloning. */var CLONE_DEEP_FLAG=1,CLONE_FLAT_FLAG=2,CLONE_SYMBOLS_FLAG=4;/** Used to compose bitmasks for value comparisons. */var COMPARE_PARTIAL_FLAG=1,COMPARE_UNORDERED_FLAG=2;/** Used to compose bitmasks for function metadata. */var WRAP_BIND_FLAG=1,WRAP_BIND_KEY_FLAG=2,WRAP_CURRY_BOUND_FLAG=4,WRAP_CURRY_FLAG=8,WRAP_CURRY_RIGHT_FLAG=16,WRAP_PARTIAL_FLAG=32,WRAP_PARTIAL_RIGHT_FLAG=64,WRAP_ARY_FLAG=128,WRAP_REARG_FLAG=256,WRAP_FLIP_FLAG=512;/** Used as default options for `_.truncate`. */var DEFAULT_TRUNC_LENGTH=30,DEFAULT_TRUNC_OMISSION='...';/** Used to detect hot functions by number of calls within a span of milliseconds. */var HOT_COUNT=800,HOT_SPAN=16;/** Used to indicate the type of lazy iteratees. */var LAZY_FILTER_FLAG=1,LAZY_MAP_FLAG=2,LAZY_WHILE_FLAG=3;/** Used as references for various `Number` constants. */var INFINITY=1/0,MAX_SAFE_INTEGER=9007199254740991,MAX_INTEGER=1.7976931348623157e+308,NAN=0/0;/** Used as references for the maximum length and index of an array. */var MAX_ARRAY_LENGTH=4294967295,MAX_ARRAY_INDEX=MAX_ARRAY_LENGTH-1,HALF_MAX_ARRAY_LENGTH=MAX_ARRAY_LENGTH>>>1;/** Used to associate wrap methods with their bit flags. */var wrapFlags=[['ary',WRAP_ARY_FLAG],['bind',WRAP_BIND_FLAG],['bindKey',WRAP_BIND_KEY_FLAG],['curry',WRAP_CURRY_FLAG],['curryRight',WRAP_CURRY_RIGHT_FLAG],['flip',WRAP_FLIP_FLAG],['partial',WRAP_PARTIAL_FLAG],['partialRight',WRAP_PARTIAL_RIGHT_FLAG],['rearg',WRAP_REARG_FLAG]];/** `Object#toString` result references. */var argsTag='[object Arguments]',arrayTag='[object Array]',asyncTag='[object AsyncFunction]',boolTag='[object Boolean]',dateTag='[object Date]',domExcTag='[object DOMException]',errorTag='[object Error]',funcTag='[object Function]',genTag='[object GeneratorFunction]',mapTag='[object Map]',numberTag='[object Number]',nullTag='[object Null]',objectTag='[object Object]',promiseTag='[object Promise]',proxyTag='[object Proxy]',regexpTag='[object RegExp]',setTag='[object Set]',stringTag='[object String]',symbolTag='[object Symbol]',undefinedTag='[object Undefined]',weakMapTag='[object WeakMap]',weakSetTag='[object WeakSet]';var arrayBufferTag='[object ArrayBuffer]',dataViewTag='[object DataView]',float32Tag='[object Float32Array]',float64Tag='[object Float64Array]',int8Tag='[object Int8Array]',int16Tag='[object Int16Array]',int32Tag='[object Int32Array]',uint8Tag='[object Uint8Array]',uint8ClampedTag='[object Uint8ClampedArray]',uint16Tag='[object Uint16Array]',uint32Tag='[object Uint32Array]';/** Used to match empty string literals in compiled template source. */var reEmptyStringLeading=/\b__p \+= '';/g,reEmptyStringMiddle=/\b(__p \+=) '' \+/g,reEmptyStringTrailing=/(__e\(.*?\)|\b__t\)) \+\n'';/g;/** Used to match HTML entities and HTML characters. */var reEscapedHtml=/&(?:amp|lt|gt|quot|#39);/g,reUnescapedHtml=/[&<>"']/g,reHasEscapedHtml=RegExp(reEscapedHtml.source),reHasUnescapedHtml=RegExp(reUnescapedHtml.source);/** Used to match template delimiters. */var reEscape=/<%-([\s\S]+?)%>/g,reEvaluate=/<%([\s\S]+?)%>/g,reInterpolate=/<%=([\s\S]+?)%>/g;/** Used to match property names within property paths. */var reIsDeepProp=/\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,reIsPlainProp=/^\w*$/,rePropName=/[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;/**
+                                                                                                         ^^^
+
+SyntaxError: Unexpected token 'var'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/lodash_4.17.15/lodash.test.js:3:15
+    at test (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:73:3)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/lodash_4.17.15/lodash.test.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+100/205 68
+/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/lodash_4.17.9/node_modules/lodash/lodash.js:8
+ */;(function(){pushFct("anon:9")/** Used as a safe reference for `undefined` in pre-ES5 environments. */var undefined;/** Used as the semantic version number. */var VERSION='4.17.9';/** Used as the size to enable large array optimizations. */var LARGE_ARRAY_SIZE=200;/** Error message constants. */var CORE_ERROR_TEXT='Unsupported core-js use. Try https://npms.io/search?q=ponyfill.',FUNC_ERROR_TEXT='Expected a function';/** Used to stand-in for `undefined` hash values. */var HASH_UNDEFINED='__lodash_hash_undefined__';/** Used as the maximum memoize cache size. */var MAX_MEMOIZE_SIZE=500;/** Used as the internal argument placeholder. */var PLACEHOLDER='__lodash_placeholder__';/** Used to compose bitmasks for cloning. */var CLONE_DEEP_FLAG=1,CLONE_FLAT_FLAG=2,CLONE_SYMBOLS_FLAG=4;/** Used to compose bitmasks for value comparisons. */var COMPARE_PARTIAL_FLAG=1,COMPARE_UNORDERED_FLAG=2;/** Used to compose bitmasks for function metadata. */var WRAP_BIND_FLAG=1,WRAP_BIND_KEY_FLAG=2,WRAP_CURRY_BOUND_FLAG=4,WRAP_CURRY_FLAG=8,WRAP_CURRY_RIGHT_FLAG=16,WRAP_PARTIAL_FLAG=32,WRAP_PARTIAL_RIGHT_FLAG=64,WRAP_ARY_FLAG=128,WRAP_REARG_FLAG=256,WRAP_FLIP_FLAG=512;/** Used as default options for `_.truncate`. */var DEFAULT_TRUNC_LENGTH=30,DEFAULT_TRUNC_OMISSION='...';/** Used to detect hot functions by number of calls within a span of milliseconds. */var HOT_COUNT=800,HOT_SPAN=16;/** Used to indicate the type of lazy iteratees. */var LAZY_FILTER_FLAG=1,LAZY_MAP_FLAG=2,LAZY_WHILE_FLAG=3;/** Used as references for various `Number` constants. */var INFINITY=1/0,MAX_SAFE_INTEGER=9007199254740991,MAX_INTEGER=1.7976931348623157e+308,NAN=0/0;/** Used as references for the maximum length and index of an array. */var MAX_ARRAY_LENGTH=4294967295,MAX_ARRAY_INDEX=MAX_ARRAY_LENGTH-1,HALF_MAX_ARRAY_LENGTH=MAX_ARRAY_LENGTH>>>1;/** Used to associate wrap methods with their bit flags. */var wrapFlags=[['ary',WRAP_ARY_FLAG],['bind',WRAP_BIND_FLAG],['bindKey',WRAP_BIND_KEY_FLAG],['curry',WRAP_CURRY_FLAG],['curryRight',WRAP_CURRY_RIGHT_FLAG],['flip',WRAP_FLIP_FLAG],['partial',WRAP_PARTIAL_FLAG],['partialRight',WRAP_PARTIAL_RIGHT_FLAG],['rearg',WRAP_REARG_FLAG]];/** `Object#toString` result references. */var argsTag='[object Arguments]',arrayTag='[object Array]',asyncTag='[object AsyncFunction]',boolTag='[object Boolean]',dateTag='[object Date]',domExcTag='[object DOMException]',errorTag='[object Error]',funcTag='[object Function]',genTag='[object GeneratorFunction]',mapTag='[object Map]',numberTag='[object Number]',nullTag='[object Null]',objectTag='[object Object]',promiseTag='[object Promise]',proxyTag='[object Proxy]',regexpTag='[object RegExp]',setTag='[object Set]',stringTag='[object String]',symbolTag='[object Symbol]',undefinedTag='[object Undefined]',weakMapTag='[object WeakMap]',weakSetTag='[object WeakSet]';var arrayBufferTag='[object ArrayBuffer]',dataViewTag='[object DataView]',float32Tag='[object Float32Array]',float64Tag='[object Float64Array]',int8Tag='[object Int8Array]',int16Tag='[object Int16Array]',int32Tag='[object Int32Array]',uint8Tag='[object Uint8Array]',uint8ClampedTag='[object Uint8ClampedArray]',uint16Tag='[object Uint16Array]',uint32Tag='[object Uint32Array]';/** Used to match empty string literals in compiled template source. */var reEmptyStringLeading=/\b__p \+= '';/g,reEmptyStringMiddle=/\b(__p \+=) '' \+/g,reEmptyStringTrailing=/(__e\(.*?\)|\b__t\)) \+\n'';/g;/** Used to match HTML entities and HTML characters. */var reEscapedHtml=/&(?:amp|lt|gt|quot|#39);/g,reUnescapedHtml=/[&<>"']/g,reHasEscapedHtml=RegExp(reEscapedHtml.source),reHasUnescapedHtml=RegExp(reUnescapedHtml.source);/** Used to match template delimiters. */var reEscape=/<%-([\s\S]+?)%>/g,reEvaluate=/<%([\s\S]+?)%>/g,reInterpolate=/<%=([\s\S]+?)%>/g;/** Used to match property names within property paths. */var reIsDeepProp=/\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,reIsPlainProp=/^\w*$/,rePropName=/[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;/**
+                                                                                                         ^^^
+
+SyntaxError: Unexpected token 'var'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/lodash_4.17.9/lodash.test.js:3:13
+    at test (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:73:3)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/lodash_4.17.9/lodash.test.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+101/205 68
+main - black,white,tests,main
+Log.......>>>  2 6
+102/205 69
+merge - Merge,MergeWhite,MergeBlack,merge,Clone,clone,isBoolean,isNull,isUndefined,isString,isNumber,isSymbol,isFunction,isArray,isObject,isRegExp,isDate,typeOf
+Log.......>>>  0 7
+103/205 70
+TypeError: pushFct(...) is not a function
+    at fn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/@lyngs/digger/dist/index.js:225:2)
+    at createCommonjsModule (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/@lyngs/digger/dist/index.js:16:6)
+    at factory (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/@lyngs/digger/dist/index.js:224:15)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/@lyngs/digger/dist/index.js:2:65
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/@lyngs/digger/dist/index.js:1:2)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/lyngs-digger_1.0.7/lyngs-digger.test.js:3:22
+    at test (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:73:3)
+104/205 70
+TypeError: pushFct(...) is not a function
+    at fn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/@lyngs/merge/dist/index.js:225:2)
+    at createCommonjsModule (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/@lyngs/merge/dist/index.js:16:6)
+    at factory (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/@lyngs/merge/dist/index.js:224:15)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/@lyngs/merge/dist/index.js:2:65
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/@lyngs/merge/dist/index.js:1:2)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/lyngs-merge_1.0.9/lyngs-merge.test.js:3:21
+    at test (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:73:3)
+105/205 70
+TypeError: pushFct(...) is not a function
+    at Object.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/madlib-object-utils/lib/utils.js:2:3)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/madlib-object-utils/lib/utils.js:135:4)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/madlib-object-utils_0.1.6/madlib-object-utils.test.js:5:23
+    at test (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:73:3)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/madlib-object-utils_0.1.6/madlib-object-utils.test.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+106/205 70
+TypeError: pushFct(...) is not a function
+    at createLazyProxy (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/mathjs/lib/type/chain/Chain.js:134:5)
+    at _loop (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/mathjs/lib/type/chain/Chain.js:186:11)
+    at Function.createProxy (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/mathjs/lib/type/chain/Chain.js:194:9)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/mathjs/lib/entry/impureFunctionsAny.generated.js:639:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/mathjs/lib/entry/mainAny.js:66:27)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+107/205 70
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/merge-change/merge-change.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+108/205 70
+main - main
+Log.......>>>  9 6
+109/205 71
+main - main
+Log.......>>>  9 6
+110/205 72
+main - main
+Log.......>>>  9 3
+111/205 73
+main - main
+Log.......>>>  9 8
+112/205 74
+main,recursive - selective,recursive,main
+Log.......>>>  6 8
+113/205 75
+main,recursive - default,main,clone,isPlainObject,recursive,merge,main
+Log.......>>>  2 5
+114/205 76
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/mergify/index.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+115/205 76
+main - main
+Log.......>>>  9 5
+116/205 77
+main,parseQueryString - trust,fragment,mount,route,withAttr,render,redraw,request,jsonp,parseQueryString,buildQueryString,version,vnode,main
+Log.......>>>  1 5
+117/205 78
+main,parseQueryString - trust,fragment,mount,route,withAttr,render,redraw,request,jsonp,parseQueryString,buildQueryString,version,vnode,main
+Log.......>>>  1 9
+118/205 79
+main,parseQueryString - trust,fragment,mount,route,withAttr,render,redraw,request,jsonp,parseQueryString,buildQueryString,version,vnode,main
+Log.......>>>  1 8
+119/205 80
+[object Set] - 
+Log.......>>>  NaN 8
+TypeError: Cannot read properties of undefined (reading '8')
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:117:29)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+120/205 80
+[object Set] - 
+Log.......>>>  NaN 6
+TypeError: Cannot read properties of undefined (reading '6')
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:117:29)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+121/205 80
+[object Set] - 
+Log.......>>>  NaN 3
+TypeError: Cannot read properties of undefined (reading '3')
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:117:29)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+122/205 80
+[object Set] - permissions,_isPermitted,canMerge,setGlobalTraceFunction,utils,env,Collection,BaseCollection,Promise,main
+Log.......>>>  1 6
+123/205 81
+/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/lodash/lodash.js:8
+ */;(function(){pushFct("anon:9")/** Used as a safe reference for `undefined` in pre-ES5 environments. */var undefined;/** Used as the semantic version number. */var VERSION='4.17.11';/** Used as the size to enable large array optimizations. */var LARGE_ARRAY_SIZE=200;/** Error message constants. */var CORE_ERROR_TEXT='Unsupported core-js use. Try https://npms.io/search?q=ponyfill.',FUNC_ERROR_TEXT='Expected a function';/** Used to stand-in for `undefined` hash values. */var HASH_UNDEFINED='__lodash_hash_undefined__';/** Used as the maximum memoize cache size. */var MAX_MEMOIZE_SIZE=500;/** Used as the internal argument placeholder. */var PLACEHOLDER='__lodash_placeholder__';/** Used to compose bitmasks for cloning. */var CLONE_DEEP_FLAG=1,CLONE_FLAT_FLAG=2,CLONE_SYMBOLS_FLAG=4;/** Used to compose bitmasks for value comparisons. */var COMPARE_PARTIAL_FLAG=1,COMPARE_UNORDERED_FLAG=2;/** Used to compose bitmasks for function metadata. */var WRAP_BIND_FLAG=1,WRAP_BIND_KEY_FLAG=2,WRAP_CURRY_BOUND_FLAG=4,WRAP_CURRY_FLAG=8,WRAP_CURRY_RIGHT_FLAG=16,WRAP_PARTIAL_FLAG=32,WRAP_PARTIAL_RIGHT_FLAG=64,WRAP_ARY_FLAG=128,WRAP_REARG_FLAG=256,WRAP_FLIP_FLAG=512;/** Used as default options for `_.truncate`. */var DEFAULT_TRUNC_LENGTH=30,DEFAULT_TRUNC_OMISSION='...';/** Used to detect hot functions by number of calls within a span of milliseconds. */var HOT_COUNT=800,HOT_SPAN=16;/** Used to indicate the type of lazy iteratees. */var LAZY_FILTER_FLAG=1,LAZY_MAP_FLAG=2,LAZY_WHILE_FLAG=3;/** Used as references for various `Number` constants. */var INFINITY=1/0,MAX_SAFE_INTEGER=9007199254740991,MAX_INTEGER=1.7976931348623157e+308,NAN=0/0;/** Used as references for the maximum length and index of an array. */var MAX_ARRAY_LENGTH=4294967295,MAX_ARRAY_INDEX=MAX_ARRAY_LENGTH-1,HALF_MAX_ARRAY_LENGTH=MAX_ARRAY_LENGTH>>>1;/** Used to associate wrap methods with their bit flags. */var wrapFlags=[['ary',WRAP_ARY_FLAG],['bind',WRAP_BIND_FLAG],['bindKey',WRAP_BIND_KEY_FLAG],['curry',WRAP_CURRY_FLAG],['curryRight',WRAP_CURRY_RIGHT_FLAG],['flip',WRAP_FLIP_FLAG],['partial',WRAP_PARTIAL_FLAG],['partialRight',WRAP_PARTIAL_RIGHT_FLAG],['rearg',WRAP_REARG_FLAG]];/** `Object#toString` result references. */var argsTag='[object Arguments]',arrayTag='[object Array]',asyncTag='[object AsyncFunction]',boolTag='[object Boolean]',dateTag='[object Date]',domExcTag='[object DOMException]',errorTag='[object Error]',funcTag='[object Function]',genTag='[object GeneratorFunction]',mapTag='[object Map]',numberTag='[object Number]',nullTag='[object Null]',objectTag='[object Object]',promiseTag='[object Promise]',proxyTag='[object Proxy]',regexpTag='[object RegExp]',setTag='[object Set]',stringTag='[object String]',symbolTag='[object Symbol]',undefinedTag='[object Undefined]',weakMapTag='[object WeakMap]',weakSetTag='[object WeakSet]';var arrayBufferTag='[object ArrayBuffer]',dataViewTag='[object DataView]',float32Tag='[object Float32Array]',float64Tag='[object Float64Array]',int8Tag='[object Int8Array]',int16Tag='[object Int16Array]',int32Tag='[object Int32Array]',uint8Tag='[object Uint8Array]',uint8ClampedTag='[object Uint8ClampedArray]',uint16Tag='[object Uint16Array]',uint32Tag='[object Uint32Array]';/** Used to match empty string literals in compiled template source. */var reEmptyStringLeading=/\b__p \+= '';/g,reEmptyStringMiddle=/\b(__p \+=) '' \+/g,reEmptyStringTrailing=/(__e\(.*?\)|\b__t\)) \+\n'';/g;/** Used to match HTML entities and HTML characters. */var reEscapedHtml=/&(?:amp|lt|gt|quot|#39);/g,reUnescapedHtml=/[&<>"']/g,reHasEscapedHtml=RegExp(reEscapedHtml.source),reHasUnescapedHtml=RegExp(reUnescapedHtml.source);/** Used to match template delimiters. */var reEscape=/<%-([\s\S]+?)%>/g,reEvaluate=/<%([\s\S]+?)%>/g,reInterpolate=/<%=([\s\S]+?)%>/g;/** Used to match property names within property paths. */var reIsDeepProp=/\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,reIsPlainProp=/^\w*$/,rePropName=/[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;/**
+                                                                                                         ^^^
+
+SyntaxError: Unexpected token 'var'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/multi-ini/lib/multi-ini-class.js:10:9)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/multi-ini/lib/index.js:8:16)
+124/205 81
+[object Set] - stringify,parse
+Log.......>>>  5 9
+125/205 82
+[object Set] - main
+Log.......>>>  20 7
+TypeError: Cannot read properties of undefined (reading '7')
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:117:29)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+126/205 82
+[object Set] - main
+Log.......>>>  9 4
+127/205 83
+[object Set] - set,get,has,hasOwn,isIn
+Log.......>>>  2 2
+128/205 84
+[object Set] - nestie
+Log.......>>>  9 3
+129/205 85
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/debug/src/common.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+130/205 85
+[object Set] - main
+Log.......>>>  9 2
+131/205 86
+[object Set] - main
+Log.......>>>  9 4
+132/205 87
+[object Set] - options,util,cipher,aes,pki,oids,asn1,md,hmac,md5,pem,des,pkcs5,pbkdf2,sha256,prng,random,rc2,jsbn,sha1,pkcs1,prime,rsa,pbe,pkcs7asn1,pkcs7,mgf,mgf1,pss,pkcs12,tls,debug,sha512,sha384,ed25519,kem,log,ssh,task
+Log.......>>>  0 9
+133/205 88
+[object Set] - encoding,curSection,parse,parseSync
+Log.......>>>  2 2
+134/205 89
+TypeError: Cannot read properties of undefined (reading 'toBe')
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node-oojs_1.4.0/node-oojs.test.js:8:3
+    at test (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:73:3)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node-oojs_1.4.0/node-oojs.test.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:104:9)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+135/205 89
+136/205 89
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/nodee-utils/node_modules/superagent/lib/node/index.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+137/205 89
+[object Set] - collide,collideUnsafe,isBasicType,isMissing,isObject,isArray
+Log.......>>>  1 4
+138/205 90
+[object Set] - collide,collideUnsafe,isBasicType,isMissing,isObject,isArray
+Log.......>>>  1 3
+139/205 91
+[object Set] - collide,collideUnsafe,isBasicType,isMissing,isObject,isArray
+Log.......>>>  1 3
+140/205 92
+[object Set] - has,ensureExists,set,insert,empty,push,coalesce,get,del,create,withInheritedProps,main
+Log.......>>>  1 4
+141/205 93
+[object Set] - has,ensureExists,set,insert,empty,push,coalesce,get,del,create,withInheritedProps,main
+Log.......>>>  1 6
+142/205 94
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/objnest/lib/objnest.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+143/205 94
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/objtools/lib/index.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+144/205 94
+[object Set] - is,own,isPOJO,isIterable,isPrimitive,deepIt,forEach,map,some,every,get,got,set,unset,ensure,invert,assign,extend,merge,remove,pick,defaults,isEqual,visit,filter
+Log.......>>>  0 6
+145/205 95
+146/205 95
+147/205 95
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/patchmerge_1.0.0/node_modules/patchmerge/index.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+148/205 95
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/patchmerge/index.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+149/205 95
+[object Set] - hasProperty,getPathInfo,getPathValue,setPathValue
+Log.......>>>  2 3
+150/205 96
+151/205 96
+152/205 96
+[object Set] - main
+Log.......>>>  20 4
+TypeError: Cannot read properties of undefined (reading '4')
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:117:29)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+153/205 96
+[object Set] - XMLHttpRequest,window,array,array_change_key_case,array_chunk,array_combine,array_count_values,array_diff,array_diff_assoc,array_diff_key,array_diff_uassoc,array_diff_ukey,array_fill,array_fill_keys,array_filter,array_intersect,array_intersect_assoc,array_intersect_key,array_intersect_uassoc,array_intersect_ukey,array_key_exists,array_keys,array_map,array_merge,array_multisort,array_pad,array_pop,array_product,array_push,array_rand,array_reduce,array_replace,array_replace_recursive,array_reverse,array_shift,array_sum,array_udiff,array_udiff_assoc,array_udiff_uassoc,array_uintersect,array_uintersect_assoc,array_uintersect_uassoc,array_unique,array_unshift,array_values,array_walk_recursive,compact,count,current,each,end,in_array,key,next,prev,range,reset,shuffle,uasort,uksort,usort,checkdate,date,getdate,gettimeofday,gmmktime,idate,microtime,mktime,strtotime,time,escapeshellarg,basename,dirname,file_get_contents,realpath,call_user_func,call_user_func_array,create_function,function_exists,get_defined_functions,i18n_loc_set_default,assert_options,getenv,getlastmod,ini_get,ini_set,set_time_limit,version_compare,json_decode,json_encode,json_last_error,abs,acos,acosh,asin,asinh,atan,atan2,atanh,base_convert,bindec,ceil,cos,cosh,decbin,dechex,decoct,deg2rad,exp,expm1,floor,fmod,getrandmax,hexdec,hypot,is_finite,is_infinite,is_nan,lcg_value,log,log10,log1p,max,min,mt_getrandmax,mt_rand,octdec,pi,pow,rad2deg,rand,round,sin,sinh,sqrt,tan,tanh,pack,time_sleep_until,uniqid,gopher_parsedir,inet_ntop,inet_pton,ip2long,long2ip,setrawcookie,preg_grep,preg_quote,addcslashes,addslashes,bin2hex,chr,chunk_split,convert_cyr_string,count_chars,explode,get_html_translation_table,echo,htmlspecialchars,htmlspecialchars_decode,implode,lcfirst,levenshtein,ltrim,metaphone,nl2br,number_format,ord,parse_str,quoted_printable_decode,quoted_printable_encode,quotemeta,rtrim,similar_text,soundex,sprintf,sscanf,str_getcsv,str_ireplace,str_pad,str_repeat,str_replace,str_rot13,str_shuffle,str_split,strcasecmp,strcmp,strcspn,strip_tags,stripos,stripslashes,stristr,strlen,strnatcasecmp,strncasecmp,strncmp,strpbrk,strpos,strrchr,strrev,strripos,strrpos,strspn,strstr,strtok,strtolower,strtoupper,substr,substr_compare,substr_count,substr_replace,trim,ucfirst,ucwords,wordwrap,base64_decode,base64_encode,parse_url,rawurldecode,rawurlencode,urldecode,urlencode,empty,floatval,intval,is_array,is_binary,is_bool,is_buffer,is_callable,is_float,is_int,is_null,is_numeric,is_object,is_resource,is_scalar,is_string,is_unicode,isset,serialize,settype,unserialize,xdiff_string_diff,xdiff_string_patch,utf8_decode,utf8_encode,array_flip,array_merge_recursive,array_search,array_slice,array_splice,array_walk,natcasesort,pos,sizeof,bcadd,bccomp,bcdiv,bcmul,bcround,bcscale,bcsub,date_parse,gmdate,pathinfo,i18n_loc_get_default,setcookie,chop,convert_uuencode,crc32,html_entity_decode,htmlentities,join,md5,md5_file,printf,setlocale,sha1,sha1_file,split,strchr,strnatcmp,vprintf,vsprintf,get_headers,get_meta_tags,http_build_query,doubleval,gettype,is_double,is_integer,is_long,is_real,print_r,var_dump,var_export,arsort,asort,krsort,ksort,natsort,rsort,sort,ctype_alnum,ctype_alpha,ctype_cntrl,ctype_digit,ctype_graph,ctype_lower,ctype_print,ctype_punct,ctype_space,ctype_upper,ctype_xdigit,strftime,strptime,sql_regcase,localeconv,money_format,nl_langinfo,strcoll,strval,gmstrftime,str_word_count,strtr,registerGlobals
+Log.......>>>  0 3
+154/205 97
+[object Set] - default,main
+Log.......>>>  5 5
+155/205 98
+[object Set] - extend,descriptor,create,remove,merge,mixin,each,lazy,WRITABLE,READABLE,main
+Log.......>>>  1 7
+156/205 99
+[object Set] - wrap,notify,insert,log
+Log.......>>>  2 2
+157/205 100
+[object Set] - main
+Log.......>>>  9 8
+158/205 101
+[object Set] - Cache,split,normalizePath,setter,getter,join,forEach
+Log.......>>>  1 3
+159/205 102
+[object Set] - selective,recursive,main
+Log.......>>>  6 8
+160/205 103
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/putil-merge/lib/merge.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+161/205 103
+/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/lodash/lodash.js:8
+ */;(function(){pushFct("anon:9")/** Used as a safe reference for `undefined` in pre-ES5 environments. */var undefined;/** Used as the semantic version number. */var VERSION='4.17.11';/** Used as the size to enable large array optimizations. */var LARGE_ARRAY_SIZE=200;/** Error message constants. */var CORE_ERROR_TEXT='Unsupported core-js use. Try https://npms.io/search?q=ponyfill.',FUNC_ERROR_TEXT='Expected a function';/** Used to stand-in for `undefined` hash values. */var HASH_UNDEFINED='__lodash_hash_undefined__';/** Used as the maximum memoize cache size. */var MAX_MEMOIZE_SIZE=500;/** Used as the internal argument placeholder. */var PLACEHOLDER='__lodash_placeholder__';/** Used to compose bitmasks for cloning. */var CLONE_DEEP_FLAG=1,CLONE_FLAT_FLAG=2,CLONE_SYMBOLS_FLAG=4;/** Used to compose bitmasks for value comparisons. */var COMPARE_PARTIAL_FLAG=1,COMPARE_UNORDERED_FLAG=2;/** Used to compose bitmasks for function metadata. */var WRAP_BIND_FLAG=1,WRAP_BIND_KEY_FLAG=2,WRAP_CURRY_BOUND_FLAG=4,WRAP_CURRY_FLAG=8,WRAP_CURRY_RIGHT_FLAG=16,WRAP_PARTIAL_FLAG=32,WRAP_PARTIAL_RIGHT_FLAG=64,WRAP_ARY_FLAG=128,WRAP_REARG_FLAG=256,WRAP_FLIP_FLAG=512;/** Used as default options for `_.truncate`. */var DEFAULT_TRUNC_LENGTH=30,DEFAULT_TRUNC_OMISSION='...';/** Used to detect hot functions by number of calls within a span of milliseconds. */var HOT_COUNT=800,HOT_SPAN=16;/** Used to indicate the type of lazy iteratees. */var LAZY_FILTER_FLAG=1,LAZY_MAP_FLAG=2,LAZY_WHILE_FLAG=3;/** Used as references for various `Number` constants. */var INFINITY=1/0,MAX_SAFE_INTEGER=9007199254740991,MAX_INTEGER=1.7976931348623157e+308,NAN=0/0;/** Used as references for the maximum length and index of an array. */var MAX_ARRAY_LENGTH=4294967295,MAX_ARRAY_INDEX=MAX_ARRAY_LENGTH-1,HALF_MAX_ARRAY_LENGTH=MAX_ARRAY_LENGTH>>>1;/** Used to associate wrap methods with their bit flags. */var wrapFlags=[['ary',WRAP_ARY_FLAG],['bind',WRAP_BIND_FLAG],['bindKey',WRAP_BIND_KEY_FLAG],['curry',WRAP_CURRY_FLAG],['curryRight',WRAP_CURRY_RIGHT_FLAG],['flip',WRAP_FLIP_FLAG],['partial',WRAP_PARTIAL_FLAG],['partialRight',WRAP_PARTIAL_RIGHT_FLAG],['rearg',WRAP_REARG_FLAG]];/** `Object#toString` result references. */var argsTag='[object Arguments]',arrayTag='[object Array]',asyncTag='[object AsyncFunction]',boolTag='[object Boolean]',dateTag='[object Date]',domExcTag='[object DOMException]',errorTag='[object Error]',funcTag='[object Function]',genTag='[object GeneratorFunction]',mapTag='[object Map]',numberTag='[object Number]',nullTag='[object Null]',objectTag='[object Object]',promiseTag='[object Promise]',proxyTag='[object Proxy]',regexpTag='[object RegExp]',setTag='[object Set]',stringTag='[object String]',symbolTag='[object Symbol]',undefinedTag='[object Undefined]',weakMapTag='[object WeakMap]',weakSetTag='[object WeakSet]';var arrayBufferTag='[object ArrayBuffer]',dataViewTag='[object DataView]',float32Tag='[object Float32Array]',float64Tag='[object Float64Array]',int8Tag='[object Int8Array]',int16Tag='[object Int16Array]',int32Tag='[object Int32Array]',uint8Tag='[object Uint8Array]',uint8ClampedTag='[object Uint8ClampedArray]',uint16Tag='[object Uint16Array]',uint32Tag='[object Uint32Array]';/** Used to match empty string literals in compiled template source. */var reEmptyStringLeading=/\b__p \+= '';/g,reEmptyStringMiddle=/\b(__p \+=) '' \+/g,reEmptyStringTrailing=/(__e\(.*?\)|\b__t\)) \+\n'';/g;/** Used to match HTML entities and HTML characters. */var reEscapedHtml=/&(?:amp|lt|gt|quot|#39);/g,reUnescapedHtml=/[&<>"']/g,reHasEscapedHtml=RegExp(reEscapedHtml.source),reHasUnescapedHtml=RegExp(reUnescapedHtml.source);/** Used to match template delimiters. */var reEscape=/<%-([\s\S]+?)%>/g,reEvaluate=/<%([\s\S]+?)%>/g,reInterpolate=/<%=([\s\S]+?)%>/g;/** Used to match property names within property paths. */var reIsDeepProp=/\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,reIsPlainProp=/^\w*$/,rePropName=/[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;/**
+                                                                                                         ^^^
+
+SyntaxError: Unexpected token 'var'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/querymen/dist/index.js:14:15)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/querymen_2.1.3/querymen.test.js:3:11
+162/205 103
+TypeError: Cannot read properties of undefined (reading 'toBe')
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/rdf-graph-array_0.3.0/rdf-graph-array.test.js:15:3
+    at test (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:73:3)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/rdf-graph-array_0.3.0/rdf-graph-array.test.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:104:9)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+163/205 103
+[object Set] - encodeString,AbstractGraph,NamedNode,BlankNode,Literal,Triple,Quad,Graph
+Log.......>>>  1 3
+164/205 104
+[object Set] - applyPatch,createPatch,createTests
+Log.......>>>  3 4
+165/205 105
+[object Set] - applyPatch,createPatch,createTests
+Log.......>>>  3 5
+166/205 106
+[object Set] - applyPatch,createPatch,createTests
+Log.......>>>  3 4
+167/205 107
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/safe-object2/lib/index.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+168/205 107
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/safetydance/index.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+169/205 107
+[object Set] - main
+Log.......>>>  9 2
+170/205 108
+[object Set] - extnames,extensions,stringify,load,save,find,get,set,del,regexp,collect,toplevel,sortpath,cmppath,listify,objectify
+Log.......>>>  0 2
+171/205 109
+[object Set] - extnames,extensions,stringify,load,save,find,get,set,del,regexp,collect,toplevel,sortpath,cmppath,listify,objectify
+Log.......>>>  0 2
+172/205 110
+[object Set] - extnames,extensions,stringify,load,save,find,get,set,del,regexp,collect,toplevel,sortpath,cmppath,listify,objectify
+Log.......>>>  0 5
+173/205 111
+[object Set] - main
+Log.......>>>  9 3
+174/205 112
+[object Set] - main
+Log.......>>>  9 3
+175/205 113
+[object Set] - main
+Log.......>>>  9 3
+176/205 114
+[object Set] - main
+Log.......>>>  9 4
+177/205 115
+[object Set] - get,set
+Log.......>>>  5 2
+178/205 116
+TypeError: pushFct(...) is not a function
+    at Function.setDefaultMessages (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/simpl-schema/dist/SimpleSchema.js:1075:3)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/simpl-schema_1.10.0/simpl-schema.test.js:8:16
+    at test (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:73:3)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/simpl-schema_1.10.0/simpl-schema.test.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:104:9)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+179/205 116
+180/205 116
+[object Set] - ba,op,version,main
+Log.......>>>  5 4
+181/205 117
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/@strikeentco/set/main.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+182/205 117
+TypeError: Cannot read properties of undefined (reading 'loc')
+    at Parser.raise (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/tokenizer/index.js:1762:50)
+    at ClassScopeHandler.exit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/util/class-scope.js:56:21)
+    at Parser.parseClassBody (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/parser/statement.js:1459:21)
+    at Parser.parseClass (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/parser/statement.js:1372:22)
+    at Parser.parseStatementContent (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/parser/statement.js:370:21)
+    at Parser.parseStatement (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/parser/statement.js:329:17)
+    at Parser.parseBlockOrModuleBlockBody (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/parser/statement.js:1078:25)
+    at Parser.parseBlockBody (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/parser/statement.js:1054:10)
+    at Parser.parseProgram (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/parser/statement.js:214:10)
+    at Parser.parseTopLevel (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/parser/statement.js:197:25)
+    at Parser.parse (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/parser/index.js:41:10)
+    at parse (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/index.js:26:26)
+    at parser (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/core/lib/parser/index.js:52:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/core/lib/transformation/normalize-file.js:87:38)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/core/lib/transformation/index.js:31:50)
+    at run.next (<anonymous>)
+    at Object.transform (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/core/lib/transform.js:25:41)
+    at transform.next (<anonymous>)
+    at evaluateSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/gensync/index.js:251:28)
+    at Object.sync [as transformSync] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/gensync/index.js:89:14)
+183/205 117
+[object Set] - default,mixin,mixinFunctions,mixinChainFunctions,merge,mergeUnique,mergeChainNonFunctions
+Log.......>>>  1 9
+184/205 118
+TypeError: pushFct(...) is not a function
+    at Function.extendDefaults (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/swiper/cjs/components/core/core-class.js:566:5)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/swiper_6.5.0/swiper.test.js:9:18
+    at test (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:73:3)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/swiper_6.5.0/swiper.test.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:104:9)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+185/205 118
+186/205 118
+TypeError: Cannot read properties of undefined (reading 'loc')
+    at Parser.raise (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/tokenizer/index.js:1762:50)
+    at ClassScopeHandler.exit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/util/class-scope.js:56:21)
+    at Parser.parseClassBody (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/parser/statement.js:1459:21)
+    at Parser.parseClass (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/parser/statement.js:1372:22)
+    at Parser.parseStatementContent (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/parser/statement.js:370:21)
+    at Parser.parseStatement (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/parser/statement.js:329:17)
+    at Parser.parseBlockOrModuleBlockBody (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/parser/statement.js:1078:25)
+    at Parser.parseBlockBody (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/parser/statement.js:1054:10)
+    at Parser.parseProgram (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/parser/statement.js:214:10)
+    at Parser.parseTopLevel (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/parser/statement.js:197:25)
+    at Parser.parse (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/parser/index.js:41:10)
+    at parse (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/parser/src/index.js:26:26)
+    at parser (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/core/lib/parser/index.js:52:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/core/lib/transformation/normalize-file.js:87:38)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/core/lib/transformation/index.js:31:50)
+    at run.next (<anonymous>)
+    at Object.transform (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/core/lib/transform.js:25:41)
+    at transform.next (<anonymous>)
+    at evaluateSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/gensync/index.js:251:28)
+    at Object.sync [as transformSync] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/gensync/index.js:89:14)
+187/205 118
+[object Set] - isIP,isIPv4,isIPv6,isMaster,isArray,isBoolean,isNull,isNullOrUndefined,isNumber,isString,isSymbol,isUndefined,isRegExp,isObject,isDate,isError,isFunction,isPrimitive,isBuffer,isInt,promisify,extend,camelCase,snakeCase,isNumberString,isTrueEmpty,isEmpty,defer,md5,timeout,escapeHtml,datetime,uuid,parseAdapterConfig,ms,omit,isExist,isFile,isDirectory,chmod,mkdir,getdirFiles,rmdir
+Log.......>>>  0 4
+188/205 119
+[object Set] - isIP,isIPv4,isIPv6,isMaster,isArray,isBoolean,isNull,isNullOrUndefined,isNumber,isString,isSymbol,isUndefined,isRegExp,isObject,isDate,isError,isFunction,isPrimitive,isBuffer,isInt,promisify,extend,camelCase,snakeCase,isNumberString,isTrueEmpty,isEmpty,defer,md5,timeout,escapeHtml,datetime,uuid,parseAdapterConfig,ms,omit,isExist,isFile,isDirectory,chmod,mkdir,getdirFiles,rmdir
+Log.......>>>  0 3
+189/205 120
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/total.js/index.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+190/205 120
+[object Set] - get,set,has,remove,paths
+Log.......>>>  2 3
+191/205 121
+[object Set] - Compare,DateFormat,Decision,FetchContext,Merge,PruneContext,PutContext,default
+Log.......>>>  1 5
+192/205 122
+TypeError: pushFct(...) is not a function
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/reflect-metadata/Reflect.js:19:5
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/reflect-metadata/Reflect.js:16:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (../src/index.ts:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/tsed-core_5.62.3/tsed-core.test.js:3:27
+193/205 122
+[object Set] - Compare,DateFormat,Decision,FetchContext,Merge,PruneContext,PutContext,default
+Log.......>>>  1 4
+194/205 123
+[object Set] - Compare,DateFormat,Decision,FetchContext,Merge,PruneContext,PutContext,default
+Log.......>>>  1 7
+195/205 124
+[object Set] - Compare,DateFormat,Decision,FetchContext,Merge,PruneContext,PutContext,default
+Log.......>>>  1 3
+196/205 125
+[object Set] - clone,merge,add
+Log.......>>>  3 4
+197/205 126
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/utilitify/utils/cloneDeep.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+198/205 126
+[object Set] - isFunction,isString,isNumber,isDate,isRegExp,_errnoException,_exceptionWithHostPort,_extend,callbackify,debug,debuglog,deprecate,format,formatWithOptions,getSystemErrorMap,getSystemErrorName,inherits,inspect,isArray,isBoolean,isBuffer,isDeepStrictEqual,isNull,isNullOrUndefined,isSymbol,isUndefined,isObject,isError,isPrimitive,log,promisify,stripVTControlCharacters,toUSVString,TextDecoder,TextEncoder,types,extend,noop,unique,escape,unescape,hrtime,pick,path
+Log.......>>>  0 6
+199/205 127
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/vega-util/build/vega-util.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+200/205 127
+[object Set] - isFunction,isString,isNumber,isDate,isRegExp,_errnoException,_exceptionWithHostPort,_extend,callbackify,debug,debuglog,deprecate,format,formatWithOptions,getSystemErrorMap,getSystemErrorName,inherits,inspect,isArray,isBoolean,isBuffer,isDeepStrictEqual,isNull,isNullOrUndefined,isSymbol,isUndefined,isObject,isError,isPrimitive,log,promisify,stripVTControlCharacters,toUSVString,TextDecoder,TextEncoder,types,extend,noop,unique,escape,unescape,hrtime,pick,path
+Log.......>>>  0 3
+201/205 128
+/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/lodash/lodash.js:8
+ */;(function(){pushFct("anon:9")/** Used as a safe reference for `undefined` in pre-ES5 environments. */var undefined;/** Used as the semantic version number. */var VERSION='4.17.11';/** Used as the size to enable large array optimizations. */var LARGE_ARRAY_SIZE=200;/** Error message constants. */var CORE_ERROR_TEXT='Unsupported core-js use. Try https://npms.io/search?q=ponyfill.',FUNC_ERROR_TEXT='Expected a function';/** Used to stand-in for `undefined` hash values. */var HASH_UNDEFINED='__lodash_hash_undefined__';/** Used as the maximum memoize cache size. */var MAX_MEMOIZE_SIZE=500;/** Used as the internal argument placeholder. */var PLACEHOLDER='__lodash_placeholder__';/** Used to compose bitmasks for cloning. */var CLONE_DEEP_FLAG=1,CLONE_FLAT_FLAG=2,CLONE_SYMBOLS_FLAG=4;/** Used to compose bitmasks for value comparisons. */var COMPARE_PARTIAL_FLAG=1,COMPARE_UNORDERED_FLAG=2;/** Used to compose bitmasks for function metadata. */var WRAP_BIND_FLAG=1,WRAP_BIND_KEY_FLAG=2,WRAP_CURRY_BOUND_FLAG=4,WRAP_CURRY_FLAG=8,WRAP_CURRY_RIGHT_FLAG=16,WRAP_PARTIAL_FLAG=32,WRAP_PARTIAL_RIGHT_FLAG=64,WRAP_ARY_FLAG=128,WRAP_REARG_FLAG=256,WRAP_FLIP_FLAG=512;/** Used as default options for `_.truncate`. */var DEFAULT_TRUNC_LENGTH=30,DEFAULT_TRUNC_OMISSION='...';/** Used to detect hot functions by number of calls within a span of milliseconds. */var HOT_COUNT=800,HOT_SPAN=16;/** Used to indicate the type of lazy iteratees. */var LAZY_FILTER_FLAG=1,LAZY_MAP_FLAG=2,LAZY_WHILE_FLAG=3;/** Used as references for various `Number` constants. */var INFINITY=1/0,MAX_SAFE_INTEGER=9007199254740991,MAX_INTEGER=1.7976931348623157e+308,NAN=0/0;/** Used as references for the maximum length and index of an array. */var MAX_ARRAY_LENGTH=4294967295,MAX_ARRAY_INDEX=MAX_ARRAY_LENGTH-1,HALF_MAX_ARRAY_LENGTH=MAX_ARRAY_LENGTH>>>1;/** Used to associate wrap methods with their bit flags. */var wrapFlags=[['ary',WRAP_ARY_FLAG],['bind',WRAP_BIND_FLAG],['bindKey',WRAP_BIND_KEY_FLAG],['curry',WRAP_CURRY_FLAG],['curryRight',WRAP_CURRY_RIGHT_FLAG],['flip',WRAP_FLIP_FLAG],['partial',WRAP_PARTIAL_FLAG],['partialRight',WRAP_PARTIAL_RIGHT_FLAG],['rearg',WRAP_REARG_FLAG]];/** `Object#toString` result references. */var argsTag='[object Arguments]',arrayTag='[object Array]',asyncTag='[object AsyncFunction]',boolTag='[object Boolean]',dateTag='[object Date]',domExcTag='[object DOMException]',errorTag='[object Error]',funcTag='[object Function]',genTag='[object GeneratorFunction]',mapTag='[object Map]',numberTag='[object Number]',nullTag='[object Null]',objectTag='[object Object]',promiseTag='[object Promise]',proxyTag='[object Proxy]',regexpTag='[object RegExp]',setTag='[object Set]',stringTag='[object String]',symbolTag='[object Symbol]',undefinedTag='[object Undefined]',weakMapTag='[object WeakMap]',weakSetTag='[object WeakSet]';var arrayBufferTag='[object ArrayBuffer]',dataViewTag='[object DataView]',float32Tag='[object Float32Array]',float64Tag='[object Float64Array]',int8Tag='[object Int8Array]',int16Tag='[object Int16Array]',int32Tag='[object Int32Array]',uint8Tag='[object Uint8Array]',uint8ClampedTag='[object Uint8ClampedArray]',uint16Tag='[object Uint16Array]',uint32Tag='[object Uint32Array]';/** Used to match empty string literals in compiled template source. */var reEmptyStringLeading=/\b__p \+= '';/g,reEmptyStringMiddle=/\b(__p \+=) '' \+/g,reEmptyStringTrailing=/(__e\(.*?\)|\b__t\)) \+\n'';/g;/** Used to match HTML entities and HTML characters. */var reEscapedHtml=/&(?:amp|lt|gt|quot|#39);/g,reUnescapedHtml=/[&<>"']/g,reHasEscapedHtml=RegExp(reEscapedHtml.source),reHasUnescapedHtml=RegExp(reUnescapedHtml.source);/** Used to match template delimiters. */var reEscape=/<%-([\s\S]+?)%>/g,reEvaluate=/<%([\s\S]+?)%>/g,reInterpolate=/<%=([\s\S]+?)%>/g;/** Used to match property names within property paths. */var reIsDeepProp=/\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,reIsPlainProp=/^\w*$/,rePropName=/[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;/**
+                                                                                                         ^^^
+
+SyntaxError: Unexpected token 'var'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/worksmith/index.js:2:9)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/worksmith_1.0.0/worksmith.test.js:4:21
+202/205 128
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/x-assign/index.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:131:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitSingle (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:77:19) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+203/205 128
+[object Set] - main
+Log.......>>>  9 3
+204/205 129
+/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/node_modules/yargs-parser/index.js:710
+    [].concat(flags.aliases[key] || [], key).forEach(function (k) {
+     ^
+
+SyntaxError: Unexpected token ']'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/yargs-parser_6.0.0/yargs-parser.test.js:6:18
+    at test (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:73:3)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/prototype-pollution/yargs-parser_6.0.0/yargs-parser.test.js:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at Module.Mod.require (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/dynamic-api-analysis.js:43:22)
+[[0,0,2,6,3,2,2,4,1,4],[0,0,1,11,4,3,2,2,2,2],[0,0,4,3,3,2,1,1,0,1],[0,0,2,3,4,1,0,1,1,0],[0,0,0,0,0,1,0,0,0,0],[0,0,3,0,8,1,0,0,0,1],[0,0,0,0,0,1,0,0,2,0],[0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0],[0,0,5,9,5,5,2,3,2,3]]

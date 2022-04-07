@@ -9,5 +9,5 @@
   },
   "fixedVersion": "3.4.7",
   "fixCommit": "https://github.com/totaljs/framework/commit/b3f901561d66ab799a4a99279893b94cad7ae4ff",
-  "sink": "utils.js:6624:11"
+  "sink": "utils.js:6624:11, <anonymous"
 }

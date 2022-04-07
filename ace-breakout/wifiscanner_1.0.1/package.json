@@ -1,7 +1,6 @@
 {
   "id": "CVE-2020-15362",
   "dependencies": {
-    "sleep": "^6.3.0",
     "wifiscanner": "1.0.1"
   },
   "links": {

@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-XOPEN-1050981
 test("Command Injection in xopen", () => {
   expect.assertions(2);
   const root = require("xopen");
   const fs = require("fs");
   const path = "./xopen";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

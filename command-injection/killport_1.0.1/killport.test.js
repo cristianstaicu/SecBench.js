@@ -1,14 +1,11 @@
-//https://snyk.io/vuln/SNYK-JS-KILLPORT-1078535
 test("Command Injection in killport", () => {
   expect.assertions(2);
   const killport = require("killport");
   const fs = require("fs");
   const path = "./killport";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);
-      // console.log("File removed:", path);
     }
   } catch (err) {
     console.error(err);

@@ -23,6 +23,10 @@ RUN apt-get install -y git
 RUN apt-get install -y curl
 RUN apt-get install -y zip
 RUN apt-get install -y psmisc
+RUN apt-get install -y yarn
+RUN apt-get install -y nano
+RUN apt-get install g++
+RUN apt-get install make
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 RUN . ~/.bashrc
@@ -42,8 +46,9 @@ RUN mkdir /root/.ssh/ &&\
 # # make sure your domain is accepted
 # RUN touch /root/.ssh/known_hosts
 # RUN ssh-keyscan bitbucket.org >> /root/.ssh/known_hosts
-
+RUN npm install -g --save-dev jest
 RUN git clone git@github.com:cristianstaicu/vulns4js.git /home/vulns4js
+# RUN npm install -g --save-dev jest
 
 # FROM ubuntu
 # # copy the repository form the previous image

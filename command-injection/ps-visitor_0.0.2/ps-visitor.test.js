@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-PSVISITOR-1078544
 test("Command Injection in ps-visitor", () => {
   expect.assertions(2);
   const ps_visitor = require("ps-visitor");
   const fs = require("fs");
   const path = "./ps-visitor";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

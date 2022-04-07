@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/npm:dns-sync:20141111
 test("Command Injection in dns-sync", () => {
   expect.assertions(2);
   const dnsSync = require("dns-sync");
   const fs = require("fs");
   const path = "./dns-sync";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

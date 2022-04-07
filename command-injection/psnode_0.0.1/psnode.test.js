@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-PSNODE-1078543
 test("Command Injection in psnode", (done) => {
   expect.assertions(2);
   const psnode = require("psnode");
   const fs = require("fs");
   const path = "./psnode";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

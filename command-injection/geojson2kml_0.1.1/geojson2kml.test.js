@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-GEOJSON2KML-1050412
 test("Command Injection in geojson2kml", (done) => {
   expect.assertions(2);
   const a = require("geojson2kml");
   const fs = require("fs");
   const path = "./geojson2kml";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

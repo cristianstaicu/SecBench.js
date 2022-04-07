@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-NODEMPV-564426
 test("Command Injection in node-mpv", () => {
   expect.assertions(2);
   const Root = require("node-mpv");
   const fs = require("fs");
   const path = "./node-mpv";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

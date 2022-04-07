@@ -1,11 +1,9 @@
-//https://snyk.io/vuln/SNYK-JS-PSKILL-1078529
 test("Command Injection in ps-kill", (done) => {
   expect.assertions(3);
   expect.assertions(2);
   const ps_kill = require("ps-kill");
   const fs = require("fs");
   const path = "./ps-kill";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

@@ -1,16 +1,12 @@
 const { doesNotMatch } = require("assert");
-
-//https://github.com/advisories/GHSA-pjh3-jv7w-9jpr
 test("Command Injection in gm", (done) => {
   expect.assertions(2);
   const gm = require("gm");
   const fs = require("fs");
   const path = "./gm";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);
-      // console.log('File removed:', path);
     }
   } catch (err) {
     console.error(err);

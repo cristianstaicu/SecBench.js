@@ -1,10 +1,8 @@
-//https://hackerone.com/reports/394294
 test("Command Injection in samsung-remote", (done) => {
   expect.assertions(2);
   const SamsungRemote = require("samsung-remote");
   const fs = require("fs");
   const path = "./samsung-remote";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

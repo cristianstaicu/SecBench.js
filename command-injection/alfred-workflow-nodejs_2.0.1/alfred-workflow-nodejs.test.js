@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-ALFREDWORKFLOWNODEJS-608975
 test("Command Injection in killing", (done) => {
   expect.assertions(2);
   const AlfredNode = require("alfred-workflow-nodejs");
   const fs = require("fs");
   const path = "./alfred-workflow-nodejs";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

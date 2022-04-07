@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-ONIONOLEDJS-1078808
 test("Command Injection in onion-oled-js", () => {
   expect.assertions(2);
   const OLEDExp = require("onion-oled-js").OLEDExp;
   const fs = require("fs");
   const path = "./onion-oled-js";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

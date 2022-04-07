@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-GETNPMPACKAGEVERSION-1050390
 test("Command Injection in get-npm-package-version", () => {
   expect.assertions(2);
   const a = require("get-npm-package-version");
   const fs = require("fs");
   const path = "./get-npm-package-version";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

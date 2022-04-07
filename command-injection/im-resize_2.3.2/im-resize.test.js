@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-IMRESIZE-544183
 test("Command Injection in im-resize", (done) => {
   expect.assertions(2);
   const root = require("im-resize");
   const fs = require("fs");
   const path = "./im-resize";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

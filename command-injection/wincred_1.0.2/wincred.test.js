@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-PORTKILLER-1078537
 test("Command Injection in wincred", () => {
   expect.assertions(2);
   const wincred = require("wincred");
   const fs = require("fs");
   const path = "./wincred";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

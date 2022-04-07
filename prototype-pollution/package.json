@@ -1,6 +1,7 @@
 {
   "name": "prototype-pollution",
   "dependencies": {
+    "jsdom": "^19.0.0",
     "101_1.0.0": "./101_1.0.0/",
     "algoliasearch-helper_3.6.0": "./algoliasearch-helper_3.6.0",
     "arr-flatten-unflatten_1.1.4": "./arr-flatten-unflatten_1.1.4/",

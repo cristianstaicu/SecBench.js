@@ -1,10 +1,8 @@
-//https://hackerone.com/reports/864777
 test("Command Injection in vboxmanage.js", () => {
   expect.assertions(2);
   const VBox = require("vboxmanage.js");
   const fs = require("fs");
   const path = "./vboxmanag-js";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

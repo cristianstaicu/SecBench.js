@@ -1,10 +1,8 @@
-//https://hackerone.com/reports/341710
 test("Command Injection in git-dummy-commit", () => {
   expect.assertions(2);
   const gitDummyCommit = require("git-dummy-commit");
   const fs = require("fs");
   const path = "./git-dummy-commit";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

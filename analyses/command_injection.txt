@@ -1,0 +1,334 @@
+Loaded babel plugin
+0/119 0
+1/119 0
+2/119 0
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+3/119 1
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+4/119 2
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+5/119 3
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+6/119 4
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+7/119 5
+TypeError: /Users/masudulhasanmasudbhuiyan/Music/vulns4js/command-injection/arpping_2.0.0/arpping.test.js: Cannot read properties of undefined (reading 'unshift')
+    at PluginPass.enter (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/babel-instrumentor.js:11:31)
+    at newFn (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/visitors.js:177:21)
+    at NodePath._call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:53:20)
+    at NodePath.call (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:40:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:100:31)
+    at TraversalContext.visitQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:103:16)
+    at TraversalContext.visitMultiple (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:72:17)
+    at TraversalContext.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/context.js:129:19)
+    at traverseNode (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/traverse-node.js:24:17)
+    at NodePath.visit (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/analyses/node_modules/@babel/traverse/lib/path/context.js:107:52) {
+  code: 'BABEL_TRANSFORM_ERROR'
+}
+8/119 5
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+9/119 6
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+10/119 7
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+11/119 8
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+12/119 9
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+13/119 10
+14/119 10
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+15/119 11
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+16/119 12
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+17/119 13
+18/119 13
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+19/119 14
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+20/119 15
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+21/119 16
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+22/119 17
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+23/119 18
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+24/119 19
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+25/119 20
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+26/119 21
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+27/119 22
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+28/119 23
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+29/119 24
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+30/119 25
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+31/119 26
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+32/119 27
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+33/119 28
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+34/119 29
+35/119 29
+36/119 29
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+37/119 30
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+38/119 31
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+39/119 32
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+40/119 33
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+41/119 34
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+42/119 35
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+43/119 36
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+44/119 37
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+45/119 38
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+46/119 39
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+47/119 40
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+48/119 41
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+49/119 42
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+50/119 43
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+51/119 44
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+52/119 45
+53/119 45
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+54/119 46
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+55/119 47
+56/119 47
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+57/119 48
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+58/119 49
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+59/119 50
+60/119 50
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+61/119 51
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+62/119 52
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+63/119 53
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+64/119 54
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+65/119 55
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+66/119 56
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+67/119 57
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+68/119 58
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+69/119 59
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+70/119 60
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+71/119 61
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+72/119 62
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+73/119 63
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+74/119 64
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+75/119 65
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+76/119 66
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+77/119 67
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+78/119 68
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+79/119 69
+80/119 69
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+81/119 70
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+82/119 71
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+83/119 72
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+84/119 73
+85/119 73
+86/119 73
+87/119 73
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+88/119 74
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+89/119 75
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+90/119 76
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+91/119 77
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+92/119 78
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+93/119 79
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+94/119 80
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+95/119 81
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+96/119 82
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+97/119 83
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+98/119 84
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+99/119 85
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+100/119 86
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+101/119 87
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+102/119 88
+103/119 88
+104/119 88
+105/119 88
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+106/119 89
+107/119 89
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+108/119 90
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+109/119 91
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+110/119 92
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+111/119 93
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+112/119 94
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+113/119 95
+114/119 95
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+115/119 96
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+116/119 97
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+117/119 98
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+118/119 99
+list - list,dump,packageCmd,remove,add,crunch,singleCrunch,version
+Log.......>>>  1 5
+[[0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,100,0,0,0,0],[0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0]]

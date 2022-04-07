@@ -1,10 +1,8 @@
-//https://www.npmjs.com/advisories/1439
 test("Command Injection in hot-formula-parser", () => {
   expect.assertions(2);
   const FormulaParser = require("hot-formula-parser").Parser;
   const fs = require("fs");
   const path = "./hot-formula-parser";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

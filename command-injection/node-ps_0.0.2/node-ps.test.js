@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-NODEPS-1048335
 test("Command Injection in node-ps", (done) => {
   expect.assertions(2);
   const a = require("node-ps");
   const fs = require("fs");
   const path = "./node-ps";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

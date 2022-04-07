@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-ADBDRIVER-564430;
 test("Command Injection in adb-driver", () => {
   expect.assertions(2);
   const root = require("adb-driver");
   const fs = require("fs");
   const path = "./adb-driver";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

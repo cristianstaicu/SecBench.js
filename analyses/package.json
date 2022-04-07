@@ -14,6 +14,7 @@
     "@babel/register": "^7.16.9",
     "escodegen": "^2.0.0",
     "esprima": "^4.0.1",
-    "estraverse": "^5.3.0"
+    "estraverse": "^5.3.0",
+    "markdown-to-jsx": "^6.1.0"
   }
 }

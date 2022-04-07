@@ -1,10 +1,8 @@
-// https://snyk.io/vuln/SNYK-JS-LYCWEDSPRITESHEETJS-1050428
 test("Command Injection in lycwed-spritesheetjs", (done) => {
   expect.assertions(2);
   let spritesheet = require("lycwed-spritesheetjs");
   const fs = require("fs");
   const path = "./lycwed-spritesheetjs";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

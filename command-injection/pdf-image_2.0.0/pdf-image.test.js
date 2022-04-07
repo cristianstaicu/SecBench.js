@@ -1,4 +1,3 @@
-//https://hackerone.com/reports/781664
 test("Remote code execution in pdf-image", () => {
   expect.assertions(2);
   var PDFImage = require("pdf-image").PDFImage;

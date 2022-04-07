@@ -1,10 +1,8 @@
-//https://hackerone.com/reports/324453
 test("Command Injection in command-exists", () => {
   expect.assertions(2);
   const commandExists = require("command-exists");
   const fs = require("fs");
   const path = "./command-exists";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

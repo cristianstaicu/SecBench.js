@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-CORENLPJSPREFAB-1050434
 test("Command Injection in corenlp-js-prefab", (done) => {
   expect.assertions(2);
   const a = require("corenlp-js-prefab");
   const fs = require("fs");
   const path = "./corenlp-js-prefab";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);
@@ -17,9 +15,7 @@ test("Command Injection in corenlp-js-prefab", (done) => {
   expect(file_exist).toBe(false);
   try {
     a.process("') touch corenlp-js-prefab # '");
-  } catch (error) {
-    // console.log('error');
-  }
+  } catch (error) {}
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
   fs.unlink(path, function (err) {

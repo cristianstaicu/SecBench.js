@@ -1,10 +1,8 @@
-//https://hackerone.com/reports/390848
 test("Command Injection in ps", (done) => {
   expect.assertions(2);
   const ps = require("ps");
   const fs = require("fs");
   const path = "./ps";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

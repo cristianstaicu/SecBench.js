@@ -6,7 +6,7 @@ let results = {};
 let noVersions = 0;
 let count = 0;
 // const folders_list = ['prototype-pollution', 'redos', 'path-traversal', 'command-injection', 'ace-breakout']
-const folders_list = ["prototype-pollution"];
+const folders_list = ["path-traversal"];
 
 for (const folder_name of folders_list) {
   const TARGET_FOLDER = path.resolve(__dirname, "../" + folder_name);
@@ -32,11 +32,14 @@ for (const folder_name of folders_list) {
     }
     // break;
   }
-  // for (const key of Object.keys(results)) {
-  //   console.log(key + ":" + results[key].length);
-  //   count+=1;
-  // }
-  // console.log(count);
-  // fs.writeFileSync("./graphs/all-versions_"+folder_name+".json", JSON.stringify(results,null,4));
+  for (const key of Object.keys(results)) {
+    console.log(key + ":" + results[key].length);
+    count += 1;
+  }
+  console.log(count);
+  fs.writeFileSync(
+    "./graphs/all-versions_" + folder_name + ".json",
+    JSON.stringify(results, null, 4)
+  );
 }
 console.log(count);

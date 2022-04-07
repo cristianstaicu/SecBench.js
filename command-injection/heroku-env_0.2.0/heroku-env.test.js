@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-HEROKUENV-1050432
 test("Command Injection in heroku-env", (done) => {
   expect.assertions(2);
   const root = require("heroku-env");
   const fs = require("fs");
   const path = "./heroku-env";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

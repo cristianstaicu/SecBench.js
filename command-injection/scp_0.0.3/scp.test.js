@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-SCP-1009828
 test("Command Injection in scp", (done) => {
   expect.assertions(2);
   const scp = require("scp");
   const fs = require("fs");
   const path = "./scp";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

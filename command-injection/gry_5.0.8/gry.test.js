@@ -1,10 +1,8 @@
-//checking that its not present already
 test("Command Injection in gry", (done) => {
   expect.assertions(2);
   const Repo = require("gry");
   const fs = require("fs");
   const path = "./gry";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

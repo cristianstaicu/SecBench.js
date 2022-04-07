@@ -1,10 +1,8 @@
-//https://snyk.io/vuln/SNYK-JS-UMOUNT-564265
 test("Command Injection in umount", (done) => {
   expect.assertions(2);
   const root = require("umount");
   const fs = require("fs");
   const path = "./umount";
-  const sleep = require("sleep");
   try {
     if (fs.existsSync(path)) {
       fs.unlinkSync(path);

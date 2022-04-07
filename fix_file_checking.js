@@ -89,6 +89,37 @@ function transformAndReplace(ast) {
   return ast;
 }
 
+function removeSleepDecleration(ast) {
+  let done = false;
+  estraverse.replace(ast, {
+    enter: function (node, parent) {
+      if (done) {
+        this.break();
+        return;
+      }
+      if (node.type === "VariableDeclaration" && !node.computed) {
+        // console.log(node.declarations[0].id);
+        // console.log(node.block.body[1].expression.arguments[0].value)
+        if (node.declarations.length > 0) {
+          if (node.declarations[0].id.name == "sleep") {
+            // console.log(node.declarations[0].id.name);
+            for (let key = 0; key < parent.body.length; key++) {
+              if (parent.body[key] === node) {
+                // this.remove();
+                parent.body.splice(key, 1);
+                done = true;
+                this.break();
+                break;
+              }
+            }
+          }
+        }
+      }
+    },
+  });
+  return ast;
+}
+
 function removeSleep(ast) {
   let done = false;
   estraverse.replace(ast, {
@@ -456,9 +487,9 @@ try {
                 .readFileSync(path.join(outer_folder_path, file_name))
                 .toString();
               var ast = esprima.parse(data, { comment: true });
-              var source = ast.comments[0].value;
+              // var source = ast.comments[0].value;
 
-              // console.log(ast.comments)
+              // console.log(ast);
 
               // console.log(getPortNumber(ast));
               // var port_to_close = getPortNumber(ast);
@@ -475,26 +506,26 @@ try {
               //   });
               // }
 
-              // ast = removeSleep(ast);
-              number_of_assertion = checkNumberOfOccurance(
-                ast,
-                "expect",
-                "Identifier"
-              );
-              // console.log(number_of_assertion);
-              ast = addAssertionStatementInPathTraversal(
-                ast,
-                number_of_assertion
-              );
+              ast = removeSleepDecleration(ast);
+              // number_of_assertion = checkNumberOfOccurance(
+              //   ast,
+              //   "expect",
+              //   "Identifier"
+              // );
+              // // console.log(number_of_assertion);
+              // ast = addAssertionStatementInPathTraversal(
+              //   ast,
+              //   number_of_assertion
+              // );
               code_to_write = escodegen.generate(ast, { comment: true });
-              // console.log(code_to_write);
-              // code_with_comment = "//" + source + "\n" + code_to_write;
-              // console.log(code_with_comment);
-              outputFile = path.join(outer_folder_path, file_name);
+              console.log(code_to_write);
+              code_with_comment = "//" + source + "\n" + code_to_write;
+              console.log(code_with_comment);
+              // outputFile = path.join(outer_folder_path, file_name);
 
-              fs.writeFileSync(outputFile, code_to_write, {
-                encoding: "utf-8",
-              });
+              // fs.writeFileSync(outputFile, code_to_write, {
+              //   encoding: "utf-8",
+              // });
             }
           }
         } catch (err) {
