@@ -13,7 +13,7 @@ require("@babel/register")({
 });
 
 // const TARGET_FOLDER = path.resolve(__dirname, "../prototype-pollution");
-const TARGET_FOLDER = path.resolve(__dirname, "../command-injection");
+const TARGET_FOLDER = path.resolve(__dirname, "../redos");
 
 let moduleUnderTest;
 let results = {};
@@ -67,6 +67,8 @@ expect = () => {
   };
 };
 expect.toBe = () => {};
+expect.toBeGreaterThan = () => {};
+expect().toBeGreaterThan = function () {};
 expect.assertions = function () {};
 done = () => {};
 test = function (a, f) {
