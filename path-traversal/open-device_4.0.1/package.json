@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
-  "sink": ""
+  "sink": "server-accessible.js:14:12"
 }

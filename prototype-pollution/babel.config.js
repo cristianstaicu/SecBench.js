@@ -12,6 +12,7 @@ module.exports = function (api) {
     [require(`./babel-instrumentor.js`)],
     [require("@babel/plugin-transform-modules-commonjs").default],
   ];
+  const ignore = ["./sink-extraction-setup.js"];
 
   /** this is just for minimal working purposes,
    * for testing larger applications it is
@@ -22,5 +23,6 @@ module.exports = function (api) {
   return {
     presets,
     plugins,
+    ignore,
   };
 };

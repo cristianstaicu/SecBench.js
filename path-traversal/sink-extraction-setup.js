@@ -107,10 +107,7 @@ require("child_process").exec = function () {
   // getSink(args, stack);
   // console.log("arg ====>> ", args[0], "\n\n");
   // console.log("Exce called here!")
-  args[0] = args[0].replace(
-    "node ",
-    "node /Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/execuator.js "
-  );
+  args[0] = args[0].replace("node ", "node ./execuator.js ");
   // console.log("arg ====>> ", args[0], "\n\n");
   return oldExec.apply(this, args);
 };
@@ -120,10 +117,7 @@ require("child_process").execSync = function () {
   var args = arguments;
   let stack = new Error().stack.toString().split("\n");
   // getSink(args, stack);
-  args[0] = args[0].replace(
-    "node ",
-    "node /Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/execuator.js "
-  );
+  args[0] = args[0].replace("node ", "node ./execuator.js ");
   // console.log("ExceSync called here!")
   return oldExecSync.apply(this, args);
 };

@@ -1,0 +1,1005 @@
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serveryztyzt/node.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> serveryztyzt
+
+sink ==> node.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/xingbaohai/index.js:8:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> xingbaohai
+
+sink ==> index.js:8:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/node-cxc/app.js:24:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> node-cxc
+
+sink ==> app.js:24:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/zhaolei1111/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> zhaolei1111
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/ptest/server.js:43:5)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> ptest
+
+sink ==> server.js:43:5
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/gyfserver/index.js:7:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> gyfserver
+
+sink ==> index.js:7:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/myprolyz/index.js:9:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> myprolyz
+
+sink ==> index.js:9:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at /home/vulns4js/path-traversal/node_modules/bitty/index.js:36:10
+    at suppressedCallback (node:fs:263:5)
+    at FSReqCallback.oncomplete (node:fs:188:23)
+package name ==> bitty
+
+sink ==> index.js:36:10
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/yzt/node.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> yzt
+
+sink ==> node.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.serverHandler (/home/vulns4js/path-traversal/node_modules/fbr-client/server.js:53:12)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/engine.io/lib/server.js:435:22)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/socket.io/lib/index.js:275:16)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> fbr-client
+
+sink ==> server.js:53:12
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverhuwenhui/node.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> serverhuwenhui
+
+sink ==> node.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/ltt/index.js:7:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> ltt
+
+sink ==> index.js:7:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverzyqzyq/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> serverzyqzyq
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/cxy/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> cxy
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/sgqserve/index.js:22:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> sgqserve
+
+sink ==> index.js:22:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/zxyserver/index.js:10:9)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> zxyserver
+
+sink ==> index.js:10:9
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at readFile (/home/vulns4js/path-traversal/node_modules/my-sn/server.js:41:7)
+    at Server.assets (/home/vulns4js/path-traversal/node_modules/my-sn/server.js:55:2)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> my-sn
+
+sink ==> server.js:41:7
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/zwserver/server.js:32:6)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> zwserver
+
+sink ==> server.js:32:6
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/yxxserver/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> yxxserver
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Array.<anonymous> (/home/vulns4js/path-traversal/node_modules/open-device/lib/server-accessible.js:14:12)
+    at next (/home/vulns4js/path-traversal/node_modules/open-device/lib/server.js:89:35)
+    at Array.<anonymous> (/home/vulns4js/path-traversal/node_modules/open-device/lib/server-send.js:10:5)
+    at next (/home/vulns4js/path-traversal/node_modules/open-device/lib/server.js:89:35)
+    at Server.delegateRequest (/home/vulns4js/path-traversal/node_modules/open-device/lib/server.js:93:5)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> open-device
+
+sink ==> server-accessible.js:14:12
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/zs123/node.js:13:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> zs123
+
+sink ==> node.js:13:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/wenluhong1/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> wenluhong1
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/server12311/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> server12311
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/wuzhuangserver/index.js:12:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> wuzhuangserver
+
+sink ==> index.js:12:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/public/bin/public:78:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> public
+
+sink ==> public:78:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at /home/vulns4js/path-traversal/node_modules/rtcmulticonnection-client/server.js:30:12
+    at suppressedCallback (node:fs:263:5)
+    at FSReqCallback.oncomplete (node:fs:188:23)
+package name ==> rtcmulticonnection-client
+
+sink ==> server.js:30:12
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/shenliru3/index.js:7:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> shenliru3
+
+sink ==> index.js:7:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at /home/vulns4js/path-traversal/node_modules/uekw1511server/index.js:14:17
+    at suppressedCallback (node:fs:263:5)
+    at FSReqCallback.oncomplete (node:fs:188:23)
+package name ==> uekw1511server
+
+sink ==> index.js:14:17
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/myserve111/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> myserve111
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/wffserve/index.js:24:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> wffserve
+
+sink ==> index.js:24:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/yyooopack/node.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> yyooopack
+
+sink ==> node.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/hdsdhhksjd/index.js:7:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> hdsdhhksjd
+
+sink ==> index.js:7:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverwg/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> serverwg
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/node_modules/@vivaxy/here/lib/read-file.js:11:19)
+    at /home/vulns4js/path-traversal/node_modules/co/index.js:136:8
+    at new Promise (<anonymous>)
+    at Object.thunkToPromise (/home/vulns4js/path-traversal/node_modules/co/index.js:135:10)
+    at Object.toPromise (/home/vulns4js/path-traversal/node_modules/co/index.js:119:55)
+    at next (/home/vulns4js/path-traversal/node_modules/co/index.js:99:29)
+    at onFulfilled (/home/vulns4js/path-traversal/node_modules/co/index.js:69:7)
+package name ==> @vivaxy
+
+sink ==> read-file.js:11:19
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.serverHandler (/home/vulns4js/path-traversal/node_modules/canvas-designer/server.js:36:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> canvas-designer
+
+sink ==> server.js:36:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/caolilinode1/caolili.js:10:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> caolilinode1
+
+sink ==> caolili.js:10:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at /home/vulns4js/path-traversal/node_modules/getstats/server.js:37:12
+    at suppressedCallback (node:fs:263:5)
+    at FSReqCallback.oncomplete (node:fs:188:23)
+package name ==> getstats
+
+sink ==> server.js:37:12
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serveryyl/index.js:6:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> serveryyl
+
+sink ==> index.js:6:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/nodeaaaaa/index.js:11:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> nodeaaaaa
+
+sink ==> index.js:11:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/looppake/index.js:9:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> looppake
+
+sink ==> index.js:9:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/dylmomo/index.js:14:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> dylmomo
+
+sink ==> index.js:14:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverliujiayi1/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> serverliujiayi1
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/wangguojing123/index.js:10:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> wangguojing123
+
+sink ==> index.js:10:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/zhanglina/index.js:10:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> zhanglina
+
+sink ==> index.js:10:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/liuyaserver/node.js:7:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> liuyaserver
+
+sink ==> node.js:7:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serve-here.js/source/server.js:27:15)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> serve-here.js
+
+sink ==> server.js:27:15
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/servewuqianqianqian/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> servewuqianqianqian
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/ljjnodeserve/index.js:23:12)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> ljjnodeserve
+
+sink ==> index.js:23:12
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverfff/index.js:7:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> serverfff
+
+sink ==> index.js:7:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/xxf11/index.js:8:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> xxf11
+
+sink ==> index.js:8:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/songcaihong/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> songcaihong
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/wenluhong11/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> wenluhong11
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/peiserver/index.js:13:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> peiserver
+
+sink ==> index.js:13:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at /home/vulns4js/path-traversal/node_modules/http-live-simulator/bin/http-live:55:7
+package name ==> http-live-simulator
+
+sink ==> http-live:55:7
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverxxx/index.js:12:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> serverxxx
+
+sink ==> index.js:12:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/wenluhong111/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> wenluhong111
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/srverqq/index.js:32:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> srverqq
+
+sink ==> index.js:32:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/ltt.js/index.js:7:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> ltt.js
+
+sink ==> index.js:7:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/welcomyzt/node.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> welcomyzt
+
+sink ==> node.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at /home/vulns4js/path-traversal/node_modules/fast-http/index.js:35:16
+    at suppressedCallback (node:fs:263:5)
+    at FSReqCallback.oncomplete (node:fs:188:23)
+package name ==> fast-http
+
+sink ==> index.js:35:16
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/pytservce/index.js:13:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> pytservce
+
+sink ==> index.js:13:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at /home/vulns4js/path-traversal/node_modules/zhangranbigman/my-lib/lib/static.js:21:6
+    at execMiddle (/home/vulns4js/path-traversal/node_modules/zhangranbigman/my-lib/lib/App.js:21:6)
+    at Server.handler (/home/vulns4js/path-traversal/node_modules/zhangranbigman/my-lib/lib/App.js:11:4)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> zhangranbigman
+
+sink ==> static.js:21:6
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serversyysyy/index.js:18:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> serversyysyy
+
+sink ==> index.js:18:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverwzl/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> serverwzl
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/11xiaoli/dome.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> 11xiaoli
+
+sink ==> dome.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/wangshuai/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> wangshuai
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/dcdcdcdcdc/node.js:9:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> dcdcdcdcdc
+
+sink ==> node.js:9:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/zjjserver/index.js:19:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> zjjserver
+
+sink ==> index.js:19:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/cuiaiguang/index.js:9:12)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> cuiaiguang
+
+sink ==> index.js:9:12
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/caolilinode/caolili.js:7:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> caolilinode
+
+sink ==> caolili.js:7:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverxh/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> serverxh
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serveryaozeyan/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> serveryaozeyan
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/lihuini/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> lihuini
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/lessindex/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> lessindex
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.exports.getHTMLBinary (/home/vulns4js/path-traversal/node_modules/wind-mvc/lib/util/util4HTML.js:7:5)
+    at proxy (/home/vulns4js/path-traversal/node_modules/wind-mvc/controller.js:183:13)
+    at Server.module.exports (/home/vulns4js/path-traversal/node_modules/wind-mvc/controller.js:99:4)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> wind-mvc
+
+sink ==> util4HTML.js:7:5
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/caihong/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> caihong
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/gaoxuyan/index.js:8:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> gaoxuyan
+
+sink ==> index.js:8:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/liyujing/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> liyujing
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/22lixian/demo.js:6:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> 22lixian
+
+sink ==> demo.js:6:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/shenliru/index.js:7:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> shenliru
+
+sink ==> index.js:7:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/nodeserver-jta/index.js:43:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> nodeserver-jta
+
+sink ==> index.js:43:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/yypsulie11/index.js:9:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> yypsulie11
+
+sink ==> index.js:9:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverlyj333/index.js:9:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> serverlyj333
+
+sink ==> index.js:9:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverlyr/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> serverlyr
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/mfrserver/index.js:6:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> mfrserver
+
+sink ==> index.js:6:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at /home/vulns4js/path-traversal/node_modules/goserv/lib/goserv.js:63:9
+    at suppressedCallback (node:fs:263:5)
+    at FSReqCallback.oncomplete (node:fs:188:23)
+package name ==> goserv
+
+sink ==> goserv.js:63:9
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverabc/index.js:9:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> serverabc
+
+sink ==> index.js:9:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/lzl123/index.js:8:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> lzl123
+
+sink ==> index.js:8:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/tinyserver2/tinyserver.js:27:6)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> tinyserver2
+
+sink ==> tinyserver.js:27:6
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at processFile (/home/vulns4js/path-traversal/node_modules/shit-server/index.js:76:8)
+    at /home/vulns4js/path-traversal/node_modules/shit-server/index.js:115:5
+    at Layer.handle [as handle_request] (/home/vulns4js/path-traversal/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vulns4js/path-traversal/node_modules/express/lib/router/index.js:323:13)
+    at /home/vulns4js/path-traversal/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/vulns4js/path-traversal/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/vulns4js/path-traversal/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/home/vulns4js/path-traversal/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/vulns4js/path-traversal/node_modules/express/lib/router/layer.js:95:5)
+package name ==> shit-server
+
+sink ==> index.js:76:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at /home/vulns4js/path-traversal/node_modules/datachannel-client/server.js:30:12
+    at suppressedCallback (node:fs:263:5)
+    at FSReqCallback.oncomplete (node:fs:188:23)
+package name ==> datachannel-client
+
+sink ==> server.js:30:12
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/paopao613/index.js:7:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> paopao613
+
+sink ==> index.js:7:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/yjmyjmyjm/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> yjmyjmyjm
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/cypserver/index.js:10:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> cypserver
+
+sink ==> index.js:10:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/xbhxbh/xbh.js:8:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> xbhxbh
+
+sink ==> xbh.js:8:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/cuciuci/index.js:7:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> cuciuci
+
+sink ==> index.js:7:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/mfrs/index.js:6:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> mfrs
+
+sink ==> index.js:6:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at /home/vulns4js/path-traversal/node_modules/infraserver/Infra.data.js:137:9
+    at suppressedCallback (node:fs:263:5)
+    at FSReqCallback.oncomplete (node:fs:188:23)
+package name ==> infraserver
+
+sink ==> Infra.data.js:137:9
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/fakelearnnodejs/app.js:8:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> fakelearnnodejs
+
+sink ==> app.js:8:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/severzlt/index.js:9:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> severzlt
+
+sink ==> index.js:9:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverzyy/index.js:8:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> serverzyy
+
+sink ==> index.js:8:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/servergmf/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> servergmf
+
+sink ==> index.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at /home/vulns4js/path-traversal/node_modules/crud-file-server/crud-file-server.js:170:14
+    at FSReqCallback.oncomplete (node:fs:199:5)
+package name ==> crud-file-server
+
+sink ==> crud-file-server.js:170:14
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/nodejsccc/index.js:22:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> nodejsccc
+
+sink ==> index.js:22:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serve46/index.js:19:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> serve46
+
+sink ==> index.js:19:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/susu-sum/node.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> susu-sum
+
+sink ==> node.js:5:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/wuzhuang/index.js:12:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> wuzhuang
+
+sink ==> index.js:12:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/servershuai/index.js:8:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> servershuai
+
+sink ==> index.js:8:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/rjpserver/index.js:8:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> rjpserver
+
+sink ==> index.js:8:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/ussasasa/index.js:8:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> ussasasa
+
+sink ==> index.js:8:8
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/gaoxiaotingtingting/index.js:5:8)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> gaoxiaotingtingting
+
+sink ==> index.js:5:8

@@ -19,19 +19,10 @@ for folder in lst:
             print(test_file_name)
             ping = subprocess.run(['jest', '--forceExit', test_file_name], stdout=subprocess.PIPE, check=True)
             print(ping.stdout)
-            
-            command = subprocess.run(['lsof', '-i', ':8888'], stdout=subprocess.PIPE, check=True)
-            # print(command.stdout)
-            output = str(command.stdout)
-            if "node" in output:
-                index = output.index("node")
-                end_index = output.index("masudulhasanmasudbhuiyan")
-                port = output[index+4:end_index].strip()
-                subprocess.run(['kill', '-9', port], stdout=subprocess.PIPE, check=True)
             count+=1
     
     except:
         traceback.print_exc()
-    if(count>=5):
-        break
+    # if(count>=5):
+    #     break
    

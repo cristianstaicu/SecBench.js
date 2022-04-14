@@ -25,8 +25,8 @@ RUN apt-get install -y zip
 RUN apt-get install -y psmisc
 RUN apt-get install -y yarn
 RUN apt-get install -y nano
-RUN apt-get install g++
-RUN apt-get install make
+RUN apt-get install -y g++
+RUN apt-get install -y make
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 RUN . ~/.bashrc
