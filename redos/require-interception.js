@@ -7,6 +7,15 @@ global.beforeEach(() => {
             return target[prop];
         },
     };    
+
+    global.pushFct = function (line) {
+        global.fctsLog.push(line);
+    };
+    
+    global.popFct = function (line) {
+        global.fctsLog.push("pop");
+    };
+    global.fctsLog = [];
     let testDir = path.dirname(expect.getState().testPath);
     let jFile = testDir + "/package.json";
     let deps = Object.keys(JSON.parse(fs.readFileSync(jFile)).dependencies);                
@@ -19,7 +28,7 @@ global.beforeEach(() => {
         global.accessedProperties = new Set();
         global.declaredProperties = Object.keys(result);    
         
-        jest.doMock(currMod, cb => {                                    
+        jest.doMock(currMod, cb => {            
             if (typeof result === "function") {
                 global.declaredProperties.push("main");
                 global.accessedProperties.add("main");
@@ -34,5 +43,20 @@ global.beforeEach(() => {
 global.afterEach(() => {   
    console.log(global.declaredProperties);
    console.log(global.accessedProperties);   
-   console.log("Result for heatmap: " + Math.floor(global.accessedProperties.size /global.declaredProperties.length * 10));
+   let maxChain = getMaxLength(global.fctsLog);
+   if (maxChain >= 10) maxChain = 9;
+   console.log("Result for heatmap: " + Math.floor(global.accessedProperties.size /global.declaredProperties.length * 10) + ", " + maxChain);
 });
+
+
+function getMaxLength(fcts) {
+    let curr = 0,
+        max = 0;
+    for (let i = 0; i < fcts.length; i++) {
+        if (fcts[i] == "pop") {
+        curr--;
+        } else curr++;
+        if (curr > max) max = curr;
+    }
+    return max;
+}
