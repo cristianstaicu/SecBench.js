@@ -43,7 +43,7 @@ global.beforeEach(() => {
 global.afterEach(() => {   
    console.log(global.declaredProperties);
    console.log(global.accessedProperties);   
-   let maxChain = getMaxLength(global.fctsLog);
+   let maxChain = getMaxLength(global.fctsLog) - 1;
    if (maxChain >= 10) maxChain = 9;
    console.log("Result for heatmap: " + Math.floor(global.accessedProperties.size /global.declaredProperties.length * 10) + ", " + maxChain);
 });
