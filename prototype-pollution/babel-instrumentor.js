@@ -25,12 +25,15 @@ module.exports = function ({ types: t }) {
         enter(path) {
           let name = "anon";
           if (path.node.id) name = path.node.id.name;
-          // console.log(typeof path.node.body);
-          // path.node.body.body.unshift(t.callExpression(t.identifier("pushFct"), [t.stringLiteral(name + ":" + path.node.loc.start.line)]));
-          // path.node.body.body.push(t.callExpression(t.identifier("popFct"), []));
-
-          // path.node.body.unshift(t.callExpression(t.identifier("pushFct"), [t.stringLiteral(name + ":" + path.node.loc.start.line)]));
-          // path.node.body.push(t.callExpression(t.identifier("popFct"), []));
+          // console.log(path.node.body);
+          path.node.body.body.unshift(
+            t.callExpression(t.identifier("pushFct"), [
+              t.stringLiteral(name + ":" + path.node.loc.start.line),
+            ])
+          );
+          path.node.body.body.push(
+            t.callExpression(t.identifier("popFct"), [])
+          );
           // path.skip();
         },
       },
