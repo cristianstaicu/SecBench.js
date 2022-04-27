@@ -24,7 +24,7 @@
  */
 function genstr(len, chr) {
   var result = "";
-  for (i = 0; i <= len; i++) {
+  for (let i = 0; i <= len; i++) {
     result = result + chr;
   }
   return result;
