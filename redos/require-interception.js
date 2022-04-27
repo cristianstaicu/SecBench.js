@@ -45,6 +45,7 @@ global.afterEach(() => {
    console.log(global.accessedProperties);   
    let maxChain = getMaxLength(global.fctsLog) - 1;
    let percUsed = Math.floor(global.accessedProperties.size /global.declaredProperties.length * 10);
+   if (global.accessedProperties.size === 0) percUsed = -1;
    if (maxChain >= 10) maxChain = 9;
    if (percUsed === 10) percUsed = 9;
    console.log("Result for heatmap: " + percUsed + ", " + maxChain);
