@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.14.1",
   "fixCommit": "n/a",
-  "sink": ""
+  "sink": "ssh.js:28:18"
 }

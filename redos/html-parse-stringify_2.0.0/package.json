@@ -9,5 +9,5 @@
   },
   "fixedVersion": "2.0.1",
   "fixCommit": "https://github.com/HenrikJoreteg/html-parse-stringify/commit/c7274a48e59c92b2b7e906fedf9065159e73fe12",
-  "sink": ""
+  "sink": "html-parse-stringify.js:1:1428"
 }

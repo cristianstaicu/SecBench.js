@@ -9,5 +9,5 @@
   },
   "fixedVersion": "4.0.4",
   "fixCommit": "https://github.com/hapijs/content/commit/96beb34f7c38a08d024dbf9cd63865c56e2955d9",
-  "sink": ""
+  "sink": "index.js:84:34"
 }

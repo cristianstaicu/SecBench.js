@@ -9,5 +9,5 @@
   },
   "fixedVersion": "2.4.2",
   "fixCommit": "n/a",
-  "sink": ""
+  "sink": "strip.js:10:40"
 }

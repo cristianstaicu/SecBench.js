@@ -59,11 +59,7 @@ charset-0.0.2->FAILED
 charset-0.1.0->PASSED
 charset-1.0.0->PASSED
 charset-1.0.1->FAILED
-amqp-match-0->PASSED
-amqp-match-.->FAILED
-amqp-match-0->PASSED
-amqp-match-.->FAILED
-amqp-match-0->PASSED
+amqp-match-0.0.0->PASSED
 is-email-0.0.1->PASSED
 is-email-0.1.0->PASSED
 is-email-0.1.1->PASSED
@@ -3534,11 +3530,6 @@ lodash-4.17.19->FAILED
 lodash-4.17.20->FAILED
 lodash-4.17.21->FAILED
 cejs-2.0.0->FAILED
-cejs-2.0.2015101-7.153737->FAILED
-cejs-2.0.2015101-7.162907->FAILED
-cejs-2.0.20151017->FAILED
-cejs-2.0.20151018->FAILED
-cejs-2.0.20151019->FAILED
 cejs-2.0.20151020->FAILED
 cejs-2.0.20151021->FAILED
 cejs-2.0.20151022->FAILED
@@ -3562,7 +3553,6 @@ cejs-2.0.20160511->FAILED
 cejs-2.0.20160707->FAILED
 cejs-2.0.20160910->FAILED
 cejs-2.0.20160923->FAILED
-cejs-2.0.20161010->FAILED
 cejs-2.0.20161028->FAILED
 cejs-2.0.20161109->FAILED
 cejs-2.0.20161204->FAILED
@@ -3583,7 +3573,6 @@ cejs-2.0.20170703->FAILED
 cejs-2.0.20170804->FAILED
 cejs-2.0.20170821->FAILED
 cejs-2.0.20170918->FAILED
-cejs-2.0.20171012->FAILED
 cejs-2.0.20171119->FAILED
 cejs-2.0.20171126->FAILED
 cejs-2.0.20171230->FAILED
@@ -4949,8 +4938,6 @@ three-0.97.0->FAILED
 three-0.98.0->FAILED
 three-0.99.0->FAILED
 three-0.100.0->FAILED
-three-0.101.0->FAILED
-three-0.101.1->FAILED
 three-0.102.0->FAILED
 three-0.102.1->FAILED
 three-0.103.0->FAILED
@@ -6482,12 +6469,6 @@ react-native-0.0.0-1e9f63fe2->FAILED
 react-native-0.0.0-1ee16fc2f-20210930-2008->FAILED
 react-native-0.0.0-1fe5cac52->FAILED
 react-native-0.0.0-201c10733->FAILED
-react-native-0.0.0-20211014-2009-678f2cb93->FAILED
-react-native-0.0.0-20211015-2009-b5b1fa5f1->FAILED
-react-native-0.0.0-20211016-2009-e1b698c5f->FAILED
-react-native-0.0.0-20211017-2009-f1b5fe1d3->FAILED
-react-native-0.0.0-20211018-2008-0c0750018->FAILED
-react-native-0.0.0-20211019-2008-d5689b959->FAILED
 react-native-0.0.0-20211020-2008-c7d0c94bf->FAILED
 react-native-0.0.0-20211021-2008-eccbf9b5c->FAILED
 react-native-0.0.0-20211022-2009-4b25a0aaa->FAILED
@@ -6500,7 +6481,6 @@ react-native-0.0.0-20211028-2008-61e1b6f86->FAILED
 react-native-0.0.0-20211029-2008-70785e3d5->FAILED
 react-native-0.0.0-20211030-2008-6790cf137->FAILED
 react-native-0.0.0-20211031-2008-6790cf137->FAILED
-react-native-0.0.0-20211101-2009-60352a954->FAILED
 react-native-0.0.0-20211102-2008-8fef52035->FAILED
 react-native-0.0.0-20211103-2008-86491749e->FAILED
 react-native-0.0.0-20211104-2008-e918362be->FAILED
@@ -6561,7 +6541,6 @@ react-native-0.0.0-20211228-2009-725bffce5->FAILED
 react-native-0.0.0-20211229-2009-f3d0a67a7->FAILED
 react-native-0.0.0-20211230-2008-8c6a98400->FAILED
 react-native-0.0.0-20211231-2009-8bd3edec8->FAILED
-react-native-0.0.0-20220101-2009-e22b760e5->FAILED
 react-native-0.0.0-20220102-2009-e22b760e5->FAILED
 react-native-0.0.0-20220103-2010-c68c47d2b->FAILED
 react-native-0.0.0-20220104-2008-d639fe1f3->FAILED
@@ -6640,7 +6619,6 @@ react-native-0.0.0-21a434cee->FAILED
 react-native-0.0.0-22801870f-20211006-2008->FAILED
 react-native-0.0.0-22c1032db->FAILED
 react-native-0.0.0-232d02c5f-20211009-2008->FAILED
-react-native-0.0.0-232d02c5f-20211010-2008->FAILED
 react-native-0.0.0-263478b91->FAILED
 react-native-0.0.0-268efb102->FAILED
 react-native-0.0.0-280f524b4->FAILED
@@ -6780,7 +6758,6 @@ react-native-0.0.0-8e9d3cedd->FAILED
 react-native-0.0.0-8efbb2e71->FAILED
 react-native-0.0.0-902611f14->FAILED
 react-native-0.0.0-903eae491->FAILED
-react-native-0.0.0-91adb761c-20211013-2010->FAILED
 react-native-0.0.0-91cac2028->FAILED
 react-native-0.0.0-91d16bbd9->FAILED
 react-native-0.0.0-92630856c->FAILED
@@ -6859,7 +6836,6 @@ react-native-0.0.0-c360b1d92->FAILED
 react-native-0.0.0-c3ab2a254->FAILED
 react-native-0.0.0-c4aa411ee->FAILED
 react-native-0.0.0-c66aa8abc->FAILED
-react-native-0.0.0-c75ad2cdb-20211012-2008->FAILED
 react-native-0.0.0-c76070412->FAILED
 react-native-0.0.0-c901c1fbc->FAILED
 react-native-0.0.0-c901c43d1-20211008-2008->FAILED
@@ -6929,7 +6905,6 @@ react-native-0.0.0-e6fc20ee6->FAILED
 react-native-0.0.0-e75557b48->FAILED
 react-native-0.0.0-e8060ae10->FAILED
 react-native-0.0.0-e81029179->FAILED
-react-native-0.0.0-e9440508e-20211011-2008->FAILED
 react-native-0.0.0-e96f1e1d8->FAILED
 react-native-0.0.0-e99b8bbb4->FAILED
 react-native-0.0.0-eab7fc008->FAILED
@@ -7771,11 +7746,6 @@ lodash-4.17.19->FAILED
 lodash-4.17.20->FAILED
 lodash-4.17.21->FAILED
 cejs-2.0.0->FAILED
-cejs-2.0.2015101-7.153737->FAILED
-cejs-2.0.2015101-7.162907->FAILED
-cejs-2.0.20151017->FAILED
-cejs-2.0.20151018->FAILED
-cejs-2.0.20151019->FAILED
 cejs-2.0.20151020->FAILED
 cejs-2.0.20151021->FAILED
 cejs-2.0.20151022->FAILED
@@ -7799,7 +7769,6 @@ cejs-2.0.20160511->FAILED
 cejs-2.0.20160707->FAILED
 cejs-2.0.20160910->FAILED
 cejs-2.0.20160923->FAILED
-cejs-2.0.20161010->FAILED
 cejs-2.0.20161028->FAILED
 cejs-2.0.20161109->FAILED
 cejs-2.0.20161204->FAILED
@@ -7820,7 +7789,6 @@ cejs-2.0.20170703->FAILED
 cejs-2.0.20170804->FAILED
 cejs-2.0.20170821->FAILED
 cejs-2.0.20170918->FAILED
-cejs-2.0.20171012->FAILED
 cejs-2.0.20171119->FAILED
 cejs-2.0.20171126->FAILED
 cejs-2.0.20171230->FAILED
@@ -9186,8 +9154,6 @@ three-0.97.0->PASSED
 three-0.98.0->PASSED
 three-0.99.0->PASSED
 three-0.100.0->PASSED
-three-0.101.0->PASSED
-three-0.101.1->PASSED
 three-0.102.0->PASSED
 three-0.102.1->PASSED
 three-0.103.0->PASSED
@@ -10719,12 +10685,6 @@ react-native-0.0.0-1e9f63fe2->FAILED
 react-native-0.0.0-1ee16fc2f-20210930-2008->FAILED
 react-native-0.0.0-1fe5cac52->FAILED
 react-native-0.0.0-201c10733->FAILED
-react-native-0.0.0-20211014-2009-678f2cb93->FAILED
-react-native-0.0.0-20211015-2009-b5b1fa5f1->FAILED
-react-native-0.0.0-20211016-2009-e1b698c5f->FAILED
-react-native-0.0.0-20211017-2009-f1b5fe1d3->FAILED
-react-native-0.0.0-20211018-2008-0c0750018->FAILED
-react-native-0.0.0-20211019-2008-d5689b959->FAILED
 react-native-0.0.0-20211020-2008-c7d0c94bf->FAILED
 react-native-0.0.0-20211021-2008-eccbf9b5c->FAILED
 react-native-0.0.0-20211022-2009-4b25a0aaa->FAILED
@@ -10737,7 +10697,6 @@ react-native-0.0.0-20211028-2008-61e1b6f86->FAILED
 react-native-0.0.0-20211029-2008-70785e3d5->FAILED
 react-native-0.0.0-20211030-2008-6790cf137->FAILED
 react-native-0.0.0-20211031-2008-6790cf137->FAILED
-react-native-0.0.0-20211101-2009-60352a954->FAILED
 react-native-0.0.0-20211102-2008-8fef52035->FAILED
 react-native-0.0.0-20211103-2008-86491749e->FAILED
 react-native-0.0.0-20211104-2008-e918362be->FAILED
@@ -10798,7 +10757,6 @@ react-native-0.0.0-20211228-2009-725bffce5->FAILED
 react-native-0.0.0-20211229-2009-f3d0a67a7->FAILED
 react-native-0.0.0-20211230-2008-8c6a98400->FAILED
 react-native-0.0.0-20211231-2009-8bd3edec8->FAILED
-react-native-0.0.0-20220101-2009-e22b760e5->FAILED
 react-native-0.0.0-20220102-2009-e22b760e5->FAILED
 react-native-0.0.0-20220103-2010-c68c47d2b->FAILED
 react-native-0.0.0-20220104-2008-d639fe1f3->FAILED
@@ -10877,7 +10835,6 @@ react-native-0.0.0-21a434cee->FAILED
 react-native-0.0.0-22801870f-20211006-2008->FAILED
 react-native-0.0.0-22c1032db->FAILED
 react-native-0.0.0-232d02c5f-20211009-2008->FAILED
-react-native-0.0.0-232d02c5f-20211010-2008->FAILED
 react-native-0.0.0-263478b91->FAILED
 react-native-0.0.0-268efb102->FAILED
 react-native-0.0.0-280f524b4->FAILED
@@ -11017,7 +10974,6 @@ react-native-0.0.0-8e9d3cedd->FAILED
 react-native-0.0.0-8efbb2e71->FAILED
 react-native-0.0.0-902611f14->FAILED
 react-native-0.0.0-903eae491->FAILED
-react-native-0.0.0-91adb761c-20211013-2010->FAILED
 react-native-0.0.0-91cac2028->FAILED
 react-native-0.0.0-91d16bbd9->FAILED
 react-native-0.0.0-92630856c->PASSED
@@ -11096,7 +11052,6 @@ react-native-0.0.0-c360b1d92->FAILED
 react-native-0.0.0-c3ab2a254->PASSED
 react-native-0.0.0-c4aa411ee->FAILED
 react-native-0.0.0-c66aa8abc->FAILED
-react-native-0.0.0-c75ad2cdb-20211012-2008->FAILED
 react-native-0.0.0-c76070412->FAILED
 react-native-0.0.0-c901c1fbc->FAILED
 react-native-0.0.0-c901c43d1-20211008-2008->FAILED
@@ -11166,7 +11121,6 @@ react-native-0.0.0-e6fc20ee6->PASSED
 react-native-0.0.0-e75557b48->PASSED
 react-native-0.0.0-e8060ae10->PASSED
 react-native-0.0.0-e81029179->FAILED
-react-native-0.0.0-e9440508e-20211011-2008->FAILED
 react-native-0.0.0-e96f1e1d8->PASSED
 react-native-0.0.0-e99b8bbb4->FAILED
 react-native-0.0.0-eab7fc008->PASSED
@@ -11588,4 +11542,8 @@ react-native-0.67.4->FAILED
 react-native-0.68.0-rc.0->FAILED
 react-native-0.68.0-rc.1->FAILED
 react-native-0.68.0-rc.2->FAILED
-react-native-0.68.0-rc.3->FAILED
+react-native-0.68.0-rc.2->FAILED
+djvalidator-1.0.0->FAILED
+djvalidator-1.1.0->FAILED
+djvalidator-1.1.1->FAILED
+djvalidator-2.0.0->FAILED

@@ -1,5 +1,5 @@
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serveryztyzt/node.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -8,7 +8,7 @@ package name ==> serveryztyzt
 
 sink ==> node.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/xingbaohai/index.js:8:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -17,7 +17,7 @@ package name ==> xingbaohai
 
 sink ==> index.js:8:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/node-cxc/app.js:24:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -26,7 +26,7 @@ package name ==> node-cxc
 
 sink ==> app.js:24:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/zhaolei1111/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -35,7 +35,7 @@ package name ==> zhaolei1111
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/ptest/server.js:43:5)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -44,7 +44,7 @@ package name ==> ptest
 
 sink ==> server.js:43:5
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/gyfserver/index.js:7:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -53,7 +53,7 @@ package name ==> gyfserver
 
 sink ==> index.js:7:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/myprolyz/index.js:9:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -62,7 +62,7 @@ package name ==> myprolyz
 
 sink ==> index.js:9:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at /home/vulns4js/path-traversal/node_modules/bitty/index.js:36:10
     at suppressedCallback (node:fs:263:5)
     at FSReqCallback.oncomplete (node:fs:188:23)
@@ -70,7 +70,16 @@ package name ==> bitty
 
 sink ==> index.js:36:10
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFileSync (/home/vulns4js/path-traversal/execuator.js:8:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/httpea/index.js:48:19)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> httpea
+
+sink ==> index.js:48:19
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/yzt/node.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -79,7 +88,7 @@ package name ==> yzt
 
 sink ==> node.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.serverHandler (/home/vulns4js/path-traversal/node_modules/fbr-client/server.js:53:12)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/engine.io/lib/server.js:435:22)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/socket.io/lib/index.js:275:16)
@@ -90,7 +99,16 @@ package name ==> fbr-client
 
 sink ==> server.js:53:12
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFileSync (/home/vulns4js/path-traversal/execuator.js:8:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/m-server/lib/index.js:14:28)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> m-server
+
+sink ==> index.js:14:28
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverhuwenhui/node.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -99,7 +117,7 @@ package name ==> serverhuwenhui
 
 sink ==> node.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/ltt/index.js:7:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -108,7 +126,7 @@ package name ==> ltt
 
 sink ==> index.js:7:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverzyqzyq/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -117,7 +135,7 @@ package name ==> serverzyqzyq
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/cxy/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -126,7 +144,7 @@ package name ==> cxy
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/sgqserve/index.js:22:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -135,7 +153,7 @@ package name ==> sgqserve
 
 sink ==> index.js:22:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/zxyserver/index.js:10:9)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -144,7 +162,7 @@ package name ==> zxyserver
 
 sink ==> index.js:10:9
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at readFile (/home/vulns4js/path-traversal/node_modules/my-sn/server.js:41:7)
     at Server.assets (/home/vulns4js/path-traversal/node_modules/my-sn/server.js:55:2)
     at Server.emit (node:events:526:28)
@@ -154,7 +172,7 @@ package name ==> my-sn
 
 sink ==> server.js:41:7
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/zwserver/server.js:32:6)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -163,7 +181,7 @@ package name ==> zwserver
 
 sink ==> server.js:32:6
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/yxxserver/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -172,7 +190,7 @@ package name ==> yxxserver
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Array.<anonymous> (/home/vulns4js/path-traversal/node_modules/open-device/lib/server-accessible.js:14:12)
     at next (/home/vulns4js/path-traversal/node_modules/open-device/lib/server.js:89:35)
     at Array.<anonymous> (/home/vulns4js/path-traversal/node_modules/open-device/lib/server-send.js:10:5)
@@ -185,7 +203,7 @@ package name ==> open-device
 
 sink ==> server-accessible.js:14:12
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/zs123/node.js:13:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -194,7 +212,7 @@ package name ==> zs123
 
 sink ==> node.js:13:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/wenluhong1/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -203,7 +221,7 @@ package name ==> wenluhong1
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/server12311/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -212,7 +230,7 @@ package name ==> server12311
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/wuzhuangserver/index.js:12:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -221,16 +239,16 @@ package name ==> wuzhuangserver
 
 sink ==> index.js:12:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/public/bin/public:78:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
     at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
-package name ==> public
+package name ==> public/bin
 
 sink ==> public:78:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at /home/vulns4js/path-traversal/node_modules/rtcmulticonnection-client/server.js:30:12
     at suppressedCallback (node:fs:263:5)
     at FSReqCallback.oncomplete (node:fs:188:23)
@@ -238,7 +256,7 @@ package name ==> rtcmulticonnection-client
 
 sink ==> server.js:30:12
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/shenliru3/index.js:7:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -247,7 +265,7 @@ package name ==> shenliru3
 
 sink ==> index.js:7:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at /home/vulns4js/path-traversal/node_modules/uekw1511server/index.js:14:17
     at suppressedCallback (node:fs:263:5)
     at FSReqCallback.oncomplete (node:fs:188:23)
@@ -255,7 +273,7 @@ package name ==> uekw1511server
 
 sink ==> index.js:14:17
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/myserve111/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -264,7 +282,7 @@ package name ==> myserve111
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/wffserve/index.js:24:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -273,7 +291,7 @@ package name ==> wffserve
 
 sink ==> index.js:24:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/yyooopack/node.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -282,7 +300,7 @@ package name ==> yyooopack
 
 sink ==> node.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/hdsdhhksjd/index.js:7:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -291,7 +309,7 @@ package name ==> hdsdhhksjd
 
 sink ==> index.js:7:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverwg/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -300,7 +318,7 @@ package name ==> serverwg
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Object.<anonymous> (/home/vulns4js/path-traversal/node_modules/@vivaxy/here/lib/read-file.js:11:19)
     at /home/vulns4js/path-traversal/node_modules/co/index.js:136:8
     at new Promise (<anonymous>)
@@ -312,7 +330,7 @@ package name ==> @vivaxy
 
 sink ==> read-file.js:11:19
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.serverHandler (/home/vulns4js/path-traversal/node_modules/canvas-designer/server.js:36:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -321,7 +339,7 @@ package name ==> canvas-designer
 
 sink ==> server.js:36:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/caolilinode1/caolili.js:10:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -330,7 +348,7 @@ package name ==> caolilinode1
 
 sink ==> caolili.js:10:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at /home/vulns4js/path-traversal/node_modules/getstats/server.js:37:12
     at suppressedCallback (node:fs:263:5)
     at FSReqCallback.oncomplete (node:fs:188:23)
@@ -338,7 +356,7 @@ package name ==> getstats
 
 sink ==> server.js:37:12
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serveryyl/index.js:6:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -347,7 +365,7 @@ package name ==> serveryyl
 
 sink ==> index.js:6:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/nodeaaaaa/index.js:11:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -356,7 +374,7 @@ package name ==> nodeaaaaa
 
 sink ==> index.js:11:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/looppake/index.js:9:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -365,7 +383,7 @@ package name ==> looppake
 
 sink ==> index.js:9:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/dylmomo/index.js:14:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -374,7 +392,30 @@ package name ==> dylmomo
 
 sink ==> index.js:14:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFileSync (/home/vulns4js/path-traversal/execuator.js:8:15)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1120:18)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/node_modules/colors/lib/system/supports-colors.js:29:15)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+package name ==> colors
+
+sink ==> supports-colors.js:29:15
+Error
+    at Object.require.readFileSync (/home/vulns4js/path-traversal/execuator.js:8:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/fsk-server/index.js:48:23)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> fsk-server
+
+sink ==> index.js:48:23
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverliujiayi1/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -383,7 +424,7 @@ package name ==> serverliujiayi1
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/wangguojing123/index.js:10:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -392,7 +433,7 @@ package name ==> wangguojing123
 
 sink ==> index.js:10:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/zhanglina/index.js:10:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -401,7 +442,7 @@ package name ==> zhanglina
 
 sink ==> index.js:10:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/liuyaserver/node.js:7:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -410,16 +451,16 @@ package name ==> liuyaserver
 
 sink ==> node.js:7:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serve-here.js/source/server.js:27:15)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
     at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
-package name ==> serve-here.js
+package name ==> serve-here.js/source
 
 sink ==> server.js:27:15
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/servewuqianqianqian/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -428,7 +469,7 @@ package name ==> servewuqianqianqian
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/ljjnodeserve/index.js:23:12)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -437,7 +478,7 @@ package name ==> ljjnodeserve
 
 sink ==> index.js:23:12
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverfff/index.js:7:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -446,7 +487,7 @@ package name ==> serverfff
 
 sink ==> index.js:7:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/xxf11/index.js:8:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -455,7 +496,7 @@ package name ==> xxf11
 
 sink ==> index.js:8:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/songcaihong/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -464,7 +505,7 @@ package name ==> songcaihong
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/wenluhong11/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -473,7 +514,7 @@ package name ==> wenluhong11
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/peiserver/index.js:13:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -482,13 +523,13 @@ package name ==> peiserver
 
 sink ==> index.js:13:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at /home/vulns4js/path-traversal/node_modules/http-live-simulator/bin/http-live:55:7
-package name ==> http-live-simulator
+package name ==> http-live-simulator/bin
 
 sink ==> http-live:55:7
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverxxx/index.js:12:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -497,7 +538,7 @@ package name ==> serverxxx
 
 sink ==> index.js:12:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/wenluhong111/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -506,7 +547,7 @@ package name ==> wenluhong111
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/srverqq/index.js:32:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -515,7 +556,7 @@ package name ==> srverqq
 
 sink ==> index.js:32:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/ltt.js/index.js:7:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -524,7 +565,7 @@ package name ==> ltt.js
 
 sink ==> index.js:7:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/welcomyzt/node.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -533,7 +574,7 @@ package name ==> welcomyzt
 
 sink ==> node.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at /home/vulns4js/path-traversal/node_modules/fast-http/index.js:35:16
     at suppressedCallback (node:fs:263:5)
     at FSReqCallback.oncomplete (node:fs:188:23)
@@ -541,7 +582,7 @@ package name ==> fast-http
 
 sink ==> index.js:35:16
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/pytservce/index.js:13:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -550,7 +591,7 @@ package name ==> pytservce
 
 sink ==> index.js:13:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at /home/vulns4js/path-traversal/node_modules/zhangranbigman/my-lib/lib/static.js:21:6
     at execMiddle (/home/vulns4js/path-traversal/node_modules/zhangranbigman/my-lib/lib/App.js:21:6)
     at Server.handler (/home/vulns4js/path-traversal/node_modules/zhangranbigman/my-lib/lib/App.js:11:4)
@@ -561,7 +602,7 @@ package name ==> zhangranbigman
 
 sink ==> static.js:21:6
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serversyysyy/index.js:18:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -570,7 +611,7 @@ package name ==> serversyysyy
 
 sink ==> index.js:18:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverwzl/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -579,7 +620,7 @@ package name ==> serverwzl
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/11xiaoli/dome.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -588,7 +629,7 @@ package name ==> 11xiaoli
 
 sink ==> dome.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/wangshuai/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -597,7 +638,7 @@ package name ==> wangshuai
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/dcdcdcdcdc/node.js:9:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -606,7 +647,7 @@ package name ==> dcdcdcdcdc
 
 sink ==> node.js:9:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/zjjserver/index.js:19:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -615,7 +656,7 @@ package name ==> zjjserver
 
 sink ==> index.js:19:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/cuiaiguang/index.js:9:12)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -624,7 +665,7 @@ package name ==> cuiaiguang
 
 sink ==> index.js:9:12
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/caolilinode/caolili.js:7:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -633,7 +674,7 @@ package name ==> caolilinode
 
 sink ==> caolili.js:7:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverxh/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -642,7 +683,7 @@ package name ==> serverxh
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serveryaozeyan/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -651,7 +692,7 @@ package name ==> serveryaozeyan
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/lihuini/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -660,7 +701,7 @@ package name ==> lihuini
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/lessindex/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -669,7 +710,7 @@ package name ==> lessindex
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Object.exports.getHTMLBinary (/home/vulns4js/path-traversal/node_modules/wind-mvc/lib/util/util4HTML.js:7:5)
     at proxy (/home/vulns4js/path-traversal/node_modules/wind-mvc/controller.js:183:13)
     at Server.module.exports (/home/vulns4js/path-traversal/node_modules/wind-mvc/controller.js:99:4)
@@ -680,7 +721,16 @@ package name ==> wind-mvc
 
 sink ==> util4HTML.js:7:5
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFileSync (/home/vulns4js/path-traversal/execuator.js:8:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/augustine/index.js:88:16)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> augustine
+
+sink ==> index.js:88:16
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/caihong/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -689,7 +739,7 @@ package name ==> caihong
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/gaoxuyan/index.js:8:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -698,7 +748,7 @@ package name ==> gaoxuyan
 
 sink ==> index.js:8:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/liyujing/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -707,7 +757,7 @@ package name ==> liyujing
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/22lixian/demo.js:6:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -716,7 +766,7 @@ package name ==> 22lixian
 
 sink ==> demo.js:6:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/shenliru/index.js:7:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -725,7 +775,7 @@ package name ==> shenliru
 
 sink ==> index.js:7:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/nodeserver-jta/index.js:43:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -734,7 +784,14 @@ package name ==> nodeserver-jta
 
 sink ==> index.js:43:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFileSync (/home/vulns4js/path-traversal/execuator.js:8:15)
+    at /home/vulns4js/path-traversal/node_modules/angular-http-server/angular-http-server.js:16:29
+    at FSReqCallback.oncomplete (node:fs:199:5)
+package name ==> angular-http-server
+
+sink ==> angular-http-server.js:16:29
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/yypsulie11/index.js:9:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -743,7 +800,7 @@ package name ==> yypsulie11
 
 sink ==> index.js:9:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverlyj333/index.js:9:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -752,7 +809,21 @@ package name ==> serverlyj333
 
 sink ==> index.js:9:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFileSync (/home/vulns4js/path-traversal/execuator.js:8:15)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1120:18)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/node_modules/clone-regexp/index.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+package name ==> clone-regexp
+
+sink ==> index.js:3:29
+Error
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverlyr/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -761,7 +832,7 @@ package name ==> serverlyr
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/mfrserver/index.js:6:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -770,7 +841,7 @@ package name ==> mfrserver
 
 sink ==> index.js:6:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at /home/vulns4js/path-traversal/node_modules/goserv/lib/goserv.js:63:9
     at suppressedCallback (node:fs:263:5)
     at FSReqCallback.oncomplete (node:fs:188:23)
@@ -778,7 +849,7 @@ package name ==> goserv
 
 sink ==> goserv.js:63:9
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverabc/index.js:9:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -787,7 +858,7 @@ package name ==> serverabc
 
 sink ==> index.js:9:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/lzl123/index.js:8:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -796,7 +867,7 @@ package name ==> lzl123
 
 sink ==> index.js:8:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/tinyserver2/tinyserver.js:27:6)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -805,7 +876,7 @@ package name ==> tinyserver2
 
 sink ==> tinyserver.js:27:6
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at processFile (/home/vulns4js/path-traversal/node_modules/shit-server/index.js:76:8)
     at /home/vulns4js/path-traversal/node_modules/shit-server/index.js:115:5
     at Layer.handle [as handle_request] (/home/vulns4js/path-traversal/node_modules/express/lib/router/layer.js:95:5)
@@ -819,7 +890,7 @@ package name ==> shit-server
 
 sink ==> index.js:76:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at /home/vulns4js/path-traversal/node_modules/datachannel-client/server.js:30:12
     at suppressedCallback (node:fs:263:5)
     at FSReqCallback.oncomplete (node:fs:188:23)
@@ -827,7 +898,7 @@ package name ==> datachannel-client
 
 sink ==> server.js:30:12
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/paopao613/index.js:7:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -836,7 +907,7 @@ package name ==> paopao613
 
 sink ==> index.js:7:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/yjmyjmyjm/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -845,7 +916,7 @@ package name ==> yjmyjmyjm
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/cypserver/index.js:10:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -854,7 +925,7 @@ package name ==> cypserver
 
 sink ==> index.js:10:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/xbhxbh/xbh.js:8:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -863,7 +934,7 @@ package name ==> xbhxbh
 
 sink ==> xbh.js:8:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/cuciuci/index.js:7:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -872,7 +943,7 @@ package name ==> cuciuci
 
 sink ==> index.js:7:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/mfrs/index.js:6:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -881,7 +952,7 @@ package name ==> mfrs
 
 sink ==> index.js:6:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at /home/vulns4js/path-traversal/node_modules/infraserver/Infra.data.js:137:9
     at suppressedCallback (node:fs:263:5)
     at FSReqCallback.oncomplete (node:fs:188:23)
@@ -889,7 +960,7 @@ package name ==> infraserver
 
 sink ==> Infra.data.js:137:9
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/fakelearnnodejs/app.js:8:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -898,7 +969,7 @@ package name ==> fakelearnnodejs
 
 sink ==> app.js:8:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/severzlt/index.js:9:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -907,7 +978,7 @@ package name ==> severzlt
 
 sink ==> index.js:9:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serverzyy/index.js:8:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -916,7 +987,7 @@ package name ==> serverzyy
 
 sink ==> index.js:8:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/servergmf/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -925,14 +996,14 @@ package name ==> servergmf
 
 sink ==> index.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at /home/vulns4js/path-traversal/node_modules/crud-file-server/crud-file-server.js:170:14
     at FSReqCallback.oncomplete (node:fs:199:5)
 package name ==> crud-file-server
 
 sink ==> crud-file-server.js:170:14
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/nodejsccc/index.js:22:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -941,7 +1012,7 @@ package name ==> nodejsccc
 
 sink ==> index.js:22:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/serve46/index.js:19:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -950,7 +1021,7 @@ package name ==> serve46
 
 sink ==> index.js:19:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/susu-sum/node.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -959,7 +1030,7 @@ package name ==> susu-sum
 
 sink ==> node.js:5:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/wuzhuang/index.js:12:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -968,7 +1039,7 @@ package name ==> wuzhuang
 
 sink ==> index.js:12:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/servershuai/index.js:8:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -977,7 +1048,7 @@ package name ==> servershuai
 
 sink ==> index.js:8:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/rjpserver/index.js:8:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -986,7 +1057,7 @@ package name ==> rjpserver
 
 sink ==> index.js:8:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/ussasasa/index.js:8:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -995,7 +1066,7 @@ package name ==> ussasasa
 
 sink ==> index.js:8:8
 Error
-    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:7:15)
+    at Object.require.readFile (/home/vulns4js/path-traversal/execuator.js:54:15)
     at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/gaoxiaotingtingting/index.js:5:8)
     at Server.emit (node:events:526:28)
     at parserOnIncoming (node:_http_server:951:12)
@@ -1003,3 +1074,1057 @@ Error
 package name ==> gaoxiaotingtingting
 
 sink ==> index.js:5:8
+Error
+    at Object.require.createReadStream (/home/vulns4js/path-traversal/execuator.js:70:15)
+    at HttpServer.Server.request (/home/vulns4js/path-traversal/node_modules/servey/lib/server/index.js:60:21)
+    at HttpServer.Server.setup (/home/vulns4js/path-traversal/node_modules/servey/lib/server/index.js:44:14)
+package name ==> servey
+
+sink ==> index.js:60:21
+Error
+    at Object.require.createReadStream (/home/vulns4js/path-traversal/execuator.js:70:15)
+    at /home/vulns4js/path-traversal/node_modules/gamebutler/build/gamebutler.js:69:43
+    at FSReqCallback.oncomplete (node:fs:199:5)
+package name ==> gamebutler/build
+
+sink ==> gamebutler.js:69:43
+Error
+    at Object.require.createReadStream (/home/vulns4js/path-traversal/execuator.js:70:15)
+    at /home/vulns4js/path-traversal/node_modules/intsol-package/index.js:35:41
+    at FSReqCallback.oncomplete (node:fs:199:5)
+package name ==> intsol-package
+
+sink ==> index.js:35:41
+Error
+    at Object.require.createReadStream (/home/vulns4js/path-traversal/execuator.js:70:15)
+    at /home/vulns4js/path-traversal/node_modules/wintiwebdev/app.js:16:6
+    at Layer.handle [as handle_request] (/home/vulns4js/path-traversal/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vulns4js/path-traversal/node_modules/express/lib/router/index.js:323:13)
+    at /home/vulns4js/path-traversal/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/vulns4js/path-traversal/node_modules/express/lib/router/index.js:341:12)
+    at next (/home/vulns4js/path-traversal/node_modules/express/lib/router/index.js:275:10)
+    at /home/vulns4js/path-traversal/node_modules/wintiwebdev/app.js:9:3
+    at Layer.handle [as handle_request] (/home/vulns4js/path-traversal/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/vulns4js/path-traversal/node_modules/express/lib/router/index.js:323:13)
+package name ==> wintiwebdev
+
+sink ==> app.js:16:6
+Error
+    at Object.require.createReadStream (/home/vulns4js/path-traversal/execuator.js:70:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/simple-mock-server/lib/simple-mock-server.js:62:31)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> simple-mock-server
+
+sink ==> simple-mock-server.js:62:31
+Error
+    at Object.require.createReadStream (/home/vulns4js/path-traversal/execuator.js:70:15)
+    at /home/vulns4js/path-traversal/node_modules/hftp/lib/static_server.js:91:16
+    at FSReqCallback.oncomplete (node:fs:199:5)
+package name ==> hftp
+
+sink ==> static_server.js:91:16
+Error
+    at Object.require.createReadStream (/home/vulns4js/path-traversal/execuator.js:70:15)
+    at /home/vulns4js/path-traversal/node_modules/hostr/lib/routes/static.js:56:27
+    at FSReqCallback.oncomplete (node:fs:199:5)
+package name ==> hostr
+
+sink ==> static.js:56:27
+Error
+    at Object.require.createReadStream (/home/vulns4js/path-traversal/execuator.js:70:15)
+    at serveFile (/home/vulns4js/path-traversal/node_modules/nopach/lib/nopach.js:159:25)
+    at Server.server (/home/vulns4js/path-traversal/node_modules/nopach/lib/nopach.js:101:3)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> nopach
+
+sink ==> nopach.js:159:25
+Error
+    at Object.require.createReadStream (/home/vulns4js/path-traversal/execuator.js:70:15)
+    at /home/vulns4js/path-traversal/node_modules/statichttpserver/lib/middleware/respond.js:28:7
+    at new Promise (<anonymous>)
+    at Array.module.exports (/home/vulns4js/path-traversal/node_modules/statichttpserver/lib/middleware/respond.js:5:9)
+    at req (/home/vulns4js/path-traversal/node_modules/statichttpserver/lib/middleware/index.js:49:19)
+    at /home/vulns4js/path-traversal/node_modules/statichttpserver/lib/middleware/index.js:57:5
+package name ==> statichttpserver
+
+sink ==> respond.js:28:7
+Error
+    at Object.require.createReadStream (/home/vulns4js/path-traversal/execuator.js:70:15)
+    at ServerResponse.res.sendfile (/home/vulns4js/path-traversal/node_modules/exxxxxxxxxxx/lib/res.js:38:37)
+    at router (/home/vulns4js/path-traversal/node_modules/exxxxxxxxxxx/lib/loop.js:43:13)
+    at IncomingMessage.onEnd (/home/vulns4js/path-traversal/node_modules/exxxxxxxxxxx/lib/loop.js:33:9)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+package name ==> exxxxxxxxxxx
+
+sink ==> res.js:38:37
+Error
+    at Object.require.createReadStream (/home/vulns4js/path-traversal/execuator.js:70:15)
+    at HttpServer.Server.request (/home/vulns4js/path-traversal/node_modules/servey/lib/server/index.js:60:21)
+    at HttpServer.Server.setup (/home/vulns4js/path-traversal/node_modules/servey/lib/server/index.js:44:14)
+package name ==> servey
+
+sink ==> index.js:60:21
+Error
+    at Object.require.createReadStream (/home/vulns4js/path-traversal/execuator.js:70:15)
+    at Server.<anonymous> (/home/vulns4js/path-traversal/node_modules/statics-server/index.js:37:20)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> statics-server
+
+sink ==> index.js:37:20
+Error
+    at Object.require.createReadStream (/home/vulns4js/path-traversal/execuator.js:70:15)
+    at /home/vulns4js/path-traversal/node_modules/run-this-place/index.js:53:37
+    at suppressedCallback (node:fs:263:5)
+    at FSReqCallback.oncomplete (node:fs:188:23)
+package name ==> run-this-place
+
+sink ==> index.js:53:37
+Error
+    at Object.require.createReadStream (/home/vulns4js/path-traversal/execuator.js:70:15)
+    at response_file (/home/vulns4js/path-traversal/node_modules/dilu/dilu/get.js:57:21)
+    at /home/vulns4js/path-traversal/node_modules/dilu/dilu/get.js:45:17
+    at FSReqCallback.oncomplete (node:fs:199:5)
+package name ==> dilu/dilu
+
+sink ==> get.js:57:21
+Error
+    at Object.require.readFileSync (/home/vulns4js/path-traversal/execuator.js:36:15)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1120:18)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/node_modules/clone-regexp/index.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+package name ==> clone-regexp
+
+sink ==> index.js:3:29
+Error
+    at Object.require.createReadStream (/home/vulns4js/path-traversal/execuator.js:70:15)
+    at /home/vulns4js/path-traversal/node_modules/sabu/src/utils.js:52:12
+    at FSReqCallback.oncomplete (node:fs:199:5)
+package name ==> sabu/src
+
+sink ==> utils.js:52:12
+Error
+    at Object.require.createReadStream (/home/vulns4js/path-traversal/execuator.js:70:15)
+    at /home/vulns4js/path-traversal/node_modules/ritp/index.js:53:37
+    at suppressedCallback (node:fs:263:5)
+    at FSReqCallback.oncomplete (node:fs:188:23)
+package name ==> ritp
+
+sink ==> index.js:53:37
+Error
+    at Object.require.createReadStream (/home/vulns4js/path-traversal/execuator.js:70:15)
+    at /home/vulns4js/path-traversal/node_modules/static-html-server/static-html-server.js:60:12
+    at FSReqCallback.oncomplete (node:fs:199:5)
+package name ==> static-html-server
+
+sink ==> static-html-server.js:60:12
+Error
+    at Object.require.createReadStream (/home/vulns4js/path-traversal/execuator.js:70:15)
+    at Object.streamResponse (/home/vulns4js/path-traversal/node_modules/mcstatic/lib/responseHandlers.js:23:21)
+    at /home/vulns4js/path-traversal/node_modules/mcstatic/lib/staticFileHandler.js:40:41
+    at FSReqCallback.oncomplete (node:fs:199:5)
+package name ==> mcstatic
+
+sink ==> responseHandlers.js:23:21
+Error
+    at Object.require.createReadStream (/home/vulns4js/path-traversal/execuator.js:70:15)
+    at ServerResponse.res.sendfile (/home/vulns4js/path-traversal/node_modules/ex-http-frame/lib/res.js:41:37)
+    at router (/home/vulns4js/path-traversal/node_modules/ex-http-frame/lib/loop.js:44:13)
+    at IncomingMessage.onEnd (/home/vulns4js/path-traversal/node_modules/ex-http-frame/lib/loop.js:34:9)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+package name ==> ex-http-frame
+
+sink ==> res.js:41:37
+
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/lander_1.0.0/lander.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/gfm-srv_1.1.2/gfm-srv.test.js:18:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/hangersteak_0.2.2/hangersteak.test.js:12:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/easy-node-server_1.2.1/easy-node-server.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.<anonymous>.require.readFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:77:15)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/easy-node-server/index.js:49:16
+    at suppressedCallback (node:fs:263:5)
+    at FSReqCallback.oncomplete (node:fs:188:23)
+package name ==> easy-node-server
+
+sink ==> index.js:49:16
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node-srv_2.0.0/node-srv.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/rollup-plugin-serve_0.4.2/rollup-plugin-serve.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.<anonymous>.require.readFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:77:15)
+    at readFileFromContentBase (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/rollup-plugin-serve/dist/index.cjs.js:111:6)
+    at Server.requestListener (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/rollup-plugin-serve/dist/index.cjs.js:33:5)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> rollup-plugin-serve/dist
+
+sink ==> index.cjs.js:111:6
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/basic-static_2.0.2/basic-static.test.js:16:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node-static-webserver_0.0.1/node-static-webserver.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/http-file-server_0.2.6/http-file-server.test.js:18:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node-staticserver_1.0.3/node-staticserver.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/webrepl_0.4.7/webrepl.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.<anonymous>.require.readFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:77:15)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/webrepl/webrepl.js:177:12
+    at FSReqCallback.oncomplete (node:fs:199:5)
+    at FSReqCallback.callbackTrampoline (node:internal/async_hooks:130:17)
+package name ==> webrepl
+
+sink ==> webrepl.js:177:12
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node-http-server_8.1.2/node-http-server.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.<anonymous>.require.readFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:77:15)
+    at Server.serveFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/node-http-server/server/Server.js:494:8)
+    at Server.fileExists (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/node-http-server/server/Server.js:775:16)
+    at suppressedCallback (node:fs:263:5)
+    at FSReqCallback.oncomplete (node:fs:188:23)
+package name ==> node-http-server/server
+
+sink ==> Server.js:494:8
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/der-server_0.0.9/der-server.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.<anonymous>.require.readFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:77:15)
+    at Server.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/der-server/der-server.js:52:12)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> der-server
+
+sink ==> der-server.js:52:12
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/rollup-plugin-server_0.7.0/rollup-plugin-server.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.<anonymous>.require.readFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:77:15)
+    at readFileFromContentBase (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/rollup-plugin-server/dist/index.cjs.js:130:6)
+    at Server.handler (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/rollup-plugin-server/dist/index.cjs.js:51:5)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> rollup-plugin-server/dist
+
+sink ==> index.cjs.js:130:6
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/cyber-js_1.0.6/cyber-js.test.js:18:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/file-static-server_1.0.2/file-static-server.test.js:18:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/proxey_0.4.2/proxey.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.<anonymous>.require.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Server.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/proxey/proxey.js:191:27)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> proxey
+
+sink ==> proxey.js:191:27
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/tinyserver_0.1.1/tinyserver.test.js:18:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/atropa-ide_0.2.2-2/atropa-ide.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.<anonymous>.require.readFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:77:15)
+    at respondWithFileContents (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/atropa-server/requestHandlers.js:120:5)
+    at Object.file (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/atropa-server/requestHandlers.js:136:5)
+    at route (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/atropa-server/router.js:39:16)
+    at Server.onRequest (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/atropa-server/server.js:19:9)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> atropa-server
+
+sink ==> requestHandlers.js:120:5
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node-simple-router_0.10.0/node-simple-router.test.js:12:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/pico-static-server_2.3.4/pico-static-server.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.<anonymous>.require.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Server.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/pico-static-server/index.js:118:23)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> pico-static-server
+
+sink ==> index.js:118:23
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/static-server-gx_1.2.1/static-server-gx.test.js:18:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/nitro-server_1.3.3/nitro-server.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.<anonymous>.require.readFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:77:15)
+    at Object.resolve (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/nitro-server/server.js:148:10)
+    at processQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/q-promise/lib/promise-polyfill.js:30:36)
+    at Object.P.p.$$succeeded [as resolve] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/q-promise/lib/promise-polyfill.js:62:7)
+    at stepResult (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/q-promise/lib/promise-polyfill.js:10:24)
+    at processQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/q-promise/lib/promise-polyfill.js:36:7)
+    at Object.P.p.$$succeeded [as resolve] (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/q-promise/lib/promise-polyfill.js:62:7)
+    at stepResult (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/q-promise/lib/promise-polyfill.js:10:24)
+    at processQueue (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/q-promise/lib/promise-polyfill.js:30:9)
+    at P.p.$$succeeded (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/q-promise/lib/promise-polyfill.js:62:7)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/nitro-server/server.js:39:7
+    at FSReqCallback.oncomplete (node:fs:199:5)
+package name ==> nitro-server
+
+sink ==> server.js:148:10
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/wrlc_0.2.5/wrlc.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/isv-http_0.0.9/isv-http.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.<anonymous>.require.readFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:77:15)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/isv-http/index.js:47:20
+    at suppressedCallback (node:fs:263:5)
+    at FSReqCallback.oncomplete (node:fs:188:23)
+package name ==> isv-http
+
+sink ==> index.js:47:20
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/api-proxy_0.0.2/api-proxy.test.js:10:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.<anonymous>.require.readFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:77:15)
+    at writeFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/api-proxy/lib/static.js:40:9)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/api-proxy/lib/static.js:19:7
+    at FSReqCallback.oncomplete (node:fs:199:5)
+package name ==> api-proxy/lib
+
+sink ==> static.js:40:9
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/rollup-plugin-dev-server_0.4.3/rollup-plugin-dev-server.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.<anonymous>.require.readFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:77:15)
+    at readFileFromContentBase (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/rollup-plugin-dev-server/dist/index.cjs.js:128:6)
+    at Server.requestListener (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/rollup-plugin-dev-server/dist/index.cjs.js:47:5)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> rollup-plugin-dev-server/dist
+
+sink ==> index.cjs.js:128:6
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/stattic_0.2.3/stattic.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/willvdb_test_server_0.0.0/willvdb_test_server.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.<anonymous>.require.readFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:77:15)
+    at Server.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/willvdb_test_server/cityserver.js:57:10)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> willvdb_test_server
+
+sink ==> cityserver.js:57:10
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/asset-cache_0.0.6/asset-cache.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.<anonymous>.require.readFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:77:15)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/asset-cache/lib/asset-cache.js:31:8
+    at FSReqCallback.oncomplete (node:fs:199:5)
+package name ==> asset-cache/lib
+
+sink ==> asset-cache.js:31:8
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/glance_3.0.0/glance.test.js:13:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/awning_0.1.0/awning.test.js:11:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.<anonymous>.require.readFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:77:15)
+    at serveFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/awning/index.js:43:14)
+    at Server.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/awning/index.js:84:48)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> awning
+
+sink ==> index.js:43:14
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/web-node-server_0.1.0/web-node-server.test.js:16:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+Error: 
+    at Object.<anonymous>.require.readFile (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:77:15)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/node_modules/web-node-server/nodeserver.js:85:16
+    at suppressedCallback (node:fs:263:5)
+    at FSReqCallback.oncomplete (node:fs:188:23)
+package name ==> web-node-server
+
+sink ==> nodeserver.js:85:16
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/express-blinker_0.0.6/express-blinker.test.js:13:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12
+
+Error: 
+    at Object.readFileSync (/home/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/basic-static_2.0.2/basic-static.test.js:16:22)
+    at Promise.then.completed (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:381:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:66:9)
+    at run (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:25:3)
+package name ==> jest/node_modules/jest-circus/build
+
+sink ==> utils.js:381:26
+Error: 
+    at Object.<anonymous>.require.createReadStream (/home/vulns4js/path-traversal/sink-extraction-setup.js:97:15)
+    at serveFile (/home/vulns4js/path-traversal/node_modules/basic-static/basic-static.js:121:21)
+    at /home/vulns4js/path-traversal/node_modules/basic-static/basic-static.js:200:11
+    at /home/vulns4js/path-traversal/node_modules/basic-static/basic-static.js:44:7
+    at FSReqCallback.oncomplete (node:fs:199:5)
+package name ==> basic-static
+
+sink ==> basic-static.js:121:21
+Error: 
+    at Object.readFileSync (/home/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/glance_3.0.0/glance.test.js:13:22)
+    at Promise.then.completed (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:381:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:66:9)
+    at run (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/usr/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+package name ==> jest/node_modules/jest-circus/build
+
+sink ==> utils.js:381:26
+Error: 
+    at Object.<anonymous>.require.createReadStream (/home/vulns4js/path-traversal/sink-extraction-setup.js:97:15)
+    at finish (/home/vulns4js/path-traversal/node_modules/filed/main.js:140:12)
+    at /home/vulns4js/path-traversal/node_modules/filed/main.js:159:7
+    at FSReqCallback.oncomplete (node:fs:199:5)
+package name ==> filed
+
+sink ==> main.js:140:12
+Error: 
+    at Object.readFileSync (/home/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/stattic_0.2.3/stattic.test.js:11:22)
+    at Promise.then.completed (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:381:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:66:9)
+    at run (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/usr/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+package name ==> jest/node_modules/jest-circus/build
+
+sink ==> utils.js:381:26
+Error: 
+    at Object.<anonymous>.require.createReadStream (/home/vulns4js/path-traversal/sink-extraction-setup.js:97:15)
+    at /home/vulns4js/path-traversal/node_modules/stattic/index.js:117:23
+    at /home/vulns4js/path-traversal/node_modules/utily/lib/fs.js:193:12
+    at /home/vulns4js/path-traversal/node_modules/utily/lib/fs.js:156:12
+    at FSReqCallback.oncomplete (node:fs:199:5)
+package name ==> stattic
+
+sink ==> index.js:117:23
+Error: 
+    at Object.readFileSync (/home/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/cyber-js_1.0.6/cyber-js.test.js:18:22)
+    at Promise.then.completed (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:381:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:66:9)
+    at run (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/usr/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+package name ==> jest/node_modules/jest-circus/build
+
+sink ==> utils.js:381:26
+Error: 
+    at Object.readFileSync (/home/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/hangersteak_0.2.2/hangersteak.test.js:12:22)
+    at Promise.then.completed (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:381:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:66:9)
+    at run (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/usr/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+package name ==> jest/node_modules/jest-circus/build
+
+sink ==> utils.js:381:26
+Error: 
+    at Object.<anonymous>.require.createReadStream (/home/vulns4js/path-traversal/sink-extraction-setup.js:97:15)
+    at /home/vulns4js/path-traversal/node_modules/hangersteak/lib/hangersteak.js:61:23
+    at Object.<anonymous>.module.exports (/home/vulns4js/path-traversal/node_modules/hangersteak/lib/hangersteak.js:149:7)
+package name ==> hangersteak/lib
+
+sink ==> hangersteak.js:61:23
+Error: 
+    at Object.readFileSync (/home/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/express-blinker_0.0.6/express-blinker.test.js:13:22)
+    at Promise.then.completed (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:381:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:66:9)
+    at run (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/usr/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+package name ==> jest/node_modules/jest-circus/build
+
+sink ==> utils.js:381:26
+Error: 
+    at Object.<anonymous>.require.createReadStream (/home/vulns4js/path-traversal/sink-extraction-setup.js:97:15)
+    at Object.<anonymous>.module.exports (/home/vulns4js/path-traversal/node_modules/md5-file/index.js:33:18)
+    at checkETag (/home/vulns4js/path-traversal/node_modules/express-blinker/index.js:47:5)
+    at /home/vulns4js/path-traversal/node_modules/async/lib/async.js:1149:20
+    at /home/vulns4js/path-traversal/node_modules/async/lib/async.js:375:13
+    at iterate (/home/vulns4js/path-traversal/node_modules/async/lib/async.js:262:13)
+    at Object.<anonymous>.async.forEachOfSeries.async.eachOfSeries (/home/vulns4js/path-traversal/node_modules/async/lib/async.js:281:9)
+    at Object.<anonymous>.async.inject.async.foldl.async.reduce (/home/vulns4js/path-traversal/node_modules/async/lib/async.js:374:15)
+    at /home/vulns4js/path-traversal/node_modules/async/lib/async.js:1148:19
+    at /home/vulns4js/path-traversal/node_modules/async/lib/async.js:166:37
+package name ==> md5-file
+
+sink ==> index.js:33:18
+Error: 
+    at Object.<anonymous>.require.createReadStream (/home/vulns4js/path-traversal/sink-extraction-setup.js:97:15)
+    at /home/vulns4js/path-traversal/node_modules/express-blinker/index.js:181:28
+    at /home/vulns4js/path-traversal/node_modules/async/lib/async.js:1154:26
+    at /home/vulns4js/path-traversal/node_modules/async/lib/async.js:380:13
+    at /home/vulns4js/path-traversal/node_modules/async/lib/async.js:52:16
+    at /home/vulns4js/path-traversal/node_modules/async/lib/async.js:269:32
+    at /home/vulns4js/path-traversal/node_modules/async/lib/async.js:44:16
+    at /home/vulns4js/path-traversal/node_modules/async/lib/async.js:377:17
+    at /home/vulns4js/path-traversal/node_modules/async/lib/async.js:1150:21
+    at /home/vulns4js/path-traversal/node_modules/async/lib/async.js:167:37
+package name ==> express-blinker
+
+sink ==> index.js:181:28
+Error: 
+    at Object.readFileSync (/home/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/static-server-gx_1.2.1/static-server-gx.test.js:18:22)
+    at Promise.then.completed (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:381:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:66:9)
+    at run (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/usr/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+package name ==> jest/node_modules/jest-circus/build
+
+sink ==> utils.js:381:26
+Error: 
+    at Object.readFileSync (/home/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/node-simple-router_0.10.0/node-simple-router.test.js:12:22)
+    at Promise.then.completed (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:381:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:66:9)
+    at run (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/usr/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+package name ==> jest/node_modules/jest-circus/build
+
+sink ==> utils.js:381:26
+Error: 
+    at Object.<anonymous>.require.createReadStream (/home/vulns4js/path-traversal/sink-extraction-setup.js:97:15)
+    at /home/vulns4js/path-traversal/node_modules/node-simple-router/lib/router.js:757:27
+    at FSReqCallback.oncomplete (node:fs:199:5)
+package name ==> node-simple-router/lib
+
+sink ==> router.js:757:27
+Error: 
+    at Object.readFileSync (/home/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/node-staticserver_1.0.3/node-staticserver.test.js:11:22)
+    at Promise.then.completed (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:381:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:66:9)
+    at run (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/usr/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+package name ==> jest/node_modules/jest-circus/build
+
+sink ==> utils.js:381:26
+Error: 
+    at Object.<anonymous>.require.createReadStream (/home/vulns4js/path-traversal/sink-extraction-setup.js:97:15)
+    at Function.stream (/home/vulns4js/path-traversal/node_modules/node-staticserver/lib/server.js:183:25)
+    at /home/vulns4js/path-traversal/node_modules/node-staticserver/lib/server.js:151:24
+    at FSReqCallback.oncomplete (node:fs:199:5)
+package name ==> node-staticserver/lib
+
+sink ==> server.js:183:25
+Error: 
+    at Object.readFileSync (/home/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/gfm-srv_1.1.2/gfm-srv.test.js:18:22)
+    at Promise.then.completed (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:381:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:66:9)
+    at run (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/usr/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+package name ==> jest/node_modules/jest-circus/build
+
+sink ==> utils.js:381:26
+Error: 
+    at Object.readFileSync (/home/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/node-srv_2.0.0/node-srv.test.js:11:22)
+    at Promise.then.completed (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:381:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:66:9)
+    at run (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/usr/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+package name ==> jest/node_modules/jest-circus/build
+
+sink ==> utils.js:381:26
+Error: 
+    at Object.<anonymous>.require.createReadStream (/home/vulns4js/path-traversal/sink-extraction-setup.js:97:15)
+    at /home/vulns4js/path-traversal/node_modules/node-srv/lib/server.js:185:19
+    at new Promise (<anonymous>)
+    at Server.Object.<anonymous>.Server.handlerStaticFile (/home/vulns4js/path-traversal/node_modules/node-srv/lib/server.js:184:14)
+    at Server.Object.<anonymous>.Server.processRequest (/home/vulns4js/path-traversal/node_modules/node-srv/lib/server.js:162:21)
+    at /home/vulns4js/path-traversal/node_modules/node-srv/lib/server.js:107:24
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+package name ==> node-srv/lib
+
+sink ==> server.js:185:19
+Error: 
+    at Object.readFileSync (/home/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/file-static-server_1.0.2/file-static-server.test.js:18:22)
+    at Promise.then.completed (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:381:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:66:9)
+    at run (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/usr/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+package name ==> jest/node_modules/jest-circus/build
+
+sink ==> utils.js:381:26
+Error: 
+    at Object.readFileSync (/home/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/tinyserver_0.1.1/tinyserver.test.js:18:22)
+    at Promise.then.completed (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:381:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:66:9)
+    at run (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/usr/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+package name ==> jest/node_modules/jest-circus/build
+
+sink ==> utils.js:381:26
+Error: 
+    at Object.readFileSync (/home/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/node-static-webserver_0.0.1/node-static-webserver.test.js:11:22)
+    at Promise.then.completed (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:381:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:66:9)
+    at run (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/usr/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+package name ==> jest/node_modules/jest-circus/build
+
+sink ==> utils.js:381:26
+Error: 
+    at Object.<anonymous>.require.createReadStream (/home/vulns4js/path-traversal/sink-extraction-setup.js:97:15)
+    at NodeStaticWebServer.Object.<anonymous>.NodeStaticWebServer._responseFile (/home/vulns4js/path-traversal/node_modules/node-static-webserver/node-static-webserver.js:79:25)
+    at /home/vulns4js/path-traversal/node_modules/node-static-webserver/node-static-webserver.js:39:14
+    at /home/vulns4js/path-traversal/node_modules/node-static-webserver/node-static-webserver.js:58:13
+    at FSReqCallback.oncomplete (node:fs:199:5)
+package name ==> node-static-webserver
+
+sink ==> node-static-webserver.js:79:25
+Error: 
+    at Object.readFileSync (/home/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/atropa-ide_0.2.2-2/atropa-ide.test.js:11:22)
+    at Promise.then.completed (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:381:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:66:9)
+    at run (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/usr/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+package name ==> jest/node_modules/jest-circus/build
+
+sink ==> utils.js:381:26
+Error: 
+    at Object.<anonymous>.require.readFile (/home/vulns4js/path-traversal/sink-extraction-setup.js:77:15)
+    at respondWithFileContents (/home/vulns4js/path-traversal/node_modules/atropa-server/requestHandlers.js:120:5)
+    at Object.file (/home/vulns4js/path-traversal/node_modules/atropa-server/requestHandlers.js:136:5)
+    at route (/home/vulns4js/path-traversal/node_modules/atropa-server/router.js:39:16)
+    at Server.onRequest (/home/vulns4js/path-traversal/node_modules/atropa-server/server.js:19:9)
+    at Server.emit (node:events:526:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+package name ==> atropa-server
+
+sink ==> requestHandlers.js:120:5
+Error: 
+    at Object.readFileSync (/home/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/http-file-server_0.2.6/http-file-server.test.js:18:22)
+    at Promise.then.completed (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:381:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:66:9)
+    at run (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/usr/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+package name ==> jest/node_modules/jest-circus/build
+
+sink ==> utils.js:381:26
+Error: 
+    at Object.readFileSync (/home/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/lander_1.0.0/lander.test.js:11:22)
+    at Promise.then.completed (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:381:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:66:9)
+    at run (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/usr/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+package name ==> jest/node_modules/jest-circus/build
+
+sink ==> utils.js:381:26
+Error: 
+    at Object.<anonymous>.require.createReadStream (/home/vulns4js/path-traversal/sink-extraction-setup.js:97:15)
+    at /home/vulns4js/path-traversal/node_modules/lander/index.js:33:25
+    at suppressedCallback (node:fs:263:5)
+    at FSReqCallback.oncomplete (node:fs:188:23)
+package name ==> lander
+
+sink ==> index.js:33:25
+Error: 
+    at Object.readFileSync (/home/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/home/vulns4js/path-traversal/wrlc_0.2.5/wrlc.test.js:11:22)
+    at Promise.then.completed (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:381:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/usr/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:66:9)
+    at run (/usr/lib/node_modules/jest/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/usr/lib/node_modules/jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+package name ==> jest/node_modules/jest-circus/build
+
+sink ==> utils.js:381:26
+Error: 
+    at Object.<anonymous>.require.createReadStream (/home/vulns4js/path-traversal/sink-extraction-setup.js:97:15)
+    at /home/vulns4js/path-traversal/node_modules/wrlc/index.js:26:25
+    at suppressedCallback (node:fs:263:5)
+    at FSReqCallback.oncomplete (node:fs:188:23)
+package name ==> wrlc
+
+sink ==> index.js:26:25

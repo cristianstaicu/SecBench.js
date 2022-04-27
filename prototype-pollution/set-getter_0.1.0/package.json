@@ -7,7 +7,7 @@
     "source1": "https://security.snyk.io/vuln/SNYK-JS-SETGETTER-1303099",
     "source2": "https://github.com/advisories/GHSA-jv35-xqg7-f92r"
   },
-  "fixedVersion": "n/a",
-  "fixCommit": "n/a",
+  "fixedVersion": "0.1.1",
+  "fixCommit": "https://github.com/doowb/set-getter/commit/66eb3f0d4686a4a8c7c3d6f7ecd8e570b580edc4",
   "sink": ""
 }

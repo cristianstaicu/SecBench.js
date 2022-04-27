@@ -1,10 +1,14 @@
 function getSink(new_arguments, stack) {
-  // console.log("arguments => ", new_arguments[0], typeof new_arguments[0]);
+  console.log("arguments => ", new_arguments[0], typeof new_arguments[0]);
   let package_name = "";
   let index = new_arguments[0].search("./");
   // console.log("index ===> ", index);
   if (index != -1) {
     package_name = new_arguments[0].substring(index + 2).trim();
+  }
+
+  if (new_arguments[0].includes("node-extend")) {
+    package_name = "node-extend";
   }
 
   if (new_arguments[0].includes("thenify")) {
@@ -51,7 +55,7 @@ function getSink(new_arguments, stack) {
     sink = sink.substring(0, last_index).trim();
   }
   console.log("sink ==>", sink);
-  // console.log(stack);
+  console.log(stack);
 }
 
 function getSink_touch(new_arguments, stack) {
@@ -117,11 +121,12 @@ function getSink_touch(new_arguments, stack) {
   }
   console.log("sink ==>", sink);
   // // extract first location from the package => output as sink
-  // console.log(stack);
+  console.log(stack);
 }
 
 let oldExec = require("child_process").exec;
 require("child_process").exec = function () {
+  console.log("exec");
   var args = arguments;
   let stack = new Error().stack.toString().split("\n");
   getSink_touch(args, stack);
@@ -130,14 +135,25 @@ require("child_process").exec = function () {
 
 let oldExecSync = require("child_process").execSync;
 require("child_process").execSync = function () {
+  console.log("exec sync");
   var args = arguments;
   let stack = new Error().stack.toString().split("\n");
   getSink_touch(args, stack);
   return oldExecSync.apply(this, arguments);
 };
 
-let oldfs = require("fs").writeFileSync;
+let oldfsSync = require("fs").writeFileSync;
 require("fs").writeFileSync = function () {
+  console.log("write sync");
+  var args = arguments;
+  let stack = new Error().stack.toString().split("\n");
+  getSink(args, stack);
+  return oldfsSync.apply(this, arguments);
+};
+
+let oldfs = require("fs").writeFile;
+require("fs").writeFile = function () {
+  console.log("fs write");
   var args = arguments;
   let stack = new Error().stack.toString().split("\n");
   getSink(args, stack);
@@ -146,41 +162,58 @@ require("fs").writeFileSync = function () {
 
 let oldSync = require("child_process").spawnSync;
 require("child_process").spawnSync = function () {
+  console.log("spwn sync");
   var args = arguments;
   let stack = new Error().stack.toString().split("\n");
   getSink(args, stack);
   return oldSync.apply(this, arguments);
 };
-var originalCookie = Object.getOwnPropertyDescriptor(
-  Object.prototype,
-  "polluted"
-);
-// console.log("original ===>> ", originalCookie);
-Object.defineProperty(Object.prototype, "polluted", {
-  set: function (value) {
-    stack = new Error().stack.toString().split("\n");
-    // console.log(stack);
-    for (let i = 0; i < stack.length; i++) {
-      let location = stack[i]
-        .replace(/.*vulnerabilities4js/, ".")
-        .replace(/\)/g, "")
-        .replace("    at ", "");
-      let index = stack[i].search("node_modules/");
-      // console.log("index ===> ", index);
-      if (index != -1) {
-        l1 = location.split("node_modules/");
-        if (l1.length == 3) {
-          l1 = l1[2];
-        } else l1 = l1[1];
-        // console.log("l1==>",l1);
-        l2 = l1.split(/\/(.+)/)[1].trim();
-        if (l2.includes("<anonymous>")) {
-          last_index = l2.indexOf(", <anonymous>");
-          l2 = l2.substring(0, last_index).trim();
-        }
-        console.log("sink ==>", l2);
-        break;
-      }
-    }
-  },
-});
+
+let oldspwn = require("child_process").spawn;
+require("child_process").spawn = function () {
+  console.log("spwn");
+  var args = arguments;
+  let stack = new Error().stack.toString().split("\n");
+  getSink(args, stack);
+  return oldspwn.apply(this, arguments);
+};
+
+// var proxied = eval;
+// eval = function() {
+//   console.log("ha");
+//   return proxied.apply(this, arguments);
+// };
+
+// var originalCookie = Object.getOwnPropertyDescriptor(
+//   Object.prototype,
+//   "polluted"
+// );
+// // console.log("original ===>> ", originalCookie);
+// Object.defineProperty(Object.prototype, "polluted", {
+//   set: function (value) {
+//     stack = new Error().stack.toString().split("\n");
+//     // console.log(stack);
+//     for (let i = 0; i < stack.length; i++) {
+//       let location = stack[i]
+//         .replace(/.*vulnerabilities4js/, ".")
+//         .replace(/\)/g, "")
+//         .replace("    at ", "");
+//       let index = stack[i].search("node_modules/");
+//       // console.log("index ===> ", index);
+//       if (index != -1) {
+//         l1 = location.split("node_modules/");
+//         if (l1.length == 3) {
+//           l1 = l1[2];
+//         } else l1 = l1[1];
+//         // console.log("l1==>",l1);
+//         l2 = l1.split(/\/(.+)/)[1].trim();
+//         if (l2.includes("<anonymous>")) {
+//           last_index = l2.indexOf(", <anonymous>");
+//           l2 = l2.substring(0, last_index).trim();
+//         }
+//         console.log("sink ==>", l2);
+//         break;
+//       }
+//     }
+//   },
+// });

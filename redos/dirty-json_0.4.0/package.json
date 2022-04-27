@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.5.2",
   "fixCommit": "https://github.com/RyanMarcus/dirty-json/commit/0b9c15e26699538a11e08e0f168af558392dadbe",
-  "sink": ""
+  "sink": "utils.js:391:28"
 }

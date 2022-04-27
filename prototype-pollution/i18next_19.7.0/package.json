@@ -9,5 +9,5 @@
   },
   "fixedVersion": "19.8.5",
   "fixCommit": "https://github.com/i18next/i18next/commit/932f5f662893376254d826e9b01dc4e4c0cd91c0",
-  "sink": ""
+  "sink": "build/utils.js:391:28"
 }

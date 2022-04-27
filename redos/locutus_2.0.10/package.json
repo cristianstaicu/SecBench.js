@@ -9,5 +9,5 @@
   },
   "fixedVersion": "2.0.15",
   "fixCommit": "https://github.com/locutusjs/locutus/commit/eb863321990e7e5514aa14f68b8d9978ece9e65e",
-  "sink": ""
+  "sink": "inet_pton.js:30:9"
 }

@@ -1,5 +1,5 @@
 {
   "setupFiles": ["./sink-extraction-setup.js"],
   "transformIgnorePatterns": ["./sink-extraction-setup.js"],
-  "reporters": ["./my-custom-reporter.js"]
+  "reporters": ["default", "./my-custom-reporter.js"]
 }

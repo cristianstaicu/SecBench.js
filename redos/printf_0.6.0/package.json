@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.6.1",
   "fixCommit": "n/a",
-  "sink": ""
+  "sink": "printf.js:14:21"
 }

@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.1",
   "fixCommit": "https://github.com/npm/npm-user-validate/commit/c8a87dac1a4cc6988b5418f30411a8669bef204e",
-  "sink": ""
+  "sink": "npm-user-validate.js:48:11"
 }

@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.2.1",
   "fixCommit": "https://github.com/josdejong/ducktype/commit/d8b4c902598c9104d5c56225c3fffcbe1368eff6",
-  "sink": ""
+  "sink": "ducktype.js:165:24"
 }

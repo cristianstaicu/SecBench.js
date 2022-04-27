@@ -1,0 +1,1202 @@
+redos/revalidator_0.3.1/revalidator.test.js
+PASS revalidator_0.3.1/revalidator.test.js
+  ✓ ReDos in revalidator (2758 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.997 s
+Ran all test suites matching /redos\/revalidator_0.3.1\/revalidator.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> revalidator.js:289:19\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> revalidator.js:289:19\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/github-url-to-object_4.0.2/github-url-to-object.test.js
+PASS github-url-to-object_4.0.2/github-url-to-object.test.js
+  ✓ ReDos in github-url-to-object (1446 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.078 s
+Ran all test suites matching /redos\/github-url-to-object_4.0.2\/github-url-to-object.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> commonjs.js:19:27\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n\n  console.log\n    sink ==> commonjs.js:19:27\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/ssri_8.0.0/ssri.test.js
+PASS ssri_8.0.0/ssri.test.js
+  ✓ ReDos in ssri (1320 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.943 s
+Ran all test suites matching /redos\/ssri_8.0.0\/ssri.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:123:31\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n\n  console.log\n    sink ==> index.js:123:31\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/string_3.3.3/string.test.js
+PASS string_3.3.3/string.test.js
+  ✓ ReDos in string (2920 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.541 s
+Ran all test suites matching /redos\/string_3.3.3\/string.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> string.js:618:68\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> string.js:618:68\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/checkit_0.7.0/checkit.test.js
+PASS checkit_0.7.0/checkit.test.js
+  ✓ ReDoS in checkit (2226 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.851 s
+Ran all test suites matching /redos\/checkit_0.7.0\/checkit.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+redos/remove-markdown_0.3.0/remove-markdown.test.js
+PASS remove-markdown_0.3.0/remove-markdown.test.js (14.867 s)
+  ✓ ReDos in remove-markdown (14613 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        15.239 s
+Ran all test suites matching /redos\/remove-markdown_0.3.0\/remove-markdown.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:48:8\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> index.js:48:8\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/nth-check_2.0.0/nth-check.test.js
+PASS nth-check_2.0.0/nth-check.test.js
+  ✓ ReDos in nth-check (2238 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.865 s, estimated 4 s
+Ran all test suites matching /redos\/nth-check_2.0.0\/nth-check.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> parse.js:22:26\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n\n  console.log\n    sink ==> parse.js:22:26\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/trim_0.0.1/trim.test.js
+PASS trim_0.0.1/trim.test.js
+  ✓ ReDos in trim (1917 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.549 s, estimated 4 s
+Ran all test suites matching /redos\/trim_0.0.1\/trim.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:5:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> index.js:5:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/axios_0.21.0/axios.test.js
+PASS axios_0.21.0/axios.test.js
+  ✓ ReDoS in axios (2551 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.189 s, estimated 5 s
+Ran all test suites matching /redos\/axios_0.21.0\/axios.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> utils.js:190:34\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> utils.js:190:34\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/fresh_0.5.0/fresh.test.js
+PASS fresh_0.5.0/fresh.test.js
+  ✓ ReDos in fresh (2842 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.468 s, estimated 5 s
+Ran all test suites matching /redos\/fresh_0.5.0\/fresh.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:61:40\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/jspdf_2.1.1/jspdf.test.js
+PASS jspdf_2.1.1/jspdf.test.js (21.817 s)
+  ✓ ReDos in jspdf (21565 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        22.193 s, estimated 32 s
+Ran all test suites matching /redos\/jspdf_2.1.1\/jspdf.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.error\n    Error: Not implemented: HTMLCanvasElement.prototype.getContext (without installing the canvas npm package)\n        at module.exports (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jsdom/lib/jsdom/browser/not-implemented.js:9:17)\n        at HTMLCanvasElementImpl.getContext (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jsdom/lib/jsdom/living/nodes/HTMLCanvasElement-impl.js:42:5)\n        at HTMLCanvasElement.getContext (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jsdom/lib/jsdom/living/generated/HTMLCanvasElement.js:131:58)\n        at hasBrowserCanvas (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/redos/node_modules/jspdf/src/libs/png.js:480:36)\n        at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/redos/node_modules/jspdf/src/libs/png.js:489:3\n        at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/redos/node_modules/jspdf/src/libs/png.js:28:11)\n        at Runtime._execModule (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-runtime/build/index.js:1299:24)\n        at Runtime._loadModule (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-runtime/build/index.js:898:12)\n        at Runtime.requireModule (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-runtime/build/index.js:746:10)\n        at Runtime.requireModuleOrMock (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-runtime/build/index.js:919:21) undefined\n\n      at VirtualConsole.<anonymous> (../node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)\n      at module.exports (../node_modules/jsdom/lib/jsdom/browser/not-implemented.js:12:26)\n      at HTMLCanvasElementImpl.getContext (../node_modules/jsdom/lib/jsdom/living/nodes/HTMLCanvasElement-impl.js:42:5)\n      at HTMLCanvasElement.getContext (../node_modules/jsdom/lib/jsdom/living/generated/HTMLCanvasElement.js:131:58)\n      at hasBrowserCanvas (node_modules/jspdf/src/libs/png.js:480:36)\n      at node_modules/jspdf/src/libs/png.js:489:3\n\n  console.log\n    sink ==> jspdf.node.min.js:86:5935\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/no-case_2.3.1/no-case.test.js
+PASS no-case_2.3.1/no-case.test.js
+  ✓ ReDos in no-case (3813 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        4.433 s, estimated 6 s
+Ran all test suites matching /redos\/no-case_2.3.1\/no-case.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> no-case.js:34:6\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> no-case.js:34:6\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/platform_1.3.4/platform.test.js
+PASS platform_1.3.4/platform.test.js
+  ✓ ReDos in platform (1686 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.303 s, estimated 3 s
+Ran all test suites matching /redos\/platform_1.3.4\/platform.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> platform.js:117:10\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> platform.js:117:10\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/path-parse_1.0.6/path-parse.test.js
+PASS path-parse_1.0.6/path-parse.test.js
+  ✓ ReDos in path-parse (1917 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.545 s, estimated 3 s
+Ran all test suites matching /redos\/path-parse_1.0.6\/path-parse.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:59:22\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/ramda_0.27.1/ramda.test.js
+PASS ramda_0.27.1/ramda.test.js
+  ✓ ReDos in ramda (2188 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.831 s, estimated 3 s
+Ran all test suites matching /redos\/ramda_0.27.1\/ramda.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> trim.js:33:35\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> trim.js:33:35\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/millisecond_0.1.1/millisecond.test.js
+PASS millisecond_0.1.1/millisecond.test.js
+  ✓ ReDos in millisecond (2382 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.016 s, estimated 4 s
+Ran all test suites matching /redos\/millisecond_0.1.1\/millisecond.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:43:21\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/papaparse_5.1.1/papaparse.test.js
+PASS papaparse_5.1.1/papaparse.test.js (5.62 s)
+  ✓ ReDos in ssri (5368 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        5.997 s, estimated 7 s
+Ran all test suites matching /redos\/papaparse_5.1.1\/papaparse.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> papaparse.js:1142:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> papaparse.js:1142:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at Array.map (<anonymous>)\n\n'
+redos/rgb2hex_0.1.0/rgb2hex.test.js
+PASS rgb2hex_0.1.0/rgb2hex.test.js
+  ✓ ReDos in rgb2hex (4581 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        5.217 s, estimated 7 s
+Ran all test suites matching /redos\/rgb2hex_0.1.0\/rgb2hex.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:25:73\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/conventional-commits-parser_3.2.0/conventional-commits-parser.test.js
+PASS conventional-commits-parser_3.2.0/conventional-commits-parser.test.js
+  ✓ ReDos in conventional-commits-parser (2289 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.916 s, estimated 3 s
+Ran all test suites matching /redos\/conventional-commits-parser_3.2.0\/conventional-commits-parser.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+redos/content_3.0.5/content.test.js
+PASS content_3.0.5/content.test.js
+  ✓ ReDoS in content (2762 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.391 s, estimated 4 s
+Ran all test suites matching /redos\/content_3.0.5\/content.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:84:34\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> index.js:84:34\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/content-type-parser_1.0.1/content-type-parser.test.js
+PASS content-type-parser_1.0.1/content-type-parser.test.js
+  ✓ ReDoS in content-type-parser (3009 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.631 s, estimated 5 s
+Ran all test suites matching /redos\/content-type-parser_1.0.1\/content-type-parser.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> content-type-parser.js:61:46\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/natural_5.1.0/natural.test.js
+PASS natural_5.1.0/natural.test.js
+  ✓ ReDos in natural (1672 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.466 s, estimated 3 s
+Ran all test suites matching /redos\/natural_5.1.0\/natural.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> dice_coefficient.js:54:28\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> dice_coefficient.js:54:28\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> dice_coefficient.js:54:28\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> dice_coefficient.js:54:28\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/prompts_2.4.0/prompts.test.js
+PASS prompts_2.4.0/prompts.test.js
+  ✓ ReDos in prompts (1145 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.765 s, estimated 2 s
+Ran all test suites matching /redos\/prompts_2.4.0\/prompts.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> strip.js:10:40\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> strip.js:10:40\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/prototype_0.0.5/prototype.test.js
+PASS prototype_0.0.5/prototype.test.js
+  ✓ ReDos in prototype (1899 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.523 s, estimated 3 s
+Ran all test suites matching /redos\/prototype_0.0.5\/prototype.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> String.js:84:17\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> String.js:84:17\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/ismobilejs_0.4.1/ismobilejs.test.js
+PASS ismobilejs_0.4.1/ismobilejs.test.js
+  ✓ ReDos in ismobilejs (1636 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.27 s, estimated 3 s
+Ran all test suites matching /redos\/ismobilejs_0.4.1\/ismobilejs.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> isMobile.js:54:22\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> isMobile.js:54:22\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> isMobile.js:54:22\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> isMobile.js:54:22\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> isMobile.js:54:22\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> isMobile.js:54:22\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> isMobile.js:54:22\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> isMobile.js:54:22\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> isMobile.js:54:22\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> isMobile.js:54:22\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> isMobile.js:54:22\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> isMobile.js:54:22\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> isMobile.js:54:22\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> isMobile.js:54:22\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> isMobile.js:54:22\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> isMobile.js:54:22\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> isMobile.js:54:22\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> isMobile.js:54:22\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/vant_2.12.11/vant.test.js
+PASS vant_2.12.11/vant.test.js (11.483 s)
+  ✓ ReDos in vant (11216 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        11.885 s, estimated 15 s
+Ran all test suites matching /redos\/vant_2.12.11\/vant.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> email.js:9:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> email.js:9:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/html-dom-parser_0.1.2/html-dom-parser.test.js
+FAIL html-dom-parser_0.1.2/html-dom-parser.test.js
+  ✕ ReDos in html-dom-parser (3034 ms)
+
+  ● ReDos in html-dom-parser
+
+    expect(received).toBeGreaterThan(expected)
+
+      Expected: > 1
+      Received:   0.776633203
+      new Spec (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22),new Spec (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/setup_jest_globals.js:78:9),specFactory (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/jasmine/Env.js:523:24),Env.it (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/jasmine/Env.js:592:24),Env.it (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:134:23),it (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:100:21),Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/redos/html-dom-parser_0.1.2/html-dom-parser.test.js:1:90),Runtime._execModule (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-runtime/build/index.js:1299:24),Runtime._loadModule (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-runtime/build/index.js:898:12),Runtime.requireModule (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-runtime/build/index.js:746:10),jasmine2 (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/index.js:230:13),runTestInternal (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-runner/build/runTest.js:380:22),async runTest (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-runner/build/runTest.js:472:34)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        3.667 s, estimated 5 s
+Ran all test suites matching /redos\/html-dom-parser_0.1.2\/html-dom-parser.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+Traceback (most recent call last):
+  File "/Users/masudulhasanmasudbhuiyan/Music/vulns4js/redos/test_modules_in_serial.py", line 36, in <module>
+    ping = subprocess.run(['jest', '--forceExit', test_file_name], stdout=subprocess.PIPE, check=True)
+  File "/usr/local/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/lib/python3.9/subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['jest', '--forceExit', 'redos/html-dom-parser_0.1.2/html-dom-parser.test.js']' returned non-zero exit status 1.
+redos/tough-cookie_2.3.2/tough-cookie.test.js
+PASS tough-cookie_2.3.2/tough-cookie.test.js
+  ✓ ReDos in tough-cookie (1967 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.649 s, estimated 4 s
+Ran all test suites matching /redos\/tough-cookie_2.3.2\/tough-cookie.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> cookie.js:330:23\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/markdown-it_9.1.0/markdown-it.test.js
+PASS markdown-it_9.1.0/markdown-it.test.js (14.222 s)
+  ✓ ReDos in markdown-it (13961 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        14.632 s, estimated 25 s
+Ran all test suites matching /redos\/markdown-it_9.1.0\/markdown-it.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+redos/chrono-node_2.2.3/chrono-node.test.js
+PASS chrono-node_2.2.3/chrono-node.test.js
+  ✓ ReDoS in chrono-node (4557 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        5.18 s, estimated 7 s
+Ran all test suites matching /redos\/chrono-node_2.2.3\/chrono-node.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> chrono.js:42:29\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at Array.forEach (<anonymous>)\n\n  console.log\n    sink ==> chrono.js:42:29\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at Array.forEach (<anonymous>)\n\n  console.log\n    sink ==> chrono.js:42:29\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at Array.forEach (<anonymous>)\n\n'
+redos/marked_0.3.6/marked.test.js
+PASS marked_0.3.6/marked.test.js
+  ✓ ReDos in marked (3433 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        4.052 s, estimated 6 s
+Ran all test suites matching /redos\/marked_0.3.6\/marked.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> marked.js:662:31\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> marked.js:662:31\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> marked.js:662:31\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> marked.js:662:31\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> marked.js:662:31\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> marked.js:662:31\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> marked.js:662:31\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> marked.js:662:31\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> marked.js:662:31\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/locutus_2.0.10/locutus.test.js
+PASS locutus_2.0.10/locutus.test.js (14.336 s)
+  ✓ ReDos in locutus (14083 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        14.704 s, estimated 20 s
+Ran all test suites matching /redos\/locutus_2.0.10\/locutus.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> inet_pton.js:30:9\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n\n  console.log\n    sink ==> inet_pton.js:30:9\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/simple-markdown_0.7.2/simple-markdown.test.js
+PASS simple-markdown_0.7.2/simple-markdown.test.js
+  ✓ ReDos in simple-markdown (1373 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.996 s, estimated 3 s
+Ran all test suites matching /redos\/simple-markdown_0.7.2\/simple-markdown.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> simple-markdown.js:492:26\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/mime_1.4.0/mime.test.js
+PASS mime_1.4.0/mime.test.js (7.057 s)
+  ✓ ReDos in mime (6803 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        7.429 s, estimated 10 s
+Ran all test suites matching /redos\/mime_1.4.0\/mime.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> mime.js:70:18\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> mime.js:70:18\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/sanitize_2.0.0/sanitize.test.js
+PASS sanitize_2.0.0/sanitize.test.js
+  ✓ ReDos in sanitize (2927 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.654 s, estimated 5 s
+Ran all test suites matching /redos\/sanitize_2.0.0\/sanitize.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> Sanitizer.js:148:37\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> Sanitizer.js:148:37\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/brace-expansion_1.1.6/brace-expansion.test.js
+PASS brace-expansion_1.1.6/brace-expansion.test.js
+  ✓ ReDoS in brace-expansion (2189 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.895 s, estimated 4 s
+Ran all test suites matching /redos\/brace-expansion_1.1.6\/brace-expansion.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:109:35\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> index.js:109:35\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/date-and-time_0.14.1/date-and-time.test.js
+PASS date-and-time_0.14.1/date-and-time.test.js
+  ✓ ReDoS in date-and-time (2445 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.109 s, estimated 4 s
+Ran all test suites matching /redos\/date-and-time_0.14.1\/date-and-time.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> date-and-time.js:141:27\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/moment_2.18.1/moment.test.js
+PASS moment_2.18.1/moment.test.js
+  ✓ ReDos in moment (2890 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.538 s, estimated 5 s
+Ran all test suites matching /redos\/moment_2.18.1\/moment.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> moment.js:2364:31\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n\n  console.log\n    sink ==> moment.js:2364:31\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/email-existence_0.1.5/email-existence.test.js
+PASS email-existence_0.1.5/email-existence.test.js
+  ✓ ReDos in email-existence (2889 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.535 s, estimated 5 s
+Ran all test suites matching /redos\/email-existence_0.1.5\/email-existence.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:8:19\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> index.js:8:19\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/markdown-to-jsx_5.4.2/markdown-to-jsx.test.js
+PASS markdown-to-jsx_5.4.2/markdown-to-jsx.test.js
+  ✓ ReDos in markdown-to-jsx (2438 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.097 s, estimated 4 s
+Ran all test suites matching /redos\/markdown-to-jsx_5.4.2\/markdown-to-jsx.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+redos/d3-color_2.0.0/d3-color.test.js
+PASS d3-color_2.0.0/d3-color.test.js (5.945 s)
+  ✓ ReDoS in d3-color (5683 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        6.339 s, estimated 8 s
+Ran all test suites matching /redos\/d3-color_2.0.0\/d3-color.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> d3-color.js:221:27\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/highlight.js_10.4.0/highlight.test.js
+PASS highlight.js_10.4.0/highlight.test.js
+  ✓ ReDos in highlight.js (2008 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.667 s, estimated 3 s
+Ran all test suites matching /redos\/highlight.js_10.4.0\/highlight.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> core.js:858:36\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/is-my-json-valid_2.20.1/is-my-json-valid.test.js
+PASS is-my-json-valid_2.20.1/is-my-json-valid.test.js (11.584 s)
+  ✓ ReDos in is-my-json-valid (11321 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        11.972 s, estimated 14 s
+Ran all test suites matching /redos\/is-my-json-valid_2.20.1\/is-my-json-valid.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:172:21\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> index.js:172:21\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/codemirror_5.58.0/codemirror.test.js
+PASS codemirror_5.58.0/codemirror.test.js (5.61 s)
+  ✓ ReDos in codemirror (5338 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        6.016 s, estimated 8 s
+Ran all test suites matching /redos\/codemirror_5.58.0\/codemirror.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> jasmineAsyncInstall.js:106:37\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> jasmineAsyncInstall.js:106:37\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/ajv_5.2.2/ajv.test.js
+PASS ajv_5.2.2/ajv.test.js (5.476 s)
+  ✓ ReDoS in ajv (5192 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        5.898 s, estimated 8 s
+Ran all test suites matching /redos\/ajv_5.2.2\/ajv.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> util.js:143:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> util.js:143:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> util.js:144:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> util.js:144:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> util.js:143:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> util.js:143:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> util.js:144:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> util.js:144:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> util.js:143:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> util.js:143:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> util.js:144:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> util.js:144:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> util.js:143:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> util.js:143:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> util.js:144:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> util.js:144:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/truncate_2.0.0/truncate.test.js
+PASS truncate_2.0.0/truncate.test.js (6.739 s)
+  ✓ ReDos in truncate (6446 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        7.157 s, estimated 10 s
+Ran all test suites matching /redos\/truncate_2.0.0\/truncate.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> truncate.js:47:33\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/ducktype_1.2.0/ducktype.test.js
+PASS ducktype_1.2.0/ducktype.test.js
+  ✓ ReDos in ducktype (1833 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.55 s, estimated 3 s
+Ran all test suites matching /redos\/ducktype_1.2.0\/ducktype.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> ducktype.js:165:24\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> ducktype.js:165:24\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    false\n\n      at f (ducktype_1.2.0/ducktype.test.js:6:13)\n\n'
+redos/semver-regex_3.1.1/semver-regex.test.js
+PASS semver-regex_3.1.1/semver-regex.test.js
+  ✓ ReDos in semver-regex (2213 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.929 s, estimated 4 s
+Ran all test suites matching /redos\/semver-regex_3.1.1\/semver-regex.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> jasmineAsyncInstall.js:106:37\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> jasmineAsyncInstall.js:106:37\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/tmpl_1.0.0/tmpl.test.js
+PASS tmpl_1.0.0/tmpl.test.js
+  ✓ ReDoS in tmpl (1483 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.214 s, estimated 3 s
+Ran all test suites matching /redos\/tmpl_1.0.0\/tmpl.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> tmpl.js:8:9\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> tmpl.js:8:9\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/timespan_2.3.0/timespan.test.js
+PASS timespan_2.3.0/timespan.test.js (5.554 s)
+  ✓ ReDos in timespan (5259 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        5.983 s, estimated 7 s
+Ran all test suites matching /redos\/timespan_2.3.0\/timespan.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> time-span.js:385:30\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n          at Array.forEach (<anonymous>)\n\n  console.log\n    sink ==> time-span.js:385:30\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at Array.forEach (<anonymous>)\n          at Array.forEach (<anonymous>)\n\n  console.log\n    sink ==> time-span.js:385:30\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n          at Array.forEach (<anonymous>)\n\n  console.log\n    sink ==> time-span.js:385:30\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at Array.forEach (<anonymous>)\n          at Array.forEach (<anonymous>)\n\n  console.log\n    sink ==> time-span.js:385:30\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n          at Array.forEach (<anonymous>)\n\n  console.log\n    sink ==> time-span.js:385:30\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at Array.forEach (<anonymous>)\n          at Array.forEach (<anonymous>)\n\n  console.log\n    sink ==> time-span.js:385:30\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n          at Array.forEach (<anonymous>)\n\n  console.log\n    sink ==> time-span.js:385:30\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at Array.forEach (<anonymous>)\n          at Array.forEach (<anonymous>)\n\n  console.log\n    sink ==> time-span.js:385:30\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n          at Array.forEach (<anonymous>)\n\n  console.log\n    sink ==> time-span.js:385:30\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at Array.forEach (<anonymous>)\n          at Array.forEach (<anonymous>)\n\n  console.log\n    sink ==> time-span.js:385:30\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n          at Array.forEach (<anonymous>)\n\n  console.log\n    sink ==> time-span.js:385:30\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at Array.forEach (<anonymous>)\n          at Array.forEach (<anonymous>)\n\n'
+redos/trim-off-newlines_1.0.0/trim-off-newlines.test.js
+PASS trim-off-newlines_1.0.0/trim-off-newlines.test.js
+  ✓ ReDos in trim-off-newlines (4198 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        4.945 s, estimated 6 s
+Ran all test suites matching /redos\/trim-off-newlines_1.0.0\/trim-off-newlines.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:6:13\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> index.js:6:13\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/html-parse-stringify2_2.0.1/html-parse-stringify2.test.js
+PASS html-parse-stringify2_2.0.1/html-parse-stringify2.test.js (11.17 s)
+  ✓ ReDos in html-parse-stringify2 (10873 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        11.604 s, estimated 14 s
+Ran all test suites matching /redos\/html-parse-stringify2_2.0.1\/html-parse-stringify2.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> parse.js:39:10\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> parse.js:39:10\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/is-email_1.0.0/is-email.test.js
+PASS is-email_1.0.0/is-email.test.js (10.856 s)
+  ✓ ReDos in is-email (10570 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        11.279 s, estimated 14 s
+Ran all test suites matching /redos\/is-email_1.0.0\/is-email.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:13:18\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> index.js:13:18\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/markdown_0.3.0/markdown-js.test.js
+PASS markdown_0.3.0/markdown-js.test.js
+  ✓ ReDos in markdown-js (4094 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        4.813 s, estimated 6 s
+Ran all test suites matching /redos\/markdown_0.3.0\/markdown-js.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+redos/ethers_5.2.0/ethers.test.js
+PASS ethers_5.2.0/ethers.test.js
+  ✓ ReDos in ethers (3531 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        4.236 s, estimated 6 s
+Ran all test suites matching /redos\/ethers_5.2.0\/ethers.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> fixednumber.js:97:36\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> fixednumber.js:97:36\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/terminal-kit_2.1.0/terminal-kit.test.js
+PASS terminal-kit_2.1.0/terminal-kit.test.js
+  ✓ ReDos in terminal-kit (2936 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.637 s, estimated 5 s
+Ran all test suites matching /redos\/terminal-kit_2.1.0\/terminal-kit.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> misc.js:185:35\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/printf_0.6.0/printf.test.js
+PASS printf_0.6.0/printf.test.js
+  ✓ ReDos in printf (1591 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.274 s, estimated 3 s
+Ran all test suites matching /redos\/printf_0.6.0\/printf.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> printf.js:14:21\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/ansi-html_0.0.7/ansi-html.test.js
+PASS ansi-html_0.0.7/ansi-html.test.js (6.324 s)
+  ✓ ReDoS in ansi-html (6043 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        6.732 s, estimated 10 s
+Ran all test suites matching /redos\/ansi-html_0.0.7\/ansi-html.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:62:18\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> index.js:62:18\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/sshpk_1.13.1/sshpk.test.js
+PASS sshpk_1.13.1/sshpk.test.js
+  ✓ ReDos in sshpk (2105 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.776 s, estimated 4 s
+Ran all test suites matching /redos\/sshpk_1.13.1\/sshpk.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> ssh.js:28:18\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n\n  console.log\n    sink ==> ssh.js:28:18\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/forwarded_0.1.0/forwarded.test.js
+PASS forwarded_0.1.0/forwarded.test.js
+  ✓ ReDos in forwarded (3046 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.709 s, estimated 6 s
+Ran all test suites matching /redos\/forwarded_0.1.0\/forwarded.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:27:6\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/is-svg_4.2.2/is-svg.test.js
+PASS is-svg_4.2.2/is-svg.test.js
+  ✓ ReDos in is-svg (2058 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.732 s, estimated 4 s
+Ran all test suites matching /redos\/is-svg_4.2.2\/is-svg.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:21:13\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> index.js:21:13\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> index.js:24:48\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/colors-cli_1.0.25/colors-cli.test.js
+PASS colors-cli_1.0.25/colors-cli.test.js
+  ✓ ReDos in colors-cli (3763 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        4.426 s, estimated 7 s
+Ran all test suites matching /redos\/colors-cli_1.0.25\/colors-cli.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> color-safe.js:60:23\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n\n  console.log\n    sink ==> color-safe.js:60:23\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> color-safe.js:62:19\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> color-safe.js:62:19\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/valid-email_0.0.1/valid-email.test.js
+FAIL valid-email_0.0.1/valid-email.test.js
+  ✕ ReDos in valid-email (743 ms)
+
+  ● ReDos in valid-email
+
+    expect(received).toBeGreaterThan(expected)
+
+      Expected: > 1
+      Received:   0.733869901
+      new Spec (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22),new Spec (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/setup_jest_globals.js:78:9),specFactory (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/jasmine/Env.js:523:24),Env.it (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/jasmine/Env.js:592:24),Env.it (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:134:23),it (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:100:21),Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/redos/valid-email_0.0.1/valid-email.test.js:1:90),Runtime._execModule (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-runtime/build/index.js:1299:24),Runtime._loadModule (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-runtime/build/index.js:898:12),Runtime.requireModule (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-runtime/build/index.js:746:10),jasmine2 (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/index.js:230:13),runTestInternal (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-runner/build/runTest.js:380:22),async runTest (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-runner/build/runTest.js:472:34)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        1.423 s, estimated 2 s
+Ran all test suites matching /redos\/valid-email_0.0.1\/valid-email.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+Traceback (most recent call last):
+  File "/Users/masudulhasanmasudbhuiyan/Music/vulns4js/redos/test_modules_in_serial.py", line 36, in <module>
+    ping = subprocess.run(['jest', '--forceExit', test_file_name], stdout=subprocess.PIPE, check=True)
+  File "/usr/local/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/lib/python3.9/subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['jest', '--forceExit', 'redos/valid-email_0.0.1/valid-email.test.js']' returned non-zero exit status 1.
+redos/htmlparser_1.7.7/htmlparser.test.js
+PASS htmlparser_1.7.7/htmlparser.test.js
+  ✓ ReDos in htmlparser (2501 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.185 s, estimated 5 s
+Ran all test suites matching /redos\/htmlparser_1.7.7\/htmlparser.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> htmlparser.js:226:72\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> htmlparser.js:226:72\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/hosted-git-info_3.0.0/hosted-git-info.test.js
+PASS hosted-git-info_3.0.0/hosted-git-info.test.js
+  ✓ ReDos in hosted-git-info (2057 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.729 s, estimated 4 s
+Ran all test suites matching /redos\/hosted-git-info_3.0.0\/hosted-git-info.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:44:27\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n\n  console.log\n    sink ==> index.js:44:27\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/urlregex_0.5.0/urlregex.test.js
+PASS urlregex_0.5.0/urlregex.test.js (8.824 s)
+  ✓ ReDos in urlregex (8551 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        9.215 s, estimated 13 s
+Ran all test suites matching /redos\/urlregex_0.5.0\/urlregex.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> jasmineAsyncInstall.js:106:37\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> jasmineAsyncInstall.js:106:37\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/react-native_0.63.0-rc.0/react-native.test.js
+PASS react-native_0.63.0-rc.0/react-native.test.js
+  ✓ ReDos in react-native (1561 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.21 s, estimated 3 s
+Ran all test suites matching /redos\/react-native_0.63.0-rc.0\/react-native.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> jasmineAsyncInstall.js:106:37\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> jasmineAsyncInstall.js:106:37\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/ms_0.7.0/ms.test.js
+PASS ms_0.7.0/ms.test.js
+  ✓ ReDos in ms (2435 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.104 s, estimated 4 s
+Ran all test suites matching /redos\/ms_0.7.0\/ms.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:41:135\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/express-validators_1.0.3/express-validators.test.js
+PASS express-validators_1.0.3/express-validators.test.js
+  ✓ ReDos in express-validators (1642 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.305 s, estimated 3 s
+Ran all test suites matching /redos\/express-validators_1.0.3\/express-validators.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:615:23\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n          at Array.forEach (<anonymous>)\n\n  console.log\n    sink ==> index.js:615:23\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at Array.forEach (<anonymous>)\n\n'
+redos/amqp-match_0.0.0/amqp-match.test.js
+PASS amqp-match_0.0.0/amqp-match.test.js
+  ✓ ReDoS in amqp-match (1484 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.146 s, estimated 3 s
+Ran all test suites matching /redos\/amqp-match_0.0.0\/amqp-match.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:4:17\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.search] (<anonymous>)\n          at String.search (<anonymous>)\n\n  console.log\n    sink ==> index.js:4:17\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/html-parse-stringify_2.0.0/html-parser-stringfy.test.js
+PASS html-parse-stringify_2.0.0/html-parser-stringfy.test.js (9.873 s)
+  ✓ ReDos in html-parse-stringify (9609 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        10.261 s, estimated 13 s
+Ran all test suites matching /redos\/html-parse-stringify_2.0.0\/html-parser-stringfy.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> html-parse-stringify.js:1:1428\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> html-parse-stringify.js:1:1428\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/glob-parent_5.0.0/glob-parent.test.js
+PASS glob-parent_5.0.0/glob-parent.test.js (11.102 s)
+  ✓ ReDos in glob-parent (10840 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        11.489 s, estimated 15 s
+Ran all test suites matching /redos\/glob-parent_5.0.0\/glob-parent.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:20:17\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> index.js:20:17\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/charset_1.0.0/charset.test.js
+PASS charset_1.0.0/charset.test.js
+  ✓ ReDoS in charset (2257 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.945 s, estimated 4 s
+Ran all test suites matching /redos\/charset_1.0.0\/charset.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> charset.js:59:26\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/browserslist_4.16.4/browserlist.test.js
+PASS browserslist_4.16.4/browserlist.test.js
+  ✓ ReDoS in browserslist (2747 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.405 s, estimated 5 s
+Ran all test suites matching /redos\/browserslist_4.16.4\/browserlist.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:333:29\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n          at Array.reduce (<anonymous>)\n\n  console.log\n    sink ==> index.js:333:29\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at Array.reduce (<anonymous>)\n\n  console.log\n    sink ==> index.js:333:29\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n          at Array.reduce (<anonymous>)\n\n  console.log\n    sink ==> index.js:333:29\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at Array.reduce (<anonymous>)\n\n  console.log\n    sink ==> index.js:333:29\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n          at Array.reduce (<anonymous>)\n\n  console.log\n    sink ==> index.js:333:29\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at Array.reduce (<anonymous>)\n\n  console.log\n    sink ==> index.js:333:29\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n          at Array.reduce (<anonymous>)\n\n  console.log\n    sink ==> index.js:333:29\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at Array.reduce (<anonymous>)\n\n'
+redos/remarkable_1.7.2/remarkable.test.js
+PASS remarkable_1.7.2/remarkable.test.js
+  ✓ ReDos in remarkable (2740 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.432 s, estimated 5 s
+Ran all test suites matching /redos\/remarkable_1.7.2\/remarkable.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+redos/url-regex_5.0.0/url-regex.test.js
+PASS url-regex_5.0.0/url-regex.test.js
+  ✓ ReDos in url-regex (2080 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.831 s, estimated 4 s
+Ran all test suites matching /redos\/url-regex_5.0.0\/url-regex.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> jasmineAsyncInstall.js:106:37\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> jasmineAsyncInstall.js:106:37\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/is-url_1.2.2/is-url.test.js
+PASS is-url_1.2.2/is-url.test.js
+  ✓ ReDos in is-url (2077 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.8 s, estimated 4 s
+Ran all test suites matching /redos\/is-url_1.2.2\/is-url.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:22:18\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> index.js:22:18\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/ua-parser-js_0.7.22/ua-parser.test.js
+PASS ua-parser-js_0.7.22/ua-parser.test.js
+  ✓ ReDos in ua-parser-js (3745 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        4.474 s, estimated 6 s
+Ran all test suites matching /redos\/ua-parser-js_0.7.22\/ua-parser.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> ua-parser.js:98:42\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/npm-user-validate_1.0.0/npm-user-validate.test.js
+PASS npm-user-validate_1.0.0/npm-user-validate.test.js
+  ✓ ReDos in npm-user-validate (1718 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.446 s, estimated 3 s
+Ran all test suites matching /redos\/npm-user-validate_1.0.0\/npm-user-validate.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> npm-user-validate.js:48:11\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n\n  console.log\n    sink ==> npm-user-validate.js:48:11\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/uri-js_2.1.1/uri-js.test.js
+PASS uri-js_2.1.1/uri-js.test.js
+  ✓ ReDos in uri-js (3424 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        4.153 s, estimated 5 s
+Ran all test suites matching /redos\/uri-js_2.1.1\/uri-js.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> uri.js:175:33\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n\n  console.log\n    sink ==> uri.js:175:33\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/three_0.122.0/three.test.js
+PASS three_0.122.0/three.test.js
+  ✓ ReDos in three (2555 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.364 s, estimated 4 s
+Ran all test suites matching /redos\/three_0.122.0\/three.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> three.js:6333:46\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.warn\n    THREE.Color: Unknown color rgb(\n\n       6 |   let t = measureTime(function () {\n       7 |     var Color = three.Color;\n    >  8 |     new Color(attack_str);\n         |     ^\n       9 |   });\n      10 |   let time = t[0] + t[1] / 1000000000;\n      11 |   expect(time).toBeGreaterThan(1);\n\n      at Color.setColorName (node_modules/three/build/three.js:6411:13)\n      at Color.setStyle (node_modules/three/build/three.js:6396:17)\n      at Color.set (node_modules/three/build/three.js:6275:10)\n      at new Color (node_modules/three/build/three.js:6261:17)\n      at f (three_0.122.0/three.test.js:8:5)\n      at measureTime (utils.js:35:3)\n      at Object.<anonymous> (three_0.122.0/three.test.js:6:11)\n\n'
+redos/method-override_2.0.0/method-override.test.js
+PASS method-override_2.0.0/method-override.test.js
+  ✓ ReDos in method-override (1631 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.437 s, estimated 3 s
+Ran all test suites matching /redos\/method-override_2.0.0\/method-override.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:113:40\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/clean-css_4.1.10/clean-css.test.js
+PASS clean-css_4.1.10/clean-css.test.js (13.759 s)
+  ✓ ReDoS in clean-css (13436 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        14.235 s, estimated 17 s
+Ran all test suites matching /redos\/clean-css_4.1.10\/clean-css.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> validator.js:418:20\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> validator.js:418:20\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/underscore.string_3.3.4/underscore-string.test.js
+PASS underscore.string_3.3.4/underscore-string.test.js
+  ✓ ReDos in underscore.string (3521 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        4.702 s, estimated 5 s
+Ran all test suites matching /redos\/underscore.string_3.3.4\/underscore-string.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> unescapeHTML.js:5:26\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> unescapeHTML.js:5:26\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/minimatch_3.0.0/minimatch.test.js
+PASS minimatch_3.0.0/minimatch.test.js (26.214 s)
+  ✓ ReDos in minimatch (25871 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        26.713 s, estimated 29 s
+Ran all test suites matching /redos\/minimatch_3.0.0\/minimatch.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> minimatch.js:167:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.split] (<anonymous>)\n          at String.split (<anonymous>)\n          at Array.map (<anonymous>)\n\n  console.log\n    sink ==> minimatch.js:167:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.split] (<anonymous>)\n          at String.split (<anonymous>)\n          at Array.map (<anonymous>)\n\n  console.log\n    sink ==> minimatch.js:167:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.split] (<anonymous>)\n          at String.split (<anonymous>)\n          at Array.map (<anonymous>)\n\n  console.log\n    sink ==> minimatch.js:167:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.split] (<anonymous>)\n          at String.split (<anonymous>)\n          at Array.map (<anonymous>)\n\n  console.log\n    sink ==> minimatch.js:167:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.split] (<anonymous>)\n          at String.split (<anonymous>)\n          at Array.map (<anonymous>)\n\n  console.log\n    sink ==> minimatch.js:167:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.split] (<anonymous>)\n          at String.split (<anonymous>)\n          at Array.map (<anonymous>)\n\n  console.log\n    sink ==> minimatch.js:167:14\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at Array.map (<anonymous>)\n\n  console.log\n    sink ==> minimatch.js:907:12\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at Array.map (<anonymous>)\n          at Array.map (<anonymous>)\n\n'
+redos/postcss_8.0.0/postcss.test.js
+PASS postcss_8.0.0/postcss.test.js
+  ✓ ReDos in postcss (2207 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.328 s, estimated 4 s
+Ran all test suites matching /redos\/postcss_8.0.0\/postcss.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> previous-map.js:57:27\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n\n  console.log\n    sink ==> previous-map.js:57:27\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/slug_0.9.1/slug.test.js
+PASS slug_0.9.1/slug.test.js
+  ✓ ReDos in slug (4215 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        5.059 s
+Ran all test suites matching /redos\/slug_0.9.1\/slug.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> slug.js:64:21\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> slug.js:64:21\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/mobile-detect_1.3.6/mobile-detect.test.js
+PASS mobile-detect_1.3.6/mobile-detect.test.js
+  ✓ ReDos in mobile-detect (3170 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        4.01 s
+Ran all test suites matching /redos\/mobile-detect_1.3.6\/mobile-detect.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> mobile-detect.js:375:32\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> mobile-detect.js:375:32\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/lodash_4.17.4/lodash.test.js
+PASS lodash_4.17.4/lodash.test.js
+  ✓ ReDos in lodash (3043 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.881 s, estimated 4 s
+Ran all test suites matching /redos\/lodash_4.17.4\/lodash.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> lodash.js:1172:29\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> lodash.js:1172:29\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/djvalidator_2.0.0/djvalidator.test.js
+PASS djvalidator_2.0.0/djvalidator.test.js
+  ✓ ReDos in djvalidator (2727 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.564 s
+Ran all test suites matching /redos\/djvalidator_2.0.0\/djvalidator.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> DjValidator.js:224:55\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> DjValidator.js:224:55\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/fast-csv_4.3.5/fast-csv.test.js
+PASS fast-csv_4.3.5/fast-csv.test.js
+  ✓ ReDos in fast-csv (2196 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.032 s
+Ran all test suites matching /redos\/fast-csv_4.3.5\/fast-csv.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> Parser.js:69:64\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> Parser.js:69:64\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/normalize-url_6.0.0/normalize-url.test.js
+PASS normalize-url_6.0.0/normalize-url.test.js
+  ✓ ReDos in parsejson (2013 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.849 s, estimated 3 s
+Ran all test suites matching /redos\/normalize-url_6.0.0\/normalize-url.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:12:68\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/dirty-json_0.4.0/dirty-json.test.js
+FAIL dirty-json_0.4.0/dirty-json.test.js
+  ✕ ReDoS in dirty-json (9 ms)
+
+  ● ReDoS in dirty-json
+
+    TypeError: e.stack.split is not a function
+
+      new Spec (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22),new Spec (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/setup_jest_globals.js:78:9),specFactory (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/jasmine/Env.js:523:24),Env.it (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/jasmine/Env.js:592:24),Env.it (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:134:23),it (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:100:21),Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/redos/dirty-json_0.4.0/dirty-json.test.js:1:90),Runtime._execModule (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-runtime/build/index.js:1299:24),Runtime._loadModule (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-runtime/build/index.js:898:12),Runtime.requireModule (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-runtime/build/index.js:746:10),jasmine2 (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/index.js:230:13),runTestInternal (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-runner/build/runTest.js:380:22),async runTest (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-runner/build/runTest.js:472:34)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.862 s, estimated 1 s
+Ran all test suites matching /redos\/dirty-json_0.4.0\/dirty-json.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+Traceback (most recent call last):
+  File "/Users/masudulhasanmasudbhuiyan/Music/vulns4js/redos/test_modules_in_serial.py", line 36, in <module>
+    ping = subprocess.run(['jest', '--forceExit', test_file_name], stdout=subprocess.PIPE, check=True)
+  File "/usr/local/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/lib/python3.9/subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['jest', '--forceExit', 'redos/dirty-json_0.4.0/dirty-json.test.js']' returned non-zero exit status 1.
+redos/ws_7.0.0/ws.test.js
+PASS ws_7.0.0/ws.test.js
+  ✓ ReDos in ws (1876 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.71 s
+Ran all test suites matching /redos\/ws_7.0.0\/ws.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> jasmineAsyncInstall.js:106:37\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/parsejson_0.0.3/parsejson.test.js
+PASS parsejson_0.0.3/parsejson.test.js
+  ✓ ReDos in parsejson (2602 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.441 s
+Ran all test suites matching /redos\/parsejson_0.0.3\/parsejson.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:20:38\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.replace] (<anonymous>)\n          at String.replace (<anonymous>)\n\n  console.log\n    sink ==> index.js:20:38\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/color-string_1.5.4/color-string.test.js
+PASS color-string_1.5.4/color-string.test.js
+  ✓ ReDoS in color-string (2544 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.381 s
+Ran all test suites matching /redos\/color-string_1.5.4\/color-string.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> index.js:154:21\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n\n  console.log\n    sink ==> index.js:154:21\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/squalcal/squalcal.test.js
+PASS squalcal/squalcal.test.js
+  ✓ ReDos in SquadCal (1327 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.179 s
+Ran all test suites matching /redos\/squalcal\/squalcal.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> jasmineAsyncInstall.js:106:37\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.test (<anonymous>)\n\n  console.log\n    sink ==> jasmineAsyncInstall.js:106:37\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+PASS markdown-to-jsx_5.4.2/markdown-to-jsx.test.js
+  ✓ ReDos in markdown-to-jsx (2633 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.076 s
+Ran all test suites matching /redos\/markdown-to-jsx_5.4.2\/markdown-to-jsx.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+redos/markdown-it_9.1.0/markdown-it.test.js
+PASS markdown-it_9.1.0/markdown-it.test.js (16.029 s)
+  ✓ ReDos in markdown-it (15817 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        16.08 s
+Ran all test suites matching /redos\/markdown-it_9.1.0\/markdown-it.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+redos/dirty-json_0.4.0/dirty-json.test.js
+PASS dirty-json_0.4.0/dirty-json.test.js
+  ✓ ReDoS in dirty-json (3676 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.947 s
+Ran all test suites matching /redos\/dirty-json_0.4.0\/dirty-json.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> utils.js:391:28\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> utils.js:391:28\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> utils.js:391:28\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> utils.js:391:28\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> utils.js:391:28\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> utils.js:391:28\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> utils.js:391:28\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> utils.js:391:28\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n  console.log\n    sink ==> utils.js:391:28\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/remarkable_1.7.2/remarkable.test.js
+PASS remarkable_1.7.2/remarkable.test.js
+  ✓ ReDos in remarkable (3077 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.347 s
+Ran all test suites matching /redos\/remarkable_1.7.2\/remarkable.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+redos/markdown_0.3.0/markdown-js.test.js
+PASS markdown_0.3.0/markdown-js.test.js (7.101 s)
+  ✓ ReDos in markdown-js (6886 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        7.153 s
+Ran all test suites matching /redos\/markdown_0.3.0\/markdown-js.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+redos/conventional-commits-parser_3.2.0/conventional-commits-parser.test.js
+PASS conventional-commits-parser_3.2.0/conventional-commits-parser.test.js
+  ✓ ReDos in conventional-commits-parser (2975 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.249 s
+Ran all test suites matching /redos\/conventional-commits-parser_3.2.0\/conventional-commits-parser.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+redos/valid-email_0.0.1/valid-email.test.js
+PASS valid-email_0.0.1/valid-email.test.js
+  ✓ ReDos in valid-email (3003 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        3.278 s
+Ran all test suites matching /redos\/valid-email_0.0.1\/valid-email.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b'  console.log\n    sink ==> utils.js:391:28\n        at new Promise (<anonymous>)\n\n      at getSink (sink-extraction-setup.js:16:11)\n          at RegExp.[Symbol.match] (<anonymous>)\n          at String.match (<anonymous>)\n\n  console.log\n    sink ==> run.js:155:3\n\n      at getSink (sink-extraction-setup.js:16:11)\n\n'
+redos/checkit_0.7.0/checkit.test.js
+PASS checkit_0.7.0/checkit.test.js (21.332 s)
+  ✓ ReDoS in checkit (21110 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        21.386 s
+Ran all test suites matching /redos\/checkit_0.7.0\/checkit.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''
+redos/html-dom-parser_0.1.2/html-dom-parser.test.js
+PASS html-dom-parser_0.1.2/html-dom-parser.test.js
+  ✓ ReDos in html-dom-parser (4442 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        4.713 s
+Ran all test suites matching /redos\/html-dom-parser_0.1.2\/html-dom-parser.test.js/i.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+b''

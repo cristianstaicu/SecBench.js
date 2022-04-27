@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.125.0",
   "fixCommit": "https://github.com/mrdoob/three.js/pull/21143/commits/4a582355216b620176a291ff319d740e619d583e",
-  "sink": ""
+  "sink": "three.js:6333:46"
 }

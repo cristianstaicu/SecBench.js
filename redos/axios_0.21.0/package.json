@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.21.3",
   "fixCommit": "https://github.com/axios/axios/commit/5b457116e31db0e88fede6c428e969e87f290929",
-  "sink": ""
+  "sink": "utils.js:190:34"
 }

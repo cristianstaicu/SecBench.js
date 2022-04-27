@@ -2,6 +2,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from requests import head
 import seaborn as sns
 
 # # set seaborn style
@@ -29,26 +30,58 @@ import seaborn as sns
 # plt.tight_layout()
 # plt.savefig("versions-surface.pdf")
 
-df1 = pd.read_csv ('vuln-versions_new.csv')
+df1 = pd.read_csv ('vuln-versions_prototype-pollution.csv', header=None)
 df1.columns=['name','not_vulnerable','vulnerable']
 # print(df1)
 
-df2 = pd.read_csv ('vuln-versions_redos.csv')
+df1 = df1[df1['vulnerable']!=0]
+print(len(df1))
+df1 = df1.drop_duplicates(subset=['name'])
+print(len(df1))
+
+# df_tmp = df1[df1['vulnerable']==0]
+# print(df_tmp['name'].tolist())
+# print(len(df_tmp['name'].tolist()))
+
+
+df2 = pd.read_csv ('vuln-versions_redos.csv', header=None)
 df2.columns=['name','not_vulnerable','vulnerable']
 # print(df)
+df2 = df2[df2['vulnerable']!=0]
+print(len(df2))
+df2 = df2.drop_duplicates(subset=['name'])
+print(len(df2))
 
-df3 = pd.read_csv ('vuln-versions_ace-breakout.csv')
+# df_tmp = df2[df2['vulnerable']==0]
+# print(df_tmp['name'].tolist())
+# print(len(df_tmp['name'].tolist()))
+
+df3 = pd.read_csv ('vuln-versions_ace-breakout.csv', header=None)
 df3.columns=['name','not_vulnerable','vulnerable']
-# print(df1)
 
-df4 = pd.read_csv ('vuln-versions_command-injection.csv')
+df3 = df3[df3['vulnerable']!=0]
+print(len(df3))
+df3 = df3.drop_duplicates(subset=['name'])
+print(len(df3))
+
+df4 = pd.read_csv ('vuln-versions_command-injection.csv', header=None)
 df4.columns=['name','not_vulnerable','vulnerable']
 # print(df)
 
-df5 = pd.read_csv ('vuln-versions_path-traversal.csv')
+df4 = df4[df4['vulnerable']!=0]
+print(len(df4))
+df4 = df4.drop_duplicates(subset=['name'])
+print(len(df4))
+
+df5 = pd.read_csv ('vuln-versions_path-traversal.csv', header=None)
 df5.columns=['name','not_vulnerable','vulnerable']
 # print(df1)
 
+
+df5 = df5[df5['vulnerable']!=0]
+print(len(df5))
+df5 = df5.drop_duplicates(subset=['name'])
+print(len(df5))
 
 df = pd.concat([df1, df2,df3,df4,df5])
 df = df[df['vulnerable']!=0]
@@ -91,7 +124,7 @@ import matplotlib.pyplot as plt
 sns.set()
 sns.set_style("whitegrid")
 sns.set_palette("Set2")
-plt.rcParams["figure.figsize"] = (12, 8)
+plt.rcParams["figure.figsize"] = (16, 5)
 fig, ax = plt.subplots()
 font_size = 30
 legend_font_size = 24
@@ -102,8 +135,15 @@ plt.legend(loc='upper left')
 plt.xlabel("Packages", labelpad=10)
 
 a=np.arange(0,len(df),30)
+a= np.append(a,[len(df)], axis=0)
+# print(a)
 ax.set_xticks(a)
-ax.set_xticklabels(a)
+
+b=np.arange(0,len(df),30)
+b= np.append(b,[len(df)], axis=0)
+b = np.delete(b, 0, 0)
+b = np.insert(b, 0, 1)
+ax.set_xticklabels(b)
 ax.set_ylabel("Number of versions", fontsize=font_size, labelpad=20)
 ax.set_xlabel("Packages", fontsize=font_size, labelpad=20)
 ax.set_ylim(0,100)
@@ -117,5 +157,5 @@ ax.grid("both")
 plt.setp(ax.get_legend().get_texts(), fontsize=font_size)
 plt.subplots_adjust(top=0.91, right=0.99, bottom=.32)
 plt.tight_layout()
-plt.savefig("versions-surface.pdf")
+# plt.savefig("versions-surface.pdf")
 plt.show()

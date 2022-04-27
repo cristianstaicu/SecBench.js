@@ -8,7 +8,7 @@ class MyCustomReporter {
     console.log("Custom reporter output:");
     // console.log('GlobalConfig: ', this._globalConfig);
     // console.log('Options: ', this._options);
-    console.log(fctsLog);
+    // console.log(fctsLog);
   }
 }
 

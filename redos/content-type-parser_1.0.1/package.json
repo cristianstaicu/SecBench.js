@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "https://github.com/jsdom/whatwg-mimetype/commit/26c539a699778f8743b8319c298b5fb28a4328d0",
-  "sink": ""
+  "sink": "content-type-parser.js:61:46"
 }

@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.2.5",
   "fixCommit": "https://github.com/eldoy/hangersteak/commit/9e853cced065c5a98f242c7ac75438d035f63532",
-  "sink": ""
+  "sink": "hangersteak.js:61:23"
 }

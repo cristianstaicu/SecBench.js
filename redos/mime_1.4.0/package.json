@@ -9,5 +9,5 @@
   },
   "fixedVersion": "2.0.3",
   "fixCommit": "https://github.com/broofa/node-mime/commit/1df903fdeb9ae7eaa048795b8d580ce2c98f40b0",
-  "sink": ""
+  "sink": "mime.js:70:18"
 }

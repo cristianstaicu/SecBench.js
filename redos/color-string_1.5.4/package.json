@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.5.5",
   "fixCommit": "https://github.com/Qix-/color-string/commit/0789e21284c33d89ebc4ab4ca6f759b9375ac9d3",
-  "sink": ""
+  "sink": "index.js:154:21"
 }
