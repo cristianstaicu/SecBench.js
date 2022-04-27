@@ -1,0 +1,3 @@
+{
+  "setupFilesAfterEnv": ["./require-interception.js"]
+}
