@@ -9,5 +9,5 @@
   },
   "fixedVersion": "7.0.36",
   "fixCommit": "https://github.com/postcss/postcss/commit/2b1d04c867995e55124e0a165b7c6622c1735956",
-  "sink": ""
+  "sink": "previous-map.js:57:27"
 }

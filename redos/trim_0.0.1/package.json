@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.0.3",
   "fixCommit": "",
-  "sink": ""
+  "sink": "index.js:5:14"
 }

@@ -9,5 +9,5 @@
   },
   "fixedVersion": "5.1.11",
   "fixCommit": "https://github.com/NaturalNode/natural/commit/90e85afb20e76560bc555d83abad3bc919388381",
-  "sink": ""
+  "sink": "dice_coefficient.js:54:28"
 }

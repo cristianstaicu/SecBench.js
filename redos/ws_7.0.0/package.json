@@ -9,5 +9,5 @@
   },
   "fixedVersion": "7.4.6",
   "fixCommit": "https://github.com/websockets/ws/commit/00c425ec77993773d823f018f64a5c44e17023ff",
-  "sink": ""
+  "sink": "jasmineAsyncInstall.js:106:37"
 }

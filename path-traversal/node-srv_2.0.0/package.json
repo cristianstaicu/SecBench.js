@@ -9,5 +9,5 @@
   },
   "fixedVersion": "2.1.1",
   "fixCommit": "https://github.com/nim579/node-srv/commit/15be996c0520ac6e4dee0cf0808fc7e72effd2a2",
-  "sink": ""
+  "sink": "server.js:185:19"
 }

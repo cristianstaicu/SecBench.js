@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.4.2",
   "fixCommit": "https://github.com/nunnly/m-server/commit/01f13f040d1961ca3146dce7e2db990156e65e9a",
-  "sink": ""
+  "sink": "index.js:14:28"
 }

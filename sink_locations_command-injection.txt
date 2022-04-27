@@ -97,3 +97,4 @@
  theme-core_0.2.5 > lib/utils.js:16:17
  im-metadata_3.0.1 > index.js:15:3
  deferred-exec_0.3.1 > lib/deferred-exec.js:42:19
+wincred_1.0.2 > index.js:16:12

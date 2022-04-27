@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.14.2",
   "fixCommit": "https://github.com/knowledgecode/date-and-time/commit/9e4b501eacddccc8b1f559fb414f48472ee17c2a",
-  "sink": ""
+  "sink": "date-and-time.js:141:27"
 }

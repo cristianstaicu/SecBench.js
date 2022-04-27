@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.3",
   "fixCommit": "https://github.com/stevemao/trim-off-newlines/commit/6226c958cbbac284a840010eb1f6617fb99a5645",
-  "sink": ""
+  "sink": "index.js:6:13"
 }

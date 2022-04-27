@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.28",
   "fixCommit": "https://github.com/jaywcjlove/colors-cli/commit/78ee15ba9111ddee1cc0640ccd79369525bd57b8",
-  "sink": ""
+  "sink": "color-safe.js:60:23"
 }

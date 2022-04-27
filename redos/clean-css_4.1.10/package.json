@@ -9,5 +9,5 @@
   },
   "fixedVersion": "4.1.11",
   "fixCommit": "https://github.com/jakubpawlowicz/clean-css/commit/2929bafbf8cdf7dccb24e0949c70833764fa87e3",
-  "sink": ""
+  "sink": "validator.js:418:20"
 }

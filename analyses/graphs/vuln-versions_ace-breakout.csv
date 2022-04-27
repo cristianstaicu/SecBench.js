@@ -36,3 +36,6 @@ js-yaml,41,31
 json-ptr,70,15
 modjs,77,35
 mathjs,200,27
+veval,0,2
+wifiscanner,4,5
+mongo-parse,0,15

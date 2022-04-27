@@ -1,8 +1,8 @@
 {
   "id": "",
   "dependencies": {
-    "@babel/highlight": "^7.16.7",
-    "local-devices": "2.0.0"
+    "local-devices": "2.0.0",
+    "@babel/highlight": "^7.16.7"
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/SNYK-JS-LOCALDEVICES-459898",

@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.27.2",
   "fixCommit": "https://github.com/ramda/ramda/commit/37af6ae2ca8b94656996dd27fb0a1f208d69134e",
-  "sink": ""
+  "sink": "trim.js:33:35"
 }

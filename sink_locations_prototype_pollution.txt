@@ -178,4 +178,10 @@ jsonpointer_4.0.0 > jsonpointer.js:43:18
 deepref_1.1.1 > index.js:29:28
 set-object-value_0.0.5 > build/cjs/src/index.js:24:15
 eivindfjeldstad-dot_0.0.1 > index.js:20:13
-  deap_1.0.0 > lib/connie-lang.js:35:28".
+  deap_1.0.0 > lib/connie-lang.js:35:28
+aws-sdk-shared-ini-file-loader_1.0.0-rc.8 > shared-ini-file-loader/src/index.ts:108:20
+nedb_1.8.0 > lib/model.js:304:14
+i18next_19.7.0 > build/utils.js:391:28
+connie_0.1.0 > lib/connie-lang.js:43:28
+node-ini_1.0.0 > node-ini.js:25:66
+

@@ -8,6 +8,6 @@
     "source2": ""
   },
   "fixCommit": "n/a",
-  "sink": "",
+  "sink": "util.js:143:14",
   "fixedVersion": "6.12.3"
 }

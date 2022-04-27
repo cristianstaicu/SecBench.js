@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.1",
   "fixCommit": "https://github.com/segmentio/is-email/commit/060ecedf345729f11ad857ccaf7a915ff6797739",
-  "sink": ""
+  "sink": "index.js:13:18"
 }

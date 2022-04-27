@@ -62,7 +62,7 @@ require("fs").readFile = function () {
     // console.error(err)
     fs.writeFileSync(output_file, err);
   }
-  return oldreadFileSync.apply(this, args);
+  return oldreadFile.apply(this, args);
 };
 
 require("fs").createReadStream = function () {

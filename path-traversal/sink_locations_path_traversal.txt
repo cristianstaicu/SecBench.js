@@ -1,0 +1,11 @@
+Error: 
+    at Object.readFileSync (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/sink-extraction-setup.js:56:15)
+    at Object.<anonymous> (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/path-traversal/gfm-srv_1.1.2/gfm-srv.test.js:18:22)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/masudulhasanmasudbhuiyan/Music/vulns4js/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+package name ==> jest-jasmine2/build
+
+sink ==> queueRunner.js:45:12

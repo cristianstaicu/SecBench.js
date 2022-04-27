@@ -9,5 +9,5 @@
   },
   "fixedVersion": "3.3.6",
   "fixCommit": "n/a",
-  "sink": ""
+  "sink": "unescapeHTML.js:5:26"
 }

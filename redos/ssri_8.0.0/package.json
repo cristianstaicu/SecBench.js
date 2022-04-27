@@ -9,5 +9,5 @@
   },
   "fixedVersion": "8.0.1",
   "fixCommit": "https://github.com/npm/ssri/commit/76e223317d971f19e4db8191865bdad5edee40d2",
-  "sink": ""
+  "sink": "index.js:123:31"
 }

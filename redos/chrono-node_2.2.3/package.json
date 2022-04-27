@@ -9,5 +9,5 @@
   },
   "fixedVersion": "2.2.4",
   "fixCommit": "https://github.com/wanasit/chrono/commit/98815b57622443b5c498a427210ebd603d705f4c",
-  "sink": ""
+  "sink": "chrono.js:42:29"
 }

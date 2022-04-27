@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.6.1",
   "fixCommit": "https://github.com/Khan/simple-markdown/commit/015a719bf5cdc561feea05500ecb3274ef609cd2",
-  "sink": ""
+  "sink": "simple-markdown.js:492:26"
 }

@@ -9,5 +9,5 @@
   },
   "fixedVersion": "6.0.1",
   "fixCommit": "https://github.com/sindresorhus/normalize-url/commit/b1fdb5120b6d27a88400d8800e67ff5a22bd2103",
-  "sink": ""
+  "sink": "index.js:12:68"
 }

@@ -9,5 +9,5 @@
   },
   "fixedVersion": "2.1.8",
   "fixCommit": "https://github.com/cronvel/terminal-kit/commit/a2e446cc3927b559d0281683feb9b821e83b758c",
-  "sink": ""
+  "sink": "misc.js:185:35"
 }

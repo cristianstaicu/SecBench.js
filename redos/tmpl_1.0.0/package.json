@@ -9,5 +9,5 @@
   },
   "fixedVersion": "1.0.5",
   "fixCommit": "https://github.com/daaku/nodejs-tmpl/commit/4c654e4d1542f329ed561fd95ccd80f30c6872d6",
-  "sink": ""
+  "sink": "tmpl.js:8:9"
 }

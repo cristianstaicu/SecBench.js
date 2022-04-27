@@ -9,5 +9,5 @@
   },
   "fixedVersion": "4.3.6",
   "fixCommit": "https://github.com/C2FO/fast-csv/commit/4bbd39f26a8cd7382151ab4f5fb102234b2f829e",
-  "sink": ""
+  "sink": "Parser.js:69:64"
 }

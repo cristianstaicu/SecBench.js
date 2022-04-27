@@ -9,5 +9,5 @@
   },
   "fixedVersion": "5.58.2",
   "fixCommit": "https://github.com/codemirror/CodeMirror/commit/55d0333907117c9231ffdf555ae8824705993bbb",
-  "sink": ""
+  "sink": "jasmineAsyncInstall.js:106:37"
 }

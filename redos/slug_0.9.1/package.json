@@ -9,5 +9,5 @@
   },
   "fixedVersion": "0.9.2",
   "fixCommit": "https://github.com/zhuangya/node-slug/commit/e82fccc6b3d850227560db659b17df0e242ae51b",
-  "sink": ""
+  "sink": "slug.js:64:21"
 }
