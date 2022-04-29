@@ -69,14 +69,16 @@ module.exports = function ({ types: t }) {
           let name = "anon";
           if (path.node.id) name = path.node.id.name;
           // console.log(path.node.body);
-          path.node.body.body.unshift(
-            t.callExpression(t.identifier("pushFct"), [
-              t.stringLiteral(name + ":" + path.node.loc.start.line),
-            ])
-          );
-          path.node.body.body.push(
-            t.callExpression(t.identifier("popFct"), [])
-          );
+          if (path.node.body.body) {
+            path.node.body.body.unshift(
+              t.callExpression(t.identifier("pushFct"), [
+                t.stringLiteral(name + ":" + path.node.loc.start.line),
+              ])
+            );
+            path.node.body.body.push(
+              t.callExpression(t.identifier("popFct"), [])
+            );
+          }
           // path.skip();
         },
       },
