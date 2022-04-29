@@ -25,9 +25,9 @@ import csv
 warnings.filterwarnings('ignore')
 
 total_count=0
-target_list= ["underscore.string", "serialize-javascript", "jspdf", "glob-parent", "changeset"]
+target_list= ["underscore.string", "ts-dot-prop", "jspdf", "glob-parent", "changeset"]
 tobe_tested_list=[]
-legends=['changeset', 'serialize-\njavascript', 'glob-\nparent', 'jspdf', 'underscore.\nstring']
+legends=['changeset', 'ts-dot-\nprop', 'glob-\nparent', 'jspdf', 'underscore.\nstring']
 
 our_vulnerable_version_list=[]
 snyk_vulnerable_version_list=[]
@@ -392,7 +392,7 @@ sns.set_palette("Set2")
 plt.rcParams["figure.figsize"] = (12, 8)
 fig, ax = plt.subplots()
 font_size = 30
-legend_font_size = 24
+legend_font_size = 22
 ax.spines['right'].set_visible(False)
 ax.spines['top'].set_visible(False)
 #create simple line plot
@@ -411,7 +411,7 @@ for i in range(len(list_of_all_versions)):
     print("\n\n")
     for element in lst:
         if element in our_vulnerable_version_list[i]:
-            ax.add_patch(Rectangle((x_position, y_position), 2, 1, fill=True, facecolor='#f00', hatch='\\\\\\', label="Vulnerable in Jester" if (should_our_suit) else None ))
+            ax.add_patch(Rectangle((x_position, y_position), 2, 1, fill=True, facecolor='#f00', hatch='\\\\\\', label="Vulnerable in Exploits4JS" if (should_our_suit) else None ))
             should_our_suit = False
         else:
             ax.add_patch(Rectangle((x_position, y_position), 2, 1, fill=True, color='gray', edgecolor='black', label="Not vulnerable" if (should_non_vul) else None))
@@ -431,7 +431,7 @@ fancy = FancyBboxPatch((-.5, -.2), 18,3,
                            fc=(1, 0.8, 1, 0.5), ec=(1, 0.5, 1, 0.5))
 ax.add_patch(fancy) 
 
-fancy = FancyBboxPatch((50.5, 5.8), 15,3,
+fancy = FancyBboxPatch((47.5, 5.8), 9,3,
                            fc=(1, 0.8, 1, 0.5), ec=(1, 0.5, 1, 0.5))
 ax.add_patch(fancy) 
 

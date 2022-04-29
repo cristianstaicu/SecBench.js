@@ -3,13 +3,14 @@ import os
 import traceback
 import subprocess
 count=0
-excluded_lst = ['total.js_3.4.6', 'wincred_1.0.2']
+# excluded_lst = ['total.js_3.4.6', 'wincred_1.0.2']
+excluded_lst =[]
 lst =  glob.glob("../command-injection/*")
 for folder in lst:
     index = folder.rfind("/")
     main_folder_name = folder[index+1:]
     # print(main_folder_name)
-    if main_folder_name in excluded_lst:
+    if main_folder_name not in excluded_lst:
         try:
             test_file = glob.glob(folder+"/*.test.js")
             # print(test_file)

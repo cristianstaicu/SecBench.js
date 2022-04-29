@@ -1,5 +1,4 @@
 {
-  "setupFiles": ["./sink-extraction-setup.js"],
-  "transformIgnorePatterns": ["./sink-extraction-setup.js"],
-  "reporters": ["default", "./my-custom-reporter.js"]
+  "setupFilesAfterEnv": ["./require-interception.js"],
+  "transformIgnorePatterns": ["./require-interception.js"]
 }

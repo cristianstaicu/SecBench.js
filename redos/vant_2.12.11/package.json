@@ -7,7 +7,7 @@
     "source1": "https://securitylab.github.com/advisories/GHSL-2020-343-redos-Vant/",
     "source2": ""
   },
-  "fixedVersion": "n/a",
+  "fixedVersion": "3.0.7",
   "fixCommit": "n/a",
   "sink": "email.js:9:14"
 }

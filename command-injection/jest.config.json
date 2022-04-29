@@ -1,3 +1,4 @@
 {
-  "setupFiles": ["./sink-extraction-setup.js"]
+  "setupFilesAfterEnv": ["./require-interception.js"],
+  "transformIgnorePatterns": ["./require-interception.js"]
 }
