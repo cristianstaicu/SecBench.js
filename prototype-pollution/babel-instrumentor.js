@@ -70,12 +70,15 @@ module.exports = function ({ types: t }) {
           if (path.node.id) name = path.node.id.name;
           // console.log(path.node.body);
           if (path.node.body.body) {
-            path.node.body.body.unshift(
+            let targetBody = path.node.body.body;
+            if (!Array.isArray(targetBody))
+              targetBody = targetBody.body;
+            targetBody.unshift(
               t.callExpression(t.identifier("pushFct"), [
                 t.stringLiteral(name + ":" + path.node.loc.start.line),
               ])
             );
-            path.node.body.body.push(
+            targetBody.push(
               t.callExpression(t.identifier("popFct"), [])
             );
           }
