@@ -153,6 +153,6 @@ If any of the test fail failed to run from the roor folder, please run it in the
 
 ## Important Scripts
 
-One of the important features of Secbench.js is extendability. It is possible to add new analysis to the existing code to run dynamic analysis. For example, our test cases can be extended using bable analysis. To get the sink location for the exploits, we extend our analysis using `jest.config.json`, where we added our custom analysis code. Each exploit category folder includes `jest.config.json` file which can be used to add new analysis code.
+One of the important features of Secbench.js is extendability. It is possible to add new analysis to the existing code to run dynamic analysis. For example, our test cases can be extended using bable analysis. To get the sink location for the exploits, we extend our analysis using `jest.config.json`, where we added our custom analysis code. Each exploit category folder includes `jest-analysis.config.json` file which can be used to add new analysis code. In order to enable the instrumentation, you need to rename this script to `jest.config.json`.
 
 There are also other analysis scripts available in `script` and `analyses` folder, which we used to produce the graphs for the paper. `scripts/data_factory.ipynb` includes a jupyter notebook which we used to produce most of the metadata for different npm modules and exploits. The notebook also contains necessary comments to reproduce the metadata and other required information.

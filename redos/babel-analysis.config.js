@@ -10,7 +10,9 @@ module.exports = function (api) {
   const presets = [];
   const plugins = [
     [require(`../prototype-pollution/babel-instrumentor.js`)],
-    [require("@babel/plugin-transform-modules-commonjs").default],
+    [require("@babel/plugin-transform-modules-commonjs").default, {
+      strictMode: false
+    }],
   ];
   const ignore = ["./require-interception.js"];
 
