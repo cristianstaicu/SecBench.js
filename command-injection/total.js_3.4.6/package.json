@@ -9,5 +9,5 @@
   },
   "fixedVersion": "3.4.7",
   "fixCommit": "https://github.com/totaljs/framework/commit/6192491ab2631e7c1d317c221f18ea613e2c18a5",
-  "sink": ""
+  "sink": "image.js:329:12"
 }
