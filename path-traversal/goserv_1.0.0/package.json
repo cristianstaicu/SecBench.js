@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
-  "sink": "goserv.js:63:9"
+  "sink": "lib/goserv.js:63:9"
 }

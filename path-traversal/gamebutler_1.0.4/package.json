@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
-  "sink": "gamebutler.js:69:43"
+  "sink": "build/gamebutler.js:69:43"
 }

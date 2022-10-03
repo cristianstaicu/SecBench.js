@@ -8,6 +8,7 @@
     "source2": "https://github.com/advisories/GHSA-5w8q-x7hc-jhp6"
   },
   "fixedVersion": "0.10.1",
-  "fixCommit": "https:\\u002F\\u002Fgithub.com\\u002Fsandy98\\u002Fnode-simple-router\\u002Fcommit\\u002Fdfdd52e2e80607af433097d940b3834fd96df488)\\",
-  "sink": "router.js:757:27"
+  "fixCommit": "https://github.com/sandy98/node-simple-router/commit/dfdd52e2e80607af433097d940b3834fd96df488",
+  "sink": "lib/router.js:757:27"
 }
+x

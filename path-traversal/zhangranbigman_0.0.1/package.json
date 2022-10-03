@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
-  "sink": "static.js:21:6"
+  "sink": "my-lib/lib/static.js:21:6"
 }

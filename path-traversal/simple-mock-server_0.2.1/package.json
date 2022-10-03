@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
-  "sink": "simple-mock-server.js:62:31"
+  "sink": "lib/simple-mock-server.js:62:31"
 }

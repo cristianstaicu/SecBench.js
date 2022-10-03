@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
-  "sink": "Server.js:494:8"
+  "sink": "server/Server.js:494:8"
 }
