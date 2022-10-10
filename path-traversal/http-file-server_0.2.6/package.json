@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
-  "sink": ""
+  "sink": "http-file-server.js:200:22"
 }

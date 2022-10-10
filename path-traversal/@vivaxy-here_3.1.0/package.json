@@ -9,5 +9,5 @@
   },
   "fixedVersion": "3.2.2",
   "fixCommit": "https://github.com/vivaxy/here/commit/298dbab41344dfb7f95f66b1fa7b5cfb436bd4a2",
-  "sink": "read-file.js:11:19"
+  "sink": "lib/read-file.js:11:19"
 }

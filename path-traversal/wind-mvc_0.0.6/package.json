@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
-  "sink": "util4HTML.js:7:5"
+  "sink": "lib/util/util4HTML.js:7:5"
 }

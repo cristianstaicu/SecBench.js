@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
-  "sink": "index.cjs.js:111:6"
+  "sink": "dist/index.cjs.js:111:6"
 }

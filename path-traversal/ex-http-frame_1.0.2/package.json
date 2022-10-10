@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
-  "sink": "res.js:41:37"
+  "sink": "lib/res.js:41:37"
 }

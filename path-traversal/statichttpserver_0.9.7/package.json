@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
-  "sink": "respond.js:28:7"
+  "sink": "lib/middleware/respond.js:28:7"
 }

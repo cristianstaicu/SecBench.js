@@ -9,5 +9,5 @@
   },
   "fixedVersion": "= 0.0.20",
   "fixCommit": "n/a",
-  "sink": "responseHandlers.js:23:21"
+  "sink": "lib/responseHandlers.js:23:21"
 }

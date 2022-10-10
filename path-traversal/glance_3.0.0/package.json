@@ -9,5 +9,5 @@
   },
   "fixedVersion": "3.0.4",
   "fixCommit": "https://github.com/jarofghosts/glance/commit/8cfd88e44ebd3f07e3a2eaf376a3e758b6c4ca19",
-  "sink": ""
+  "sink": "index.js:81:14"
 }

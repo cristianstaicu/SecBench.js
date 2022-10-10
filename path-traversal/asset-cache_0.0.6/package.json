@@ -9,5 +9,5 @@
   },
   "fixedVersion": "n/a",
   "fixCommit": "n/a",
-  "sink": "asset-cache.js:31:8"
+  "sink": "lib/asset-cache.js:31:8"
 }
