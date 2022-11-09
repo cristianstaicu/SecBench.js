@@ -8,7 +8,7 @@ Secbench.js is the first benchmark suite of server-side JavaScript vul- nerabili
 
 # Requirments:
 
-To run the expoilts in the benchmark, these packages need to be avaiable in the system:
+To run the expoilts in the benchmark, these packages need to be available in the system:
 
 ```
 Node.JS version >= 16.3.0
@@ -39,7 +39,8 @@ npm install --save-dev jest
 
 # Core Features
 
-This benchmark includes vulnerabilities from `five` different classes. Th number of avaibale vulnerabilities for each class is given below:
+This benchmark includes vulnerabilities from `five` different classes. Th number of 
+lable vulnerabilities for each class is given below:
 
 | S.no | Vulnerablity                                | Number of exploits |
 | ---- | ------------------------------------------- | ------------------ |
