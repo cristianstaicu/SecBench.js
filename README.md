@@ -4,7 +4,7 @@ This repository contains the data files, scripts, and code of the Secbench.js be
 
 # Introduction
 
-Secbench.js is the first benchmark suite of server-side JavaScript vul- nerabilities. This benchmark consists of 600 publicly reported vulnerabilities curated from different advisory databases, such as [Snyk](https://security.snyk.io/), [GitHub Advisories](https://github.com/advisories), and [Huntr.dev](https://www.huntr.dev/).
+Secbench.js is the first benchmark suite of server-side JavaScript vulnerabilities. This benchmark consists of 600 publicly reported vulnerabilities curated from different advisory databases, such as [Snyk](https://security.snyk.io/), [GitHub Advisories](https://github.com/advisories), and [Huntr.dev](https://www.huntr.dev/).
 
 # Requirments:
 
@@ -39,8 +39,8 @@ npm install --save-dev jest
 
 # Core Features
 
-This benchmark includes vulnerabilities from `five` different classes. Th number of 
-lable vulnerabilities for each class is given below:
+This benchmark includes vulnerabilities from `five` different classes. The number of 
+labeled vulnerabilities for each class is given below:
 
 | S.no | Vulnerablity                                | Number of exploits |
 | ---- | ------------------------------------------- | ------------------ |
