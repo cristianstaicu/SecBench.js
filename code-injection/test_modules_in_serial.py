@@ -6,7 +6,7 @@ import time
 
 start = time.time()
 count=0
-lst =  glob.glob("../command-injection/*")
+lst =  glob.glob("../ace-breakout/*")
 count=0
 failed = 0
 passed=0
