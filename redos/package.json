@@ -96,6 +96,8 @@
     "nth-check_2.0.0": "./nth-check_2.0.0",
     "ramda_0.27.1": "./ramda_0.27.1",
     "prompts_2.4.0": "./prompts_2.4.0",
-    "ws_7.0.0": "./ws_7.0.0"
+    "ws_7.0.0": "./ws_7.0.0",
+    "ansi-regex_4.1.0":"./ansi-regex_4.1.0",
+    "validator_13.5.2": "./validator_13.5.2"
   }
 }
