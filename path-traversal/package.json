@@ -256,7 +256,7 @@
     "simple-npm-registry_0.0.4": "./simple-npm-registry_0.0.4/",
     "simplehttpserver_0.0.6": "./simplehttpserver_0.0.6/",
     "sirloin_0.15.0": "./sirloin_0.15.0/",
-    "sleep_6.3.0": "./sleep_6.3.0/",
+    "sleep": "^6.3.0",
     "sly07_0.1.2": "./sly07_0.1.2/",
     "snyk-broker_4.70.0": "./snyk-broker_4.70.0/",
     "socket.io-file_2.0.31": "./socket.io-file_2.0.31/",
