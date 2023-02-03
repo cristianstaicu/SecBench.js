@@ -6,7 +6,7 @@ This repository contains the data files, scripts, and code of the Secbench.js be
 
 Secbench.js is the first benchmark suite of server-side JavaScript vulnerabilities. This benchmark consists of 600 publicly reported vulnerabilities curated from different advisory databases, such as [Snyk](https://security.snyk.io/), [GitHub Advisories](https://github.com/advisories), and [Huntr.dev](https://www.huntr.dev/).
 
-# Requirments:
+# Requirements:
 
 To run the expoilts in the benchmark, these packages need to be available in the system:
 
