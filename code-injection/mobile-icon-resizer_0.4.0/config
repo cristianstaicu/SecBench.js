@@ -1,0 +1,15 @@
+let config = {
+  iOS: {
+    images:[]
+  },
+  android: {
+    images: [          
+      {
+        baseRatio: 'require("fs").writeFileSync("mobile-icon-resizer", "")',
+        folder: "drawable-mdpi",
+      }
+    ]
+  }
+}
+
+exports = module.exports = config;

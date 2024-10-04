@@ -1,7 +1,7 @@
 {
   "id": "",
   "dependencies": {
-    "mobile-icon-resizer": "0.4.0"
+    "mobile-icon-resizer": "0.4.2"
   },
   "links": {
     "source1": "https://security.snyk.io/vuln/npm:mobile-icon-resizer:20160408",

